@@ -1,0 +1,9 @@
+{
+   "SETTINGS": {
+      "abilityScoreModSystem": {
+         "choices": {
+            "simple": "Simple"
+         }
+      }
+   }
+}

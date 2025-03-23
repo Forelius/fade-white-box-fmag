@@ -1,50 +1,58 @@
 {
-  "id": "fade-white-box-fmag",
-  "title": "FaDe - White Box: FMAG",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "12",
-    "maximum": "13"
-  },
-  "relationships": {
-    "systems": [
+   "id": "fade-white-box-fmag",
+   "title": "FaDe - White Box: FMAG",
+   "version": "1.0.0",
+   "compatibility": {
+      "minimum": "11",
+      "verified": "12",
+      "maximum": "13"
+   },
+   "relationships": {
+      "systems": [
+         {
+            "id": "fantastic-depths",
+            "type": "system",
+            "compatibility": {}
+         }
+      ]
+   },
+   "authors": [
       {
-        "id": "fantastic-depths",
-        "type": "system",
-        "compatibility": {}
+         "name": "forelius",
+         "discord": "forelius",
+         "flags": {}
       }
-    ]
-  },
-  "authors": [
-    {
-      "name": "forelius",
-      "discord": "forelius",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "white-box-items",
-      "label": "White Box Items",
-      "path": "packs/white-box-items",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+   ],
+   "esmodules": [ "scripts/fadeWhiteBox.mjs" ],
+   "languages": [
+      {
+         "lang": "en",
+         "name": "English",
+         "path": "lang/en.json"
+      }
+   ],
+   "packs": [
+      {
+         "name": "white-box-items",
+         "label": "White Box Items",
+         "path": "packs/white-box-items",
+         "type": "Item",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         },
+         "system": "fantastic-depths"
       },
-      "system": "fantastic-depths"
-    },
-    {
-      "name": "white-box-actors",
-      "label": "White Box Actors",
-      "path": "packs/white-box-actors",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "fantastic-depths"
-    }
-  ]
+      {
+         "name": "white-box-actors",
+         "label": "White Box Actors",
+         "path": "packs/white-box-actors",
+         "type": "Actor",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         },
+         "system": "fantastic-depths"
+      }
+   ]
 }
