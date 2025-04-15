@@ -26,7 +26,7 @@ Hooks.once('afterFadeInit', async function (fadeRegistry) {
       character: WBCharacterDataModel,
    };
 
-   fadeRegistry.registerSystem('moraleCheck', new moraleCheck());
+   fadeRegistry.registerSystem('moraleCheck', new moraleCheck(), moraleCheck);
 });
 
 Hooks.once('beforeFadeReady', async function (fadeRegistry) {
