@@ -1,5 +1,3 @@
-2025/03/23-08:07:31.023 34bc Delete type=3 #1
-2025/03/23-08:30:02.964 2c40 Level-0 table #5: started
-2025/03/23-08:30:02.966 2c40 Level-0 table #5: 1110 bytes OK
-2025/03/23-08:30:02.968 2c40 Delete type=0 #3
-2025/03/23-08:30:02.968 2c40 Manual compaction at level-0 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
+2025/03/23-08:30:05.579 3450 Recovering log #4
+2025/03/23-08:30:05.585 3450 Delete type=0 #4
+2025/03/23-08:30:05.585 3450 Delete type=3 #2
