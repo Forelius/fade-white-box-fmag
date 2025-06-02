@@ -4,8 +4,9 @@ import { DialogFactory } from '/systems/fantastic-depths/module/dialog/DialogFac
 export class moraleCheck {
    async execute(data) {
       const { actor, event } = data;
-      const ctrlKey = event.originalEvent.ctrlKey;
-      const dataset = event.currentTarget.dataset;
+      const ctrlKey = event?.ctrlKey;
+      const dataset = event.target.dataset;
+      dataset.formula = '2d6';
       dataset.dialog = 'generic';
       let isRolling = true;
       let dialogResp = null;
@@ -35,7 +36,7 @@ export class moraleCheck {
          const rolledResultsText = rollResult.results.map(r => r.text).join(', ');
 
          // Create a message to display the result
-         const messageContent = `<h2>${rollTable.name}</h2><p>${rolledResultsText}</p><hr/><p>Total: <strong>${rollTotal} + ${mod} = ${total}</strong></p>`;
+         const messageContent = `<h3>${rollTable.name}</h3><p>${rolledResultsText}</p><hr/><p>Total: <strong>${rollTotal} + ${mod} = ${total}</strong></p>`;
          const chatMsgData = { content: messageContent, speaker: ChatMessage.getSpeaker() };
          //ChatMessage.applyRollMode(chatMsgData, selectedRollMode);
          // Send the result to chat
