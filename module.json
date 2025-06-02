@@ -1,72 +1,75 @@
 {
-  "id": "fade-white-box-fmag",
-  "title": "FaDe - White Box: FMAG",
-  "version": "1.0.0",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "13",
-    "maximum": "13"
-  },
-  "relationships": {
-    "systems": [
+   "id": "fade-white-box-fmag",
+   "title": "FADE - White Box: FMAG",
+   "version": "0.1.0",
+   "compatibility": {
+      "minimum": "12",
+      "verified": "13",
+      "maximum": "13"
+   },
+   "relationships": {
+      "systems": [
+         {
+            "id": "fantastic-depths",
+            "type": "system",
+            "compatibility": {}
+         }
+      ]
+   },
+   "authors": [
       {
-        "id": "fantastic-depths",
-        "type": "system",
-        "compatibility": {}
+         "name": "forelius",
+         "discord": "forelius",
+         "flags": {}
       }
-    ]
-  },
-  "authors": [
-    {
-      "name": "forelius",
-      "discord": "forelius",
-      "flags": {}
-    }
-  ],
-  "esmodules": [
-    "scripts/fadeWhiteBox.mjs"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "white-box-items",
-      "label": "White Box Items",
-      "path": "packs/white-box-items",
-      "type": "Item",
-      "system": "fantastic-depths",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+   ],
+   "esmodules": [
+      "scripts/fadeWhiteBox.mjs"
+   ],
+   "languages": [
+      {
+         "lang": "en",
+         "name": "English",
+         "path": "lang/en.json",
+         "flags": {}
       }
-    },
-    {
-      "name": "white-box-actors",
-      "label": "White Box Actors",
-      "path": "packs/white-box-actors",
-      "type": "Actor",
-      "system": "fantastic-depths",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "white-box-roll-tables",
-      "label": "White Box Roll Tables",
-      "path": "packs/white-box-roll-tables",
-      "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
+   ],
+   "packs": [
+      {
+         "name": "white-box-items",
+         "label": "White Box Items",
+         "path": "packs/white-box-items",
+         "type": "Item",
+         "system": "fantastic-depths",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         }
       },
-      "system": "fantastic-depths"
-    }
-  ]
+      {
+         "name": "white-box-actors",
+         "label": "White Box Actors",
+         "path": "packs/white-box-actors",
+         "type": "Actor",
+         "system": "fantastic-depths",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         }
+      },
+      {
+         "name": "white-box-roll-tables",
+         "label": "White Box Roll Tables",
+         "path": "packs/white-box-roll-tables",
+         "type": "RollTable",
+         "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+         },
+         "system": "fantastic-depths"
+      }
+   ],
+   "url": "https://github.com/Forelius/fade-white-box-fmag",
+   "manifest": "https://raw.githubusercontent.com/Forelius/fade-white-box-fmag/refs/heads/main/module.json",
+   "download": "https://github.com/Forelius/fade-compendiums/releases/download/0.1.0/fade-whitebox.zip"
 }
