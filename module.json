@@ -1,7 +1,7 @@
 {
    "id": "fade-white-box-fmag",
    "title": "FADE - White Box: FMAG",
-   "version": "0.1.0-rc.1",
+   "version": "0.1.0-rc.2",
    "compatibility": {
       "minimum": "12",
       "verified": "13",
@@ -71,5 +71,5 @@
    ],
    "url": "https://github.com/Forelius/fade-white-box-fmag",
    "manifest": "https://raw.githubusercontent.com/Forelius/fade-white-box-fmag/refs/heads/main/module.json",
-   "download": "https://github.com/Forelius/fade-compendiums/releases/download/0.1.0-rc.1/fade-whitebox.zip"
+   "download": "https://github.com/Forelius/fade-white-box-fmag/releases/download/0.1.0-rc.2/fade-whitebox.zip"
 }
