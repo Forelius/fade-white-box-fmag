@@ -3,8 +3,8 @@
   "title": "FaDe - White Box: FMAG",
   "version": "1.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "12",
+    "minimum": "12",
+    "verified": "13",
     "maximum": "13"
   },
   "relationships": {
