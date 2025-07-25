@@ -1,15 +1,8 @@
-2025/05/22-07:11:23.081 42a0 Recovering log #11
-2025/05/22-07:11:23.084 42a0 Delete type=0 #11
-2025/05/22-07:11:23.085 42a0 Delete type=3 #10
-2025/05/22-07:17:06.919 1a08 Level-0 table #15: started
-2025/05/22-07:17:06.920 1a08 Level-0 table #15: 1176 bytes OK
-2025/05/22-07:17:06.921 1a08 Delete type=0 #13
-2025/05/22-07:17:06.926 1a08 Manual compaction at level-0 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
-2025/05/22-07:17:06.929 1a08 Manual compaction at level-1 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 9 : 1
-2025/05/22-07:17:06.929 1a08 Compacting 1@1 + 1@2 files
-2025/05/22-07:17:06.930 1a08 Generated table #16@1: 6 keys, 1176 bytes
-2025/05/22-07:17:06.930 1a08 Compacted 1@1 + 1@2 files => 1176 bytes
-2025/05/22-07:17:06.931 1a08 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/05/22-07:17:06.931 1a08 Delete type=2 #5
-2025/05/22-07:17:06.932 1a08 Delete type=2 #15
-2025/05/22-07:17:06.934 1a08 Manual compaction at level-1 from '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 9 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
+2025/07/25-16:27:56.084272 30bcba000 Recovering log #20
+2025/07/25-16:27:56.084630 30bcba000 Delete type=3 #19
+2025/07/25-16:27:56.084683 30bcba000 Delete type=0 #20
+2025/07/25-16:30:37.775439 3053ab000 Level-0 table #24: started
+2025/07/25-16:30:37.775504 3053ab000 Level-0 table #24: 0 bytes OK
+2025/07/25-16:30:37.775559 3053ab000 Delete type=0 #22
+2025/07/25-16:30:37.777025 3053ab000 Manual compaction at level-0 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
+2025/07/25-16:30:37.777045 3053ab000 Manual compaction at level-1 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
