@@ -1,11 +1,7 @@
-import { preloadHandlebarsTemplates } from './system/templates.mjs';
+//import { preloadHandlebarsTemplates } from './system/templates.mjs';
 import { moraleCheck } from "./system/moraleCheck.mjs"
 import { FADEWB } from "./system/config.mjs"
 import { WBCharacterDataModel } from './actor/WBCharacterDataModel.mjs';
-
-Hooks.once('init', async function () {
-   console.debug('FWB: init hook called.');
-});
 
 Hooks.once('beforeFadeInit', async function (fadeRegistry) {
    console.debug('FWB: beforeFadeInit hook called.');
@@ -19,12 +15,7 @@ Hooks.once('afterFadeInit', async function (fadeRegistry) {
    });
    Object.assign(CONFIG.FADE.abilityScoreModSystem, FADEWB.abilityScoreModSystem);
 
-   // Preload Handlebars templates.
-   await preloadHandlebarsTemplates();
-
-   CONFIG.Actor.dataModels = {
-      character: WBCharacterDataModel,
-   };
+   CONFIG.Actor.dataModels.character = WBCharacterDataModel;
 
    fadeRegistry.registerSystem('moraleCheck', new moraleCheck(), moraleCheck);
 });

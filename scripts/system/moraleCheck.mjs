@@ -36,7 +36,7 @@ export class moraleCheck {
          const rolledResultsText = rollResult.results.map(r => r.text).join(', ');
 
          // Create a message to display the result
-         const messageContent = `<h3>${rollTable.name}</h3><p>${rolledResultsText}</p><hr/><p>Total: <strong>${rollTotal} + ${mod} = ${total}</strong></p>`;
+         const messageContent = `<div class="text-size16">${rollTable.name}</div><p>${rolledResultsText}</p><hr/><p>Total: <strong>${rollTotal} + ${mod} = ${total}</strong></p>`;
          const chatMsgData = { content: messageContent, speaker: ChatMessage.getSpeaker() };
          //ChatMessage.applyRollMode(chatMsgData, selectedRollMode);
          // Send the result to chat
