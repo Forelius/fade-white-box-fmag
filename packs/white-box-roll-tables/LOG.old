@@ -1,8 +1,8 @@
-2025/07/25-16:27:56.084272 30bcba000 Recovering log #20
-2025/07/25-16:27:56.084630 30bcba000 Delete type=3 #19
-2025/07/25-16:27:56.084683 30bcba000 Delete type=0 #20
-2025/07/25-16:30:37.775439 3053ab000 Level-0 table #24: started
-2025/07/25-16:30:37.775504 3053ab000 Level-0 table #24: 0 bytes OK
-2025/07/25-16:30:37.775559 3053ab000 Delete type=0 #22
-2025/07/25-16:30:37.777025 3053ab000 Manual compaction at level-0 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
-2025/07/25-16:30:37.777045 3053ab000 Manual compaction at level-1 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
+2025/07/25-16:31:38.852567 30acb4000 Recovering log #23
+2025/07/25-16:31:38.852837 30acb4000 Delete type=3 #21
+2025/07/25-16:31:38.852866 30acb4000 Delete type=0 #23
+2025/07/25-17:15:31.047869 3053ab000 Level-0 table #28: started
+2025/07/25-17:15:31.048377 3053ab000 Level-0 table #28: 0 bytes OK
+2025/07/25-17:15:31.048534 3053ab000 Delete type=0 #26
+2025/07/25-17:15:31.048675 3053ab000 Manual compaction at level-0 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)
+2025/07/25-17:15:31.048694 3053ab000 Manual compaction at level-1 from '!tables!WNQhiRA6flmlQp3C' @ 72057594037927935 : 1 .. '!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC' @ 0 : 0; will stop at (end)

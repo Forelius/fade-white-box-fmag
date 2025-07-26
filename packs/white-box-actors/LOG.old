@@ -1,15 +1,14 @@
-2025/07/25-16:27:56.070962 30acb4000 Recovering log #147
-2025/07/25-16:27:56.071118 30acb4000 Level-0 table #149: started
-2025/07/25-16:27:56.071336 30acb4000 Level-0 table #149: 5424 bytes OK
-2025/07/25-16:27:56.071648 30acb4000 Delete type=0 #147
-2025/07/25-16:27:56.071818 30acb4000 Delete type=3 #146
-2025/07/25-16:30:37.775242 3053ab000 Level-0 table #152: started
-2025/07/25-16:30:37.775353 3053ab000 Level-0 table #152: 0 bytes OK
-2025/07/25-16:30:37.775409 3053ab000 Delete type=0 #150
-2025/07/25-16:30:37.776792 3053ab000 Manual compaction at level-0 from '!actors!1pTFCh4FE4ZGLZD4' @ 72057594037927935 : 1 .. '!folders!DfJ7QmYwYM3i2htc' @ 0 : 0; will stop at '!folders!DfJ7QmYwYM3i2htc' @ 1 : 1
-2025/07/25-16:30:37.776796 3053ab000 Compacting 1@0 + 0@1 files
-2025/07/25-16:30:37.776923 3053ab000 Generated table #153@0: 3 keys, 3167 bytes
-2025/07/25-16:30:37.776927 3053ab000 Compacted 1@0 + 0@1 files => 3167 bytes
-2025/07/25-16:30:37.776960 3053ab000 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/07/25-16:30:37.776981 3053ab000 Delete type=2 #149
-2025/07/25-16:30:37.777040 3053ab000 Manual compaction at level-0 from '!folders!DfJ7QmYwYM3i2htc' @ 1 : 1 .. '!folders!DfJ7QmYwYM3i2htc' @ 0 : 0; will stop at (end)
+2025/07/25-16:31:38.848889 30bcba000 Recovering log #151
+2025/07/25-16:31:38.849177 30bcba000 Delete type=0 #151
+2025/07/25-16:31:38.849213 30bcba000 Delete type=3 #148
+2025/07/25-17:15:31.049872 3053ab000 Level-0 table #157: started
+2025/07/25-17:15:31.050692 3053ab000 Level-0 table #157: 59815 bytes OK
+2025/07/25-17:15:31.050880 3053ab000 Delete type=0 #155
+2025/07/25-17:15:31.051907 3053ab000 Manual compaction at level-0 from '!actors!86iwWeKWuxRGMag8' @ 72057594037927935 : 1 .. '!folders!rMSHvZcsLsOsw0Vi' @ 0 : 0; will stop at '!folders!rMSHvZcsLsOsw0Vi' @ 17 : 1
+2025/07/25-17:15:31.051911 3053ab000 Compacting 1@0 + 1@1 files
+2025/07/25-17:15:31.052396 3053ab000 Generated table #158@0: 11 keys, 9195 bytes
+2025/07/25-17:15:31.052402 3053ab000 Compacted 1@0 + 1@1 files => 9195 bytes
+2025/07/25-17:15:31.052449 3053ab000 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/07/25-17:15:31.052491 3053ab000 Delete type=2 #157
+2025/07/25-17:15:31.052565 3053ab000 Delete type=2 #153
+2025/07/25-17:15:31.054172 3053ab000 Manual compaction at level-0 from '!folders!rMSHvZcsLsOsw0Vi' @ 17 : 1 .. '!folders!rMSHvZcsLsOsw0Vi' @ 0 : 0; will stop at (end)
