@@ -1,4 +1,4 @@
-import { FDActorSheetV2 } from './FDActorSheetV2.mjs';
+import { FDActorSheetV2 } from '/systems/fantastic-depths/module/sheets/FDActorSheetV2.mjs';
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -6,10 +6,11 @@ import { FDActorSheetV2 } from './FDActorSheetV2.mjs';
  */
 export class WBMonsterSheet extends FDActorSheetV2 {
    constructor(object, options = {}) {
+      console.log("FWB: Monster sheet constructor", object, options);
       super(object, options);
       this.editScores = false;
    }
-
+   
    static DEFAULT_OPTIONS = {
       position: {
          top: 150,
@@ -21,20 +22,38 @@ export class WBMonsterSheet extends FDActorSheetV2 {
       },
       classes: ['monster'],
       actions: {
-         cycleAttackGroup: MonsterSheet.#clickAttackGroup
+         cycleAttackGroup: WBMonsterSheet.#clickAttackGroup
       }
    }
 
    static PARTS = {
       header: {
-         template: "systems/fantastic-depths/templates/actor/monster/header.hbs",
+         template: "modules/fade-white-box-fmag/templates/monster/header.hbs",
       },
       tabnav: {
          template: "templates/generic/tab-navigation.hbs",
       },
       abilities: {
-         template: "systems/fantastic-depths/templates/actor/monster/abilities.hbs",
+         template: "modules/fade-white-box-fmag/templates/monster/abilities.hbs",
       },
+      items: {
+         template: "systems/fantastic-depths/templates/actor/shared/items.hbs",
+      },
+      skills: {
+         template: "systems/fantastic-depths/templates/actor/shared/skills.hbs",
+      },
+      spells: {
+         template: "systems/fantastic-depths/templates/actor/shared/spellsMulti.hbs",
+      },      
+      description: {
+         template: "systems/fantastic-depths/templates/actor/monster/description.hbs",
+      },
+      effects: {
+         template: "systems/fantastic-depths/templates/actor/shared/effects.hbs",
+      },
+      gmOnly: {
+         template: "systems/fantastic-depths/templates/actor/monster/gmOnly.hbs",
+      }
    }
 
    /** @override */
@@ -89,12 +108,10 @@ export class WBMonsterSheet extends FDActorSheetV2 {
       const tabs = {
          abilities: { id: 'abilities', group, label: 'FADE.tabs.abilities' },
          description: { id: 'description', group, label: 'FADE.tabs.description' },
-         effects: { id: 'effects', group, label: 'FADE.tabs.effects' },
       }
 
       if (this.actor.testUserPermission(game.user, "OWNER")) {
          tabs.items = { id: 'items', group, label: 'FADE.items' };
-         tabs.skills = { id: 'skills', group, label: 'FADE.tabs.skills' };
       }
 
       if (this.actor.system.config.maxSpellLevel > 0) {
