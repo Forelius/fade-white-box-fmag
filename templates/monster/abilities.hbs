@@ -6,6 +6,10 @@
             <!-- SAVING THROWS -->
             {{> "actorSaves"}}
          </div>
+         <div>
+            <label for="system.details.saveAs" data-tooltip="{{localize 'FADE.Actor.Saves.saveAs.long'}}">{{localize 'FADE.Actor.Saves.saveAs.abbr'}}</label>
+            <input name="system.details.saveAs" type="text" data-dtype="String" value="{{system.details.saveAs}}" />
+         </div>
       </div>
       <div class="flex2">
          <div class="bordered">
