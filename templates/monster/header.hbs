@@ -30,6 +30,15 @@
                {{localize 'FADE.Actor.HitDiceShort'}}
             </label>
          </li>
+         <li class="flex2" style="max-width:65px">
+            <input type="text" name="system.na.wandering" value="{{system.na.wandering}}" data-dtype="String" data-tooltip="{{localize 'FADE.Actor.NumberAppearing.long'}}" />
+            <label class="rollable2"
+                   data-action="rollGeneric"
+                   data-formula="{{system.na.wandering}}"
+                   data-label="{{localize 'FADE.Actor.NumberAppearing.long'}}"
+                   data-rollmode="blindroll"
+                   data-tooltip="{{localize 'FADE.Actor.NumberAppearing.long'}}">{{localize 'FADE.Actor.NumberAppearing.short'}}</label>
+         </li>
          <li class="flex1">
             <input type="text" name="system.details.xpAward" value="{{system.details.xpAward}}" data-dtype="String" />
             <label>{{localize 'FADE.Actor.XPAward'}}</label>
