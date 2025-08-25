@@ -1,7 +1,24 @@
 //import { preloadHandlebarsTemplates } from './system/templates.mjs';
+
+import { WBMonsterSheet } from '../sheets/WBMonsterSheet.mjs';
 import { moraleCheck } from "./system/moraleCheck.mjs"
 import { FADEWB } from "./system/config.mjs"
 import { WBCharacterDataModel } from './actor/WBCharacterDataModel.mjs';
+
+Hooks.on("init", function() {
+
+
+   console.debug("FWB: Registering custom MonsterSheet as default");
+   const gActors = foundry?.documents?.collections?.Actors ?? Actors;
+    // Register your custom MonsterSheet as default
+   gActors.registerSheet('fade-white-box-fmag', WBMonsterSheet, {
+    label: 'FADEWB.SheetLabel.Monster',
+    types: ['monster'],
+    makeDefault: true
+   });
+   console.debug('FWB: Registered custom MonsterSheet as default')
+
+ });
 
 Hooks.once('beforeFadeInit', async function (fadeRegistry) {
    console.debug('FWB: beforeFadeInit hook called.');
@@ -18,6 +35,7 @@ Hooks.once('afterFadeInit', async function (fadeRegistry) {
    CONFIG.Actor.dataModels.character = WBCharacterDataModel;
 
    fadeRegistry.registerSystem('moraleCheck', new moraleCheck(), moraleCheck);
+
 });
 
 Hooks.once('beforeFadeReady', async (fadeRegistry) => {
