@@ -1,5 +1,6 @@
-2025/07/30-20:07:59.794227 3128e4000 Recovering log #173
-2025/07/30-20:07:59.836208 3128e4000 Level-0 table #176: started
-2025/07/30-20:07:59.838593 3128e4000 Level-0 table #176: 329965 bytes OK
-2025/07/30-20:07:59.843038 3128e4000 Delete type=0 #173
-2025/07/30-20:07:59.843755 3128e4000 Delete type=3 #171
+2025/08/31-15:23:16.437329 311091000 Log #203: 0 ops saved to Table #205 OK
+2025/08/31-15:23:16.437440 311091000 Archiving /Users/matthewfee/Library/Application Support/FoundryVTT/Data/modules/fade-white-box-fmag/packs/white-box-items/000203.log: OK
+2025/08/31-15:23:16.447254 311091000 Table #202: 207 entries OK
+2025/08/31-15:23:16.448713 311091000 Table #204: 155 entries OK
+2025/08/31-15:23:16.448889 311091000 Archiving /Users/matthewfee/Library/Application Support/FoundryVTT/Data/modules/fade-white-box-fmag/packs/white-box-items/MANIFEST-000201: OK
+2025/08/31-15:23:16.449103 311091000 **** Repaired leveldb /Users/matthewfee/Library/Application Support/FoundryVTT/Data/modules/fade-white-box-fmag/packs/white-box-items; recovered 2 files; 376940 bytes. Some data may have been lost. ****
