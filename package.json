@@ -30,9 +30,7 @@
   },
   "homepage": "https://github.com/Forelius/fade-white-box-fmag#readme",
   "dependencies": {
-    "fast-glob": "^3.3.3",
     "level": "^10.0.0",
-    "mkdirp": "^3.0.1",
     "uuid": "^13.0.0"
   }
 }

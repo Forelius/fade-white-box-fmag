@@ -1,0 +1,91 @@
+{
+  "folder": "BI8lOlhN7Xp8AryE",
+  "name": "Morning Star",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "_id": "b5Kn1CF3oWDz2qDI",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p><span style=\"border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px\">A morning star is a weapon that consists of a spiked ball mounted directly on a handle.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 150,
+    "weightEquipped": 150,
+    "cost": 6,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "physical",
+    "isUsable": false,
+    "isTreasure": false,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "size": "M",
+    "grip": "1H",
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753488432261,
+    "modifiedTime": 1753625595021,
+    "lastModifiedBy": "L03IyVhotkVVcouL",
+    "exportSource": null
+  },
+  "_originalKey": "!items!b5Kn1CF3oWDz2qDI"
+}

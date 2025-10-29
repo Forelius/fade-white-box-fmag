@@ -1,0 +1,57 @@
+{
+  "folder": "6wIusiB0Li3lql8T",
+  "name": "Detect Chaos",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster detects creatures of Chaos, or those with chaotic enchantments, intentions, thoughts, or auras within the spell’s range. Poison is not inherently evil or chaotic and cannot be detected by means of this spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "6 turns (1 hour)",
+    "effect": "Everything within 120'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753563509013,
+    "modifiedTime": 1753928417462,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "obFSBWgjPQSIa3h6",
+  "sort": 700000,
+  "_originalKey": "!items!obFSBWgjPQSIa3h6"
+}

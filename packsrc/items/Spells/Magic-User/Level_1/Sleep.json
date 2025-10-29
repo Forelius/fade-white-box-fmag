@@ -1,0 +1,66 @@
+{
+  "name": "Sleep",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "KyXC3GcvMeQJ6Uc6",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell puts creatures into an enchanted slumber (no saving throw is permitted). It can affect a number of creatures based on their hit dice.<br><br></p><p></p><table><thead><tr><th>Victim’s HD</th><th>Number Affected</th></tr></thead><tbody><tr><td>Less than 1 to 1</td><td>2d6 + 3</td></tr><tr><td>1+ to 2+</td><td>2d6</td></tr><tr><td>3 to 4+1</td><td>1d6</td></tr></tbody></table>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "240'",
+    "duration": "Referee's discretion",
+    "effect": "2d8 Hit Dice of living creatures within a 40' square area",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "4d4*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Asleep",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.YONntmaFo6WUaJgs"
+      }
+    ],
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753562747545,
+    "modifiedTime": 1753563380019,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "fksyX3yCJ3pLqjwB",
+  "sort": 101563,
+  "_originalKey": "!items!fksyX3yCJ3pLqjwB"
+}

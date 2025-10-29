@@ -1,0 +1,90 @@
+{
+  "folder": "Dq4O8RZFkUn5vkXW",
+  "name": "Elf",
+  "type": "species",
+  "img": "systems/fantastic-depths/assets/img/actor/elf1.webp",
+  "_id": "moDpEb3Jk1sNjtfs",
+  "system": {
+    "key": "",
+    "description": "<p>The Referee has the flexibility to interpret Elves in various ways. They could be seen as faerie-folk from Irish legend, the Vanir of Norse mythology, or perhaps something resembling the Elves from Tolkien’s works.</p><p>As a baseline, most Elves are associated with magic and are skilled in the use of both sword and bow. An Elven adventurer can choose, on any given day—perhaps when the moon rises—whether to utilize the abilities of a Fighter or a Magic-user. Consequently, the Elf has two distinct advancement paths (including experience points, hit dice, saving throws, \"to-hit\" bonuses, etc.) based on whether they have chosen to don steel or summon magical powers that day.</p><p>Elves must use a spell book to prepare their spells, just like a Magic-user. Once a spell is cast, it disappears from their available casting options until it is prepared again.</p><h3>Weapon and Armor Restrictions</h3><p>When an Elf adventures as a Magic-user, they are subject to the same weapon and armor limitations as a typical Magic-user. The only exception to this rule is that the Elf may still wear magic armor, even while functioning in the role of a Magic-user.</p>",
+    "languages": [
+      "Elf",
+      "Gnoll",
+      "Goblin",
+      "Orc",
+      "Hobgoblin",
+      "Common"
+    ],
+    "baseMovement": 120,
+    "classes": [
+      {
+        "name": "Fighter",
+        "maxLevel": 4
+      },
+      {
+        "name": "Magic-User",
+        "maxLevel": 8
+      }
+    ],
+    "abilities": {
+      "str": {
+        "min": 3
+      },
+      "int": {
+        "min": 3
+      },
+      "wis": {
+        "min": 3
+      },
+      "dex": {
+        "min": 3
+      },
+      "con": {
+        "min": 3
+      },
+      "cha": {
+        "min": 3
+      }
+    },
+    "specialAbilities": [
+      {
+        "name": "Hereditary Foes",
+        "classKey": "E",
+        "target": "0"
+      },
+      {
+        "name": "Immune to Undead Paralysis",
+        "classKey": "E",
+        "target": "0"
+      },
+      {
+        "name": "Keen Detection",
+        "classKey": "E",
+        "target": "4"
+      }
+    ],
+    "heightFormulaM": "",
+    "weightFormulaM": "",
+    "heightFormulaF": "",
+    "weightFormulaF": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.8.2-rc.4",
+    "createdTime": 1742605119057,
+    "modifiedTime": 1742605119057,
+    "lastModifiedBy": "39ANqKV80WQNa3A0",
+    "exportSource": null
+  },
+  "_originalKey": "!items!moDpEb3Jk1sNjtfs"
+}

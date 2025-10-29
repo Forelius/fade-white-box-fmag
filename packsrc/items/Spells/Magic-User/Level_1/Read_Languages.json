@@ -1,0 +1,61 @@
+{
+  "name": "Read Languages",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "KyXC3GcvMeQJ6Uc6",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the caster to read directions, instructions, and similar notations that are written in unfamiliar or even unknown languages. It is especially useful for treasure maps.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "reading distance",
+    "duration": "1 or 2 readings",
+    "effect": "The spellcaster only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753562743537,
+    "modifiedTime": 1753563242641,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "WF1qpXiklhEsMQ1b",
+  "sort": 106250,
+  "_originalKey": "!items!WF1qpXiklhEsMQ1b"
+}

@@ -1,0 +1,348 @@
+{
+  "name": "Thief",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "dex",
+        "minScore": 15,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "dex",
+        "minScore": 15,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "wis",
+        "minScore": 15,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 10,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Apprentice",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 1200,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Footpad",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 2500,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Robber",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 5000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "3d6+1",
+        "hdcon": true,
+        "title": "Burglar",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 10000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "Cutpurse",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 20000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Sharper",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 40000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "Pilferer",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 80000,
+        "thac0": 16,
+        "thbonus": 3,
+        "hd": "6d6+1",
+        "hdcon": true,
+        "title": "Thief",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 160000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "Master Thief",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 320000,
+        "thac0": 14,
+        "thbonus": 5,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 14,
+        "death": 13
+      },
+      {
+        "level": 2,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 13,
+        "death": 12
+      },
+      {
+        "level": 3,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 12,
+        "death": 12
+      },
+      {
+        "level": 4,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 11,
+        "death": 11
+      },
+      {
+        "level": 5,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 10,
+        "death": 11
+      },
+      {
+        "level": 6,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 9,
+        "death": 10
+      },
+      {
+        "level": 7,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 8,
+        "death": 10
+      },
+      {
+        "level": 8,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 7,
+        "death": 9
+      },
+      {
+        "level": 9,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 6,
+        "death": 9
+      },
+      {
+        "level": 10,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 5,
+        "death": 8
+      }
+    ],
+    "maxSpellLevel": 0,
+    "alignment": "Any",
+    "minCon": 3,
+    "minInt": 3,
+    "minDex": 3,
+    "minWis": 3,
+    "spells": [],
+    "firstLevel": 1,
+    "key": "T",
+    "description": "<p>Among the many adventurers who brandish swords and cast spells while delving into tombs and dungeons, the thief pursues a different path. He seeks to reclaim lost treasures by employing cunning and stealth. Although skilled in the use of weapons, he is not primarily a fighter. Rather, he strikes from the shadows, his sharp eyes detecting perils that escape the notice of his companions. Thieves seldom possess noble character; more commonly, they are practical professionals seeking chances to swiftly accumulate substantial riches. Nevertheless, their distinctive abilities render them highly valuable to fellow dungeon explorers, and certain thieves adhere to a principle of \"honor among thieves.\"</p><p>Thieves typically equip themselves with only a handful of weapons and light armor, depending instead on lockpicks and tools for their survival. When battle ensues, they melt into the darkness, poised to sink a dagger into the backs of unwary enemies. The exceptional thief who succeeds in gathering both wealth and renown is apt to retire and establish a guild of others possessing comparable talents.</p><h3>Weapons and Armor Restrictions</h3><p><span style=\"font-family: sans-serif\">Thieves possess agility and combat prowess, enabling them to use any weapon. Nevertheless, they favor their quick reflexes and opt to wear only leather armor.</span></p>",
+    "classAbilities": [
+      {
+        "level": 1,
+        "name": "Back Stab",
+        "target": 0
+      },
+      {
+        "level": 1,
+        "name": "Thievery",
+        "target": 2
+      },
+      {
+        "level": 4,
+        "name": "Thievery",
+        "target": 3
+      },
+      {
+        "level": 7,
+        "name": "Thievery",
+        "target": 4
+      },
+      {
+        "level": 9,
+        "name": "Establish Guild",
+        "target": 0
+      },
+      {
+        "level": 10,
+        "name": "Thievery",
+        "target": 5
+      }
+    ],
+    "castAsKey": "",
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Back Stab",
+        "target": 0,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 1,
+        "name": "Thievery",
+        "target": 2,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 4,
+        "name": "Thievery",
+        "target": 3,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 7,
+        "name": "Thievery",
+        "target": 4,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 9,
+        "name": "Establish Guild",
+        "target": 0,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 10,
+        "name": "Thievery",
+        "target": 5,
+        "changes": "",
+        "classKey": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "ownership": {
+    "default": 1,
+    "0eyrbleKg5gmY59g": 3,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.GMfjRfiuC42GutwG",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.9",
+    "createdTime": 1742605121034,
+    "modifiedTime": 1756063337922,
+    "lastModifiedBy": "5U5f8E03NGDqMKv1",
+    "exportSource": null
+  },
+  "_id": "GMfjRfiuC42GutwG",
+  "sort": 0,
+  "_originalKey": "!items!GMfjRfiuC42GutwG"
+}

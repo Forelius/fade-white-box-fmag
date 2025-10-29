@@ -1,0 +1,62 @@
+{
+  "name": "Protection from Chaos",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "KyXC3GcvMeQJ6Uc6",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster creates a magical field of protection around himself to block out all chaotic monsters, who suffer a -1 penalty “to-hit” against the caster, and the caster gains +1 on all saving throws against such attacks.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "0",
+    "duration": "6 turns",
+    "effect": "The spellcaster only",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "conditions": [
+      {
+        "name": "Protected",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
+      }
+    ],
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753562739472,
+    "modifiedTime": 1753928986795,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "fe1vzcXhBrPra2Op",
+  "sort": 112500,
+  "_originalKey": "!items!fe1vzcXhBrPra2Op"
+}

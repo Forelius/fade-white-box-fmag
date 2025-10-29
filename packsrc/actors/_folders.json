@@ -1,0 +1,23 @@
+{
+  "!folders!rMSHvZcsLsOsw0Vi": {
+    "name": "Monsters",
+    "sorting": "a",
+    "folder": null,
+    "type": "Actor",
+    "_id": "rMSHvZcsLsOsw0Vi",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  }
+}

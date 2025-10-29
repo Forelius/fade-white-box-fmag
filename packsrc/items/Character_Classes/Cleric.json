@@ -1,0 +1,355 @@
+{
+  "name": "Cleric",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "percentage": 10,
+        "minScore": 15,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 10,
+    "maxSpellLevel": 5,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Acolyte",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 1500,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Adept",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 3000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Priest",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 6000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "3d6+1",
+        "hdcon": true,
+        "title": "Vicar",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 12000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "4",
+        "hdcon": true,
+        "title": "Curate",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 24000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Elder",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 48000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "Bishop",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 96000,
+        "thac0": 16,
+        "thbonus": 3,
+        "hd": "6d6+1",
+        "hdcon": true,
+        "title": "Lama",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 192000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "Patriarch",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 384000,
+        "thac0": 14,
+        "thbonus": 5,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 15,
+        "death": null
+      },
+      {
+        "level": 2,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 14,
+        "death": null
+      },
+      {
+        "level": 3,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 13,
+        "death": null
+      },
+      {
+        "level": 4,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 12,
+        "death": null
+      },
+      {
+        "level": 5,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 11,
+        "death": null
+      },
+      {
+        "level": 6,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 10,
+        "death": null
+      },
+      {
+        "level": 7,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 9,
+        "death": null
+      },
+      {
+        "level": 8,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 8,
+        "death": null
+      },
+      {
+        "level": 9,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 7,
+        "death": null
+      },
+      {
+        "level": 10,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 6,
+        "death": null
+      }
+    ],
+    "spells": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      [
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      [
+        4,
+        3,
+        3,
+        3,
+        3
+      ]
+    ],
+    "alignment": "Any",
+    "minCon": 3,
+    "minInt": 3,
+    "minDex": 3,
+    "minWis": 3,
+    "key": "C",
+    "description": "<p>Clerics are priests clad in armor, devoted to serving a specific alignment, religion, or patron deity. Players are free to invent these details if the Referee has not established a particular mythology for the campaign. Often, mythologies and other elements of a campaign world develop over time, especially if the Referee is new to crafting such settings.</p><p>The Cleric stands as a steadfast defender of his faith and moral alignment. This character could embody a grim witch-hunter, a demon-exorcising priest, a radiant knight of the faith, or a covert operative within a temple’s hierarchy. Given that many of the Cleric’s skills focus on healing and protection, they typically assume a supportive role in battle. Yet, when necessary, they can fight alongside the party’s Fighters, holding their own in combat—at least temporarily. Clerics must align with either Lawful (good) or Chaotic (evil) principles; Neutral Clerics do not exist unless the Referee explicitly permits otherwise.</p><h3>Weapon and Armor Restrictions</h3><p>Due to the clandestine nature of their religious practices, Clerics are limited to wielding blunt weapons such as clubs, flails, maces, and similar arms. The sole missile weapon permitted to them is oil. However, Clerics face no restrictions regarding the use of armor.</p><h3>Chaotic Clerics and the Undead (optional)</h3><p>Many Referees permit both Chaotic and Lawful Clerics to turn the Undead. When Chaotic Clerics are granted this ability, a result of “D” on the turning table is interpreted differently: rather than destroying the undead creature, the Chaotic Cleric compels it into servitude. The undead will obey the character’s commands, though the Referee determines the boundaries of this control. For instance, the Cleric might be restricted to commanding only a limited number of undead at once—or a limited total of hit dice—with the Cleric’s level serving as a practical cap, whether that limit applies to the maximum number of undead creatures or their combined hit dice.</p>",
+    "classAbilities": [
+      {
+        "level": 1,
+        "name": "Turn Undead",
+        "target": 0
+      },
+      {
+        "level": 10,
+        "name": "Establish Stronghold",
+        "target": 0
+      }
+    ],
+    "castAsKey": "",
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Turn Undead",
+        "target": 0,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 10,
+        "name": "Establish Stronghold",
+        "target": 0,
+        "changes": "",
+        "classKey": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "ownership": {
+    "default": 1,
+    "0eyrbleKg5gmY59g": 3,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.9",
+    "createdTime": 1742605121034,
+    "modifiedTime": 1756063512527,
+    "lastModifiedBy": "5U5f8E03NGDqMKv1",
+    "exportSource": null
+  },
+  "_id": "MVzAiO7qKr1Kw8vg",
+  "sort": 0,
+  "_originalKey": "!items!MVzAiO7qKr1Kw8vg"
+}

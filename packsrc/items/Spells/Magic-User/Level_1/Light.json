@@ -1,0 +1,61 @@
+{
+  "name": "Light",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "KyXC3GcvMeQJ6Uc6",
+  "system": {
+    "tags": [],
+    "description": "<p>As a Light spell, the caster targets a person or object which then produces a light about as bright as a torch with a radius of 20 feet.</p><p class=\"p1\">As a Dark spell, the caster instead causes night-time darkness to fall upon the area with a radius of 20 feet.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "120'",
+    "duration": "6 turns + 1 turn/level",
+    "effect": "Volume of 30' diameter",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(@classes.M.castLevel*60)+360",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753562735814,
+    "modifiedTime": 1753563241033,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "RnC1nbyVto7bF3J7",
+  "sort": 125000,
+  "_originalKey": "!items!RnC1nbyVto7bF3J7"
+}

@@ -1,0 +1,52 @@
+{
+  "folder": "BRiOjloSzFr5YjDZ",
+  "name": "Spell Casting",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "wPY9C5mkfJ4G2irj",
+  "system": {
+    "tags": [],
+    "description": "<p>Clerics wield divine magic, casting spells drawn from a designated spell list outlined in the Cleric Advancement table. Each day, the Cleric prays to receive a chosen array of spells, selecting freely from the standard list. However, Clerics devoted to particular deities might access wholly unique spell sets as determined by the Referee. Unless specified otherwise, the standard Cleric employs the standard spell list.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "C",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.8.2-rc.4",
+    "createdTime": 1742605131571,
+    "modifiedTime": 1742605131571,
+    "lastModifiedBy": "39ANqKV80WQNa3A0",
+    "exportSource": null
+  },
+  "_originalKey": "!items!wPY9C5mkfJ4G2irj"
+}

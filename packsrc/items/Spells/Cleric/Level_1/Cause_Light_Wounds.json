@@ -1,0 +1,63 @@
+{
+  "folder": "6wIusiB0Li3lql8T",
+  "name": "Cause Light Wounds",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The caster causes [[/r 1d6+1 #Cause Light Wounds]] damage.</p><p>May only be used by Evil Clerics.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 1,
+    "range": "Touch",
+    "duration": "Permanent",
+    "effect": "One living creature",
+    "memorized": 2,
+    "cast": 1,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "1d6+1",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "melee",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+      },
+      {
+        "name": "Druid",
+        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753563499373,
+    "modifiedTime": 1753928244693,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "tYuO1mczNsDJfPC5",
+  "sort": 600000,
+  "_originalKey": "!items!tYuO1mczNsDJfPC5"
+}

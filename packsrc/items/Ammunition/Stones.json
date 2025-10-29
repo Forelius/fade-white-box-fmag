@@ -1,0 +1,63 @@
+{
+  "folder": "XoAsey6QpmsxapgN",
+  "name": "Stones",
+  "type": "item",
+  "img": "icons/weapons/ammunition/shot-round-lead.webp",
+  "system": {
+    "tags": [],
+    "description": "<p>Ammunition for a sling.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 20,
+    "quantityMax": 20,
+    "weight": 0.5,
+    "cost": 1,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "pellet",
+    "shortName": "",
+    "isAmmo": false,
+    "unidentifiedName": "",
+    "unidentifiedDesc": "<p>Ammunition for a sling.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "physical",
+    "isUsable": false,
+    "weightEquipped": 0.5,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753562128459,
+    "modifiedTime": 1753626880049,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "Lq4RzTAUJ3ESbDMc",
+  "sort": 0,
+  "_originalKey": "!items!Lq4RzTAUJ3ESbDMc"
+}

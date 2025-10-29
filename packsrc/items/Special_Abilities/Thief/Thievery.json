@@ -1,0 +1,52 @@
+{
+  "folder": "dweUdoWqUwjtcc0d",
+  "name": "Thievery",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "wQKegsKVwXZ7Ew8Y",
+  "system": {
+    "tags": [],
+    "description": "<p>Thieves are nimble and stealthy, capable of executing a variety of clandestine or stealth-based actions through their thievery ability. This skill can be applied to activities such as picking pockets or locks, locating and disarming traps, moving silently while remaining hidden, or even climbing walls without assistance. The Referee has the final authority to determine whether a specific action qualifies as thievery. When a thief attempts to utilize this ability, the Referee rolls a 1d6. If the result is equal to or lower than the thief's thievery rating, the attempt is deemed successful.</p><p>It is important to note that thieves are often unaware when their stealth efforts fail; they consistently believe they have succeeded in their endeavors.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d6",
+    "operator": "lte",
+    "target": "2",
+    "rollMode": "blindroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "T",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.8.2-rc.4",
+    "createdTime": 1742605131571,
+    "modifiedTime": 1742605131571,
+    "lastModifiedBy": "39ANqKV80WQNa3A0",
+    "exportSource": null
+  },
+  "_originalKey": "!items!wQKegsKVwXZ7Ew8Y"
+}

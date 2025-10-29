@@ -1,0 +1,52 @@
+{
+  "folder": "dweUdoWqUwjtcc0d",
+  "name": "Establish Guild",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "1HU6r6ogPVjHHp8U",
+  "system": {
+    "tags": [],
+    "description": "<p>A thief who reaches the ninth level or higher has the option to establish a secret hideout, typically located within an urban setting. This hideout attracts the attention and loyalty of less experienced thieves who are eager to learn from a seasoned expert. The thief assumes the title of Guild Master, and those who join him become members of his Thieves Guild. In return for a share of their earnings, the Guild Master provides these apprentices with protection from local authorities to the best of his ability.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "T",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.8.2-rc.4",
+    "createdTime": 1742605131571,
+    "modifiedTime": 1742605131571,
+    "lastModifiedBy": "39ANqKV80WQNa3A0",
+    "exportSource": null
+  },
+  "_originalKey": "!items!1HU6r6ogPVjHHp8U"
+}

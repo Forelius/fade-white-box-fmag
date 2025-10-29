@@ -1,0 +1,52 @@
+{
+  "folder": "GS7EOEGEZk6UwIUu",
+  "name": "Fighting Giants",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "PHhDrFhP0A4CsxWa",
+  "system": {
+    "tags": [],
+    "description": "<p>Giants, ogres, and other similar giant-type creatures, such as trolls, are not particularly effective in combat against small creatures like Halflings and Dwarves, inflicting only half the normal damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "class",
+    "shortName": "",
+    "combatManeuver": "null",
+    "customSaveCode": "",
+    "classKey": "H",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.8.2-rc.4",
+    "createdTime": 1742605131571,
+    "modifiedTime": 1742605131571,
+    "lastModifiedBy": "39ANqKV80WQNa3A0",
+    "exportSource": null
+  },
+  "_originalKey": "!items!PHhDrFhP0A4CsxWa"
+}

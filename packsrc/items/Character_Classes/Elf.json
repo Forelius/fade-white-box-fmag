@@ -1,0 +1,281 @@
+{
+  "name": "Elf",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Elf",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "int",
+        "minScore": 13,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "int",
+        "minScore": 16,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 8,
+    "maxSpellLevel": 3,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 5000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 10000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "2d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 20000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 40000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "3d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 80000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 160000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 320000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "death": null,
+        "wand": null,
+        "save": 14,
+        "spell": null,
+        "paralysis": null
+      },
+      {
+        "level": 2,
+        "death": null,
+        "wand": null,
+        "save": 13,
+        "spell": null,
+        "paralysis": null
+      },
+      {
+        "level": 3,
+        "death": null,
+        "wand": null,
+        "save": 12,
+        "spell": null,
+        "paralysis": null
+      },
+      {
+        "level": 4,
+        "death": null,
+        "wand": null,
+        "save": 11,
+        "spell": null,
+        "paralysis": null
+      },
+      {
+        "level": 5,
+        "death": null,
+        "wand": null,
+        "save": 10,
+        "spell": null,
+        "paralysis": null
+      },
+      {
+        "level": 6,
+        "death": null,
+        "wand": null,
+        "save": 9,
+        "spell": null,
+        "paralysis": null
+      },
+      {
+        "level": 7,
+        "death": null,
+        "wand": null,
+        "save": 8,
+        "spell": null,
+        "paralysis": null
+      },
+      {
+        "level": 8,
+        "death": null,
+        "wand": null,
+        "save": 7,
+        "spell": null,
+        "paralysis": null
+      }
+    ],
+    "spells": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        2
+      ],
+      [
+        4,
+        3,
+        2
+      ]
+    ],
+    "alignment": "Any",
+    "minCon": 3,
+    "minInt": 9,
+    "minDex": 3,
+    "minWis": 3,
+    "key": "E",
+    "description": "<p>Some Referees may choose to permit Elves to progress as a hybrid of Fighter and Magic-user, rather than alternating between the two. In this model, the following advancement table can be utilized. Aside from Character Advancement and Weapon and Armor Restrictions, the Elven Race Abilities will remain unchanged.</p><h3>Weapon and Armor Restrictions</h3><p>Elves possess the unique advantage of wielding both magic and armor simultaneously; therefore, the Referee may restrict them to wearing chain mail. Additionally, Elves are not permitted to use two-handed weapons (such as two-handed swords or polearms) or shields while casting spells.</p>",
+    "classAbilities": [
+      {
+        "level": 1,
+        "name": "Hereditary Foes",
+        "target": 0
+      },
+      {
+        "level": 1,
+        "name": "Immune to Undead Paralysis",
+        "target": 0
+      },
+      {
+        "level": 1,
+        "name": "Keen Detection",
+        "target": 4
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "_id": "2NiEMVh69JDCqp8d",
+  "ownership": {
+    "default": 1,
+    "0eyrbleKg5gmY59g": 3,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d",
+    "duplicateSource": null,
+    "coreVersion": "13.342",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.8.2-rc.4",
+    "createdTime": 1742605121034,
+    "modifiedTime": 1742605121034,
+    "lastModifiedBy": "39ANqKV80WQNa3A0",
+    "exportSource": null
+  },
+  "sort": 0,
+  "_originalKey": "!items!2NiEMVh69JDCqp8d"
+}

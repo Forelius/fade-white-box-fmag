@@ -1,0 +1,91 @@
+{
+  "folder": "BI8lOlhN7Xp8AryE",
+  "name": "Flail",
+  "type": "weapon",
+  "img": "icons/weapons/maces/flail-spiked-grey.webp",
+  "_id": "RxHVKKfnxxKOBlSq",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p><span style=\"border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px\">A flail is a weapon featuring a spiked or heavy ball connected to a handle by a chain or strap.</span></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 150,
+    "weightEquipped": 150,
+    "cost": 8,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "",
+    "unidentifiedDesc": "<p><span style=\"color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none\">A flail is a weapon featuring a spiked or heavy ball connected to a handle by a chain or strap.</span></p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "physical",
+    "isUsable": false,
+    "isTreasure": false,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "size": "M",
+    "grip": "1H",
+    "natural": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753488375581,
+    "modifiedTime": 1753625336551,
+    "lastModifiedBy": "L03IyVhotkVVcouL",
+    "exportSource": null
+  },
+  "_originalKey": "!items!RxHVKKfnxxKOBlSq"
+}

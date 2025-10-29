@@ -1,0 +1,66 @@
+{
+  "folder": "j0gmn4R76A6G5mdB",
+  "name": "Pouch (20 stones)",
+  "type": "item",
+  "img": "icons/containers/bags/pouch-leather-simple-tan.webp",
+  "system": {
+    "tags": [
+      "container",
+      "equippable"
+    ],
+    "description": "",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 10,
+    "cost": 1,
+    "containerId": "",
+    "equipped": false,
+    "container": true,
+    "equippable": true,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "shortName": "",
+    "isAmmo": false,
+    "unidentifiedName": "Pouch, Belt",
+    "unidentifiedDesc": "<p>A small pouch made of leather or cloth, typically worn on a belt. It can hold up to 50 coins and is used to carry small valuables or other small items.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "isUsable": false,
+    "weightEquipped": 10,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753562496661,
+    "modifiedTime": 1753562519019,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "ayDmEDAGbDa9PdDY",
+  "sort": 0,
+  "_originalKey": "!items!ayDmEDAGbDa9PdDY"
+}

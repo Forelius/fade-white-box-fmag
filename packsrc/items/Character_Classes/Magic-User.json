@@ -1,0 +1,381 @@
+{
+  "name": "Magic-User",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 15,
+        "percentage": 5,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 15,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      },
+      {
+        "concatLogic": "and",
+        "ability": "wis",
+        "minScore": 15,
+        "percentage": 10,
+        "xpBonus5": null,
+        "xpBonus10": null
+      }
+    ],
+    "maxLevel": 10,
+    "maxSpellLevel": 6,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6",
+        "hdcon": true,
+        "title": "Medium",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 2500,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6+1",
+        "hdcon": true,
+        "title": "Seer",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 5000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "Conjurer",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 10000,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "2d6+1",
+        "hdcon": true,
+        "title": "Magician",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 20000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "Enchanter",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 40000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "3d6+1",
+        "hdcon": true,
+        "title": "Warlock",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 80000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "Sorcerer",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 160000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6+1",
+        "hdcon": true,
+        "title": "Necromancer",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 320000,
+        "thac0": 16,
+        "thbonus": 3,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "Wizard",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 640000,
+        "thac0": 16,
+        "thbonus": 3,
+        "hd": "5d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 15,
+        "death": null
+      },
+      {
+        "level": 2,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 14,
+        "death": null
+      },
+      {
+        "level": 3,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 13,
+        "death": null
+      },
+      {
+        "level": 4,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 12,
+        "death": null
+      },
+      {
+        "level": 5,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 11,
+        "death": null
+      },
+      {
+        "level": 6,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 10,
+        "death": null
+      },
+      {
+        "level": 7,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 9,
+        "death": null
+      },
+      {
+        "level": 8,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 8,
+        "death": null
+      },
+      {
+        "level": 9,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 7,
+        "death": null
+      },
+      {
+        "level": 10,
+        "paralysis": null,
+        "spell": null,
+        "wand": null,
+        "save": 6,
+        "death": null
+      }
+    ],
+    "spells": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        2,
+        0
+      ]
+    ],
+    "alignment": "Any",
+    "minCon": 3,
+    "minInt": 3,
+    "minDex": 3,
+    "minWis": 3,
+    "key": "M",
+    "description": "<p><span style=\"font-family: sans-serif\">The Magic-user is an enigmatic individual, a scholar of arcane forces and shadowy sorcery. They possess the potential to become formidable adversaries. Yet, at lower levels, their fragility leaves them reliant on the protection of their fellow party members. As Magic-users advance, they typically rise to become the most potent among the character classes, wielding influence over the political fates of mighty kingdoms and crafting extraordinary magical artifacts.</span></p><h3>Weapon and Armor Restrictions</h3><p><span style=\"font-family: sans-serif\">Magic-users dedicate their waking hours to poring over arcane tomes and scrolls, leaving them scant time to practice with weapons or master the skills of physical combat. Consequently, they are restricted to wielding only daggers or staves and are prohibited from using armor.</span></p>",
+    "classAbilities": [
+      {
+        "level": 1,
+        "name": "Spell Casting",
+        "target": 0
+      },
+      {
+        "level": 10,
+        "name": "Establish Tower",
+        "target": 0
+      }
+    ],
+    "castAsKey": "",
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Spell Casting",
+        "target": 0,
+        "changes": "",
+        "classKey": ""
+      },
+      {
+        "level": 10,
+        "name": "Establish Tower",
+        "target": 0,
+        "changes": "",
+        "classKey": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "oRrldFwTAwccXhIv",
+  "flags": {},
+  "_id": "e38pLRiuy2U7gW1x",
+  "ownership": {
+    "default": 1,
+    "0eyrbleKg5gmY59g": 3,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.9",
+    "createdTime": 1742605121034,
+    "modifiedTime": 1756063398281,
+    "lastModifiedBy": "5U5f8E03NGDqMKv1",
+    "exportSource": null
+  },
+  "sort": 0,
+  "_originalKey": "!items!e38pLRiuy2U7gW1x"
+}

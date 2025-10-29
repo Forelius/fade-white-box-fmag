@@ -1,0 +1,94 @@
+{
+  "folder": "BI8lOlhN7Xp8AryE",
+  "name": "Bow, Short",
+  "type": "weapon",
+  "img": "icons/weapons/bows/shortbow-leather.webp",
+  "system": {
+    "tags": [
+      "slow"
+    ],
+    "description": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.</p><p>Rate of Fire: 2</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 50,
+    "cost": 25,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6-1",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "Bow, Short",
+    "weaponType": "monster",
+    "range": {
+      "short": null,
+      "medium": 50,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "arrow",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A short bow is a 3’-4’ bow, either made from a single piece of wood or a composite of different woods. A short bow requires both hands to fire. Bows require the use of arrows as ammunition.<br><br>Rate of fire: 2</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "weightEquipped": 50,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "damageLabel": "1d6",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "fantastic-depths",
+    "systemVersion": "0.12.0-rc.2",
+    "createdTime": 1753562171319,
+    "modifiedTime": 1753625106897,
+    "lastModifiedBy": "L03IyVhotkVVcouL"
+  },
+  "_id": "VFIvCkgaJ8xhnEjt",
+  "sort": 100000,
+  "_originalKey": "!items!VFIvCkgaJ8xhnEjt"
+}
