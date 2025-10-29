@@ -1,4 +1,25 @@
 {
+  "!folders!rMSHvZcsLsOsw0Vi": {
+    "name": "Monsters",
+    "sorting": "a",
+    "folder": null,
+    "type": "Actor",
+    "_id": "rMSHvZcsLsOsw0Vi",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
   "!actors!86iwWeKWuxRGMag8": {
     "name": "Goblin",
     "type": "monster",
@@ -280,7 +301,8 @@
       "exportSource": null
     },
     "_id": "86iwWeKWuxRGMag8",
-    "sort": 100000
+    "sort": 100000,
+    "_originalKey": "!actors!86iwWeKWuxRGMag8"
   },
   "!actors.items!86iwWeKWuxRGMag8.Hku5VkxX7UtSTts5": {
     "folder": "OR1oqiLvw7LWXY42",
@@ -795,26 +817,5 @@
     },
     "_id": "xxxZgd1gH52pnYZo",
     "sort": 0
-  },
-  "!folders!rMSHvZcsLsOsw0Vi": {
-    "name": "Monsters",
-    "sorting": "a",
-    "folder": null,
-    "type": "Actor",
-    "_id": "rMSHvZcsLsOsw0Vi",
-    "description": "",
-    "sort": 0,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.11.8",
-      "createdTime": 1753483083222,
-      "modifiedTime": 1753483083222,
-      "lastModifiedBy": "L03IyVhotkVVcouL"
-    }
   }
 }
