@@ -36,9 +36,9 @@
    ],
    "packs": [
       {
-         "name": "white-box-items",
+         "name": "items",
          "label": "White Box Items",
-         "path": "packs/white-box-items",
+         "path": "packs/items",
          "type": "Item",
          "system": "fantastic-depths",
          "ownership": {
@@ -47,9 +47,9 @@
          }
       },
       {
-         "name": "white-box-actors",
+         "name": "actors",
          "label": "White Box Actors",
-         "path": "packs/white-box-actors",
+         "path": "packs/actors",
          "type": "Actor",
          "system": "fantastic-depths",
          "ownership": {
@@ -58,9 +58,9 @@
          }
       },
       {
-         "name": "white-box-roll-tables",
+         "name": "rollTables",
          "label": "White Box Roll Tables",
-         "path": "packs/white-box-roll-tables",
+         "path": "packs/rollTables",
          "type": "RollTable",
          "ownership": {
             "PLAYER": "OBSERVER",

@@ -1,0 +1,38 @@
+{
+  "name": "fade-white-box-fmag",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "White Box FMAG content pack for Fade with build system",
+  "scripts": {
+    "packdump": "node scripts/build/LdbActions.mjs dump",
+    "packrestore": "node scripts/build/LdbActions.mjs restore",
+    "packextract": "node scripts/build/dbConvert.mjs extract",
+    "packcompile": "node scripts/build/dbConvert.mjs compile",
+    "decomppacks": "npm run packdump && npm run packextract && echo \"Decompiled packs\"",
+    "comppacks": "npm run packcompile && npm run packrestore && echo \"Compiled packs\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forelius/fade-white-box-fmag.git"
+  },
+  "keywords": [
+    "foundry",
+    "foundry-vtt",
+    "white-box",
+    "fmag",
+    "osr",
+    "fantasy"
+  ],
+  "author": "forelius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Forelius/fade-white-box-fmag/issues"
+  },
+  "homepage": "https://github.com/Forelius/fade-white-box-fmag#readme",
+  "dependencies": {
+    "fast-glob": "^3.3.3",
+    "level": "^10.0.0",
+    "mkdirp": "^3.0.1",
+    "uuid": "^13.0.0"
+  }
+}

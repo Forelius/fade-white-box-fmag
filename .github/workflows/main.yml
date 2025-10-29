@@ -1,0 +1,82 @@
+name: Release Creation
+
+on: 
+  release:
+    types: [published, edited]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Setup Node.js for pack compilation
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+        cache: 'npm'
+
+    # Install dependencies for pack compilation
+    - name: Install dependencies
+      run: npm ci
+
+    # Compile packs using the fade-white-box-fmag scripts
+    - name: Compile packs
+      run: npm run comppacks
+
+    # Substitute the Manifest and Download URLs in the module.json
+    - name: Substitute Manifest and Download Links For Versioned Ones
+      id: sub_manifest_link_version
+      uses: microsoft/variable-substitution@v1
+      with:
+        files: 'module.json'
+      env:
+        version: ${{github.event.release.tag_name}}
+        manifest: https://github.com/${{github.repository}}/releases/latest/download/module.json
+        download: https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip
+
+    # Prepare release notes
+    - name: Prepare release notes
+      id: prepare_notes
+      run: |
+        echo "" >> release_notes.txt
+        echo ${{ github.event.release.body }} >> release_notes.txt
+        echo "To install manually, use this URL:" >> release_notes.txt
+        echo "https://github.com/${{github.repository}}/releases/download/latest/module.json" >> release_notes.txt
+
+    # Create a zip file with all files required by the module to add to the release
+    - name: Create module zip
+      run: zip -r ./module.zip ./* -x '.git*' -x '.github/*' -x 'scripts/build/*' -x 'scripts/ps/*' -x 'packsrc/*' -x '.gitignore' -x 'package.json' -x 'package-lock.json' -x '.vscode/*' -x 'node_modules/*'
+
+    # Create a release for this specific version
+    - name: Update Release with Files
+      id: create_version_release
+      uses: ncipollo/release-action@v1
+      with:
+        allowUpdates: true # Set this to false if you want to prevent updating existing releases
+        name: ${{ github.event.release.name }}
+        draft: false
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+        artifacts: './module.json, ./module.zip'
+        tag: ${{ github.event.release.tag_name }}
+        bodyfile: release_notes.txt
+
+    # Update the 'latest' release
+    - name: Create Release
+      id: create_latest_release
+      uses: ncipollo/release-action@v1
+      with:
+        allowUpdates: true
+        name: Latest
+        draft: false
+        prerelease: false
+        token: ${{ secrets.GITHUB_TOKEN }}
+        artifacts: './module.json,./module.zip'
+        tag: latest
+        bodyfile: release_notes.txt
