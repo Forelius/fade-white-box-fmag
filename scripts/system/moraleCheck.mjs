@@ -1,4 +1,3 @@
-import { fadeFinder } from '/systems/fantastic-depths/module/utils/finder.mjs';
 import { DialogFactory } from '/systems/fantastic-depths/module/dialog/DialogFactory.mjs';
 
 export class moraleCheck {

@@ -10,10 +10,10 @@ Hooks.once('beforeFadeInit', async function (fadeRegistry) {
 Hooks.once('afterFadeInit', async function (fadeRegistry) {
    console.debug('FWB: afterFadeInit hook called.');
 
-   Object.assign(game.settings.get("fantastic-depths.abilityScoreModSystem").choices, {
-      simple: game.i18n.localize("SETTINGS.abilityScoreModSystem.choices.simple")
-   });
-   Object.assign(CONFIG.FADE.abilityScoreModSystem, FADEWB.abilityScoreModSystem);
+   //Object.assign(game.settings.get("fantastic-depths.abilityScoreMods").choices, {
+   //   simple: game.i18n.localize("SETTINGS.abilityScoreMods.choices.simple")
+   //});
+   //Object.assign(CONFIG.FADE.abilityScoreMods, FADEWB.abilityScoreMods);
 
    CONFIG.Actor.dataModels.character = WBCharacterDataModel;
 

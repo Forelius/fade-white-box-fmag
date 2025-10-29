@@ -17,11 +17,11 @@ export class WBCharacterDataModel extends CharacterDataModel {
 
    _prepareDerivedAbilities() {
       super._prepareDerivedAbilities();
-      const abilityScoreModSystem = game.settings.get(game.system.id, "abilityScoreModSystem");
-      const adjustments = CONFIG.FADE.abilityScoreModSystem[abilityScoreModSystem]?.mods;
+       const abilityScoreMods = game.settings.get(game.system.id, "abilityScoreMods");
+       const adjustments = game.fade.registry.getSystem("userTables")?.getJsonArray(`ability-mods-${abilityScoreMods}`);
+       const adjustment = adjustments.sort((a, b) => b.min - a.min).find(item => this.abilities.cha.total >= item.min);
       // Retainer
       let charisma = this.abilities.cha.value;
-      let adjustment = adjustments.find(item => charisma <= item.max);
       this.retainer.loyaltyMod = this.retainer.loyaltyMod > 0 ? this.retainer.loyaltyMod : (adjustment.loyaltyMod ?? 0);
    }
 }
