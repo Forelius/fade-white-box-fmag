@@ -37,16 +37,6 @@
     "39ANqKV80WQNa3A0": 3
   },
   "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "13.346",
-    "systemId": "fantastic-depths",
-    "systemVersion": "0.12.0-rc.9",
-    "createdTime": 1742605131571,
-    "modifiedTime": 1756063157506,
-    "lastModifiedBy": "5U5f8E03NGDqMKv1",
-    "exportSource": null
-  },
+  "_stats": {},
   "_originalKey": "!items!mnKInfCoTzMYVnlU"
 }

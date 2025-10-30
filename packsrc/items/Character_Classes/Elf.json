@@ -265,17 +265,7 @@
     "0eyrbleKg5gmY59g": 3,
     "39ANqKV80WQNa3A0": 3
   },
-  "_stats": {
-    "compendiumSource": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d",
-    "duplicateSource": null,
-    "coreVersion": "13.342",
-    "systemId": "fantastic-depths",
-    "systemVersion": "0.8.2-rc.4",
-    "createdTime": 1742605121034,
-    "modifiedTime": 1742605121034,
-    "lastModifiedBy": "39ANqKV80WQNa3A0",
-    "exportSource": null
-  },
+  "_stats": {},
   "sort": 0,
   "_originalKey": "!items!2NiEMVh69JDCqp8d"
 }

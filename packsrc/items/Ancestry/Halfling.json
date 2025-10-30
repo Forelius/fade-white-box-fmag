@@ -69,17 +69,7 @@
     "39ANqKV80WQNa3A0": 3
   },
   "flags": {},
-  "_stats": {
-    "compendiumSource": null,
-    "duplicateSource": null,
-    "coreVersion": "13.342",
-    "systemId": "fantastic-depths",
-    "systemVersion": "0.8.2-rc.4",
-    "createdTime": 1742605119057,
-    "modifiedTime": 1742605119057,
-    "lastModifiedBy": "39ANqKV80WQNa3A0",
-    "exportSource": null
-  },
+  "_stats": {},
   "_originalKey": "!items!XAptnvwKbf23Bits",
   "embedded": [
     {
@@ -120,17 +110,7 @@
       "statuses": [],
       "sort": 0,
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13.342",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.8.2-rc.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      }
+      "_stats": {}
     },
     {
       "_originalKey": "!items.effects!XAptnvwKbf23Bits.f911XOOxJoX9UDTI",
@@ -164,17 +144,7 @@
       "statuses": [],
       "sort": 0,
       "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "coreVersion": "13.342",
-        "systemId": "fantastic-depths",
-        "systemVersion": "0.8.2-rc.4",
-        "createdTime": null,
-        "modifiedTime": null,
-        "lastModifiedBy": null,
-        "exportSource": null
-      }
+      "_stats": {}
     }
   ]
 }

@@ -1,13 +1,8 @@
 .vs
 node_modules
-/fade-mystara-pack.zip
+/module.zip
 /notes.txt
 # Ignore FoundryVTT LevelDB folders
-/packs/actors
-/packs/scenes
-/packs/items
-/packs/macros
-/packs/rollTables
-/packs/journals
+packs
 # Ignore powershell history
 PowerShell_History.txt
