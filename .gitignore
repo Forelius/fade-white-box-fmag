@@ -6,3 +6,4 @@ node_modules
 packs
 # Ignore powershell history
 PowerShell_History.txt
+update_basicSight.ps1
