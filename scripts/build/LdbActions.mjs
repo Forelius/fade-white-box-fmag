@@ -1,4 +1,5 @@
-import { Level } from "level";
+import { ClassicLevel } from "classic-level";
+//import { ClassicLevel } from "level";
 import fs from "fs/promises";
 import path from "path";
 
@@ -49,11 +50,12 @@ class LdbActions {
             }
         }
 
-        const db = new Level(packDir, { valueEncoding: "utf8" });
+        const db = new ClassicLevel(packDir, { valueEncoding: "json", valueEncoding: "utf8" });
         const out = {};
 
         for await (const [key, value] of db.iterator()) {
             try {
+               // if (key =="!actors!yuscgQo8thsyp6HP") console.debug(key, value);
                 out[key] = JSON.parse(value);
             } catch (e) {
                 console.error("JSON parse error for key", key, ":", e);
@@ -75,7 +77,8 @@ class LdbActions {
 
         // Read JSON file
         const raw = await fs.readFile(outFile, "utf8");
-        const data = JSON.parse(raw);
+        const cleanRaw = this.removeBOM(raw);
+        const data = JSON.parse(cleanRaw);
 
         // Handle both old array format and new object format
         let entries;
@@ -100,11 +103,14 @@ class LdbActions {
             await this.createBackup(packDir);
         }
 
+        // Delete the folder and all its contents recursively
+        await fs.rm(packDir, { recursive: true, force: true });
+        console.log(`Successfully deleted pack folder: ${packDir}`);
         // Ensure pack directory exists
         await fs.mkdir(path.dirname(packDir), { recursive: true });
 
         // Open Level store and write entries
-        const db = new Level(packDir, { valueEncoding: "utf8" });
+        const db = new ClassicLevel(packDir, { valueEncoding: "json", valueEncoding: "utf8" });
         let written = 0;
 
         try {
@@ -140,7 +146,7 @@ class LdbActions {
      */
     async checkpack() {
         const { packDir } = this.paths;
-        const db = new Level(packDir, { valueEncoding: 'utf8' });
+        const db = new ClassicLevel(packDir, { valueEncoding: "json", valueEncoding: 'utf8' });
         let n = 0;
 
         for await (const [key] of db.iterator()) {
@@ -151,6 +157,19 @@ class LdbActions {
 
         console.log('sampled keys:', n);
         await db.close();
+    }
+
+    /**
+     * Remove BOM (Byte Order Mark) from file content
+     * @param {string} content - The file content that may contain BOM
+     * @returns {string} - Content with BOM removed
+     */
+    removeBOM(content) {
+        // Check for UTF-8 BOM (EF BB BF) which appears as \uFEFF in JavaScript strings
+        if (content.charCodeAt(0) === 0xFEFF) {
+            return content.slice(1);
+        }
+        return content;
     }
 
     /**
