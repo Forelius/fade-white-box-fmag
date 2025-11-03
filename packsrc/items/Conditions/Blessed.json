@@ -19,7 +19,10 @@
     "L03IyVhotkVVcouL": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
   "sort": 500000,
   "_originalKey": "!items!H9QzS61QZdi0ex8l",
   "embedded": [
@@ -81,7 +84,10 @@
       ],
       "sort": 0,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
     }
   ]
 }

@@ -44,7 +44,10 @@
     "L03IyVhotkVVcouL": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
   "_id": "Rv3AOd18Jxj3z3Ve",
   "sort": 500000,
   "_originalKey": "!items!Rv3AOd18Jxj3z3Ve"

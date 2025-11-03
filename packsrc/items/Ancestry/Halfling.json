@@ -69,7 +69,10 @@
     "39ANqKV80WQNa3A0": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
   "_originalKey": "!items!XAptnvwKbf23Bits",
   "embedded": [
     {
@@ -110,7 +113,10 @@
       "statuses": [],
       "sort": 0,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
     },
     {
       "_originalKey": "!items.effects!XAptnvwKbf23Bits.f911XOOxJoX9UDTI",
@@ -144,7 +150,10 @@
       "statuses": [],
       "sort": 0,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
     }
   ]
 }

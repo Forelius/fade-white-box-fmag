@@ -18,7 +18,10 @@
     "L03IyVhotkVVcouL": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
   "_id": "h74lknaOyKsXF5e3",
   "sort": 400000,
   "_originalKey": "!items!h74lknaOyKsXF5e3",
@@ -75,7 +78,10 @@
       ],
       "sort": 0,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
     }
   ]
 }

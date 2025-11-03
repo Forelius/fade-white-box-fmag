@@ -72,7 +72,10 @@
     "39ANqKV80WQNa3A0": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
   "_originalKey": "!items!ML41Bk5fSI9Z7KoB",
   "embedded": [
     {
@@ -113,7 +116,10 @@
       "statuses": [],
       "sort": 0,
       "flags": {},
-      "_stats": {}
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
     }
   ]
 }

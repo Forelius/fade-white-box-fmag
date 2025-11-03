@@ -17,7 +17,10 @@
     "39ANqKV80WQNa3A0": 3
   },
   "flags": {},
-  "_stats": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
   "formula": "2d6",
   "_id": "WNQhiRA6flmlQp3C",
   "sort": 0,
@@ -35,9 +38,13 @@
       "_id": "1iff0p29hO38CrOe",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
-      "_stats": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
       "description": "Flee",
-      "name": ""
+      "name": "",
+      "text": "Flee"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.4v4z01OrMQLIe6y0",
@@ -51,9 +58,13 @@
       "_id": "4v4z01OrMQLIe6y0",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
-      "_stats": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
       "description": "Surrender",
-      "name": ""
+      "name": "",
+      "text": "Surrender"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.77yhAIgshd7o0AFt",
@@ -67,9 +78,13 @@
       "_id": "77yhAIgshd7o0AFt",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
-      "_stats": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
       "description": "Fight for advantage",
-      "name": ""
+      "name": "",
+      "text": "Fight for advantage"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.AGGYudQt8P5c4Fmv",
@@ -83,9 +98,13 @@
       "_id": "AGGYudQt8P5c4Fmv",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
-      "_stats": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
       "description": "Attack!",
-      "name": ""
+      "name": "",
+      "text": "Attack!"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC",
@@ -99,9 +118,13 @@
       "_id": "iQWair1Vxm3NqECC",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
-      "_stats": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
       "description": "Hold",
-      "name": ""
+      "name": "",
+      "text": "Hold"
     }
   ]
 }
