@@ -1,7 +1,9 @@
-import { ClassicLevel } from "classic-level";
-//import { ClassicLevel } from "level";
+import { Level } from "level";
 import fs from "fs/promises";
 import path from "path";
+
+// Normalize text content to CRLF for consistent Windows checkouts
+const toCRLF = (text) => text.replace(/\r?\n/g, "\r\n");
 
 /**
  * LevelDB Pack Manager - ES6 Class for managing FoundryVTT pack data
@@ -50,7 +52,7 @@ class LdbActions {
             }
         }
 
-        const db = new ClassicLevel(packDir, { valueEncoding: "json", valueEncoding: "utf8" });
+        const db = new Level(packDir, { valueEncoding: "json", valueEncoding: "utf8" });
         const out = {};
 
         for await (const [key, value] of db.iterator()) {
@@ -63,7 +65,7 @@ class LdbActions {
             }
         }
 
-        await fs.writeFile(outFile, JSON.stringify(out, null, 2), "utf8");
+        await fs.writeFile(outFile, toCRLF(JSON.stringify(out, null, 2)), "utf8");
         console.log("Wrote", Object.keys(out).length, "entries to", outFile);
         await db.close();
     }
@@ -110,7 +112,7 @@ class LdbActions {
         await fs.mkdir(path.dirname(packDir), { recursive: true });
 
         // Open Level store and write entries
-        const db = new ClassicLevel(packDir, { valueEncoding: "json", valueEncoding: "utf8" });
+        const db = new Level(packDir, { valueEncoding: "json", valueEncoding: "utf8" });
         let written = 0;
 
         try {
@@ -146,7 +148,7 @@ class LdbActions {
      */
     async checkpack() {
         const { packDir } = this.paths;
-        const db = new ClassicLevel(packDir, { valueEncoding: "json", valueEncoding: 'utf8' });
+        const db = new Level(packDir, { valueEncoding: "json", valueEncoding: 'utf8' });
         let n = 0;
 
         for await (const [key] of db.iterator()) {

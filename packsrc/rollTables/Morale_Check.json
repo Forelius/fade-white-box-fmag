@@ -42,8 +42,8 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "Flee",
-      "name": "",
+      "description": "",
+      "name": "Flee",
       "text": "Flee"
     },
     {
@@ -62,8 +62,8 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "Surrender",
-      "name": "",
+      "description": "",
+      "name": "Surrender",
       "text": "Surrender"
     },
     {
@@ -82,8 +82,8 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "Fight for advantage",
-      "name": "",
+      "description": "",
+      "name": "Fight for advantage",
       "text": "Fight for advantage"
     },
     {
@@ -102,8 +102,8 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "Attack!",
-      "name": "",
+      "description": "",
+      "name": "Attack!",
       "text": "Attack!"
     },
     {
@@ -122,8 +122,8 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "Hold",
-      "name": "",
+      "description": "",
+      "name": "Hold",
       "text": "Hold"
     }
   ]
