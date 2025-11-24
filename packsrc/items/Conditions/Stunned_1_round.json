@@ -15,7 +15,7 @@
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
-    "L03IyVhotkVVcouL": 3
+    "kS3rwnTPpIltZGhF": 3
   },
   "flags": {},
   "_stats": {
@@ -23,7 +23,7 @@
     "systemId": "fantastic-depths"
   },
   "_id": "7xtCLb5Evbw9XC8K",
-  "sort": 0,
+  "sort": 2600000,
   "_originalKey": "!items!7xtCLb5Evbw9XC8K",
   "embedded": [
     {
@@ -51,6 +51,18 @@
           "key": "system.mod.masteryLevelOverride",
           "mode": 5,
           "value": "basic",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "-4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "-4",
           "priority": null
         }
       ],

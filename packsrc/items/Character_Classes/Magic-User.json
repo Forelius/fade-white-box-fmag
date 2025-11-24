@@ -7,27 +7,21 @@
     "primeReqs": [
       {
         "concatLogic": "none",
-        "ability": "int",
+        "ability": "cha",
         "minScore": 15,
-        "percentage": 5,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
+      },
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "minScore": 15,
+        "percentage": 5
       },
       {
         "concatLogic": "none",
         "ability": "int",
         "minScore": 15,
-        "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
-      },
-      {
-        "concatLogic": "and",
-        "ability": "wis",
-        "minScore": 15,
-        "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
       }
     ],
     "maxLevel": 10,
@@ -138,83 +132,93 @@
     "saves": [
       {
         "level": 1,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 16,
+        "paralysis": 13,
+        "spell": 15,
+        "wand": 14,
         "save": 15,
-        "death": null
+        "death": 13
       },
       {
         "level": 2,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 15,
+        "paralysis": 12,
+        "spell": 15,
+        "wand": 13,
         "save": 14,
-        "death": null
+        "death": 12
       },
       {
         "level": 3,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 15,
+        "paralysis": 12,
+        "spell": 15,
+        "wand": 13,
         "save": 13,
-        "death": null
+        "death": 12
       },
       {
         "level": 4,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 14,
+        "paralysis": 11,
+        "spell": 12,
+        "wand": 12,
         "save": 12,
-        "death": null
+        "death": 11
       },
       {
         "level": 5,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 14,
+        "paralysis": 11,
+        "spell": 12,
+        "wand": 12,
         "save": 11,
-        "death": null
+        "death": 11
       },
       {
         "level": 6,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 13,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 11,
         "save": 10,
-        "death": null
+        "death": 10
       },
       {
         "level": 7,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 13,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 11,
         "save": 9,
-        "death": null
+        "death": 10
       },
       {
         "level": 8,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 9,
+        "spell": 9,
+        "wand": 10,
         "save": 8,
-        "death": null
+        "death": 9
       },
       {
         "level": 9,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 9,
+        "spell": 9,
+        "wand": 10,
         "save": 7,
-        "death": null
+        "death": 9
       },
       {
         "level": 10,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 11,
+        "paralysis": 8,
+        "spell": 9,
+        "wand": 9,
         "save": 6,
-        "death": null
+        "death": 8
       }
     ],
     "spells": [
@@ -300,25 +304,9 @@
       ]
     ],
     "alignment": "Any",
-    "minCon": 3,
-    "minInt": 3,
-    "minDex": 3,
-    "minWis": 3,
     "key": "M",
-    "description": "<p><span style=\"font-family: sans-serif\">The Magic-user is an enigmatic individual, a scholar of arcane forces and shadowy sorcery. They possess the potential to become formidable adversaries. Yet, at lower levels, their fragility leaves them reliant on the protection of their fellow party members. As Magic-users advance, they typically rise to become the most potent among the character classes, wielding influence over the political fates of mighty kingdoms and crafting extraordinary magical artifacts.</span></p><h3>Weapon and Armor Restrictions</h3><p><span style=\"font-family: sans-serif\">Magic-users dedicate their waking hours to poring over arcane tomes and scrolls, leaving them scant time to practice with weapons or master the skills of physical combat. Consequently, they are restricted to wielding only daggers or staves and are prohibited from using armor.</span></p>",
-    "classAbilities": [
-      {
-        "level": 1,
-        "name": "Spell Casting",
-        "target": 0
-      },
-      {
-        "level": 10,
-        "name": "Establish Tower",
-        "target": 0
-      }
-    ],
-    "castAsKey": "",
+    "description": "<p>The Magic-user is an enigmatic individual, a scholar of arcane forces and shadowy sorcery. They possess the potential to become formidable adversaries. Yet, at lower levels, their fragility leaves them reliant on the protection of their fellow party members. As Magic-users advance, they typically rise to become the most potent among the character classes, wielding influence over the political fates of mighty kingdoms and crafting extraordinary magical artifacts.</p><h2>Weapon and Armor Restrictions</h2><p>Magic-users dedicate their waking hours to poring over arcane tomes and scrolls, leaving them scant time to practice with weapons or master the skills of physical combat. Consequently, they are restricted to wielding only daggers or staves and are prohibited from using armor.</p>",
+    "castAsKey": "M",
     "abilities": {
       "str": {
         "min": null
@@ -343,32 +331,39 @@
       {
         "level": 1,
         "name": "Spell Casting",
-        "target": 0,
+        "target": null,
         "changes": "",
-        "classKey": ""
+        "classKey": "M",
+        "uuid": ""
       },
       {
         "level": 10,
         "name": "Establish Tower",
-        "target": 0,
+        "target": null,
         "changes": "",
-        "classKey": ""
+        "classKey": "M",
+        "uuid": ""
       }
-    ]
+    ],
+    "firstSpellLevel": 1,
+    "basicProficiency": false,
+    "unskilledToHitMod": -2,
+    "classItems": []
   },
   "effects": [],
   "folder": "oRrldFwTAwccXhIv",
   "flags": {},
-  "_id": "e38pLRiuy2U7gW1x",
   "ownership": {
     "default": 1,
     "0eyrbleKg5gmY59g": 3,
-    "39ANqKV80WQNa3A0": 3
+    "39ANqKV80WQNa3A0": 3,
+    "kS3rwnTPpIltZGhF": 3
   },
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
+  "_id": "IvRSW1HbBkfZCHzv",
   "sort": 0,
-  "_originalKey": "!items!e38pLRiuy2U7gW1x"
+  "_originalKey": "!items!IvRSW1HbBkfZCHzv"
 }

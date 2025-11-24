@@ -7,17 +7,17 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>The afflicted actor is completely paralyzed and cannot perform any physical action.</p>",
+    "description": "<p>Various types of spells and monster attacks can paralyze, or \"freeze,\" a character. If a character is hit by a paralyzing attack and fails a saving throw vs. paralysis, the character is immobilized and unable to do anything. The character is not dead, and a character cannot die from mere paralysis.</p><p>A paralyzed character remains awake and aware of what is happening around him but cannot do anything that requires movement (including speaking, spellcasting, and so forth) until the paralysis ends.</p><p>Hand-to-hand attacks on a paralyzed character automatically hit, but an edged-weapon attack will not automatically kill a paralyzed character as it would a sleeping character. Ranged attacks are made against the victim as if he were AC 9.</p><p>Paralysis itself has no permanent effects of any kind. It lasts for [[/r 2d4 #Turns]] (unless a different number is given in the monster or spell description). The cleric spell cure light wounds can be used to remove the paralysis but will not cure any damage when used for this purpose.</p>",
     "addStatusEffect": false
   },
   "effects": [
     "Eb1Wc8t93lzVPjoY"
   ],
-  "sort": 0,
+  "sort": 2900000,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
-    "L03IyVhotkVVcouL": 3
+    "kS3rwnTPpIltZGhF": 3
   },
   "flags": {},
   "_stats": {

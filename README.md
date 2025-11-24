@@ -8,11 +8,11 @@ This system is incomplete at the moment, a work in progress that acts as a test 
 ### Fantastic Depths Settings:
 *Unless stated otherwise, use the default settings.*
 
-**Actor Compendium:** ```fade-white-box-fmag.white-box-actors```
+**Actor Compendium:** ```fade-white-box-fmag.actors```
 
-**Item Compendium:** ```fade-white-box-fmag.white-box-items```
+**Item Compendium:** ```fade-white-box-fmag.items```
 
-**Rollable Tables Compendium:** ```fade-white-box-fmag.white-box-roll-tables```
+**Rollable Tables Compendium:** ```fade-white-box-fmag.rollTables```
 
 **Encumbrance Tracking:** The system does not currently have a perfect implementation of the White Box's encumbrance system. You could use ```Classic``` for close approximation.
 

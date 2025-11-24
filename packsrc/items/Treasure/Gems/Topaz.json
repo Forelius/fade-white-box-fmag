@@ -1,0 +1,54 @@
+{
+  "folder": "1v7MsNLqeuig673i",
+  "name": "Topaz",
+  "type": "treasure",
+  "img": "modules/fade-compendiums/assets/img/gem/topaz.webp",
+  "system": {
+    "tags": [
+      "gem"
+    ],
+    "description": "<p>Topaz is a gemstone that can appear in golden-yellow or light blue colors. It has a smooth, polished surface with a brilliant, faceted appearance, showcasing its clarity and reflective properties. Topaz is prized for its vibrant hue and sparkling brilliance, making it a popular choice in jewelry.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": 500,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "<p>Topaz is a gemstone that can appear in golden-yellow or light blue colors. It has a smooth, polished surface with a brilliant, faceted appearance, showcasing its clarity and reflective properties. Topaz is prized for its vibrant hue and sparkling brilliance, making it a popular choice in jewelry.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": null,
+    "chargesMax": 0,
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "emafNJpvq5eoiRvM",
+  "sort": 0,
+  "_originalKey": "!items!emafNJpvq5eoiRvM"
+}

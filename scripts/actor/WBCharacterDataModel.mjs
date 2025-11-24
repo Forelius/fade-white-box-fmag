@@ -16,10 +16,9 @@ export class WBCharacterDataModel extends CharacterDataModel {
    }
 
    _prepareDerivedAbilities() {
-      super._prepareDerivedAbilities();
-       const abilityScoreMods = game.settings.get(game.system.id, "abilityScoreMods");
-       const adjustments = game.fade.registry.getSystem("userTables")?.getJsonArray(`ability-mods-${abilityScoreMods}`);
-       const adjustment = adjustments.sort((a, b) => b.min - a.min).find(item => this.abilities.cha.total >= item.min);
+      const abilityScoreMods = game.settings.get(game.system.id, "abilityScoreMods");
+      const adjustments = game.fade.registry.getSystem("userTables")?.getJsonArray(`ability-mods-${abilityScoreMods}`);
+      const adjustment = adjustments.sort((a, b) => b.min - a.min).find(item => this.abilities.cha.total >= item.min);
       // Retainer
       let charisma = this.abilities.cha.value;
       this.retainer.loyaltyMod = this.retainer.loyaltyMod > 0 ? this.retainer.loyaltyMod : (adjustment.loyaltyMod ?? 0);

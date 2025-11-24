@@ -7,17 +7,17 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p><span style=\"font-family: Barlow, sans-serif\">When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible. <br>An invisible creature remains invisible until they attack or cast any spell.</span></p>",
+    "description": "<p>A character who cannot see his opponent due to an invisibility spell suffers a -6 penalty to all attack rolls made against his invisible foe; he has to guess where his target is by hearing. He suffers no penalty to his AC when attacked by an invisible character. Remember, <strong>someone who attacks loses the bonuses of invisibility</strong>!</p><p><span style=\"font-family: Barlow, sans-serif\">When a creature becomes invisible, all items it carries and wears also become invisible. Any invisible item becomes visible again when it leaves the creature's possession (dropped, set down, etc.). A light source (such as a torch) may be made invisible, but the light given off will remain visible. </span></p>",
     "addStatusEffect": false
   },
   "effects": [
     "bdeZjPanfzU99uHr"
   ],
-  "sort": 0,
+  "sort": 3700000,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
-    "L03IyVhotkVVcouL": 3
+    "kS3rwnTPpIltZGhF": 3
   },
   "flags": {},
   "_stats": {

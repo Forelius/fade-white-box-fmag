@@ -1,0 +1,54 @@
+{
+  "folder": "1v7MsNLqeuig673i",
+  "name": "Ruby",
+  "type": "treasure",
+  "img": "modules/fade-compendiums/assets/img/gem/ruby.webp",
+  "system": {
+    "tags": [
+      "gem"
+    ],
+    "description": "<p>Ruby is a gemstone known for its deep red color and brilliance. It typically features a smooth, polished surface and a faceted appearance, enhancing its clarity and vibrant hue. Rubies are highly valued in jewelry for their rich color and elegant sparkle.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": 5000,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "<p>Ruby is a gemstone known for its deep red color and brilliance. It typically features a smooth, polished surface and a faceted appearance, enhancing its clarity and vibrant hue. Rubies are highly valued in jewelry for their rich color and elegant sparkle.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": null,
+    "chargesMax": 0,
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ogciLUiw64KwYxXk",
+  "sort": 0,
+  "_originalKey": "!items!ogciLUiw64KwYxXk"
+}

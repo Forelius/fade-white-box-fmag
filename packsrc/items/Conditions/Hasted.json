@@ -7,17 +7,17 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p><span style=\"font-family: DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, sans-serif, DDG_ProximaNova, DDG_ProximaNova_UI_0, DDG_ProximaNova_UI_1, DDG_ProximaNova_UI_2, DDG_ProximaNova_UI_3, DDG_ProximaNova_UI_4, DDG_ProximaNova_UI_5, DDG_ProximaNova_UI_6, 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif\">A hasted creature moves at twice its normal speed and makes double the normal number of attacks in melee or with missile weapons, while magic use remains unaffected, meaning spellcasters can still only cast one spell per round and magical devices are not impacted.</span></p>",
+    "description": "<p>A hasted creature moves at twice its normal speed and makes double the normal number of attacks in melee or with missile weapons, while magic use remains unaffected, meaning spellcasters can still only cast one spell per round and magical devices are not impacted.</p>",
     "addStatusEffect": false
   },
   "effects": [
     "wL9fR9eNnUu0QEvk"
   ],
-  "sort": 0,
+  "sort": 4200000,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
-    "L03IyVhotkVVcouL": 3
+    "kS3rwnTPpIltZGhF": 3
   },
   "flags": {},
   "_stats": {
@@ -29,7 +29,7 @@
     {
       "_originalKey": "!items.effects!cXvJhpE5XD2k0Hmm.wL9fR9eNnUu0QEvk",
       "name": "Hasted",
-      "img": "systems/fantastic-depths/assets/img/ui/sprint.svg",
+      "img": "systems/fantastic-depths/assets/img/ui/sprint.png",
       "disabled": false,
       "_id": "wL9fR9eNnUu0QEvk",
       "type": "base",

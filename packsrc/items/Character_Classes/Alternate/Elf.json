@@ -1,0 +1,325 @@
+{
+  "name": "Elf",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Elf",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 1,
+        "percentage": -10
+      },
+      {
+        "concatLogic": "and",
+        "ability": "str",
+        "minScore": 1,
+        "percentage": -10
+      },
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 9,
+        "percentage": 0
+      },
+      {
+        "concatLogic": "and",
+        "ability": "str",
+        "minScore": 9,
+        "percentage": 0
+      },
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 13,
+        "percentage": 5
+      },
+      {
+        "concatLogic": "and",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5
+      },
+      {
+        "concatLogic": "none",
+        "ability": "int",
+        "minScore": 15,
+        "percentage": 10
+      },
+      {
+        "concatLogic": "and",
+        "ability": "str",
+        "minScore": 15,
+        "percentage": 10
+      }
+    ],
+    "maxLevel": 8,
+    "maxSpellLevel": 3,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 5000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 10000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "2d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 20000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 40000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "3d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 80000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 160000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 320000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "breath": 16,
+        "paralysis": 14,
+        "spell": 15,
+        "wand": 14,
+        "save": 14,
+        "death": 12
+      },
+      {
+        "level": 2,
+        "breath": 15,
+        "paralysis": 13,
+        "spell": 15,
+        "wand": 13,
+        "save": 13,
+        "death": 12
+      },
+      {
+        "level": 3,
+        "breath": 15,
+        "paralysis": 12,
+        "spell": 14,
+        "wand": 12,
+        "save": 12,
+        "death": 11
+      },
+      {
+        "level": 4,
+        "breath": 14,
+        "paralysis": 12,
+        "spell": 13,
+        "wand": 12,
+        "save": 11,
+        "death": 11
+      },
+      {
+        "level": 5,
+        "breath": 13,
+        "paralysis": 11,
+        "spell": 13,
+        "wand": 11,
+        "save": 10,
+        "death": 10
+      },
+      {
+        "level": 6,
+        "breath": 12,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 11,
+        "save": 9,
+        "death": 9
+      },
+      {
+        "level": 7,
+        "breath": 11,
+        "paralysis": 9,
+        "spell": 12,
+        "wand": 10,
+        "save": 8,
+        "death": 9
+      },
+      {
+        "level": 8,
+        "breath": 10,
+        "paralysis": 8,
+        "spell": 11,
+        "wand": 10,
+        "save": 7,
+        "death": 8
+      }
+    ],
+    "spells": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        3,
+        2
+      ],
+      [
+        4,
+        3,
+        2
+      ]
+    ],
+    "alignment": "Any",
+    "minCon": 3,
+    "minInt": 9,
+    "minDex": 3,
+    "minWis": 3,
+    "key": "E",
+    "description": "<p>Some Referees may choose to permit Elves to progress as a hybrid of Fighter and Magic-user, rather than alternating between the two. In this model, the following advancement table can be utilized. Aside from Character Advancement and Weapon and Armor Restrictions, the Elven Race Abilities will remain unchanged.</p><h3>Weapon and Armor Restrictions</h3><p>Elves possess the unique advantage of wielding both magic and armor simultaneously; therefore, the Referee may restrict them to wearing chain mail. Additionally, Elves are not permitted to use two-handed weapons (such as two-handed swords or polearms) or shields while casting spells.</p>",
+    "classAbilities": [
+      {
+        "level": 1,
+        "name": "Hereditary Foes",
+        "target": 0
+      },
+      {
+        "level": 1,
+        "name": "Immune to Undead Paralysis",
+        "target": 0
+      },
+      {
+        "level": 1,
+        "name": "Keen Detection",
+        "target": 4
+      }
+    ],
+    "castAsKey": "M",
+    "specialAbilities": [
+      {
+        "level": 1,
+        "name": "Hereditary Foes",
+        "target": null,
+        "changes": "",
+        "classKey": "E",
+        "uuid": ""
+      },
+      {
+        "level": 1,
+        "name": "Immune to Undead Paralysis",
+        "target": null,
+        "changes": "",
+        "classKey": "E",
+        "uuid": ""
+      },
+      {
+        "level": 1,
+        "name": "Keen Detection",
+        "target": 4,
+        "changes": "",
+        "classKey": "E",
+        "uuid": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "KJPHa1NqjiPC2s0d",
+  "flags": {},
+  "_id": "2NiEMVh69JDCqp8d",
+  "ownership": {
+    "default": 1,
+    "0eyrbleKg5gmY59g": 3,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 200000,
+  "_originalKey": "!items!2NiEMVh69JDCqp8d"
+}

@@ -1,0 +1,54 @@
+{
+  "folder": "1v7MsNLqeuig673i",
+  "name": "Crystal",
+  "type": "treasure",
+  "img": "modules/fade-compendiums/assets/img/gem/crystal.webp",
+  "system": {
+    "tags": [
+      "gem"
+    ],
+    "description": "<p>A crystal gemstone is typically transparent, showcasing a clear and faceted structure that reflects light, creating a sparkling effect. Its clarity and sharp edges make it highly valued for its brilliance and aesthetic appeal, commonly used in jewelry and decorative items.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": 50,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "<p>A crystal gemstone is typically transparent, showcasing a clear and faceted structure that reflects light, creating a sparkling effect. Its clarity and sharp edges make it highly valued for its brilliance and aesthetic appeal, commonly used in jewelry and decorative items.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": null,
+    "chargesMax": 0,
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ko9BZwBQlSVcri5V",
+  "sort": 0,
+  "_originalKey": "!items!ko9BZwBQlSVcri5V"
+}

@@ -1,0 +1,305 @@
+{
+  "name": "Fighter",
+  "type": "class",
+  "img": "systems/fantastic-depths/assets/img/item/class.webp",
+  "system": {
+    "species": "Human",
+    "primeReqs": [
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 1,
+        "percentage": -10
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 9,
+        "percentage": 0
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 13,
+        "percentage": 5
+      },
+      {
+        "concatLogic": "none",
+        "ability": "str",
+        "minScore": 15,
+        "percentage": 10
+      }
+    ],
+    "maxLevel": 10,
+    "firstLevel": 1,
+    "levels": [
+      {
+        "level": 1,
+        "xp": 0,
+        "thac0": 19,
+        "thbonus": 0,
+        "hd": "1d6+1",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 2,
+        "xp": 2000,
+        "thac0": 18,
+        "thbonus": 1,
+        "hd": "2d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 3,
+        "xp": 4000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "3d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 4,
+        "xp": 8000,
+        "thac0": 17,
+        "thbonus": 2,
+        "hd": "4d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 5,
+        "xp": 16000,
+        "thac0": 16,
+        "thbonus": 3,
+        "hd": "5d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 6,
+        "xp": 32000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "6d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 7,
+        "xp": 64000,
+        "thac0": 15,
+        "thbonus": 4,
+        "hd": "7d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 8,
+        "xp": 128000,
+        "thac0": 14,
+        "thbonus": 5,
+        "hd": "8d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 9,
+        "xp": 256000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "9d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      },
+      {
+        "level": 10,
+        "xp": 512000,
+        "thac0": 13,
+        "thbonus": 6,
+        "hd": "10d6",
+        "hdcon": true,
+        "title": "",
+        "attackRank": ""
+      }
+    ],
+    "saves": [
+      {
+        "level": 1,
+        "breath": 15,
+        "paralysis": 14,
+        "spell": 16,
+        "wand": 13,
+        "save": 14,
+        "death": 12
+      },
+      {
+        "level": 2,
+        "breath": 15,
+        "paralysis": 14,
+        "spell": 16,
+        "wand": 13,
+        "save": 13,
+        "death": 12
+      },
+      {
+        "level": 3,
+        "breath": 15,
+        "paralysis": 12,
+        "spell": 14,
+        "wand": 11,
+        "save": 12,
+        "death": 10
+      },
+      {
+        "level": 4,
+        "breath": 12,
+        "paralysis": 12,
+        "spell": 14,
+        "wand": 11,
+        "save": 11,
+        "death": 10
+      },
+      {
+        "level": 5,
+        "breath": 12,
+        "paralysis": 12,
+        "spell": 14,
+        "wand": 11,
+        "save": 10,
+        "death": 10
+      },
+      {
+        "level": 6,
+        "breath": 12,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 9,
+        "save": 9,
+        "death": 8
+      },
+      {
+        "level": 7,
+        "breath": 12,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 9,
+        "save": 8,
+        "death": 8
+      },
+      {
+        "level": 8,
+        "breath": 9,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 9,
+        "save": 7,
+        "death": 8
+      },
+      {
+        "level": 9,
+        "breath": 9,
+        "paralysis": 8,
+        "spell": 10,
+        "wand": 7,
+        "save": 6,
+        "death": 6
+      },
+      {
+        "level": 10,
+        "breath": 9,
+        "paralysis": 8,
+        "spell": 10,
+        "wand": 7,
+        "save": 5,
+        "death": 6
+      }
+    ],
+    "maxSpellLevel": 0,
+    "alignment": "Any",
+    "minCon": 3,
+    "minInt": 3,
+    "minDex": 3,
+    "minWis": 3,
+    "spells": [],
+    "key": "FA",
+    "description": "<p>The Fighter is a skilled combatant, honed in the arts of warfare, adept with armor and weapons. Your character could be a fierce Viking raider, a wandering samurai, or a chivalrous medieval knight. As the most well-equipped class to both inflict and withstand damage, Fighters frequently find themselves at the forefront of battle, clashing directly with dragons, goblins, and sinister cultists. If you take on the role of the party’s Fighter, the gritty, hands-on tasks fall to you.</p><h2>Weapon and Armor Restrictions</h2><p>Fighters, being thoroughly trained in the ways of warfare, face no limitations on the types of weapons or armor they may wield.</p>",
+    "classAbilities": [
+      {
+        "level": 1,
+        "name": "Combat Fury",
+        "target": 0
+      },
+      {
+        "level": 9,
+        "name": "Establish Stronghold",
+        "target": 0
+      }
+    ],
+    "castAsKey": "",
+    "abilities": {
+      "str": {
+        "min": null
+      },
+      "int": {
+        "min": null
+      },
+      "wis": {
+        "min": null
+      },
+      "dex": {
+        "min": null
+      },
+      "con": {
+        "min": null
+      },
+      "cha": {
+        "min": null
+      }
+    },
+    "specialAbilities": [
+      {
+        "level": null,
+        "name": "Combat Fury",
+        "target": null,
+        "changes": "",
+        "classKey": "F",
+        "uuid": ""
+      },
+      {
+        "level": null,
+        "name": "Establish Stronghold",
+        "target": null,
+        "changes": "",
+        "classKey": "F",
+        "uuid": ""
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "KJPHa1NqjiPC2s0d",
+  "flags": {},
+  "ownership": {
+    "default": 1,
+    "0eyrbleKg5gmY59g": 3,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Yhb6PbnwWehNvwdT",
+  "sort": 150000,
+  "_originalKey": "!items!Yhb6PbnwWehNvwdT"
+}

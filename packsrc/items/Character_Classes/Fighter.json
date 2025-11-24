@@ -7,27 +7,21 @@
     "primeReqs": [
       {
         "concatLogic": "none",
-        "ability": "str",
+        "ability": "wis",
         "minScore": 15,
-        "percentage": 5,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
       },
       {
         "concatLogic": "none",
-        "ability": "wis",
+        "ability": "cha",
         "minScore": 15,
-        "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
       },
       {
-        "concatLogic": "and",
+        "concatLogic": "none",
         "ability": "str",
         "minScore": 15,
-        "percentage": 10,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
       }
     ],
     "maxLevel": 10,
@@ -137,106 +131,100 @@
     "saves": [
       {
         "level": 1,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 15,
+        "paralysis": 14,
+        "spell": 16,
+        "wand": 13,
         "save": 14,
-        "death": null
+        "death": 12
       },
       {
         "level": 2,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 15,
+        "paralysis": 14,
+        "spell": 16,
+        "wand": 13,
         "save": 13,
-        "death": null
+        "death": 12
       },
       {
         "level": 3,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 15,
+        "paralysis": 12,
+        "spell": 14,
+        "wand": 11,
         "save": 12,
-        "death": null
+        "death": 10
       },
       {
         "level": 4,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 12,
+        "spell": 14,
+        "wand": 11,
         "save": 11,
-        "death": null
+        "death": 10
       },
       {
         "level": 5,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 12,
+        "spell": 14,
+        "wand": 11,
         "save": 10,
-        "death": null
+        "death": 10
       },
       {
         "level": 6,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 9,
         "save": 9,
-        "death": null
+        "death": 8
       },
       {
         "level": 7,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 9,
         "save": 8,
-        "death": null
+        "death": 8
       },
       {
         "level": 8,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 9,
+        "paralysis": 10,
+        "spell": 12,
+        "wand": 9,
         "save": 7,
-        "death": null
+        "death": 8
       },
       {
         "level": 9,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 9,
+        "paralysis": 8,
+        "spell": 10,
+        "wand": 7,
         "save": 6,
-        "death": null
+        "death": 6
       },
       {
         "level": 10,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 9,
+        "paralysis": 8,
+        "spell": 10,
+        "wand": 7,
         "save": 5,
-        "death": null
+        "death": 6
       }
     ],
     "maxSpellLevel": 0,
     "alignment": "Any",
-    "minCon": 3,
-    "minInt": 3,
-    "minDex": 3,
-    "minWis": 3,
     "spells": [],
     "key": "F",
-    "description": "<p><span style=\"font-family: sans-serif\">The Fighter is a skilled combatant, honed in the arts of warfare, adept with armor and weapons. Your character could be a fierce Viking raider, a wandering samurai, or a chivalrous medieval knight. As the most well-equipped class to both inflict and withstand damage, Fighters frequently find themselves at the forefront of battle, clashing directly with dragons, goblins, and sinister cultists. If you take on the role of the party’s Fighter, the gritty, hands-on tasks fall to you.</span></p><h3>Weapon and Armor Restrictions</h3><p><span style=\"font-family: sans-serif\">Fighters, being thoroughly trained in the ways of warfare, face no limitations on the types of weapons or armor they may wield.</span></p>",
-    "classAbilities": [
-      {
-        "level": 1,
-        "name": "Combat Fury",
-        "target": 0
-      },
-      {
-        "level": 9,
-        "name": "Establish Stronghold",
-        "target": 0
-      }
-    ],
+    "description": "<p>The Fighter is a skilled combatant, honed in the arts of warfare, adept with armor and weapons. Your character could be a fierce Viking raider, a wandering samurai, or a chivalrous medieval knight. As the most well-equipped class to both inflict and withstand damage, Fighters frequently find themselves at the forefront of battle, clashing directly with dragons, goblins, and sinister cultists. If you take on the role of the party’s Fighter, the gritty, hands-on tasks fall to you.</p><h2>Weapon and Armor Restrictions</h2><p>Fighters, being thoroughly trained in the ways of warfare, face no limitations on the types of weapons or armor they may wield.</p>",
     "castAsKey": "",
     "abilities": {
       "str": {
@@ -260,20 +248,26 @@
     },
     "specialAbilities": [
       {
-        "level": 1,
+        "level": null,
         "name": "Combat Fury",
-        "target": 0,
+        "target": null,
         "changes": "",
-        "classKey": ""
+        "classKey": "F",
+        "uuid": ""
       },
       {
-        "level": 9,
+        "level": null,
         "name": "Establish Stronghold",
-        "target": 0,
+        "target": null,
         "changes": "",
-        "classKey": ""
+        "classKey": "F",
+        "uuid": ""
       }
-    ]
+    ],
+    "firstSpellLevel": 1,
+    "basicProficiency": false,
+    "unskilledToHitMod": -2,
+    "classItems": []
   },
   "effects": [],
   "folder": "oRrldFwTAwccXhIv",
@@ -281,13 +275,14 @@
   "ownership": {
     "default": 1,
     "0eyrbleKg5gmY59g": 3,
-    "39ANqKV80WQNa3A0": 3
+    "39ANqKV80WQNa3A0": 3,
+    "kS3rwnTPpIltZGhF": 3
   },
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "Yhb6PbnwWehNvwdT",
+  "_id": "CprGrkr7YWODTx8v",
   "sort": 0,
-  "_originalKey": "!items!Yhb6PbnwWehNvwdT"
+  "_originalKey": "!items!CprGrkr7YWODTx8v"
 }

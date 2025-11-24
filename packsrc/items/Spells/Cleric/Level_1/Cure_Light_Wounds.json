@@ -1,32 +1,30 @@
 {
   "folder": "6wIusiB0Li3lql8T",
-  "name": "Cure Light Wounds",
+  "name": "Cure Light Wounds*",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
-    "tags": [
-      "reversed"
-    ],
+    "tags": [],
     "description": "<p>The caster cures [[/r 1d6+1 #Cure Light Wounds]] hp.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
     "range": "Touch",
-    "duration": "Permanent",
+    "duration": "Instantaneous",
     "effect": "One living creature",
     "memorized": 2,
     "cast": 1,
     "targetSelf": true,
     "targetOther": true,
-    "dmgFormula": "1d6+1",
-    "healFormula": "",
+    "dmgFormula": "",
+    "healFormula": "1d6+1",
     "maxTargetFormula": "1",
     "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
-    "attackType": "melee",
-    "damageType": "magic",
+    "attackType": "",
+    "damageType": "heal",
     "classes": [
       {
         "name": "Cleric",

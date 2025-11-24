@@ -6,7 +6,7 @@
   "system": {
     "key": "invulnerable",
     "shortName": "",
-    "description": "",
+    "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p>",
     "addStatusEffect": true
   },
   "effects": [
@@ -16,14 +16,14 @@
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
-    "L03IyVhotkVVcouL": 3
+    "kS3rwnTPpIltZGhF": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 700000,
+  "sort": 5100000,
   "_originalKey": "!items!qp7GJ2hwgZsb5nQ5",
   "embedded": [
     {
@@ -59,7 +59,7 @@
         }
       ],
       "description": "",
-      "tint": "#ffffff",
+      "tint": "#ffe5fe",
       "transfer": true,
       "statuses": [
         "magicShield"

@@ -1,22 +1,22 @@
 {
   "folder": "6wIusiB0Li3lql8T",
-  "name": "Detect Law",
+  "name": "Detect Law*",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
     "tags": [],
-    "description": "<p>The caster detects creatures of Law, or those with lawful enchantments, intentions, thoughts, or auras within the spell’s range.</p><p><br>May only be casted by Evil Clerics.</p>",
+    "description": "<p>The caster detects creatures of Law, or those with lawful enchantments, intentions, thoughts, or auras within the spell’s range.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
     "range": "120'",
     "duration": "6 turns (1 hour)",
-    "effect": "Everything within 120'",
+    "effect": "Detect creatures of Law within 120'",
     "memorized": 0,
     "cast": 0,
     "targetSelf": true,
-    "targetOther": true,
+    "targetOther": false,
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
