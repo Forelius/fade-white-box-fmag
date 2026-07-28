@@ -1,0 +1,46 @@
+{
+  "folder": "j4h5O533LcqZheV3",
+  "name": "Dragon Breath",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "_id": "J0tjUrcAfvyoUeBO",
+  "system": {
+    "tags": [],
+    "description": "",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "1d20",
+    "operator": "eq",
+    "target": "15",
+    "rollMode": "publicroll",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "savingThrow": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "save",
+    "shortName": "Breath",
+    "combatManeuver": "null",
+    "customSaveCode": "breath",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null,
+    "conditions": []
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!J0tjUrcAfvyoUeBO"
+}

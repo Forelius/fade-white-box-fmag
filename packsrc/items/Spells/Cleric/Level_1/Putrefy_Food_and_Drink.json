@@ -1,6 +1,6 @@
 {
   "folder": "6wIusiB0Li3lql8T",
-  "name": "Putrefy Food and Drink",
+  "name": "Putrefy Food and Drink*",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
@@ -11,15 +11,15 @@
     },
     "spellLevel": 1,
     "range": "close/touch",
-    "duration": "Permanent",
-    "effect": "See description",
+    "duration": "Instantaneous",
+    "effect": "Putrefies food and drink",
     "memorized": 0,
     "cast": 0,
-    "targetSelf": true,
+    "targetSelf": false,
     "targetOther": true,
     "dmgFormula": "",
     "healFormula": "",
-    "maxTargetFormula": "1",
+    "maxTargetFormula": "",
     "durationFormula": "",
     "savingThrow": "",
     "saveDmgFormula": null,
@@ -29,10 +29,6 @@
       {
         "name": "Cleric",
         "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
-      },
-      {
-        "name": "Druid",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
       }
     ],
     "conditions": []

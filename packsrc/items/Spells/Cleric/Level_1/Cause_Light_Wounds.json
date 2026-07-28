@@ -1,19 +1,19 @@
 {
   "folder": "6wIusiB0Li3lql8T",
-  "name": "Cause Light Wounds",
+  "name": "Cause Light Wounds*",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
     "tags": [
       "reversed"
     ],
-    "description": "<p>The caster causes [[/r 1d6+1 #Cause Light Wounds]] damage.</p><p>May only be used by Evil Clerics.</p>",
+    "description": "<p>The caster causes [[/r 1d6+1 #Cause Light Wounds]] damage.</p>",
     "gm": {
       "notes": ""
     },
     "spellLevel": 1,
     "range": "Touch",
-    "duration": "Permanent",
+    "duration": "Instantaneous",
     "effect": "One living creature",
     "memorized": 2,
     "cast": 1,

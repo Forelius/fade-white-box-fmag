@@ -7,11 +7,21 @@
     "primeReqs": [
       {
         "concatLogic": "none",
-        "ability": "wis",
-        "percentage": 10,
+        "ability": "cha",
         "minScore": 15,
-        "xpBonus5": null,
-        "xpBonus10": null
+        "percentage": 5
+      },
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "minScore": 15,
+        "percentage": 5
+      },
+      {
+        "concatLogic": "none",
+        "ability": "wis",
+        "minScore": 15,
+        "percentage": 5
       }
     ],
     "maxLevel": 10,
@@ -122,83 +132,93 @@
     "saves": [
       {
         "level": 1,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 16,
+        "paralysis": 14,
+        "spell": 15,
+        "wand": 12,
         "save": 15,
-        "death": null
+        "death": 11
       },
       {
         "level": 2,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 15,
+        "paralysis": 13,
+        "spell": 14,
+        "wand": 11,
         "save": 14,
-        "death": null
+        "death": 10
       },
       {
         "level": 3,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 15,
+        "paralysis": 13,
+        "spell": 14,
+        "wand": 11,
         "save": 13,
-        "death": null
+        "death": 10
       },
       {
         "level": 4,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 14,
+        "paralysis": 12,
+        "spell": 13,
+        "wand": 10,
         "save": 12,
-        "death": null
+        "death": 9
       },
       {
         "level": 5,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 14,
+        "paralysis": 12,
+        "spell": 13,
+        "wand": 10,
         "save": 11,
-        "death": null
+        "death": 9
       },
       {
         "level": 6,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 13,
+        "paralysis": 11,
+        "spell": 12,
+        "wand": 9,
         "save": 10,
-        "death": null
+        "death": 8
       },
       {
         "level": 7,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 13,
+        "paralysis": 11,
+        "spell": 12,
+        "wand": 9,
         "save": 9,
-        "death": null
+        "death": 8
       },
       {
         "level": 8,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 10,
+        "spell": 11,
+        "wand": 8,
         "save": 8,
-        "death": null
+        "death": 7
       },
       {
         "level": 9,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 12,
+        "paralysis": 10,
+        "spell": 11,
+        "wand": 8,
         "save": 7,
-        "death": null
+        "death": 7
       },
       {
         "level": 10,
-        "paralysis": null,
-        "spell": null,
-        "wand": null,
+        "breath": 11,
+        "paralysis": 9,
+        "spell": 10,
+        "wand": 7,
         "save": 6,
-        "death": null
+        "death": 6
       }
     ],
     "spells": [
@@ -274,25 +294,9 @@
       ]
     ],
     "alignment": "Any",
-    "minCon": 3,
-    "minInt": 3,
-    "minDex": 3,
-    "minWis": 3,
     "key": "C",
     "description": "<p>Clerics are priests clad in armor, devoted to serving a specific alignment, religion, or patron deity. Players are free to invent these details if the Referee has not established a particular mythology for the campaign. Often, mythologies and other elements of a campaign world develop over time, especially if the Referee is new to crafting such settings.</p><p>The Cleric stands as a steadfast defender of his faith and moral alignment. This character could embody a grim witch-hunter, a demon-exorcising priest, a radiant knight of the faith, or a covert operative within a temple’s hierarchy. Given that many of the Cleric’s skills focus on healing and protection, they typically assume a supportive role in battle. Yet, when necessary, they can fight alongside the party’s Fighters, holding their own in combat—at least temporarily. Clerics must align with either Lawful (good) or Chaotic (evil) principles; Neutral Clerics do not exist unless the Referee explicitly permits otherwise.</p><h3>Weapon and Armor Restrictions</h3><p>Due to the clandestine nature of their religious practices, Clerics are limited to wielding blunt weapons such as clubs, flails, maces, and similar arms. The sole missile weapon permitted to them is oil. However, Clerics face no restrictions regarding the use of armor.</p><h3>Chaotic Clerics and the Undead (optional)</h3><p>Many Referees permit both Chaotic and Lawful Clerics to turn the Undead. When Chaotic Clerics are granted this ability, a result of “D” on the turning table is interpreted differently: rather than destroying the undead creature, the Chaotic Cleric compels it into servitude. The undead will obey the character’s commands, though the Referee determines the boundaries of this control. For instance, the Cleric might be restricted to commanding only a limited number of undead at once—or a limited total of hit dice—with the Cleric’s level serving as a practical cap, whether that limit applies to the maximum number of undead creatures or their combined hit dice.</p>",
-    "classAbilities": [
-      {
-        "level": 1,
-        "name": "Turn Undead",
-        "target": 0
-      },
-      {
-        "level": 10,
-        "name": "Establish Stronghold",
-        "target": 0
-      }
-    ],
-    "castAsKey": "",
+    "castAsKey": "C",
     "abilities": {
       "str": {
         "min": null
@@ -317,18 +321,32 @@
       {
         "level": 1,
         "name": "Turn Undead",
-        "target": 0,
+        "target": null,
         "changes": "",
-        "classKey": ""
+        "classKey": "C",
+        "uuid": ""
+      },
+      {
+        "level": 2,
+        "name": "Spell Casting",
+        "target": null,
+        "changes": "",
+        "classKey": "C",
+        "uuid": ""
       },
       {
         "level": 10,
-        "name": "Establish Stronghold",
-        "target": 0,
+        "name": "Establish Temple",
+        "target": null,
         "changes": "",
-        "classKey": ""
+        "classKey": "C",
+        "uuid": ""
       }
-    ]
+    ],
+    "firstSpellLevel": 1,
+    "basicProficiency": false,
+    "unskilledToHitMod": -2,
+    "classItems": []
   },
   "effects": [],
   "folder": "oRrldFwTAwccXhIv",
@@ -336,13 +354,14 @@
   "ownership": {
     "default": 1,
     "0eyrbleKg5gmY59g": 3,
-    "39ANqKV80WQNa3A0": 3
+    "39ANqKV80WQNa3A0": 3,
+    "kS3rwnTPpIltZGhF": 3
   },
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "MVzAiO7qKr1Kw8vg",
+  "_id": "IZXBWx9BLHLLSsOt",
   "sort": 0,
-  "_originalKey": "!items!MVzAiO7qKr1Kw8vg"
+  "_originalKey": "!items!IZXBWx9BLHLLSsOt"
 }

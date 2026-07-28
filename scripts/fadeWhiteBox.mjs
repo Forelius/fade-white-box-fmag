@@ -24,15 +24,15 @@ Hooks.once('beforeFadeReady', async (fadeRegistry) => {
    console.debug('FWB: beforeFadeReady hook called.');
    if (!game.settings.get("fantastic-depths", "actorPack")) {
       console.log("No actors pack specified, assigning white box.")
-      await game.settings.set("fantastic-depths", "actorPack", "fade-white-box-fmag.white-box-actors");
+      await game.settings.set("fantastic-depths", "actorPack", "fade-white-box-fmag.actors");
    }
    if (!game.settings.get("fantastic-depths", "itemPack")) {
       console.log("No items pack specified, assigning white box.")
-      await game.settings.set("fantastic-depths", "itemPack", "fade-white-box-fmag.white-box-items");
+      await game.settings.set("fantastic-depths", "itemPack", "fade-white-box-fmag.items");
    }
    if (!game.settings.get("fantastic-depths", "rollTablePack")) {
       console.log("No roll-tables pack specified, assigning white box.")
-      await game.settings.set("fantastic-depths", "rollTablePack", "fade-white-box-fmag.white-box-roll-tables");
+      await game.settings.set("fantastic-depths", "rollTablePack", "fade-white-box-fmag.rollTables");
    }
 });
 

@@ -1,0 +1,52 @@
+{
+  "folder": "QzAWBUfiEO1gIpUI",
+  "name": "Healer's Kit Supplies",
+  "type": "item",
+  "img": "icons/tools/laboratory/bowl-herbs-green.webp",
+  "_id": "bnP90iLwYpOQmJ4Z",
+  "system": {
+    "shortName": "",
+    "tags": [],
+    "description": "<p>Supplies used for a healer's kit. Requires the Healer's Kit item and the Healing skill to be used.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "charges": null,
+    "quantity": 15,
+    "quantityMax": 15,
+    "weight": 0,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
+    "isIdentified": true,
+    "isCursed": false,
+    "chargesMax": 0,
+    "weightEquipped": null,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 2200000,
+  "_originalKey": "!items!bnP90iLwYpOQmJ4Z"
+}

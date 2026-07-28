@@ -5,7 +5,7 @@
   "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
   "system": {
     "tags": [],
-    "description": "<p><span style=\"font-family: sans-serif\">Upon attaining the ninth level, a Fighter who opts to construct a castle achieves the rank of “Baron” or “Baroness,” a title granted by the local ruler or monarch. The character may then draw a contingent of soldiers who pledge their loyalty and service as devoted followers.</span></p>",
+    "description": "<p>Upon attaining the ninth level, a Fighter who opts to construct a castle achieves the rank of “Baron” or “Baroness,” a title granted by the local ruler or monarch. The character may then draw a contingent of soldiers who pledge their loyalty and service as devoted followers.</p>",
     "gm": {
       "notes": ""
     },

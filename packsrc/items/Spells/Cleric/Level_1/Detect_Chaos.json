@@ -1,6 +1,6 @@
 {
   "folder": "6wIusiB0Li3lql8T",
-  "name": "Detect Chaos",
+  "name": "Detect Chaos*",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
@@ -12,11 +12,11 @@
     "spellLevel": 1,
     "range": "120'",
     "duration": "6 turns (1 hour)",
-    "effect": "Everything within 120'",
+    "effect": "Detects creatures of Chaos within 120'",
     "memorized": 0,
     "cast": 0,
     "targetSelf": true,
-    "targetOther": true,
+    "targetOther": false,
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",

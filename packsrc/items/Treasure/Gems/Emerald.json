@@ -1,0 +1,54 @@
+{
+  "folder": "1v7MsNLqeuig673i",
+  "name": "Emerald",
+  "type": "treasure",
+  "img": "modules/fade-compendiums/assets/img/gem/emerald.webp",
+  "system": {
+    "tags": [
+      "gem"
+    ],
+    "description": "<p>Emerald is a gemstone known for its rich green color and vibrant hue. It typically has a smooth, polished surface with a faceted appearance, enhancing its brilliance and clarity. Highly valued in jewelry, emeralds are prized for their striking beauty and elegance.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 1,
+    "cost": 5000,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "equippable": false,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "<p>Emerald is a gemstone known for its rich green color and vibrant hue. It typically has a smooth, polished surface with a faceted appearance, enhancing its brilliance and clarity. Highly valued in jewelry, emeralds are prized for their striking beauty and elegance.</p>",
+    "isIdentified": true,
+    "isCursed": false,
+    "charges": null,
+    "chargesMax": 0,
+    "weightEquipped": 1,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": false,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "fFapUROoPYmUqRbW",
+  "sort": 0,
+  "_originalKey": "!items!fFapUROoPYmUqRbW"
+}

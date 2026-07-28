@@ -1,10 +1,11 @@
 {
-  "folder": "XoAsey6QpmsxapgN",
+  "folder": "u7s4NR16AZdcIm0l",
   "name": "Arrows",
-  "type": "item",
+  "type": "ammo",
   "img": "icons/weapons/ammunition/arrows-war-white.webp",
+  "_id": "uqmGGpdhi0ydtN5f",
   "system": {
-    "tags": [],
+    "shortName": "",
     "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
     "gm": {
       "notes": ""
@@ -12,45 +13,43 @@
     "quantity": 20,
     "quantityMax": 20,
     "weight": 0.5,
+    "weightEquipped": 0.5,
     "cost": 5,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
     "equipped": false,
-    "container": false,
     "equippable": true,
-    "fuelType": "",
     "ammoType": "arrow",
-    "shortName": "",
-    "isAmmo": false,
-    "unidentifiedName": "Arrows",
-    "unidentifiedDesc": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "unidentifiedName": "",
+    "unidentifiedDesc": "",
     "isIdentified": true,
     "isCursed": false,
-    "charges": 0,
-    "chargesMax": 0,
+    "isDropped": false,
     "savingThrow": "",
-    "dmgFormula": "",
     "healFormula": "",
     "damageType": "piercing",
-    "isUsable": false,
-    "weightEquipped": 0.5,
-    "isOpen": false,
-    "isDropped": false,
-    "isTreasure": false
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 0,
+    "chargesMax": 0
   },
   "effects": [],
+  "sort": 0,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
-    "L03IyVhotkVVcouL": 3
+    "kS3rwnTPpIltZGhF": 3
   },
   "flags": {},
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "nMPRLcrTlTtp82BK",
-  "sort": 100000,
-  "_originalKey": "!items!nMPRLcrTlTtp82BK"
+  "_originalKey": "!items!uqmGGpdhi0ydtN5f"
 }

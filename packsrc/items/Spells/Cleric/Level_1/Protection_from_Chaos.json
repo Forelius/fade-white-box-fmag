@@ -1,6 +1,6 @@
 {
   "folder": "6wIusiB0Li3lql8T",
-  "name": "Protection from Chaos",
+  "name": "Protection from Chaos*",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
@@ -13,12 +13,12 @@
     },
     "spellLevel": 1,
     "range": "Personal",
-    "duration": "12 turns",
-    "effect": "The caster only",
+    "duration": "12 turns (2 hours)",
+    "effect": "Protect from chaotic creatures",
     "memorized": 0,
     "cast": 0,
     "targetSelf": true,
-    "targetOther": true,
+    "targetOther": false,
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
@@ -30,7 +30,8 @@
     "conditions": [
       {
         "name": "Protected",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.4iesuDY5xhbUiS86",
+        "remove": false
       }
     ],
     "classes": [
