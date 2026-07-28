@@ -3,9 +3,9 @@
   "title": "FADE - White Box: FMAG",
   "version": "0.1.0-rc.5",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "13"
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "14"
   },
   "relationships": {
     "systems": [
@@ -44,7 +44,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "actors",
@@ -55,7 +56,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "rollTables",
@@ -66,7 +68,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "url": "https://github.com/Forelius/fade-white-box-fmag",
