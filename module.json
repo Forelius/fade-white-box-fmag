@@ -1,7 +1,7 @@
 {
   "id": "fade-white-box-fmag",
   "title": "FADE - White Box: FMAG",
-  "version": "0.1.0-rc.6",
+  "version": "0.2.0-rc.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14",
