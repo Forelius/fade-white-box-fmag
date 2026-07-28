@@ -32,7 +32,7 @@ Hooks.once('beforeFadeReady', async (fadeRegistry) => {
    }
    if (!game.settings.get("fantastic-depths", "rollTablePack")) {
       console.log("No roll-tables pack specified, assigning white box.")
-      await game.settings.set("fantastic-depths", "rollTablePack", "fade-white-box-fmag.rollTdecomppacksables");
+      await game.settings.set("fantastic-depths", "rollTablePack", "fade-white-box-fmag.rollTables");
    }
 });
 

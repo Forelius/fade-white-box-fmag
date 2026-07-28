@@ -1,4 +1,4 @@
-import { CharacterDataModel } from '/systems/fantastic-depths/module/actor/dataModel/CharacterDataModel.mjs';
+import { CharacterDataModel } from '/systems/fantastic-depths/module/fantastic-depths.min.js';
 
 export class WBCharacterDataModel extends CharacterDataModel {
    static defineSchema() {

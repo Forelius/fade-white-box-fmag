@@ -4,7 +4,8 @@
  * @return {Promise}
  */
 export const preloadHandlebarsTemplates = async function () {
-   return loadTemplates({
+   const fn = foundry?.applications?.handlebars?.loadTemplates ?? loadTemplates;
+   return fn({
       characterDesc: 'modules/fade-white-box-fmag/templates/character-desc.hbs',
    });
 };
