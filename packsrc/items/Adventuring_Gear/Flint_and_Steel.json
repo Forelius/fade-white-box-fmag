@@ -1,17 +1,17 @@
 {
   "folder": "QzAWBUfiEO1gIpUI",
-  "name": "Grappling Hook",
+  "name": "Flint and Steel",
   "type": "item",
-  "img": "icons/sundries/survival/climbing-anchor-steel-grey.webp",
+  "img": "icons/containers/bags/case-simple-leather-brown.webp",
   "system": {
     "tags": [],
-    "description": "<p>A large 3- or 4-pronged hook made of specially hardened iron, used to anchor a rope. It can be thrown to hook onto surfaces, allowing the user to climb otherwise inaccessible areas. A successful attack roll is needed to secure it properly.</p>",
+    "description": "<p>A small box containing flint, steel, and tinder (wood shavings). Used to start fires for camp or torches. Under dry conditions, a fire starts on a roll of 1 or 2 on a d6. May be tried once per round.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "weight": 80,
+    "weight": 5,
     "cost": 5,
     "containerId": "",
     "equipped": false,
@@ -22,12 +22,12 @@
     "fuelType": "",
     "shortName": "",
     "unidentifiedName": "",
-    "unidentifiedDesc": "<p>A large 3- or 4-pronged hook made of specially hardened iron, used to anchor a rope. It can be thrown to hook onto surfaces, allowing the user to climb otherwise inaccessible areas. A successful attack roll is needed to secure it properly.</p>",
+    "unidentifiedDesc": "<p>A small box containing flint, steel, and tinder (wood shavings). Used to start fires for camp or torches. Under dry conditions, a fire starts on a roll of 1 or 2 on a d6. May be tried once per round.</p>",
     "isIdentified": true,
     "isCursed": false,
     "charges": 0,
     "chargesMax": 0,
-    "weightEquipped": 80,
+    "weightEquipped": 5,
     "isOpen": false,
     "isDropped": false,
     "isTreasure": false,
@@ -36,7 +36,7 @@
     "conditions": []
   },
   "effects": [],
-  "_id": "HyFvaeMYhC2zDqb5",
+  "_id": "Hr6A6CQSnqfLxgS9",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -47,6 +47,6 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 1100000,
-  "_originalKey": "!items!HyFvaeMYhC2zDqb5"
+  "sort": 1000000,
+  "_originalKey": "!items!Hr6A6CQSnqfLxgS9"
 }

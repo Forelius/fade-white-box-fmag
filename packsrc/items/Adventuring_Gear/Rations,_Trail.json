@@ -1,34 +1,35 @@
 {
   "folder": "QzAWBUfiEO1gIpUI",
-  "name": "Holy Symbol",
+  "name": "Rations, Trail",
   "type": "item",
-  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
-  "_id": "YHUTAI2L3mwrX3LF",
+  "img": "icons/consumables/food/cooked-drumstick-chicken-turkey-brown.webp",
   "system": {
-    "tags": [],
-    "description": "<p>This is a sign or symbol of a cleric's beliefs. It is often used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
+    "tags": [
+      "food"
+    ],
+    "description": "<p>Untreated food sufficient for one person for one week. It is prone to spoilage in damp environments, such as dungeons, and is best for overland travel.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
-    "quantityMax": 0,
-    "weight": 1,
-    "cost": 25,
+    "quantityMax": 7,
+    "weight": 28.5,
+    "cost": 1,
     "containerId": "",
     "equipped": false,
     "totalWeight": 0,
     "totalCost": 0,
     "container": false,
-    "equippable": true,
+    "equippable": false,
     "fuelType": "",
     "shortName": "",
     "unidentifiedName": "",
-    "unidentifiedDesc": "<p>This is a sign or symbol of a cleric's beliefs. It is often used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
+    "unidentifiedDesc": "<p>Untreated food sufficient for one person for one week. It is prone to spoilage in damp environments, such as dungeons, and is best for overland travel.</p>",
     "isIdentified": true,
     "isCursed": false,
     "charges": 0,
     "chargesMax": 0,
-    "weightEquipped": 1,
+    "weightEquipped": 28.5,
     "isOpen": false,
     "isDropped": false,
     "isTreasure": false,
@@ -37,6 +38,7 @@
     "conditions": []
   },
   "effects": [],
+  "_id": "oAotMdovahqgGgMp",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -47,6 +49,6 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 2000000,
-  "_originalKey": "!items!YHUTAI2L3mwrX3LF"
+  "sort": 2800000,
+  "_originalKey": "!items!oAotMdovahqgGgMp"
 }

@@ -1,20 +1,18 @@
 {
   "folder": "QzAWBUfiEO1gIpUI",
-  "name": "Ration, Standard",
+  "name": "Tent",
   "type": "item",
-  "img": "icons/consumables/food/cooked-drumstick-chicken-turkey-brown.webp",
+  "img": "icons/sundries/survival/tent-leather-white.webp",
   "system": {
-    "tags": [
-      "food"
-    ],
-    "description": "<p>Untreated food sufficient for one person for one week. It is prone to spoilage in damp environments, such as dungeons, and is best for overland travel.</p>",
+    "tags": [],
+    "description": "<p>A portable canvas shelter held up by poles and secured with ropes and stakes. Provides protection from the elements for one person. Large enough to sleep in comfortably.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
-    "quantityMax": 7,
-    "weight": 28.5,
-    "cost": 0.72,
+    "quantityMax": 0,
+    "weight": 40,
+    "cost": 20,
     "containerId": "",
     "equipped": false,
     "totalWeight": 0,
@@ -24,12 +22,12 @@
     "fuelType": "",
     "shortName": "",
     "unidentifiedName": "",
-    "unidentifiedDesc": "<p>Untreated food sufficient for one person for one week. It is prone to spoilage in damp environments, such as dungeons, and is best for overland travel.</p>",
+    "unidentifiedDesc": "<p>A portable canvas shelter held up by poles and secured with ropes and stakes. Provides protection from the elements for one person. Large enough to sleep in comfortably.</p>",
     "isIdentified": true,
     "isCursed": false,
     "charges": 0,
     "chargesMax": 0,
-    "weightEquipped": 28.5,
+    "weightEquipped": 40,
     "isOpen": false,
     "isDropped": false,
     "isTreasure": false,
@@ -38,7 +36,7 @@
     "conditions": []
   },
   "effects": [],
-  "_id": "oAotMdovahqgGgMp",
+  "_id": "gMvYJIfmsF3DqaGQ",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -49,6 +47,6 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 2800000,
-  "_originalKey": "!items!oAotMdovahqgGgMp"
+  "sort": 10000002,
+  "_originalKey": "!items!gMvYJIfmsF3DqaGQ"
 }

@@ -1,6 +1,6 @@
 {
   "folder": "QzAWBUfiEO1gIpUI",
-  "name": "Ration, Iron",
+  "name": "Rations, Dried",
   "type": "item",
   "img": "icons/consumables/food/dried-meat-jerky-fish-red.webp",
   "system": {
@@ -14,7 +14,7 @@
     "quantity": 1,
     "quantityMax": 7,
     "weight": 10,
-    "cost": 2.15,
+    "cost": 3,
     "containerId": "",
     "equipped": false,
     "totalWeight": 0,

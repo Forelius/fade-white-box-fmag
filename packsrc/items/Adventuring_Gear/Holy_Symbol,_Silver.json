@@ -1,33 +1,34 @@
 {
   "folder": "QzAWBUfiEO1gIpUI",
-  "name": "Tinder Box",
+  "name": "Holy Symbol, Silver",
   "type": "item",
-  "img": "icons/containers/bags/case-simple-leather-brown.webp",
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "_id": "YHUTAI2L3mwrX3LF",
   "system": {
     "tags": [],
-    "description": "<p>A small box containing flint, steel, and tinder (wood shavings). Used to start fires for camp or torches. Under dry conditions, a fire starts on a roll of 1 or 2 on a d6. May be tried once per round.</p>",
+    "description": "<p>A finely crafted silver holy symbol, often used by clerics to channel their faith. It can be used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "weight": 5,
-    "cost": 3,
+    "weight": 1,
+    "cost": 25,
     "containerId": "",
     "equipped": false,
     "totalWeight": 0,
     "totalCost": 0,
     "container": false,
-    "equippable": false,
+    "equippable": true,
     "fuelType": "",
     "shortName": "",
     "unidentifiedName": "",
-    "unidentifiedDesc": "<p>A small box containing flint, steel, and tinder (wood shavings). Used to start fires for camp or torches. Under dry conditions, a fire starts on a roll of 1 or 2 on a d6. May be tried once per round.</p>",
+    "unidentifiedDesc": "<p>A finely crafted silver holy symbol, often used by clerics to channel their faith. It can be used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
     "isIdentified": true,
     "isCursed": false,
     "charges": 0,
     "chargesMax": 0,
-    "weightEquipped": 5,
+    "weightEquipped": 1,
     "isOpen": false,
     "isDropped": false,
     "isTreasure": false,
@@ -36,7 +37,6 @@
     "conditions": []
   },
   "effects": [],
-  "_id": "Hr6A6CQSnqfLxgS9",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -47,6 +47,6 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 1000000,
-  "_originalKey": "!items!Hr6A6CQSnqfLxgS9"
+  "sort": 2000000,
+  "_originalKey": "!items!YHUTAI2L3mwrX3LF"
 }

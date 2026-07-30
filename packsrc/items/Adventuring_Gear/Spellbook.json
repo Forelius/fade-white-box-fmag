@@ -10,7 +10,7 @@
     "quantity": 1,
     "quantityMax": 0,
     "weight": 200,
-    "cost": 200,
+    "cost": 100,
     "containerId": "",
     "equipped": false,
     "totalWeight": 0,

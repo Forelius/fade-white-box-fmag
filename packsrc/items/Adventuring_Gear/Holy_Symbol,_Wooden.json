@@ -1,28 +1,26 @@
 {
-  "folder": "QzAWBUfiEO1gIpUI",
-  "name": "Garlic",
+  "name": "Holy Symbol, Wooden",
   "type": "item",
-  "img": "icons/consumables/vegetable/garlic-white.webp",
   "system": {
     "tags": [],
-    "description": "<p>This aromatic herb is known to repel vampires and some other undead creatures. It is often used by adventurers as a protective measure when facing such enemies.</p>",
+    "description": "<p>A simple wooden holy symbol carved by a cleric, often used to channel their faith. It can be used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
     "weight": 1,
-    "cost": 10,
+    "cost": 2,
     "containerId": "",
     "equipped": false,
     "totalWeight": 0,
     "totalCost": 0,
     "container": false,
-    "equippable": false,
+    "equippable": true,
     "fuelType": "",
     "shortName": "",
     "unidentifiedName": "",
-    "unidentifiedDesc": "<p>This aromatic herb is known to repel vampires and some other undead creatures. It is often used by adventurers as a protective measure when facing such enemies.</p>",
+    "unidentifiedDesc": "<p>A simple wooden holy symbol carved by a cleric, often used to channel their faith. It can be used to physically ward off vampires, and DMs may make holy symbols necessary for a cleric to turn undead.</p>",
     "isIdentified": true,
     "isCursed": false,
     "charges": 0,
@@ -35,8 +33,9 @@
     "spells": [],
     "conditions": []
   },
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
   "effects": [],
-  "_id": "I5JmOxCehtMX75FD",
+  "folder": "QzAWBUfiEO1gIpUI",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -46,7 +45,5 @@
   "_stats": {
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
-  },
-  "sort": 1200000,
-  "_originalKey": "!items!I5JmOxCehtMX75FD"
+  }
 }

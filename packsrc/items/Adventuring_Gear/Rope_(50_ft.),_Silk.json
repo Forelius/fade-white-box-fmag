@@ -1,17 +1,17 @@
 {
   "folder": "QzAWBUfiEO1gIpUI",
-  "name": "Grappling Hook",
+  "name": "Rope (50 ft.), Silk",
   "type": "item",
-  "img": "icons/sundries/survival/climbing-anchor-steel-grey.webp",
+  "img": "icons/sundries/survival/rope-wrapped-brown.webp",
   "system": {
     "tags": [],
-    "description": "<p>A large 3- or 4-pronged hook made of specially hardened iron, used to anchor a rope. It can be thrown to hook onto surfaces, allowing the user to climb otherwise inaccessible areas. A successful attack roll is needed to secure it properly.</p>",
+    "description": "<p>A high-quality 50-foot silk rope. Lighter and stronger than hemp rope, it can support more weight and is less likely to fray. It can support up to five fully loaded humans, approximately 12,500 coins in total weight.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
     "quantityMax": 0,
-    "weight": 80,
+    "weight": 20,
     "cost": 5,
     "containerId": "",
     "equipped": false,
@@ -22,12 +22,12 @@
     "fuelType": "",
     "shortName": "",
     "unidentifiedName": "",
-    "unidentifiedDesc": "<p>A large 3- or 4-pronged hook made of specially hardened iron, used to anchor a rope. It can be thrown to hook onto surfaces, allowing the user to climb otherwise inaccessible areas. A successful attack roll is needed to secure it properly.</p>",
+    "unidentifiedDesc": "<p>A high-quality 50-foot silk rope. Lighter and stronger than hemp rope, it can support more weight and is less likely to fray. It can support up to five fully loaded humans, approximately 12,500 coins in total weight.</p>",
     "isIdentified": true,
     "isCursed": false,
     "charges": 0,
     "chargesMax": 0,
-    "weightEquipped": 80,
+    "weightEquipped": 20,
     "isOpen": false,
     "isDropped": false,
     "isTreasure": false,
@@ -36,7 +36,7 @@
     "conditions": []
   },
   "effects": [],
-  "_id": "HyFvaeMYhC2zDqb5",
+  "_id": "AEmpq6n2hj8KIJUB",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -47,6 +47,6 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "sort": 1100000,
-  "_originalKey": "!items!HyFvaeMYhC2zDqb5"
+  "sort": 10000000,
+  "_originalKey": "!items!AEmpq6n2hj8KIJUB"
 }
