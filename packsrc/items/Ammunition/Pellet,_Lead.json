@@ -1,26 +1,26 @@
 {
   "folder": "u7s4NR16AZdcIm0l",
-  "name": "Arrows",
+  "name": "Pellet, Lead",
   "type": "ammo",
-  "img": "icons/weapons/ammunition/arrows-war-white.webp",
-  "_id": "uqmGGpdhi0ydtN5f",
+  "img": "icons/weapons/ammunition/shot-round-lead.webp",
+  "_id": "4gqcAs9PntHmvNIF",
   "system": {
     "shortName": "",
-    "description": "<p>Fletched arrows in a quiver. Can be used with a long bow or short bow.</p>",
+    "description": "<p>A lead pellet used as ammunition for a sling.</p>",
     "gm": {
       "notes": ""
     },
-    "quantity": 20,
-    "quantityMax": 20,
-    "weight": 0.5,
-    "weightEquipped": 0.5,
-    "cost": 5,
+    "quantity": 1,
+    "quantityMax": 30,
+    "weight": 0.03,
+    "weightEquipped": 0.03,
+    "cost": 0.03,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
     "equipped": false,
     "equippable": true,
-    "ammoType": "arrow",
+    "ammoType": "pellet",
     "unidentifiedName": "",
     "unidentifiedDesc": "",
     "isIdentified": true,
@@ -28,7 +28,7 @@
     "isDropped": false,
     "savingThrow": "",
     "healFormula": "",
-    "damageType": "piercing",
+    "damageType": "physical",
     "isAmmo": true,
     "mod": {
       "dmgRanged": 0,
@@ -51,5 +51,5 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!uqmGGpdhi0ydtN5f"
+  "_originalKey": "!items!4gqcAs9PntHmvNIF"
 }

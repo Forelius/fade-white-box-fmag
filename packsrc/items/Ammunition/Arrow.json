@@ -1,26 +1,26 @@
 {
   "folder": "u7s4NR16AZdcIm0l",
-  "name": "Quarrels (silver)",
+  "name": "Arrow",
   "type": "ammo",
-  "img": "icons/weapons/ammunition/arrow-head-war.webp",
-  "_id": "z93DYVUK9TOpRtd0",
+  "img": "icons/weapons/ammunition/arrows-war-white.webp",
+  "_id": "uqmGGpdhi0ydtN5f",
   "system": {
     "shortName": "",
-    "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+    "description": "<p>A fletched arrow. Can be used with a long bow or short bow.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
-    "quantityMax": 30,
-    "weight": 0.33,
-    "weightEquipped": 0.33,
-    "cost": 5,
+    "quantityMax": 20,
+    "weight": 0.05,
+    "weightEquipped": 0.05,
+    "cost": 0.25,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
     "equipped": false,
     "equippable": true,
-    "ammoType": "quarrel",
+    "ammoType": "arrow",
     "unidentifiedName": "",
     "unidentifiedDesc": "",
     "isIdentified": true,
@@ -33,12 +33,7 @@
     "mod": {
       "dmgRanged": 0,
       "toHitRanged": 0,
-      "vsGroup": {
-        "lycanthropes": {
-          "dmg": 0,
-          "toHit": 0
-        }
-      },
+      "vsGroup": {},
       "rangeMultiplier": 1
     },
     "charges": 0,
@@ -56,5 +51,5 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!z93DYVUK9TOpRtd0"
+  "_originalKey": "!items!uqmGGpdhi0ydtN5f"
 }

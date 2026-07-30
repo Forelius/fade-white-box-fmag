@@ -1,26 +1,26 @@
 {
   "folder": "u7s4NR16AZdcIm0l",
-  "name": "Quarrels",
+  "name": "Arrow, Silver",
   "type": "ammo",
-  "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
-  "_id": "FuxQr9nJjcG2TDlz",
+  "img": "icons/weapons/ammunition/arrow-head-war.webp",
+  "_id": "HxRIEaP2yUL2tUiO",
   "system": {
     "shortName": "",
-    "description": "<p>Ammunition for a crossbow. Sometimes called a bolt.</p>",
+    "description": "<p>An arrow tipped with silver. Effective against lycanthropes and other creatures vulnerable to silver.</p>",
     "gm": {
       "notes": ""
     },
-    "quantity": 30,
-    "quantityMax": 30,
-    "weight": 0.33,
-    "weightEquipped": 0.33,
-    "cost": 10,
+    "quantity": 1,
+    "quantityMax": 20,
+    "weight": 0.05,
+    "weightEquipped": 0.05,
+    "cost": 5,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
     "equipped": false,
     "equippable": true,
-    "ammoType": "quarrel",
+    "ammoType": "arrow",
     "unidentifiedName": "",
     "unidentifiedDesc": "",
     "isIdentified": true,
@@ -33,14 +33,19 @@
     "mod": {
       "dmgRanged": 0,
       "toHitRanged": 0,
-      "vsGroup": {},
+      "vsGroup": {
+        "lycanthropes": {
+          "dmg": 0,
+          "toHit": 0
+        }
+      },
       "rangeMultiplier": 1
     },
     "charges": 0,
     "chargesMax": 0
   },
   "effects": [],
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -51,5 +56,5 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_originalKey": "!items!FuxQr9nJjcG2TDlz"
+  "_originalKey": "!items!HxRIEaP2yUL2tUiO"
 }

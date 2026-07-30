@@ -35,7 +35,7 @@
     },
     "container": false,
     "equippable": false,
-    "ammoType": "quarrel",
+    "ammoType": "bolt",
     "totalWeight": 0,
     "totalCost": 0,
     "fuelType": "",

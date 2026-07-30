@@ -1,25 +1,26 @@
 {
   "folder": "u7s4NR16AZdcIm0l",
-  "name": "Arrows (silver)",
+  "name": "Bolt",
   "type": "ammo",
-  "img": "icons/weapons/ammunition/arrow-head-war.webp",
+  "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
+  "_id": "FuxQr9nJjcG2TDlz",
   "system": {
     "shortName": "",
-    "description": "<p>An arrow made with a silver tip. This can be used to damage certain types of creatures like lycanthropes.</p>",
+    "description": "<p>Ammunition for a crossbow. Also called a quarrel.</p>",
     "gm": {
       "notes": ""
     },
     "quantity": 1,
-    "quantityMax": 20,
-    "weight": 0.5,
-    "weightEquipped": 0.5,
-    "cost": 5,
+    "quantityMax": 30,
+    "weight": 0.17,
+    "weightEquipped": 0.17,
+    "cost": 0.17,
     "totalWeight": 0,
     "totalCost": 0,
     "containerId": "",
     "equipped": false,
     "equippable": true,
-    "ammoType": "arrow",
+    "ammoType": "bolt",
     "unidentifiedName": "",
     "unidentifiedDesc": "",
     "isIdentified": true,
@@ -32,18 +33,14 @@
     "mod": {
       "dmgRanged": 0,
       "toHitRanged": 0,
-      "vsGroup": {
-        "lycanthropes": {
-          "dmg": 0,
-          "toHit": 0
-        }
-      },
+      "vsGroup": {},
       "rangeMultiplier": 1
     },
     "charges": 0,
     "chargesMax": 0
   },
   "effects": [],
+  "sort": 0,
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -54,7 +51,5 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "HxRIEaP2yUL2tUiO",
-  "sort": 100000,
-  "_originalKey": "!items!HxRIEaP2yUL2tUiO"
+  "_originalKey": "!items!FuxQr9nJjcG2TDlz"
 }
