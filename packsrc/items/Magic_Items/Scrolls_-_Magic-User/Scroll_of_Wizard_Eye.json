@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Wizard Eye",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 4 spell Wizard Eye.</p><p>The caster conjures up an invisible, magical “eye,” that can move a maximum of 240 feet from its creator. It floats along as directed by the caster, at a rate of 120 feet per turn.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.WZxxbEsxYoj6nec3",
+        "action": "cast",
+        "castAs": "M7",
+        "name": "Wizard Eye"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "yBwO2xxDqDObhfHQ",
+  "sort": 6300000,
+  "_originalKey": "!items!yBwO2xxDqDObhfHQ"
+}

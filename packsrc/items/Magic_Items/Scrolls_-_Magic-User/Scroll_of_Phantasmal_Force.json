@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Phantasmal Force",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 2 spell Phantasmal Force.</p><p>This spell creates a realistic illusion in the sight of all who view it. The illusion disappears when it is touched, but if the viewer believes the illusion is real he can take damage from it.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.kL0PTTccRTKkKj0R",
+        "action": "cast",
+        "castAs": "M3",
+        "name": "Phantasmal Force"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "R3HxMfsLuozHvJZi",
+  "sort": 4200000,
+  "_originalKey": "!items!R3HxMfsLuozHvJZi"
+}

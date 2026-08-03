@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Detect Chaos",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 2 spell Detect Chaos.</p><p>The caster detects creatures of Chaos, or those with chaotic enchantments, intentions, thoughts, or auras within the spell’s range. Poison is not inherently evil or chaotic and cannot be detected by means of this spell.</p><p>As a Detect Law spell, the spell works exactly like Detect Chaos except that it detects Law.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.GyV7UqDjyvFpUPpJ",
+        "action": "cast",
+        "castAs": "M3",
+        "name": "Detect Chaos"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "BrR8XUH1b7Ick6Md",
+  "sort": 1400000,
+  "_originalKey": "!items!BrR8XUH1b7Ick6Md"
+}

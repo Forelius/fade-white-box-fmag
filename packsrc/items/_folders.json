@@ -853,6 +853,48 @@
       "lastModifiedBy": null
     }
   },
+  "!folders!cDkRL3WYbkVCLPSX": {
+    "name": "Scrolls - Cleric",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "cDkRL3WYbkVCLPSX",
+    "description": "",
+    "sort": 410000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!bRpI5zzuv5USlwZW": {
+    "name": "Scrolls - Magic-User",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "bRpI5zzuv5USlwZW",
+    "description": "",
+    "sort": 420000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
   "!folders!ZvOp2gG8LPEk9rjV": {
     "name": "Magic Weapons",
     "sorting": "a",

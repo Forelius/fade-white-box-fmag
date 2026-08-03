@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Polymorph",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 4 spell Polymorph.</p><p>The caster must announce which of the two options are being cast:</p><p>The caster assumes the form of any object or creature, gaining the new form's attributes (the use of wings, for example), but not its hit points or combat abilities. The Referee might allow the benefit of the new form's armor class, if it is due to heavily armored skin. A great deal of the spell's effect is left to the Referee to decide. This form of the spell lasts for roughly one hour plus one additional hour for each level of the caster.</p><p>Alternately, this spell allows the caster to turn another being into a different type of creature (such as a dragon, a garden slug, and of course, a frog or newt). The polymorphed creature gains all the abilities of the new form, but retains its own mind and hit points. Used in this way, the range on this spell is 60 feet. This form of the spell lasts until dispelled.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.KB1zOzDA71XzsCB8",
+        "action": "cast",
+        "castAs": "M7",
+        "name": "Polymorph"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "MfPQpYWL919rsV2Y",
+  "sort": 4400000,
+  "_originalKey": "!items!MfPQpYWL919rsV2Y"
+}

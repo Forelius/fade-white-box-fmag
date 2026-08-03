@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Confusion",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 4 spell Confusion.</p><p>This spell confuses people and monsters, making them act randomly. The effects of the confusion may shift every 10 minutes, and the dice are rolled again to determine any change. Roll 2d6 to determine the creature's behavior:</p><p></p><table><thead><tr><th>Roll (2d6)</th><th>Reaction</th></tr></thead><tbody><tr><td>2-5</td><td>Attack caster</td></tr><tr><td>6-8</td><td>Stand baffled</td></tr><tr><td>9-12</td><td>Attack each other</td></tr></tbody></table><p>The spell affects 2d6 creatures, plus an additional creature for every caster level above 8th. Creatures of 3 HD or fewer are automatically affected by the spell, and it takes effect immediately. Creatures of 4 HD or more automatically resist the confusion effect until it reaches its full power, which takes a number of minutes equal to 1d4. These creatures must make a saving throw when the effect reaches full power and every 10 minutes thereafter or become confused for the remainder of the spell's duration.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.zT9h5sBlXCtLOpE1",
+        "action": "cast",
+        "castAs": "M7",
+        "name": "Confusion"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "4FTPlgeY0rnq3Y96",
+  "sort": 700000,
+  "_originalKey": "!items!4FTPlgeY0rnq3Y96"
+}

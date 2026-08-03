@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Darkvision",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 3 spell Darkvision.</p><p>The recipient of the spell can see in total darkness. The recipient should roll 1d6 on the table to determine the range of his vision.</p><p></p><table><thead><tr><th>Roll d6</th><th>Range of Vision</th></tr></thead><tbody><tr><td>1-2</td><td>40'</td></tr><tr><td>3-4</td><td>50'</td></tr><tr><td>5-6</td><td>60'</td></tr></tbody></table>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.cHeYKs11Hc66Zbwc",
+        "action": "cast",
+        "castAs": "M5",
+        "name": "Darkvision"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Ref5hVnlqlfzwM83",
+  "sort": 1200000,
+  "_originalKey": "!items!Ref5hVnlqlfzwM83"
+}

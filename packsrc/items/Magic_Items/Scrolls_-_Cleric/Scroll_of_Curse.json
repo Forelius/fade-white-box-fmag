@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Curse",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Cleric Level 2 spell Curse.</p><p>The caster must announce which of the two options is being cast. The recipient of this spell cannot be in combat when it is cast.</p><p>As a Curse spell, the recipient is cursed with a -1 penalty to all attack rolls and, if the target is not a Player Character, suffers a decrease to morale.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.AzDCRTcvU9e9MhbV",
+        "action": "cast",
+        "castAs": "C4",
+        "name": "Curse"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "cDkRL3WYbkVCLPSX",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "JysWdwMEQT5QitD5",
+  "sort": 1100000,
+  "_originalKey": "!items!JysWdwMEQT5QitD5"
+}

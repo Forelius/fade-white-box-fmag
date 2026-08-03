@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Sleep",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 1 spell Sleep.</p><p>This spell puts creatures into an enchanted slumber (no saving throw is permitted). It can affect a number of creatures based on their hit dice.<br><br></p><p></p><table><thead><tr><th>Victim’s HD</th><th>Number Affected</th></tr></thead><tbody><tr><td>Less than 1 to 1+1</td><td>3d6</td></tr><tr><td>2 to 2+1</td><td>2d6</td></tr><tr><td>3 to 3+1</td><td>1d6</td></tr><tr><td>4 to 4+1</td><td>1</td></tr></tbody></table>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.fksyX3yCJ3pLqjwB",
+        "action": "cast",
+        "castAs": "M1",
+        "name": "Sleep"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "od3s4gHjciJvmu9V",
+  "sort": 5400000,
+  "_originalKey": "!items!od3s4gHjciJvmu9V"
+}

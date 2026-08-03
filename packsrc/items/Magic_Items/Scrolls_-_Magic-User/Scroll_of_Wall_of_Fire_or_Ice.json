@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Wall of Fire or Ice",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 4 spell Wall of Fire or Ice.</p><p>The caster must announce which of the two options are being cast:</p><p>As a Wall of Fire spell, the caster conjures a wall of fire that flares into being and burns for as long as the caster concentrates upon it. Creatures with 3 or fewer hit dice cannot pass through it, and no creature can see through it to the other side. Passing through the fire inflicts 1d6 hit points of damage (no saving throw) and undead creatures sustain twice the normal damage. The caster may choose to create a straight wall 60 feet long and 20 feet high, or a circular wall with a 15 foot radius, also 20 feet high.</p><p>As a Wall of Ice spell, the caster conjures up a 6 foot thick wall of ice. The caster may choose to create a straight wall 60 feet long and 20 feet high, or a circular wall with a 15 foot radius, also 20 feet high. Creatures with 3 or fewer hit dice cannot affect the wall, but creatures of 4+ hit dice are able to smash through it, taking 1d6 points of damage in the process. Creatures with fire-based metabolisms take 2d6 instead of the normal 1d6. Fire spells and magical effects are negated in the vicinity of the wall.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.aHPRCIXcUgls2UR3",
+        "action": "cast",
+        "castAs": "M7",
+        "name": "Wall of Fire or Ice"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "M3YC8FY66vfoBBnr",
+  "sort": 5900000,
+  "_originalKey": "!items!M3YC8FY66vfoBBnr"
+}

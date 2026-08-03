@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Wall of Stone or Iron",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 5 spell Wall of Stone or Iron.</p><p>The caster must announce which of the two options are being cast:</p><ul><li>As a Wall of Stone spell, the caster conjures a wall of stone 2 feet thick, with a surface area of 1,000 square feet.</li><li>As a Wall of Iron spell, the caster conjures an iron wall from thin air. The wall is 3 feet thick, with a surface area of 500 square feet.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.sG2nDp4j5bwz0jTt",
+        "action": "cast",
+        "castAs": "M9",
+        "name": "Wall of Stone or Iron"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "SL5wmpIcPj3XPSLS",
+  "sort": 6000000,
+  "_originalKey": "!items!SL5wmpIcPj3XPSLS"
+}

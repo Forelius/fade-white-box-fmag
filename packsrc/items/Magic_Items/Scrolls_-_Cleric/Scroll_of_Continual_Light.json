@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Continual Light",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Cleric Level 3 spell Continual Light.</p><p>As a Light, Continual spell, the caster targets a person or object which then produces a light about as bright as a torch with a radius of 20 feet.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.rRjZtCmhwMWnpF8V",
+        "action": "cast",
+        "castAs": "C5",
+        "name": "Continual Light"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "cDkRL3WYbkVCLPSX",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Ttmb97tsr2fRsK9Y",
+  "sort": 600000,
+  "_originalKey": "!items!Ttmb97tsr2fRsK9Y"
+}

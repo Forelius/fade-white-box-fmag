@@ -1,0 +1,61 @@
+{
+  "name": "Protection Scroll (Metal)",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Metal cannot harm the reader for a duration of 1 hour.</p><p><em>Per the Scrolls table, a protection scroll may be found with normal duration, double duration, or triple duration and effects.</em></p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.8lcpdQVYacvOp4OJ",
+        "action": "cast",
+        "castAs": "",
+        "name": "Protection from Metal"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "wliOTfPQdVCRJAgr",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "eZehTzG0SIKs7G37",
+  "sort": 500000,
+  "_originalKey": "!items!eZehTzG0SIKs7G37"
+}

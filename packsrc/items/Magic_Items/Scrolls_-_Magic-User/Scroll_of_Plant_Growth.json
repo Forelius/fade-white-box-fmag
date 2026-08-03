@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Plant Growth",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Magic-User Level 4 spell Plant Growth.</p><p>Up to 300 square feet of ground can be affected by this spell; undergrowth in the area suddenly grows into an impassable forest of thorns and vines. The caster can decide the shape of the area to be enchanted. An alternate version (Referee's decision) would allow the spell to affect an area of 300 x 300 feet, for a total of 90,000 square feet.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.8qoEqn8FMGZqOCYU",
+        "action": "cast",
+        "castAs": "M7",
+        "name": "Plant Growth"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "bRpI5zzuv5USlwZW",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "YtJvlWBuw0DD92q4",
+  "sort": 4300000,
+  "_originalKey": "!items!YtJvlWBuw0DD92q4"
+}

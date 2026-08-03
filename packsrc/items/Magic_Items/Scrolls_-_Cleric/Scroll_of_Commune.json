@@ -1,0 +1,61 @@
+{
+  "name": "Scroll of Commune",
+  "type": "item",
+  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This scroll contains the Cleric Level 5 spell Commune.</p><p>Higher powers grant answers to three questions the caster poses. Higher powers don't like being constantly interrogated by mere mortals, so the spell should be limited to one casting per week. The Referee may rule that a caster may cast a double strength Commune spell composed of six questions once per year.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 1,
+    "weightEquipped": 1,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Unidentified Scroll",
+    "unidentifiedDesc": "<p>A rolled sheet of parchment, sealed with wax and inscribed with illegible magical writing.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.iWd1QBeV0BgqdirF",
+        "action": "cast",
+        "castAs": "C7",
+        "name": "Commune"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "cDkRL3WYbkVCLPSX",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "DZ5DxHq8uXsZxEAr",
+  "sort": 400000,
+  "_originalKey": "!items!DZ5DxHq8uXsZxEAr"
+}
