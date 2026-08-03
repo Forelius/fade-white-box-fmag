@@ -1,0 +1,87 @@
+{
+  "folder": "ZvOp2gG8LPEk9rjV",
+  "name": "+1 Flail of Light",
+  "type": "weapon",
+  "img": "icons/weapons/maces/flail-spiked-grey.webp",
+  "_id": "vZQuvpXf0Jie3hcp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This enchanted weapon grants a +1 bonus to attack and damage rolls and magically sheds light.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 150,
+    "weightEquipped": 150,
+    "cost": 8,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Flail",
+    "unidentifiedDesc": "<p><span style=\"border: 0px; font-family: inherit; font-size: 16px; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px\">A flail is a weapon featuring a spiked or heavy ball connected to a handle by a chain or strap.</span></p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "physical",
+    "isUsable": false,
+    "isTreasure": true,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6+1",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "size": "M",
+    "grip": "1H",
+    "natural": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "sort": 11100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!vZQuvpXf0Jie3hcp"
+}

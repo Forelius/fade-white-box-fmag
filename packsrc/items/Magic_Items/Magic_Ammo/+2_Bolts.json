@@ -1,0 +1,59 @@
+{
+  "folder": "VbCra165kTiVUeaA",
+  "name": "+2 Bolts",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/arrow-broadhead-white.webp",
+  "_id": "DUz1yiMjslPvSJ9U",
+  "system": {
+    "shortName": "",
+    "description": "<p>This enchanted bolt grants a +2 bonus to attack and damage rolls when fired from a crossbow. A bundle of 2d6 is typically found.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 7,
+    "quantityMax": 30,
+    "weight": 0.17,
+    "weightEquipped": 0.17,
+    "cost": 0.17,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "bolt",
+    "unidentifiedName": "Unidentified Ammunition",
+    "unidentifiedDesc": "<p>Ammunition shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "piercing",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 2,
+      "toHitRanged": 2,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 0,
+    "chargesMax": 0,
+    "tags": [
+      "magic"
+    ],
+    "isTreasure": true
+  },
+  "effects": [],
+  "sort": 10500000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!DUz1yiMjslPvSJ9U"
+}

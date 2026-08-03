@@ -1,0 +1,59 @@
+{
+  "folder": "VbCra165kTiVUeaA",
+  "name": "+1 Stones",
+  "type": "ammo",
+  "img": "icons/weapons/ammunition/shot-round-lead.webp",
+  "_id": "D3PoUnKjLoqZsEcg",
+  "system": {
+    "shortName": "",
+    "description": "<p>This enchanted stone grants a +1 bonus to attack and damage rolls when fired from a sling. A bundle of 1d10 is typically found.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 5,
+    "quantityMax": 20,
+    "weight": 0.05,
+    "weightEquipped": 0.05,
+    "cost": 0.05,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "equippable": true,
+    "ammoType": "pellet",
+    "unidentifiedName": "Unidentified Ammunition",
+    "unidentifiedDesc": "<p>Ammunition shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "healFormula": "",
+    "damageType": "physical",
+    "isAmmo": true,
+    "mod": {
+      "dmgRanged": 1,
+      "toHitRanged": 1,
+      "vsGroup": {},
+      "rangeMultiplier": 1
+    },
+    "charges": 0,
+    "chargesMax": 0,
+    "tags": [
+      "magic"
+    ],
+    "isTreasure": true
+  },
+  "effects": [],
+  "sort": 10100000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!D3PoUnKjLoqZsEcg"
+}
