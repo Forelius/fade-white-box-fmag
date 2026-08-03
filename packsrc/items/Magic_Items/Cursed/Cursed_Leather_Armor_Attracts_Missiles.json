@@ -1,0 +1,66 @@
+{
+  "folder": "anhkKjKMQuwd6E4c",
+  "name": "Cursed Leather Armor (Attracts Missiles)",
+  "type": "armor",
+  "img": "modules/fade-white-box-fmag/assets/img/armor/leather.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This cursed armor attracts missile fire, even that fired at others nearby; such missiles gain a +1 bonus to attack the wearer. The referee may apply the Attracts Missiles condition to the wearer. It cannot be discarded without a Remove Curse spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 250,
+    "cost": 15,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 7,
+    "isShield": false,
+    "dmgFormula": null,
+    "armorWeight": "light",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Cursed Armor",
+    "unidentifiedDesc": "<p>Armor pulsing with an eerie, unsettling aura. Its true nature is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false,
+    "weightEquipped": 250,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "av": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "eajJXzLrdSXrRI4f",
+  "sort": 9600000,
+  "_originalKey": "!items!eajJXzLrdSXrRI4f"
+}

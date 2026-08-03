@@ -1,0 +1,88 @@
+{
+  "folder": "anhkKjKMQuwd6E4c",
+  "name": "-3 Staff",
+  "type": "weapon",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/staff.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This weapon is cursed, imposing a -3 penalty on attack and damage rolls. It cannot be discarded without a Remove Curse spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 100,
+    "cost": 1,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": -3,
+      "toHit": -3,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "M",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Cursed Weapon",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A weapon pulsing with an eerie, unsettling aura. Its true nature is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "isCarried": true,
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "1d6-3",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "u5KwCauChWslwRk4",
+  "sort": 7100000,
+  "_originalKey": "!items!u5KwCauChWslwRk4"
+}

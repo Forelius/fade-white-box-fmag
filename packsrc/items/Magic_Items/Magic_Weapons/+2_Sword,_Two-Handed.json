@@ -1,0 +1,87 @@
+{
+  "folder": "ZvOp2gG8LPEk9rjV",
+  "name": "+2 Sword, Two-Handed",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-crossguard-barbed.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This enchanted weapon grants a +2 bonus to attack and damage rolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 150,
+    "cost": 15,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6+1",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 2,
+      "toHit": 2,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "L",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Unidentified Weapon",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A weapon shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "weightEquipped": 150,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "1d6+3",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "VO7zowiOKvyeKrM1",
+  "sort": 3700000,
+  "_originalKey": "!items!VO7zowiOKvyeKrM1"
+}

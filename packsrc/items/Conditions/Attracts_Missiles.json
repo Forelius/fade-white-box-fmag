@@ -1,0 +1,62 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Attracts Missiles",
+  "type": "condition",
+  "img": "icons/svg/target.svg",
+  "_id": "8xOcecDpVcIi5Nos",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>This cursed item attracts missile fire, even that fired at others nearby. Such missiles gain a +1 bonus to attack the wearer. The curse persists until the item is removed via a Remove Curse spell.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "foltBrUBKDq9LFYO"
+  ],
+  "sort": 5000000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!8xOcecDpVcIi5Nos",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!8xOcecDpVcIi5Nos.foltBrUBKDq9LFYO",
+      "name": "Attracts Missiles",
+      "img": "icons/svg/target.svg",
+      "disabled": false,
+      "_id": "foltBrUBKDq9LFYO",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "attractsMissiles"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

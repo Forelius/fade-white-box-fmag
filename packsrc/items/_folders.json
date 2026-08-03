@@ -937,6 +937,27 @@
       "lastModifiedBy": null
     }
   },
+  "!folders!anhkKjKMQuwd6E4c": {
+    "name": "Cursed",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "anhkKjKMQuwd6E4c",
+    "description": "",
+    "sort": 550000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
   "!folders!e7RvbK6nra5DPzpo": {
     "name": "Misc. Magic Items",
     "sorting": "a",

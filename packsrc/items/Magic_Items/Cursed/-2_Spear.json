@@ -1,0 +1,87 @@
+{
+  "folder": "anhkKjKMQuwd6E4c",
+  "name": "-2 Spear",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-blue.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This weapon is cursed, imposing a -2 penalty on attack and damage rolls. It cannot be discarded without a Remove Curse spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 100,
+    "cost": 2,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": 20,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": -2,
+      "toHit": -2,
+      "dmgRanged": -2,
+      "toHitRanged": -2
+    },
+    "size": "L",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Cursed Weapon",
+    "canSet": true,
+    "unidentifiedDesc": "<p>A weapon pulsing with an eerie, unsettling aura. Its true nature is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "1d6-2",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "E6J9tQ9kjMaIawrd",
+  "sort": 6700000,
+  "_originalKey": "!items!E6J9tQ9kjMaIawrd"
+}

@@ -1,0 +1,87 @@
+{
+  "folder": "ZvOp2gG8LPEk9rjV",
+  "name": "+2 Axe, Hand",
+  "type": "weapon",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/handaxe.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This enchanted weapon grants a +2 bonus to attack and damage rolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 1,
+    "weight": 50,
+    "cost": 3,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": 10,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 2,
+      "toHit": 2,
+      "dmgRanged": 2,
+      "toHitRanged": 2
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Unidentified Weapon",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A weapon shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "weightEquipped": 50,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "1d6+2",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "PV9tUYKedKwvPUit",
+  "sort": 400000,
+  "_originalKey": "!items!PV9tUYKedKwvPUit"
+}

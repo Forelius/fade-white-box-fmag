@@ -1,0 +1,87 @@
+{
+  "folder": "ZvOp2gG8LPEk9rjV",
+  "name": "+2 Flail",
+  "type": "weapon",
+  "img": "icons/weapons/maces/flail-spiked-grey.webp",
+  "_id": "7pOIE2w0wiALxFry",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This enchanted weapon grants a +2 bonus to attack and damage rolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 150,
+    "weightEquipped": 150,
+    "cost": 8,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Unidentified Weapon",
+    "unidentifiedDesc": "<p>A weapon shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "savingThrow": "",
+    "dmgFormula": null,
+    "healFormula": null,
+    "damageType": "physical",
+    "isUsable": false,
+    "isTreasure": true,
+    "damageRoll": "1d6",
+    "damageLabel": "1d6+2",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "canSet": false,
+    "isSlow": false,
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "size": "M",
+    "grip": "1H",
+    "natural": false,
+    "mod": {
+      "dmg": 2,
+      "toHit": 2,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!7pOIE2w0wiALxFry"
+}

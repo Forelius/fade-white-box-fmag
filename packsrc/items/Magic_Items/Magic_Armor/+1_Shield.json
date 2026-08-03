@@ -1,0 +1,66 @@
+{
+  "folder": "UFO8uAobyp4cxDHf",
+  "name": "+1 Shield",
+  "type": "armor",
+  "img": "modules/fade-white-box-fmag/assets/img/armor/shield.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This enchanted shield grants a +1 bonus to armor class.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 100,
+    "cost": 10,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 1,
+    "isShield": true,
+    "dmgFormula": null,
+    "armorWeight": "light",
+    "container": false,
+    "equippable": false,
+    "mod": 1,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Unidentified Shield",
+    "unidentifiedDesc": "<p>A shield shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false,
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "av": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "rbTGOHSNHA45v6yQ",
+  "sort": 5100000,
+  "_originalKey": "!items!rbTGOHSNHA45v6yQ"
+}

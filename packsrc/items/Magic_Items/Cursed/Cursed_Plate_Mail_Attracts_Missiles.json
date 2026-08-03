@@ -1,0 +1,66 @@
+{
+  "folder": "anhkKjKMQuwd6E4c",
+  "name": "Cursed Plate Mail (Attracts Missiles)",
+  "type": "armor",
+  "img": "modules/fade-white-box-fmag/assets/img/armor/platemail.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This cursed armor attracts missile fire, even that fired at others nearby; such missiles gain a +1 bonus to attack the wearer. The referee may apply the Attracts Missiles condition to the wearer. It cannot be discarded without a Remove Curse spell.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 750,
+    "cost": 50,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 3,
+    "isShield": false,
+    "dmgFormula": null,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Cursed Armor",
+    "unidentifiedDesc": "<p>Armor pulsing with an eerie, unsettling aura. Its true nature is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "charges": 0,
+    "chargesMax": 0,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false,
+    "weightEquipped": 750,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "av": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "BslrmOs6mG0ffTfU",
+  "sort": 9800000,
+  "_originalKey": "!items!BslrmOs6mG0ffTfU"
+}
