@@ -1,0 +1,66 @@
+{
+  "folder": "UFO8uAobyp4cxDHf",
+  "name": "Demonic Plate Mail",
+  "type": "armor",
+  "img": "modules/fade-white-box-fmag/assets/img/armor/platemail.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This armor is possessed by a spirit or demon, with effects to be determined by the Referee.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 750,
+    "cost": 50,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 3,
+    "isShield": false,
+    "dmgFormula": null,
+    "armorWeight": "heavy",
+    "container": false,
+    "equippable": false,
+    "mod": 0,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Plate Mail",
+    "unidentifiedDesc": "<p> This is a suit primarily composed of large metal plates—the largest being the breastplate—linked together with chain mail. Plate mail gives a character an armor class of 3. It is the best armor that can be bought second hand or looted, since suit armor must be custom made.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false,
+    "weightEquipped": 750,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "av": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "9x4NPMrAiNcF3fYP",
+  "sort": 14600000,
+  "_originalKey": "!items!9x4NPMrAiNcF3fYP"
+}

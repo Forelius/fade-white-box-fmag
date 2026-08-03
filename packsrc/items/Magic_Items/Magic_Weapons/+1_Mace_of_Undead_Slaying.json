@@ -1,0 +1,87 @@
+{
+  "folder": "ZvOp2gG8LPEk9rjV",
+  "name": "+1 Mace of Undead Slaying",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-flanged-steel.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This +1 blunt weapon is empowered to destroy undead. Lesser undead (fewer than 4 Hit Dice) are destroyed with no saving throw; more powerful undead are allowed a saving throw to avoid destruction. It also grants a +1 bonus to attack and damage rolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 100,
+    "cost": 5,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Mace",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A mace is a one handed melee weapon consisting of a 2â€™-3â€™ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "1d6+1",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "mm69Ft3LDs3IcqQE",
+  "sort": 12100000,
+  "_originalKey": "!items!mm69Ft3LDs3IcqQE"
+}

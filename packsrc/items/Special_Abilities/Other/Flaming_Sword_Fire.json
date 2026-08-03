@@ -1,0 +1,46 @@
+{
+  "name": "Flaming Sword Fire",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>While held, this sword can burst into flame on command, inflicting an additional 1d6 points of fire damage on a successful hit. Click this ability after a successful attack to roll the fire damage. It may be used any number of times.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "1d6",
+    "healFormula": "",
+    "damageType": "fire",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 1,
+    "quantityMax": null
+  },
+  "folder": "4y3W8RLJ3mNhEsVy",
+  "_id": "oDUvLl5Gtn26qIwO",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 100000,
+  "_originalKey": "!items!oDUvLl5Gtn26qIwO"
+}

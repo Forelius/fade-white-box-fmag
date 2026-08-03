@@ -1,0 +1,46 @@
+{
+  "name": "Ethereal Form",
+  "type": "specialAbility",
+  "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This plate mail allows the wearer to become insubstantial and incorporeal. In ethereal form the wearer cannot be hit and cannot attack (unless the opponent is also ethereal). It may be used 50 times, after which the armor reverts to normal +3 plate mail. Click this ability when activating the ethereal form to track one use.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "rollFormula": "",
+    "operator": "eq",
+    "target": "",
+    "rollMode": "publicroll",
+    "savingThrow": "",
+    "autoSuccess": null,
+    "autoFail": null,
+    "abilityMod": "",
+    "dmgFormula": "",
+    "healFormula": "",
+    "damageType": "",
+    "category": "",
+    "combatManeuver": null,
+    "shortName": "",
+    "customSaveCode": "",
+    "classKey": "",
+    "showResult": true,
+    "quantity": 50,
+    "quantityMax": 50
+  },
+  "folder": "4y3W8RLJ3mNhEsVy",
+  "_id": "NVt0SQ1rye1qCMT8",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "sort": 300000,
+  "_originalKey": "!items!NVt0SQ1rye1qCMT8"
+}

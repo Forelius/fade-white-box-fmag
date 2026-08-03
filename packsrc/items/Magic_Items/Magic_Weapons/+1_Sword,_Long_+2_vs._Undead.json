@@ -1,0 +1,93 @@
+{
+  "folder": "ZvOp2gG8LPEk9rjV",
+  "name": "+1 Sword, Long (+2 vs. Undead)",
+  "type": "weapon",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/sword.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This sword grants a +1 bonus to attack and damage rolls. Against undead it grants an additional +2 bonus to attack and damage rolls.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 100,
+    "cost": 10,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0,
+      "vsGroup": {
+        "undead": {
+          "dmg": 2,
+          "toHit": 2,
+          "special": null
+        }
+      }
+    },
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Sword, Long",
+    "canSet": false,
+    "size": "M",
+    "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2â€™ to 3â€™ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "isCarried": true,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "isOpen": false,
+    "isTreasure": true,
+    "damageLabel": "1d6+1",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "FpHI7NSPnwJrFhkp",
+  "sort": 13200000,
+  "_originalKey": "!items!FpHI7NSPnwJrFhkp"
+}

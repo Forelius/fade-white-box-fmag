@@ -1041,5 +1041,26 @@
       "modifiedTime": null,
       "lastModifiedBy": null
     }
+  },
+  "!folders!4y3W8RLJ3mNhEsVy": {
+    "name": "Other",
+    "sorting": "a",
+    "folder": "LAHxtnVdlWmmKJPS",
+    "type": "Item",
+    "_id": "4y3W8RLJ3mNhEsVy",
+    "description": "",
+    "sort": 1000000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
   }
 }

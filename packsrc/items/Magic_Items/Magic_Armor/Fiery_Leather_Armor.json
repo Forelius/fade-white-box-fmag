@@ -1,0 +1,74 @@
+{
+  "folder": "UFO8uAobyp4cxDHf",
+  "name": "Fiery Leather Armor",
+  "type": "armor",
+  "img": "modules/fade-white-box-fmag/assets/img/armor/leather.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This +1 armor is surrounded by flames. These flames deal 1d6 points of damage to melee attackers.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 250,
+    "cost": 15,
+    "containerId": "",
+    "equipped": true,
+    "natural": false,
+    "ac": 7,
+    "isShield": false,
+    "dmgFormula": null,
+    "armorWeight": "light",
+    "container": false,
+    "equippable": false,
+    "mod": 1,
+    "totalAC": 9,
+    "totalAAC": 9,
+    "shortName": "",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Leather Armor",
+    "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7. It is also light and quiet enough to be worn by thieves.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "charges": 1,
+    "chargesMax": null,
+    "savingThrow": null,
+    "healFormula": null,
+    "damageType": "",
+    "isUsable": false,
+    "weightEquipped": 250,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.s9eA0XZfl294G2MR",
+        "action": "use",
+        "name": "Fiery Armor Flames",
+        "mod": 0
+      }
+    ],
+    "av": ""
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "85m2ewSBro6upqsC",
+  "sort": 14800000,
+  "_originalKey": "!items!85m2ewSBro6upqsC"
+}

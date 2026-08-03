@@ -1,0 +1,87 @@
+{
+  "folder": "ZvOp2gG8LPEk9rjV",
+  "name": "+1 Sling of Undead Slaying",
+  "type": "weapon",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/sling.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This +1 blunt weapon is empowered to destroy undead. Lesser undead (fewer than 4 Hit Dice) are destroyed with no saving throw; more powerful undead are allowed a saving throw to avoid destruction. It also grants a +1 bonus to attack and damage rolls when fired.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "weight": 10,
+    "cost": 2,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": false,
+    "canRanged": true,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "monster",
+    "range": {
+      "short": null,
+      "medium": 30,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "ammoType": "pellet",
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 1,
+      "toHitRanged": 1
+    },
+    "size": "S",
+    "grip": "1H",
+    "shortName": "",
+    "unidentifiedName": "Sling",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A sling is a long (4â€™ to 6â€™) leather cord with a pouch half way along.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "charges": 0,
+    "chargesMax": 0,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "weightEquipped": 10,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "1d6+1",
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "w63xT0vJRoBvcGyq",
+  "sort": 12400000,
+  "_originalKey": "!items!w63xT0vJRoBvcGyq"
+}
