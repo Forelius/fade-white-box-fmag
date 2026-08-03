@@ -2,12 +2,12 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Axe, Hand",
   "type": "weapon",
-  "img": "modules/fade-compendiums/assets/img/weapon/handaxe.webp",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/handaxe.webp",
   "system": {
     "tags": [
       "thrown"
     ],
-    "description": "<p>A hand axe is a one handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.<br><br>Rate of Fire: 1</p>",
+    "description": "<p>A hand axe is a one handed axe 1â€™-2â€™ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.<br><br>Rate of Fire: 1</p>",
     "gm": {
       "notes": ""
     },
@@ -25,7 +25,7 @@
     "canRanged": true,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Axe, Hand",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,
@@ -50,7 +50,7 @@
     "shortName": "",
     "unidentifiedName": "",
     "canSet": false,
-    "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1’-2’ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
+    "unidentifiedDesc": "<p>A hand axe is a one  handed axe 1â€™-2â€™ in length, usually with a single blade. A hand axe is often thrown while its owner rushes towards melee range.</p>",
     "isIdentified": true,
     "isCursed": false,
     "isSlow": false,

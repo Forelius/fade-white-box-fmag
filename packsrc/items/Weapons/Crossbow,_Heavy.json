@@ -5,8 +5,7 @@
   "img": "icons/weapons/crossbows/crossbow-purple.webp",
   "system": {
     "tags": [
-      "special",
-      "slow"
+      "special"
     ],
     "description": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.<br><br>Rate of fire: 1/2</p>",
     "gm": {
@@ -26,7 +25,7 @@
     "canRanged": true,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Crossbow, Heavy",
+    "mastery": "",
     "weaponType": "monster",
     "range": {
       "short": null,
@@ -51,10 +50,10 @@
     "shortName": "",
     "unidentifiedName": "",
     "canSet": false,
-    "unidentifiedDesc": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield and always loses individual initiative to opponents using one-handed weapons. Small creatures, such as halflings and goblins, cannot use this weapon.</p><p>Rate of fire: 1/2</p>",
+    "unidentifiedDesc": "<p>This is a ranged weapon consisting of a sturdy bow (like a short bow but smaller and sometimes made of metal) mounted horizontally across a stock with a trigger mechanism. It fires short bolts known as quarrels.</p><p>Heavy crossbows are cumbersome, requiring two hands to operate and slow to reload. A character with 18 strength can draw the string back single-handedly, allowing them to fire each round. Characters with less strength must place the crossbow on the ground, brace it with a foot, and use both hands to pull the string back, limiting them to firing every two rounds.</p><p>This crossbow requires both hands, so the wielder cannot use a shield.</p><p>Rate of fire: 1/2</p>",
     "isIdentified": true,
     "isCursed": false,
-    "isSlow": true,
+    "isSlow": false,
     "charges": 0,
     "chargesMax": 0,
     "dmgFormula": null,

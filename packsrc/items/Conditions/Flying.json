@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p><span style=\"font-family: Barlow, sans-serif\">The target (including the caster, if desired) has the ability to fly at will.</span></p><p style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); margin: 0.5rem 0px; color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: start\"><span style=\"font-family: Barlow, sans-serif\">The target can move at speeds up to 360' (120') by concentrating and can hover without concentration. Flight can be in any direction.</span></p>",
+    "description": "<p>Grants the power of flight, with a movement rate of 120 feet per round.</p>",
     "addStatusEffect": false
   },
   "effects": [

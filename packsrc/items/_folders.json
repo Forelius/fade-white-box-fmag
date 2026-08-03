@@ -810,5 +810,152 @@
       "modifiedTime": 1742605131555,
       "lastModifiedBy": "39ANqKV80WQNa3A0"
     }
+  },
+  "!folders!2EAMCQ0rY5kaG9eB": {
+    "name": "Potions",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "2EAMCQ0rY5kaG9eB",
+    "description": "",
+    "sort": 300000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!wliOTfPQdVCRJAgr": {
+    "name": "Scrolls",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "wliOTfPQdVCRJAgr",
+    "description": "",
+    "sort": 400000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!ZvOp2gG8LPEk9rjV": {
+    "name": "Magic Weapons",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "ZvOp2gG8LPEk9rjV",
+    "description": "",
+    "sort": 500000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!UFO8uAobyp4cxDHf": {
+    "name": "Magic Armor",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "UFO8uAobyp4cxDHf",
+    "description": "",
+    "sort": 600000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!e7RvbK6nra5DPzpo": {
+    "name": "Misc. Magic Items",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "e7RvbK6nra5DPzpo",
+    "description": "",
+    "sort": 700000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!pRYaQfCMDV0OA57l": {
+    "name": "Magic Items",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "pRYaQfCMDV0OA57l",
+    "description": "",
+    "sort": 450000,
+    "color": "#3a1d52",
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!dzuOSIxKf4HDotv9": {
+    "name": "Other",
+    "sorting": "a",
+    "folder": "wohitkwC5wM3hcZd",
+    "type": "Item",
+    "_id": "dzuOSIxKf4HDotv9",
+    "description": "",
+    "sort": 100000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
   }
 }

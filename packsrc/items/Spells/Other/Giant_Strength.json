@@ -1,0 +1,50 @@
+{
+  "name": "Giant Strength",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dzuOSIxKf4HDotv9",
+  "system": {
+    "tags": [],
+    "description": "<p>Character gains strength above and beyond 18. Gains an additional 1d6 to damage rolls and +4 to-hit.</p><p>Duration: 1d6+1 turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "Self",
+    "duration": "1d6+1 turns",
+    "effect": "Strength above 18; +4 to-hit; +1d6 damage",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "(1d6+1)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Giant Strength",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.THbVeo8JdxmYX10g"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "x1NgsUn4bAqoSTj8",
+  "sort": 900000,
+  "_originalKey": "!items!x1NgsUn4bAqoSTj8"
+}

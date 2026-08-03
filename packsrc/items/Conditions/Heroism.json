@@ -1,0 +1,87 @@
+{
+  "folder": "DHxEnc4I068rxlES",
+  "name": "Heroism",
+  "type": "condition",
+  "img": "icons/svg/upgrade.svg",
+  "_id": "OmlY8uH9Px1WpGMv",
+  "system": {
+    "key": "",
+    "shortName": "",
+    "description": "<p>+2 to attacks and damage.</p>",
+    "addStatusEffect": false
+  },
+  "effects": [
+    "vzrYtp1E5Nhp2a4B"
+  ],
+  "sort": 5300000,
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!OmlY8uH9Px1WpGMv",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!OmlY8uH9Px1WpGMv.vzrYtp1E5Nhp2a4B",
+      "name": "Heroism",
+      "img": "icons/svg/upgrade.svg",
+      "disabled": false,
+      "_id": "vzrYtp1E5Nhp2a4B",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmg",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.dmgRanged",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffd700",
+      "transfer": true,
+      "statuses": [
+        "upgrade"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

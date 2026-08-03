@@ -1,0 +1,50 @@
+{
+  "name": "Ethereality",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dzuOSIxKf4HDotv9",
+  "system": {
+    "tags": [],
+    "description": "<p>The imbiber of this potion can move through solid objects but cannot attack. Equipment also becomes ethereal.</p><p>Duration: 1d6+1 turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "Self",
+    "duration": "1d6+1 turns",
+    "effect": "Move through solid objects while ethereal",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "(1d6+1)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Ethereal",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.61Xw1f6KQ9olpeuo"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "4wDaNRkmU8pbcdHI",
+  "sort": 500000,
+  "_originalKey": "!items!4wDaNRkmU8pbcdHI"
+}

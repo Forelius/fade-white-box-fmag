@@ -2,7 +2,7 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Dagger",
   "type": "weapon",
-  "img": "modules/fade-compendiums/assets/img/weapon/dagger.webp",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/dagger.webp",
   "system": {
     "tags": [
       "magic-user",
@@ -26,7 +26,7 @@
     "canRanged": true,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Dagger",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": 10,

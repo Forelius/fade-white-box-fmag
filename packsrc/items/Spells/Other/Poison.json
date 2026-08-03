@@ -1,0 +1,45 @@
+{
+  "name": "Poison",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dzuOSIxKf4HDotv9",
+  "system": {
+    "tags": [],
+    "description": "<p>Any creature that drinks the potion must make a saving throw (vs. death or poison) or die.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "Self",
+    "duration": "Instantaneous",
+    "effect": "Save or die",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "death",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "coIf2slQJ60iwxXy",
+  "sort": 1600000,
+  "_originalKey": "!items!coIf2slQJ60iwxXy"
+}

@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>When a monster or character is in ethereal form, they become nonmaterial and unable to be damaged at all from the Prime Plane.</p>",
+    "description": "<p>When a monster or character is in ethereal form, they become nonmaterial and unable to be damaged at all from the Prime Plane, and cannot attack unless the opponent is also ethereal.</p>",
     "addStatusEffect": false
   },
   "effects": [

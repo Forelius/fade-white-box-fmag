@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>Allows the caster to move vertically, up or down, without support. The caster cannot move side to side without pushing against something. Vertical movement is at a rate of 20' per round.</p><p>Caster can carry up to 2,000 cn (200 lbs) while levitating. The caster can carry another man-sized creature if it isn’t wearing metal armor or heavily burdened. No saving throw is allowed for the levitated target.</p>",
+    "description": "<p>Allows the user to levitate himself, moving vertically up or down, but provides no assistance with lateral movement. A wall, cliff side, or ceiling could be used to move along hand-over-hand. Levitation allows up or downward movement at a rate of up to 6 feet per minute (60 feet per turn), and the user cannot levitate more than 20 feet per level from the ground level where the effect began (such range being applied both to movement into the air and to downward movement into a pit or chasm).</p>",
     "addStatusEffect": false
   },
   "effects": [

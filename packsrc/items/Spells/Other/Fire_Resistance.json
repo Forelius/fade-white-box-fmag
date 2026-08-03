@@ -1,0 +1,50 @@
+{
+  "name": "Fire Resistance",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dzuOSIxKf4HDotv9",
+  "system": {
+    "tags": [],
+    "description": "<p>Grants immunity to normal fire, +2 to saving throws against fire attacks, and half damage to magic fire attacks that do not permit saving throws.</p><p>Duration: 1d6+1 turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "Self",
+    "duration": "1d6+1 turns",
+    "effect": "Immune to normal fire; +2 saves vs fire; half magic fire damage",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "(1d6+1)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Fire Resistant",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.ZOs6627VjmtefRvC"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "gB4ijKsHRIPLDNuz",
+  "sort": 600000,
+  "_originalKey": "!items!gB4ijKsHRIPLDNuz"
+}

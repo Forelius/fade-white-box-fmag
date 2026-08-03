@@ -35,7 +35,13 @@
         "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
       }
     ],
-    "conditions": []
+    "conditions": [
+      {
+        "name": "Detect Invisible",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.SweWOsKvrGVPiDno",
+        "remove": false
+      }
+    ]
   },
   "flags": {},
   "effects": [],

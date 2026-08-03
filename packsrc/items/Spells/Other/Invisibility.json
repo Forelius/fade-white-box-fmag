@@ -1,0 +1,50 @@
+{
+  "name": "Invisibility",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "dzuOSIxKf4HDotv9",
+  "system": {
+    "tags": [],
+    "description": "<p>The imbiber becomes invisible to both normal vision and to darkvision. An invisible creature cannot be attacked unless its approximate location is known, and all attacks are made at -4 to-hit.</p><p>Duration: 1d6+1 turns.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "Self",
+    "duration": "1d6+1 turns",
+    "effect": "Become invisible; attacks vs user at -4",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "(1d6+1)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Invisible",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.YG8b9eFbcb3QCHOv"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "fwjvcoxWHlB7kYhq",
+  "sort": 1200000,
+  "_originalKey": "!items!fwjvcoxWHlB7kYhq"
+}

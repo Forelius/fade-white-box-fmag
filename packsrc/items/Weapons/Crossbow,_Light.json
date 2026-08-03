@@ -5,8 +5,7 @@
   "img": "icons/weapons/crossbows/crossbow-blue.webp",
   "system": {
     "tags": [
-      "special",
-      "slow"
+      "special"
     ],
     "description": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.<br><br>Rate of Fire: 1</p>",
     "gm": {
@@ -26,7 +25,7 @@
     "canRanged": true,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Crossbow, Light",
+    "mastery": "",
     "weaponType": "all",
     "range": {
       "short": null,
@@ -54,7 +53,7 @@
     "unidentifiedDesc": "<p>This weapon resembles the heavy crossbow but is smaller in size. It requires two hands to load, though only one hand is needed to fire.</p><p>Rate of fire: 1</p>",
     "isIdentified": true,
     "isCursed": false,
-    "isSlow": true,
+    "isSlow": false,
     "charges": 0,
     "chargesMax": 0,
     "dmgFormula": null,

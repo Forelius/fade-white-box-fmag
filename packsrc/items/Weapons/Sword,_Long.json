@@ -2,10 +2,10 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Sword, Long",
   "type": "weapon",
-  "img": "modules/fade-compendiums/assets/img/weapon/sword.webp",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/sword.webp",
   "system": {
     "tags": [],
-    "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+    "description": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2â€™ to 3â€™ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
     "gm": {
       "notes": ""
     },
@@ -23,7 +23,7 @@
     "canRanged": false,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Sword, Normal",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,
@@ -48,7 +48,7 @@
     "unidentifiedName": "",
     "canSet": false,
     "size": "M",
-    "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2’ to 3’ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
+    "unidentifiedDesc": "<p>A normal sword is a  one-handed sword with a straight or curved blade 2â€™ to 3â€™ long. This category of sword encompasses a variety of different styles of sword, ranging from scimitars to broadswords and even rapiers.</p>",
     "isIdentified": true,
     "isCursed": false,
     "isSlow": false,

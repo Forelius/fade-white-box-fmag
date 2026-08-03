@@ -2,10 +2,10 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Sword, Short",
   "type": "weapon",
-  "img": "modules/fade-compendiums/assets/img/weapon/shortsword.webp",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/shortsword.webp",
   "system": {
     "tags": [],
-    "description": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+    "description": "<p>A short sword is a sword with a straight 18â€ to 2â€™ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
     "gm": {
       "notes": ""
     },
@@ -23,7 +23,7 @@
     "canRanged": false,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Sword, Short",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,
@@ -48,7 +48,7 @@
     "shortName": "",
     "unidentifiedName": "",
     "canSet": false,
-    "unidentifiedDesc": "<p>A short sword is a sword with a straight 18” to 2’ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
+    "unidentifiedDesc": "<p>A short sword is a sword with a straight 18â€ to 2â€™ blade. Primarily used as a stabbing rather than slashing weapon, this small blade can be used in one hand.</p>",
     "isIdentified": true,
     "isCursed": false,
     "isSlow": false,

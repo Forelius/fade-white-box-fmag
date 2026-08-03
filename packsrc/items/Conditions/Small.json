@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>The magical effect instantly reduces the user to 6 inches in height. The user can only attack creatures smaller than 1 foot for normal damage. They can slip through small cracks and have a 90% chance of not being seen when standing still. This transformation will cancel any previous growth effects without ill consequences.</p>",
+    "description": "<p>The imbiber shrinks and becomes 6 inches tall.</p>",
     "addStatusEffect": false
   },
   "effects": [
@@ -48,9 +48,7 @@
       "origin": null,
       "tint": "#e5b8dd",
       "transfer": true,
-      "statuses": [
-        "invisible"
-      ],
+      "statuses": [],
       "sort": 0,
       "flags": {},
       "_stats": {

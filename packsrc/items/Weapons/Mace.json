@@ -7,7 +7,7 @@
     "tags": [
       "cleric"
     ],
-    "description": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+    "description": "<p>A mace is a one handed melee weapon consisting of a 2â€™-3â€™ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
     "gm": {
       "notes": ""
     },
@@ -25,7 +25,7 @@
     "canRanged": false,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Mace",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,
@@ -50,7 +50,7 @@
     "unidentifiedName": "",
     "canSet": false,
     "size": "M",
-    "unidentifiedDesc": "<p>A mace is a one handed melee weapon consisting of a 2’-3’ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
+    "unidentifiedDesc": "<p>A mace is a one handed melee weapon consisting of a 2â€™-3â€™ long shaft with a heavy metal head. The head can be smooth (round or pear shaped), can contain flanges or studs, or can even be sculpted into the shape of a fist or skull or other roundish object.</p>",
     "isIdentified": true,
     "isCursed": false,
     "isSlow": false,

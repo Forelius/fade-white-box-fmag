@@ -1,0 +1,61 @@
+{
+  "name": "Potion of Extra Healing",
+  "type": "item",
+  "img": "icons/consumables/potions/bottle-bulb-corked-glowing-red.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Cures [[/r 3d6+3 #Potion of Extra Healing hit points restored]] hit points worth of damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": false,
+    "fuelType": "",
+    "unidentifiedName": "Mysterious Potion",
+    "unidentifiedDesc": "<p>The flask or vial holds a swirling and mysterious concoction inside.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.Cx4gINwzTGsUVrRv",
+        "action": "consume",
+        "castAs": "",
+        "name": "Extra Healing"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "2EAMCQ0rY5kaG9eB",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "RQtM627g8eWJEZhz",
+  "sort": 2000000,
+  "_originalKey": "!items!RQtM627g8eWJEZhz"
+}

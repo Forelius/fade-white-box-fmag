@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>The magical effect grants the user the combat strength of a frost giant. If no strength-adjusting magical item is worn, the user inflicts double normal damage with any weapon. Additionally, the user can throw small boulders with a range of 60/130/200, dealing [[/r 3d6 #points of damage]] points of damage. The enhancement is nullified by wearing any strength-adjusting magical item.</p>",
+    "description": "<p>Character gains strength above and beyond 18. Gains an additional 1d6 to damage rolls and +4 to-hit.</p>",
     "addStatusEffect": false
   },
   "effects": [
@@ -36,9 +36,15 @@
       "system": {},
       "changes": [
         {
-          "key": "system.mod.combat.dmgScale",
-          "mode": 4,
-          "value": "2",
+          "key": "system.mod.combat.toHit",
+          "mode": 2,
+          "value": "4",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.toHitRanged",
+          "mode": 2,
+          "value": "4",
           "priority": null
         }
       ],

@@ -6,7 +6,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>Those with this condition are immune to damage from normal fire and heat. They also receive a +2 bonus to all saving throws against magical fire (such as dragon breath or fireball). Additionally, any damage taken from such magical fire is reduced by 1 point per die of damage, with each die dealing at least 1 point of damage. For red dragon breath, the damage is reduced by 1 point per Hit Die of the dragon, but never below 1 point per Hit Die.</p>",
+    "description": "<p>Grants immunity to normal fire, +2 to saving throws against fire attacks, and half damage to magic fire attacks that do not permit saving throws.</p>",
     "addStatusEffect": false
   },
   "effects": [

@@ -35,7 +35,13 @@
         "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
       }
     ],
-    "conditions": []
+    "conditions": [
+      {
+        "name": "Petrified",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.QDhoYE22lDX8YzSd",
+        "remove": false
+      }
+    ]
   },
   "flags": {},
   "effects": [],

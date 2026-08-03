@@ -4,10 +4,8 @@
   "type": "weapon",
   "img": "icons/weapons/swords/greatsword-crossguard-barbed.webp",
   "system": {
-    "tags": [
-      "slow"
-    ],
-    "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+    "tags": [],
+    "description": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield.</p>",
     "gm": {
       "notes": ""
     },
@@ -25,7 +23,7 @@
     "canRanged": false,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Sword, Two-Handed",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,
@@ -50,10 +48,10 @@
     "shortName": "",
     "unidentifiedName": "",
     "canSet": false,
-    "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield and always loses individual initiative to characters not using a two-handed weapon. Halflings and small nonhumans such as goblins cannot use this weapon.</p>",
+    "unidentifiedDesc": "<p>This weapon, also called the great sword, is the largest type of sword. It is similar to the normal sword (above) but much longer, usually being 4 1/2' to 6 1/2' long.</p><p>This sword is a two-handed weapon; the wielder of the weapon may not use a shield.</p>",
     "isIdentified": true,
     "isCursed": false,
-    "isSlow": true,
+    "isSlow": false,
     "charges": 0,
     "chargesMax": 0,
     "dmgFormula": null,

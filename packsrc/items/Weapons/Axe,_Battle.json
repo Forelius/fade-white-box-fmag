@@ -2,11 +2,9 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Axe, Battle",
   "type": "weapon",
-  "img": "modules/fade-compendiums/assets/img/weapon/battleaxe.webp",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/battleaxe.webp",
   "system": {
-    "tags": [
-      "slow"
-    ],
+    "tags": [],
     "description": "<p>A battle axe is a two-handed axe 2'-4' in length, usually with a double blade or a spike on the reverse of the blade.</p>",
     "gm": {
       "notes": ""
@@ -25,7 +23,7 @@
     "canRanged": false,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Axe, Battle",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,

@@ -5,8 +5,7 @@
   "img": "icons/weapons/polearms/spear-hooked-spike.webp",
   "system": {
     "tags": [
-      "special",
-      "slow"
+      "special"
     ],
     "description": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>",
     "gm": {
@@ -26,7 +25,7 @@
     "canRanged": false,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Polearm, Other",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,
@@ -54,7 +53,7 @@
     "unidentifiedDesc": "<p>This weapon covers all other polearm varieties that are not individually listed in the weapons list. Some of these weapons include the bardiche, bill, glaive, partizan, ranseur, spetum and voulge. See rules for specials.</p>",
     "isIdentified": true,
     "isCursed": false,
-    "isSlow": true,
+    "isSlow": false,
     "charges": 0,
     "chargesMax": 0,
     "dmgFormula": null,

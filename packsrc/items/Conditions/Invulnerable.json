@@ -6,7 +6,7 @@
   "system": {
     "key": "invulnerable",
     "shortName": "",
-    "description": "<p>Grants a +2 bonus to the user's Armor Class and saving throws for the duration of the effect.</p>",
+    "description": "<p>+2 to saving throws, and opponents attack at -2.</p>",
     "addStatusEffect": true
   },
   "effects": [
@@ -46,15 +46,21 @@
       "system": {},
       "changes": [
         {
-          "key": "system.mod.ac",
+          "key": "system.mod.save.all",
           "mode": 2,
           "value": "2",
           "priority": null
         },
         {
-          "key": "system.mod.save.all",
+          "key": "system.mod.combat.selfToHit",
           "mode": 2,
-          "value": "2",
+          "value": "-2",
+          "priority": null
+        },
+        {
+          "key": "system.mod.combat.selfToHitRanged",
+          "mode": 2,
+          "value": "-2",
           "priority": null
         }
       ],

@@ -2,7 +2,7 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Warhammer",
   "type": "weapon",
-  "img": "modules/fade-compendiums/assets/img/weapon/warhammer.webp",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/warhammer.webp",
   "system": {
     "tags": [
       "cleric"
@@ -25,7 +25,7 @@
     "canRanged": false,
     "savingThrow": "",
     "saveDmgFormula": "",
-    "mastery": "Hammer, War",
+    "mastery": "",
     "weaponType": "handheld",
     "range": {
       "short": null,
