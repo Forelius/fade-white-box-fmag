@@ -1,0 +1,54 @@
+{
+  "name": "Massmorph",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "e7WpVKn2OAKkj2NJ",
+  "system": {
+    "tags": [],
+    "description": "<p>One hundred or fewer human-sized creatures are changed to appear like innocent trees. The illusion is so perfect that creatures moving through the “forest” will not detect the deception.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "240'",
+    "duration": "Until negated or dispelled",
+    "effect": "One hundred or fewer creatures appear as trees",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "100",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "DnaTWbLQ8iyeXj6u",
+  "sort": 140000,
+  "_originalKey": "!items!DnaTWbLQ8iyeXj6u"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Locate Object",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lfFAwvi9p4mKrmqq",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell gives the caster the correct direction (as the crow flies) toward an object the caster specifies with a description. The object cannot be something the caster has never seen, although the spell can detect an object in a general class of items known to the caster: stairs, gold, etc.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60' + 10'/level",
+    "duration": "1 minute per level",
+    "effect": "Direction toward a specified object",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.M.castLevel*6",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "gofwQvvGBL7P0cUD",
+  "sort": 170000,
+  "_originalKey": "!items!gofwQvvGBL7P0cUD"
+}

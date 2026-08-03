@@ -1,0 +1,54 @@
+{
+  "name": "Dispel Magic",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>Dispel magic can be used to completely dispel most spells and enchantments.</p><p>As an example of how one might referee this spell, the chance of dispelling magic could be a percentage based on the ratio of the level of the caster trying to dispel over the level of the caster (or HD of the monster) who hurled the original magic.</p><p>Thus, a 6th level Magic-user attempting to dispel a charm cast by a 12th level Magic-user has a 50% chance of success (6 / 12 = 1/2). If the 12th level Magic-user were dispelling the 6th level Magic-user's charm, the dispelling caster's chance of success would be 200% (12 / 6 = 2).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "1 turn (10 minutes)",
+    "effect": "Completely dispels most spells and enchantments",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "2YH5EaLAOrAvBAN9",
+  "sort": 130000,
+  "_originalKey": "!items!2YH5EaLAOrAvBAN9"
+}

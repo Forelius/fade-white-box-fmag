@@ -1,0 +1,50 @@
+{
+  "folder": "EOi0fNPIiQgeGqJB",
+  "name": "Cure Serious Wounds*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster cures [[/r 3d6+3 #Cure Serious Wounds]] HP.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "effect": "One living creature",
+    "memorized": 2,
+    "cast": 1,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "3d6+3",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "heal",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6OXtAggAaqe5dy0E",
+  "sort": 0,
+  "_originalKey": "!items!6OXtAggAaqe5dy0E"
+}

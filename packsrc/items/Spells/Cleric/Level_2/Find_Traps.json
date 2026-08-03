@@ -1,0 +1,50 @@
+{
+  "folder": "InFPCFwBcm9h2cGU",
+  "name": "Find Traps",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Find Traps can allow the caster to perceive both magical and non-magical traps at a distance of 30 feet.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "30'",
+    "duration": "2 turns (20 minutes)",
+    "effect": "Perceives magical and non-magical traps within 30'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "elg6jcMdhK45thvW",
+  "sort": 200000,
+  "_originalKey": "!items!elg6jcMdhK45thvW"
+}

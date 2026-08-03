@@ -4,9 +4,7 @@
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
-    "tags": [
-      "cleric"
-    ],
+    "tags": [],
     "description": "<p>The caster creates a magical field of protection around themself to block out all chaotic monsters, who suffer a -1 penalty “to-hit” against the caster, and the caster gains +1 on all saving throws against such attacks.</p>",
     "gm": {
       "notes": ""
@@ -37,7 +35,7 @@
     "classes": [
       {
         "name": "Cleric",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
       }
     ]
   },

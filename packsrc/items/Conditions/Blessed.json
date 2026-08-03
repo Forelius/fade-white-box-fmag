@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p>This effect improves the morale of friendly creatures by +1 and gives the recipients a +1 bonus on all attack and damage rolls. It will only affect creatures in a 20' X 20' area, and only those who are not yet in melee.</p>",
+    "description": "<p>This effect grants the recipient a +1 bonus on all attack rolls and improves overall morale (if the target is not a Player Character).</p>",
     "addStatusEffect": false
   },
   "effects": [
@@ -49,18 +49,6 @@
         },
         {
           "key": "system.mod.combat.toHitRanged",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.dmg",
-          "mode": 2,
-          "value": "1",
-          "priority": null
-        },
-        {
-          "key": "system.mod.combat.dmgRanged",
           "mode": 2,
           "value": "1",
           "priority": null

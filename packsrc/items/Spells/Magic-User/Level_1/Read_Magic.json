@@ -10,8 +10,8 @@
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "0",
-    "duration": "1 turn",
+    "range": "Caster only",
+    "duration": "2 scrolls or other writings",
     "effect": "The spellcaster only",
     "memorized": 0,
     "cast": 0,
@@ -20,7 +20,7 @@
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
-    "durationFormula": "60",
+    "durationFormula": "-",
     "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
@@ -28,11 +28,11 @@
     "classes": [
       {
         "name": "Magic-User",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
       },
       {
         "name": "Elf",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
       }
     ],
     "conditions": []

@@ -12,7 +12,7 @@
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "120",
+    "range": "120'",
     "duration": "12 turns (2 hours)",
     "effect": "Darken area of 20' radius",
     "memorized": 0,
@@ -23,18 +23,14 @@
     "healFormula": "",
     "maxTargetFormula": "",
     "durationFormula": "720",
-    "savingThrow": "spell",
+    "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
     "damageType": "",
     "classes": [
       {
         "name": "Cleric",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
-      },
-      {
-        "name": "Druid",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
       }
     ],
     "conditions": []

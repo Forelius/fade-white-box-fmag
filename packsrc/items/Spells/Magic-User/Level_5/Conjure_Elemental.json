@@ -1,0 +1,54 @@
+{
+  "name": "Conjure Elemental",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "1YQicilxTtDv8t2C",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster summons a 16 HD elemental (any kind) from the elemental planes of existence, and binds it to his commands. Each type of elemental may only be summoned once per day. The elemental obeys the caster only for as long as the caster concentrates on it; when the caster ceases to concentrate, even for a moment, the elemental is released and will attack.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "240'",
+    "duration": "Until dispelled",
+    "effect": "Summons a 16 HD elemental bound to the caster",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Rbmqe8MiDIQbXOKk",
+  "sort": 130000,
+  "_originalKey": "!items!Rbmqe8MiDIQbXOKk"
+}

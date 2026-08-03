@@ -14,6 +14,8 @@ This system is incomplete at the moment, a work in progress that acts as a test 
 
 **Rollable Tables Compendium:** ```fade-white-box-fmag.rollTables```
 
+**Macros Compendium:** ```fade-white-box-fmag.macros```
+
 **Encumbrance Tracking:** The system does not currently have a perfect implementation of the White Box's encumbrance system. You could use ```Classic``` for close approximation.
 
 **Ability Score Modifier System:** ```Simple```

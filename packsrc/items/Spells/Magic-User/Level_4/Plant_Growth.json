@@ -1,0 +1,54 @@
+{
+  "name": "Plant Growth",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "e7WpVKn2OAKkj2NJ",
+  "system": {
+    "tags": [],
+    "description": "<p>Up to 300 square feet of ground can be affected by this spell; undergrowth in the area suddenly grows into an impassable forest of thorns and vines. The caster can decide the shape of the area to be enchanted. An alternate version (Referee's decision) would allow the spell to affect an area of 300 x 300 feet, for a total of 90,000 square feet.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "Permanent until dispelled",
+    "effect": "Up to 300 square feet of impassable undergrowth",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "8qoEqn8FMGZqOCYU",
+  "sort": 150000,
+  "_originalKey": "!items!8qoEqn8FMGZqOCYU"
+}

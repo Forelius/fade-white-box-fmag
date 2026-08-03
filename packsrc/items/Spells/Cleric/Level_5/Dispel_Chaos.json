@@ -1,0 +1,50 @@
+{
+  "folder": "L73eFrKqmS7uG9bE",
+  "name": "Dispel Chaos*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>As a Dispel Chaos spell, the spell is similar to the arcane spell Dispel Magic, but works against items, spells, or agents of Chaos. However, unlike Dispel Magic, this spell also functions against chaotic sendings, possibly including dreams or supernatural hunting-beasts.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "1 turn (10 minutes)",
+    "effect": "Dispel items, spells, or agents of Chaos",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "48cX4PRq9UDH4ntu",
+  "sort": 200000,
+  "_originalKey": "!items!48cX4PRq9UDH4ntu"
+}

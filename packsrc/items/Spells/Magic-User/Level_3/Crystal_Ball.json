@@ -1,0 +1,54 @@
+{
+  "name": "Crystal Ball",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster must announce which of the two options is being cast. A two foot thickness of solid stone or a thin layer of lead blocks both options.</p><p>As a Clairaudience spell, the caster can hear through solid obstacles.</p><p>As a Clairvoyance spell, the caster can see through solid obstacles.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "60'",
+    "duration": "2 hours (12 turns)",
+    "effect": "See or hear through solid obstacles",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "mMdwjHrBoaiCDHZG",
+  "sort": 110000,
+  "_originalKey": "!items!mMdwjHrBoaiCDHZG"
+}

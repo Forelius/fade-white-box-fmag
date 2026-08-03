@@ -1,0 +1,54 @@
+{
+  "name": "Charm Monster",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "e7WpVKn2OAKkj2NJ",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell operates in the same manner as Charm Person, but can affect more powerful monsters. Up to 3d6 monsters of fewer than 3 HD are affected.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "Until dispelled",
+    "effect": "Up to 3d6 monsters of fewer than 3 HD",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "3d6",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "mnzGCa73J0lUl0OV",
+  "sort": 100000,
+  "_originalKey": "!items!mnzGCa73J0lUl0OV"
+}

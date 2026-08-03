@@ -21,18 +21,14 @@
     "healFormula": "",
     "maxTargetFormula": "",
     "durationFormula": "720",
-    "savingThrow": "spell",
+    "savingThrow": "",
     "saveDmgFormula": null,
     "attackType": "",
     "damageType": "",
     "classes": [
       {
         "name": "Cleric",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
-      },
-      {
-        "name": "Druid",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2bY72FXD6Eh3eXAU"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
       }
     ],
     "conditions": []

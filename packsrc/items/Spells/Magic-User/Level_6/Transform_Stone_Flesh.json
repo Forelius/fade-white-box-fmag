@@ -1,0 +1,54 @@
+{
+  "name": "Transform Stone-Flesh",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "yFiWu9JGcU5cESq0",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell transforms flesh into stone or stone into flesh, as desired by the caster. A saving throw is permitted to avoid being turned into stone, but if the spell succeeds the victim is transformed into a statue.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "120'",
+    "duration": "Permanent until reversed",
+    "effect": "Transforms flesh into stone or stone into flesh",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Uy0FdkisQ8CyNCnN",
+  "sort": 200000,
+  "_originalKey": "!items!Uy0FdkisQ8CyNCnN"
+}

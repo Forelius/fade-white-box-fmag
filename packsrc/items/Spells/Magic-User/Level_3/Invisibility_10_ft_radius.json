@@ -1,0 +1,60 @@
+{
+  "name": "Invisibility, 10 ft. radius",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>Identical to the Invisibility spell, which makes the target creature or object invisible to normal vision and to dark vision, except that it also throws a sphere of invisibility (with a 10 foot radius) around the recipient, which moves along with the target.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "240'",
+    "duration": "Until dispelled or an attack is made",
+    "effect": "Creature or object and a 10' radius sphere become invisible",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Invisible",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.YG8b9eFbcb3QCHOv",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "E4Fe8OkDfpOqbB1y",
+  "sort": 170000,
+  "_originalKey": "!items!E4Fe8OkDfpOqbB1y"
+}

@@ -7,7 +7,7 @@
   "system": {
     "key": "",
     "shortName": "",
-    "description": "<p><span style=\"font-family: Barlow, sans-serif\"><em style=\"box-sizing: border-box; user-select: text; scrollbar-width: thin; scrollbar-color: rgb(93, 20, 43) rgba(0, 0, 0, 0); color: rgb(235, 234, 228); font-family: Barlow, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgba(11, 10, 19, 0.9); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Curse</em> imposes a penalty or misfortune on the target, with effects limited only by the caster's imagination. Typical curses include a -4 penalty to attack rolls, a -2 penalty to saving throws, halving of a prime requisite, or a -4 penalty on others' reaction rolls.</span></p>",
+    "description": "<p>This effect imposes a -1 penalty on all attack rolls and decreases overall morale (if the target is not a Player Character).</p>",
     "addStatusEffect": false
   },
   "effects": [
@@ -38,19 +38,19 @@
         {
           "key": "system.mod.combat.toHit",
           "mode": 2,
-          "value": "-4",
+          "value": "-1",
           "priority": null
         },
         {
           "key": "system.mod.combat.toHitRanged",
           "mode": 2,
-          "value": "-4",
+          "value": "-1",
           "priority": null
         },
         {
-          "key": "system.mod.save.all",
+          "key": "system.details.morale",
           "mode": 2,
-          "value": "-2",
+          "value": "-1",
           "priority": null
         }
       ],

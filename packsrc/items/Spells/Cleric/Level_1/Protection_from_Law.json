@@ -5,7 +5,7 @@
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
     "tags": [
-      "cleric"
+      "reversed"
     ],
     "description": "<p>The caster creates a magical field of protection around himself to block out all lawful monsters, who suffer a -1 penalty “to-hit” against the caster, and the caster gains +1 on all saving throws against such attacks.</p>",
     "gm": {
@@ -13,7 +13,7 @@
     },
     "spellLevel": 1,
     "range": "Personal",
-    "duration": "12 turns",
+    "duration": "12 turns (2 hours)",
     "effect": "Protect from lawful creatures",
     "memorized": 0,
     "cast": 0,
@@ -37,7 +37,7 @@
     "classes": [
       {
         "name": "Cleric",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
       }
     ]
   },

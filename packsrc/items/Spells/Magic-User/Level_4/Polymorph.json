@@ -1,0 +1,54 @@
+{
+  "name": "Polymorph",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "e7WpVKn2OAKkj2NJ",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster must announce which of the two options are being cast:</p><p>The caster assumes the form of any object or creature, gaining the new form's attributes (the use of wings, for example), but not its hit points or combat abilities. The Referee might allow the benefit of the new form's armor class, if it is due to heavily armored skin. A great deal of the spell's effect is left to the Referee to decide. This form of the spell lasts for roughly one hour plus one additional hour for each level of the caster.</p><p>Alternately, this spell allows the caster to turn another being into a different type of creature (such as a dragon, a garden slug, and of course, a frog or newt). The polymorphed creature gains all the abilities of the new form, but retains its own mind and hit points. Used in this way, the range on this spell is 60 feet. This form of the spell lasts until dispelled.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "See below",
+    "duration": "See below",
+    "effect": "Caster takes a new form, or transforms another being",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "KB1zOzDA71XzsCB8",
+  "sort": 160000,
+  "_originalKey": "!items!KB1zOzDA71XzsCB8"
+}

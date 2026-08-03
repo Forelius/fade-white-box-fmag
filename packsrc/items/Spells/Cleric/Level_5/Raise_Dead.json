@@ -1,0 +1,50 @@
+{
+  "folder": "L73eFrKqmS7uG9bE",
+  "name": "Raise Dead",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Raise Dead allows the Cleric to raise a corpse from the dead, provided it has not been dead too long. The normal time limit is 4 days, but for every caster level higher than 8th, the time limit extends another 4 days. Characters with low constitution might not survive the ordeal; and even for those with a strong constitution, a period of two weeks is required before they can function normally. This spell only functions on races that can be used for Player Characters (i.e., \"human-like\").</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "Line of sight",
+    "duration": "See below",
+    "effect": "Raise a corpse to life",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "2FuNEfeheRJ56SD5",
+  "sort": 600000,
+  "_originalKey": "!items!2FuNEfeheRJ56SD5"
+}

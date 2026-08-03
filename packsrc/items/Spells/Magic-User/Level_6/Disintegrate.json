@@ -1,0 +1,54 @@
+{
+  "name": "Disintegrate",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "yFiWu9JGcU5cESq0",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster defines one specific target such as a door, a peasant, or a statue, and it disintegrates into dust. Magical materials are not disintegrated, and living creatures (such as the aforementioned peasant) are permitted a saving throw. The Disintegrate spell cannot be dispelled.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "60'",
+    "duration": "Permanent",
+    "effect": "Disintegrates one specific target into dust",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "WtLndLPpJTlh49do",
+  "sort": 130000,
+  "_originalKey": "!items!WtLndLPpJTlh49do"
+}

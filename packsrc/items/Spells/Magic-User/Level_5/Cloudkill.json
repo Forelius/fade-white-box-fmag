@@ -1,0 +1,54 @@
+{
+  "name": "Cloudkill",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "1YQicilxTtDv8t2C",
+  "system": {
+    "tags": [],
+    "description": "<p>Foul and poisonous vapors boil from the thin air, forming a cloud 15 feet in radius. The cloud moves away from the caster at a rate of 6 feet per minute unless its direction or speed is affected by winds. Unusually strong gusts can dissipate and destroy it. Poison-laden, the horrid mist is heavier than air, and thus sinks down any pits or stairs in its path. This spell affects only creatures with 5 or fewer HD.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "Close",
+    "duration": "1 hour (6 turns)",
+    "effect": "Poison cloud 15' radius; affects creatures with 5 HD or fewer",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "lozttEv2APTyxruK",
+  "sort": 120000,
+  "_originalKey": "!items!lozttEv2APTyxruK"
+}

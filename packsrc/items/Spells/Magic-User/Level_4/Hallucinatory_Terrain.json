@@ -1,0 +1,54 @@
+{
+  "name": "Hallucinatory Terrain",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "e7WpVKn2OAKkj2NJ",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell changes the appearance of the terrain into the semblance of what the caster desires. A hill can be made to disappear, or could be replaced with an illusory forest, for example.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "240'",
+    "duration": "Until touched by an enemy or dispelled",
+    "effect": "Changes the appearance of terrain within 240'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Sjhk6ceVIjXelZLa",
+  "sort": 130000,
+  "_originalKey": "!items!Sjhk6ceVIjXelZLa"
+}

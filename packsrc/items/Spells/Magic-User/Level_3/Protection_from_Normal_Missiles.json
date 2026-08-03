@@ -1,0 +1,54 @@
+{
+  "name": "Protection from Normal Missiles",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>The recipient becomes invulnerable to small non-magical missiles. Only those missiles projected by normal humans and/or weapons are affected.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "30'",
+    "duration": "2 hours (12 turns)",
+    "effect": "Recipient is invulnerable to small non-magical missiles",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "720",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "2w1eBsmbE4GgNBCj",
+  "sort": 200000,
+  "_originalKey": "!items!2w1eBsmbE4GgNBCj"
+}

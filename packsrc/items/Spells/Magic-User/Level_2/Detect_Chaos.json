@@ -1,0 +1,54 @@
+{
+  "name": "Detect Chaos",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lfFAwvi9p4mKrmqq",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster detects creatures of Chaos, or those with chaotic enchantments, intentions, thoughts, or auras within the spell’s range. Poison is not inherently evil or chaotic and cannot be detected by means of this spell.</p><p>As a Detect Law spell, the spell works exactly like Detect Chaos except that it detects Law.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "60'",
+    "duration": "2 turns (20 minutes)",
+    "effect": "Detects creatures of Chaos within 60'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "120",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "GyV7UqDjyvFpUPpJ",
+  "sort": 100000,
+  "_originalKey": "!items!GyV7UqDjyvFpUPpJ"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Web",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lfFAwvi9p4mKrmqq",
+  "system": {
+    "tags": [],
+    "description": "<p>Fibrous, sticky webs fill an area up to 10 x 10 x 20 feet. It is extremely difficult to get through the mass of strands-it takes one turn if a torch and sword (or a flaming sword) are used, and creatures larger than a horse can break through in 2 turns. Humans take longer to break through-perhaps 3 to 4 turns or longer at the Referee's discretion.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "30'",
+    "duration": "8 hours (48 turns)",
+    "effect": "Sticky webs fill an area up to 10' x 10' x 20'",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "2880",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "FedBtlQ0X3QgKM3j",
+  "sort": 190000,
+  "_originalKey": "!items!FedBtlQ0X3QgKM3j"
+}

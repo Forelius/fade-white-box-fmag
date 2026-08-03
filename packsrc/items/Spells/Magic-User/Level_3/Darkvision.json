@@ -1,0 +1,60 @@
+{
+  "name": "Darkvision",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>The recipient of the spell can see in total darkness. The recipient should roll 1d6 on the table to determine the range of his vision.</p><p></p><table><thead><tr><th>Roll d6</th><th>Range of Vision</th></tr></thead><tbody><tr><td>1-2</td><td>40'</td></tr><tr><td>3-4</td><td>50'</td></tr><tr><td>5-6</td><td>60'</td></tr></tbody></table>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Touch",
+    "duration": "1 day",
+    "effect": "Recipient can see in total darkness",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "8640",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Infravision",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.hYEizXtc25iDKcld",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "cHeYKs11Hc66Zbwc",
+  "sort": 120000,
+  "_originalKey": "!items!cHeYKs11Hc66Zbwc"
+}

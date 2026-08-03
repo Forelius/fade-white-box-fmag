@@ -1,0 +1,52 @@
+{
+  "folder": "L73eFrKqmS7uG9bE",
+  "name": "Dispel Law*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>As a Dispel Law spell, the spell works exactly like Dispel Chaos, except that it will dispel Law.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "1 turn (10 minutes)",
+    "effect": "Dispel items, spells, or agents of Law",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "C81vFmI6Vw2GeJ2Y",
+  "sort": 300000,
+  "_originalKey": "!items!C81vFmI6Vw2GeJ2Y"
+}

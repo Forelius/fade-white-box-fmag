@@ -1,0 +1,56 @@
+{
+  "folder": "InFPCFwBcm9h2cGU",
+  "name": "Bless*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster must announce which of the two options is being cast. The recipient of this spell cannot be in combat when it is cast.</p><p>As a Bless spell, the recipient is granted a +1 bonus to all attack rolls and, if the target is not a Player Character, improves overall morale.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "Target PC or NPC (out-of-combat)",
+    "duration": "6 turns (1 hour)",
+    "effect": "Grant +1 bonus to attack rolls (improve morale if non-PC)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Blessed",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.H9QzS61QZdi0ex8l",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "A06qIyVAANCIhJac",
+  "sort": 0,
+  "_originalKey": "!items!A06qIyVAANCIhJac"
+}

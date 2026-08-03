@@ -1,0 +1,21 @@
+{
+  "folder": "8QnG4j2FXrIxRegn",
+  "name": "Character XP Needed",
+  "type": "script",
+  "author": "0eyrbleKg5gmY59g",
+  "img": "icons/svg/up.svg",
+  "scope": "global",
+  "command": "(async () => {\n    const classSys = game.fade.registry.getSystem(\"classSystem\");\n    await classSys.getXpNeeded();\n})();",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "m7uUovHzOsqO1V1Q",
+  "sort": 400000,
+  "_originalKey": "!macros!m7uUovHzOsqO1V1Q"
+}

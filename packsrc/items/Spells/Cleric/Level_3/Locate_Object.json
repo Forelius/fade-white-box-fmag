@@ -1,0 +1,50 @@
+{
+  "folder": "Xx93i8Am4Jhi9hrH",
+  "name": "Locate Object",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell gives the caster the correct direction (as the crow flies) toward an object the caster specifies with a description. The object cannot be something the caster has never seen, although the spell can detect an object in a general class of items known to the caster: stairs, gold, etc.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "90'",
+    "duration": "1 minute per level",
+    "effect": "Direction toward a specified object",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "6 * @classes.C.castLevel",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "2p1IC1tGCJ1BnmJj",
+  "sort": 400000,
+  "_originalKey": "!items!2p1IC1tGCJ1BnmJj"
+}

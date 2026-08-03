@@ -1,0 +1,54 @@
+{
+  "name": "Wall of Fire or Ice",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "e7WpVKn2OAKkj2NJ",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster must announce which of the two options are being cast:</p><p>As a Wall of Fire spell, the caster conjures a wall of fire that flares into being and burns for as long as the caster concentrates upon it. Creatures with 3 or fewer hit dice cannot pass through it, and no creature can see through it to the other side. Passing through the fire inflicts 1d6 hit points of damage (no saving throw) and undead creatures sustain twice the normal damage. The caster may choose to create a straight wall 60 feet long and 20 feet high, or a circular wall with a 15 foot radius, also 20 feet high.</p><p>As a Wall of Ice spell, the caster conjures up a 6 foot thick wall of ice. The caster may choose to create a straight wall 60 feet long and 20 feet high, or a circular wall with a 15 foot radius, also 20 feet high. Creatures with 3 or fewer hit dice cannot affect the wall, but creatures of 4+ hit dice are able to smash through it, taking 1d6 points of damage in the process. Creatures with fire-based metabolisms take 2d6 instead of the normal 1d6. Fire spells and magical effects are negated in the vicinity of the wall.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "60'",
+    "duration": "Concentration",
+    "effect": "Wall of fire or wall of ice (straight or 15' radius)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "aHPRCIXcUgls2UR3",
+  "sort": 180000,
+  "_originalKey": "!items!aHPRCIXcUgls2UR3"
+}

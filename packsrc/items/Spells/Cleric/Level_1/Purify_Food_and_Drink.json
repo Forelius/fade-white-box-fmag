@@ -1,6 +1,6 @@
 {
   "folder": "6wIusiB0Li3lql8T",
-  "name": "Purify Food and Water*",
+  "name": "Purify Food and Drink*",
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
@@ -28,7 +28,7 @@
     "classes": [
       {
         "name": "Cleric",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
       }
     ],
     "conditions": []

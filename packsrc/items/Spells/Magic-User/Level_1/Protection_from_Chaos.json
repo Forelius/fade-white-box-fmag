@@ -10,13 +10,13 @@
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "0",
-    "duration": "6 turns",
+    "range": "Personal",
+    "duration": "6 turns (1 hour)",
     "effect": "The spellcaster only",
     "memorized": 0,
     "cast": 0,
     "targetSelf": true,
-    "targetOther": true,
+    "targetOther": false,
     "dmgFormula": "",
     "healFormula": "",
     "maxTargetFormula": "1",
@@ -28,13 +28,18 @@
     "conditions": [
       {
         "name": "Protected",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.4iesuDY5xhbUiS86"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.4iesuDY5xhbUiS86",
+        "remove": false
       }
     ],
     "classes": [
       {
         "name": "Magic-User",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
       }
     ]
   },

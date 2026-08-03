@@ -1,0 +1,54 @@
+{
+  "name": "Control Weather",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "yFiWu9JGcU5cESq0",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster can summon or stop rainfall, tornadoes, create unusually high or low temperatures, clear the sky of clouds or summon clouds into being.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "Referee's discretion",
+    "duration": "Referee's discretion",
+    "effect": "Summon or stop rainfall, tornadoes, and temperature changes",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AOg0Vet8yIv9ewUb",
+  "sort": 110000,
+  "_originalKey": "!items!AOg0Vet8yIv9ewUb"
+}

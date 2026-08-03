@@ -1,0 +1,50 @@
+{
+  "folder": "L73eFrKqmS7uG9bE",
+  "name": "Quest",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>If the victim fails his saving throw, the caster may set a task for him. If a Magic-user casts this spell the victim will die if he ignores the Quest altogether. If a Cleric casts this spell the victim's failure to obey will result in a curse to be determined by the Referee.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "30'",
+    "duration": "Until completed",
+    "effect": "Set a task; failure brings death or a curse",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "dMMwlnDdg5KlOFA7",
+  "sort": 500000,
+  "_originalKey": "!items!dMMwlnDdg5KlOFA7"
+}

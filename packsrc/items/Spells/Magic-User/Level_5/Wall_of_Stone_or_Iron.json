@@ -1,0 +1,54 @@
+{
+  "name": "Wall of Stone or Iron",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "1YQicilxTtDv8t2C",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster must announce which of the two options are being cast:</p><ul><li>As a Wall of Stone spell, the caster conjures a wall of stone 2 feet thick, with a surface area of 1,000 square feet.</li><li>As a Wall of Iron spell, the caster conjures an iron wall from thin air. The wall is 3 feet thick, with a surface area of 500 square feet.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "60'",
+    "duration": "Permanent (stone) or 2 hours (iron)",
+    "effect": "Wall of stone (2' thick, 1,000 sq. ft.) or wall of iron (3' thick, 500 sq. ft.)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "sG2nDp4j5bwz0jTt",
+  "sort": 220000,
+  "_originalKey": "!items!sG2nDp4j5bwz0jTt"
+}

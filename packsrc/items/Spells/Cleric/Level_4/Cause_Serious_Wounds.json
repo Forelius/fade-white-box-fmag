@@ -1,0 +1,52 @@
+{
+  "folder": "EOi0fNPIiQgeGqJB",
+  "name": "Cause Serious Wounds*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The caster causes [[/r 3d6+3 #Cause Serious Wounds]] damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "effect": "One living creature",
+    "memorized": 2,
+    "cast": 1,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "3d6+3",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "melee",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "vPUXl9jdwxgKVAjm",
+  "sort": 100000,
+  "_originalKey": "!items!vPUXl9jdwxgKVAjm"
+}

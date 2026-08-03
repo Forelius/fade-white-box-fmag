@@ -1,0 +1,54 @@
+{
+  "name": "Move Water",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "yFiWu9JGcU5cESq0",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster must announce which of the two options are being cast:</p><ul><li>The spell lowers the depth and water level of lakes, rivers, wells, and other bodies of water to 1/2 their normal levels. Used this way, the spell lasts for 10 turns.</li><li>Alternately, this spell creates a gap through water, but only to a depth of 10 feet. Used this way, the spell lasts for 6 turns.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 6,
+    "range": "240'",
+    "duration": "See below",
+    "effect": "Halves the water level of bodies of water, or creates a gap through water",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "0nzYqyu7PIhwcwYg",
+  "sort": 160000,
+  "_originalKey": "!items!0nzYqyu7PIhwcwYg"
+}

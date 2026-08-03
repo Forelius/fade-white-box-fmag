@@ -1,0 +1,60 @@
+{
+  "name": "Magic Jar",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "1YQicilxTtDv8t2C",
+  "system": {
+    "tags": [],
+    "description": "<p>The magic jar spell is a most powerful one: the caster places his life force into a receptacle (an inanimate object) within 30 feet of his body, as the soul leaves the body and moves into the object. The caster's body is now in a state of suspended animation, and will not age nor need any nourishment.</p><p>If the caster so desires, he may attempt to possess a body from the jar: the possessor leaves the jar and attempts to occupy the body of the victim, requiring a victim within 120 feet of the jar. If successful, the caster's life force now occupies the body of the victim. If the attempt fails, the caster's life force remains in the jar, but he is unable to leave it for a full turn. The caster may possess a body or return to his own at will. If the victim's body or the caster's body is destroyed while the caster's life force is in the jar, the caster dies.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "See below",
+    "duration": "See below",
+    "effect": "Caster's life force enters a jar, from which he may possess bodies",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Possessed",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.xdCSxEsp54oo1WWA",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6uERG3aoZr6RiMcf",
+  "sort": 170000,
+  "_originalKey": "!items!6uERG3aoZr6RiMcf"
+}

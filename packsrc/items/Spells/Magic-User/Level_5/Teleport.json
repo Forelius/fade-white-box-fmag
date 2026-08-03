@@ -1,0 +1,54 @@
+{
+  "name": "Teleport",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "1YQicilxTtDv8t2C",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell transports the caster or another person to a destination that the caster knows (at least knowing what it looks like from a painting or a map). Success depends on how well the caster knows the targeted location:</p><ul><li>If the caster has only indirect experience of the destination (known only through a picture or map) there is a 25% chance of success with failure resulting in death.</li><li>If the caster has seen but not studied the destination there is a 20% chance of failure. Half of failures will place the traveler 1d10 x 10 feet below the intended location, possibly resulting in death from arrival within a solid substance. The other half of failures will place the traveler 1d10 x 10 feet above the targeted location, possibly resulting in a deadly fall.</li><li>If the caster is familiar with the location or has studied it carefully there is a 5% chance of failure, with 1 in 6 failures arriving below and 5 in 6 arriving above the targeted location. In either case, the arrival is 1d4 x 10 feet low or high.</li></ul>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "effect": "Transports caster or another to a known destination",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "qxULE7G8l0JKAXi5",
+  "sort": 200000,
+  "_originalKey": "!items!qxULE7G8l0JKAXi5"
+}

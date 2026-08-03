@@ -40,6 +40,86 @@
       "lastModifiedBy": null
     }
   },
+  "!folders!InFPCFwBcm9h2cGU": {
+    "type": "Item",
+    "folder": "JAPsWVSDGP2OeBwv",
+    "name": "Level 2",
+    "color": null,
+    "sorting": "a",
+    "_id": "InFPCFwBcm9h2cGU",
+    "description": "",
+    "sort": 100000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!Xx93i8Am4Jhi9hrH": {
+    "type": "Item",
+    "folder": "JAPsWVSDGP2OeBwv",
+    "name": "Level 3",
+    "color": null,
+    "sorting": "a",
+    "_id": "Xx93i8Am4Jhi9hrH",
+    "description": "",
+    "sort": 200000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!EOi0fNPIiQgeGqJB": {
+    "type": "Item",
+    "folder": "JAPsWVSDGP2OeBwv",
+    "name": "Level 4",
+    "color": null,
+    "sorting": "a",
+    "_id": "EOi0fNPIiQgeGqJB",
+    "description": "",
+    "sort": 300000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!L73eFrKqmS7uG9bE": {
+    "type": "Item",
+    "folder": "JAPsWVSDGP2OeBwv",
+    "name": "Level 5",
+    "color": null,
+    "sorting": "a",
+    "_id": "L73eFrKqmS7uG9bE",
+    "description": "",
+    "sort": 400000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
   "!folders!7OABHo7Ug9AqwnBi": {
     "name": "Special",
     "sorting": "a",
@@ -216,6 +296,111 @@
     "_id": "KyXC3GcvMeQJ6Uc6",
     "description": "",
     "sort": 0,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
+  "!folders!lfFAwvi9p4mKrmqq": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 2",
+    "color": null,
+    "sorting": "a",
+    "_id": "lfFAwvi9p4mKrmqq",
+    "description": "",
+    "sort": 100000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
+  "!folders!a5BLnpB0xz1ueAZJ": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 3",
+    "color": null,
+    "sorting": "a",
+    "_id": "a5BLnpB0xz1ueAZJ",
+    "description": "",
+    "sort": 200000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
+  "!folders!e7WpVKn2OAKkj2NJ": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 4",
+    "color": null,
+    "sorting": "a",
+    "_id": "e7WpVKn2OAKkj2NJ",
+    "description": "",
+    "sort": 300000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
+  "!folders!1YQicilxTtDv8t2C": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 5",
+    "color": null,
+    "sorting": "a",
+    "_id": "1YQicilxTtDv8t2C",
+    "description": "",
+    "sort": 400000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
+  "!folders!yFiWu9JGcU5cESq0": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 6",
+    "color": null,
+    "sorting": "a",
+    "_id": "yFiWu9JGcU5cESq0",
+    "description": "",
+    "sort": 500000,
     "flags": {},
     "_stats": {
       "compendiumSource": null,

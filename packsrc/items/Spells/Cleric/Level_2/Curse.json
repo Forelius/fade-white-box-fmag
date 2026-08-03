@@ -1,0 +1,58 @@
+{
+  "folder": "InFPCFwBcm9h2cGU",
+  "name": "Curse*",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [
+      "reversed"
+    ],
+    "description": "<p>The caster must announce which of the two options is being cast. The recipient of this spell cannot be in combat when it is cast.</p><p>As a Curse spell, the recipient is cursed with a -1 penalty to all attack rolls and, if the target is not a Player Character, suffers a decrease to morale.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "Target PC or NPC (out-of-combat)",
+    "duration": "6 turns (1 hour)",
+    "effect": "Inflict -1 penalty to attack rolls (decrease morale if non-PC)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Cursed",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.aYagCZTGMHXvz717",
+        "remove": false
+      }
+    ]
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "AzDCRTcvU9e9MhbV",
+  "sort": 100000,
+  "_originalKey": "!items!AzDCRTcvU9e9MhbV"
+}

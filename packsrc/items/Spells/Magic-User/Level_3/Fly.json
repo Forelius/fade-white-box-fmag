@@ -1,0 +1,60 @@
+{
+  "name": "Fly",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell grants the power of flight, with a movement rate of 120 feet per round. The Referee rolls for the duration of the spell in secret and does not disclose this information to the Player.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "Touch",
+    "duration": "1d6 turns + 1 turn/level",
+    "effect": "Flight at 120' per round",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "(1d6+@classes.M.castLevel)*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Flying",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.DZlIb5H2bDRbBo9e",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "OsAJ26N6NeNZ5Dfb",
+  "sort": 150000,
+  "_originalKey": "!items!OsAJ26N6NeNZ5Dfb"
+}

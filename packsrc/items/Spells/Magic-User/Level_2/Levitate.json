@@ -1,0 +1,60 @@
+{
+  "name": "Levitate",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "lfFAwvi9p4mKrmqq",
+  "system": {
+    "tags": [],
+    "description": "<p>This spell allows the Magic-user to levitate himself, moving vertically up or down, but the spell itself provides no assistance with lateral movement. A wall, cliff side, or ceiling could be used to move along hand-over-hand.</p><p>Levitation allows up or downward movement at a rate of up to 6 feet per minute (60 feet per turn), and the caster cannot levitate more than 20 feet per level from the ground level where the spell was cast (such range being applied both to movement into the air and to downward movement into a pit or chasm).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 2,
+    "range": "20'/caster level",
+    "duration": "10 minutes per level (1 turn per level)",
+    "effect": "The caster levitates vertically at up to 6' per minute",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "@classes.M.castLevel*60",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Levitating",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.4Iauq7Udw9uScfcJ",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "RFKw6aSJ6mSwUIrS",
+  "sort": 150000,
+  "_originalKey": "!items!RFKw6aSJ6mSwUIrS"
+}

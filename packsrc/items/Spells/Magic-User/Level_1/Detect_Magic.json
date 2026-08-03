@@ -10,8 +10,8 @@
       "notes": ""
     },
     "spellLevel": 1,
-    "range": "60 ft.",
-    "duration": "2 turns",
+    "range": "60'",
+    "duration": "2 turns (20 minutes)",
     "effect": "Everything within 60'",
     "memorized": 0,
     "cast": 0,
@@ -28,11 +28,11 @@
     "classes": [
       {
         "name": "Magic-User",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.e38pLRiuy2U7gW1x"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
       },
       {
         "name": "Elf",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.2NiEMVh69JDCqp8d"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
       }
     ],
     "conditions": []

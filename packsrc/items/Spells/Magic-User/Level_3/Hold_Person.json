@@ -1,0 +1,60 @@
+{
+  "name": "Hold Person",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster can target either 1d4 persons of human size or smaller (saving throw applies) or may instead target a single creature who must make their save at a -2 penalty.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "120'",
+    "duration": "1 hour + 10 minutes per level (6 turns + 1 turn per level)",
+    "effect": "Holds 1d4 persons or a single creature (save at -2)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1d4",
+    "durationFormula": "@classes.M.castLevel*60+360",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": [
+      {
+        "name": "Paralyzed",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.DY1qTMeTxES5AQ7b",
+        "remove": false
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "yhcVAVOEirWxfQmR",
+  "sort": 160000,
+  "_originalKey": "!items!yhcVAVOEirWxfQmR"
+}

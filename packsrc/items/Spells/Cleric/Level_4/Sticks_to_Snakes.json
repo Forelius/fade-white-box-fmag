@@ -1,0 +1,50 @@
+{
+  "folder": "EOi0fNPIiQgeGqJB",
+  "name": "Sticks to Snakes",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster may turn as many as 2d8 normal sticks into snakes, each one having a 50% chance of being venomous. The snakes follow his commands, but turn back into sticks at the end of the spell (or when killed).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 4,
+    "range": "120'",
+    "duration": "6 turns (1 hour)",
+    "effect": "Turn up to 2d8 sticks into snakes",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": false,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "2d8",
+    "durationFormula": "360",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Cleric",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "mzqD55Ti3Pz2ceXb",
+  "sort": 600000,
+  "_originalKey": "!items!mzqD55Ti3Pz2ceXb"
+}

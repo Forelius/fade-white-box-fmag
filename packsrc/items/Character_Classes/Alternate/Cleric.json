@@ -313,8 +313,13 @@
         "target": 0
       },
       {
+        "level": 2,
+        "name": "Spell Casting",
+        "target": 0
+      },
+      {
         "level": 10,
-        "name": "Establish Stronghold",
+        "name": "Establish Temple",
         "target": 0
       }
     ],

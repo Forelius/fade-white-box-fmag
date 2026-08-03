@@ -1,0 +1,54 @@
+{
+  "name": "Lightning Bolt",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "a5BLnpB0xz1ueAZJ",
+  "system": {
+    "tags": [],
+    "description": "<p>A nearly ten foot wide bolt of lightning extends 60 feet from the fingertip of the caster. Anyone in its path suffers 1d6 points of damage per level of the caster, though a successful saving throw halves damage. The bolt always extends 60 feet, even if this means that it ricochets backward from something that blocks its path.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 3,
+    "range": "60'",
+    "duration": "Instantaneous",
+    "effect": "1d6 damage per level in a 60' long, 10' wide bolt",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "1d6*@classes.M.castLevel",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "spell",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "magic",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "uAm3vi9rXOQoDR9v",
+  "sort": 180000,
+  "_originalKey": "!items!uAm3vi9rXOQoDR9v"
+}

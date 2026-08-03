@@ -1,0 +1,54 @@
+{
+  "name": "Contact Other Plane",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "folder": "1YQicilxTtDv8t2C",
+  "system": {
+    "tags": [],
+    "description": "<p>The caster creates a mental contact with the planes, forces, powers, and geometries of the beyond, in order to gain affirmative or negative answers to the questions he contemplates. The spell's effect depends on how deeply the caster wishes to delve into the planes of existence. Roll a d20 on the table below.</p><p></p><table><thead><tr><th>Plane</th><th>Insanity</th><th>Right</th><th>Wrong</th></tr></thead><tbody><tr><td>1</td><td>1-2</td><td>3-11</td><td>12-20</td></tr><tr><td>2</td><td>1-4</td><td>4-13</td><td>14-20</td></tr><tr><td>3</td><td>1-6</td><td>7-16</td><td>16-20</td></tr><tr><td>4</td><td>1-8</td><td>9-17</td><td>18-20</td></tr><tr><td>5</td><td>1-10</td><td>11-18</td><td>19-20</td></tr><tr><td>6</td><td>1-12</td><td>13-19</td><td>20</td></tr></tbody></table><p>Planes are the “depth” at which the caster chooses to seek the truth; number of Yes/No questions asked.</p><p>Temporary insanity lasts for as many weeks equal to the depth of the plane where the caster's sanity failed.</p><p>This represents the possibility of being mislead or misinterpreting an answer.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 5,
+    "range": "None",
+    "duration": "See table",
+    "effect": "Answers questions from beyond the planes (see table)",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": false,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "1",
+    "durationFormula": "-",
+    "savingThrow": "",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [
+      {
+        "name": "Magic-User",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IvRSW1HbBkfZCHzv"
+      },
+      {
+        "name": "Elf",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.2NiEMVh69JDCqp8d"
+      }
+    ],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "L03IyVhotkVVcouL": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ap0MF3ofUo6d2qvO",
+  "sort": 140000,
+  "_originalKey": "!items!ap0MF3ofUo6d2qvO"
+}

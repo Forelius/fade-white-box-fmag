@@ -4,7 +4,9 @@
   "type": "spell",
   "img": "systems/fantastic-depths/assets/img/item/spell.png",
   "system": {
-    "tags": [],
+    "tags": [
+      "reversed"
+    ],
     "description": "<p>The caster detects creatures of Law, or those with lawful enchantments, intentions, thoughts, or auras within the spell’s range.</p>",
     "gm": {
       "notes": ""
@@ -28,7 +30,7 @@
     "classes": [
       {
         "name": "Cleric",
-        "uuid": "Compendium.fade-compendiums.item-compendium.Item.MVzAiO7qKr1Kw8vg"
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.IZXBWx9BLHLLSsOt"
       }
     ],
     "conditions": []

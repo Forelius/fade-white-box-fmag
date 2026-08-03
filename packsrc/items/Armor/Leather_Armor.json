@@ -2,10 +2,10 @@
   "folder": "M4hRf1ospau83VQt",
   "name": "Leather Armor",
   "type": "armor",
-  "img": "modules/fade-compendiums/assets/img/armor/leather.webp",
+  "img": "modules/fade-white-box-fmag/assets/img/armor/leather.webp",
   "system": {
     "tags": [],
-    "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+    "description": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7. It is also light and quiet enough to be worn by thieves.</p>",
     "gm": {
       "notes": ""
     },
@@ -32,7 +32,7 @@
     "ammoType": "",
     "isAmmo": false,
     "unidentifiedName": "",
-    "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7, and because it is made from natural materials it can be worn by druids. It is also light and quiet enough to be worn by thieves.</p>",
+    "unidentifiedDesc": "<p>This is a suit primarily composed of leather plates and strips. The leather is often boiled in wax to harden it. Leather armor gives an armor class of 7. It is also light and quiet enough to be worn by thieves.</p>",
     "isIdentified": true,
     "isCursed": false,
     "charges": 0,
