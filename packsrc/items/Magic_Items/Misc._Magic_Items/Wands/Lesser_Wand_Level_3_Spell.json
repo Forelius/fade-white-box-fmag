@@ -1,0 +1,57 @@
+{
+  "name": "Lesser Wand (Level 3 Spell)",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This lesser wand holds a level 3 spell and carries 2 charges.</p><p><em>This wand holds a randomly determined spell. The Referee selects the spell when the wand is found; drag a spell onto this wand's sheet to embed it so casting consumes a charge.</em></p><p><em>Wands become useless with 0 charges. A wand can be recharged by casting a spell into it. There is a 5% chance per recharge that the wand will be destroyed.</em></p><p>A slender wand of ash with a spiraling grain, capped by a small polished agate. It feels oddly warm to the touch.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 2,
+    "chargesMax": 2,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": true,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "oWgfidEbp47i2Lsi",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "CD3gQ1q1tig5gFAI",
+  "sort": 500000,
+  "_originalKey": "!items!CD3gQ1q1tig5gFAI"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Cursed Item",
+  "type": "item",
+  "img": "icons/svg/downgrade.svg",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This item is cursed. See the Cursed Items section-the specific cursed item is determined by the Referee (rolling on the Cursed Items table, if desired).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Strange Item",
+    "unidentifiedDesc": "<p>This item seems somehow wrong.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Tm3hyVJS2SBxWoxK",
+  "sort": 1200000,
+  "_originalKey": "!items!Tm3hyVJS2SBxWoxK"
+}

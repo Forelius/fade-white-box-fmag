@@ -1000,6 +1000,65 @@
       "lastModifiedBy": null
     }
   },
+  "!folders!oWgfidEbp47i2Lsi": {
+    "name": "Wands",
+    "sorting": "a",
+    "folder": "e7RvbK6nra5DPzpo",
+    "type": "Item",
+    "_id": "oWgfidEbp47i2Lsi",
+    "description": "",
+    "sort": 100000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!4vNK7oXkT8eVqcA3": {
+    "name": "Rings",
+    "sorting": "a",
+    "folder": "e7RvbK6nra5DPzpo",
+    "type": "Item",
+    "_id": "4vNK7oXkT8eVqcA3",
+    "description": "",
+    "sort": 200000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!Inqecd8geUfmHaua": {
+    "name": "Staves",
+    "sorting": "a",
+    "folder": "e7RvbK6nra5DPzpo",
+    "type": "Item",
+    "_id": "Inqecd8geUfmHaua",
+    "description": "",
+    "sort": 300000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
   "!folders!pRYaQfCMDV0OA57l": {
     "name": "Magic Items",
     "sorting": "a",

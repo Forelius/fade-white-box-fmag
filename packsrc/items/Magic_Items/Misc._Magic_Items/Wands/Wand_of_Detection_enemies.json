@@ -1,0 +1,57 @@
+{
+  "name": "Wand of Detection (enemies)",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Detects enemies in a radius of 60 feet, provided that the enemies are actually thinking hostile thoughts. Always active when held, does not use charges.</p><p>This wand is crafted from dark, smooth wood, featuring a slightly twisted design. At the tip, a striking gem shaped like an eyeball glows with a fiery red hue, while faint, glowing runes spiral along its length.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": true,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "oWgfidEbp47i2Lsi",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "jOXYsuMeInO8jY1K",
+  "sort": 700000,
+  "_originalKey": "!items!jOXYsuMeInO8jY1K"
+}

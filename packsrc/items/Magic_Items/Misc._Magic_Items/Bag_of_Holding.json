@@ -1,0 +1,57 @@
+{
+  "name": "Bag of Holding",
+  "type": "item",
+  "img": "icons/containers/bags/pack-leather-white-tan.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>The inside of this bag is larger than the outside. The inside dimensions are roughly 10 x 5 x 3 feet, but the bag can carry up to 1,000 pounds of weight. If it is not empty, the bag weighs 50 pounds, no matter how much weight it actually contains. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Bag",
+    "unidentifiedDesc": "<p>This bag seems lighter than it should be.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "PsE2tT218JzuRX8Z",
+  "sort": 500000,
+  "_originalKey": "!items!PsE2tT218JzuRX8Z"
+}

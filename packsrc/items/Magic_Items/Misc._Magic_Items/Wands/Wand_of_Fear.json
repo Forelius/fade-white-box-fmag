@@ -1,0 +1,64 @@
+{
+  "name": "Wand of Fear",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Causes creatures in a coneshaped path to flee (saving throw vs. wands). There is a 60% chance that they will drop whatever they are holding. The cone extends 60 feet to a base 30 feet across. Holds 25 charges.</p><p><em>This wand cannot be recharged.</em></p><p>This wand is crafted from dark, polished wood, featuring a sleek and slightly curved design. At the end, it is adorned with a menacing skull motif, intricately carved and detailed. The skull's eye sockets glow faintly with an eerie light, while the shaft of the wand is etched with subtle, arcane symbols.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 25,
+    "chargesMax": 25,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": true,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.cV5fWUW8IIJJVTFk",
+        "action": "none",
+        "castAs": "",
+        "name": "Cause Fear (Wand)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "oWgfidEbp47i2Lsi",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ibktzqARoWJgkLRu",
+  "sort": 1100000,
+  "_originalKey": "!items!ibktzqARoWJgkLRu"
+}

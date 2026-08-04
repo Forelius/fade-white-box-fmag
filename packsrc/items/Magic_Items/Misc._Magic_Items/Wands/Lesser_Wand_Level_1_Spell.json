@@ -1,0 +1,57 @@
+{
+  "name": "Lesser Wand (Level 1 Spell)",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This lesser wand holds a level 1 spell and carries 10 charges.</p><p><em>This wand holds a randomly determined spell. The Referee selects the spell when the wand is found; drag a spell onto this wand's sheet to embed it so casting consumes a charge.</em></p><p><em>Wands become useless with 0 charges. A wand can be recharged by casting a spell into it. There is a 5% chance per recharge that the wand will be destroyed.</em></p><p>A thin wand of pale, bone-white wood, polished smooth. Runes of no recognizable script wind about its length, and the tip ends in a plain rounded knob.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 10,
+    "chargesMax": 10,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": true,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "oWgfidEbp47i2Lsi",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "3IW0458LXBXRN5Ql",
+  "sort": 300000,
+  "_originalKey": "!items!3IW0458LXBXRN5Ql"
+}

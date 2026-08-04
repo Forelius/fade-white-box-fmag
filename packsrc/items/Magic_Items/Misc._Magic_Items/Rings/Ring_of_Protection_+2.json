@@ -1,0 +1,136 @@
+{
+  "name": "Ring of Protection +2",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This ring improves the wearer's armor class by 2. It also has the effect of improving all saving throws by 2.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Ring",
+    "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [
+    "XJJp96xNpVbJr3AZ",
+    "VOc6loeEuLFpGL2C"
+  ],
+  "folder": "4vNK7oXkT8eVqcA3",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "nQIYL8iDWBh46OAX",
+  "sort": 800000,
+  "_originalKey": "!items!nQIYL8iDWBh46OAX",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!nQIYL8iDWBh46OAX.XJJp96xNpVbJr3AZ",
+      "name": "+2 AC",
+      "img": "icons/svg/aura.svg",
+      "origin": null,
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "XJJp96xNpVbJr3AZ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.ac",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!items.effects!nQIYL8iDWBh46OAX.VOc6loeEuLFpGL2C",
+      "name": "+2 Saving Throws",
+      "img": "icons/svg/aura.svg",
+      "origin": null,
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "VOc6loeEuLFpGL2C",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.save.all",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

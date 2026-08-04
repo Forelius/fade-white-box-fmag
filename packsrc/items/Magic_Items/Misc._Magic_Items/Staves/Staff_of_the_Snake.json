@@ -1,0 +1,91 @@
+{
+  "name": "Staff of the Snake",
+  "type": "weapon",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/staff.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>+1 \"to-hit\" and +1 damage. When commanded (by using a charge) the staff coils around the target with a successful hit and pinions the victim for 1d4 x 10 minutes. The victim must be about the size of a human or smaller to use this power. The staff will slither back to its owner afterwards at a speed of 24.</p><p>Only Clerics can employ a Staff of the Snake.</p><p>This staff of living, green-flecked wood writhes slightly in the hand and seems almost serpentine, though it is stiff and straight when held firmly.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 200,
+    "chargesMax": 200,
+    "weight": 100,
+    "cost": 0,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "1d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 1,
+      "toHit": 1,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "M",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Unidentified Weapon",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A weapon shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "isCarried": true,
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "1d6+1",
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": [],
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "folder": "Inqecd8geUfmHaua",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "LO9jpp7pPgSlCEu9",
+  "sort": 800000,
+  "_originalKey": "!items!LO9jpp7pPgSlCEu9"
+}

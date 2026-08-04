@@ -1,0 +1,57 @@
+{
+  "name": "Dust of Sneezing and Choking",
+  "type": "item",
+  "img": "icons/tools/laboratory/mortar-powder-green.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Pouches containing this dust ordinarily contain only enough for one \"dose.\" When scattered in a radius of 10 feet, the dust causes all in the area to make a saving throw or die. If the nature of the dust is identified before it is experimented with, it can be used as a devastating thrown weapon. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Strange Dust",
+    "unidentifiedDesc": "<p>A pouch of strange dust.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "a6lpn06B4qJub4ee",
+  "sort": 1500000,
+  "_originalKey": "!items!a6lpn06B4qJub4ee"
+}

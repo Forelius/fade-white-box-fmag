@@ -1,0 +1,98 @@
+{
+  "name": "Ring of Fire Resistance",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Grants immunity to normal fire and a +5 bonus to saving throws against magical fire.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Ring",
+    "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [
+    "pv00rDpNAJiYV37h"
+  ],
+  "folder": "4vNK7oXkT8eVqcA3",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "zRufsIVN7Vesp5eX",
+  "sort": 200000,
+  "_originalKey": "!items!zRufsIVN7Vesp5eX",
+  "embedded": [
+    {
+      "_originalKey": "!items.effects!zRufsIVN7Vesp5eX.pv00rDpNAJiYV37h",
+      "name": "+5 Saving Throws vs Magical Fire",
+      "img": "icons/svg/aura.svg",
+      "origin": null,
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "pv00rDpNAJiYV37h",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.mod.save.spell",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    }
+  ]
+}

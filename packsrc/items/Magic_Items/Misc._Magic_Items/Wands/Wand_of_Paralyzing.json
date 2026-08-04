@@ -1,0 +1,64 @@
+{
+  "name": "Wand of Paralyzing",
+  "type": "item",
+  "img": "icons/weapons/wands/wand-gem-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Casts a cone of paralysis 60 feet long and 30 feet wide at the far end. Creatures in the cone are paralyzed for 3d6 turns (saving throw vs. wands negates). Holds 25 charges.</p><p><em>This wand cannot be recharged.</em></p><p>A wand of dull grey metal, cold and heavy in the hand, its tip set with a snake's eye of polished green stone that gleams with a sickly light.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 25,
+    "chargesMax": 25,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Mysterious Wand",
+    "unidentifiedDesc": "<p>A slim, smoothly finished stick about 18\" (45 cm) long, the wand fits comfortably in one hand. Its surface shows faint runes and hairline veins; one end tapers to a rounded tip while the other terminates in a small carved motif. It feels surprisingly light and balanced.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": true,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.9qq7hrEHxx5rk1yR",
+        "action": "none",
+        "castAs": "",
+        "name": "Paralyze (Wand)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "oWgfidEbp47i2Lsi",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "j58sqc8qXIfwYqoB",
+  "sort": 1200000,
+  "_originalKey": "!items!j58sqc8qXIfwYqoB"
+}

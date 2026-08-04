@@ -1,0 +1,57 @@
+{
+  "name": "Ring of Spell Storing (Magic-user)",
+  "type": "item",
+  "img": "icons/equipment/finger/ring-ball-leaves-green.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>The ring contains 1d6 Magic-user spells. Roll 1d6 for each spell to determine their spell levels. The wearer (if a Magic-user) can cast these spells as if they were his own memorized and prepared spells. Once the spell is cast, it cannot be cast a second time until the caster rests for 8 hours.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Ring",
+    "unidentifiedDesc": "<p>An odd ring that seems to fit any finger perfectly.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "4vNK7oXkT8eVqcA3",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "UwQsA4q7a5w4MuJr",
+  "sort": 1200000,
+  "_originalKey": "!items!UwQsA4q7a5w4MuJr"
+}

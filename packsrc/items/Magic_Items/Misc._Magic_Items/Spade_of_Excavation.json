@@ -1,0 +1,57 @@
+{
+  "name": "Spade of Excavation",
+  "type": "item",
+  "img": "icons/tools/hand/shovel-spade-steel-white.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This ordinary-looking spade digs by itself when commanded, shoveling out 1 cubic yard (3 x 3 x 3) per ten minutes. Usable by: Fighters.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Spade",
+    "unidentifiedDesc": "<p>This spade is different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "S8cLxPKdeU6L0xeE",
+  "sort": 2300000,
+  "_originalKey": "!items!S8cLxPKdeU6L0xeE"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Pipes of the Sewers",
+  "type": "item",
+  "img": "icons/tools/instruments/pipe-flute-yellow.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>These pipes summon 10d6 giant rats. The piper does not need to concentrate once the rats arrive (which takes 1d4 x 10 minutes), but it is wise to do so. When the rats arrive, there is a 5% chance that they will not obey him, and if he ceases to concentrate on his tune there is a 10% chance that he will lose control of them. Every subsequent round in which he fails to concentrate there is another chance to lose control, and the chance increases by 10% each time it is made (first round, 10%, second round 20%, etc.). Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Pipes",
+    "unidentifiedDesc": "<p>These pipes are different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Z4rCRtIs8jZb5JDE",
+  "sort": 2000000,
+  "_originalKey": "!items!Z4rCRtIs8jZb5JDE"
+}

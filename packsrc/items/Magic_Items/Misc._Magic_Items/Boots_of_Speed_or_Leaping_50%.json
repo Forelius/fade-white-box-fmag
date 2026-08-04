@@ -1,0 +1,57 @@
+{
+  "name": "Boots of Speed or Leaping (50%)",
+  "type": "item",
+  "img": "icons/skills/movement/feet-winged-boots-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Boots of Speed double the wearer's movement rate, but require complete rest for a period of time equivalent to the amount of time they were used. Boots of Leaping allow the wearer to make prodigious leaps 10 feet high and up to 30 feet horizontally. These boots also double movement rates, but outdoors only. They do not require the wearer to rest after using them. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Boots",
+    "unidentifiedDesc": "<p>These boots are different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "6qeILdScFlvMvo2N",
+  "sort": 700000,
+  "_originalKey": "!items!6qeILdScFlvMvo2N"
+}

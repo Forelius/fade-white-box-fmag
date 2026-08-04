@@ -1,0 +1,50 @@
+{
+  "name": "Cause Fear (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Causes creatures in a coneshaped path to flee (saving throw vs. wands). There is a 60% chance that they will drop whatever they are holding. The cone extends 60 feet to a base 30 feet across.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "60' (30' cone)",
+    "duration": "30 rounds",
+    "effect": "Cone of fear, 60' long, 30' wide",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "30",
+    "savingThrow": "wand",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Fear",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.oYjWYjpLycaMM1ME"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "folder": "dzuOSIxKf4HDotv9",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "cV5fWUW8IIJJVTFk",
+  "sort": 3000000,
+  "_originalKey": "!items!cV5fWUW8IIJJVTFk"
+}

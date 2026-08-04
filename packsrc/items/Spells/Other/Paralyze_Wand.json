@@ -1,0 +1,50 @@
+{
+  "name": "Paralyze (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Casts a cone of paralysis 60 feet long and 30 feet wide at the far end. Creatures in the cone are paralyzed for 3d6 turns (saving throw vs. wands negates).</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "60' (30' cone)",
+    "duration": "3d6 turns",
+    "effect": "Cone of paralysis 60' long, 30' wide",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "(3d6)*60",
+    "savingThrow": "wand",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "",
+    "classes": [],
+    "conditions": [
+      {
+        "name": "Paralyzed",
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.DY1qTMeTxES5AQ7b"
+      }
+    ]
+  },
+  "flags": {},
+  "effects": [],
+  "folder": "dzuOSIxKf4HDotv9",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "9qq7hrEHxx5rk1yR",
+  "sort": 3200000,
+  "_originalKey": "!items!9qq7hrEHxx5rk1yR"
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Staff of Power",
+  "type": "weapon",
+  "img": "modules/fade-white-box-fmag/assets/img/weapon/staff.webp",
+  "system": {
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Casts Light (no charge used), casts Fireball (4d6 damage), cold as a Wand of Cold, Lightning Bolt (4d6 damage), acts as a ring of Telekinesis (costs one charge) and hits for 2d6 damage (no charge used).</p><p>This tall, straight staff of fine wood is capped with a glowing, fist-sized gem and covered in intricate carvings of arcane symbols.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 200,
+    "chargesMax": 200,
+    "weight": 100,
+    "cost": 0,
+    "containerId": "",
+    "equipped": false,
+    "natural": false,
+    "damageRoll": "2d6",
+    "damageType": "physical",
+    "breath": "",
+    "canMelee": true,
+    "canRanged": false,
+    "savingThrow": "",
+    "saveDmgFormula": "",
+    "mastery": "",
+    "weaponType": "handheld",
+    "range": {
+      "short": null,
+      "medium": null,
+      "long": null
+    },
+    "container": false,
+    "equippable": false,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "mod": {
+      "dmg": 0,
+      "toHit": 0,
+      "dmgRanged": 0,
+      "toHitRanged": 0
+    },
+    "size": "M",
+    "grip": "2H",
+    "shortName": "",
+    "unidentifiedName": "Unidentified Weapon",
+    "canSet": false,
+    "unidentifiedDesc": "<p>A weapon shimmering with a faint magical aura. Its exact enchantment is unknown.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isSlow": false,
+    "dmgFormula": null,
+    "healFormula": null,
+    "isUsable": false,
+    "isCarried": true,
+    "weightEquipped": 100,
+    "isOpen": false,
+    "isDropped": false,
+    "isTreasure": true,
+    "damageLabel": "2d6",
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.RnC1nbyVto7bF3J7",
+        "action": "none",
+        "castAs": "M4",
+        "name": "Light"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.Szh7DxhdNy5zYpCI",
+        "action": "none",
+        "castAs": "M4",
+        "name": "Fireball"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.gbTFaO86s1xESR6o",
+        "action": "none",
+        "castAs": "",
+        "name": "Cone of Cold (Wand)"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.uAm3vi9rXOQoDR9v",
+        "action": "none",
+        "castAs": "M4",
+        "name": "Lightning Bolt"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.1Kr2VoQgo433aFQS",
+        "action": "none",
+        "castAs": "",
+        "name": "Telekinesis"
+      }
+    ],
+    "conditions": [],
+    "attacks": {
+      "used": 0,
+      "max": null,
+      "group": 0
+    }
+  },
+  "effects": [],
+  "folder": "Inqecd8geUfmHaua",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "iSWOUDBoNcpnBGax",
+  "sort": 600000,
+  "_originalKey": "!items!iSWOUDBoNcpnBGax"
+}

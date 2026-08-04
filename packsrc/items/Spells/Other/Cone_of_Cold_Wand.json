@@ -1,0 +1,45 @@
+{
+  "name": "Cone of Cold (Wand)",
+  "type": "spell",
+  "img": "systems/fantastic-depths/assets/img/item/spell.png",
+  "system": {
+    "tags": [],
+    "description": "<p>Casts a cone of cold 60 feet long and 30 feet wide at the far end. Creatures in the cone take 6d6 points of cold damage, but they may make a saving throw vs. wands for half damage.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "spellLevel": 0,
+    "range": "60' (30' cone)",
+    "duration": "Instantaneous",
+    "effect": "Cone of cold 60' long, 30' wide",
+    "memorized": 0,
+    "cast": 0,
+    "targetSelf": true,
+    "targetOther": true,
+    "dmgFormula": "6d6",
+    "healFormula": "",
+    "maxTargetFormula": "",
+    "durationFormula": "",
+    "savingThrow": "wand",
+    "saveDmgFormula": null,
+    "attackType": "",
+    "damageType": "frost",
+    "classes": [],
+    "conditions": []
+  },
+  "flags": {},
+  "effects": [],
+  "folder": "dzuOSIxKf4HDotv9",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "gbTFaO86s1xESR6o",
+  "sort": 3100000,
+  "_originalKey": "!items!gbTFaO86s1xESR6o"
+}
