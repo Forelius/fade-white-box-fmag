@@ -1,49 +1,49 @@
 {
-  "name": "Giant, Frost",
+  "name": "Black Pudding",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "G",
-      "morale": 9,
-      "xpAward": 2000,
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 12,
+      "xpAward": 1700,
       "attacks": "1",
-      "abilityCount": 1,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F10",
+      "abilityCount": 3,
+      "monsterType": "Ooze",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Rare",
+      "rarity": "Common",
       "weight": ""
     },
     "hp": {
-      "hd": "10+1",
-      "value": 46,
-      "max": 46
+      "hd": "10",
+      "value": 45,
+      "max": 45
     },
     "na": {
-      "wandering": "1d2",
-      "lair": "1d4"
+      "wandering": "1",
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 10,
+      "value": 9,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60,
+      "max": 60
     },
-    "biography": "<p>Frost giants dwell in cold regions, where they build (or conquer) castles in remote places of ice and snow. They throw boulders or great chunks of ice for 4d6 points of damage and are immune to cold.</p><p><strong>Weapon Damage:</strong> 2d6.<br><strong>Rock Damage:</strong> 4d6, up to 200 range.<br><strong>Terrain:</strong> Cold regions, Mountains.<br></p>",
-    "wrestling": 29,
+    "biography": "<p>Black puddings are amorphous globs with an acidic surface. They are subterranean predators and scavengers. Any weapon or armor contacting a black pudding will be eaten away by the acid as follows: weapon (1 hit by weapon on the pudding), chain mail or lesser armor (1 hit by pudding), plate mail (2 hits by pudding). If a weapon or armor is magical, it can take an additional hit per +1 before being dissolved. They are immune to cold and divide when attacked by lightning.</p><p><strong>Terrain:</strong> Subterranean.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 6,
+      "nakedAAC": 13,
+      "value": 6,
+      "total": 6,
+      "totalAAC": 13,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 6,
+      "nakedRangedAAC": 13,
+      "totalRanged": 6,
+      "totalRangedAAC": 13,
       "av": "0"
     },
-    "thbonus": 9,
+    "thbonus": 10,
     "initiative": {
       "value": 0
     },
@@ -83,7 +83,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "mod": {
@@ -124,14 +124,14 @@
     "isEnchanted": false,
     "abilities": {
       "int": {
-        "value": 14,
-        "total": 14,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
       "con": {
-        "value": 20,
-        "total": 20,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
@@ -170,17 +170,14 @@
       "day": 0,
       "run": 0
     },
-    "actorGroups": [
-      "giantkind",
-      "weapon-using"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Frost Giant",
+    "name": "Black Pudding",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -276,15 +273,16 @@
     "movementAction": null
   },
   "items": [
-    "gq56YhUHBdN699RJ",
-    "TiIezYeG9CcpM0XO",
-    "19lqsSkDXHW1IjUr",
-    "icTd3oIkk9JWZG5M",
-    "k8dEAqXA0XLO3e6z",
-    "clng7HMMv28zBUhA",
-    "lZeeGdsrDf1P1brN",
-    "y7hOWqUoSEA7HCdS",
-    "mf2V1MDt7psxJ7Qc"
+    "ZNjFHACfdCR63ICA",
+    "BHKz59AnNBF77yLD",
+    "B1JUu6dwc4czJuAP",
+    "fXX4GdtHAkxktQ82",
+    "j7lc93OcyVIpJmey",
+    "nf3ZPW0btud4qd1m",
+    "WJjV2jVNDcU9efTQ",
+    "y55WMRQ8B4YKLjbB",
+    "cygq3UDlGfzImSCS",
+    "gBfRkRzn2aoZth0R"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -298,81 +296,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "gNieinq7Rcc18QAQ",
-  "_originalKey": "!actors!gNieinq7Rcc18QAQ",
+  "_id": "KOnIA2rzyBURdZiC",
+  "_originalKey": "!actors!KOnIA2rzyBURdZiC",
   "embedded": [
     {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.19lqsSkDXHW1IjUr",
-      "name": "Fur or Iron (Armor)",
-      "type": "armor",
-      "system": {
-        "tags": [],
-        "description": "<p>Fur or iron armor that provides a Armor Class of 4.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Fur or Iron (Armor)",
-        "unidentifiedDesc": "<p>Fur or iron armor that provides a Armor Class of 4.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "19lqsSkDXHW1IjUr",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.gq56YhUHBdN699RJ",
-      "name": "Giant Weapon",
+      "name": "Strike",
       "type": "weapon",
+      "img": "icons/commodities/materials/slime-green.webp",
       "system": {
         "tags": [],
-        "description": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "description": "<p>The pudding lashes out with its acidic body.</p>",
         "gm": {
           "notes": ""
         },
@@ -382,16 +315,15 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "2d6",
-        "damageType": "physical",
+        "natural": true,
+        "damageRoll": "1d6",
+        "damageType": "acid",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -412,103 +344,20 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Giant Weapon",
-        "unidentifiedDesc": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "unidentifiedName": "Strike",
+        "unidentifiedDesc": "<p>The pudding lashes out with its acidic body.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 1,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "2d6"
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "gq56YhUHBdN699RJ",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.TiIezYeG9CcpM0XO",
-      "name": "Boulder",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": null,
-        "quantityMax": null,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "4d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": 60,
-          "medium": 130,
-          "long": 200
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder or great chunk of ice dealing 4d6 damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 1,
+          "group": 0,
           "max": 1,
           "used": 0
         },
@@ -516,10 +365,8 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "4d6"
+        "damageLabel": "1d6"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "TiIezYeG9CcpM0XO",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -527,6 +374,143 @@
         "default": 0
       },
       "flags": {},
+      "_id": "ZNjFHACfdCR63ICA",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.ZNjFHACfdCR63ICA",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Any weapon or armor contacting a black pudding is eaten away by its acid: a weapon takes 1 hit when the pudding is struck by it, chain mail or lesser armor takes 1 hit when struck by the pudding, and plate mail takes 2 hits. If a weapon or armor is magical, it can take an additional hit per +1 before being dissolved.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "BHKz59AnNBF77yLD",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.BHKz59AnNBF77yLD",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Immunity to Cold",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Black puddings are immune to cold.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "B1JUu6dwc4czJuAP",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.B1JUu6dwc4czJuAP",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Divide When Struck by Lightning",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>When struck by lightning, a black pudding divides into two smaller puddings.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "fXX4GdtHAkxktQ82",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.fXX4GdtHAkxktQ82",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -570,8 +554,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "icTd3oIkk9JWZG5M",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.icTd3oIkk9JWZG5M",
+      "_id": "j7lc93OcyVIpJmey",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.j7lc93OcyVIpJmey",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -615,8 +599,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "k8dEAqXA0XLO3e6z",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.k8dEAqXA0XLO3e6z",
+      "_id": "nf3ZPW0btud4qd1m",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.nf3ZPW0btud4qd1m",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -660,8 +644,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "clng7HMMv28zBUhA",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.clng7HMMv28zBUhA",
+      "_id": "WJjV2jVNDcU9efTQ",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.WJjV2jVNDcU9efTQ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -705,8 +689,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "lZeeGdsrDf1P1brN",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.lZeeGdsrDf1P1brN",
+      "_id": "y55WMRQ8B4YKLjbB",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.y55WMRQ8B4YKLjbB",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -750,8 +734,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "y7hOWqUoSEA7HCdS",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.y7hOWqUoSEA7HCdS",
+      "_id": "cygq3UDlGfzImSCS",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.cygq3UDlGfzImSCS",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -795,8 +779,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "mf2V1MDt7psxJ7Qc",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.mf2V1MDt7psxJ7Qc",
+      "_id": "gBfRkRzn2aoZth0R",
+      "_originalKey": "!actors.items!KOnIA2rzyBURdZiC.gBfRkRzn2aoZth0R",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

@@ -1,17 +1,17 @@
 {
-  "name": "Giant, Frost",
+  "name": "Basilisk",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "G",
+      "alignment": "Neutral",
+      "size": "L",
       "morale": 9,
-      "xpAward": 2000,
+      "xpAward": 800,
       "attacks": "1",
       "abilityCount": 1,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F10",
+      "monsterType": "Magical Animal",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
@@ -19,31 +19,31 @@
       "weight": ""
     },
     "hp": {
-      "hd": "10+1",
-      "value": 46,
-      "max": 46
+      "hd": "6",
+      "value": 27,
+      "max": 27
     },
     "na": {
-      "wandering": "1d2",
-      "lair": "1d4"
+      "wandering": "1",
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 10,
+      "value": 13,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60,
+      "max": 60
     },
-    "biography": "<p>Frost giants dwell in cold regions, where they build (or conquer) castles in remote places of ice and snow. They throw boulders or great chunks of ice for 4d6 points of damage and are immune to cold.</p><p><strong>Weapon Damage:</strong> 2d6.<br><strong>Rock Damage:</strong> 4d6, up to 200 range.<br><strong>Terrain:</strong> Cold regions, Mountains.<br></p>",
-    "wrestling": 29,
+    "biography": "<p>Basilisks are great lizards whose gaze turns to stone anyone meeting its eye (fighting without looking incurs a -4 penalty \"to-hit\"). If the basilisk's own gaze is reflected back at it, it has a 10% chance to force the basilisk into a saving throw against being turned to stone itself.</p><p><strong>Terrain:</strong> Forest, Hills, Swamp, River/Coast, Barren.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 4,
+      "nakedAAC": 15,
+      "value": 4,
+      "total": 4,
+      "totalAAC": 15,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 4,
+      "nakedRangedAAC": 15,
+      "totalRanged": 4,
+      "totalRangedAAC": 15,
       "av": "0"
     },
-    "thbonus": 9,
+    "thbonus": 6,
     "initiative": {
       "value": 0
     },
@@ -83,7 +83,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "mod": {
@@ -124,14 +124,14 @@
     "isEnchanted": false,
     "abilities": {
       "int": {
-        "value": 14,
-        "total": 14,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
       "con": {
-        "value": 20,
-        "total": 20,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
@@ -171,16 +171,15 @@
       "run": 0
     },
     "actorGroups": [
-      "giantkind",
-      "weapon-using"
+      "reptiles-dinosaurs"
     ]
   },
   "prototypeToken": {
-    "name": "Frost Giant",
+    "name": "Basilisk",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -276,15 +275,15 @@
     "movementAction": null
   },
   "items": [
-    "gq56YhUHBdN699RJ",
-    "TiIezYeG9CcpM0XO",
-    "19lqsSkDXHW1IjUr",
-    "icTd3oIkk9JWZG5M",
-    "k8dEAqXA0XLO3e6z",
-    "clng7HMMv28zBUhA",
-    "lZeeGdsrDf1P1brN",
-    "y7hOWqUoSEA7HCdS",
-    "mf2V1MDt7psxJ7Qc"
+    "3PMyyMmKElJSpPQD",
+    "jQUDcFtRMMQZ0ODP",
+    "zxzds7br6iBrtbpA",
+    "noGtQdtnqlgbSBJE",
+    "yFlag6CifsAcyu5N",
+    "ckNXonL8q0Meb7NK",
+    "75ws7zvkkuPbv3ZF",
+    "YUl6zsFVE9zxJ2mv",
+    "M1J25YGrPpW2Q9I1"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -298,81 +297,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "gNieinq7Rcc18QAQ",
-  "_originalKey": "!actors!gNieinq7Rcc18QAQ",
+  "_id": "iErndTbHQIAIbBY2",
+  "_originalKey": "!actors!iErndTbHQIAIbBY2",
   "embedded": [
     {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.19lqsSkDXHW1IjUr",
-      "name": "Fur or Iron (Armor)",
-      "type": "armor",
-      "system": {
-        "tags": [],
-        "description": "<p>Fur or iron armor that provides a Armor Class of 4.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Fur or Iron (Armor)",
-        "unidentifiedDesc": "<p>Fur or iron armor that provides a Armor Class of 4.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "19lqsSkDXHW1IjUr",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.gq56YhUHBdN699RJ",
-      "name": "Giant Weapon",
+      "name": "Bite",
       "type": "weapon",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "description": "<p>The basilisk snaps at its prey with powerful jaws.</p>",
         "gm": {
           "notes": ""
         },
@@ -382,8 +316,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "2d6",
+        "natural": true,
+        "damageRoll": "1d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -391,7 +325,7 @@
         "savingThrow": "",
         "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -412,103 +346,20 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Giant Weapon",
-        "unidentifiedDesc": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The basilisk snaps at its prey with powerful jaws.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 1,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "2d6"
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "gq56YhUHBdN699RJ",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.TiIezYeG9CcpM0XO",
-      "name": "Boulder",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": null,
-        "quantityMax": null,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "4d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": 60,
-          "medium": 130,
-          "long": 200
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder or great chunk of ice dealing 4d6 damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 1,
+          "group": 0,
           "max": 1,
           "used": 0
         },
@@ -516,10 +367,8 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "4d6"
+        "damageLabel": "1d6"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "TiIezYeG9CcpM0XO",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -527,12 +376,125 @@
         "default": 0
       },
       "flags": {},
+      "_id": "3PMyyMmKElJSpPQD",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.3PMyyMmKElJSpPQD",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "name": "Basilisk Hide",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The basilisk's tough scaly hide turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 4,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 4,
+        "totalAAC": 15,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Basilisk Hide",
+        "unidentifiedDesc": "<p>The basilisk's tough scaly hide turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 4,
+        "totalRangedAAC": 15
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "jQUDcFtRMMQZ0ODP",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.jQUDcFtRMMQZ0ODP",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Petrifying Gaze",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "paralysis",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Anyone meeting a basilisk's gaze must make a saving throw or be turned to stone, along with all carried equipment. Fighting without looking at it incurs a -4 penalty \"to-hit\". If the basilisk's own gaze is reflected back at it, there is a 10% chance it must make a saving throw against being turned to stone itself.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "zxzds7br6iBrtbpA",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.zxzds7br6iBrtbpA",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "folder": "OR1oqiLvw7LWXY42",
       "name": "Saving Throw",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -544,7 +506,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "13",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -564,14 +526,13 @@
         "conditions": []
       },
       "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
       "sort": 0,
       "ownership": {
         "default": 0
       },
       "flags": {},
-      "_id": "icTd3oIkk9JWZG5M",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.icTd3oIkk9JWZG5M",
+      "_id": "noGtQdtnqlgbSBJE",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.noGtQdtnqlgbSBJE",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -589,7 +550,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -615,8 +576,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "k8dEAqXA0XLO3e6z",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.k8dEAqXA0XLO3e6z",
+      "_id": "yFlag6CifsAcyu5N",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.yFlag6CifsAcyu5N",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -634,7 +595,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -660,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "clng7HMMv28zBUhA",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.clng7HMMv28zBUhA",
+      "_id": "ckNXonL8q0Meb7NK",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.ckNXonL8q0Meb7NK",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -679,7 +640,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -705,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "lZeeGdsrDf1P1brN",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.lZeeGdsrDf1P1brN",
+      "_id": "75ws7zvkkuPbv3ZF",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.75ws7zvkkuPbv3ZF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -724,7 +685,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -750,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "y7hOWqUoSEA7HCdS",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.y7hOWqUoSEA7HCdS",
+      "_id": "YUl6zsFVE9zxJ2mv",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.YUl6zsFVE9zxJ2mv",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -769,7 +730,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -795,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "mf2V1MDt7psxJ7Qc",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.mf2V1MDt7psxJ7Qc",
+      "_id": "M1J25YGrPpW2Q9I1",
+      "_originalKey": "!actors.items!iErndTbHQIAIbBY2.M1J25YGrPpW2Q9I1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

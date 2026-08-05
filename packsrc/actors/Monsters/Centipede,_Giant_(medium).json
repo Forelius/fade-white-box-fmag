@@ -1,49 +1,49 @@
 {
-  "name": "Giant, Frost",
+  "name": "Centipede, Giant (medium)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "G",
-      "morale": 9,
-      "xpAward": 2000,
+      "alignment": "Neutral",
+      "size": "M",
+      "morale": 7,
+      "xpAward": 120,
       "attacks": "1",
       "abilityCount": 1,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F10",
+      "monsterType": "Vermin",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Rare",
+      "rarity": "Common",
       "weight": ""
     },
     "hp": {
-      "hd": "10+1",
-      "value": 46,
-      "max": 46
+      "hd": "2",
+      "value": 9,
+      "max": 9
     },
     "na": {
-      "wandering": "1d2",
-      "lair": "1d4"
+      "wandering": "1",
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 10,
+      "value": 17,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 150,
+      "round": 50,
+      "day": 30,
+      "run": 150,
+      "max": 150
     },
-    "biography": "<p>Frost giants dwell in cold regions, where they build (or conquer) castles in remote places of ice and snow. They throw boulders or great chunks of ice for 4d6 points of damage and are immune to cold.</p><p><strong>Weapon Damage:</strong> 2d6.<br><strong>Rock Damage:</strong> 4d6, up to 200 range.<br><strong>Terrain:</strong> Cold regions, Mountains.<br></p>",
-    "wrestling": 29,
+    "biography": "<p>This man-sized giant centipede is a deadly predator with armored segments, a vicious bite, and a lethal (though relatively weak) poison (+6 modifier to opponent's saving throw).</p><p><strong>Terrain:</strong> Open / Forest, River / Coast, Swamp / Jungle, Hills / Mountains / Barren.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 5,
+      "nakedAAC": 14,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 5,
+      "nakedRangedAAC": 14,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 9,
+    "thbonus": 2,
     "initiative": {
       "value": 0
     },
@@ -83,7 +83,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "mod": {
@@ -124,14 +124,14 @@
     "isEnchanted": false,
     "abilities": {
       "int": {
-        "value": 14,
-        "total": 14,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
       "con": {
-        "value": 20,
-        "total": 20,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
@@ -171,16 +171,15 @@
       "run": 0
     },
     "actorGroups": [
-      "giantkind",
-      "weapon-using"
+      "bugs"
     ]
   },
   "prototypeToken": {
-    "name": "Frost Giant",
+    "name": "Centipede, Giant (medium)",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -276,15 +275,15 @@
     "movementAction": null
   },
   "items": [
-    "gq56YhUHBdN699RJ",
-    "TiIezYeG9CcpM0XO",
-    "19lqsSkDXHW1IjUr",
-    "icTd3oIkk9JWZG5M",
-    "k8dEAqXA0XLO3e6z",
-    "clng7HMMv28zBUhA",
-    "lZeeGdsrDf1P1brN",
-    "y7hOWqUoSEA7HCdS",
-    "mf2V1MDt7psxJ7Qc"
+    "Jsch9xOpHlGsq6EU",
+    "O3Yrz3gGarG2uX6f",
+    "U5BZH37LVCR1jgDg",
+    "ZUQMwKcpfoTfMhSX",
+    "LDlrjaVQz82oLou2",
+    "HpCCqsJkY7pc5HiX",
+    "FMe3VzIlSUMoZJof",
+    "e2bZTSM6PWhkZPw3",
+    "7hxnbbysa3oADWqn"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -298,81 +297,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "gNieinq7Rcc18QAQ",
-  "_originalKey": "!actors!gNieinq7Rcc18QAQ",
+  "_id": "z4T4juXTFwtk6qfg",
+  "_originalKey": "!actors!z4T4juXTFwtk6qfg",
   "embedded": [
     {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.19lqsSkDXHW1IjUr",
-      "name": "Fur or Iron (Armor)",
-      "type": "armor",
-      "system": {
-        "tags": [],
-        "description": "<p>Fur or iron armor that provides a Armor Class of 4.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Fur or Iron (Armor)",
-        "unidentifiedDesc": "<p>Fur or iron armor that provides a Armor Class of 4.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "19lqsSkDXHW1IjUr",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.gq56YhUHBdN699RJ",
-      "name": "Giant Weapon",
+      "name": "Bite",
       "type": "weapon",
+      "img": "icons/creatures/abilities/fang-tooth-poison-green.webp",
       "system": {
         "tags": [],
-        "description": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "description": "<p>The centipede bites with its venomous jaws.</p>",
         "gm": {
           "notes": ""
         },
@@ -382,16 +316,15 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "2d6",
+        "natural": true,
+        "damageRoll": "1d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
-        "savingThrow": "",
+        "savingThrow": "death",
         "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -412,103 +345,20 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Giant Weapon",
-        "unidentifiedDesc": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The centipede bites with its venomous jaws.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 1,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "2d6"
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "gq56YhUHBdN699RJ",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.TiIezYeG9CcpM0XO",
-      "name": "Boulder",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": null,
-        "quantityMax": null,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "4d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": 60,
-          "medium": 130,
-          "long": 200
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder or great chunk of ice dealing 4d6 damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 1,
+          "group": 0,
           "max": 1,
           "used": 0
         },
@@ -516,10 +366,8 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "4d6"
+        "damageLabel": "1d6"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "TiIezYeG9CcpM0XO",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -527,6 +375,118 @@
         "default": 0
       },
       "flags": {},
+      "_id": "Jsch9xOpHlGsq6EU",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.Jsch9xOpHlGsq6EU",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Chitinous Plates",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The centipede's armored segments turn aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 5,
+        "totalAAC": 14,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Chitinous Plates",
+        "unidentifiedDesc": "<p>The centipede's armored segments turn aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "O3Yrz3gGarG2uX6f",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.O3Yrz3gGarG2uX6f",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The bite injects a lethal poison (+6 modifier to the opponent's saving throw).</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "U5BZH37LVCR1jgDg",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.U5BZH37LVCR1jgDg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -544,7 +504,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "17",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -570,8 +530,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "icTd3oIkk9JWZG5M",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.icTd3oIkk9JWZG5M",
+      "_id": "ZUQMwKcpfoTfMhSX",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.ZUQMwKcpfoTfMhSX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -589,7 +549,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -615,8 +575,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "k8dEAqXA0XLO3e6z",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.k8dEAqXA0XLO3e6z",
+      "_id": "LDlrjaVQz82oLou2",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.LDlrjaVQz82oLou2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -634,7 +594,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "13",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -660,8 +620,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "clng7HMMv28zBUhA",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.clng7HMMv28zBUhA",
+      "_id": "HpCCqsJkY7pc5HiX",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.HpCCqsJkY7pc5HiX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -679,7 +639,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -705,8 +665,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "lZeeGdsrDf1P1brN",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.lZeeGdsrDf1P1brN",
+      "_id": "FMe3VzIlSUMoZJof",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.FMe3VzIlSUMoZJof",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -724,7 +684,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "15",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -750,8 +710,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "y7hOWqUoSEA7HCdS",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.y7hOWqUoSEA7HCdS",
+      "_id": "e2bZTSM6PWhkZPw3",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.e2bZTSM6PWhkZPw3",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -769,7 +729,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "16",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -795,8 +755,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "mf2V1MDt7psxJ7Qc",
-      "_originalKey": "!actors.items!gNieinq7Rcc18QAQ.mf2V1MDt7psxJ7Qc",
+      "_id": "7hxnbbysa3oADWqn",
+      "_originalKey": "!actors.items!z4T4juXTFwtk6qfg.7hxnbbysa3oADWqn",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

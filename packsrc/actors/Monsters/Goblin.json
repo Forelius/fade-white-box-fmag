@@ -252,12 +252,13 @@
     "UX2h4igq8RHRAsrm",
     "xqnbq0Y9tddiHibT",
     "chpsAhb27tnV5IOw",
-    "VxXgc5aLcHC8VRJX",
-    "Hku5VkxX7UtSTts5",
-    "XFPdrEqIUbiscFWs",
-    "lqW8KuFo0gIlrkmD",
-    "TaSdVDgmE4F7LfYn",
-    "xxxZgd1gH52pnYZo"
+    "xxxZgd1gH52pnYZo",
+    "VbIn0MtzpuZis7aa",
+    "BDovKCCg76IjTvqD",
+    "2tcDDyaswo967PUC",
+    "FD99YOxPL1sGyV6w",
+    "I1VfiB36kGzCL1fl",
+    "l7eD4ipAqpP3OriY"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -272,99 +273,8 @@
     "systemId": "fantastic-depths"
   },
   "_id": "86iwWeKWuxRGMag8",
-  "sort": 100000,
   "_originalKey": "!actors!86iwWeKWuxRGMag8",
   "embedded": [
-    {
-      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.Hku5VkxX7UtSTts5",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Magic Wand",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "Hku5VkxX7UtSTts5",
-      "system": {
-        "tags": [],
-        "description": "<p>The Magic Wand saving throw is used to avoid the effects of attacks or abilities activated through magical wands, such as paralysis rays or damage-dealing beams. A successful save, rolled on a d20, indicates that the character avoids or mitigates the harmful effects. The target number to save is determined by the character's class and level, as found on the saving throw table​​.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "15",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "wand",
-        "shortName": "Wand",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.TaSdVDgmE4F7LfYn",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Spells or Magic Staff",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "TaSdVDgmE4F7LfYn",
-      "system": {
-        "shortName": "Spell",
-        "tags": [],
-        "description": "<p>The saving throw for Spells or Magic Staff includes resistance against magical effects cast by rods, staves, wands, or through spells. A successful save, rolled on a d20, often reduces or negates the spell's effects entirely. This saving throw is applicable to numerous magical attacks, such as charm spells, fireballs, or paralysis effects, and covers damage, control, or debilitating conditions caused by magical devices or spellcasters. The target number for success is based on the character's class and level.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "17",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "spell",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
     {
       "_originalKey": "!actors.items!86iwWeKWuxRGMag8.UX2h4igq8RHRAsrm",
       "name": "Goblin Armor",
@@ -428,96 +338,6 @@
       }
     },
     {
-      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.VxXgc5aLcHC8VRJX",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Death Ray or Poison",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "VxXgc5aLcHC8VRJX",
-      "system": {
-        "tags": [],
-        "description": "<p>The Death Ray or Poison saving throw is a roll made by a character to resist deadly effects like instant death or paralysis from poisons, spells, or traps. The player rolls a d20 and compares it to their class- and level-specific target number on the saving throw table; success means avoiding or mitigating the harm. A failed roll often results in death (for poison) or other severe consequences, though optional rules may instead inflict substantial damage​​​.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "14",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "death",
-        "shortName": "Death",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.XFPdrEqIUbiscFWs",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Turn to Stone or Paralysis",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "XFPdrEqIUbiscFWs",
-      "system": {
-        "shortName": "Stone",
-        "tags": [],
-        "description": "<p>The saving throw against \"Stone or Paralysis\" protects a character from attacks or effects that could freeze them in place (paralysis) or turn them into stone. If the saving throw is failed, the character becomes immobilized or petrified, depending on the effect. Paralysis leaves a character aware but unable to act, while petrification turns the character and their carried equipment into a stone statue. The duration or permanence of these effects is specified by the source, and successful saving throws avoid them entirely​​​.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "16",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "paralysis",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!actors.items!86iwWeKWuxRGMag8.chpsAhb27tnV5IOw",
       "name": "Daylight Penalty",
       "type": "specialAbility",
@@ -554,51 +374,6 @@
       "sort": 0,
       "ownership": {
         "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.lqW8KuFo0gIlrkmD",
-      "folder": "OR1oqiLvw7LWXY42",
-      "name": "Dragon Breath",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "lqW8KuFo0gIlrkmD",
-      "system": {
-        "shortName": "Breath",
-        "tags": [],
-        "description": "<p>The saving throw against Breath Weapons is used to resist or mitigate the effects of a wide range of powerful exhaled attacks, not limited to dragons. This includes attacks like a dragon’s fiery or icy breath, a gorgon's petrifying breath, or a chimera's elemental breath. Each creature’s breath weapon has specific effects, such as damage, paralysis, or petrification. A successful saving throw generally halves the damage or avoids the secondary effect (such as paralysis or petrification), while failure applies the full consequences. The target number for the saving throw is determined by the character’s class and level.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "17",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "combatManeuver": "null",
-        "customSaveCode": "breath",
-        "classKey": null,
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null
-      },
-      "effects": [],
-      "sort": 0,
-      "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
       },
       "flags": {},
       "_stats": {
@@ -734,6 +509,276 @@
       },
       "_id": "xxxZgd1gH52pnYZo",
       "sort": 0
+    },
+    {
+      "name": "Saving Throw",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "18",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Save",
+        "combatManeuver": "null",
+        "customSaveCode": "save",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "VbIn0MtzpuZis7aa",
+      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.VbIn0MtzpuZis7aa",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Death or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Death",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "BDovKCCg76IjTvqD",
+      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.BDovKCCg76IjTvqD",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Wands or Rays",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Wand",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "2tcDDyaswo967PUC",
+      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.2tcDDyaswo967PUC",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Stone",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "FD99YOxPL1sGyV6w",
+      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.FD99YOxPL1sGyV6w",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Breath",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "I1VfiB36kGzCL1fl",
+      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.I1VfiB36kGzCL1fl",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Spell",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "l7eD4ipAqpP3OriY",
+      "_originalKey": "!actors.items!86iwWeKWuxRGMag8.l7eD4ipAqpP3OriY",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
     }
   ]
 }
