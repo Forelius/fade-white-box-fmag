@@ -1,0 +1,57 @@
+{
+  "name": "Deck of Many Things",
+  "type": "item",
+  "img": "icons/sundries/gaming/game-playing-cards-deck.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>An ordinary-seeming deck of hand-painted cards, this item bears tremendous and varied enchantments, one per card in the deck. The deck contains all the aces and face cards, plus one Joker (the Fool). A character may draw as many cards as he likes (with the deck re-shuffled each time), but once he stops drawing cards, the deck disappears in a sound of faintly malevolent laughter. The results are as follows:</p><p><strong>The Hearts (♥)</strong></p><ul><li>Ace: Gain 50,000 xp.</li><li>King: Gain a magic item from the Misc. Magic Items (Greater) table.</li><li>Queen: Gain 1d3 wishes</li><li>Jack: Gain the ability to summon an 8 HD warrior with +3 sword, shield, to serve for a total of 1 hour.</li></ul><p><strong>The Clubs (♣)</strong></p><ul><li>Ace: The character's alignment is changed. If the game does not use alignment, the character receives a dangerous Quest (per the spell).</li><li>King: The character's most powerful magic item is sucked into the void and disappears.</li><li>Queen: The character is instantly turned to stone, a look of great surprise upon his face.</li><li>Jack: The character loses one point from his Prime Attribute.</li></ul><p><strong>The Spades (♠)</strong></p><ul><li>Ace: Lose a level of experience</li><li>King: A warrior with 9 HD, a +4 weapon, +4 shield, and +4 armor appears and attacks. When he is killed, his body and all his possessions disappear again.</li><li>Queen: The character dies instantly.</li><li>Jack: A random monster, with 1d4+6 HD, attacks the adventurers. The monster gains one round of surprise, for it appears from thin air.</li></ul><p><strong>The Diamonds (♦)</strong></p><ul><li>Ace: Gain a map to a very significant treasure</li><li>King: Gain 5d6 items of jewelry</li><li>Queen: Gain a scroll of seven spells, all 2nd level or higher</li><li>Jack: Add one point to a single attribute of the player's choice</li></ul><p><strong>The Joker:</strong> Gain 25,000 XP.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Old Playing Cards",
+    "unidentifiedDesc": "<p>A worn deck of hand-painted cards.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "5WWstjOYduxpJ6CN",
+  "sort": 3000000,
+  "_originalKey": "!items!5WWstjOYduxpJ6CN"
+}

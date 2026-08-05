@@ -1,0 +1,57 @@
+{
+  "name": "Robe of Feeblemindedness",
+  "type": "item",
+  "img": "icons/equipment/chest/robe-layered-red.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Anyone donning this cloak has his intelligence reduced to that of a garden snail.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Robe",
+    "unidentifiedDesc": "<p>This robe is different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "anhkKjKMQuwd6E4c",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "60VrjWC4kwdAzdqy",
+  "sort": 10900000,
+  "_originalKey": "!items!60VrjWC4kwdAzdqy"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Robe of Wizardry",
+  "type": "item",
+  "img": "icons/equipment/chest/robe-layered-blue.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This robe grants the wearer the ability to cast Charm, Polymorph, and Hold Person with a 95% chance of success. The robes may be tied to specific alignments. Usable by: Magic-users only.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Robe",
+    "unidentifiedDesc": "<p>This robe is different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.okrpHMyEbtq8ZuJ0",
+        "action": "none",
+        "castAs": "",
+        "name": "Charm Person"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.KB1zOzDA71XzsCB8",
+        "action": "none",
+        "castAs": "",
+        "name": "Polymorph"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.yhcVAVOEirWxfQmR",
+        "action": "none",
+        "castAs": "",
+        "name": "Hold Person"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "CFGOveGbA0WW90yt",
+  "sort": 4300000,
+  "_originalKey": "!items!CFGOveGbA0WW90yt"
+}

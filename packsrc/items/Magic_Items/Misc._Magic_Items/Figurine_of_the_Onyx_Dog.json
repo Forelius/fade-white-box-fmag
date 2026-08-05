@@ -1,0 +1,57 @@
+{
+  "name": "Figurine of the Onyx Dog",
+  "type": "item",
+  "img": "icons/commodities/treasure/figurine-dog.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This stone figure transforms into a living hound of stone when its command word is spoken. It will seek whatever the owner tells it to find, without stopping until it succeeds or is killed. It has a 75% chance to detect objects that are invisible or hidden (and of course its sense of smell detects invisible and hidden creatures with almost perfect success). For purposes of defense and attack, the stone dog is treated as a wolf. It may be used twelve times before the statuette becomes non-magical. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Stone Figurine",
+    "unidentifiedDesc": "<p>A small stone figurine of a dog.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "ZXYxnKnl5ajX9xUR",
+  "sort": 3100000,
+  "_originalKey": "!items!ZXYxnKnl5ajX9xUR"
+}

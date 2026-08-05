@@ -1,0 +1,76 @@
+{
+  "name": "Helm of Fiery Brilliance",
+  "type": "item",
+  "img": "icons/equipment/head/helm-barbute-horned-gold-red.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This prodigiously powerful helm grants many benefits to the wearer. He gains a +10 on saving throws against fire damage, and can create a Wall of Fire himself. Fighters wearing the helm may command a weapon in hand to flame (+1d6 damage). Magic-users wearing the helm can add +1 to each die of damage inflicted by a Fireball spell. Clerics wearing the helm can ignite objects within 30 feet at will, and may cast two Light or Continual Light spells for each one actually prepared. The wearer of this helm is likely to be attacked by any air elemental creatures, but fire elemental types (such as efreet or salamanders) will be favorably disposed toward the wearer. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Helm",
+    "unidentifiedDesc": "<p>This helm is different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.aHPRCIXcUgls2UR3",
+        "action": "none",
+        "castAs": "",
+        "name": "Wall of Fire or Ice"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.RnC1nbyVto7bF3J7",
+        "action": "none",
+        "castAs": "",
+        "name": "Light"
+      },
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.rRjZtCmhwMWnpF8V",
+        "action": "none",
+        "castAs": "",
+        "name": "Continual Light"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "7PiTOZSHC3oWGCTF",
+  "sort": 5300000,
+  "_originalKey": "!items!7PiTOZSHC3oWGCTF"
+}

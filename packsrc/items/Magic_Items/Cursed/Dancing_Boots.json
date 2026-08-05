@@ -1,0 +1,57 @@
+{
+  "name": "Dancing Boots",
+  "type": "item",
+  "img": "icons/equipment/feet/boots-collared-red.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>These boots function as boots of Elvenkind or speed, until the wearer is in combat or fleeing. Suddenly at that point he will begin to dance a jig, or perhaps a stately waltz.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Boots",
+    "unidentifiedDesc": "<p>These boots are different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "anhkKjKMQuwd6E4c",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "OykTDanCIb3ICTL7",
+  "sort": 10400000,
+  "_originalKey": "!items!OykTDanCIb3ICTL7"
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Bag of Devouring",
+  "type": "item",
+  "img": "icons/containers/bags/pack-leather-black-brown.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>Functions as a bag of holding, but devours any item placed into it within 1d4+1 hours.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Old Bag",
+    "unidentifiedDesc": "<p>A sturdy leather bag.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "anhkKjKMQuwd6E4c",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "T2lXubRpRnnET1fV",
+  "sort": 10000000,
+  "_originalKey": "!items!T2lXubRpRnnET1fV"
+}

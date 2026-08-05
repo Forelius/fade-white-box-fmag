@@ -1,0 +1,57 @@
+{
+  "name": "Jug of Alchemy",
+  "type": "item",
+  "img": "icons/containers/kitchenware/jug-clay-brown-sealed.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This jug produces whatever liquid is desired, in a commonly used large quantity (e.g., 10 gallons of water, but only five gallons of wine). It may be used no more than 7 times per day, and will only produce the liquid first requested in that day. It does not produce magical liquids. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Jug",
+    "unidentifiedDesc": "<p>This jug is somehow sealed.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "tOyKbDdAH0UP1Z2M",
+  "sort": 3700000,
+  "_originalKey": "!items!tOyKbDdAH0UP1Z2M"
+}

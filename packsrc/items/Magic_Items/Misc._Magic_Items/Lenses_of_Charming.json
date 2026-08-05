@@ -1,0 +1,64 @@
+{
+  "name": "Lenses of Charming",
+  "type": "item",
+  "img": "icons/equipment/head/goggles-brass-glass.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>These lenses, when placed over the eyes, give the wearer the ability to charm those who look into his eyes (as per a Charm Person spell). The saving throw against the power of the lenses is made at -2. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Lenses",
+    "unidentifiedDesc": "<p>These lenses are different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.okrpHMyEbtq8ZuJ0",
+        "action": "none",
+        "castAs": "",
+        "name": "Charm Person"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "rBBWAvXJs3GBlYHp",
+  "sort": 5700000,
+  "_originalKey": "!items!rBBWAvXJs3GBlYHp"
+}

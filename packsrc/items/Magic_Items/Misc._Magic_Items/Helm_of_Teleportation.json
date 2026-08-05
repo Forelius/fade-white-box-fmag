@@ -1,0 +1,57 @@
+{
+  "name": "Helm of Teleportation",
+  "type": "item",
+  "img": "icons/equipment/head/helm-barbute-horned-glowing.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>When the wearer casts a Teleportation spell on himself, while wearing the helm, he may teleport himself without error, anywhere he desires. The helm does not permit the casting of a Teleportation spell on anyone other than the wearer. Usable by: Magic-users.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Helm",
+    "unidentifiedDesc": "<p>This helm is different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "3BbBD4SS43Zw23uA",
+  "sort": 5400000,
+  "_originalKey": "!items!3BbBD4SS43Zw23uA"
+}

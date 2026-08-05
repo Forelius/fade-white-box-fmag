@@ -1,0 +1,57 @@
+{
+  "name": "Gauntlets of Ogre Power",
+  "type": "item",
+  "img": "icons/equipment/hand/gauntlet-armored-red-gold.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>These gauntlets raise the wearer's strength to that of an ogre. Hit probability is not increased above normal, but damage bonuses from strength are increased to +4 (not cumulative with the wearer's existing strength bonus, if any). Usable by: all but Magic-users.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Gauntlets",
+    "unidentifiedDesc": "<p>These gauntlets are different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "uJlqS7b6RKaz3NP4",
+  "sort": 3200000,
+  "_originalKey": "!items!uJlqS7b6RKaz3NP4"
+}

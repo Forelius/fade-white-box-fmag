@@ -1,0 +1,57 @@
+{
+  "name": "Mirror of Opposition",
+  "type": "item",
+  "img": "icons/sundries/survival/mirror-plain.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>All persons looking into this mirror are attacked by evil versions of themselves, exact duplicates including spells and magic items. When the mirror-opposites are slain, their bodies and equipment disappear into mist, and return to the mirror.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Mirror",
+    "unidentifiedDesc": "<p>This mirror is different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": true,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "anhkKjKMQuwd6E4c",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "vpOeAdNBPn2iJgiB",
+  "sort": 10800000,
+  "_originalKey": "!items!vpOeAdNBPn2iJgiB"
+}

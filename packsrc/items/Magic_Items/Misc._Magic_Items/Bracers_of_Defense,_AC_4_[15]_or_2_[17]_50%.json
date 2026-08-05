@@ -1,0 +1,57 @@
+{
+  "name": "Bracers of Defense, AC 4 [15] or 2 [17] (50%)",
+  "type": "item",
+  "img": "icons/equipment/wrist/bracer-ornate-gold-purple.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>These bracers improve the wearer's armor class (whatever part of it is due to actual armor) to the stated level-there is no effect if the wearer is already armored to the same or higher degree. The AC granted by the bracers can be increased by magical rings or other protective magics. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Bracers",
+    "unidentifiedDesc": "<p>These bracers are different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "kWfmwSO15MoFksUH",
+  "sort": 2600000,
+  "_originalKey": "!items!kWfmwSO15MoFksUH"
+}

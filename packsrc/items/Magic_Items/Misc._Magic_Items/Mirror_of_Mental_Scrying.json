@@ -1,0 +1,64 @@
+{
+  "name": "Mirror of Mental Scrying",
+  "type": "item",
+  "img": "icons/sundries/survival/mirror-plain.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This hand-mirror (it might also be found as a smaller mirror on a necklace) allows the user to cast Clairaudience, Clairvoyance, and Detect Thoughts (ESP), with the normal range, but for an unlimited time. The mirror will also answer a question about what it portrays (the answer is likely to be quite cryptic), but only one question per week is possible. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Mirror",
+    "unidentifiedDesc": "<p>This mirror is different somehow.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [
+      {
+        "uuid": "Compendium.fade-white-box-fmag.items.Item.0wvSbODOzaqcUJYI",
+        "action": "none",
+        "castAs": "",
+        "name": "Detect Thoughts (ESP)"
+      }
+    ],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "CsjOxVYd0OBt9Lly",
+  "sort": 4000000,
+  "_originalKey": "!items!CsjOxVYd0OBt9Lly"
+}

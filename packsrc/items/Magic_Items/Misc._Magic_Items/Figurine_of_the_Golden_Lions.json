@@ -1,0 +1,57 @@
+{
+  "name": "Figurine of the Golden Lions",
+  "type": "item",
+  "img": "icons/creatures/abilities/lion-roar-yellow.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>A small stone figurine that transforms into a lion when the command word is spoken, fighting at the owner's orders. If it is slain, it turns back into a figurine, but may be used again. The figurine may be used once per week, and no more. Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 10,
+    "weightEquipped": 10,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Stone Figurine",
+    "unidentifiedDesc": "<p>A small stone figurine of a lion.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "Vakfxf2UPD6HS7j1",
+  "sort": 4900000,
+  "_originalKey": "!items!Vakfxf2UPD6HS7j1"
+}

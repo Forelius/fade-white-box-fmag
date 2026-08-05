@@ -1,0 +1,57 @@
+{
+  "name": "Manual of the Golems",
+  "type": "item",
+  "img": "icons/sundries/books/book-embossed-steel-brown.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>This book contains the basic instructions and formulae for creating a single type of golem. The process is expensive, and the creator must have achieved a certain level of magical expertise in order to use the book, but these are priceless repositories of forgotten lore. Such books are often warded, by the original owner, from the touch of anyone not of the Magic-user class, enchanted to inflict damage or even the loss of a level. Usable by: Magic-users only.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Odd Tome",
+    "unidentifiedDesc": "<p>A tome written in an unfamiliar hand.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "u6HqJrygjkhLjwmk",
+  "sort": 6000000,
+  "_originalKey": "!items!u6HqJrygjkhLjwmk"
+}

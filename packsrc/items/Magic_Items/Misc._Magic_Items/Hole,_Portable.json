@@ -1,0 +1,57 @@
+{
+  "name": "Hole, Portable",
+  "type": "item",
+  "img": "icons/environment/wilderness/portal.webp",
+  "system": {
+    "shortName": "",
+    "tags": [
+      "magic"
+    ],
+    "description": "<p>A piece of dark cloth about five feet in diameter. It is actually the mouth of an inter-dimensional hole 10 feet deep-items and people can fall through it or climb down into it once it is placed on the ground. The piece of cloth can actually be pulled in from the inside to close the hole off entirely, although there is no source of fresh air within, and staying inside will asphyxiate the inhabitant in a short time. The piece of cloth can be picked up and carried off whenever desired-hence the name \"portable.\" Usable by: All Classes.</p>",
+    "gm": {
+      "notes": ""
+    },
+    "quantity": 1,
+    "quantityMax": 0,
+    "charges": 0,
+    "chargesMax": 0,
+    "weight": 50,
+    "weightEquipped": 50,
+    "cost": 0,
+    "totalWeight": 0,
+    "totalCost": 0,
+    "containerId": "",
+    "equipped": false,
+    "container": false,
+    "isOpen": false,
+    "equippable": true,
+    "fuelType": "",
+    "ammoType": "",
+    "isAmmo": false,
+    "unidentifiedName": "Dark Cloth",
+    "unidentifiedDesc": "<p>A piece of dark cloth, about five feet in diameter.</p>",
+    "isIdentified": false,
+    "isCursed": false,
+    "isCarried": true,
+    "isUsable": false,
+    "isTreasure": true,
+    "specialAbilities": [],
+    "spells": [],
+    "conditions": []
+  },
+  "effects": [],
+  "folder": "e7RvbK6nra5DPzpo",
+  "ownership": {
+    "default": 0,
+    "0eyrbleKg5gmY59g": 3,
+    "kS3rwnTPpIltZGhF": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_id": "LMy5DXgohvsAiQiN",
+  "sort": 3400000,
+  "_originalKey": "!items!LMy5DXgohvsAiQiN"
+}
