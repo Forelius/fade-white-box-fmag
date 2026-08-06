@@ -1,27 +1,27 @@
 {
-  "name": "Centaur",
+  "name": "Dragon, Black (Old)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Neutral",
+      "alignment": "Chaotic",
       "size": "L",
-      "morale": 8,
-      "xpAward": 240,
+      "morale": 10,
+      "xpAward": 1400,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 2,
+      "monsterType": "Dragon",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "4",
-      "value": 18,
-      "max": 18
+      "hd": "8",
+      "value": 40,
+      "max": 40
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 15,
+      "value": 11,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>Black dragons spit a deadly, corrosive acid. The acid covers everything in a line 5 feet wide and 60 feet long.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,23 +55,23 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
-      "naked": 5,
-      "nakedAAC": 14,
-      "value": 5,
-      "total": 5,
-      "totalAAC": 14,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 5,
-      "nakedRangedAAC": 14,
-      "totalRanged": 5,
-      "totalRangedAAC": 14,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 4,
+    "thbonus": 8,
     "initiative": {
       "value": 0
     },
@@ -164,22 +164,23 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240,
+      "max": 240
     },
     "actorGroups": [
-      "weapon-using"
+      "dragonkind",
+      "reptiles-dinosaurs"
     ]
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Dragon, Black (Old)",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -275,18 +276,18 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "pwHrMLB6lsfmoQ07",
+    "cGs6MDzriq0xaS18",
+    "IZFavjQ50CFAaY3K",
+    "ZU6RJMctNlnk6cMs",
+    "IvU9yZTL0GdofWD2",
+    "GYCNM3VdiA6L9bRl",
+    "XdSNDiClK72cPzsU",
+    "Nd7Xh90Od0vPl2oW",
+    "3One5qEQMiw5AzF2"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "IFFPmBZugeHHWJ3p",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,16 +298,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "Ipj9KJe1pPNQDmuo",
+  "_originalKey": "!actors!Ipj9KJe1pPNQDmuo",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Bite",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The dragon bites, dealing 1d6+2 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -317,13 +318,14 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d6",
+        "damageRoll": "1d6+2",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
+        "mastery": "",
         "weaponType": "monster",
         "range": {
           "short": null,
@@ -345,8 +347,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The dragon bites, dealing 1d6+2 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -366,7 +368,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6+2"
       },
       "effects": [],
       "folder": null,
@@ -375,42 +377,42 @@
         "default": 0
       },
       "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
+      "_id": "pwHrMLB6lsfmoQ07",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.pwHrMLB6lsfmoQ07",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Spear",
+      "name": "Acid Breath",
       "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
+      "img": "icons/magic/acid/pouring-gas-smoke-liquid.webp",
       "system": {
         "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
+        "description": "<p>The black dragon spits a deadly, corrosive acid in a line 5 feet wide and 60 feet long, dealing 40 points of acid damage to everything in its path (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
+        "quantity": 3,
+        "quantityMax": 3,
         "weight": 0,
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
+        "natural": true,
+        "damageRoll": "40",
+        "damageType": "breath",
+        "breath": "acid",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "breath",
         "saveDmgFormula": "",
-        "mastery": "Spear",
-        "weaponType": "handheld",
+        "mastery": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
-          "medium": null,
+          "medium": 60,
           "long": null
         },
         "totalWeight": 0,
@@ -428,13 +430,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
+        "unidentifiedName": "Acid Breath",
+        "unidentifiedDesc": "<p>The black dragon spits a deadly, corrosive acid in a line 5 feet wide and 60 feet long, dealing 40 points of acid damage to everything in its path (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -449,7 +451,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "40"
       },
       "effects": [],
       "folder": null,
@@ -458,63 +460,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
+      "_id": "cGs6MDzriq0xaS18",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.cGs6MDzriq0xaS18",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Thick Hide",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 5,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
         "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The dragon can fly at a speed of 24.</p>"
       },
       "effects": [],
       "folder": null,
@@ -523,8 +505,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "IZFavjQ50CFAaY3K",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.IZFavjQ50CFAaY3K",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -542,7 +524,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -568,8 +550,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "ZU6RJMctNlnk6cMs",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.ZU6RJMctNlnk6cMs",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -587,7 +569,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -613,8 +595,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "IvU9yZTL0GdofWD2",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.IvU9yZTL0GdofWD2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -632,7 +614,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -658,8 +640,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "GYCNM3VdiA6L9bRl",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.GYCNM3VdiA6L9bRl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -677,7 +659,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -703,8 +685,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "XdSNDiClK72cPzsU",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.XdSNDiClK72cPzsU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -722,7 +704,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -748,8 +730,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "Nd7Xh90Od0vPl2oW",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.Nd7Xh90Od0vPl2oW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -767,7 +749,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -793,8 +775,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "3One5qEQMiw5AzF2",
+      "_originalKey": "!actors.items!Ipj9KJe1pPNQDmuo.3One5qEQMiw5AzF2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

@@ -1,27 +1,27 @@
 {
-  "name": "Centaur",
+  "name": "Death Knight",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Neutral",
-      "size": "L",
-      "morale": 8,
-      "xpAward": 240,
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 10,
+      "xpAward": 2000,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 4,
+      "monsterType": "Undead",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "4",
-      "value": 18,
-      "max": 18
+      "hd": "10",
+      "value": 45,
+      "max": 45
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 15,
+      "value": 9,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>These terrible undead knights are clad in black armor and wield terrible two-handed swords with great strength. In addition to increased damage, each time a death knight successfully strikes a foe with their sword the target loses one level. Death Knights are also immune to all spells of 5th level or lower. They can cast a Fireball once per day that inflicts 7d6 points of damage. They are immune to damage from mundane weapons and cannot be banished by a cleric.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,23 +55,23 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
-      "naked": 5,
-      "nakedAAC": 14,
-      "value": 5,
-      "total": 5,
-      "totalAAC": 14,
+      "naked": 9,
+      "nakedAAC": 10,
+      "value": 0,
+      "total": 0,
+      "totalAAC": 19,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 5,
-      "nakedRangedAAC": 14,
-      "totalRanged": 5,
-      "totalRangedAAC": 14,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
+      "totalRanged": 0,
+      "totalRangedAAC": 19,
       "av": "0"
     },
-    "thbonus": 4,
+    "thbonus": 10,
     "initiative": {
       "value": 0
     },
@@ -121,11 +121,11 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
-        "value": 10,
-        "total": 10,
+        "value": 12,
+        "total": 12,
         "mod": 0,
         "tempMod": 0
       },
@@ -171,11 +171,12 @@
       "run": 0
     },
     "actorGroups": [
-      "weapon-using"
+      "undead",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Death Knight",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +276,19 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "V9m5EInKqwc12hnR",
+    "l3T5NUD9miT1Ef30",
+    "okG0PIpiTGR73Rpp",
+    "wiMpawVXdQQntLV9",
+    "hEcUyJshP3odpxxp",
+    "X6zHMUeV7ystQOPW",
+    "Q3qVscde65AaDVuy",
+    "lkaz8hrf4JrbD4px",
+    "Bk0LWhvPo7Ab2nd6",
+    "3x1gPsR7EVrpr6Fd",
+    "g7p2Tp7XEIqWrUEr",
+    "z7ip6PlWBVERVGzk",
+    "j6OidkchcsiXDFEs"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,116 +302,34 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "MB1H6MLyw2bmchbr",
+  "_originalKey": "!actors!MB1H6MLyw2bmchbr",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Two-Handed Sword",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The death knight wields a great two-handed sword. A successful hit causes the target to lose one level.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 0,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "1d6"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Spear",
-      "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
-      "system": {
-        "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
+        "weight": 150,
+        "cost": 15,
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "damageRoll": "1d6",
+        "damageRoll": "1d6+3",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Spear",
+        "mastery": "Sword, Two-Handed",
         "weaponType": "handheld",
         "range": {
           "short": null,
@@ -428,13 +351,96 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
+        "unidentifiedName": "Two-Handed Sword",
+        "unidentifiedDesc": "<p>The death knight wields a great two-handed sword. A successful hit causes the target to lose one level.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
         "size": "L",
-        "grip": "1H",
+        "grip": "2H",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 0,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6+3"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "V9m5EInKqwc12hnR",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.V9m5EInKqwc12hnR",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Fireball",
+      "type": "weapon",
+      "img": "icons/magic/fire/explosion-fireball-large-orange.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>Once per day, the death knight can cast Fireball, inflicting 7d6 points of damage to all within the blast (saving throw for half damage).</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 1,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "7d6",
+        "damageType": "fire",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "spell",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": 100,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Fireball",
+        "unidentifiedDesc": "<p>Once per day, the death knight can cast Fireball, inflicting 7d6 points of damage to all within the blast (saving throw for half damage).</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -449,7 +455,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "7d6"
       },
       "effects": [],
       "folder": null,
@@ -458,20 +464,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
+      "_id": "l3T5NUD9miT1Ef30",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.l3T5NUD9miT1Ef30",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Thick Hide",
+      "name": "Black Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
+        "description": "<p>The death knight is clad in enchanted black armor.</p>",
         "gm": {
           "notes": ""
         },
@@ -481,8 +487,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": true,
-        "ac": 5,
+        "natural": false,
+        "ac": 0,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -491,14 +497,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
+        "totalAC": 0,
+        "totalAAC": 19,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
+        "unidentifiedName": "Black Armor",
+        "unidentifiedDesc": "<p>The death knight is clad in enchanted black armor.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -513,8 +519,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "totalRangedAC": 0,
+        "totalRangedAAC": 19
       },
       "effects": [],
       "folder": null,
@@ -523,8 +529,188 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "okG0PIpiTGR73Rpp",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.okG0PIpiTGR73Rpp",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Level Drain",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Each time the death knight successfully strikes a foe with its sword, the target loses one level.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "wiMpawVXdQQntLV9",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.wiMpawVXdQQntLV9",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Immunity to Spells (5th Level or Lower)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Death knights are immune to all spells of 5th level or lower.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "hEcUyJshP3odpxxp",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.hEcUyJshP3odpxxp",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Immunity to Mundane Weapons",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Death knights cannot be harmed by mundane (non-magical) weapons.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "X6zHMUeV7ystQOPW",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.X6zHMUeV7ystQOPW",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Cannot Be Banished by Clerics",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A death knight cannot be banished by a cleric.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "Q3qVscde65AaDVuy",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.Q3qVscde65AaDVuy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -542,7 +728,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -568,8 +754,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "lkaz8hrf4JrbD4px",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.lkaz8hrf4JrbD4px",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -587,7 +773,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "6",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -613,8 +799,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "Bk0LWhvPo7Ab2nd6",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.Bk0LWhvPo7Ab2nd6",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -632,7 +818,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "7",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -658,8 +844,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "3x1gPsR7EVrpr6Fd",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.3x1gPsR7EVrpr6Fd",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -677,7 +863,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -703,8 +889,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "g7p2Tp7XEIqWrUEr",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.g7p2Tp7XEIqWrUEr",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -722,7 +908,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -748,8 +934,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "z7ip6PlWBVERVGzk",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.z7ip6PlWBVERVGzk",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -767,7 +953,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -793,8 +979,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "j6OidkchcsiXDFEs",
+      "_originalKey": "!actors.items!MB1H6MLyw2bmchbr.j6OidkchcsiXDFEs",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

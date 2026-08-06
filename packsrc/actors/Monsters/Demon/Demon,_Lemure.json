@@ -1,27 +1,27 @@
 {
-  "name": "Centaur",
+  "name": "Demon, Lemure",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Neutral",
-      "size": "L",
-      "morale": 8,
-      "xpAward": 240,
+      "alignment": "Chaotic",
+      "size": "M",
+      "morale": 9,
+      "xpAward": 120,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 1,
+      "monsterType": "Demon",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "4",
-      "value": 18,
-      "max": 18
+      "hd": "3",
+      "value": 14,
+      "max": 14
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 15,
+      "value": 16,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 30,
+      "round": 10,
+      "day": 6,
+      "run": 30,
+      "max": 30
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>Lemures are vaguely humanoid&mdash;their flesh is mud-like, shifting and soft upon their horrible bodies. Like manes and wretches, lemures are lower forms of demons, the fleshly manifestations of damned souls. These demons can only be permanently destroyed by sprinkling their disgusting bodies with holy water.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,23 +55,23 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
-      "naked": 5,
-      "nakedAAC": 14,
-      "value": 5,
-      "total": 5,
-      "totalAAC": 14,
+      "naked": 7,
+      "nakedAAC": 12,
+      "value": 7,
+      "total": 7,
+      "totalAAC": 12,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 5,
-      "nakedRangedAAC": 14,
-      "totalRanged": 5,
-      "totalRangedAAC": 14,
+      "nakedRanged": 7,
+      "nakedRangedAAC": 12,
+      "totalRanged": 7,
+      "totalRangedAAC": 12,
       "av": "0"
     },
-    "thbonus": 4,
+    "thbonus": 3,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
         "value": 10,
@@ -171,11 +171,12 @@
       "run": 0
     },
     "actorGroups": [
-      "weapon-using"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Demon, Lemure",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,18 +276,17 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "RgmRY5J6BuVylmlM",
+    "TGaEEFHmOtrxUiVw",
+    "2D580gvVwqBhAZzU",
+    "4UA4Zxp5XCmg7Adx",
+    "bQtMZSy7y1QHm185",
+    "6h7pUHJ0Kq9Icvz3",
+    "T2zY0filUWldNpzi",
+    "9knY6y1HsmB75Z2I"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "s12CYfXylYPtD2cR",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,16 +297,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "NWUFY70nFV9fwHE7",
+  "_originalKey": "!actors!NWUFY70nFV9fwHE7",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Claw",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The lemure rakes with its claws, dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -324,6 +324,7 @@
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
+        "mastery": "",
         "weaponType": "monster",
         "range": {
           "short": null,
@@ -345,8 +346,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
+        "unidentifiedName": "Claw",
+        "unidentifiedDesc": "<p>The lemure rakes with its claws, dealing 1d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -375,146 +376,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
+      "_id": "RgmRY5J6BuVylmlM",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.RgmRY5J6BuVylmlM",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Spear",
-      "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
+      "name": "Regenerate (1 HP/Round)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
         "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "Spear",
-        "weaponType": "handheld",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 1,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "1d6"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Thick Hide",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "system": {
-        "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 5,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
         "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The lemure regenerates 1 hit point per round. It can only be permanently destroyed by sprinkling its body with holy water.</p>"
       },
       "effects": [],
       "folder": null,
@@ -523,8 +421,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "TGaEEFHmOtrxUiVw",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.TGaEEFHmOtrxUiVw",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -542,7 +440,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "16",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -568,8 +466,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "2D580gvVwqBhAZzU",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.2D580gvVwqBhAZzU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -613,8 +511,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "4UA4Zxp5XCmg7Adx",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.4UA4Zxp5XCmg7Adx",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -658,8 +556,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "bQtMZSy7y1QHm185",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.bQtMZSy7y1QHm185",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -703,8 +601,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "6h7pUHJ0Kq9Icvz3",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.6h7pUHJ0Kq9Icvz3",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -722,7 +620,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "15",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -748,8 +646,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "T2zY0filUWldNpzi",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.T2zY0filUWldNpzi",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -793,8 +691,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "9knY6y1HsmB75Z2I",
+      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.9knY6y1HsmB75Z2I",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

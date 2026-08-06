@@ -19,5 +19,173 @@
       "modifiedTime": 1753483083222,
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
+  },
+  "!folders!s12CYfXylYPtD2cR": {
+    "name": "Demon",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "s12CYfXylYPtD2cR",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!5UAdtLHHI2Tk8ynk": {
+    "name": "Dragons",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "5UAdtLHHI2Tk8ynk",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!IFFPmBZugeHHWJ3p": {
+    "name": "Black",
+    "sorting": "a",
+    "folder": "5UAdtLHHI2Tk8ynk",
+    "type": "Actor",
+    "_id": "IFFPmBZugeHHWJ3p",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!LTBtP8LKcKS9AJLF": {
+    "name": "Green",
+    "sorting": "a",
+    "folder": "5UAdtLHHI2Tk8ynk",
+    "type": "Actor",
+    "_id": "LTBtP8LKcKS9AJLF",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!PPILiNgHzaMHFltI": {
+    "name": "White",
+    "sorting": "a",
+    "folder": "5UAdtLHHI2Tk8ynk",
+    "type": "Actor",
+    "_id": "PPILiNgHzaMHFltI",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!BAheqLqUIIbWIHqu": {
+    "name": "Blue",
+    "sorting": "a",
+    "folder": "5UAdtLHHI2Tk8ynk",
+    "type": "Actor",
+    "_id": "BAheqLqUIIbWIHqu",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!W3qASllso2f5uaEv": {
+    "name": "Red",
+    "sorting": "a",
+    "folder": "5UAdtLHHI2Tk8ynk",
+    "type": "Actor",
+    "_id": "W3qASllso2f5uaEv",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!HKCIcGPT47R2fe0f": {
+    "name": "Gold",
+    "sorting": "a",
+    "folder": "5UAdtLHHI2Tk8ynk",
+    "type": "Actor",
+    "_id": "HKCIcGPT47R2fe0f",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
   }
 }

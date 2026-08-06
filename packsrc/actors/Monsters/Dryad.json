@@ -1,27 +1,27 @@
 {
-  "name": "Centaur",
+  "name": "Dryad",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Neutral",
-      "size": "L",
-      "morale": 8,
-      "xpAward": 240,
+      "size": "M",
+      "morale": 6,
+      "xpAward": 60,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 1,
+      "monsterType": "Fey",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "4",
-      "value": 18,
-      "max": 18
+      "hd": "2",
+      "value": 9,
+      "max": 9
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 15,
+      "value": 17,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>Dryads are beautiful female tree spirits, and do not venture far from their home trees. They can cast (as a native magical power) a strong charm that operates as a Charm Person spell with a -2 saving throw. Those who are charmed seldom return, or might be kept for a hundred years and a day within the dryad's tree.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,7 +55,7 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
       "naked": 5,
@@ -71,7 +71,7 @@
       "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 4,
+    "thbonus": 2,
     "initiative": {
       "value": 0
     },
@@ -171,11 +171,12 @@
       "run": 0
     },
     "actorGroups": [
+      "fey",
       "weapon-using"
     ]
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Dryad",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +276,14 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "mHHB2MEc8vSh0zAa",
+    "INXBuONy0kmnoWaW",
+    "vR6MbKzebNHh6hFg",
+    "zYMxjlynXKim5ZiN",
+    "SeUkL4czSKxKBbRE",
+    "aG3Pyblf2cFl3Nbz",
+    "YGLmSHL0wZSXwtH6",
+    "BS28lFXSczJizrqB"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,116 +297,34 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "iMVIBXZO2eDZpmpF",
+  "_originalKey": "!actors!iMVIBXZO2eDZpmpF",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Dagger",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/weapons/thrown/dagger-simple-wood.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The dryad attacks with a wooden dagger, dealing 1d4 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 0,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "1d6"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Spear",
-      "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
-      "system": {
-        "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
+        "weight": 10,
+        "cost": 3,
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "damageRoll": "1d6",
+        "damageRoll": "1d4",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Spear",
+        "mastery": "Dagger",
         "weaponType": "handheld",
         "range": {
           "short": null,
@@ -428,12 +346,12 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
+        "unidentifiedName": "Dagger",
+        "unidentifiedDesc": "<p>The dryad attacks with a wooden dagger, dealing 1d4 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
+        "size": "S",
         "grip": "1H",
         "charges": 0,
         "chargesMax": 0,
@@ -441,7 +359,7 @@
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 1,
+          "group": 0,
           "max": 1,
           "used": 0
         },
@@ -449,7 +367,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d4"
       },
       "effects": [],
       "folder": null,
@@ -458,63 +376,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
+      "_id": "mHHB2MEc8vSh0zAa",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.mHHB2MEc8vSh0zAa",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Thick Hide",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Charm Person",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 5,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
         "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The dryad can cast a strong charm as a native magical power, operating as a Charm Person spell with a -2 saving throw. Those who are charmed seldom return, or might be kept for a hundred years and a day within the dryad's tree.</p>"
       },
       "effects": [],
       "folder": null,
@@ -523,8 +421,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "INXBuONy0kmnoWaW",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.INXBuONy0kmnoWaW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -542,7 +440,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "17",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -568,8 +466,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "vR6MbKzebNHh6hFg",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.vR6MbKzebNHh6hFg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -587,7 +485,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -613,8 +511,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "zYMxjlynXKim5ZiN",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.zYMxjlynXKim5ZiN",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -632,7 +530,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "13",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -658,8 +556,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "SeUkL4czSKxKBbRE",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.SeUkL4czSKxKBbRE",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -677,7 +575,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -703,8 +601,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "aG3Pyblf2cFl3Nbz",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.aG3Pyblf2cFl3Nbz",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -722,7 +620,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "15",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -748,8 +646,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "YGLmSHL0wZSXwtH6",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.YGLmSHL0wZSXwtH6",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -767,7 +665,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "16",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -793,8 +691,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "BS28lFXSczJizrqB",
+      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.BS28lFXSczJizrqB",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

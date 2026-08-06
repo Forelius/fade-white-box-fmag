@@ -1,27 +1,27 @@
 {
-  "name": "Centaur",
+  "name": "Demon, Balor",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Neutral",
+      "alignment": "Chaotic",
       "size": "L",
-      "morale": 8,
-      "xpAward": 240,
+      "morale": 10,
+      "xpAward": 1400,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 3,
+      "monsterType": "Demon",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "4",
-      "value": 18,
-      "max": 18
+      "hd": "9",
+      "value": 41,
+      "max": 41
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 15,
+      "value": 10,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60,
+      "max": 60
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>These powerful demons somewhat resemble vast minotaurs with great, spreading bat-wings; they burn with the fires of hell and are wreathed in flame. The spells of casters below 6th level do not affect them, and against higher-level spell casters they are yet 75% immune to all spells. In combat, a Balor uses whip and sword; the whip can be used to reach great distances&mdash;on a successful hit the victim is pulled close to the Balor and burned by the fires of the demon's body (3d6 damage). Balor are sometimes referred to in ancient texts as Baalroch, which may be the name of a single demon rather than a term for all of them. A Balor could be forced or tricked into the service of a powerful wizard, but the risk would be immense.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,23 +55,23 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
-      "naked": 5,
-      "nakedAAC": 14,
-      "value": 5,
-      "total": 5,
-      "totalAAC": 14,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 5,
-      "nakedRangedAAC": 14,
-      "totalRanged": 5,
-      "totalRangedAAC": 14,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 4,
+    "thbonus": 9,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
         "value": 10,
@@ -164,22 +164,23 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 150,
+      "round": 50,
+      "day": 30,
+      "run": 150,
+      "max": 150
     },
     "actorGroups": [
-      "weapon-using"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Demon, Balor",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -275,18 +276,20 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "wWiwWvK2Xlxl1TEZ",
+    "X5mMbuijiBDFJzFP",
+    "ZHuSDDMGik5r9f7n",
+    "KFE6H4E8uRxSdtS4",
+    "BfgnCferJxSz6cwW",
+    "8uH73cRItx1jpA9o",
+    "wr8KeHkS7Sv4jkQu",
+    "CYgip5rPudqQbnrB",
+    "paXVXBpK82TzLK0A",
+    "TC8B9SyM83ZcvzPB",
+    "VWpdVAbxlHxwmfRJ"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "s12CYfXylYPtD2cR",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,116 +300,34 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "NT4ka6OzqBp45Etu",
+  "_originalKey": "!actors!NT4ka6OzqBp45Etu",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Sword",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/weapons/swords/greatsword-crossguard-silver.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The Balor wields a great sword, dealing 2d6 points of damage on a successful hit.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 0,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "1d6"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Spear",
-      "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
-      "system": {
-        "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
+        "weight": 150,
+        "cost": 15,
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "damageRoll": "1d6",
+        "damageRoll": "2d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Spear",
+        "mastery": "Sword, Two-Handed",
         "weaponType": "handheld",
         "range": {
           "short": null,
@@ -428,12 +349,95 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
+        "unidentifiedName": "Sword",
+        "unidentifiedDesc": "<p>The Balor wields a great sword, dealing 2d6 points of damage on a successful hit.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
         "size": "L",
+        "grip": "2H",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 0,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "wWiwWvK2Xlxl1TEZ",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.wWiwWvK2Xlxl1TEZ",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Whip",
+      "type": "weapon",
+      "img": "icons/weapons/misc/whip-leather.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>The Balor's whip can be used to reach great distances. On a successful hit the victim is pulled close to the Balor and burned by the fires of the demon's body (3d6 points of damage).</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 30,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "2d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "handheld",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Whip",
+        "unidentifiedDesc": "<p>The Balor's whip can be used to reach great distances. On a successful hit the victim is pulled close to the Balor and burned by the fires of the demon's body (3d6 points of damage).</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "M",
         "grip": "1H",
         "charges": 0,
         "chargesMax": 0,
@@ -449,7 +453,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "2d6"
       },
       "effects": [],
       "folder": null,
@@ -458,63 +462,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
+      "_id": "X5mMbuijiBDFJzFP",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.X5mMbuijiBDFJzFP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Thick Hide",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Magic Resistance",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 5,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
         "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The spells of casters below 6th level do not affect a Balor, and it is 75% immune to all spells from higher-level spell casters.</p>"
       },
       "effects": [],
       "folder": null,
@@ -523,8 +507,98 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "ZHuSDDMGik5r9f7n",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.ZHuSDDMGik5r9f7n",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Whip Pull and Burn",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>On a successful hit with its whip, the Balor pulls the victim close and burns them with the fires of its body, dealing 3d6 points of damage.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "KFE6H4E8uRxSdtS4",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.KFE6H4E8uRxSdtS4",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The balor can fly at a speed of 15.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "BfgnCferJxSz6cwW",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.BfgnCferJxSz6cwW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -542,7 +616,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -568,8 +642,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "8uH73cRItx1jpA9o",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.8uH73cRItx1jpA9o",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -587,7 +661,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "6",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -613,8 +687,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "wr8KeHkS7Sv4jkQu",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.wr8KeHkS7Sv4jkQu",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -632,7 +706,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "7",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -658,8 +732,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "CYgip5rPudqQbnrB",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.CYgip5rPudqQbnrB",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -677,7 +751,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -703,8 +777,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "paXVXBpK82TzLK0A",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.paXVXBpK82TzLK0A",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -722,7 +796,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -748,8 +822,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "TC8B9SyM83ZcvzPB",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.TC8B9SyM83ZcvzPB",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -767,7 +841,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -793,8 +867,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "VWpdVAbxlHxwmfRJ",
+      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.VWpdVAbxlHxwmfRJ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

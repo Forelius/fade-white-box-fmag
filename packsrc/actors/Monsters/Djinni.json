@@ -1,27 +1,27 @@
 {
-  "name": "Centaur",
+  "name": "Djinni",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Neutral",
+      "alignment": "Chaotic",
       "size": "L",
-      "morale": 8,
-      "xpAward": 240,
+      "morale": 12,
+      "xpAward": 1100,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 8,
+      "monsterType": "Planar Monster",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "4",
-      "value": 18,
-      "max": 18
+      "hd": "7+1",
+      "value": 33,
+      "max": 33
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 15,
+      "value": 12,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>Djinn are one of the genies of folklore, creatures of the air (and possibly of the elemental planes). They can carry 700 pounds of weight, and have a number of magical powers. A djinni can create food and water of high quality, as well as wooden and cloth objects. They can also create objects of metal (including coins), but all such magically created metals disappear in time. Djinn can call up illusions, and although these are quite excellent they disappear when touched. Djinni can turn themselves into gaseous form (cannot attack or be attacked, can enter any area that is not airtight), and can become invisible at will. Finally, a djinni can turn itself into a whirlwind much like an air elemental, sweeping away any creature with one or fewer hit dice (the diameter of the whirlwind is 10 feet). More powerful types of djinn might be capable of granting limited wishes or even true wishes.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,7 +55,7 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
       "naked": 5,
@@ -71,7 +71,7 @@
       "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 4,
+    "thbonus": 7,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
         "value": 10,
@@ -164,22 +164,23 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240,
+      "max": 240
     },
     "actorGroups": [
-      "weapon-using"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Djinni",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -275,15 +276,21 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "Ii4H88I0Ca3GrMg6",
+    "nagQBLJyFEMm5yIZ",
+    "LRf2FlWFb4V3dwwZ",
+    "mWusewBCAxzVaNWv",
+    "aSJ0W7glU4cwpBFa",
+    "13BAXvIj6C8Lafs9",
+    "zB8zV8MgRd991MbD",
+    "P0afG4DmGKC3BpNg",
+    "fSNCPQ867kHD65fv",
+    "scNyZkgNLXKWR7Ze",
+    "YDigLUMhRqH0R2Mu",
+    "iuz9LePAlOMqBZ7i",
+    "nboKfS5ckU3IPRJU",
+    "a4IHa45Ghj7UVCza",
+    "Xs2MRzQNxzUSmHMH"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,16 +304,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "XJT3KCY52cCiLVdh",
+  "_originalKey": "!actors!XJT3KCY52cCiLVdh",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Fist",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The djinni strikes with its fist or a weapon, dealing 2d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -317,13 +324,14 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d6",
+        "damageRoll": "2d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
+        "mastery": "",
         "weaponType": "monster",
         "range": {
           "short": null,
@@ -345,8 +353,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
+        "unidentifiedName": "Fist",
+        "unidentifiedDesc": "<p>The djinni strikes with its fist or a weapon, dealing 2d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -366,7 +374,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "2d6"
       },
       "effects": [],
       "folder": null,
@@ -375,81 +383,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
+      "_id": "Ii4H88I0Ca3GrMg6",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.Ii4H88I0Ca3GrMg6",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Spear",
-      "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
+      "name": "Carry 700 Pounds",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
         "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "Spear",
-        "weaponType": "handheld",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
         "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 1,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "1d6"
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A djinni can carry 700 pounds of weight.</p>"
       },
       "effects": [],
       "folder": null,
@@ -458,63 +428,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
+      "_id": "nagQBLJyFEMm5yIZ",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.nagQBLJyFEMm5yIZ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Thick Hide",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Create Food and Objects",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 5,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
         "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A djinni can create food and water of high quality, as well as wooden and cloth objects.</p>"
       },
       "effects": [],
       "folder": null,
@@ -523,8 +473,278 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "LRf2FlWFb4V3dwwZ",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.LRf2FlWFb4V3dwwZ",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Create Metal Objects",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A djinni can create objects of metal, including coins, but all such magically created metals disappear in time.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "mWusewBCAxzVaNWv",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.mWusewBCAxzVaNWv",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Create Illusions",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A djinni can call up excellent illusions, which disappear when touched.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "aSJ0W7glU4cwpBFa",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.aSJ0W7glU4cwpBFa",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Gaseous Form",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A djinni can turn into gaseous form. In this form it cannot attack or be attacked, and can enter any area that is not airtight.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "13BAXvIj6C8Lafs9",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.13BAXvIj6C8Lafs9",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Invisibility (At Will)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A djinni can become invisible at will.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "zB8zV8MgRd991MbD",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.zB8zV8MgRd991MbD",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Whirlwind",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A djinni can turn itself into a whirlwind much like an air elemental, sweeping away any creature with one or fewer hit dice. The whirlwind is 10 feet in diameter.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "P0afG4DmGKC3BpNg",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.P0afG4DmGKC3BpNg",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The djinni can fly at a speed of 24.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "fSNCPQ867kHD65fv",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.fSNCPQ867kHD65fv",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -542,7 +762,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -568,8 +788,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "scNyZkgNLXKWR7Ze",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.scNyZkgNLXKWR7Ze",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -587,7 +807,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -613,8 +833,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "YDigLUMhRqH0R2Mu",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.YDigLUMhRqH0R2Mu",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -632,7 +852,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -658,8 +878,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "iuz9LePAlOMqBZ7i",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.iuz9LePAlOMqBZ7i",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -677,7 +897,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -703,8 +923,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "nboKfS5ckU3IPRJU",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.nboKfS5ckU3IPRJU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -748,8 +968,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "a4IHa45Ghj7UVCza",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.a4IHa45Ghj7UVCza",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -767,7 +987,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -793,8 +1013,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "Xs2MRzQNxzUSmHMH",
+      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.Xs2MRzQNxzUSmHMH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

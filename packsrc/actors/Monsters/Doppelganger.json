@@ -1,21 +1,21 @@
 {
-  "name": "Centaur",
+  "name": "Doppelganger",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Neutral",
-      "size": "L",
+      "alignment": "Chaotic",
+      "size": "M",
       "morale": 8,
       "xpAward": 240,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 3,
+      "monsterType": "Monster",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
@@ -36,13 +36,13 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>A doppelganger can change its form to resemble the physical appearance (including clothing and gear) of any person. These creatures are immune to sleep and charm, and are considered magic resistant for purposes such as breaking through wizard locks and similar spells. They have a very good saving throw (+5) against magic of all kinds.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,7 +55,7 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
       "naked": 5,
@@ -170,12 +170,10 @@
       "day": 0,
       "run": 0
     },
-    "actorGroups": [
-      "weapon-using"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Doppelganger",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +273,16 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "l1B7TwtfwtHpo04q",
+    "fCgBxXSa3TCOd5rM",
+    "kWOv12zgBrNlyXQB",
+    "v1mwIUWmykZLPKeH",
+    "rtIYtcVixC8ktOvM",
+    "n6cRYYRiBlDNzaAT",
+    "Hd8ZjqhLrE6anFoz",
+    "kM2HJrnbJb4N3NDp",
+    "ykVsrX4Zl0GNCp2X",
+    "tZsVWfahJ3sR1wBK"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,16 +296,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "BKMNpNEAPQbSysQT",
+  "_originalKey": "!actors!BKMNpNEAPQbSysQT",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Claw",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The doppelganger rakes with its claws, dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -324,6 +323,7 @@
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
+        "mastery": "",
         "weaponType": "monster",
         "range": {
           "short": null,
@@ -345,8 +345,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
+        "unidentifiedName": "Claw",
+        "unidentifiedDesc": "<p>The doppelganger rakes with its claws, dealing 1d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -375,81 +375,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
+      "_id": "l1B7TwtfwtHpo04q",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.l1B7TwtfwtHpo04q",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Spear",
-      "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
+      "name": "Change Form",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
         "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "Spear",
-        "weaponType": "handheld",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
         "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 1,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "1d6"
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A doppelganger can change its form to resemble the physical appearance, including clothing and gear, of any person.</p>"
       },
       "effects": [],
       "folder": null,
@@ -458,63 +420,43 @@
         "default": 0
       },
       "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
+      "_id": "fCgBxXSa3TCOd5rM",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.fCgBxXSa3TCOd5rM",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Thick Hide",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Immunity to Sleep and Charm",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
         "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 5,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
         "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Doppelgangers are immune to sleep and charm.</p>"
       },
       "effects": [],
       "folder": null,
@@ -523,8 +465,53 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "kWOv12zgBrNlyXQB",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.kWOv12zgBrNlyXQB",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Magic Resistance",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Doppelgangers are considered magic resistant for purposes such as breaking through wizard locks and similar spells, and have a +5 saving throw against magic of all kinds.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "v1mwIUWmykZLPKeH",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.v1mwIUWmykZLPKeH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -568,8 +555,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "rtIYtcVixC8ktOvM",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.rtIYtcVixC8ktOvM",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -613,8 +600,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "n6cRYYRiBlDNzaAT",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.n6cRYYRiBlDNzaAT",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -658,8 +645,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "Hd8ZjqhLrE6anFoz",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.Hd8ZjqhLrE6anFoz",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -703,8 +690,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "kM2HJrnbJb4N3NDp",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.kM2HJrnbJb4N3NDp",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -748,8 +735,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "ykVsrX4Zl0GNCp2X",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.ykVsrX4Zl0GNCp2X",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -793,8 +780,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "tZsVWfahJ3sR1wBK",
+      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.tZsVWfahJ3sR1wBK",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

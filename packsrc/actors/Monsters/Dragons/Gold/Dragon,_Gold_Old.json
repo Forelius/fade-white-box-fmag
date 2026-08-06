@@ -1,27 +1,27 @@
 {
-  "name": "Centaur",
+  "name": "Dragon, Gold (Old)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Neutral",
+      "alignment": "Lawful",
       "size": "L",
-      "morale": 8,
-      "xpAward": 240,
+      "morale": 10,
+      "xpAward": 2600,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Humanoid",
+      "abilityCount": 3,
+      "monsterType": "Dragon",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "4",
-      "value": 18,
-      "max": 18
+      "hd": "12",
+      "value": 60,
+      "max": 60
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 15,
+      "value": 7,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Half man, half horse, centaurs are fierce warriors and well-known creatures of mythology. The Referee may choose any \"version\" of the centaur from folklore for his campaign: some are chaotic, some aloof, and some are soothsayers.</p><p><strong>Terrain:</strong> Open / Forest.</p>",
+    "biography": "<p>Gold dragons are of lawful alignment, can always speak, and cast spells as if they were a magic-user of equal level to their age category. They can choose to either breathe fire in a cone 90 feet long and roughly 30 feet wide at the base, or breathe chlorine gas in a cloud 50 feet in diameter.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -55,23 +55,23 @@
       "firstSpellLevel": 1
     },
     "gm": {
-      "notes": "Armor class is 5 [14], or 4 [16] with a shield."
+      "notes": ""
     },
     "ac": {
-      "naked": 5,
-      "nakedAAC": 14,
-      "value": 5,
-      "total": 5,
-      "totalAAC": 14,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 5,
-      "nakedRangedAAC": 14,
-      "totalRanged": 5,
-      "totalRangedAAC": 14,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 4,
+    "thbonus": 12,
     "initiative": {
       "value": 0
     },
@@ -164,22 +164,23 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240,
+      "max": 240
     },
     "actorGroups": [
-      "weapon-using"
+      "dragonkind",
+      "reptiles-dinosaurs"
     ]
   },
   "prototypeToken": {
-    "name": "Centaur",
+    "name": "Dragon, Gold (Old)",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -275,18 +276,21 @@
     "movementAction": null
   },
   "items": [
-    "103xY4j1ul8yr4kA",
-    "EAAnPtGUpWfV0TeG",
-    "FBAXwTNso6zUCfYA",
-    "l3cvT9aBsvdKkTeI",
-    "sml3cRLeiX0VttL5",
-    "W5DIQyqC8qLsiw28",
-    "ZmVSGeJKZNl7clgp",
-    "jmjuwoaBO94surhq",
-    "QPtehJr31Uc9qeXx"
+    "kEvCXbQFcE4vYgQA",
+    "4KneboovsN6rwJey",
+    "olZUx4QxhDTRyvZT",
+    "UoSaZg0PVuSykBgJ",
+    "wplzaPxZj1JSX5j9",
+    "wE62GbSabphQBXgO",
+    "k1t0ppHk7YApV1cW",
+    "eplkrh6lEyVVniAH",
+    "2bQnMMkuGJ8XtcsN",
+    "gxJHBKJDklzsqgOk",
+    "qfoZWzw1qkCTSGaf",
+    "Je0XgvoNeA0fwLbF"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "HKCIcGPT47R2fe0f",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,16 +301,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "VpNQVTSBsdPzHM3t",
-  "_originalKey": "!actors!VpNQVTSBsdPzHM3t",
+  "_id": "6PGmwKO7HfeBtGi2",
+  "_originalKey": "!actors!6PGmwKO7HfeBtGi2",
   "embedded": [
     {
-      "name": "Kick",
+      "name": "Bite",
       "type": "weapon",
-      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur lashes out with powerful hooves.</p>",
+        "description": "<p>The dragon bites, dealing 2d6+2 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -317,13 +321,14 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d6",
+        "damageRoll": "2d6+2",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
+        "mastery": "",
         "weaponType": "monster",
         "range": {
           "short": null,
@@ -345,8 +350,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Kick",
-        "unidentifiedDesc": "<p>The centaur lashes out with powerful hooves.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The dragon bites, dealing 2d6+2 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -366,7 +371,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "2d6+2"
       },
       "effects": [],
       "folder": null,
@@ -375,42 +380,42 @@
         "default": 0
       },
       "flags": {},
-      "_id": "103xY4j1ul8yr4kA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.103xY4j1ul8yr4kA",
+      "_id": "kEvCXbQFcE4vYgQA",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.kEvCXbQFcE4vYgQA",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Spear",
+      "name": "Fire Breath",
       "type": "weapon",
-      "img": "modules/fade-compendiums/assets/img/weapon/javelin.webp",
+      "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
       "system": {
         "tags": [],
-        "description": "<p>A wooden-hafted spear with a pointed metal head.</p>",
+        "description": "<p>The gold dragon breathes fire in a cone 90 feet long and roughly 30 feet wide at the base, dealing 60 points of fire damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
+        "quantity": 3,
+        "quantityMax": 3,
         "weight": 0,
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
+        "natural": true,
+        "damageRoll": "60",
+        "damageType": "breath",
+        "breath": "fire",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "breath",
         "saveDmgFormula": "",
-        "mastery": "Spear",
-        "weaponType": "handheld",
+        "mastery": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
-          "medium": null,
+          "medium": 90,
           "long": null
         },
         "totalWeight": 0,
@@ -428,13 +433,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "",
-        "unidentifiedDesc": "<p>A wooden-hafted spear with a pointed metal head.</p>",
+        "unidentifiedName": "Fire Breath",
+        "unidentifiedDesc": "<p>The gold dragon breathes fire in a cone 90 feet long and roughly 30 feet wide at the base, dealing 60 points of fire damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -449,7 +454,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "60"
       },
       "effects": [],
       "folder": null,
@@ -458,63 +463,81 @@
         "default": 0
       },
       "flags": {},
-      "_id": "EAAnPtGUpWfV0TeG",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.EAAnPtGUpWfV0TeG",
+      "_id": "4KneboovsN6rwJey",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.4KneboovsN6rwJey",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Thick Hide",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Gas Breath",
+      "type": "weapon",
+      "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
       "system": {
         "tags": [],
-        "description": "<p>The centaur's tough hide turns aside blows.</p>",
+        "description": "<p>The gold dragon breathes chlorine gas in a cloud 50 feet in diameter, dealing 60 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": 1,
-        "quantityMax": 0,
+        "quantity": 3,
+        "quantityMax": 3,
         "weight": 0,
         "cost": 0,
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 5,
-        "isShield": false,
+        "damageRoll": "60",
+        "damageType": "breath",
+        "breath": "gas",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "breath",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": 50,
+          "long": null
+        },
         "totalWeight": 0,
         "totalCost": 0,
         "container": false,
         "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 5,
-        "totalAAC": 14,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Thick Hide",
-        "unidentifiedDesc": "<p>The centaur's tough hide turns aside blows.</p>",
+        "canSet": false,
+        "unidentifiedName": "Gas Breath",
+        "unidentifiedDesc": "<p>The gold dragon breathes chlorine gas in a cloud 50 feet in diameter, dealing 60 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
         "isIdentified": true,
         "isCursed": false,
+        "isSlow": false,
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
-        "savingThrow": null,
+        "dmgFormula": null,
         "healFormula": null,
-        "damageType": "",
         "isUsable": false,
-        "av": "",
+        "attacks": {
+          "group": 1,
+          "max": 1,
+          "used": 0
+        },
         "weightEquipped": null,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 5,
-        "totalRangedAAC": 14
+        "damageLabel": "60"
       },
       "effects": [],
       "folder": null,
@@ -523,8 +546,143 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FBAXwTNso6zUCfYA",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.FBAXwTNso6zUCfYA",
+      "_id": "olZUx4QxhDTRyvZT",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.olZUx4QxhDTRyvZT",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The dragon can fly at a speed of 24.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "UoSaZg0PVuSykBgJ",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.UoSaZg0PVuSykBgJ",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Can Always Speak",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Gold dragons can always speak.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "wplzaPxZj1JSX5j9",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.wplzaPxZj1JSX5j9",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Spellcasting (5th Level Magic-User)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Gold dragons cast spells as a magic-user of equal level to their age category, casting as a 5th level magic-user.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "wE62GbSabphQBXgO",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.wE62GbSabphQBXgO",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -542,7 +700,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "7",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -568,8 +726,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l3cvT9aBsvdKkTeI",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.l3cvT9aBsvdKkTeI",
+      "_id": "k1t0ppHk7YApV1cW",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.k1t0ppHk7YApV1cW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -587,7 +745,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "6",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -613,8 +771,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sml3cRLeiX0VttL5",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.sml3cRLeiX0VttL5",
+      "_id": "eplkrh6lEyVVniAH",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.eplkrh6lEyVVniAH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -632,7 +790,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "7",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -658,8 +816,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W5DIQyqC8qLsiw28",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.W5DIQyqC8qLsiw28",
+      "_id": "2bQnMMkuGJ8XtcsN",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.2bQnMMkuGJ8XtcsN",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -677,7 +835,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -703,8 +861,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZmVSGeJKZNl7clgp",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.ZmVSGeJKZNl7clgp",
+      "_id": "gxJHBKJDklzsqgOk",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.gxJHBKJDklzsqgOk",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -722,7 +880,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -748,8 +906,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jmjuwoaBO94surhq",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.jmjuwoaBO94surhq",
+      "_id": "qfoZWzw1qkCTSGaf",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.qfoZWzw1qkCTSGaf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -767,7 +925,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -793,8 +951,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QPtehJr31Uc9qeXx",
-      "_originalKey": "!actors.items!VpNQVTSBsdPzHM3t.QPtehJr31Uc9qeXx",
+      "_id": "Je0XgvoNeA0fwLbF",
+      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.Je0XgvoNeA0fwLbF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
