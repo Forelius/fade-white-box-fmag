@@ -1,27 +1,27 @@
 {
-  "name": "Lich (17 HD)",
+  "name": "Worg",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "M",
-      "morale": 10,
-      "xpAward": 4400,
+      "size": "L",
+      "morale": 9,
+      "xpAward": 120,
       "attacks": "1",
-      "abilityCount": 4,
-      "monsterType": "Undead",
+      "abilityCount": 0,
+      "monsterType": "Animal",
       "saveAs": "",
-      "castAs": "M12",
+      "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Rare",
+      "rarity": "Common",
       "weight": ""
     },
     "hp": {
-      "hd": "17",
-      "value": 77,
-      "max": 77
+      "hd": "4",
+      "value": 18,
+      "max": 18
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 2,
+      "value": 15,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 180,
+      "round": 60,
+      "day": 36,
+      "run": 180,
+      "max": 180
     },
-    "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
+    "biography": "<p>Worgs are large, intelligent, and evil wolves of chaos. They are sometimes ridden by orcs. They may have supernatural origins.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -51,27 +51,27 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 6,
+      "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
     "gm": {
       "notes": ""
     },
     "ac": {
-      "naked": 0,
-      "nakedAAC": 19,
-      "value": 0,
-      "total": 0,
-      "totalAAC": 19,
+      "naked": 6,
+      "nakedAAC": 13,
+      "value": 6,
+      "total": 6,
+      "totalAAC": 13,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 0,
-      "nakedRangedAAC": 19,
-      "totalRanged": 0,
-      "totalRangedAAC": 19,
+      "nakedRanged": 6,
+      "nakedRangedAAC": 13,
+      "totalRanged": 6,
+      "totalRangedAAC": 13,
       "av": "0"
     },
-    "thbonus": 17,
+    "thbonus": 4,
     "initiative": {
       "value": 0
     },
@@ -121,11 +121,11 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": true,
+    "isEnchanted": false,
     "abilities": {
       "int": {
-        "value": 10,
-        "total": 10,
+        "value": 6,
+        "total": 6,
         "mod": 0,
         "tempMod": 0
       },
@@ -170,18 +170,14 @@
       "day": 0,
       "run": 0
     },
-    "actorGroups": [
-      "spellcasters",
-      "undead",
-      "enchanted"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Lich (17 HD)",
+    "name": "Worg",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -277,21 +273,17 @@
     "movementAction": null
   },
   "items": [
-    "4PnIcU4pITtD3Bwr",
-    "vZf5WztaEbidqIoM",
-    "9urqxSLETKL1CT0J",
-    "DnNlAFTsgTXVxUTB",
-    "DvFNkboP4sStD3qW",
-    "xxCSM3Nj3xuGuvFc",
-    "NulnQ4XyYSXfst9i",
-    "JExP7EdXQftAW2w4",
-    "9z18rWhJ43pgdSQF",
-    "g2hQZJXSWIcWd9eQ",
-    "QJcvUEZrfcvNWDyp",
-    "W2nJS3WWMeclwfEI"
+    "3lDf9RzYBbHV0WIV",
+    "8ZG0MrzXKPM6vGTL",
+    "I44Wh2GUgkIMitur",
+    "WguMJQiI6VhWsfES",
+    "1YfhMJUbIkLng9zS",
+    "Mm0M3lnpgTAAZ9CY",
+    "C3JeSj8cR3Tf3j0S",
+    "egkdhFUyiRo99t0G"
   ],
   "effects": [],
-  "folder": "lrJXwwOZS3Yi3C1C",
+  "folder": "rMSHvZcsLsOsw0Vi",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -302,16 +294,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "t83z3NaRU1CX3tRO",
-  "_originalKey": "!actors!t83z3NaRU1CX3tRO",
+  "_id": "ml2HOWmAFbm7kkqs",
+  "_originalKey": "!actors!ml2HOWmAFbm7kkqs",
   "embedded": [
     {
-      "name": "Touch",
+      "name": "Bite",
       "type": "weapon",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "description": "<p>The worg bites, dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -322,7 +314,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d10",
+        "damageRoll": "1d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -351,8 +343,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Touch",
-        "unidentifiedDesc": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The worg bites, dealing 1d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -372,7 +364,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d10"
+        "damageLabel": "1d6"
       },
       "effects": [],
       "folder": null,
@@ -381,20 +373,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4PnIcU4pITtD3Bwr",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.4PnIcU4pITtD3Bwr",
+      "_id": "3lDf9RzYBbHV0WIV",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.3lDf9RzYBbHV0WIV",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Natural Protection",
+      "name": "Worg Hide",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "description": "<p>The worg's thick hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -405,7 +397,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 0,
+        "ac": 6,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -414,14 +406,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 0,
-        "totalAAC": 19,
+        "totalAC": 6,
+        "totalAAC": 13,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Natural Protection",
-        "unidentifiedDesc": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "unidentifiedName": "Worg Hide",
+        "unidentifiedDesc": "<p>The worg's thick hide turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -436,8 +428,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 0,
-        "totalRangedAAC": 19
+        "totalRangedAC": 6,
+        "totalRangedAAC": 13
       },
       "effects": [],
       "folder": null,
@@ -446,188 +438,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vZf5WztaEbidqIoM",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.vZf5WztaEbidqIoM",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Arcane Spellcasting",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The lich casts spells as a Magic-user of the same level as its hit dice.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "9urqxSLETKL1CT0J",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9urqxSLETKL1CT0J",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Paralyzing Touch",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>A lich's touch causes paralysis with no saving throw.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DnNlAFTsgTXVxUTB",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DnNlAFTsgTXVxUTB",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Fearful Appearance",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The very sight of a lich causes paralysis in any being of 4 HD or below.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DvFNkboP4sStD3qW",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DvFNkboP4sStD3qW",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Undead Immunities",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>As undead, liches are immune to sleep and charm spells.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "xxCSM3Nj3xuGuvFc",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.xxCSM3Nj3xuGuvFc",
+      "_id": "8ZG0MrzXKPM6vGTL",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.8ZG0MrzXKPM6vGTL",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,7 +457,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "2",
+        "target": "15",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -671,8 +483,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "NulnQ4XyYSXfst9i",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.NulnQ4XyYSXfst9i",
+      "_id": "I44Wh2GUgkIMitur",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.I44Wh2GUgkIMitur",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,7 +502,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -716,8 +528,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "JExP7EdXQftAW2w4",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.JExP7EdXQftAW2w4",
+      "_id": "WguMJQiI6VhWsfES",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.WguMJQiI6VhWsfES",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -735,7 +547,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -761,8 +573,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9z18rWhJ43pgdSQF",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9z18rWhJ43pgdSQF",
+      "_id": "1YfhMJUbIkLng9zS",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.1YfhMJUbIkLng9zS",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -780,7 +592,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -806,8 +618,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g2hQZJXSWIcWd9eQ",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.g2hQZJXSWIcWd9eQ",
+      "_id": "Mm0M3lnpgTAAZ9CY",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.Mm0M3lnpgTAAZ9CY",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -825,7 +637,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -851,8 +663,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QJcvUEZrfcvNWDyp",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.QJcvUEZrfcvNWDyp",
+      "_id": "C3JeSj8cR3Tf3j0S",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.C3JeSj8cR3Tf3j0S",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -870,7 +682,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -896,8 +708,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W2nJS3WWMeclwfEI",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.W2nJS3WWMeclwfEI",
+      "_id": "egkdhFUyiRo99t0G",
+      "_originalKey": "!actors.items!ml2HOWmAFbm7kkqs.egkdhFUyiRo99t0G",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

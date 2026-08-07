@@ -1,27 +1,27 @@
 {
-  "name": "Lich (17 HD)",
+  "name": "Nightsteed",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "M",
+      "size": "L",
       "morale": 10,
-      "xpAward": 4400,
+      "xpAward": 240,
       "attacks": "1",
-      "abilityCount": 4,
-      "monsterType": "Undead",
+      "abilityCount": 2,
+      "monsterType": "Monster",
       "saveAs": "",
-      "castAs": "M12",
+      "castAs": "",
       "classAbilityAs": "",
       "level": 1,
       "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "17",
-      "value": 77,
-      "max": 77
+      "hd": "5+5",
+      "value": 23,
+      "max": 23
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 2,
+      "value": 14,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 150,
+      "round": 50,
+      "day": 30,
+      "run": 150,
+      "max": 150
     },
-    "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
+    "biography": "<p>A nightsteed is a black horse with burning red eyes and a mane of fire. Its hooves also burn with hellfire and it can fly as easily as run. They attack with their flaming hooves, and once per day can let out a terrible cry that requires all who hear it to make a saving throw or flee in terror of the nightsteed for 1d6 rounds.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -51,27 +51,27 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 6,
+      "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
     "gm": {
       "notes": ""
     },
     "ac": {
-      "naked": 0,
-      "nakedAAC": 19,
-      "value": 0,
-      "total": 0,
-      "totalAAC": 19,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 0,
-      "nakedRangedAAC": 19,
-      "totalRanged": 0,
-      "totalRangedAAC": 19,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 17,
+    "thbonus": 5,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": true,
+    "isEnchanted": false,
     "abilities": {
       "int": {
         "value": 10,
@@ -164,24 +164,20 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 180,
+      "round": 60,
+      "day": 36,
+      "run": 180,
+      "max": 180
     },
-    "actorGroups": [
-      "spellcasters",
-      "undead",
-      "enchanted"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Lich (17 HD)",
+    "name": "Nightsteed",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -277,21 +273,19 @@
     "movementAction": null
   },
   "items": [
-    "4PnIcU4pITtD3Bwr",
-    "vZf5WztaEbidqIoM",
-    "9urqxSLETKL1CT0J",
-    "DnNlAFTsgTXVxUTB",
-    "DvFNkboP4sStD3qW",
-    "xxCSM3Nj3xuGuvFc",
-    "NulnQ4XyYSXfst9i",
-    "JExP7EdXQftAW2w4",
-    "9z18rWhJ43pgdSQF",
-    "g2hQZJXSWIcWd9eQ",
-    "QJcvUEZrfcvNWDyp",
-    "W2nJS3WWMeclwfEI"
+    "iCADjycRDCJszUSi",
+    "EEyrz5yR1fnqs7Ex",
+    "rGw7b3lvtXiHIK8k",
+    "FRzUBzf85NjlE2aI",
+    "2ARiEjZD8v9tsIfy",
+    "emrGPRzxeAuAx15w",
+    "62wQz95QaR0W7sjg",
+    "p63b0inOqWPxdRgl",
+    "SzZq6n1opfsvwEJb",
+    "FOygojzS4KNIiPKI"
   ],
   "effects": [],
-  "folder": "lrJXwwOZS3Yi3C1C",
+  "folder": "rMSHvZcsLsOsw0Vi",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -302,16 +296,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "t83z3NaRU1CX3tRO",
-  "_originalKey": "!actors!t83z3NaRU1CX3tRO",
+  "_id": "X1t14eKK1sCDyy5I",
+  "_originalKey": "!actors!X1t14eKK1sCDyy5I",
   "embedded": [
     {
-      "name": "Touch",
+      "name": "Flaming Hooves",
       "type": "weapon",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/commodities/bones/hooves-cloven-grey.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "description": "<p>The nightsteed lashes out with its flaming hooves, dealing 2d6 points of fire damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -322,8 +316,8 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d10",
-        "damageType": "physical",
+        "damageRoll": "2d6",
+        "damageType": "fire",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
@@ -351,8 +345,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Touch",
-        "unidentifiedDesc": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "unidentifiedName": "Flaming Hooves",
+        "unidentifiedDesc": "<p>The nightsteed lashes out with its flaming hooves, dealing 2d6 points of fire damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -372,7 +366,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d10"
+        "damageLabel": "2d6"
       },
       "effects": [],
       "folder": null,
@@ -381,20 +375,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4PnIcU4pITtD3Bwr",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.4PnIcU4pITtD3Bwr",
+      "_id": "iCADjycRDCJszUSi",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.iCADjycRDCJszUSi",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Natural Protection",
+      "name": "Black Hide",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "description": "<p>The nightsteed's hellish hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -405,7 +399,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 0,
+        "ac": 2,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -414,14 +408,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 0,
-        "totalAAC": 19,
+        "totalAC": 2,
+        "totalAAC": 17,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Natural Protection",
-        "unidentifiedDesc": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "unidentifiedName": "Black Hide",
+        "unidentifiedDesc": "<p>The nightsteed's hellish hide turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -436,8 +430,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 0,
-        "totalRangedAAC": 19
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
       },
       "effects": [],
       "folder": null,
@@ -446,15 +440,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vZf5WztaEbidqIoM",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.vZf5WztaEbidqIoM",
+      "_id": "EEyrz5yR1fnqs7Ex",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.EEyrz5yR1fnqs7Ex",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Arcane Spellcasting",
+      "name": "Fearful Cry",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -482,7 +476,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The lich casts spells as a Magic-user of the same level as its hit dice.</p>"
+        "description": "<p>Once per day, the nightsteed can let out a terrible cry that requires all who hear it to make a saving throw or flee in terror of the nightsteed for 1d6 rounds.</p>"
       },
       "effects": [],
       "folder": null,
@@ -491,15 +485,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9urqxSLETKL1CT0J",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9urqxSLETKL1CT0J",
+      "_id": "rGw7b3lvtXiHIK8k",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.rGw7b3lvtXiHIK8k",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Paralyzing Touch",
+      "name": "Flight",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -527,7 +521,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>A lich's touch causes paralysis with no saving throw.</p>"
+        "description": "<p>The nightsteed can fly as easily as run, at a speed of 18.</p>"
       },
       "effects": [],
       "folder": null,
@@ -536,98 +530,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "DnNlAFTsgTXVxUTB",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DnNlAFTsgTXVxUTB",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Fearful Appearance",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The very sight of a lich causes paralysis in any being of 4 HD or below.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DvFNkboP4sStD3qW",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DvFNkboP4sStD3qW",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Undead Immunities",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>As undead, liches are immune to sleep and charm spells.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "xxCSM3Nj3xuGuvFc",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.xxCSM3Nj3xuGuvFc",
+      "_id": "FRzUBzf85NjlE2aI",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.FRzUBzf85NjlE2aI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,7 +549,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "2",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -671,8 +575,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "NulnQ4XyYSXfst9i",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.NulnQ4XyYSXfst9i",
+      "_id": "2ARiEjZD8v9tsIfy",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.2ARiEjZD8v9tsIfy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,7 +594,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -716,8 +620,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "JExP7EdXQftAW2w4",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.JExP7EdXQftAW2w4",
+      "_id": "emrGPRzxeAuAx15w",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.emrGPRzxeAuAx15w",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -735,7 +639,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -761,8 +665,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9z18rWhJ43pgdSQF",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9z18rWhJ43pgdSQF",
+      "_id": "62wQz95QaR0W7sjg",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.62wQz95QaR0W7sjg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -780,7 +684,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -806,8 +710,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g2hQZJXSWIcWd9eQ",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.g2hQZJXSWIcWd9eQ",
+      "_id": "p63b0inOqWPxdRgl",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.p63b0inOqWPxdRgl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -825,7 +729,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -851,8 +755,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QJcvUEZrfcvNWDyp",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.QJcvUEZrfcvNWDyp",
+      "_id": "SzZq6n1opfsvwEJb",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.SzZq6n1opfsvwEJb",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -870,7 +774,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -896,8 +800,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W2nJS3WWMeclwfEI",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.W2nJS3WWMeclwfEI",
+      "_id": "FOygojzS4KNIiPKI",
+      "_originalKey": "!actors.items!X1t14eKK1sCDyy5I.FOygojzS4KNIiPKI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

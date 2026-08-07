@@ -12,7 +12,7 @@
       "abilityCount": 4,
       "monsterType": "Undead",
       "saveAs": "",
-      "castAs": "",
+      "castAs": "M12",
       "classAbilityAs": "",
       "level": 1,
       "rarity": "Rare",
@@ -51,7 +51,7 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 0,
+      "maxSpellLevel": 6,
       "firstSpellLevel": 1
     },
     "gm": {
@@ -277,18 +277,18 @@
     "movementAction": null
   },
   "items": [
-    "sUnUmn3ofAr3w4d6",
-    "PN7OTpWFGlbOYD4n",
-    "jaAau9jC0QlibWyh",
-    "PHn2sLZlZ7NM2yLz",
-    "eOC6zJJpl7x0Nob5",
-    "0KIlh80i44SrZnbc",
-    "xVvfRtVc7Hhev8n9",
-    "zMRRCxXjGSnLJti8",
-    "uZLn9Ie5paAci17K",
-    "pYYShcJhOw7lWKmB",
-    "a8QJhsye2ERnTmHl",
-    "VkXL3k1gaIxiPOsb"
+    "JI88Bheoxd8SK9hT",
+    "Bae1h7XFmLvgnY4s",
+    "kZHfuX4KpckxS0Q3",
+    "2m08Tf0wUTf6MH7w",
+    "1bIExTYV1HZPzLXH",
+    "Hk91H8ig5yrD5aAk",
+    "qljmRCekDTfvCW3d",
+    "dKRv35O5XMayLTce",
+    "EnSY75nOMu8iFqL4",
+    "9JiALdJixDhtWAHn",
+    "sSrlbHfig0uwf1uO",
+    "NUCcqaLjsxeRMtGc"
   ],
   "effects": [],
   "folder": "lrJXwwOZS3Yi3C1C",
@@ -302,8 +302,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "cH30pOgjxL6WWRmU",
-  "_originalKey": "!actors!cH30pOgjxL6WWRmU",
+  "_id": "MxEc1RCWj35R42AH",
+  "_originalKey": "!actors!MxEc1RCWj35R42AH",
   "embedded": [
     {
       "name": "Touch",
@@ -381,8 +381,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "sUnUmn3ofAr3w4d6",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.sUnUmn3ofAr3w4d6",
+      "_id": "JI88Bheoxd8SK9hT",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.JI88Bheoxd8SK9hT",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -446,8 +446,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "PN7OTpWFGlbOYD4n",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.PN7OTpWFGlbOYD4n",
+      "_id": "Bae1h7XFmLvgnY4s",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.Bae1h7XFmLvgnY4s",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -491,8 +491,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jaAau9jC0QlibWyh",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.jaAau9jC0QlibWyh",
+      "_id": "kZHfuX4KpckxS0Q3",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.kZHfuX4KpckxS0Q3",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -536,8 +536,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "PHn2sLZlZ7NM2yLz",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.PHn2sLZlZ7NM2yLz",
+      "_id": "2m08Tf0wUTf6MH7w",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.2m08Tf0wUTf6MH7w",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -581,8 +581,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "eOC6zJJpl7x0Nob5",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.eOC6zJJpl7x0Nob5",
+      "_id": "1bIExTYV1HZPzLXH",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.1bIExTYV1HZPzLXH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -626,8 +626,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "0KIlh80i44SrZnbc",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.0KIlh80i44SrZnbc",
+      "_id": "Hk91H8ig5yrD5aAk",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.Hk91H8ig5yrD5aAk",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -671,8 +671,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xVvfRtVc7Hhev8n9",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.xVvfRtVc7Hhev8n9",
+      "_id": "qljmRCekDTfvCW3d",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.qljmRCekDTfvCW3d",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -716,8 +716,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "zMRRCxXjGSnLJti8",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.zMRRCxXjGSnLJti8",
+      "_id": "dKRv35O5XMayLTce",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.dKRv35O5XMayLTce",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -761,8 +761,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "uZLn9Ie5paAci17K",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.uZLn9Ie5paAci17K",
+      "_id": "EnSY75nOMu8iFqL4",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.EnSY75nOMu8iFqL4",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -806,8 +806,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "pYYShcJhOw7lWKmB",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.pYYShcJhOw7lWKmB",
+      "_id": "9JiALdJixDhtWAHn",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.9JiALdJixDhtWAHn",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -851,8 +851,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "a8QJhsye2ERnTmHl",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.a8QJhsye2ERnTmHl",
+      "_id": "sSrlbHfig0uwf1uO",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.sSrlbHfig0uwf1uO",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -896,8 +896,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "VkXL3k1gaIxiPOsb",
-      "_originalKey": "!actors.items!cH30pOgjxL6WWRmU.VkXL3k1gaIxiPOsb",
+      "_id": "NUCcqaLjsxeRMtGc",
+      "_originalKey": "!actors.items!MxEc1RCWj35R42AH.NUCcqaLjsxeRMtGc",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

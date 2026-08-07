@@ -313,5 +313,47 @@
       "modifiedTime": 1753483083222,
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
+  },
+  "!folders!Q0L4xiN07muXb1xA": {
+    "name": "Treant",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "Q0L4xiN07muXb1xA",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!jzVdYmGlHr7C5vYI": {
+    "name": "Vampire",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "jzVdYmGlHr7C5vYI",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
   }
 }

@@ -1,27 +1,27 @@
 {
-  "name": "Lich (17 HD)",
+  "name": "Mummy",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
       "size": "M",
-      "morale": 10,
-      "xpAward": 4400,
+      "morale": 12,
+      "xpAward": 600,
       "attacks": "1",
-      "abilityCount": 4,
+      "abilityCount": 3,
       "monsterType": "Undead",
       "saveAs": "",
-      "castAs": "M12",
+      "castAs": "",
       "classAbilityAs": "",
       "level": 1,
       "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "17",
-      "value": 77,
-      "max": 77
+      "hd": "5+1",
+      "value": 23,
+      "max": 23
     },
     "na": {
       "wandering": "1",
@@ -29,7 +29,7 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 2,
+      "value": 14,
       "mod": {
         "missile": 0,
         "melee": 0
@@ -42,7 +42,7 @@
       "run": 60,
       "max": 60
     },
-    "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
+    "biography": "<p>Mummies cannot be hit by normal weapons and even magical weapons inflict only half damage against them. Their touch also inflicts a rotting disease which prevents magical healing and causes wounds to heal at one-tenth of the normal rate. A Cure Disease spell can increase healing rate to half normal, but a Remove Curse spell is required to completely lift the mummy's curse.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -51,27 +51,27 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 6,
+      "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
     "gm": {
       "notes": ""
     },
     "ac": {
-      "naked": 0,
-      "nakedAAC": 19,
-      "value": 0,
-      "total": 0,
-      "totalAAC": 19,
+      "naked": 3,
+      "nakedAAC": 16,
+      "value": 3,
+      "total": 3,
+      "totalAAC": 16,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 0,
-      "nakedRangedAAC": 19,
-      "totalRanged": 0,
-      "totalRangedAAC": 19,
+      "nakedRanged": 3,
+      "nakedRangedAAC": 16,
+      "totalRanged": 3,
+      "totalRangedAAC": 16,
       "av": "0"
     },
-    "thbonus": 17,
+    "thbonus": 5,
     "initiative": {
       "value": 0
     },
@@ -171,13 +171,12 @@
       "run": 0
     },
     "actorGroups": [
-      "spellcasters",
       "undead",
       "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Lich (17 HD)",
+    "name": "Mummy",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -277,21 +276,20 @@
     "movementAction": null
   },
   "items": [
-    "4PnIcU4pITtD3Bwr",
-    "vZf5WztaEbidqIoM",
-    "9urqxSLETKL1CT0J",
-    "DnNlAFTsgTXVxUTB",
-    "DvFNkboP4sStD3qW",
-    "xxCSM3Nj3xuGuvFc",
-    "NulnQ4XyYSXfst9i",
-    "JExP7EdXQftAW2w4",
-    "9z18rWhJ43pgdSQF",
-    "g2hQZJXSWIcWd9eQ",
-    "QJcvUEZrfcvNWDyp",
-    "W2nJS3WWMeclwfEI"
+    "DGjyOhiPPXBnPNP0",
+    "E0ZLFLnbxMmwBLBK",
+    "MiiMOaf2rtBWcMhB",
+    "PfMYvBDuTYVhZAdP",
+    "uWKXAjKJ0oJHpyID",
+    "6Qfwdd3Meuw58NIP",
+    "c7peWeYcnxINmrRX",
+    "gJkitwiXVFDCGbxH",
+    "el4Z9fh4pvJyUj2a",
+    "5GNU2UBSNQRFose5",
+    "WnUxPkB0KA6emUJy"
   ],
   "effects": [],
-  "folder": "lrJXwwOZS3Yi3C1C",
+  "folder": "rMSHvZcsLsOsw0Vi",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -302,16 +300,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "t83z3NaRU1CX3tRO",
-  "_originalKey": "!actors!t83z3NaRU1CX3tRO",
+  "_id": "Vhn9dyoM8HK5l4zY",
+  "_originalKey": "!actors!Vhn9dyoM8HK5l4zY",
   "embedded": [
     {
       "name": "Touch",
       "type": "weapon",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/magic/death/hand-withered-gray.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "description": "<p>The mummy's touch deals 1d12 points of damage and inflicts a rotting disease.</p>",
         "gm": {
           "notes": ""
         },
@@ -322,7 +320,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d10",
+        "damageRoll": "1d12",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -352,7 +350,7 @@
         "shortName": "",
         "canSet": false,
         "unidentifiedName": "Touch",
-        "unidentifiedDesc": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "unidentifiedDesc": "<p>The mummy's touch deals 1d12 points of damage and inflicts a rotting disease.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -372,7 +370,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d10"
+        "damageLabel": "1d12"
       },
       "effects": [],
       "folder": null,
@@ -381,20 +379,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4PnIcU4pITtD3Bwr",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.4PnIcU4pITtD3Bwr",
+      "_id": "DGjyOhiPPXBnPNP0",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.DGjyOhiPPXBnPNP0",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Natural Protection",
+      "name": "Bandage Wrappings",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "description": "<p>The mummy's ancient bandage wrappings turn aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -405,7 +403,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 0,
+        "ac": 3,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -414,14 +412,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 0,
-        "totalAAC": 19,
+        "totalAC": 3,
+        "totalAAC": 16,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Natural Protection",
-        "unidentifiedDesc": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "unidentifiedName": "Bandage Wrappings",
+        "unidentifiedDesc": "<p>The mummy's ancient bandage wrappings turn aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -436,8 +434,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 0,
-        "totalRangedAAC": 19
+        "totalRangedAC": 3,
+        "totalRangedAAC": 16
       },
       "effects": [],
       "folder": null,
@@ -446,15 +444,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vZf5WztaEbidqIoM",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.vZf5WztaEbidqIoM",
+      "_id": "E0ZLFLnbxMmwBLBK",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.E0ZLFLnbxMmwBLBK",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Arcane Spellcasting",
+      "name": "Damage Immunity",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -482,7 +480,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The lich casts spells as a Magic-user of the same level as its hit dice.</p>"
+        "description": "<p>Mummies cannot be hit by normal weapons; even magical weapons inflict only half damage against them.</p>"
       },
       "effects": [],
       "folder": null,
@@ -491,15 +489,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9urqxSLETKL1CT0J",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9urqxSLETKL1CT0J",
+      "_id": "MiiMOaf2rtBWcMhB",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.MiiMOaf2rtBWcMhB",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Paralyzing Touch",
+      "name": "Rotting Disease",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -527,7 +525,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>A lich's touch causes paralysis with no saving throw.</p>"
+        "description": "<p>The mummy's touch inflicts a rotting disease which prevents magical healing and causes wounds to heal at one-tenth of the normal rate. A Cure Disease spell can increase healing rate to half normal, but a Remove Curse spell is required to completely lift the mummy's curse.</p>"
       },
       "effects": [],
       "folder": null,
@@ -536,53 +534,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "DnNlAFTsgTXVxUTB",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DnNlAFTsgTXVxUTB",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Fearful Appearance",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The very sight of a lich causes paralysis in any being of 4 HD or below.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DvFNkboP4sStD3qW",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DvFNkboP4sStD3qW",
+      "_id": "PfMYvBDuTYVhZAdP",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.PfMYvBDuTYVhZAdP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -617,7 +570,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>As undead, liches are immune to sleep and charm spells.</p>"
+        "description": "<p>As undead, mummies are immune to sleep and charm spells.</p>"
       },
       "effects": [],
       "folder": null,
@@ -626,8 +579,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xxCSM3Nj3xuGuvFc",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.xxCSM3Nj3xuGuvFc",
+      "_id": "uWKXAjKJ0oJHpyID",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.uWKXAjKJ0oJHpyID",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,7 +598,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "2",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -671,8 +624,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "NulnQ4XyYSXfst9i",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.NulnQ4XyYSXfst9i",
+      "_id": "6Qfwdd3Meuw58NIP",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.6Qfwdd3Meuw58NIP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,7 +643,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -716,8 +669,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "JExP7EdXQftAW2w4",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.JExP7EdXQftAW2w4",
+      "_id": "c7peWeYcnxINmrRX",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.c7peWeYcnxINmrRX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -735,7 +688,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -761,8 +714,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9z18rWhJ43pgdSQF",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9z18rWhJ43pgdSQF",
+      "_id": "gJkitwiXVFDCGbxH",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.gJkitwiXVFDCGbxH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -780,7 +733,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -806,8 +759,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g2hQZJXSWIcWd9eQ",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.g2hQZJXSWIcWd9eQ",
+      "_id": "el4Z9fh4pvJyUj2a",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.el4Z9fh4pvJyUj2a",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -825,7 +778,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -851,8 +804,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QJcvUEZrfcvNWDyp",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.QJcvUEZrfcvNWDyp",
+      "_id": "5GNU2UBSNQRFose5",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.5GNU2UBSNQRFose5",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -870,7 +823,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -896,8 +849,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W2nJS3WWMeclwfEI",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.W2nJS3WWMeclwfEI",
+      "_id": "WnUxPkB0KA6emUJy",
+      "_originalKey": "!actors.items!Vhn9dyoM8HK5l4zY.WnUxPkB0KA6emUJy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

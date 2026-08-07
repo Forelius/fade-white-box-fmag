@@ -1,27 +1,27 @@
 {
-  "name": "Lich (17 HD)",
+  "name": "Manticore",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "M",
-      "morale": 10,
-      "xpAward": 4400,
+      "size": "L",
+      "morale": 9,
+      "xpAward": 800,
       "attacks": "1",
-      "abilityCount": 4,
-      "monsterType": "Undead",
+      "abilityCount": 1,
+      "monsterType": "Monster",
       "saveAs": "",
-      "castAs": "M12",
+      "castAs": "",
       "classAbilityAs": "",
       "level": 1,
       "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "17",
-      "value": 77,
-      "max": 77
+      "hd": "6+4",
+      "value": 27,
+      "max": 27
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 2,
+      "value": 13,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
+    "biography": "<p>A horrid monster with bat wings, the face of a feral human, the body of a lion, and a tail tipped with 24 iron spikes. The manticore can hurl up to 6 of the iron spikes from its tail per round, at a maximum range of 180 feet.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -51,27 +51,27 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 6,
+      "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
     "gm": {
       "notes": ""
     },
     "ac": {
-      "naked": 0,
-      "nakedAAC": 19,
-      "value": 0,
-      "total": 0,
-      "totalAAC": 19,
+      "naked": 4,
+      "nakedAAC": 15,
+      "value": 4,
+      "total": 4,
+      "totalAAC": 15,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 0,
-      "nakedRangedAAC": 19,
-      "totalRanged": 0,
-      "totalRangedAAC": 19,
+      "nakedRanged": 4,
+      "nakedRangedAAC": 15,
+      "totalRanged": 4,
+      "totalRangedAAC": 15,
       "av": "0"
     },
-    "thbonus": 17,
+    "thbonus": 6,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": true,
+    "isEnchanted": false,
     "abilities": {
       "int": {
         "value": 10,
@@ -164,24 +164,20 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 80,
+      "round": 27,
+      "day": 16,
+      "run": 80,
+      "max": 80
     },
-    "actorGroups": [
-      "spellcasters",
-      "undead",
-      "enchanted"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Lich (17 HD)",
+    "name": "Manticore",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -277,21 +273,19 @@
     "movementAction": null
   },
   "items": [
-    "4PnIcU4pITtD3Bwr",
-    "vZf5WztaEbidqIoM",
-    "9urqxSLETKL1CT0J",
-    "DnNlAFTsgTXVxUTB",
-    "DvFNkboP4sStD3qW",
-    "xxCSM3Nj3xuGuvFc",
-    "NulnQ4XyYSXfst9i",
-    "JExP7EdXQftAW2w4",
-    "9z18rWhJ43pgdSQF",
-    "g2hQZJXSWIcWd9eQ",
-    "QJcvUEZrfcvNWDyp",
-    "W2nJS3WWMeclwfEI"
+    "nJFt8kPTmhAl1UJV",
+    "pyZeglKSgi8e8YSY",
+    "o5ssxeMsFMieTz65",
+    "d8Qq6meUuBeCCb2r",
+    "nNYFiiINxb0FrkqP",
+    "QgERNxH3UYCXqy1m",
+    "fJIxmzrGESpwacfT",
+    "M8uYUWYGIx94Hn0b",
+    "FCJC3U2flp1ecyCw",
+    "0V0TeXCgyOU4bL4N"
   ],
   "effects": [],
-  "folder": "lrJXwwOZS3Yi3C1C",
+  "folder": "rMSHvZcsLsOsw0Vi",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -302,16 +296,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "t83z3NaRU1CX3tRO",
-  "_originalKey": "!actors!t83z3NaRU1CX3tRO",
+  "_id": "Pjc19DhEGaef4J4r",
+  "_originalKey": "!actors!Pjc19DhEGaef4J4r",
   "embedded": [
     {
-      "name": "Touch",
+      "name": "Bite",
       "type": "weapon",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "description": "<p>The manticore bites, dealing 1d6+1 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -322,7 +316,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d10",
+        "damageRoll": "1d6+1",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -351,8 +345,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Touch",
-        "unidentifiedDesc": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The manticore bites, dealing 1d6+1 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -372,7 +366,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d10"
+        "damageLabel": "1d6+1"
       },
       "effects": [],
       "folder": null,
@@ -381,20 +375,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4PnIcU4pITtD3Bwr",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.4PnIcU4pITtD3Bwr",
+      "_id": "nJFt8kPTmhAl1UJV",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.nJFt8kPTmhAl1UJV",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Natural Protection",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Tail Spike",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/stinger-spine-horn-blood.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "description": "<p>The manticore hurls up to 6 iron spikes from its tail per round, at a maximum range of 180 feet, each dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -405,7 +399,90 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 0,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": 60,
+          "medium": 120,
+          "long": 180
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Tail Spike",
+        "unidentifiedDesc": "<p>The manticore hurls up to 6 iron spikes from its tail per round, at a maximum range of 180 feet, each dealing 1d6 points of damage.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "null",
+        "grip": "null",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 1,
+          "max": 6,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "pyZeglKSgi8e8YSY",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.pyZeglKSgi8e8YSY",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Manticore Hide",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The manticore's tough hide turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 4,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -414,14 +491,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 0,
-        "totalAAC": 19,
+        "totalAC": 4,
+        "totalAAC": 15,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Natural Protection",
-        "unidentifiedDesc": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "unidentifiedName": "Manticore Hide",
+        "unidentifiedDesc": "<p>The manticore's tough hide turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -436,8 +513,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 0,
-        "totalRangedAAC": 19
+        "totalRangedAC": 4,
+        "totalRangedAAC": 15
       },
       "effects": [],
       "folder": null,
@@ -446,15 +523,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vZf5WztaEbidqIoM",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.vZf5WztaEbidqIoM",
+      "_id": "o5ssxeMsFMieTz65",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.o5ssxeMsFMieTz65",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Arcane Spellcasting",
+      "name": "Flight",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -482,7 +559,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The lich casts spells as a Magic-user of the same level as its hit dice.</p>"
+        "description": "<p>The manticore flies at a speed of 8.</p>"
       },
       "effects": [],
       "folder": null,
@@ -491,143 +568,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9urqxSLETKL1CT0J",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9urqxSLETKL1CT0J",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Paralyzing Touch",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>A lich's touch causes paralysis with no saving throw.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DnNlAFTsgTXVxUTB",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DnNlAFTsgTXVxUTB",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Fearful Appearance",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The very sight of a lich causes paralysis in any being of 4 HD or below.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DvFNkboP4sStD3qW",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DvFNkboP4sStD3qW",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Undead Immunities",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>As undead, liches are immune to sleep and charm spells.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "xxCSM3Nj3xuGuvFc",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.xxCSM3Nj3xuGuvFc",
+      "_id": "d8Qq6meUuBeCCb2r",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.d8Qq6meUuBeCCb2r",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,7 +587,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "2",
+        "target": "13",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -671,8 +613,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "NulnQ4XyYSXfst9i",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.NulnQ4XyYSXfst9i",
+      "_id": "nNYFiiINxb0FrkqP",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.nNYFiiINxb0FrkqP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,7 +632,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -716,8 +658,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "JExP7EdXQftAW2w4",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.JExP7EdXQftAW2w4",
+      "_id": "QgERNxH3UYCXqy1m",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.QgERNxH3UYCXqy1m",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -735,7 +677,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -761,8 +703,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9z18rWhJ43pgdSQF",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9z18rWhJ43pgdSQF",
+      "_id": "fJIxmzrGESpwacfT",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.fJIxmzrGESpwacfT",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -780,7 +722,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -806,8 +748,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g2hQZJXSWIcWd9eQ",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.g2hQZJXSWIcWd9eQ",
+      "_id": "M8uYUWYGIx94Hn0b",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.M8uYUWYGIx94Hn0b",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -825,7 +767,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -851,8 +793,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QJcvUEZrfcvNWDyp",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.QJcvUEZrfcvNWDyp",
+      "_id": "FCJC3U2flp1ecyCw",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.FCJC3U2flp1ecyCw",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -870,7 +812,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -896,8 +838,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W2nJS3WWMeclwfEI",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.W2nJS3WWMeclwfEI",
+      "_id": "0V0TeXCgyOU4bL4N",
+      "_originalKey": "!actors.items!Pjc19DhEGaef4J4r.0V0TeXCgyOU4bL4N",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

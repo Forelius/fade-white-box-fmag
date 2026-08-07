@@ -1,27 +1,27 @@
 {
-  "name": "Lich (17 HD)",
+  "name": "Treant (10 HD)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "M",
+      "alignment": "Neutral",
+      "size": "L",
       "morale": 10,
-      "xpAward": 4400,
+      "xpAward": 1400,
       "attacks": "1",
-      "abilityCount": 4,
-      "monsterType": "Undead",
+      "abilityCount": 1,
+      "monsterType": "Monster",
       "saveAs": "",
-      "castAs": "M12",
+      "castAs": "",
       "classAbilityAs": "",
       "level": 1,
       "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "17",
-      "value": 77,
-      "max": 77
+      "hd": "10",
+      "value": 45,
+      "max": 45
     },
     "na": {
       "wandering": "1",
@@ -29,7 +29,7 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 2,
+      "value": 9,
       "mod": {
         "missile": 0,
         "melee": 0
@@ -42,7 +42,7 @@
       "run": 60,
       "max": 60
     },
-    "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
+    "biography": "<p>Treants are tree-like protectors and \"shepherds\" of forest trees. Depending upon their size, they have different hit dice and damage; treants of 7 to 8 hit dice inflict 2d6 points of damage with each strike of their branch-like hands, treants of 9-10 hit dice inflict 3d6 points, and treants of 11-12 hit dice inflict 4d6 points. All treants can \"wake\" trees within 60 feet, allowing them to walk at a rate of 3, and possibly to attack (no more than two trees at a time can be awake at the behest of a single treant).</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -51,27 +51,27 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 6,
+      "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
     "gm": {
       "notes": ""
     },
     "ac": {
-      "naked": 0,
-      "nakedAAC": 19,
-      "value": 0,
-      "total": 0,
-      "totalAAC": 19,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 0,
-      "nakedRangedAAC": 19,
-      "totalRanged": 0,
-      "totalRangedAAC": 19,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 17,
+    "thbonus": 10,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": true,
+    "isEnchanted": false,
     "abilities": {
       "int": {
         "value": 10,
@@ -170,18 +170,14 @@
       "day": 0,
       "run": 0
     },
-    "actorGroups": [
-      "spellcasters",
-      "undead",
-      "enchanted"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Lich (17 HD)",
+    "name": "Treant (10 HD)",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -277,21 +273,18 @@
     "movementAction": null
   },
   "items": [
-    "4PnIcU4pITtD3Bwr",
-    "vZf5WztaEbidqIoM",
-    "9urqxSLETKL1CT0J",
-    "DnNlAFTsgTXVxUTB",
-    "DvFNkboP4sStD3qW",
-    "xxCSM3Nj3xuGuvFc",
-    "NulnQ4XyYSXfst9i",
-    "JExP7EdXQftAW2w4",
-    "9z18rWhJ43pgdSQF",
-    "g2hQZJXSWIcWd9eQ",
-    "QJcvUEZrfcvNWDyp",
-    "W2nJS3WWMeclwfEI"
+    "WxepsMN8B0RSSpKP",
+    "yf63E4aYHfg6JvtZ",
+    "awEelDeYmY8lNYqX",
+    "J4X5PT2dB9wEHRDX",
+    "yBlzDDmIR4fd4Chx",
+    "lFZq1QGAndTviQhg",
+    "zKm2xwDbjmFUgpMT",
+    "Yn3PmOVP2RFvjynA",
+    "KKvx1lDCLf12wOqg"
   ],
   "effects": [],
-  "folder": "lrJXwwOZS3Yi3C1C",
+  "folder": "Q0L4xiN07muXb1xA",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -302,16 +295,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "t83z3NaRU1CX3tRO",
-  "_originalKey": "!actors!t83z3NaRU1CX3tRO",
+  "_id": "PVw08ZOqmgXWGjWW",
+  "_originalKey": "!actors!PVw08ZOqmgXWGjWW",
   "embedded": [
     {
-      "name": "Touch",
+      "name": "Branch Strike",
       "type": "weapon",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/magic/nature/root-vine-hand-strike.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "description": "<p>The treant strikes with its branch-like hands, dealing 3d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -322,7 +315,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d10",
+        "damageRoll": "3d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -351,8 +344,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Touch",
-        "unidentifiedDesc": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "unidentifiedName": "Branch Strike",
+        "unidentifiedDesc": "<p>The treant strikes with its branch-like hands, dealing 3d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -372,7 +365,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d10"
+        "damageLabel": "3d6"
       },
       "effects": [],
       "folder": null,
@@ -381,20 +374,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4PnIcU4pITtD3Bwr",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.4PnIcU4pITtD3Bwr",
+      "_id": "WxepsMN8B0RSSpKP",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.WxepsMN8B0RSSpKP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Natural Protection",
+      "name": "Tree Bark",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "description": "<p>The treant's bark-like hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -405,7 +398,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 0,
+        "ac": 2,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -414,14 +407,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 0,
-        "totalAAC": 19,
+        "totalAC": 2,
+        "totalAAC": 17,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Natural Protection",
-        "unidentifiedDesc": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "unidentifiedName": "Tree Bark",
+        "unidentifiedDesc": "<p>The treant's bark-like hide turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -436,8 +429,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 0,
-        "totalRangedAAC": 19
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
       },
       "effects": [],
       "folder": null,
@@ -446,15 +439,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vZf5WztaEbidqIoM",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.vZf5WztaEbidqIoM",
+      "_id": "yf63E4aYHfg6JvtZ",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.yf63E4aYHfg6JvtZ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Arcane Spellcasting",
+      "name": "Control Trees",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -482,7 +475,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The lich casts spells as a Magic-user of the same level as its hit dice.</p>"
+        "description": "<p>All treants can \"wake\" trees within 60 feet, allowing them to walk at a rate of 3, and possibly to attack (no more than two trees at a time can be awake at the behest of a single treant).</p>"
       },
       "effects": [],
       "folder": null,
@@ -491,143 +484,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9urqxSLETKL1CT0J",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9urqxSLETKL1CT0J",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Paralyzing Touch",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>A lich's touch causes paralysis with no saving throw.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DnNlAFTsgTXVxUTB",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DnNlAFTsgTXVxUTB",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Fearful Appearance",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The very sight of a lich causes paralysis in any being of 4 HD or below.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DvFNkboP4sStD3qW",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DvFNkboP4sStD3qW",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Undead Immunities",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>As undead, liches are immune to sleep and charm spells.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "xxCSM3Nj3xuGuvFc",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.xxCSM3Nj3xuGuvFc",
+      "_id": "awEelDeYmY8lNYqX",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.awEelDeYmY8lNYqX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,7 +503,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "2",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -671,8 +529,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "NulnQ4XyYSXfst9i",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.NulnQ4XyYSXfst9i",
+      "_id": "J4X5PT2dB9wEHRDX",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.J4X5PT2dB9wEHRDX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -716,8 +574,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "JExP7EdXQftAW2w4",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.JExP7EdXQftAW2w4",
+      "_id": "yBlzDDmIR4fd4Chx",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.yBlzDDmIR4fd4Chx",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -761,8 +619,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9z18rWhJ43pgdSQF",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9z18rWhJ43pgdSQF",
+      "_id": "lFZq1QGAndTviQhg",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.lFZq1QGAndTviQhg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -806,8 +664,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g2hQZJXSWIcWd9eQ",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.g2hQZJXSWIcWd9eQ",
+      "_id": "zKm2xwDbjmFUgpMT",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.zKm2xwDbjmFUgpMT",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -851,8 +709,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QJcvUEZrfcvNWDyp",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.QJcvUEZrfcvNWDyp",
+      "_id": "Yn3PmOVP2RFvjynA",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.Yn3PmOVP2RFvjynA",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -896,8 +754,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W2nJS3WWMeclwfEI",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.W2nJS3WWMeclwfEI",
+      "_id": "KKvx1lDCLf12wOqg",
+      "_originalKey": "!actors.items!PVw08ZOqmgXWGjWW.KKvx1lDCLf12wOqg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

@@ -1,27 +1,27 @@
 {
-  "name": "Lich (17 HD)",
+  "name": "Salamander",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "M",
+      "size": "L",
       "morale": 10,
-      "xpAward": 4400,
+      "xpAward": 800,
       "attacks": "1",
-      "abilityCount": 4,
-      "monsterType": "Undead",
+      "abilityCount": 2,
+      "monsterType": "Planar Monster",
       "saveAs": "",
-      "castAs": "M12",
+      "castAs": "",
       "classAbilityAs": "",
       "level": 1,
       "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "17",
-      "value": 77,
-      "max": 77
+      "hd": "7",
+      "value": 32,
+      "max": 32
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 2,
+      "value": 12,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
     },
-    "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
+    "biography": "<p>Salamanders are intelligent creatures of the elemental planes of fire. They have the upper body of a human (AC 5 [14]) and the lower body of a snake (AC 3 [16]), and give off tremendous, intense heat. The very touch of a salamander deals 1d6 hit points of fire damage, and they wrap their tails around foes to cause an additional 2d6 points of crushing damage per round. Salamanders cannot be enslaved in the same manner djinn and efreet might be.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -51,27 +51,27 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 6,
+      "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
     "gm": {
       "notes": ""
     },
     "ac": {
-      "naked": 0,
-      "nakedAAC": 19,
-      "value": 0,
-      "total": 0,
-      "totalAAC": 19,
+      "naked": 5,
+      "nakedAAC": 14,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 0,
-      "nakedRangedAAC": 19,
-      "totalRanged": 0,
-      "totalRangedAAC": 19,
+      "nakedRanged": 5,
+      "nakedRangedAAC": 14,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 17,
+    "thbonus": 7,
     "initiative": {
       "value": 0
     },
@@ -124,8 +124,8 @@
     "isEnchanted": true,
     "abilities": {
       "int": {
-        "value": 10,
-        "total": 10,
+        "value": 12,
+        "total": 12,
         "mod": 0,
         "tempMod": 0
       },
@@ -171,17 +171,16 @@
       "run": 0
     },
     "actorGroups": [
-      "spellcasters",
-      "undead",
+      "planar",
       "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Lich (17 HD)",
+    "name": "Salamander",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -277,21 +276,20 @@
     "movementAction": null
   },
   "items": [
-    "4PnIcU4pITtD3Bwr",
-    "vZf5WztaEbidqIoM",
-    "9urqxSLETKL1CT0J",
-    "DnNlAFTsgTXVxUTB",
-    "DvFNkboP4sStD3qW",
-    "xxCSM3Nj3xuGuvFc",
-    "NulnQ4XyYSXfst9i",
-    "JExP7EdXQftAW2w4",
-    "9z18rWhJ43pgdSQF",
-    "g2hQZJXSWIcWd9eQ",
-    "QJcvUEZrfcvNWDyp",
-    "W2nJS3WWMeclwfEI"
+    "zhXsqfTjKBvHbadF",
+    "vJVu9ldm51UMaJzn",
+    "kdLARjvh04is7gie",
+    "7WM0fzAY1PX0BIFe",
+    "bJHiun4tMg8YTPti",
+    "r5yRJK8bWhp2h36G",
+    "JaFtDI2VeOje9Wom",
+    "8vPnJFgnFNWvRsZ1",
+    "W5n7VjZ9gzIDfiyk",
+    "qxXwwLEMmSpUfPwm",
+    "Dnvk3m0R8Y0qaz4Z"
   ],
   "effects": [],
-  "folder": "lrJXwwOZS3Yi3C1C",
+  "folder": "rMSHvZcsLsOsw0Vi",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -302,16 +300,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "t83z3NaRU1CX3tRO",
-  "_originalKey": "!actors!t83z3NaRU1CX3tRO",
+  "_id": "4iiQJGRl2L73zXfm",
+  "_originalKey": "!actors!4iiQJGRl2L73zXfm",
   "embedded": [
     {
       "name": "Touch",
       "type": "weapon",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/magic/fire/beam-waves-orange.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "description": "<p>The salamander's touch deals 1d6 points of fire damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -322,8 +320,8 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d10",
-        "damageType": "physical",
+        "damageRoll": "1d6",
+        "damageType": "fire",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
@@ -352,7 +350,7 @@
         "shortName": "",
         "canSet": false,
         "unidentifiedName": "Touch",
-        "unidentifiedDesc": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "unidentifiedDesc": "<p>The salamander's touch deals 1d6 points of fire damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -372,7 +370,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d10"
+        "damageLabel": "1d6"
       },
       "effects": [],
       "folder": null,
@@ -381,20 +379,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4PnIcU4pITtD3Bwr",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.4PnIcU4pITtD3Bwr",
+      "_id": "zhXsqfTjKBvHbadF",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.zhXsqfTjKBvHbadF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Natural Protection",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "name": "Constrict",
+      "type": "weapon",
+      "img": "icons/creatures/tentacles/tentacles-suctioncups-pink.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "description": "<p>The salamander wraps its tail around a foe, causing 2d6 points of crushing damage per round.</p>",
         "gm": {
           "notes": ""
         },
@@ -405,7 +403,90 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 0,
+        "damageRoll": "2d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Constrict",
+        "unidentifiedDesc": "<p>The salamander wraps its tail around a foe, causing 2d6 points of crushing damage per round.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "null",
+        "grip": "null",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 1,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "2d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "vJVu9ldm51UMaJzn",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.vJVu9ldm51UMaJzn",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The salamander's scaly hide turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -414,14 +495,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 0,
-        "totalAAC": 19,
+        "totalAC": 5,
+        "totalAAC": 14,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Natural Protection",
-        "unidentifiedDesc": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "unidentifiedName": "Natural Armor",
+        "unidentifiedDesc": "<p>The salamander's scaly hide turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -436,8 +517,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 0,
-        "totalRangedAAC": 19
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
       },
       "effects": [],
       "folder": null,
@@ -446,15 +527,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vZf5WztaEbidqIoM",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.vZf5WztaEbidqIoM",
+      "_id": "kdLARjvh04is7gie",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.kdLARjvh04is7gie",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Arcane Spellcasting",
+      "name": "Heat",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -482,7 +563,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The lich casts spells as a Magic-user of the same level as its hit dice.</p>"
+        "description": "<p>Salamanders give off tremendous, intense heat. The very touch of a salamander deals 1d6 hit points of fire damage.</p>"
       },
       "effects": [],
       "folder": null,
@@ -491,15 +572,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9urqxSLETKL1CT0J",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9urqxSLETKL1CT0J",
+      "_id": "7WM0fzAY1PX0BIFe",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.7WM0fzAY1PX0BIFe",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Paralyzing Touch",
+      "name": "Cannot Be Enslaved",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -527,7 +608,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>A lich's touch causes paralysis with no saving throw.</p>"
+        "description": "<p>Salamanders cannot be enslaved in the same manner djinn and efreet might be.</p>"
       },
       "effects": [],
       "folder": null,
@@ -536,98 +617,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "DnNlAFTsgTXVxUTB",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DnNlAFTsgTXVxUTB",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Fearful Appearance",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The very sight of a lich causes paralysis in any being of 4 HD or below.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "DvFNkboP4sStD3qW",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DvFNkboP4sStD3qW",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Undead Immunities",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>As undead, liches are immune to sleep and charm spells.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "xxCSM3Nj3xuGuvFc",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.xxCSM3Nj3xuGuvFc",
+      "_id": "bJHiun4tMg8YTPti",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.bJHiun4tMg8YTPti",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,7 +636,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "2",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -671,8 +662,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "NulnQ4XyYSXfst9i",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.NulnQ4XyYSXfst9i",
+      "_id": "r5yRJK8bWhp2h36G",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.r5yRJK8bWhp2h36G",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,7 +681,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -716,8 +707,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "JExP7EdXQftAW2w4",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.JExP7EdXQftAW2w4",
+      "_id": "JaFtDI2VeOje9Wom",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.JaFtDI2VeOje9Wom",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -735,7 +726,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -761,8 +752,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9z18rWhJ43pgdSQF",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9z18rWhJ43pgdSQF",
+      "_id": "8vPnJFgnFNWvRsZ1",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.8vPnJFgnFNWvRsZ1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -780,7 +771,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -806,8 +797,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g2hQZJXSWIcWd9eQ",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.g2hQZJXSWIcWd9eQ",
+      "_id": "W5n7VjZ9gzIDfiyk",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.W5n7VjZ9gzIDfiyk",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -825,7 +816,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -851,8 +842,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QJcvUEZrfcvNWDyp",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.QJcvUEZrfcvNWDyp",
+      "_id": "qxXwwLEMmSpUfPwm",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.qxXwwLEMmSpUfPwm",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -870,7 +861,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -896,8 +887,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W2nJS3WWMeclwfEI",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.W2nJS3WWMeclwfEI",
+      "_id": "Dnvk3m0R8Y0qaz4Z",
+      "_originalKey": "!actors.items!4iiQJGRl2L73zXfm.Dnvk3m0R8Y0qaz4Z",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

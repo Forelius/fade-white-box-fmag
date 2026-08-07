@@ -1,27 +1,27 @@
 {
-  "name": "Lich (17 HD)",
+  "name": "Lycanthrope, Wererat",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
       "size": "M",
-      "morale": 10,
-      "xpAward": 4400,
+      "morale": 8,
+      "xpAward": 120,
       "attacks": "1",
-      "abilityCount": 4,
-      "monsterType": "Undead",
+      "abilityCount": 3,
+      "monsterType": "Monster",
       "saveAs": "",
-      "castAs": "M12",
+      "castAs": "",
       "classAbilityAs": "",
       "level": 1,
       "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "17",
-      "value": 77,
-      "max": 77
+      "hd": "3",
+      "value": 14,
+      "max": 14
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 2,
+      "value": 16,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
+    "biography": "<p>Wererats are mostly found in cities, lurking in shadowy alleyways. Wererats can control rats, and are extremely stealthy (surprising opponents 1-4 on a d6).</p><p>Lycanthropes are were-creatures, particularly those in whom the disease permits assumption of a hybrid form of the human and animal. They cannot be hit by normal weapons; only silver or magical weapons inflict damage on them. If any character is brought below 50% hit points by a lycanthrope, the character will become a lycanthrope himself.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -51,27 +51,27 @@
       "mv2": 0
     },
     "config": {
-      "maxSpellLevel": 6,
+      "maxSpellLevel": 0,
       "firstSpellLevel": 1
     },
     "gm": {
       "notes": ""
     },
     "ac": {
-      "naked": 0,
-      "nakedAAC": 19,
-      "value": 0,
-      "total": 0,
-      "totalAAC": 19,
+      "naked": 6,
+      "nakedAAC": 13,
+      "value": 6,
+      "total": 6,
+      "totalAAC": 13,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 0,
-      "nakedRangedAAC": 19,
-      "totalRanged": 0,
-      "totalRangedAAC": 19,
+      "nakedRanged": 6,
+      "nakedRangedAAC": 13,
+      "totalRanged": 6,
+      "totalRangedAAC": 13,
       "av": "0"
     },
-    "thbonus": 17,
+    "thbonus": 3,
     "initiative": {
       "value": 0
     },
@@ -171,13 +171,13 @@
       "run": 0
     },
     "actorGroups": [
-      "spellcasters",
-      "undead",
-      "enchanted"
+      "lycanthropes",
+      "enchanted",
+      "weapon-using"
     ]
   },
   "prototypeToken": {
-    "name": "Lich (17 HD)",
+    "name": "Lycanthrope, Wererat",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -277,21 +277,21 @@
     "movementAction": null
   },
   "items": [
-    "4PnIcU4pITtD3Bwr",
-    "vZf5WztaEbidqIoM",
-    "9urqxSLETKL1CT0J",
-    "DnNlAFTsgTXVxUTB",
-    "DvFNkboP4sStD3qW",
-    "xxCSM3Nj3xuGuvFc",
-    "NulnQ4XyYSXfst9i",
-    "JExP7EdXQftAW2w4",
-    "9z18rWhJ43pgdSQF",
-    "g2hQZJXSWIcWd9eQ",
-    "QJcvUEZrfcvNWDyp",
-    "W2nJS3WWMeclwfEI"
+    "T1lpKqvkaSPIuHT8",
+    "obaCgXBRBQPdW28B",
+    "wDikVP0zf1yIy7sN",
+    "JbTGgFyRVSAjKcSP",
+    "uoHxeTbszhmRJBYI",
+    "dnNqx8r4faWa43BE",
+    "gEBBbZRyTNlFI3FF",
+    "RFR9vLCTgRLBmyvQ",
+    "r3EZ0dlJu9lVztUk",
+    "PgZCcBwk2FLYH0qZ",
+    "059ShbwF7XXBIjbd",
+    "V1OzG0LUmUeuDlNS"
   ],
   "effects": [],
-  "folder": "lrJXwwOZS3Yi3C1C",
+  "folder": "rMSHvZcsLsOsw0Vi",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -302,16 +302,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "t83z3NaRU1CX3tRO",
-  "_originalKey": "!actors!t83z3NaRU1CX3tRO",
+  "_id": "HcuMeqUG5ZqETVlB",
+  "_originalKey": "!actors!HcuMeqUG5ZqETVlB",
   "embedded": [
     {
-      "name": "Touch",
+      "name": "Bite",
       "type": "weapon",
-      "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "description": "<p>The wererat bites, dealing 1d4 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -322,7 +322,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d10",
+        "damageRoll": "1d4",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -351,8 +351,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Touch",
-        "unidentifiedDesc": "<p>The lich's touch deals 1d10 points of damage and causes paralysis with no saving throw.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The wererat bites, dealing 1d4 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -372,7 +372,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d10"
+        "damageLabel": "1d4"
       },
       "effects": [],
       "folder": null,
@@ -381,20 +381,103 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4PnIcU4pITtD3Bwr",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.4PnIcU4pITtD3Bwr",
+      "_id": "T1lpKqvkaSPIuHT8",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.T1lpKqvkaSPIuHT8",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Natural Protection",
+      "name": "Short Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>The wererat slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 25,
+        "cost": 7,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Sword, Short",
+        "weaponType": "handheld",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Short Sword",
+        "unidentifiedDesc": "<p>The wererat slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "M",
+        "grip": "1H",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 0,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "obaCgXBRBQPdW28B",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.obaCgXBRBQPdW28B",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Natural Form Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "description": "<p>The wererat's wiry, rat-like hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -405,7 +488,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 0,
+        "ac": 6,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -414,14 +497,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 0,
-        "totalAAC": 19,
+        "totalAC": 6,
+        "totalAAC": 13,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Natural Protection",
-        "unidentifiedDesc": "<p>The lich's unnatural, undead form turns aside blows.</p>",
+        "unidentifiedName": "Natural Form Armor",
+        "unidentifiedDesc": "<p>The wererat's wiry, rat-like hide turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -436,8 +519,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 0,
-        "totalRangedAAC": 19
+        "totalRangedAC": 6,
+        "totalRangedAAC": 13
       },
       "effects": [],
       "folder": null,
@@ -446,15 +529,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vZf5WztaEbidqIoM",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.vZf5WztaEbidqIoM",
+      "_id": "wDikVP0zf1yIy7sN",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.wDikVP0zf1yIy7sN",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Arcane Spellcasting",
+      "name": "Control Rats",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -482,7 +565,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The lich casts spells as a Magic-user of the same level as its hit dice.</p>"
+        "description": "<p>Wererats can control rats.</p>"
       },
       "effects": [],
       "folder": null,
@@ -491,15 +574,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9urqxSLETKL1CT0J",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9urqxSLETKL1CT0J",
+      "_id": "JbTGgFyRVSAjKcSP",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.JbTGgFyRVSAjKcSP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Paralyzing Touch",
+      "name": "Stealth",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -527,7 +610,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>A lich's touch causes paralysis with no saving throw.</p>"
+        "description": "<p>Wererats are extremely stealthy, surprising opponents 1-4 on a d6.</p>"
       },
       "effects": [],
       "folder": null,
@@ -536,15 +619,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "DnNlAFTsgTXVxUTB",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DnNlAFTsgTXVxUTB",
+      "_id": "uoHxeTbszhmRJBYI",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.uoHxeTbszhmRJBYI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Fearful Appearance",
+      "name": "Lycanthropy",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -572,7 +655,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The very sight of a lich causes paralysis in any being of 4 HD or below.</p>"
+        "description": "<p>Lycanthropes are were-creatures, particularly those in whom the disease permits assumption of a hybrid form of the human and animal. They cannot be hit by normal weapons; only silver or magical weapons inflict damage on them. If any character is brought below 50% hit points by a lycanthrope, the character will become a lycanthrope himself.</p>"
       },
       "effects": [],
       "folder": null,
@@ -581,53 +664,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "DvFNkboP4sStD3qW",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.DvFNkboP4sStD3qW",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Undead Immunities",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>As undead, liches are immune to sleep and charm spells.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "xxCSM3Nj3xuGuvFc",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.xxCSM3Nj3xuGuvFc",
+      "_id": "dnNqx8r4faWa43BE",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.dnNqx8r4faWa43BE",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,7 +683,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "2",
+        "target": "16",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -671,8 +709,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "NulnQ4XyYSXfst9i",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.NulnQ4XyYSXfst9i",
+      "_id": "gEBBbZRyTNlFI3FF",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.gEBBbZRyTNlFI3FF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,7 +728,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -716,8 +754,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "JExP7EdXQftAW2w4",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.JExP7EdXQftAW2w4",
+      "_id": "RFR9vLCTgRLBmyvQ",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.RFR9vLCTgRLBmyvQ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -735,7 +773,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -761,8 +799,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9z18rWhJ43pgdSQF",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.9z18rWhJ43pgdSQF",
+      "_id": "r3EZ0dlJu9lVztUk",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.r3EZ0dlJu9lVztUk",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -780,7 +818,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -806,8 +844,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g2hQZJXSWIcWd9eQ",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.g2hQZJXSWIcWd9eQ",
+      "_id": "PgZCcBwk2FLYH0qZ",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.PgZCcBwk2FLYH0qZ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -825,7 +863,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "15",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -851,8 +889,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QJcvUEZrfcvNWDyp",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.QJcvUEZrfcvNWDyp",
+      "_id": "059ShbwF7XXBIjbd",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.059ShbwF7XXBIjbd",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -870,7 +908,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -896,8 +934,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "W2nJS3WWMeclwfEI",
-      "_originalKey": "!actors.items!t83z3NaRU1CX3tRO.W2nJS3WWMeclwfEI",
+      "_id": "V1OzG0LUmUeuDlNS",
+      "_originalKey": "!actors.items!HcuMeqUG5ZqETVlB.V1OzG0LUmUeuDlNS",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
