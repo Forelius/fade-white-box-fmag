@@ -276,14 +276,15 @@
     "movementAction": null
   },
   "items": [
-    "RgmRY5J6BuVylmlM",
-    "TGaEEFHmOtrxUiVw",
-    "2D580gvVwqBhAZzU",
-    "4UA4Zxp5XCmg7Adx",
-    "bQtMZSy7y1QHm185",
-    "6h7pUHJ0Kq9Icvz3",
-    "T2zY0filUWldNpzi",
-    "9knY6y1HsmB75Z2I"
+    "2R5VC79XiLgMQxgN",
+    "hwNdhMqCFBIORmeD",
+    "brn4NQQduLRQmjYT",
+    "GEqMOln0XrOYWyko",
+    "M1Teel5wZR1QOOvW",
+    "tl20v74EU9OtyJx3",
+    "79JVVi65SYb6BhCy",
+    "IgXHFfKCuAPOx2O9",
+    "kMgY3aiYoqJhU2z1"
   ],
   "effects": [],
   "folder": "s12CYfXylYPtD2cR",
@@ -297,8 +298,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "NWUFY70nFV9fwHE7",
-  "_originalKey": "!actors!NWUFY70nFV9fwHE7",
+  "_id": "eEe5Z0P8kIee6PKz",
+  "_originalKey": "!actors!eEe5Z0P8kIee6PKz",
   "embedded": [
     {
       "name": "Claw",
@@ -376,8 +377,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "RgmRY5J6BuVylmlM",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.RgmRY5J6BuVylmlM",
+      "_id": "2R5VC79XiLgMQxgN",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.2R5VC79XiLgMQxgN",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Mud-like Flesh",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The lemure's mud-like flesh is soft and shifting, turning aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 7,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 7,
+        "totalAAC": 12,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Mud-like Flesh",
+        "unidentifiedDesc": "<p>The lemure's mud-like flesh is soft and shifting, turning aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 7,
+        "totalRangedAAC": 12
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "hwNdhMqCFBIORmeD",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.hwNdhMqCFBIORmeD",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -421,8 +487,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "TGaEEFHmOtrxUiVw",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.TGaEEFHmOtrxUiVw",
+      "_id": "brn4NQQduLRQmjYT",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.brn4NQQduLRQmjYT",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -466,8 +532,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "2D580gvVwqBhAZzU",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.2D580gvVwqBhAZzU",
+      "_id": "GEqMOln0XrOYWyko",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.GEqMOln0XrOYWyko",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -511,8 +577,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4UA4Zxp5XCmg7Adx",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.4UA4Zxp5XCmg7Adx",
+      "_id": "M1Teel5wZR1QOOvW",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.M1Teel5wZR1QOOvW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -556,8 +622,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "bQtMZSy7y1QHm185",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.bQtMZSy7y1QHm185",
+      "_id": "tl20v74EU9OtyJx3",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.tl20v74EU9OtyJx3",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -601,8 +667,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "6h7pUHJ0Kq9Icvz3",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.6h7pUHJ0Kq9Icvz3",
+      "_id": "79JVVi65SYb6BhCy",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.79JVVi65SYb6BhCy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -646,8 +712,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "T2zY0filUWldNpzi",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.T2zY0filUWldNpzi",
+      "_id": "IgXHFfKCuAPOx2O9",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.IgXHFfKCuAPOx2O9",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -691,8 +757,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9knY6y1HsmB75Z2I",
-      "_originalKey": "!actors.items!NWUFY70nFV9fwHE7.9knY6y1HsmB75Z2I",
+      "_id": "kMgY3aiYoqJhU2z1",
+      "_originalKey": "!actors.items!eEe5Z0P8kIee6PKz.kMgY3aiYoqJhU2z1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

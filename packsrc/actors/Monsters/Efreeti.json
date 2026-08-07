@@ -1,16 +1,16 @@
 {
-  "name": "Dragon, Green (Adult)",
+  "name": "Efreeti",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
       "size": "L",
-      "morale": 9,
-      "xpAward": 1400,
+      "morale": 12,
+      "xpAward": 2000,
       "attacks": "1",
-      "abilityCount": 2,
-      "monsterType": "Dragon",
+      "abilityCount": 3,
+      "monsterType": "Planar Monster",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
@@ -19,9 +19,9 @@
       "weight": ""
     },
     "hp": {
-      "hd": "8",
-      "value": 32,
-      "max": 32
+      "hd": "10",
+      "value": 45,
+      "max": 45
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 11,
+      "value": 9,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
     },
-    "biography": "<p>Green dragons breathe a cloud of poisonous gas 50 feet in diameter. A successful saving throw indicates half damage.</p>",
+    "biography": "<p>Efreet are a type of genie, associated with fire (unlike the djinn, who have powers over the air). Efreet can carry up to a thousand pounds of weight, and under the right circumstances they can be forced to serve as a slave (until they figure out how to free themselves). An efreeti can cast Wall of Fire. They appear as giant humans with cruel features, their skin flickering with flames.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 2,
-      "nakedAAC": 17,
-      "value": 2,
-      "total": 2,
-      "totalAAC": 17,
+      "naked": 3,
+      "nakedAAC": 16,
+      "value": 3,
+      "total": 3,
+      "totalAAC": 16,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 2,
-      "nakedRangedAAC": 17,
-      "totalRanged": 2,
-      "totalRangedAAC": 17,
+      "nakedRanged": 3,
+      "nakedRangedAAC": 16,
+      "totalRanged": 3,
+      "totalRangedAAC": 16,
       "av": "0"
     },
-    "thbonus": 8,
+    "thbonus": 10,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
         "value": 10,
@@ -171,12 +171,12 @@
       "max": 240
     },
     "actorGroups": [
-      "dragonkind",
-      "reptiles-dinosaurs"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Dragon, Green (Adult)",
+    "name": "Efreeti",
     "displayName": 20,
     "actorLink": false,
     "width": 2,
@@ -276,19 +276,20 @@
     "movementAction": null
   },
   "items": [
-    "N65213X11GOgntwX",
-    "tz6VjFnOocZkhOLk",
-    "RtqIbWvasW2xd5El",
-    "WOlMOeR0WJaxZedF",
-    "SnWTzgKm15fJbGsr",
-    "78MrJrwyDTYTbu0D",
-    "PkjSPxmAZgd68KCw",
-    "g545pYLE28LNv9Ib",
-    "54hFJ9JHtkQiv117",
-    "4KY7THAi6Nivw2fC"
+    "rGEgOmbmU31I8G3O",
+    "ONJpa5mDtUK7iAEH",
+    "F9wjGo0BEfX0utaS",
+    "l6yMAie8lWrq8IBG",
+    "0ePg0pI3twZaDOOd",
+    "pwC37e5c8q2kLZSC",
+    "HMEj0Y8qf6gytPHc",
+    "5ltxz164a6QTg51O",
+    "FrNMMc4Vx1JQNAWN",
+    "r9F9ePn1WesWPBrP",
+    "J9WQusQEg1IEgNYf"
   ],
   "effects": [],
-  "folder": "LTBtP8LKcKS9AJLF",
+  "folder": "rMSHvZcsLsOsw0Vi",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -299,16 +300,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "V6qwH9wBgHVTk54g",
-  "_originalKey": "!actors!V6qwH9wBgHVTk54g",
+  "_id": "J9sjL3ycIhRgGyNw",
+  "_originalKey": "!actors!J9sjL3ycIhRgGyNw",
   "embedded": [
     {
-      "name": "Bite",
+      "name": "Fist",
       "type": "weapon",
-      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
       "system": {
         "tags": [],
-        "description": "<p>The dragon bites, dealing 2d6 points of damage.</p>",
+        "description": "<p>The efreeti strikes with its fist or a sword, dealing 2d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -348,8 +349,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Bite",
-        "unidentifiedDesc": "<p>The dragon bites, dealing 2d6 points of damage.</p>",
+        "unidentifiedName": "Fist",
+        "unidentifiedDesc": "<p>The efreeti strikes with its fist or a sword, dealing 2d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -378,103 +379,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "N65213X11GOgntwX",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.N65213X11GOgntwX",
+      "_id": "rGEgOmbmU31I8G3O",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.rGEgOmbmU31I8G3O",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Gas Breath",
-      "type": "weapon",
-      "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
-      "system": {
-        "tags": [],
-        "description": "<p>The green dragon breathes a cloud of poisonous gas 50 feet in diameter, dealing 32 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 3,
-        "quantityMax": 3,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "32",
-        "damageType": "breath",
-        "breath": "gas",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "breath",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": 50,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Gas Breath",
-        "unidentifiedDesc": "<p>The green dragon breathes a cloud of poisonous gas 50 feet in diameter, dealing 32 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 1,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "32"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "tz6VjFnOocZkhOLk",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.tz6VjFnOocZkhOLk",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Dragon Scales",
+      "name": "Flame-Wreathed Body",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The dragon's thick scales turn aside blows.</p>",
+        "description": "<p>The efreeti's flame-wreathed body turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -485,7 +403,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 2,
+        "ac": 3,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -494,14 +412,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 2,
-        "totalAAC": 17,
+        "totalAC": 3,
+        "totalAAC": 16,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Dragon Scales",
-        "unidentifiedDesc": "<p>The dragon's thick scales turn aside blows.</p>",
+        "unidentifiedName": "Flame-Wreathed Body",
+        "unidentifiedDesc": "<p>The efreeti's flame-wreathed body turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -516,8 +434,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 2,
-        "totalRangedAAC": 17
+        "totalRangedAC": 3,
+        "totalRangedAAC": 16
       },
       "effects": [],
       "folder": null,
@@ -526,8 +444,98 @@
         "default": 0
       },
       "flags": {},
-      "_id": "RtqIbWvasW2xd5El",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.RtqIbWvasW2xd5El",
+      "_id": "ONJpa5mDtUK7iAEH",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.ONJpa5mDtUK7iAEH",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Wall of Fire",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The efreeti can cast Wall of Fire as a native magical power.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "F9wjGo0BEfX0utaS",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.F9wjGo0BEfX0utaS",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Carry 1,000 Pounds",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>An efreeti can carry up to 1,000 pounds of weight.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "l6yMAie8lWrq8IBG",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.l6yMAie8lWrq8IBG",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -562,7 +570,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>The dragon can fly at a speed of 24.</p>"
+        "description": "<p>The efreeti can fly at a speed of 24.</p>"
       },
       "effects": [],
       "folder": null,
@@ -571,8 +579,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "WOlMOeR0WJaxZedF",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.WOlMOeR0WJaxZedF",
+      "_id": "0ePg0pI3twZaDOOd",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.0ePg0pI3twZaDOOd",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -590,7 +598,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -616,8 +624,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "SnWTzgKm15fJbGsr",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.SnWTzgKm15fJbGsr",
+      "_id": "pwC37e5c8q2kLZSC",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.pwC37e5c8q2kLZSC",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -635,7 +643,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "6",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -661,8 +669,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "78MrJrwyDTYTbu0D",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.78MrJrwyDTYTbu0D",
+      "_id": "HMEj0Y8qf6gytPHc",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.HMEj0Y8qf6gytPHc",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -680,7 +688,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "7",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -706,8 +714,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "PkjSPxmAZgd68KCw",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.PkjSPxmAZgd68KCw",
+      "_id": "5ltxz164a6QTg51O",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.5ltxz164a6QTg51O",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -725,7 +733,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -751,8 +759,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "g545pYLE28LNv9Ib",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.g545pYLE28LNv9Ib",
+      "_id": "FrNMMc4Vx1JQNAWN",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.FrNMMc4Vx1JQNAWN",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -796,8 +804,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "54hFJ9JHtkQiv117",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.54hFJ9JHtkQiv117",
+      "_id": "r9F9ePn1WesWPBrP",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.r9F9ePn1WesWPBrP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -815,7 +823,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -841,8 +849,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4KY7THAi6Nivw2fC",
-      "_originalKey": "!actors.items!V6qwH9wBgHVTk54g.4KY7THAi6Nivw2fC",
+      "_id": "J9WQusQEg1IEgNYf",
+      "_originalKey": "!actors.items!J9sjL3ycIhRgGyNw.J9WQusQEg1IEgNYf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

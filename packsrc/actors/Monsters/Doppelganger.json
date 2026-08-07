@@ -273,16 +273,17 @@
     "movementAction": null
   },
   "items": [
-    "l1B7TwtfwtHpo04q",
-    "fCgBxXSa3TCOd5rM",
-    "kWOv12zgBrNlyXQB",
-    "v1mwIUWmykZLPKeH",
-    "rtIYtcVixC8ktOvM",
-    "n6cRYYRiBlDNzaAT",
-    "Hd8ZjqhLrE6anFoz",
-    "kM2HJrnbJb4N3NDp",
-    "ykVsrX4Zl0GNCp2X",
-    "tZsVWfahJ3sR1wBK"
+    "chbTzP44vkJyJSEF",
+    "Av5Z9AzU7BQSQxrS",
+    "Bz04Sl6SqeQwa8kZ",
+    "LJnvdhG14rpxF796",
+    "n9dcMumi5JD8KRv9",
+    "fWme2r9e9EgFisri",
+    "qmnAAVeCq4tSHiXe",
+    "MLNbmTEVNXk1PO8C",
+    "cRQz4M9A1UEWeYth",
+    "6WiD6Sdpm6zC9nbr",
+    "7XhAyrYsVKRGmAWb"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -296,8 +297,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "BKMNpNEAPQbSysQT",
-  "_originalKey": "!actors!BKMNpNEAPQbSysQT",
+  "_id": "AxNPVH16vs13dD2c",
+  "_originalKey": "!actors!AxNPVH16vs13dD2c",
   "embedded": [
     {
       "name": "Claw",
@@ -375,8 +376,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "l1B7TwtfwtHpo04q",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.l1B7TwtfwtHpo04q",
+      "_id": "chbTzP44vkJyJSEF",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.chbTzP44vkJyJSEF",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Rubbery Hide",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The doppelganger's rubbery hide turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 5,
+        "totalAAC": 14,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Rubbery Hide",
+        "unidentifiedDesc": "<p>The doppelganger's rubbery hide turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "Av5Z9AzU7BQSQxrS",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.Av5Z9AzU7BQSQxrS",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -420,8 +486,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "fCgBxXSa3TCOd5rM",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.fCgBxXSa3TCOd5rM",
+      "_id": "Bz04Sl6SqeQwa8kZ",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.Bz04Sl6SqeQwa8kZ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -465,8 +531,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "kWOv12zgBrNlyXQB",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.kWOv12zgBrNlyXQB",
+      "_id": "LJnvdhG14rpxF796",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.LJnvdhG14rpxF796",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -510,8 +576,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "v1mwIUWmykZLPKeH",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.v1mwIUWmykZLPKeH",
+      "_id": "n9dcMumi5JD8KRv9",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.n9dcMumi5JD8KRv9",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -555,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "rtIYtcVixC8ktOvM",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.rtIYtcVixC8ktOvM",
+      "_id": "fWme2r9e9EgFisri",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.fWme2r9e9EgFisri",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -600,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "n6cRYYRiBlDNzaAT",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.n6cRYYRiBlDNzaAT",
+      "_id": "qmnAAVeCq4tSHiXe",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.qmnAAVeCq4tSHiXe",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "Hd8ZjqhLrE6anFoz",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.Hd8ZjqhLrE6anFoz",
+      "_id": "MLNbmTEVNXk1PO8C",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.MLNbmTEVNXk1PO8C",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "kM2HJrnbJb4N3NDp",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.kM2HJrnbJb4N3NDp",
+      "_id": "cRQz4M9A1UEWeYth",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.cRQz4M9A1UEWeYth",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -735,8 +801,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ykVsrX4Zl0GNCp2X",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.ykVsrX4Zl0GNCp2X",
+      "_id": "6WiD6Sdpm6zC9nbr",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.6WiD6Sdpm6zC9nbr",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -780,8 +846,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tZsVWfahJ3sR1wBK",
-      "_originalKey": "!actors.items!BKMNpNEAPQbSysQT.tZsVWfahJ3sR1wBK",
+      "_id": "7XhAyrYsVKRGmAWb",
+      "_originalKey": "!actors.items!AxNPVH16vs13dD2c.7XhAyrYsVKRGmAWb",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

@@ -58,15 +58,15 @@
       "notes": ""
     },
     "ac": {
-      "naked": 4,
-      "nakedAAC": 15,
+      "naked": 9,
+      "nakedAAC": 10,
       "value": 4,
       "total": 4,
       "totalAAC": 15,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 4,
-      "nakedRangedAAC": 15,
+      "nakedRanged": 9,
+      "nakedRangedAAC": 10,
       "totalRanged": 4,
       "totalRangedAAC": 15,
       "av": "0"
@@ -275,14 +275,15 @@
     "movementAction": null
   },
   "items": [
-    "5dxdkq3eMDLKhBor",
-    "wUsZYiYiriIFTr5a",
-    "6tdglNqnwl1ilCXn",
-    "8IioP0XE5hVQZKt3",
-    "n16fjasSO81vwuY2",
-    "ncqSwbYiwE0n73aQ",
-    "FVM7g0ocBZMPqaa3",
-    "rP67FzcylDaDM8a6"
+    "mqlQgWDAIsOyBXvc",
+    "IHOGTzTBUqXCN0dY",
+    "bFTUD5fX6bvrz0ij",
+    "j9bfdMi4QU3izM5x",
+    "jPcxZvuVRihyuunI",
+    "DGhtM8TgjND5YOmU",
+    "XJOOoAsZNwFgb5E5",
+    "oKSUxETm733d2a24",
+    "zI3L7yBaF3SNbGTJ"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -296,8 +297,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "CPAGtvpWFkcHiIa9",
-  "_originalKey": "!actors!CPAGtvpWFkcHiIa9",
+  "_id": "JlnNzl1MWfQ8lnRq",
+  "_originalKey": "!actors!JlnNzl1MWfQ8lnRq",
   "embedded": [
     {
       "name": "War Hammer",
@@ -375,8 +376,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "5dxdkq3eMDLKhBor",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.5dxdkq3eMDLKhBor",
+      "_id": "mqlQgWDAIsOyBXvc",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.mqlQgWDAIsOyBXvc",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Banded Mail",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The dwarf wears banded mail armor.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "ac": 4,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 4,
+        "totalAAC": 15,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Banded Mail",
+        "unidentifiedDesc": "<p>The dwarf wears banded mail armor.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 4,
+        "totalRangedAAC": 15
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "IHOGTzTBUqXCN0dY",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.IHOGTzTBUqXCN0dY",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -420,8 +486,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wUsZYiYiriIFTr5a",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.wUsZYiYiriIFTr5a",
+      "_id": "bFTUD5fX6bvrz0ij",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.bFTUD5fX6bvrz0ij",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -465,8 +531,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "6tdglNqnwl1ilCXn",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.6tdglNqnwl1ilCXn",
+      "_id": "j9bfdMi4QU3izM5x",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.j9bfdMi4QU3izM5x",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -510,8 +576,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "8IioP0XE5hVQZKt3",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.8IioP0XE5hVQZKt3",
+      "_id": "jPcxZvuVRihyuunI",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.jPcxZvuVRihyuunI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -555,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "n16fjasSO81vwuY2",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.n16fjasSO81vwuY2",
+      "_id": "DGhtM8TgjND5YOmU",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.DGhtM8TgjND5YOmU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -600,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ncqSwbYiwE0n73aQ",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.ncqSwbYiwE0n73aQ",
+      "_id": "XJOOoAsZNwFgb5E5",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.XJOOoAsZNwFgb5E5",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -645,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FVM7g0ocBZMPqaa3",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.FVM7g0ocBZMPqaa3",
+      "_id": "oKSUxETm733d2a24",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.oKSUxETm733d2a24",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -690,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "rP67FzcylDaDM8a6",
-      "_originalKey": "!actors.items!CPAGtvpWFkcHiIa9.rP67FzcylDaDM8a6",
+      "_id": "zI3L7yBaF3SNbGTJ",
+      "_originalKey": "!actors.items!JlnNzl1MWfQ8lnRq.zI3L7yBaF3SNbGTJ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

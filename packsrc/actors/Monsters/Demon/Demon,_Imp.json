@@ -276,18 +276,19 @@
     "movementAction": null
   },
   "items": [
-    "Rk0NSwOeuoXz8DaQ",
-    "4XIlGfLBpdMoXbtH",
-    "QufTwQn7jZ2PWfKd",
-    "AKPBWF3z56UaeBeK",
-    "LqLq6QO4A4ZgIeuo",
-    "DU0nNV4Gj2iNiiWt",
-    "fHZWGxKXjCUVYiRn",
-    "Vnswo6tmMJDBE4Hx",
-    "gCOXC8qeoz1ZoHDK",
-    "39N2IPmRsAAL5YVM",
-    "IkhZCAlP0tD3E9JO",
-    "SECws4Dki2HVYj4U"
+    "l6PUMuGeDaBOaRw3",
+    "D532YdzAQaHwTJJ0",
+    "gRdAhuPSxKRMz8OP",
+    "G2whIxvWbnx5QQAv",
+    "HTkYnYDjf3FG8eAp",
+    "H3JJ0qA5eW1j4lsa",
+    "8gyIihbUsMDQApYt",
+    "msrGkEJXbGzwt7SK",
+    "ziF3OmguRRSTXGSS",
+    "N6G1hnXWX8VRAxU2",
+    "MVgmOz5bgLS5dai0",
+    "R56Tt6e0mVRYLWXt",
+    "kcWYrsAX28iCifdg"
   ],
   "effects": [],
   "folder": "s12CYfXylYPtD2cR",
@@ -301,8 +302,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "780gu1KXw6Mc40vj",
-  "_originalKey": "!actors!780gu1KXw6Mc40vj",
+  "_id": "DIIlWsly4hgmCUNm",
+  "_originalKey": "!actors!DIIlWsly4hgmCUNm",
   "embedded": [
     {
       "name": "Poison Tail Sting",
@@ -380,8 +381,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "Rk0NSwOeuoXz8DaQ",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.Rk0NSwOeuoXz8DaQ",
+      "_id": "l6PUMuGeDaBOaRw3",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.l6PUMuGeDaBOaRw3",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Tough Skin",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The imp's tough skin turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 3,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 3,
+        "totalAAC": 16,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Tough Skin",
+        "unidentifiedDesc": "<p>The imp's tough skin turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 3,
+        "totalRangedAAC": 16
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "D532YdzAQaHwTJJ0",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.D532YdzAQaHwTJJ0",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -425,8 +491,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4XIlGfLBpdMoXbtH",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.4XIlGfLBpdMoXbtH",
+      "_id": "gRdAhuPSxKRMz8OP",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.gRdAhuPSxKRMz8OP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -470,8 +536,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "QufTwQn7jZ2PWfKd",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.QufTwQn7jZ2PWfKd",
+      "_id": "G2whIxvWbnx5QQAv",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.G2whIxvWbnx5QQAv",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -515,8 +581,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "AKPBWF3z56UaeBeK",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.AKPBWF3z56UaeBeK",
+      "_id": "HTkYnYDjf3FG8eAp",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.HTkYnYDjf3FG8eAp",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -560,8 +626,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "LqLq6QO4A4ZgIeuo",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.LqLq6QO4A4ZgIeuo",
+      "_id": "H3JJ0qA5eW1j4lsa",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.H3JJ0qA5eW1j4lsa",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -605,8 +671,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "DU0nNV4Gj2iNiiWt",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.DU0nNV4Gj2iNiiWt",
+      "_id": "8gyIihbUsMDQApYt",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.8gyIihbUsMDQApYt",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -650,8 +716,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "fHZWGxKXjCUVYiRn",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.fHZWGxKXjCUVYiRn",
+      "_id": "msrGkEJXbGzwt7SK",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.msrGkEJXbGzwt7SK",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -695,8 +761,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "Vnswo6tmMJDBE4Hx",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.Vnswo6tmMJDBE4Hx",
+      "_id": "ziF3OmguRRSTXGSS",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.ziF3OmguRRSTXGSS",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -740,8 +806,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "gCOXC8qeoz1ZoHDK",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.gCOXC8qeoz1ZoHDK",
+      "_id": "N6G1hnXWX8VRAxU2",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.N6G1hnXWX8VRAxU2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -785,8 +851,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "39N2IPmRsAAL5YVM",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.39N2IPmRsAAL5YVM",
+      "_id": "MVgmOz5bgLS5dai0",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.MVgmOz5bgLS5dai0",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -830,8 +896,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IkhZCAlP0tD3E9JO",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.IkhZCAlP0tD3E9JO",
+      "_id": "R56Tt6e0mVRYLWXt",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.R56Tt6e0mVRYLWXt",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -875,8 +941,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "SECws4Dki2HVYj4U",
-      "_originalKey": "!actors.items!780gu1KXw6Mc40vj.SECws4Dki2HVYj4U",
+      "_id": "kcWYrsAX28iCifdg",
+      "_originalKey": "!actors.items!DIIlWsly4hgmCUNm.kcWYrsAX28iCifdg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

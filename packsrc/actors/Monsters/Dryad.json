@@ -276,14 +276,15 @@
     "movementAction": null
   },
   "items": [
-    "mHHB2MEc8vSh0zAa",
-    "INXBuONy0kmnoWaW",
-    "vR6MbKzebNHh6hFg",
-    "zYMxjlynXKim5ZiN",
-    "SeUkL4czSKxKBbRE",
-    "aG3Pyblf2cFl3Nbz",
-    "YGLmSHL0wZSXwtH6",
-    "BS28lFXSczJizrqB"
+    "havetFrQno8Nfa3s",
+    "FLUQuYVukV6xYXhj",
+    "4XcImcCvRFhkMzPE",
+    "dVPu8LbxCEFwHkdz",
+    "slb2l93t98rodj1Z",
+    "xe5Bl4XAj6ri48Xx",
+    "dl8Rrt3Q8ubPs3i1",
+    "mEdCCSbPc0co4piN",
+    "Mp2tApoh83rMfaEW"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,8 +298,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "iMVIBXZO2eDZpmpF",
-  "_originalKey": "!actors!iMVIBXZO2eDZpmpF",
+  "_id": "ebJY91hLivO1m6kV",
+  "_originalKey": "!actors!ebJY91hLivO1m6kV",
   "embedded": [
     {
       "name": "Dagger",
@@ -376,8 +377,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "mHHB2MEc8vSh0zAa",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.mHHB2MEc8vSh0zAa",
+      "_id": "havetFrQno8Nfa3s",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.havetFrQno8Nfa3s",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Bark-like Skin",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The dryad's bark-like skin turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 5,
+        "totalAAC": 14,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Bark-like Skin",
+        "unidentifiedDesc": "<p>The dryad's bark-like skin turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "FLUQuYVukV6xYXhj",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.FLUQuYVukV6xYXhj",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -421,8 +487,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "INXBuONy0kmnoWaW",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.INXBuONy0kmnoWaW",
+      "_id": "4XcImcCvRFhkMzPE",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.4XcImcCvRFhkMzPE",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -466,8 +532,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vR6MbKzebNHh6hFg",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.vR6MbKzebNHh6hFg",
+      "_id": "dVPu8LbxCEFwHkdz",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.dVPu8LbxCEFwHkdz",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -511,8 +577,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "zYMxjlynXKim5ZiN",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.zYMxjlynXKim5ZiN",
+      "_id": "slb2l93t98rodj1Z",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.slb2l93t98rodj1Z",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -556,8 +622,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "SeUkL4czSKxKBbRE",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.SeUkL4czSKxKBbRE",
+      "_id": "xe5Bl4XAj6ri48Xx",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.xe5Bl4XAj6ri48Xx",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -601,8 +667,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "aG3Pyblf2cFl3Nbz",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.aG3Pyblf2cFl3Nbz",
+      "_id": "dl8Rrt3Q8ubPs3i1",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.dl8Rrt3Q8ubPs3i1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -646,8 +712,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "YGLmSHL0wZSXwtH6",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.YGLmSHL0wZSXwtH6",
+      "_id": "mEdCCSbPc0co4piN",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.mEdCCSbPc0co4piN",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -691,8 +757,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "BS28lFXSczJizrqB",
-      "_originalKey": "!actors.items!iMVIBXZO2eDZpmpF.BS28lFXSczJizrqB",
+      "_id": "Mp2tApoh83rMfaEW",
+      "_originalKey": "!actors.items!ebJY91hLivO1m6kV.Mp2tApoh83rMfaEW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

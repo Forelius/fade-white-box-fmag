@@ -276,15 +276,16 @@
     "movementAction": null
   },
   "items": [
-    "XJVuLnMrBK1GYXpB",
-    "hsU7ylMGpQdGQGzs",
-    "CUeAvXBoUarQYOa6",
-    "GxlAda7rXzajKFpq",
-    "jgxCSgrQfYGTtpYO",
-    "cnBV3XCy5guDS7cA",
-    "oMaRhvWb9XNKSsgn",
-    "thFRqgY1XM2zOeQn",
-    "BC7koxUdvStPZXOX"
+    "vSd8UlwZbpifqGUV",
+    "rLCDpinp42Sm2Gsf",
+    "tVL388LWBWpXhI67",
+    "diL007U7pQ8i6XKK",
+    "hHupQRltfJ6uPXOQ",
+    "TaGiuyfzuajTewvI",
+    "TtMhdUDz65399IHo",
+    "tOkA3X3Fcah1XWAL",
+    "IAxqt6CEEn5yJSdo",
+    "6vrGZv2351OhgEAc"
   ],
   "effects": [],
   "folder": "s12CYfXylYPtD2cR",
@@ -298,8 +299,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "Zd9PJXJAE7uYEBVZ",
-  "_originalKey": "!actors!Zd9PJXJAE7uYEBVZ",
+  "_id": "rCsHUiM8wEDK1lkQ",
+  "_originalKey": "!actors!rCsHUiM8wEDK1lkQ",
   "embedded": [
     {
       "name": "Bite",
@@ -377,8 +378,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XJVuLnMrBK1GYXpB",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.XJVuLnMrBK1GYXpB",
+      "_id": "vSd8UlwZbpifqGUV",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.vSd8UlwZbpifqGUV",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Tough Skin",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The succubus's tough skin turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 4,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 4,
+        "totalAAC": 15,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Tough Skin",
+        "unidentifiedDesc": "<p>The succubus's tough skin turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 4,
+        "totalRangedAAC": 15
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "rLCDpinp42Sm2Gsf",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.rLCDpinp42Sm2Gsf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -422,8 +488,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "hsU7ylMGpQdGQGzs",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.hsU7ylMGpQdGQGzs",
+      "_id": "tVL388LWBWpXhI67",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.tVL388LWBWpXhI67",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -467,8 +533,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "CUeAvXBoUarQYOa6",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.CUeAvXBoUarQYOa6",
+      "_id": "diL007U7pQ8i6XKK",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.diL007U7pQ8i6XKK",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -512,8 +578,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "GxlAda7rXzajKFpq",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.GxlAda7rXzajKFpq",
+      "_id": "hHupQRltfJ6uPXOQ",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.hHupQRltfJ6uPXOQ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -557,8 +623,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "jgxCSgrQfYGTtpYO",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.jgxCSgrQfYGTtpYO",
+      "_id": "TaGiuyfzuajTewvI",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.TaGiuyfzuajTewvI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -602,8 +668,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "cnBV3XCy5guDS7cA",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.cnBV3XCy5guDS7cA",
+      "_id": "TtMhdUDz65399IHo",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.TtMhdUDz65399IHo",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -647,8 +713,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "oMaRhvWb9XNKSsgn",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.oMaRhvWb9XNKSsgn",
+      "_id": "tOkA3X3Fcah1XWAL",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.tOkA3X3Fcah1XWAL",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -692,8 +758,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "thFRqgY1XM2zOeQn",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.thFRqgY1XM2zOeQn",
+      "_id": "IAxqt6CEEn5yJSdo",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.IAxqt6CEEn5yJSdo",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -737,8 +803,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "BC7koxUdvStPZXOX",
-      "_originalKey": "!actors.items!Zd9PJXJAE7uYEBVZ.BC7koxUdvStPZXOX",
+      "_id": "6vrGZv2351OhgEAc",
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.6vrGZv2351OhgEAc",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

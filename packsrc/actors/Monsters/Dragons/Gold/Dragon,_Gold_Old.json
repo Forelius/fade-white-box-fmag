@@ -276,18 +276,19 @@
     "movementAction": null
   },
   "items": [
-    "kEvCXbQFcE4vYgQA",
-    "4KneboovsN6rwJey",
-    "olZUx4QxhDTRyvZT",
-    "UoSaZg0PVuSykBgJ",
-    "wplzaPxZj1JSX5j9",
-    "wE62GbSabphQBXgO",
-    "k1t0ppHk7YApV1cW",
-    "eplkrh6lEyVVniAH",
-    "2bQnMMkuGJ8XtcsN",
-    "gxJHBKJDklzsqgOk",
-    "qfoZWzw1qkCTSGaf",
-    "Je0XgvoNeA0fwLbF"
+    "EzRH61KOI6M0r2wa",
+    "eBf2p7Wo4qM50DJG",
+    "oK3ZJOBRG7SegAK4",
+    "JE1DXr48YHfaYbe5",
+    "LJUVbMEJURJnmSLZ",
+    "au0FM7S6cNvASFxE",
+    "Gzdzk3nxBrqHrrQC",
+    "zO6K4pMuXcMDbMuU",
+    "80haafrrSAG1twAL",
+    "usKw7GT7du6J434v",
+    "JbJXOiux6FFTPDye",
+    "JWE8FV9mjVSrIkXD",
+    "qGUDOL7MLgK2QzvS"
   ],
   "effects": [],
   "folder": "HKCIcGPT47R2fe0f",
@@ -301,8 +302,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "6PGmwKO7HfeBtGi2",
-  "_originalKey": "!actors!6PGmwKO7HfeBtGi2",
+  "_id": "0fpZI7US7lEPGVJy",
+  "_originalKey": "!actors!0fpZI7US7lEPGVJy",
   "embedded": [
     {
       "name": "Bite",
@@ -380,8 +381,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "kEvCXbQFcE4vYgQA",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.kEvCXbQFcE4vYgQA",
+      "_id": "EzRH61KOI6M0r2wa",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.EzRH61KOI6M0r2wa",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -463,8 +464,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4KneboovsN6rwJey",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.4KneboovsN6rwJey",
+      "_id": "eBf2p7Wo4qM50DJG",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.eBf2p7Wo4qM50DJG",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -546,8 +547,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "olZUx4QxhDTRyvZT",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.olZUx4QxhDTRyvZT",
+      "_id": "oK3ZJOBRG7SegAK4",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.oK3ZJOBRG7SegAK4",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Dragon Scales",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The dragon's thick scales turn aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 2,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 2,
+        "totalAAC": 17,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Dragon Scales",
+        "unidentifiedDesc": "<p>The dragon's thick scales turn aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "JE1DXr48YHfaYbe5",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.JE1DXr48YHfaYbe5",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -591,8 +657,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "UoSaZg0PVuSykBgJ",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.UoSaZg0PVuSykBgJ",
+      "_id": "LJUVbMEJURJnmSLZ",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.LJUVbMEJURJnmSLZ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -636,8 +702,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wplzaPxZj1JSX5j9",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.wplzaPxZj1JSX5j9",
+      "_id": "au0FM7S6cNvASFxE",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.au0FM7S6cNvASFxE",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -681,8 +747,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wE62GbSabphQBXgO",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.wE62GbSabphQBXgO",
+      "_id": "Gzdzk3nxBrqHrrQC",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.Gzdzk3nxBrqHrrQC",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -726,8 +792,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "k1t0ppHk7YApV1cW",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.k1t0ppHk7YApV1cW",
+      "_id": "zO6K4pMuXcMDbMuU",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.zO6K4pMuXcMDbMuU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -771,8 +837,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "eplkrh6lEyVVniAH",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.eplkrh6lEyVVniAH",
+      "_id": "80haafrrSAG1twAL",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.80haafrrSAG1twAL",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -816,8 +882,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "2bQnMMkuGJ8XtcsN",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.2bQnMMkuGJ8XtcsN",
+      "_id": "usKw7GT7du6J434v",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.usKw7GT7du6J434v",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -861,8 +927,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "gxJHBKJDklzsqgOk",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.gxJHBKJDklzsqgOk",
+      "_id": "JbJXOiux6FFTPDye",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.JbJXOiux6FFTPDye",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -906,8 +972,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qfoZWzw1qkCTSGaf",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.qfoZWzw1qkCTSGaf",
+      "_id": "JWE8FV9mjVSrIkXD",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.JWE8FV9mjVSrIkXD",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -951,8 +1017,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "Je0XgvoNeA0fwLbF",
-      "_originalKey": "!actors.items!6PGmwKO7HfeBtGi2.Je0XgvoNeA0fwLbF",
+      "_id": "qGUDOL7MLgK2QzvS",
+      "_originalKey": "!actors.items!0fpZI7US7lEPGVJy.qGUDOL7MLgK2QzvS",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

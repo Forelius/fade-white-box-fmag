@@ -276,21 +276,22 @@
     "movementAction": null
   },
   "items": [
-    "Ii4H88I0Ca3GrMg6",
-    "nagQBLJyFEMm5yIZ",
-    "LRf2FlWFb4V3dwwZ",
-    "mWusewBCAxzVaNWv",
-    "aSJ0W7glU4cwpBFa",
-    "13BAXvIj6C8Lafs9",
-    "zB8zV8MgRd991MbD",
-    "P0afG4DmGKC3BpNg",
-    "fSNCPQ867kHD65fv",
-    "scNyZkgNLXKWR7Ze",
-    "YDigLUMhRqH0R2Mu",
-    "iuz9LePAlOMqBZ7i",
-    "nboKfS5ckU3IPRJU",
-    "a4IHa45Ghj7UVCza",
-    "Xs2MRzQNxzUSmHMH"
+    "8pH30CfF3TxMfOmk",
+    "n2Y7SlwDS2voMA6E",
+    "oU9VhRLClG0jsYOQ",
+    "T8qyMxGfN9TXSwzX",
+    "86W1PxyB8j5n5z1L",
+    "koSZ8INweGfNNrJ2",
+    "twIRrpMIlKF9e8kp",
+    "Ht9xpVpxbKU3b2cV",
+    "qNGo9a6AmtFsQ85Y",
+    "oELErSpxIrobSxJZ",
+    "eA5LyyE6yQxP9sVc",
+    "9QB1gbZyvSgYsWlR",
+    "3e17M5x9SnSLYZbl",
+    "XXkllIc8LCNXYXdf",
+    "feNyHtu38vqIdlKu",
+    "4Tm0XWVc5ZSMOJ8O"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -304,8 +305,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "XJT3KCY52cCiLVdh",
-  "_originalKey": "!actors!XJT3KCY52cCiLVdh",
+  "_id": "QBEukOWPt587kMsF",
+  "_originalKey": "!actors!QBEukOWPt587kMsF",
   "embedded": [
     {
       "name": "Fist",
@@ -383,8 +384,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "Ii4H88I0Ca3GrMg6",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.Ii4H88I0Ca3GrMg6",
+      "_id": "8pH30CfF3TxMfOmk",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.8pH30CfF3TxMfOmk",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The djinni's natural form turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 5,
+        "totalAAC": 14,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Natural Armor",
+        "unidentifiedDesc": "<p>The djinni's natural form turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "n2Y7SlwDS2voMA6E",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.n2Y7SlwDS2voMA6E",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -428,8 +494,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "nagQBLJyFEMm5yIZ",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.nagQBLJyFEMm5yIZ",
+      "_id": "oU9VhRLClG0jsYOQ",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.oU9VhRLClG0jsYOQ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -473,8 +539,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "LRf2FlWFb4V3dwwZ",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.LRf2FlWFb4V3dwwZ",
+      "_id": "T8qyMxGfN9TXSwzX",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.T8qyMxGfN9TXSwzX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -518,8 +584,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "mWusewBCAxzVaNWv",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.mWusewBCAxzVaNWv",
+      "_id": "86W1PxyB8j5n5z1L",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.86W1PxyB8j5n5z1L",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -563,8 +629,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "aSJ0W7glU4cwpBFa",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.aSJ0W7glU4cwpBFa",
+      "_id": "koSZ8INweGfNNrJ2",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.koSZ8INweGfNNrJ2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -608,8 +674,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "13BAXvIj6C8Lafs9",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.13BAXvIj6C8Lafs9",
+      "_id": "twIRrpMIlKF9e8kp",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.twIRrpMIlKF9e8kp",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -653,8 +719,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "zB8zV8MgRd991MbD",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.zB8zV8MgRd991MbD",
+      "_id": "Ht9xpVpxbKU3b2cV",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.Ht9xpVpxbKU3b2cV",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -698,8 +764,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "P0afG4DmGKC3BpNg",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.P0afG4DmGKC3BpNg",
+      "_id": "qNGo9a6AmtFsQ85Y",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.qNGo9a6AmtFsQ85Y",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -743,8 +809,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "fSNCPQ867kHD65fv",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.fSNCPQ867kHD65fv",
+      "_id": "oELErSpxIrobSxJZ",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.oELErSpxIrobSxJZ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -788,8 +854,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "scNyZkgNLXKWR7Ze",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.scNyZkgNLXKWR7Ze",
+      "_id": "eA5LyyE6yQxP9sVc",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.eA5LyyE6yQxP9sVc",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -833,8 +899,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "YDigLUMhRqH0R2Mu",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.YDigLUMhRqH0R2Mu",
+      "_id": "9QB1gbZyvSgYsWlR",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.9QB1gbZyvSgYsWlR",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -878,8 +944,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "iuz9LePAlOMqBZ7i",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.iuz9LePAlOMqBZ7i",
+      "_id": "3e17M5x9SnSLYZbl",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.3e17M5x9SnSLYZbl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -923,8 +989,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "nboKfS5ckU3IPRJU",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.nboKfS5ckU3IPRJU",
+      "_id": "XXkllIc8LCNXYXdf",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.XXkllIc8LCNXYXdf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -968,8 +1034,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "a4IHa45Ghj7UVCza",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.a4IHa45Ghj7UVCza",
+      "_id": "feNyHtu38vqIdlKu",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.feNyHtu38vqIdlKu",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -1013,8 +1079,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "Xs2MRzQNxzUSmHMH",
-      "_originalKey": "!actors.items!XJT3KCY52cCiLVdh.Xs2MRzQNxzUSmHMH",
+      "_id": "4Tm0XWVc5ZSMOJ8O",
+      "_originalKey": "!actors.items!QBEukOWPt587kMsF.4Tm0XWVc5ZSMOJ8O",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

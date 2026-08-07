@@ -276,17 +276,18 @@
     "movementAction": null
   },
   "items": [
-    "wWiwWvK2Xlxl1TEZ",
-    "X5mMbuijiBDFJzFP",
-    "ZHuSDDMGik5r9f7n",
-    "KFE6H4E8uRxSdtS4",
-    "BfgnCferJxSz6cwW",
-    "8uH73cRItx1jpA9o",
-    "wr8KeHkS7Sv4jkQu",
-    "CYgip5rPudqQbnrB",
-    "paXVXBpK82TzLK0A",
-    "TC8B9SyM83ZcvzPB",
-    "VWpdVAbxlHxwmfRJ"
+    "DOUbzc7CSgnrOjY0",
+    "2cniGuLYPjiFV5GJ",
+    "se1jTHdQtpTSSEkq",
+    "OPspjZc56P4rhz49",
+    "6P5JEOQ3XL39TItr",
+    "euuNMoqotz6yH8ZO",
+    "JRP0RgfO69yg8dHI",
+    "U4SqNWqG6MkqUjsg",
+    "iUEajAqzYULl180e",
+    "Ou0xYvckHez8eNdF",
+    "tTGpIRBrm8Wrp7hl",
+    "3h1YebKGBtcESmvA"
   ],
   "effects": [],
   "folder": "s12CYfXylYPtD2cR",
@@ -300,8 +301,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "NT4ka6OzqBp45Etu",
-  "_originalKey": "!actors!NT4ka6OzqBp45Etu",
+  "_id": "KylFA4fcliPGZC1l",
+  "_originalKey": "!actors!KylFA4fcliPGZC1l",
   "embedded": [
     {
       "name": "Sword",
@@ -379,8 +380,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wWiwWvK2Xlxl1TEZ",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.wWiwWvK2Xlxl1TEZ",
+      "_id": "DOUbzc7CSgnrOjY0",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.DOUbzc7CSgnrOjY0",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -462,8 +463,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "X5mMbuijiBDFJzFP",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.X5mMbuijiBDFJzFP",
+      "_id": "2cniGuLYPjiFV5GJ",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.2cniGuLYPjiFV5GJ",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Iron-hard Skin",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The Balor's iron-hard skin turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 2,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 2,
+        "totalAAC": 17,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Iron-hard Skin",
+        "unidentifiedDesc": "<p>The Balor's iron-hard skin turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "se1jTHdQtpTSSEkq",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.se1jTHdQtpTSSEkq",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -507,8 +573,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ZHuSDDMGik5r9f7n",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.ZHuSDDMGik5r9f7n",
+      "_id": "OPspjZc56P4rhz49",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.OPspjZc56P4rhz49",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -552,8 +618,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "KFE6H4E8uRxSdtS4",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.KFE6H4E8uRxSdtS4",
+      "_id": "6P5JEOQ3XL39TItr",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.6P5JEOQ3XL39TItr",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -597,8 +663,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "BfgnCferJxSz6cwW",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.BfgnCferJxSz6cwW",
+      "_id": "euuNMoqotz6yH8ZO",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.euuNMoqotz6yH8ZO",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -642,8 +708,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "8uH73cRItx1jpA9o",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.8uH73cRItx1jpA9o",
+      "_id": "JRP0RgfO69yg8dHI",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.JRP0RgfO69yg8dHI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -687,8 +753,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wr8KeHkS7Sv4jkQu",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.wr8KeHkS7Sv4jkQu",
+      "_id": "U4SqNWqG6MkqUjsg",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.U4SqNWqG6MkqUjsg",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -732,8 +798,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "CYgip5rPudqQbnrB",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.CYgip5rPudqQbnrB",
+      "_id": "iUEajAqzYULl180e",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.iUEajAqzYULl180e",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -777,8 +843,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "paXVXBpK82TzLK0A",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.paXVXBpK82TzLK0A",
+      "_id": "Ou0xYvckHez8eNdF",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.Ou0xYvckHez8eNdF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -822,8 +888,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "TC8B9SyM83ZcvzPB",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.TC8B9SyM83ZcvzPB",
+      "_id": "tTGpIRBrm8Wrp7hl",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.tTGpIRBrm8Wrp7hl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -867,8 +933,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "VWpdVAbxlHxwmfRJ",
-      "_originalKey": "!actors.items!NT4ka6OzqBp45Etu.VWpdVAbxlHxwmfRJ",
+      "_id": "3h1YebKGBtcESmvA",
+      "_originalKey": "!actors.items!KylFA4fcliPGZC1l.3h1YebKGBtcESmvA",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

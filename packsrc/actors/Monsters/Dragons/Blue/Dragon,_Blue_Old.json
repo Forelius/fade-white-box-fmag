@@ -276,15 +276,16 @@
     "movementAction": null
   },
   "items": [
-    "cXbO0Q2xilbiiocg",
-    "kADUJulkEoZAg63q",
-    "X3ZWc7eEaONfHVwn",
-    "vd3rNj4SCIAYtaJN",
-    "vAE8zH2AK4eY8tPS",
-    "eiIAyvNkWFM3zctG",
-    "ljzG4O7b91zB9Nzc",
-    "VXZDvpMhhSNYdcQa",
-    "P2XwFoJWNK7B4wQH"
+    "PjT0r43mcOh3v1aO",
+    "jQkYrxbl5UKHsurN",
+    "Zl6nNtgohd1SfddR",
+    "KqbOaUjwT4zr30Lk",
+    "GlmdEJ9dxkYbcJFI",
+    "UcszQr5AUYTn7hxA",
+    "sSJzEYDh6QC3YK3L",
+    "2NPO4lVgVtdUfr40",
+    "zgJHITtl49EgJA2P",
+    "MMqCDJeAIK1WwZe8"
   ],
   "effects": [],
   "folder": "BAheqLqUIIbWIHqu",
@@ -298,8 +299,8 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "Y6Eolj5JmexRV5AI",
-  "_originalKey": "!actors!Y6Eolj5JmexRV5AI",
+  "_id": "EsoofMTf8x8isbRu",
+  "_originalKey": "!actors!EsoofMTf8x8isbRu",
   "embedded": [
     {
       "name": "Bite",
@@ -377,8 +378,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "cXbO0Q2xilbiiocg",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.cXbO0Q2xilbiiocg",
+      "_id": "PjT0r43mcOh3v1aO",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.PjT0r43mcOh3v1aO",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -460,8 +461,73 @@
         "default": 0
       },
       "flags": {},
-      "_id": "kADUJulkEoZAg63q",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.kADUJulkEoZAg63q",
+      "_id": "jQkYrxbl5UKHsurN",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.jQkYrxbl5UKHsurN",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Dragon Scales",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The dragon's thick scales turn aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 2,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 2,
+        "totalAAC": 17,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Dragon Scales",
+        "unidentifiedDesc": "<p>The dragon's thick scales turn aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "Zl6nNtgohd1SfddR",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.Zl6nNtgohd1SfddR",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,8 +571,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "X3ZWc7eEaONfHVwn",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.X3ZWc7eEaONfHVwn",
+      "_id": "KqbOaUjwT4zr30Lk",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.KqbOaUjwT4zr30Lk",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -550,8 +616,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vd3rNj4SCIAYtaJN",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.vd3rNj4SCIAYtaJN",
+      "_id": "GlmdEJ9dxkYbcJFI",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.GlmdEJ9dxkYbcJFI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -595,8 +661,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vAE8zH2AK4eY8tPS",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.vAE8zH2AK4eY8tPS",
+      "_id": "UcszQr5AUYTn7hxA",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.UcszQr5AUYTn7hxA",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -640,8 +706,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "eiIAyvNkWFM3zctG",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.eiIAyvNkWFM3zctG",
+      "_id": "sSJzEYDh6QC3YK3L",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.sSJzEYDh6QC3YK3L",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -685,8 +751,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ljzG4O7b91zB9Nzc",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.ljzG4O7b91zB9Nzc",
+      "_id": "2NPO4lVgVtdUfr40",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.2NPO4lVgVtdUfr40",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -730,8 +796,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "VXZDvpMhhSNYdcQa",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.VXZDvpMhhSNYdcQa",
+      "_id": "zgJHITtl49EgJA2P",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.zgJHITtl49EgJA2P",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -775,8 +841,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "P2XwFoJWNK7B4wQH",
-      "_originalKey": "!actors.items!Y6Eolj5JmexRV5AI.P2XwFoJWNK7B4wQH",
+      "_id": "MMqCDJeAIK1WwZe8",
+      "_originalKey": "!actors.items!EsoofMTf8x8isbRu.MMqCDJeAIK1WwZe8",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
