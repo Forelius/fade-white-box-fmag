@@ -1,0 +1,109 @@
+{
+  "name": "Treasure Value",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 1d6 to determine the total value of a treasure hoard. The total value is expressed in gold pieces as a multiple of the monster's XP value (for example, a roll of 2-3 gives a total value of XP × 2). Break the total out into copper, silver, and gold pieces using the percentages given in the result, remembering that one gold piece (gp) is worth 10 silver pieces (sp) or 100 copper pieces (cp).</p>",
+  "results": [
+    "8fKHlmRTs9EDyND9",
+    "TJi9Tx7ugsvnQWQu",
+    "lRnp1lzAotvJSvXk",
+    "ZzGmHaG4NSfhBaCk"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "GlHLQSWuKcgMjswz",
+  "sort": 0,
+  "_originalKey": "!tables!GlHLQSWuKcgMjswz",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.8fKHlmRTs9EDyND9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "8fKHlmRTs9EDyND9",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "XP × 1 (50% cp, 30% sp, 20% gp)",
+      "text": "XP × 1 (50% cp, 30% sp, 20% gp)"
+    },
+    {
+      "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.TJi9Tx7ugsvnQWQu",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "_id": "TJi9Tx7ugsvnQWQu",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "XP × 2 (20% cp, 50% sp, 30% gp)",
+      "text": "XP × 2 (20% cp, 50% sp, 30% gp)"
+    },
+    {
+      "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.lRnp1lzAotvJSvXk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "_id": "lRnp1lzAotvJSvXk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "XP × 3 (10% cp, 40% sp, 50% gp)",
+      "text": "XP × 3 (10% cp, 40% sp, 50% gp)"
+    },
+    {
+      "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.ZzGmHaG4NSfhBaCk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "ZzGmHaG4NSfhBaCk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "XP × 4 (25% sp, 75% gp)",
+      "text": "XP × 4 (25% sp, 75% gp)"
+    }
+  ]
+}
