@@ -292,5 +292,26 @@
       "modifiedTime": 1753483083222,
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
+  },
+  "!folders!lrJXwwOZS3Yi3C1C": {
+    "name": "Lich",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "lrJXwwOZS3Yi3C1C",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
   }
 }

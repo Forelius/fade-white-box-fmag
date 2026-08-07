@@ -24,285 +24,339 @@
         "percentage": 5
       }
     ],
-    "maxLevel": 10,
+    "maxLevel": 12,
     "maxSpellLevel": 6,
     "firstLevel": 1,
-    "levels": [
+   "levels": [
       {
-        "level": 1,
-        "xp": 0,
-        "thac0": 19,
-        "thbonus": 0,
-        "hd": "1d6",
-        "hdcon": true,
-        "title": "Medium",
-        "attackRank": ""
+         "level": 1,
+         "xp": 0,
+         "thac0": 19,
+         "thbonus": 0,
+         "hd": "1d6",
+         "hdcon": true,
+         "title": "Medium",
+         "attackRank": ""
       },
       {
-        "level": 2,
-        "xp": 2500,
-        "thac0": 19,
-        "thbonus": 0,
-        "hd": "1d6+1",
-        "hdcon": true,
-        "title": "Seer",
-        "attackRank": ""
+         "level": 2,
+         "xp": 2500,
+         "thac0": 19,
+         "thbonus": 0,
+         "hd": "1d6+1",
+         "hdcon": true,
+         "title": "Seer",
+         "attackRank": ""
       },
       {
-        "level": 3,
-        "xp": 5000,
-        "thac0": 19,
-        "thbonus": 0,
-        "hd": "2d6",
-        "hdcon": true,
-        "title": "Conjurer",
-        "attackRank": ""
+         "level": 3,
+         "xp": 5000,
+         "thac0": 19,
+         "thbonus": 0,
+         "hd": "2d6",
+         "hdcon": true,
+         "title": "Conjurer",
+         "attackRank": ""
       },
       {
-        "level": 4,
-        "xp": 10000,
-        "thac0": 19,
-        "thbonus": 0,
-        "hd": "2d6+1",
-        "hdcon": true,
-        "title": "Magician",
-        "attackRank": ""
+         "level": 4,
+         "xp": 10000,
+         "thac0": 19,
+         "thbonus": 0,
+         "hd": "2d6+1",
+         "hdcon": true,
+         "title": "Magician",
+         "attackRank": ""
       },
       {
-        "level": 5,
-        "xp": 20000,
-        "thac0": 18,
-        "thbonus": 1,
-        "hd": "3d6",
-        "hdcon": true,
-        "title": "Enchanter",
-        "attackRank": ""
+         "level": 5,
+         "xp": 20000,
+         "thac0": 18,
+         "thbonus": 1,
+         "hd": "3d6",
+         "hdcon": true,
+         "title": "Enchanter",
+         "attackRank": ""
       },
       {
-        "level": 6,
-        "xp": 40000,
-        "thac0": 18,
-        "thbonus": 1,
-        "hd": "3d6+1",
-        "hdcon": true,
-        "title": "Warlock",
-        "attackRank": ""
+         "level": 6,
+         "xp": 40000,
+         "thac0": 18,
+         "thbonus": 1,
+         "hd": "3d6+1",
+         "hdcon": true,
+         "title": "Warlock",
+         "attackRank": ""
       },
       {
-        "level": 7,
-        "xp": 80000,
-        "thac0": 17,
-        "thbonus": 2,
-        "hd": "4d6",
-        "hdcon": true,
-        "title": "Sorcerer",
-        "attackRank": ""
+         "level": 7,
+         "xp": 80000,
+         "thac0": 17,
+         "thbonus": 2,
+         "hd": "4d6",
+         "hdcon": true,
+         "title": "Sorcerer",
+         "attackRank": ""
       },
       {
-        "level": 8,
-        "xp": 160000,
-        "thac0": 17,
-        "thbonus": 2,
-        "hd": "4d6+1",
-        "hdcon": true,
-        "title": "Necromancer",
-        "attackRank": ""
+         "level": 8,
+         "xp": 160000,
+         "thac0": 17,
+         "thbonus": 2,
+         "hd": "4d6+1",
+         "hdcon": true,
+         "title": "Necromancer",
+         "attackRank": ""
       },
       {
-        "level": 9,
-        "xp": 320000,
-        "thac0": 16,
-        "thbonus": 3,
-        "hd": "5d6",
-        "hdcon": true,
-        "title": "Wizard",
-        "attackRank": ""
+         "level": 9,
+         "xp": 320000,
+         "thac0": 16,
+         "thbonus": 3,
+         "hd": "5d6",
+         "hdcon": true,
+         "title": "Wizard",
+         "attackRank": ""
       },
       {
-        "level": 10,
-        "xp": 640000,
-        "thac0": 16,
-        "thbonus": 3,
-        "hd": "5d6+1",
-        "hdcon": true,
-        "title": "",
-        "attackRank": ""
+         "level": 10,
+         "xp": 640000,
+         "thac0": 16,
+         "thbonus": 3,
+         "hd": "5d6+1",
+         "hdcon": true,
+         "title": "",
+         "attackRank": ""
+      },
+      {
+         "level": 11,
+         "xp": null,
+         "thac0": 15,
+         "thbonus": 4,
+         "hd": "6",
+         "hdcon": true,
+         "title": "",
+         "attackRank": ""
+      },
+      {
+         "level": 12,
+         "xp": null,
+         "thac0": 15,
+         "thbonus": 4,
+         "hd": "6d6+1",
+         "hdcon": true,
+         "title": "",
+         "attackRank": ""
       }
-    ],
-    "saves": [
+   ],
+   "saves": [
       {
-        "level": 1,
-        "breath": 16,
-        "paralysis": 13,
-        "spell": 15,
-        "wand": 14,
-        "save": 15,
-        "death": 13
+         "level": 1,
+         "breath": 16,
+         "paralysis": 13,
+         "spell": 15,
+         "wand": 14,
+         "save": 15,
+         "death": 13
       },
       {
-        "level": 2,
-        "breath": 15,
-        "paralysis": 12,
-        "spell": 15,
-        "wand": 13,
-        "save": 14,
-        "death": 12
+         "level": 2,
+         "breath": 15,
+         "paralysis": 12,
+         "spell": 15,
+         "wand": 13,
+         "save": 14,
+         "death": 12
       },
       {
-        "level": 3,
-        "breath": 15,
-        "paralysis": 12,
-        "spell": 15,
-        "wand": 13,
-        "save": 13,
-        "death": 12
+         "level": 3,
+         "breath": 15,
+         "paralysis": 12,
+         "spell": 15,
+         "wand": 13,
+         "save": 13,
+         "death": 12
       },
       {
-        "level": 4,
-        "breath": 14,
-        "paralysis": 11,
-        "spell": 12,
-        "wand": 12,
-        "save": 12,
-        "death": 11
+         "level": 4,
+         "breath": 14,
+         "paralysis": 11,
+         "spell": 12,
+         "wand": 12,
+         "save": 12,
+         "death": 11
       },
       {
-        "level": 5,
-        "breath": 14,
-        "paralysis": 11,
-        "spell": 12,
-        "wand": 12,
-        "save": 11,
-        "death": 11
+         "level": 5,
+         "breath": 14,
+         "paralysis": 11,
+         "spell": 12,
+         "wand": 12,
+         "save": 11,
+         "death": 11
       },
       {
-        "level": 6,
-        "breath": 13,
-        "paralysis": 10,
-        "spell": 12,
-        "wand": 11,
-        "save": 10,
-        "death": 10
+         "level": 6,
+         "breath": 13,
+         "paralysis": 10,
+         "spell": 12,
+         "wand": 11,
+         "save": 10,
+         "death": 10
       },
       {
-        "level": 7,
-        "breath": 13,
-        "paralysis": 10,
-        "spell": 12,
-        "wand": 11,
-        "save": 9,
-        "death": 10
+         "level": 7,
+         "breath": 13,
+         "paralysis": 10,
+         "spell": 12,
+         "wand": 11,
+         "save": 9,
+         "death": 10
       },
       {
-        "level": 8,
-        "breath": 12,
-        "paralysis": 9,
-        "spell": 9,
-        "wand": 10,
-        "save": 8,
-        "death": 9
+         "level": 8,
+         "breath": 12,
+         "paralysis": 9,
+         "spell": 9,
+         "wand": 10,
+         "save": 8,
+         "death": 9
       },
       {
-        "level": 9,
-        "breath": 12,
-        "paralysis": 9,
-        "spell": 9,
-        "wand": 10,
-        "save": 7,
-        "death": 9
+         "level": 9,
+         "breath": 12,
+         "paralysis": 9,
+         "spell": 9,
+         "wand": 10,
+         "save": 7,
+         "death": 9
       },
       {
-        "level": 10,
-        "breath": 11,
-        "paralysis": 8,
-        "spell": 9,
-        "wand": 9,
-        "save": 6,
-        "death": 8
+         "level": 10,
+         "breath": 11,
+         "paralysis": 8,
+         "spell": 9,
+         "wand": 9,
+         "save": 6,
+         "death": 8
+      },
+      {
+         "level": 11,
+         "breath": 10,
+         "paralysis": 7,
+         "spell": 8,
+         "wand": 8,
+         "save": 5,
+         "death": 7
+      },
+      {
+         "level": 12,
+         "breath": 9,
+         "paralysis": 6,
+         "spell": 7,
+         "wand": 7,
+         "save": 4,
+         "death": 6
       }
-    ],
-    "spells": [
+   ],
+   "spells": [
       [
-        1,
-        0,
-        0,
-        0,
-        0,
-        0
+         1,
+         0,
+         0,
+         0,
+         0,
+         0
       ],
       [
-        2,
-        0,
-        0,
-        0,
-        0,
-        0
+         2,
+         0,
+         0,
+         0,
+         0,
+         0
       ],
       [
-        3,
-        1,
-        0,
-        0,
-        0,
-        0
+         3,
+         1,
+         0,
+         0,
+         0,
+         0
       ],
       [
-        4,
-        2,
-        0,
-        0,
-        0,
-        0
+         4,
+         2,
+         0,
+         0,
+         0,
+         0
       ],
       [
-        4,
-        2,
-        1,
-        0,
-        0,
-        0
+         4,
+         2,
+         1,
+         0,
+         0,
+         0
       ],
       [
-        4,
-        2,
-        2,
-        0,
-        0,
-        0
+         4,
+         2,
+         2,
+         0,
+         0,
+         0
       ],
       [
-        4,
-        3,
-        2,
-        1,
-        0,
-        0
+         4,
+         3,
+         2,
+         1,
+         0,
+         0
       ],
       [
-        4,
-        3,
-        3,
-        2,
-        0,
-        0
+         4,
+         3,
+         3,
+         2,
+         0,
+         0
       ],
       [
-        4,
-        3,
-        3,
-        2,
-        1,
-        0
+         4,
+         3,
+         3,
+         2,
+         1,
+         0
       ],
       [
-        4,
-        3,
-        3,
-        3,
-        2,
-        0
+         4,
+         3,
+         3,
+         3,
+         2,
+         0
+      ],
+      [
+         4,
+         4,
+         4,
+         3,
+         3,
+         0
+      ],
+      [
+         4,
+         4,
+         4,
+         4,
+         4,
+         1
       ]
-    ],
+   ],
     "alignment": "Any",
     "key": "M",
     "description": "<p>The Magic-user is an enigmatic individual, a scholar of arcane forces and shadowy sorcery. They possess the potential to become formidable adversaries. Yet, at lower levels, their fragility leaves them reliant on the protection of their fellow party members. As Magic-users advance, they typically rise to become the most potent among the character classes, wielding influence over the political fates of mighty kingdoms and crafting extraordinary magical artifacts.</p><h2>Weapon and Armor Restrictions</h2><p>Magic-users dedicate their waking hours to poring over arcane tomes and scrolls, leaving them scant time to practice with weapons or master the skills of physical combat. Consequently, they are restricted to wielding only daggers or staves and are prohibited from using armor.</p>",
