@@ -185,11 +185,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -243,13 +240,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -273,7 +269,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "vSd8UlwZbpifqGUV",
@@ -300,9 +297,436 @@
     "systemId": "fantastic-depths"
   },
   "_id": "rCsHUiM8wEDK1lkQ",
+  "sort": 0,
   "_originalKey": "!actors!rCsHUiM8wEDK1lkQ",
   "embedded": [
     {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.6vrGZv2351OhgEAc",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Spell",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "6vrGZv2351OhgEAc",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.IAxqt6CEEn5yJSdo",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Breath",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "IAxqt6CEEn5yJSdo",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.TaGiuyfzuajTewvI",
+      "name": "Death or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "8",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Death",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "TaGiuyfzuajTewvI",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.TtMhdUDz65399IHo",
+      "name": "Wands or Rays",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "9",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Wand",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "TtMhdUDz65399IHo",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.diL007U7pQ8i6XKK",
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The succubus can fly at a speed of 15.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "diL007U7pQ8i6XKK",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.hHupQRltfJ6uPXOQ",
+      "name": "Saving Throw",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "13",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Save",
+        "combatManeuver": "null",
+        "customSaveCode": "save",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "hHupQRltfJ6uPXOQ",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.rLCDpinp42Sm2Gsf",
+      "name": "Tough Skin",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The succubus's tough skin turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 4,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 4,
+        "totalAAC": 15,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Tough Skin",
+        "unidentifiedDesc": "<p>The succubus's tough skin turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 4,
+        "totalRangedAAC": 15
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "rLCDpinp42Sm2Gsf",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.tOkA3X3Fcah1XWAL",
+      "name": "Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "10",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Stone",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "tOkA3X3Fcah1XWAL",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.tVL388LWBWpXhI67",
+      "name": "Charm Person",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The succubus can cast Charm Person at will, charming with a word or a kiss.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "tVL388LWBWpXhI67",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.vSd8UlwZbpifqGUV",
       "name": "Bite",
       "type": "weapon",
       "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
@@ -379,432 +803,6 @@
       },
       "flags": {},
       "_id": "vSd8UlwZbpifqGUV",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.vSd8UlwZbpifqGUV",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Tough Skin",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "system": {
-        "tags": [],
-        "description": "<p>The succubus's tough skin turns aside blows.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 4,
-        "totalAAC": 15,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Tough Skin",
-        "unidentifiedDesc": "<p>The succubus's tough skin turns aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 4,
-        "totalRangedAAC": 15
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "rLCDpinp42Sm2Gsf",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.rLCDpinp42Sm2Gsf",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Charm Person",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The succubus can cast Charm Person at will, charming with a word or a kiss.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "tVL388LWBWpXhI67",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.tVL388LWBWpXhI67",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Flight",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The succubus can fly at a speed of 15.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "diL007U7pQ8i6XKK",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.diL007U7pQ8i6XKK",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Saving Throw",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "13",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Save",
-        "combatManeuver": "null",
-        "customSaveCode": "save",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "hHupQRltfJ6uPXOQ",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.hHupQRltfJ6uPXOQ",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Death or Poison",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "8",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Death",
-        "combatManeuver": "null",
-        "customSaveCode": "death",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "TaGiuyfzuajTewvI",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.TaGiuyfzuajTewvI",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Wands or Rays",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "9",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Wand",
-        "combatManeuver": "null",
-        "customSaveCode": "wand",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "TtMhdUDz65399IHo",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.TtMhdUDz65399IHo",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Stone or Paralysis",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "10",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Stone",
-        "combatManeuver": "null",
-        "customSaveCode": "paralysis",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "tOkA3X3Fcah1XWAL",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.tOkA3X3Fcah1XWAL",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Dragon Breath",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "12",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Breath",
-        "combatManeuver": "null",
-        "customSaveCode": "breath",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "IAxqt6CEEn5yJSdo",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.IAxqt6CEEn5yJSdo",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Spells or Magic Staff",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "12",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Spell",
-        "combatManeuver": "null",
-        "customSaveCode": "spell",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "6vrGZv2351OhgEAc",
-      "_originalKey": "!actors.items!rCsHUiM8wEDK1lkQ.6vrGZv2351OhgEAc",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

@@ -1,0 +1,105 @@
+{
+  "name": "Medium Gem/Jewelry",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 1d6 to determine the value, in gold pieces, of a single medium gem or piece of jewelry (used for a 1,000 gp trade out).</p>",
+  "results": [
+    "8utohFhlIXS0ou0s",
+    "wfDY1X0n6u3ZrVpi",
+    "yq2qjllFylNRyhoV",
+    "fTsdeBQ2njOjp3iX"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "dgYcnY8kf5Rptl3C",
+  "sort": 0,
+  "_originalKey": "!tables!dgYcnY8kf5Rptl3C",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!dgYcnY8kf5Rptl3C.8utohFhlIXS0ou0s",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "8utohFhlIXS0ou0s",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d100 gp [[1d100]]"
+    },
+    {
+      "_originalKey": "!tables.results!dgYcnY8kf5Rptl3C.fTsdeBQ2njOjp3iX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "fTsdeBQ2njOjp3iX",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d100 x 100 gp [[1d100*100]]"
+    },
+    {
+      "_originalKey": "!tables.results!dgYcnY8kf5Rptl3C.wfDY1X0n6u3ZrVpi",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "_id": "wfDY1X0n6u3ZrVpi",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d100 x 10 + 250 gp [[1d100*10+250]]"
+    },
+    {
+      "_originalKey": "!tables.results!dgYcnY8kf5Rptl3C.yq2qjllFylNRyhoV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "_id": "yq2qjllFylNRyhoV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d100 x 10 + 750 gp [[1d100*10+750]]"
+    }
+  ]
+}

@@ -184,11 +184,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -242,13 +239,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -272,7 +268,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "TwVqueFzdrkVZ54F",
@@ -298,9 +295,236 @@
     "systemId": "fantastic-depths"
   },
   "_id": "2NaenNJRC9Z7LNbv",
+  "sort": 0,
   "_originalKey": "!actors!2NaenNJRC9Z7LNbv",
   "embedded": [
     {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.37W2gx5L0jYCKerv",
+      "name": "Death or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "10",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Death",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "37W2gx5L0jYCKerv",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.9akEtpi7yqW0pm1C",
+      "name": "Saving Throw",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "16",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Save",
+        "combatManeuver": "null",
+        "customSaveCode": "save",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "9akEtpi7yqW0pm1C",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.NZykg5LVppZSW7q9",
+      "name": "Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Stone",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "NZykg5LVppZSW7q9",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.PZraHhpQ2QmcvUkA",
+      "name": "Surprise Opponents",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "<p>Bugbears are stealthier than their size would suggest, almost always getting the chance to surprise even the most alert opponents with a roll of 1-3 on a d6 (50% of the time).</p>",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "PZraHhpQ2QmcvUkA",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.PvGRR0UAFfSDE9v2",
+      "name": "Wands or Rays",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "11",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Wand",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "PvGRR0UAFfSDE9v2",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.TwVqueFzdrkVZ54F",
       "name": "Club",
       "type": "weapon",
       "img": "modules/fade-compendiums/assets/img/weapon/club.webp",
@@ -377,13 +601,58 @@
       },
       "flags": {},
       "_id": "TwVqueFzdrkVZ54F",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.TwVqueFzdrkVZ54F",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.c30kmcwN0U3PzpBc",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Spell",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "c30kmcwN0U3PzpBc",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.xrBTp9lUviImHAmT",
       "name": "Thick Hide",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
@@ -442,238 +711,13 @@
       },
       "flags": {},
       "_id": "xrBTp9lUviImHAmT",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.xrBTp9lUviImHAmT",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Surprise Opponents",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "<p>Bugbears are stealthier than their size would suggest, almost always getting the chance to surprise even the most alert opponents with a roll of 1-3 on a d6 (50% of the time).</p>",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "PZraHhpQ2QmcvUkA",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.PZraHhpQ2QmcvUkA",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Saving Throw",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "16",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Save",
-        "combatManeuver": "null",
-        "customSaveCode": "save",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "9akEtpi7yqW0pm1C",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.9akEtpi7yqW0pm1C",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Death or Poison",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "10",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Death",
-        "combatManeuver": "null",
-        "customSaveCode": "death",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "37W2gx5L0jYCKerv",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.37W2gx5L0jYCKerv",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Wands or Rays",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "11",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Wand",
-        "combatManeuver": "null",
-        "customSaveCode": "wand",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "PvGRR0UAFfSDE9v2",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.PvGRR0UAFfSDE9v2",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Stone or Paralysis",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "12",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Stone",
-        "combatManeuver": "null",
-        "customSaveCode": "paralysis",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "NZykg5LVppZSW7q9",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.NZykg5LVppZSW7q9",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
+      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.yUwK0vzBbF7dSF0Z",
       "name": "Dragon Breath",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -712,52 +756,6 @@
       },
       "flags": {},
       "_id": "yUwK0vzBbF7dSF0Z",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.yUwK0vzBbF7dSF0Z",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Spells or Magic Staff",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "14",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Spell",
-        "combatManeuver": "null",
-        "customSaveCode": "spell",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "c30kmcwN0U3PzpBc",
-      "_originalKey": "!actors.items!2NaenNJRC9Z7LNbv.c30kmcwN0U3PzpBc",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

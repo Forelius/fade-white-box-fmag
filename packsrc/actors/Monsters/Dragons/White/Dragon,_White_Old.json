@@ -185,11 +185,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -243,13 +240,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -273,7 +269,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 2
   },
   "items": [
     "aGOv3vuNF08NB5Pe",
@@ -300,15 +297,17 @@
     "systemId": "fantastic-depths"
   },
   "_id": "rFNe5bmsCGq5FsHo",
+  "sort": 0,
   "_originalKey": "!actors!rFNe5bmsCGq5FsHo",
   "embedded": [
     {
-      "name": "Bite",
-      "type": "weapon",
-      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.7dkUzMLokSWOYK5F",
+      "name": "Dragon Scales",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The dragon bites, dealing 1d6+1 points of damage.</p>",
+        "description": "<p>The dragon's thick scales turn aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -319,57 +318,39 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "damageRoll": "1d6+1",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
+        "ac": 2,
+        "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
         "container": false,
         "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 2,
+        "totalAAC": 17,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Bite",
-        "unidentifiedDesc": "<p>The dragon bites, dealing 1d6+1 points of damage.</p>",
+        "unidentifiedName": "Dragon Scales",
+        "unidentifiedDesc": "<p>The dragon's thick scales turn aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
-        "dmgFormula": null,
+        "savingThrow": null,
         "healFormula": null,
+        "damageType": "",
         "isUsable": false,
-        "attacks": {
-          "group": 0,
-          "max": 1,
-          "used": 0
-        },
+        "av": "",
         "weightEquipped": null,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6+1"
+        "modRanged": 0,
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
       },
       "effects": [],
       "folder": null,
@@ -378,14 +359,104 @@
         "default": 0
       },
       "flags": {},
-      "_id": "aGOv3vuNF08NB5Pe",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.aGOv3vuNF08NB5Pe",
+      "_id": "7dkUzMLokSWOYK5F",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.GH9xeoHMXoZKCYty",
+      "name": "Spells or Magic Staff",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Spell",
+        "combatManeuver": "null",
+        "customSaveCode": "spell",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "GH9xeoHMXoZKCYty",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.RVasFNZ5F6bC34ui",
+      "name": "Death or Poison",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "8",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Death",
+        "combatManeuver": "null",
+        "customSaveCode": "death",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "RVasFNZ5F6bC34ui",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.XstR0ELa5mWt3Azj",
       "name": "Cold Breath",
       "type": "weapon",
       "img": "icons/creatures/abilities/dragon-ice-breath-blue.webp",
@@ -462,19 +533,19 @@
       },
       "flags": {},
       "_id": "XstR0ELa5mWt3Azj",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.XstR0ELa5mWt3Azj",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Dragon Scales",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.aGOv3vuNF08NB5Pe",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The dragon's thick scales turn aside blows.</p>",
+        "description": "<p>The dragon bites, dealing 1d6+1 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -485,39 +556,57 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 2,
-        "isShield": false,
+        "damageRoll": "1d6+1",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "",
+        "weaponType": "monster",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
         "totalWeight": 0,
         "totalCost": 0,
         "container": false,
         "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 2,
-        "totalAAC": 17,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Dragon Scales",
-        "unidentifiedDesc": "<p>The dragon's thick scales turn aside blows.</p>",
+        "canSet": false,
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The dragon bites, dealing 1d6+1 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
+        "isSlow": false,
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
-        "savingThrow": null,
+        "dmgFormula": null,
         "healFormula": null,
-        "damageType": "",
         "isUsable": false,
-        "av": "",
+        "attacks": {
+          "group": 0,
+          "max": 1,
+          "used": 0
+        },
         "weightEquipped": null,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 2,
-        "totalRangedAAC": 17
+        "damageLabel": "1d6+1"
       },
       "effects": [],
       "folder": null,
@@ -526,194 +615,14 @@
         "default": 0
       },
       "flags": {},
-      "_id": "7dkUzMLokSWOYK5F",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.7dkUzMLokSWOYK5F",
+      "_id": "aGOv3vuNF08NB5Pe",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Flight",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The dragon can fly at a speed of 24.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "v0eq3hdKXGqzYjiJ",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.v0eq3hdKXGqzYjiJ",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Saving Throw",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "12",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Save",
-        "combatManeuver": "null",
-        "customSaveCode": "save",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "leWQhYzZGPOtb4Hj",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.leWQhYzZGPOtb4Hj",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Death or Poison",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "8",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Death",
-        "combatManeuver": "null",
-        "customSaveCode": "death",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "RVasFNZ5F6bC34ui",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.RVasFNZ5F6bC34ui",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Wands or Rays",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "9",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Wand",
-        "combatManeuver": "null",
-        "customSaveCode": "wand",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "uZxLs8HSeSBUTEIV",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.uZxLs8HSeSBUTEIV",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.d0DU2vMarAg2ECx7",
       "name": "Stone or Paralysis",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -752,13 +661,148 @@
       },
       "flags": {},
       "_id": "d0DU2vMarAg2ECx7",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.d0DU2vMarAg2ECx7",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.leWQhYzZGPOtb4Hj",
+      "name": "Saving Throw",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "12",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Save",
+        "combatManeuver": "null",
+        "customSaveCode": "save",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "leWQhYzZGPOtb4Hj",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.uZxLs8HSeSBUTEIV",
+      "name": "Wands or Rays",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "9",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Wand",
+        "combatManeuver": "null",
+        "customSaveCode": "wand",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "uZxLs8HSeSBUTEIV",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.v0eq3hdKXGqzYjiJ",
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The dragon can fly at a speed of 24.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "v0eq3hdKXGqzYjiJ",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.zdlVfLzskXYLkN6f",
       "name": "Dragon Breath",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -797,52 +841,6 @@
       },
       "flags": {},
       "_id": "zdlVfLzskXYLkN6f",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.zdlVfLzskXYLkN6f",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Spells or Magic Staff",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "12",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Spell",
-        "combatManeuver": "null",
-        "customSaveCode": "spell",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "GH9xeoHMXoZKCYty",
-      "_originalKey": "!actors.items!rFNe5bmsCGq5FsHo.GH9xeoHMXoZKCYty",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

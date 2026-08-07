@@ -1,31 +1,10 @@
 {
-  "!folders!rMSHvZcsLsOsw0Vi": {
-    "name": "Monsters",
-    "sorting": "a",
-    "folder": null,
-    "type": "Actor",
-    "_id": "rMSHvZcsLsOsw0Vi",
-    "description": "",
-    "sort": 0,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.11.8",
-      "createdTime": 1753483083222,
-      "modifiedTime": 1753483083222,
-      "lastModifiedBy": "L03IyVhotkVVcouL"
-    }
-  },
-  "!folders!s12CYfXylYPtD2cR": {
-    "name": "Demon",
+  "!folders!33EG7qQIPHrW3bwW": {
+    "name": "Humans",
     "sorting": "a",
     "folder": "rMSHvZcsLsOsw0Vi",
     "type": "Actor",
-    "_id": "s12CYfXylYPtD2cR",
+    "_id": "33EG7qQIPHrW3bwW",
     "description": "",
     "sort": 0,
     "color": null,
@@ -62,12 +41,12 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!Xx7EISX4GhUh6UHH": {
-    "name": "Elementals",
+  "!folders!BAheqLqUIIbWIHqu": {
+    "name": "Blue",
     "sorting": "a",
-    "folder": "rMSHvZcsLsOsw0Vi",
+    "folder": "5UAdtLHHI2Tk8ynk",
     "type": "Actor",
-    "_id": "Xx7EISX4GhUh6UHH",
+    "_id": "BAheqLqUIIbWIHqu",
     "description": "",
     "sort": 0,
     "color": null,
@@ -83,75 +62,12 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!b8RUTpf0KKQhzepG": {
-    "name": "Giants",
+  "!folders!HKCIcGPT47R2fe0f": {
+    "name": "Gold",
     "sorting": "a",
-    "folder": "rMSHvZcsLsOsw0Vi",
+    "folder": "5UAdtLHHI2Tk8ynk",
     "type": "Actor",
-    "_id": "b8RUTpf0KKQhzepG",
-    "description": "",
-    "sort": 0,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.11.8",
-      "createdTime": 1753483083222,
-      "modifiedTime": 1753483083222,
-      "lastModifiedBy": "L03IyVhotkVVcouL"
-    }
-  },
-  "!folders!odIdRZ0IlgMnuyZd": {
-    "name": "Golems",
-    "sorting": "a",
-    "folder": "rMSHvZcsLsOsw0Vi",
-    "type": "Actor",
-    "_id": "odIdRZ0IlgMnuyZd",
-    "description": "",
-    "sort": 0,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.11.8",
-      "createdTime": 1753483083222,
-      "modifiedTime": 1753483083222,
-      "lastModifiedBy": "L03IyVhotkVVcouL"
-    }
-  },
-  "!folders!33EG7qQIPHrW3bwW": {
-    "name": "Humans",
-    "sorting": "a",
-    "folder": "rMSHvZcsLsOsw0Vi",
-    "type": "Actor",
-    "_id": "33EG7qQIPHrW3bwW",
-    "description": "",
-    "sort": 0,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.11.8",
-      "createdTime": 1753483083222,
-      "modifiedTime": 1753483083222,
-      "lastModifiedBy": "L03IyVhotkVVcouL"
-    }
-  },
-  "!folders!bDHXzhxQV3SNk16T": {
-    "name": "Hydra",
-    "sorting": "a",
-    "folder": "rMSHvZcsLsOsw0Vi",
-    "type": "Actor",
-    "_id": "bDHXzhxQV3SNk16T",
+    "_id": "HKCIcGPT47R2fe0f",
     "description": "",
     "sort": 0,
     "color": null,
@@ -230,12 +146,12 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!BAheqLqUIIbWIHqu": {
-    "name": "Blue",
+  "!folders!Q0L4xiN07muXb1xA": {
+    "name": "Treant",
     "sorting": "a",
-    "folder": "5UAdtLHHI2Tk8ynk",
+    "folder": "rMSHvZcsLsOsw0Vi",
     "type": "Actor",
-    "_id": "BAheqLqUIIbWIHqu",
+    "_id": "Q0L4xiN07muXb1xA",
     "description": "",
     "sort": 0,
     "color": null,
@@ -272,12 +188,75 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!HKCIcGPT47R2fe0f": {
-    "name": "Gold",
+  "!folders!Xx7EISX4GhUh6UHH": {
+    "name": "Elementals",
     "sorting": "a",
-    "folder": "5UAdtLHHI2Tk8ynk",
+    "folder": "rMSHvZcsLsOsw0Vi",
     "type": "Actor",
-    "_id": "HKCIcGPT47R2fe0f",
+    "_id": "Xx7EISX4GhUh6UHH",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!b8RUTpf0KKQhzepG": {
+    "name": "Giants",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "b8RUTpf0KKQhzepG",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!bDHXzhxQV3SNk16T": {
+    "name": "Hydra",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "bDHXzhxQV3SNk16T",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!jzVdYmGlHr7C5vYI": {
+    "name": "Vampire",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "jzVdYmGlHr7C5vYI",
     "description": "",
     "sort": 0,
     "color": null,
@@ -314,12 +293,12 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!Q0L4xiN07muXb1xA": {
-    "name": "Treant",
+  "!folders!odIdRZ0IlgMnuyZd": {
+    "name": "Golems",
     "sorting": "a",
     "folder": "rMSHvZcsLsOsw0Vi",
     "type": "Actor",
-    "_id": "Q0L4xiN07muXb1xA",
+    "_id": "odIdRZ0IlgMnuyZd",
     "description": "",
     "sort": 0,
     "color": null,
@@ -335,12 +314,33 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!jzVdYmGlHr7C5vYI": {
-    "name": "Vampire",
+  "!folders!rMSHvZcsLsOsw0Vi": {
+    "name": "Monsters",
+    "sorting": "a",
+    "folder": null,
+    "type": "Actor",
+    "_id": "rMSHvZcsLsOsw0Vi",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!s12CYfXylYPtD2cR": {
+    "name": "Demon",
     "sorting": "a",
     "folder": "rMSHvZcsLsOsw0Vi",
     "type": "Actor",
-    "_id": "jzVdYmGlHr7C5vYI",
+    "_id": "s12CYfXylYPtD2cR",
     "description": "",
     "sort": 0,
     "color": null,

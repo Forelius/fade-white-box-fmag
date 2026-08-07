@@ -184,11 +184,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -242,13 +239,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -272,7 +268,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "B5ZCh2ToIPdMpFrQ",
@@ -298,9 +295,56 @@
     "systemId": "fantastic-depths"
   },
   "_id": "t9pmwi5DyGQdzdK4",
+  "sort": 0,
   "_originalKey": "!actors!t9pmwi5DyGQdzdK4",
   "embedded": [
     {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.0mqkyeeSKulpIHFp",
+      "name": "Stone or Paralysis",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "14",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Stone",
+        "combatManeuver": "null",
+        "customSaveCode": "paralysis",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "0mqkyeeSKulpIHFp",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.B5ZCh2ToIPdMpFrQ",
       "name": "Sword",
       "type": "weapon",
       "img": "icons/weapons/swords/sword-simple-white.webp",
@@ -377,13 +421,13 @@
       },
       "flags": {},
       "_id": "B5ZCh2ToIPdMpFrQ",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.B5ZCh2ToIPdMpFrQ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.D5pjsywmjkT9fBIy",
       "name": "Orc Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
@@ -442,103 +486,13 @@
       },
       "flags": {},
       "_id": "D5pjsywmjkT9fBIy",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.D5pjsywmjkT9fBIy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>Most orcs are subterranean dwellers, and fight with a -1 penalty to-hit in sunlight.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "qkPvcJGauOypJGcH",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.qkPvcJGauOypJGcH",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Saving Throw",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "17",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Save",
-        "combatManeuver": "null",
-        "customSaveCode": "save",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "fiZlx6vLT8KGy3Um",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.fiZlx6vLT8KGy3Um",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.L2ghjUJdJjDd4shP",
       "name": "Death or Poison",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -577,13 +531,13 @@
       },
       "flags": {},
       "_id": "L2ghjUJdJjDd4shP",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.L2ghjUJdJjDd4shP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.OqZ38lc7bKP4Mzi1",
       "name": "Wands or Rays",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -622,14 +576,14 @@
       },
       "flags": {},
       "_id": "OqZ38lc7bKP4Mzi1",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.OqZ38lc7bKP4Mzi1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Stone or Paralysis",
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.fiZlx6vLT8KGy3Um",
+      "name": "Saving Throw",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -640,7 +594,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "17",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -650,9 +604,9 @@
         "healFormula": "",
         "damageType": "",
         "category": "save",
-        "shortName": "Stone",
+        "shortName": "Save",
         "combatManeuver": "null",
-        "customSaveCode": "paralysis",
+        "customSaveCode": "save",
         "classKey": "",
         "showResult": true,
         "quantity": 1,
@@ -666,14 +620,14 @@
         "default": 0
       },
       "flags": {},
-      "_id": "0mqkyeeSKulpIHFp",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.0mqkyeeSKulpIHFp",
+      "_id": "fiZlx6vLT8KGy3Um",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.hQ8ioGhL4tcTEkJf",
       "name": "Dragon Breath",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -712,13 +666,13 @@
       },
       "flags": {},
       "_id": "hQ8ioGhL4tcTEkJf",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.hQ8ioGhL4tcTEkJf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.qPK1gyjqqqmvOHex",
       "name": "Spells or Magic Staff",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -757,7 +711,51 @@
       },
       "flags": {},
       "_id": "qPK1gyjqqqmvOHex",
-      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.qPK1gyjqqqmvOHex",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!t9pmwi5DyGQdzdK4.qkPvcJGauOypJGcH",
+      "name": "Sunlight Penalty",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Most orcs are subterranean dwellers, and fight with a -1 penalty to-hit in sunlight.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "qkPvcJGauOypJGcH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

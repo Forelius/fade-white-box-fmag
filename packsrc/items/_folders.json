@@ -1,4 +1,25 @@
 {
+  "!folders!1YQicilxTtDv8t2C": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 5",
+    "color": null,
+    "sorting": "a",
+    "_id": "1YQicilxTtDv8t2C",
+    "description": "",
+    "sort": 400000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
   "!folders!1v7MsNLqeuig673i": {
     "name": "Gems",
     "sorting": "a",
@@ -20,6 +41,67 @@
       "lastModifiedBy": null
     }
   },
+  "!folders!2EAMCQ0rY5kaG9eB": {
+    "name": "Potions",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "2EAMCQ0rY5kaG9eB",
+    "description": "",
+    "sort": 300000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!4vNK7oXkT8eVqcA3": {
+    "name": "Rings",
+    "sorting": "a",
+    "folder": "e7RvbK6nra5DPzpo",
+    "type": "Item",
+    "_id": "4vNK7oXkT8eVqcA3",
+    "description": "",
+    "sort": 200000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!4y3W8RLJ3mNhEsVy": {
+    "name": "Other",
+    "sorting": "a",
+    "folder": "LAHxtnVdlWmmKJPS",
+    "type": "Item",
+    "_id": "4y3W8RLJ3mNhEsVy",
+    "description": "",
+    "sort": 1000000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
   "!folders!6wIusiB0Li3lql8T": {
     "type": "Item",
     "folder": "JAPsWVSDGP2OeBwv",
@@ -29,86 +111,6 @@
     "_id": "6wIusiB0Li3lql8T",
     "description": "",
     "sort": 0,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!InFPCFwBcm9h2cGU": {
-    "type": "Item",
-    "folder": "JAPsWVSDGP2OeBwv",
-    "name": "Level 2",
-    "color": null,
-    "sorting": "a",
-    "_id": "InFPCFwBcm9h2cGU",
-    "description": "",
-    "sort": 100000,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!Xx93i8Am4Jhi9hrH": {
-    "type": "Item",
-    "folder": "JAPsWVSDGP2OeBwv",
-    "name": "Level 3",
-    "color": null,
-    "sorting": "a",
-    "_id": "Xx93i8Am4Jhi9hrH",
-    "description": "",
-    "sort": 200000,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!EOi0fNPIiQgeGqJB": {
-    "type": "Item",
-    "folder": "JAPsWVSDGP2OeBwv",
-    "name": "Level 4",
-    "color": null,
-    "sorting": "a",
-    "_id": "EOi0fNPIiQgeGqJB",
-    "description": "",
-    "sort": 300000,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!L73eFrKqmS7uG9bE": {
-    "type": "Item",
-    "folder": "JAPsWVSDGP2OeBwv",
-    "name": "Level 5",
-    "color": null,
-    "sorting": "a",
-    "_id": "L73eFrKqmS7uG9bE",
-    "description": "",
-    "sort": 400000,
     "flags": {},
     "_stats": {
       "compendiumSource": null,
@@ -225,6 +227,26 @@
       "lastModifiedBy": "kS3rwnTPpIltZGhF"
     }
   },
+  "!folders!EOi0fNPIiQgeGqJB": {
+    "type": "Item",
+    "folder": "JAPsWVSDGP2OeBwv",
+    "name": "Level 4",
+    "color": null,
+    "sorting": "a",
+    "_id": "EOi0fNPIiQgeGqJB",
+    "description": "",
+    "sort": 300000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
   "!folders!GS7EOEGEZk6UwIUu": {
     "name": "Halfling",
     "type": "Item",
@@ -244,6 +266,45 @@
       "createdTime": 1742605131555,
       "modifiedTime": 1742605131555,
       "lastModifiedBy": "39ANqKV80WQNa3A0"
+    }
+  },
+  "!folders!InFPCFwBcm9h2cGU": {
+    "type": "Item",
+    "folder": "JAPsWVSDGP2OeBwv",
+    "name": "Level 2",
+    "color": null,
+    "sorting": "a",
+    "_id": "InFPCFwBcm9h2cGU",
+    "description": "",
+    "sort": 100000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!Inqecd8geUfmHaua": {
+    "name": "Staves",
+    "sorting": "a",
+    "folder": "e7RvbK6nra5DPzpo",
+    "type": "Item",
+    "_id": "Inqecd8geUfmHaua",
+    "description": "",
+    "sort": 300000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
     }
   },
   "!folders!JAPsWVSDGP2OeBwv": {
@@ -308,76 +369,13 @@
       "modifiedTime": 1753563249870
     }
   },
-  "!folders!lfFAwvi9p4mKrmqq": {
+  "!folders!L73eFrKqmS7uG9bE": {
     "type": "Item",
-    "folder": "atXOONr4lBcaCzJV",
-    "name": "Level 2",
-    "color": null,
-    "sorting": "a",
-    "_id": "lfFAwvi9p4mKrmqq",
-    "description": "",
-    "sort": 100000,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": "L03IyVhotkVVcouL",
-      "modifiedTime": 1753563249870
-    }
-  },
-  "!folders!a5BLnpB0xz1ueAZJ": {
-    "type": "Item",
-    "folder": "atXOONr4lBcaCzJV",
-    "name": "Level 3",
-    "color": null,
-    "sorting": "a",
-    "_id": "a5BLnpB0xz1ueAZJ",
-    "description": "",
-    "sort": 200000,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": "L03IyVhotkVVcouL",
-      "modifiedTime": 1753563249870
-    }
-  },
-  "!folders!e7WpVKn2OAKkj2NJ": {
-    "type": "Item",
-    "folder": "atXOONr4lBcaCzJV",
-    "name": "Level 4",
-    "color": null,
-    "sorting": "a",
-    "_id": "e7WpVKn2OAKkj2NJ",
-    "description": "",
-    "sort": 300000,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": "L03IyVhotkVVcouL",
-      "modifiedTime": 1753563249870
-    }
-  },
-  "!folders!1YQicilxTtDv8t2C": {
-    "type": "Item",
-    "folder": "atXOONr4lBcaCzJV",
+    "folder": "JAPsWVSDGP2OeBwv",
     "name": "Level 5",
     "color": null,
     "sorting": "a",
-    "_id": "1YQicilxTtDv8t2C",
+    "_id": "L73eFrKqmS7uG9bE",
     "description": "",
     "sort": 400000,
     "flags": {},
@@ -388,29 +386,7 @@
       "coreVersion": "13.346",
       "systemId": "fantastic-depths",
       "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": "L03IyVhotkVVcouL",
-      "modifiedTime": 1753563249870
-    }
-  },
-  "!folders!yFiWu9JGcU5cESq0": {
-    "type": "Item",
-    "folder": "atXOONr4lBcaCzJV",
-    "name": "Level 6",
-    "color": null,
-    "sorting": "a",
-    "_id": "yFiWu9JGcU5cESq0",
-    "description": "",
-    "sort": 500000,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "exportSource": null,
-      "coreVersion": "13.346",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "lastModifiedBy": "L03IyVhotkVVcouL",
-      "modifiedTime": 1753563249870
+      "lastModifiedBy": null
     }
   },
   "!folders!LAHxtnVdlWmmKJPS": {
@@ -518,6 +494,131 @@
       "lastModifiedBy": "39ANqKV80WQNa3A0"
     }
   },
+  "!folders!UFO8uAobyp4cxDHf": {
+    "name": "Magic Armor",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "UFO8uAobyp4cxDHf",
+    "description": "",
+    "sort": 600000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!VbCra165kTiVUeaA": {
+    "name": "Magic Ammo",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "VbCra165kTiVUeaA",
+    "description": "",
+    "sort": 650000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!Xx93i8Am4Jhi9hrH": {
+    "type": "Item",
+    "folder": "JAPsWVSDGP2OeBwv",
+    "name": "Level 3",
+    "color": null,
+    "sorting": "a",
+    "_id": "Xx93i8Am4Jhi9hrH",
+    "description": "",
+    "sort": 200000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!ZvOp2gG8LPEk9rjV": {
+    "name": "Magic Weapons",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "ZvOp2gG8LPEk9rjV",
+    "description": "",
+    "sort": 500000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!a5BLnpB0xz1ueAZJ": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 3",
+    "color": null,
+    "sorting": "a",
+    "_id": "a5BLnpB0xz1ueAZJ",
+    "description": "",
+    "sort": 200000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
+  "!folders!anhkKjKMQuwd6E4c": {
+    "name": "Cursed",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "anhkKjKMQuwd6E4c",
+    "description": "",
+    "sort": 550000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
   "!folders!atXOONr4lBcaCzJV": {
     "type": "Item",
     "folder": "wohitkwC5wM3hcZd",
@@ -535,6 +636,48 @@
       "coreVersion": "13.346",
       "systemId": "fantastic-depths",
       "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!bRpI5zzuv5USlwZW": {
+    "name": "Scrolls - Magic-User",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "bRpI5zzuv5USlwZW",
+    "description": "",
+    "sort": 420000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!cDkRL3WYbkVCLPSX": {
+    "name": "Scrolls - Cleric",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "cDkRL3WYbkVCLPSX",
+    "description": "",
+    "sort": 410000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
       "lastModifiedBy": null
     }
   },
@@ -559,6 +702,27 @@
       "lastModifiedBy": "39ANqKV80WQNa3A0"
     }
   },
+  "!folders!dzuOSIxKf4HDotv9": {
+    "name": "Other",
+    "sorting": "a",
+    "folder": "wohitkwC5wM3hcZd",
+    "type": "Item",
+    "_id": "dzuOSIxKf4HDotv9",
+    "description": "",
+    "sort": 100000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
   "!folders!e4MHzfcZGPAOJt8x": {
     "name": "Dwarf",
     "type": "Item",
@@ -580,6 +744,48 @@
       "lastModifiedBy": "39ANqKV80WQNa3A0"
     }
   },
+  "!folders!e7RvbK6nra5DPzpo": {
+    "name": "Misc. Magic Items",
+    "sorting": "a",
+    "folder": "pRYaQfCMDV0OA57l",
+    "type": "Item",
+    "_id": "e7RvbK6nra5DPzpo",
+    "description": "",
+    "sort": 700000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
+  "!folders!e7WpVKn2OAKkj2NJ": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 4",
+    "color": null,
+    "sorting": "a",
+    "_id": "e7WpVKn2OAKkj2NJ",
+    "description": "",
+    "sort": 300000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
+    }
+  },
   "!folders!j4h5O533LcqZheV3": {
     "name": "Alternate",
     "sorting": "a",
@@ -599,6 +805,27 @@
       "createdTime": null,
       "modifiedTime": null,
       "lastModifiedBy": null
+    }
+  },
+  "!folders!lfFAwvi9p4mKrmqq": {
+    "type": "Item",
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 2",
+    "color": null,
+    "sorting": "a",
+    "_id": "lfFAwvi9p4mKrmqq",
+    "description": "",
+    "sort": 100000,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null,
+      "coreVersion": "13.346",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
     }
   },
   "!folders!mNmtATMCAjwUeGOs": {
@@ -685,6 +912,27 @@
       "lastModifiedBy": "kS3rwnTPpIltZGhF"
     }
   },
+  "!folders!oWgfidEbp47i2Lsi": {
+    "name": "Wands",
+    "sorting": "a",
+    "folder": "e7RvbK6nra5DPzpo",
+    "type": "Item",
+    "_id": "oWgfidEbp47i2Lsi",
+    "description": "",
+    "sort": 100000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
+    }
+  },
   "!folders!p1aj0Sz0kq5wdoye": {
     "name": "Misc",
     "sorting": "a",
@@ -704,6 +952,27 @@
       "createdTime": null,
       "modifiedTime": 1763936111418,
       "lastModifiedBy": "kS3rwnTPpIltZGhF"
+    }
+  },
+  "!folders!pRYaQfCMDV0OA57l": {
+    "name": "Magic Items",
+    "sorting": "a",
+    "folder": null,
+    "type": "Item",
+    "_id": "pRYaQfCMDV0OA57l",
+    "description": "",
+    "sort": 450000,
+    "color": "#3a1d52",
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "#{VERSION}#",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null
     }
   },
   "!folders!rYswROzeQUlWS1Uo": {
@@ -769,69 +1038,6 @@
       "lastModifiedBy": "kS3rwnTPpIltZGhF"
     }
   },
-  "!folders!wohitkwC5wM3hcZd": {
-    "name": "Spells",
-    "sorting": "a",
-    "folder": null,
-    "type": "Item",
-    "_id": "wohitkwC5wM3hcZd",
-    "description": "",
-    "sort": 1200000,
-    "color": "#2e2b59",
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.12.0-rc.2",
-      "createdTime": 1753562676736,
-      "modifiedTime": 1763936111418,
-      "lastModifiedBy": "kS3rwnTPpIltZGhF"
-    }
-  },
-  "!folders!z35KFMVUIiDBzg5O": {
-    "name": "Magic-User",
-    "type": "Item",
-    "_id": "z35KFMVUIiDBzg5O",
-    "description": "",
-    "folder": "LAHxtnVdlWmmKJPS",
-    "sorting": "a",
-    "sort": 600000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.331",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.8.2-rc.4",
-      "createdTime": 1742605131555,
-      "modifiedTime": 1742605131555,
-      "lastModifiedBy": "39ANqKV80WQNa3A0"
-    }
-  },
-  "!folders!2EAMCQ0rY5kaG9eB": {
-    "name": "Potions",
-    "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
-    "type": "Item",
-    "_id": "2EAMCQ0rY5kaG9eB",
-    "description": "",
-    "sort": 300000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
   "!folders!wliOTfPQdVCRJAgr": {
     "name": "Scrolls",
     "sorting": "a",
@@ -853,273 +1059,67 @@
       "lastModifiedBy": null
     }
   },
-  "!folders!cDkRL3WYbkVCLPSX": {
-    "name": "Scrolls - Cleric",
+  "!folders!wohitkwC5wM3hcZd": {
+    "name": "Spells",
     "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
+    "folder": null,
     "type": "Item",
-    "_id": "cDkRL3WYbkVCLPSX",
+    "_id": "wohitkwC5wM3hcZd",
     "description": "",
-    "sort": 410000,
-    "color": null,
+    "sort": 1200000,
+    "color": "#2e2b59",
     "flags": {},
     "_stats": {
       "compendiumSource": null,
       "duplicateSource": null,
       "coreVersion": "12.343",
       "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
+      "systemVersion": "0.12.0-rc.2",
+      "createdTime": 1753562676736,
+      "modifiedTime": 1763936111418,
+      "lastModifiedBy": "kS3rwnTPpIltZGhF"
     }
   },
-  "!folders!bRpI5zzuv5USlwZW": {
-    "name": "Scrolls - Magic-User",
-    "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
+  "!folders!yFiWu9JGcU5cESq0": {
     "type": "Item",
-    "_id": "bRpI5zzuv5USlwZW",
-    "description": "",
-    "sort": 420000,
+    "folder": "atXOONr4lBcaCzJV",
+    "name": "Level 6",
     "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!ZvOp2gG8LPEk9rjV": {
-    "name": "Magic Weapons",
     "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
-    "type": "Item",
-    "_id": "ZvOp2gG8LPEk9rjV",
+    "_id": "yFiWu9JGcU5cESq0",
     "description": "",
     "sort": 500000,
-    "color": null,
     "flags": {},
     "_stats": {
       "compendiumSource": null,
       "duplicateSource": null,
-      "coreVersion": "12.343",
+      "exportSource": null,
+      "coreVersion": "13.346",
       "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
+      "systemVersion": "0.12.0-rc.2",
+      "lastModifiedBy": "L03IyVhotkVVcouL",
+      "modifiedTime": 1753563249870
     }
   },
-  "!folders!UFO8uAobyp4cxDHf": {
-    "name": "Magic Armor",
-    "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
+  "!folders!z35KFMVUIiDBzg5O": {
+    "name": "Magic-User",
     "type": "Item",
-    "_id": "UFO8uAobyp4cxDHf",
+    "_id": "z35KFMVUIiDBzg5O",
     "description": "",
+    "folder": "LAHxtnVdlWmmKJPS",
+    "sorting": "a",
     "sort": 600000,
     "color": null,
     "flags": {},
     "_stats": {
       "compendiumSource": null,
       "duplicateSource": null,
-      "coreVersion": "12.343",
+      "coreVersion": "12.331",
       "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!anhkKjKMQuwd6E4c": {
-    "name": "Cursed",
-    "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
-    "type": "Item",
-    "_id": "anhkKjKMQuwd6E4c",
-    "description": "",
-    "sort": 550000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!VbCra165kTiVUeaA": {
-    "name": "Magic Ammo",
-    "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
-    "type": "Item",
-    "_id": "VbCra165kTiVUeaA",
-    "description": "",
-    "sort": 650000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!e7RvbK6nra5DPzpo": {
-    "name": "Misc. Magic Items",
-    "sorting": "a",
-    "folder": "pRYaQfCMDV0OA57l",
-    "type": "Item",
-    "_id": "e7RvbK6nra5DPzpo",
-    "description": "",
-    "sort": 700000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!oWgfidEbp47i2Lsi": {
-    "name": "Wands",
-    "sorting": "a",
-    "folder": "e7RvbK6nra5DPzpo",
-    "type": "Item",
-    "_id": "oWgfidEbp47i2Lsi",
-    "description": "",
-    "sort": 100000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!4vNK7oXkT8eVqcA3": {
-    "name": "Rings",
-    "sorting": "a",
-    "folder": "e7RvbK6nra5DPzpo",
-    "type": "Item",
-    "_id": "4vNK7oXkT8eVqcA3",
-    "description": "",
-    "sort": 200000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!Inqecd8geUfmHaua": {
-    "name": "Staves",
-    "sorting": "a",
-    "folder": "e7RvbK6nra5DPzpo",
-    "type": "Item",
-    "_id": "Inqecd8geUfmHaua",
-    "description": "",
-    "sort": 300000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!pRYaQfCMDV0OA57l": {
-    "name": "Magic Items",
-    "sorting": "a",
-    "folder": null,
-    "type": "Item",
-    "_id": "pRYaQfCMDV0OA57l",
-    "description": "",
-    "sort": 450000,
-    "color": "#3a1d52",
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!dzuOSIxKf4HDotv9": {
-    "name": "Other",
-    "sorting": "a",
-    "folder": "wohitkwC5wM3hcZd",
-    "type": "Item",
-    "_id": "dzuOSIxKf4HDotv9",
-    "description": "",
-    "sort": 100000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
-    }
-  },
-  "!folders!4y3W8RLJ3mNhEsVy": {
-    "name": "Other",
-    "sorting": "a",
-    "folder": "LAHxtnVdlWmmKJPS",
-    "type": "Item",
-    "_id": "4y3W8RLJ3mNhEsVy",
-    "description": "",
-    "sort": 1000000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "#{VERSION}#",
-      "createdTime": null,
-      "modifiedTime": null,
-      "lastModifiedBy": null
+      "systemVersion": "0.8.2-rc.4",
+      "createdTime": 1742605131555,
+      "modifiedTime": 1742605131555,
+      "lastModifiedBy": "39ANqKV80WQNa3A0"
     }
   }
 }

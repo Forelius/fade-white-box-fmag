@@ -1,0 +1,105 @@
+{
+  "name": "Minor Gem/Jewelry",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 1d6 to determine the value, in gold pieces, of a single minor gem or piece of jewelry (used for a 100 gp trade out).</p>",
+  "results": [
+    "SFWMExLy3t73GoO5",
+    "Lj1mUx6SOISjYh4t",
+    "6Ylx6GLONvhdvMj7",
+    "sUNjUbzQHnR9olA9"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "T2AanY5Ycw2zacSW",
+  "sort": 0,
+  "_originalKey": "!tables!T2AanY5Ycw2zacSW",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!T2AanY5Ycw2zacSW.6Ylx6GLONvhdvMj7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "_id": "6Ylx6GLONvhdvMj7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d100 + 75 gp [[1d100+75]]"
+    },
+    {
+      "_originalKey": "!tables.results!T2AanY5Ycw2zacSW.Lj1mUx6SOISjYh4t",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        3
+      ],
+      "drawn": false,
+      "_id": "Lj1mUx6SOISjYh4t",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d100 + 25 gp [[1d100+25]]"
+    },
+    {
+      "_originalKey": "!tables.results!T2AanY5Ycw2zacSW.SFWMExLy3t73GoO5",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "SFWMExLy3t73GoO5",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d6 gp [[1d6]]"
+    },
+    {
+      "_originalKey": "!tables.results!T2AanY5Ycw2zacSW.sUNjUbzQHnR9olA9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "sUNjUbzQHnR9olA9",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "1d100 x 10 gp [[1d100*10]]"
+    }
+  ]
+}

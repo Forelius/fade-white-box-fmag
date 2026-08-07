@@ -42,8 +42,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "XP × 1 (50% cp, 30% sp, 20% gp)",
-      "text": "XP × 1 (50% cp, 30% sp, 20% gp)"
+      "name": "XP × 1 (50% cp, 30% sp, 20% gp)"
     },
     {
       "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.TJi9Tx7ugsvnQWQu",
@@ -62,28 +61,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "XP × 2 (20% cp, 50% sp, 30% gp)",
-      "text": "XP × 2 (20% cp, 50% sp, 30% gp)"
-    },
-    {
-      "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.lRnp1lzAotvJSvXk",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        5
-      ],
-      "drawn": false,
-      "_id": "lRnp1lzAotvJSvXk",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "XP × 3 (10% cp, 40% sp, 50% gp)",
-      "text": "XP × 3 (10% cp, 40% sp, 50% gp)"
+      "name": "XP × 2 (20% cp, 50% sp, 30% gp)"
     },
     {
       "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.ZzGmHaG4NSfhBaCk",
@@ -102,8 +80,26 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "XP × 4 (25% sp, 75% gp)",
-      "text": "XP × 4 (25% sp, 75% gp)"
+      "name": "XP × 4 (25% sp, 75% gp)"
+    },
+    {
+      "_originalKey": "!tables.results!GlHLQSWuKcgMjswz.lRnp1lzAotvJSvXk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "_id": "lRnp1lzAotvJSvXk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "XP × 3 (10% cp, 40% sp, 50% gp)"
     }
   ]
 }

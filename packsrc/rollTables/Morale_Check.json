@@ -43,8 +43,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Flee",
-      "text": "Flee"
+      "name": "Flee"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.4v4z01OrMQLIe6y0",
@@ -63,8 +62,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Surrender",
-      "text": "Surrender"
+      "name": "Surrender"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.77yhAIgshd7o0AFt",
@@ -83,8 +81,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Fight for advantage",
-      "text": "Fight for advantage"
+      "name": "Fight for advantage"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.AGGYudQt8P5c4Fmv",
@@ -103,8 +100,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Attack!",
-      "text": "Attack!"
+      "name": "Attack!"
     },
     {
       "_originalKey": "!tables.results!WNQhiRA6flmlQp3C.iQWair1Vxm3NqECC",
@@ -123,8 +119,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Hold",
-      "text": "Hold"
+      "name": "Hold"
     }
   ]
 }

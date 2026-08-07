@@ -184,11 +184,8 @@
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "tint": "#ffffff",
       "alphaThreshold": 0.75
@@ -242,13 +239,12 @@
       "saturation": -1,
       "contrast": 0
     },
-    "detectionModes": [
-      {
-        "id": "basicSight",
+    "detectionModes": {
+      "basicSight": {
         "enabled": true,
         "range": 60
       }
-    ],
+    },
     "occludable": {
       "radius": 0
     },
@@ -272,7 +268,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "items": [
     "L9XA3NJJBEUgRZka",
@@ -298,9 +295,56 @@
     "systemId": "fantastic-depths"
   },
   "_id": "9nh5nb7o7bXW3jy3",
+  "sort": 0,
   "_originalKey": "!actors!9nh5nb7o7bXW3jy3",
   "embedded": [
     {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.6FknYOhijx4exUKU",
+      "name": "Dragon Breath",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "description": "",
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "1d20",
+        "operator": "gte",
+        "target": "15",
+        "rollMode": "publicroll",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "savingThrow": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "save",
+        "shortName": "Breath",
+        "combatManeuver": "null",
+        "customSaveCode": "breath",
+        "classKey": "",
+        "showResult": true,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": []
+      },
+      "effects": [],
+      "folder": "OR1oqiLvw7LWXY42",
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "6FknYOhijx4exUKU",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.L9XA3NJJBEUgRZka",
       "name": "Spear",
       "type": "weapon",
       "img": "icons/weapons/polearms/spear-flared-blue.webp",
@@ -377,13 +421,58 @@
       },
       "flags": {},
       "_id": "L9XA3NJJBEUgRZka",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.L9XA3NJJBEUgRZka",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.OkkkuHJ8HnwOTAg8",
+      "name": "City Guard",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Human soldiers serve as city guard, mercenaries, and men-at-arms. For every five city guards there is usually a sergeant.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "OkkkuHJ8HnwOTAg8",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.SBi3UPkMpTlmOFZn",
       "name": "Leather Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
@@ -442,103 +531,13 @@
       },
       "flags": {},
       "_id": "SBi3UPkMpTlmOFZn",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.SBi3UPkMpTlmOFZn",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "City Guard",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>Human soldiers serve as city guard, mercenaries, and men-at-arms. For every five city guards there is usually a sergeant.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "OkkkuHJ8HnwOTAg8",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.OkkkuHJ8HnwOTAg8",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Saving Throw",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "18",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Save",
-        "combatManeuver": "null",
-        "customSaveCode": "save",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "nDOIRmWNecop7qWW",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.nDOIRmWNecop7qWW",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.cuK5OjeX6OQFGZGH",
       "name": "Death or Poison",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -577,13 +576,13 @@
       },
       "flags": {},
       "_id": "cuK5OjeX6OQFGZGH",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.cuK5OjeX6OQFGZGH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.eJeYtPXnp7LgcVSl",
       "name": "Wands or Rays",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -622,13 +621,13 @@
       },
       "flags": {},
       "_id": "eJeYtPXnp7LgcVSl",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.eJeYtPXnp7LgcVSl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.jCsd0XqWMqNh4UeU",
       "name": "Stone or Paralysis",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -667,14 +666,14 @@
       },
       "flags": {},
       "_id": "jCsd0XqWMqNh4UeU",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.jCsd0XqWMqNh4UeU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Dragon Breath",
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.nDOIRmWNecop7qWW",
+      "name": "Saving Throw",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -685,7 +684,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "18",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -695,9 +694,9 @@
         "healFormula": "",
         "damageType": "",
         "category": "save",
-        "shortName": "Breath",
+        "shortName": "Save",
         "combatManeuver": "null",
-        "customSaveCode": "breath",
+        "customSaveCode": "save",
         "classKey": "",
         "showResult": true,
         "quantity": 1,
@@ -711,14 +710,14 @@
         "default": 0
       },
       "flags": {},
-      "_id": "6FknYOhijx4exUKU",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.6FknYOhijx4exUKU",
+      "_id": "nDOIRmWNecop7qWW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
+      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.qcgKXQdZDlegyR4T",
       "name": "Spells or Magic Staff",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
@@ -757,7 +756,6 @@
       },
       "flags": {},
       "_id": "qcgKXQdZDlegyR4T",
-      "_originalKey": "!actors.items!9nh5nb7o7bXW3jy3.qcgKXQdZDlegyR4T",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

@@ -1,0 +1,47 @@
+{
+  "name": "TestTable",
+  "_id": "kYDuFerTLyIw8xii",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    "xoWgSwezREI3q4Ay"
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0kFmVO1NHRXv2kT2": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "",
+  "_originalKey": "!tables!kYDuFerTLyIw8xii",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!kYDuFerTLyIw8xii.xoWgSwezREI3q4Ay",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "xoWgSwezREI3q4Ay",
+      "name": "Test 1",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.XBNstL9SQIcjwZhg]{Potion of Animal Control}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.XBNstL9SQIcjwZhg]{Potion of Animal Control}</p>"
+    }
+  ]
+}

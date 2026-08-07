@@ -81,32 +81,30 @@
       "img": "icons/svg/aura.svg",
       "origin": "Item.XAptnvwKbf23Bits",
       "duration": {
-        "rounds": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "DfjEBf6PYUOXwtRS",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.save.spell",
-          "mode": 2,
-          "value": "4",
-          "priority": null
-        },
-        {
-          "key": "system.mod.save.wand",
-          "mode": 2,
-          "value": "4",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.save.spell",
+            "value": 4,
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "key": "system.mod.save.wand",
+            "value": 4,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "<p>Halflings possess a degree of immunity to magic, receiving a +4 bonus on saving throws against magical effects, even if the \"Saving Throw Matrix\" is utilized.</p>",
       "tint": "#ffffff",
       "transfer": true,
@@ -116,7 +114,10 @@
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     },
     {
       "_originalKey": "!items.effects!XAptnvwKbf23Bits.f911XOOxJoX9UDTI",
@@ -124,26 +125,24 @@
       "img": "icons/svg/aura.svg",
       "origin": "Item.XAptnvwKbf23Bits",
       "duration": {
-        "rounds": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "f911XOOxJoX9UDTI",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.combat.toHitRanged",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.combat.toHitRanged",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "<p>Halflings receive a +2 bonus to their \"to-hit\" rolls when using missile weapons in combat.</p>",
       "tint": "#ffffff",
       "transfer": true,
@@ -153,7 +152,10 @@
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }

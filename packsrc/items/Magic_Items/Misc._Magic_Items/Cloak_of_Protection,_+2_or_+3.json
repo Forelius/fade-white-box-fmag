@@ -59,68 +59,29 @@
   "_originalKey": "!items!m3fK9eBADm66Sra1",
   "embedded": [
     {
-      "_originalKey": "!items.effects!m3fK9eBADm66Sra1.vcQ5ytQYNJxtMfan",
-      "name": "+2 AC",
-      "img": "icons/svg/aura.svg",
-      "origin": null,
-      "duration": {
-        "rounds": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "disabled": false,
-      "_id": "vcQ5ytQYNJxtMfan",
-      "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.ac",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        }
-      ],
-      "description": "",
-      "tint": "#ffffff",
-      "transfer": true,
-      "statuses": [],
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
       "_originalKey": "!items.effects!m3fK9eBADm66Sra1.Z3TamwfMAcnutY98",
       "name": "+2 Saving Throws",
       "img": "icons/svg/aura.svg",
       "origin": null,
       "duration": {
-        "rounds": null,
-        "startTime": null,
-        "seconds": null,
-        "combat": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
       },
       "disabled": false,
       "_id": "Z3TamwfMAcnutY98",
       "type": "base",
-      "system": {},
-      "changes": [
-        {
-          "key": "system.mod.save.all",
-          "mode": 2,
-          "value": "2",
-          "priority": null
-        }
-      ],
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.save.all",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
       "description": "",
       "tint": "#ffffff",
       "transfer": true,
@@ -130,7 +91,48 @@
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
-      }
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
+    },
+    {
+      "_originalKey": "!items.effects!m3fK9eBADm66Sra1.vcQ5ytQYNJxtMfan",
+      "name": "+2 AC",
+      "img": "icons/svg/aura.svg",
+      "origin": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "disabled": false,
+      "_id": "vcQ5ytQYNJxtMfan",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.mod.ac",
+            "value": 2,
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null
     }
   ]
 }
