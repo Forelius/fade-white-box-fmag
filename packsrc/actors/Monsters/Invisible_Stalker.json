@@ -1,17 +1,17 @@
 {
-  "name": "Giant, Cloud",
+  "name": "Invisible Stalker",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Neutral",
-      "size": "G",
-      "morale": 10,
-      "xpAward": 2300,
+      "size": "M",
+      "morale": 12,
+      "xpAward": 1100,
       "attacks": "1",
-      "abilityCount": 1,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F12",
+      "abilityCount": 3,
+      "monsterType": "Planar Monster",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
@@ -19,31 +19,31 @@
       "weight": ""
     },
     "hp": {
-      "hd": "12+2",
-      "value": 56,
-      "max": 56
+      "hd": "8",
+      "value": 36,
+      "max": 36
     },
     "na": {
-      "wandering": "1d2",
-      "lair": "1d3"
+      "wandering": "1",
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 9,
+      "value": 11,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Cloud giants are cunning beasts, often living in cloud-castles in the sky (hence their name). They throw rocks for 6d6 hit points of damage. Cloud giants are famous for their ability to smell out food, enemies, and Englishmen.</p><p><strong>Weapon Damage:</strong> 3d6.<br><strong>Rock Damage:</strong> 6d6, up to 200 range.<br><strong>Terrain:</strong> Mountains, Sky.<br></p>",
-    "wrestling": 35,
+    "biography": "<p>Invisible stalkers are generally only found as a result of the spell Invisible Stalker. They are invisible flying beings created to follow a single command made by the caster.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 3,
+      "nakedAAC": 16,
+      "value": 3,
+      "total": 3,
+      "totalAAC": 16,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 3,
+      "nakedRangedAAC": 16,
+      "totalRanged": 3,
+      "totalRangedAAC": 16,
       "av": "0"
     },
-    "thbonus": 10,
+    "thbonus": 8,
     "initiative": {
       "value": 0
     },
@@ -121,17 +121,17 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
-        "value": 16,
-        "total": 16,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
       "con": {
-        "value": 26,
-        "total": 26,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
@@ -171,16 +171,16 @@
       "run": 0
     },
     "actorGroups": [
-      "giantkind",
-      "weapon-using"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Cloud Giant",
+    "name": "Invisible Stalker",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 1,
+    "height": 1,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -276,15 +276,17 @@
     "movementAction": null
   },
   "items": [
-    "7Sgr9eXDMcH9LTKd",
-    "PiwwsDXGrE62xh8h",
-    "A1P6Xr3cffdBNrb0",
-    "VcukJllZU3LXFhlr",
-    "RnbzEdrQyNZXdWI3",
-    "tzslOpgav2VyMNiS",
-    "RNRq8vREYZIWjQPq",
-    "GHmsQ2HdiSLofMvB",
-    "ekMHfRx9RcGoZu2U"
+    "HoZLUwmTVIfH21En",
+    "cfedSrR3zFYEUoeu",
+    "9RHvdjxveN9FBYNa",
+    "qd7PSGDwy9LDBcVN",
+    "vc2caCQblqDpy7hX",
+    "SFqefH9CrCQMPd4S",
+    "1FGSEvAV9ZxRAOQW",
+    "qkHDPdtsAfEQ8QF5",
+    "wVBV2ZFyUoGJor3a",
+    "DxgvutCCBNzr50Tv",
+    "CNnLY54WZ3RJv1v8"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -298,16 +300,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "wCF8V3FvyuEH2cYJ",
-  "_originalKey": "!actors!wCF8V3FvyuEH2cYJ",
+  "_id": "lORmxTgyZQ5mTJN8",
+  "_originalKey": "!actors!lORmxTgyZQ5mTJN8",
   "embedded": [
     {
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.A1P6Xr3cffdBNrb0",
-      "name": "Thick Skin",
-      "type": "armor",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "",
+        "description": "<p>The invisible stalker strikes its foe, dealing 2d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -318,72 +320,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Pale Robes (Armor)",
-        "unidentifiedDesc": "<p>Pale robes that provides a Armor Class of 4.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "A1P6Xr3cffdBNrb0",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.7Sgr9eXDMcH9LTKd",
-      "name": "Giant Weapon",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "<p>The giant swings its massive weapon with devastating force.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "3d6",
+        "damageRoll": "2d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -391,7 +328,7 @@
         "savingThrow": "",
         "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -412,103 +349,20 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Giant Weapon",
-        "unidentifiedDesc": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The invisible stalker strikes its foe, dealing 2d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 4,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "3d6"
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "7Sgr9eXDMcH9LTKd",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.PiwwsDXGrE62xh8h",
-      "name": "Boulder",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": null,
-        "quantityMax": null,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "6d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": 60,
-          "medium": 130,
-          "long": 200
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder dealing 6d6 damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 3,
+          "group": 0,
           "max": 1,
           "used": 0
         },
@@ -516,10 +370,8 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "6d6"
+        "damageLabel": "2d6"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "PiwwsDXGrE62xh8h",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -527,6 +379,208 @@
         "default": 0
       },
       "flags": {},
+      "_id": "HoZLUwmTVIfH21En",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.HoZLUwmTVIfH21En",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Natural Armor",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The invisible stalker's insubstantial form turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 3,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 3,
+        "totalAAC": 16,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Natural Armor",
+        "unidentifiedDesc": "<p>The invisible stalker's insubstantial form turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 3,
+        "totalRangedAAC": 16
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "cfedSrR3zFYEUoeu",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.cfedSrR3zFYEUoeu",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Invisibility",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The invisible stalker is invisible, and can only be detected by magical means.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "9RHvdjxveN9FBYNa",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.9RHvdjxveN9FBYNa",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Follow a Single Command",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The invisible stalker is created to follow a single command made by the caster of the spell.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "qd7PSGDwy9LDBcVN",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.qd7PSGDwy9LDBcVN",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The invisible stalker flies at a speed of 12.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "vc2caCQblqDpy7hX",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.vc2caCQblqDpy7hX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -544,7 +598,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -570,8 +624,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "VcukJllZU3LXFhlr",
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.VcukJllZU3LXFhlr",
+      "_id": "SFqefH9CrCQMPd4S",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.SFqefH9CrCQMPd4S",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -589,7 +643,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "6",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -615,8 +669,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "RnbzEdrQyNZXdWI3",
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.RnbzEdrQyNZXdWI3",
+      "_id": "1FGSEvAV9ZxRAOQW",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.1FGSEvAV9ZxRAOQW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -634,7 +688,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "7",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -660,8 +714,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tzslOpgav2VyMNiS",
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.tzslOpgav2VyMNiS",
+      "_id": "qkHDPdtsAfEQ8QF5",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.qkHDPdtsAfEQ8QF5",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -679,7 +733,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -705,8 +759,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "RNRq8vREYZIWjQPq",
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.RNRq8vREYZIWjQPq",
+      "_id": "wVBV2ZFyUoGJor3a",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.wVBV2ZFyUoGJor3a",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -750,8 +804,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "GHmsQ2HdiSLofMvB",
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.GHmsQ2HdiSLofMvB",
+      "_id": "DxgvutCCBNzr50Tv",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.DxgvutCCBNzr50Tv",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -769,7 +823,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -795,8 +849,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "ekMHfRx9RcGoZu2U",
-      "_originalKey": "!actors.items!wCF8V3FvyuEH2cYJ.ekMHfRx9RcGoZu2U",
+      "_id": "CNnLY54WZ3RJv1v8",
+      "_originalKey": "!actors.items!lORmxTgyZQ5mTJN8.CNnLY54WZ3RJv1v8",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

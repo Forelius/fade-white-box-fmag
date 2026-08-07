@@ -1,27 +1,27 @@
 {
-  "name": "Goblin",
+  "name": "Elemental, Earth (8 HD)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 10,
+      "xpAward": 1100,
       "attacks": "1",
       "abilityCount": 1,
-      "monsterType": "Humanoid",
+      "monsterType": "Planar Monster",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "8",
+      "value": 36,
+      "max": 36
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 18,
+      "value": 11,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60,
+      "max": 60
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Earth elementals are hulking human-like shapes of rock and earth. They batter opponents with their great fists, although damage is reduced by 1d6 if the opponent is not standing upon earth or rock. Earth elementals can tear apart stone structures, able to rip down even a castle wall in a matter of 1d4+4 minutes.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 1,
+    "thbonus": 8,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
         "value": 10,
@@ -171,15 +171,16 @@
       "run": 0
     },
     "actorGroups": [
-      "weapon-using"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Elemental, Earth (8 HD)",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -275,18 +276,18 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "KdCzt6dmLhvax9gx",
+    "ZcyQlcFV5AJu7rtQ",
+    "RTNUD5UtFlYg3OpO",
+    "Bcxyrzn3sp1TN58E",
+    "DH6evMedPmV4U4Vh",
+    "FCKVIx3JR8WYZDFS",
+    "GlBxbBlmNqTWWSi9",
+    "RJaye5n95moN8VFJ",
+    "acL3Nmw6g53ofurm"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "Xx7EISX4GhUh6UHH",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,35 +298,35 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "fCdzHiHd2GuEi5TE",
+  "_originalKey": "!actors!fCdzHiHd2GuEi5TE",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Fist",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/magic/earth/strike-fist-stone.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The earth elemental strikes, dealing 2d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 0,
+        "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
+        "natural": true,
+        "damageRoll": "2d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
-        "weaponType": "handheld",
+        "mastery": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -346,13 +347,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Fist",
+        "unidentifiedDesc": "<p>The earth elemental strikes, dealing 2d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "M",
-        "grip": "1H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -367,7 +368,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "2d6"
       },
       "effects": [],
       "folder": null,
@@ -376,20 +377,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "KdCzt6dmLhvax9gx",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.KdCzt6dmLhvax9gx",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Stone Body",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The earth elemental's form turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -399,8 +400,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "ac": 6,
+        "natural": true,
+        "ac": 2,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +410,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 2,
+        "totalAAC": 17,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Stone Body",
+        "unidentifiedDesc": "<p>The earth elemental's form turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +432,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
       },
       "effects": [],
       "folder": null,
@@ -441,15 +442,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "ZcyQlcFV5AJu7rtQ",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.ZcyQlcFV5AJu7rtQ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Stone Destruction",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +478,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>Earth elementals batter opponents with their great fists, although damage is reduced by 1d6 if the opponent is not standing upon earth or rock. They can tear apart stone structures, ripping down even a castle wall in a matter of 1d4+4 minutes.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +487,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "RTNUD5UtFlYg3OpO",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.RTNUD5UtFlYg3OpO",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,7 +506,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "18",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -531,8 +532,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "Bcxyrzn3sp1TN58E",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.Bcxyrzn3sp1TN58E",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -550,7 +551,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -576,8 +577,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "DH6evMedPmV4U4Vh",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.DH6evMedPmV4U4Vh",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -595,7 +596,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "13",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -621,8 +622,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "FCKVIx3JR8WYZDFS",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.FCKVIx3JR8WYZDFS",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -640,7 +641,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -666,8 +667,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "GlBxbBlmNqTWWSi9",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.GlBxbBlmNqTWWSi9",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -685,7 +686,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -711,8 +712,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "RJaye5n95moN8VFJ",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.RJaye5n95moN8VFJ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -730,7 +731,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "16",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -756,8 +757,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "acL3Nmw6g53ofurm",
+      "_originalKey": "!actors.items!fCdzHiHd2GuEi5TE.acL3Nmw6g53ofurm",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

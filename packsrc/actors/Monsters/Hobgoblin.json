@@ -1,15 +1,15 @@
 {
-  "name": "Goblin",
+  "name": "Hobgoblin",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "size": "M",
+      "morale": 8,
+      "xpAward": 15,
       "attacks": "1",
-      "abilityCount": 1,
+      "abilityCount": 0,
       "monsterType": "Humanoid",
       "saveAs": "",
       "castAs": "",
@@ -19,9 +19,9 @@
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "1+1",
+      "value": 6,
+      "max": 6
     },
     "na": {
       "wandering": "1",
@@ -42,7 +42,7 @@
       "run": 90,
       "max": 90
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Hobgoblins are simply large goblins, possibly a separate breed living apart from their smaller cousins. As a matter of the campaign's flavoring, the Referee might choose to make hobgoblins the fey goblins of Irish legend, while regular goblins are the more Tolkien-style underground-dwellers.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -60,15 +60,15 @@
     "ac": {
       "naked": 9,
       "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
       "nakedRanged": 9,
       "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
     "thbonus": 1,
@@ -175,7 +175,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Hobgoblin",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +275,14 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "8ZoksgFy9GCQDg8e",
+    "78IFeLms3wunvjJ4",
+    "yeH9caps7dB8zbvV",
+    "aES02InVogwwLiet",
+    "ILKx7YL9zDnNJYfM",
+    "b4ebUIqPR3fvycYm",
+    "4gYZYqEJOxdAlcgO",
+    "ukVAZqDzHD20WQNa"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,23 +296,23 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "mdr6YrrEMnv3gUVy",
+  "_originalKey": "!actors!mdr6YrrEMnv3gUVy",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Spear",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/weapons/polearms/spear-flared-blue.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The hobgoblin thrusts with its spear, dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 30,
+        "cost": 1,
         "containerId": "",
         "equipped": true,
         "natural": false,
@@ -324,7 +323,7 @@
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
+        "mastery": "Spear",
         "weaponType": "handheld",
         "range": {
           "short": null,
@@ -346,8 +345,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Spear",
+        "unidentifiedDesc": "<p>The hobgoblin thrusts with its spear, dealing 1d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -376,20 +375,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "8ZoksgFy9GCQDg8e",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.8ZoksgFy9GCQDg8e",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Hobgoblin Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The hobgoblin wears tough hide armor.</p>",
         "gm": {
           "notes": ""
         },
@@ -400,7 +399,7 @@
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "ac": 6,
+        "ac": 5,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +408,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 5,
+        "totalAAC": 14,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Hobgoblin Armor",
+        "unidentifiedDesc": "<p>The hobgoblin wears tough hide armor.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +430,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
       },
       "effects": [],
       "folder": null,
@@ -441,53 +440,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Sunlight Penalty",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "78IFeLms3wunvjJ4",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.78IFeLms3wunvjJ4",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -531,8 +485,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "yeH9caps7dB8zbvV",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.yeH9caps7dB8zbvV",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -576,8 +530,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "aES02InVogwwLiet",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.aES02InVogwwLiet",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -621,8 +575,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "ILKx7YL9zDnNJYfM",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.ILKx7YL9zDnNJYfM",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -666,8 +620,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "b4ebUIqPR3fvycYm",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.b4ebUIqPR3fvycYm",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +665,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "4gYZYqEJOxdAlcgO",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.4gYZYqEJOxdAlcgO",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -756,8 +710,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "ukVAZqDzHD20WQNa",
+      "_originalKey": "!actors.items!mdr6YrrEMnv3gUVy.ukVAZqDzHD20WQNa",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

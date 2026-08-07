@@ -62,6 +62,111 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
+  "!folders!Xx7EISX4GhUh6UHH": {
+    "name": "Elementals",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "Xx7EISX4GhUh6UHH",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!b8RUTpf0KKQhzepG": {
+    "name": "Giants",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "b8RUTpf0KKQhzepG",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!odIdRZ0IlgMnuyZd": {
+    "name": "Golems",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "odIdRZ0IlgMnuyZd",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!33EG7qQIPHrW3bwW": {
+    "name": "Humans",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "33EG7qQIPHrW3bwW",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!bDHXzhxQV3SNk16T": {
+    "name": "Hydra",
+    "sorting": "a",
+    "folder": "rMSHvZcsLsOsw0Vi",
+    "type": "Actor",
+    "_id": "bDHXzhxQV3SNk16T",
+    "description": "",
+    "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1753483083222,
+      "modifiedTime": 1753483083222,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
   "!folders!IFFPmBZugeHHWJ3p": {
     "name": "Black",
     "sorting": "a",

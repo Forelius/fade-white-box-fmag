@@ -1,27 +1,27 @@
 {
-  "name": "Goblin",
+  "name": "Elf, Dark",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "size": "M",
+      "morale": 8,
+      "xpAward": 30,
       "attacks": "1",
-      "abilityCount": 1,
+      "abilityCount": 2,
       "monsterType": "Humanoid",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "2",
+      "value": 9,
+      "max": 9
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 18,
+      "value": 17,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>These cousins of surface elves have dark skin and white hair. They raid all surface-dwellers, but especially elves, whom they hate the most. They typically wield short swords and light crossbows whose bolts are coated in a paralytic poison. They are extraordinarily stealthy, surprising their foes on 1-4 on 1d6, and are highly resistant to magic, receiving a +5 bonus to all saving throws made to resist it.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -60,18 +60,18 @@
     "ac": {
       "naked": 9,
       "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
       "nakedRanged": 9,
       "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 1,
+    "thbonus": 2,
     "initiative": {
       "value": 0
     },
@@ -171,11 +171,12 @@
       "run": 0
     },
     "actorGroups": [
+      "fey",
       "weapon-using"
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Elf, Dark",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +276,17 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "3KRvyohlt6fsfjjs",
+    "bVYpGGgaVnpuyYfo",
+    "5W3zQJa0kYVZUlEl",
+    "iO6ORzB5BzFF68vA",
+    "M1ymvQGTJ7MyG4zl",
+    "uCJgmi7YfLZ6WehB",
+    "U28JqvbJ8Ux1zmIs",
+    "XQwCJFvhgfAnjbc3",
+    "OzSRO3GKaHEFdcO2",
+    "ooI7SdpOdllPbmMC",
+    "Qz4vo27FWwfn6jAq"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,16 +300,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "z64TvEuiwCPr3xp6",
+  "_originalKey": "!actors!z64TvEuiwCPr3xp6",
   "embedded": [
     {
       "name": "Short Sword",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/weapons/swords/shortsword-guard-silver.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The dark elf slashes with its short sword, dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -347,7 +350,7 @@
         "shortName": "",
         "canSet": false,
         "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedDesc": "<p>The dark elf slashes with its short sword, dealing 1d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -376,20 +379,103 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "3KRvyohlt6fsfjjs",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.3KRvyohlt6fsfjjs",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Light Crossbow",
+      "type": "weapon",
+      "img": "icons/weapons/crossbows/crossbow-simple-black.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>The dark elf fires a light crossbow bolt coated in a paralytic poison, dealing 1d6 points of damage. The victim must save or be paralyzed for one turn.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 30,
+        "cost": 5,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d6",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Crossbow, Light",
+        "weaponType": "handheld",
+        "range": {
+          "short": 40,
+          "medium": 80,
+          "long": 120
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Light Crossbow",
+        "unidentifiedDesc": "<p>The dark elf fires a light crossbow bolt coated in a paralytic poison, dealing 1d6 points of damage. The victim must save or be paralyzed for one turn.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "M",
+        "grip": "2H",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 0,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "bVYpGGgaVnpuyYfo",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.bVYpGGgaVnpuyYfo",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Elf Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The dark elf wears light elven armor.</p>",
         "gm": {
           "notes": ""
         },
@@ -400,7 +486,7 @@
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "ac": 6,
+        "ac": 5,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +495,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 5,
+        "totalAAC": 14,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Elf Armor",
+        "unidentifiedDesc": "<p>The dark elf wears light elven armor.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +517,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
       },
       "effects": [],
       "folder": null,
@@ -441,15 +527,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "5W3zQJa0kYVZUlEl",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.5W3zQJa0kYVZUlEl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Surprising Stealth",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +563,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>Dark elves are extraordinarily stealthy, surprising their foes on a roll of 1-4 on 1d6.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +572,53 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "iO6ORzB5BzFF68vA",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.iO6ORzB5BzFF68vA",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Magic Resistance",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Dark elves are highly resistant to magic, receiving a +5 bonus to all saving throws made to resist it.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "M1ymvQGTJ7MyG4zl",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.M1ymvQGTJ7MyG4zl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,7 +636,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "18",
+        "target": "17",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -531,8 +662,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "uCJgmi7YfLZ6WehB",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.uCJgmi7YfLZ6WehB",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -576,8 +707,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "U28JqvbJ8Ux1zmIs",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.U28JqvbJ8Ux1zmIs",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -621,8 +752,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "XQwCJFvhgfAnjbc3",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.XQwCJFvhgfAnjbc3",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -666,8 +797,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "OzSRO3GKaHEFdcO2",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.OzSRO3GKaHEFdcO2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +842,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "ooI7SdpOdllPbmMC",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.ooI7SdpOdllPbmMC",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -756,8 +887,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "Qz4vo27FWwfn6jAq",
+      "_originalKey": "!actors.items!z64TvEuiwCPr3xp6.Qz4vo27FWwfn6jAq",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

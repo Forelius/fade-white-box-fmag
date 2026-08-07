@@ -1,13 +1,13 @@
 {
-  "name": "Goblin",
+  "name": "Human, Bandit",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "size": "M",
+      "morale": 8,
+      "xpAward": 15,
       "attacks": "1",
       "abilityCount": 1,
       "monsterType": "Humanoid",
@@ -19,9 +19,9 @@
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "1",
+      "value": 5,
+      "max": 5
     },
     "na": {
       "wandering": "1",
@@ -36,13 +36,13 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Bandits are roving groups of thieves, sometimes organized into small armies led by more powerful bandit chiefs and captains with higher hit dice.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -60,15 +60,15 @@
     "ac": {
       "naked": 9,
       "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "value": 7,
+      "total": 7,
+      "totalAAC": 12,
       "shield": 0,
       "mod": 0,
       "nakedRanged": 9,
       "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "totalRanged": 7,
+      "totalRangedAAC": 12,
       "av": "0"
     },
     "thbonus": 1,
@@ -175,7 +175,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Human, Bandit",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,18 +275,18 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "guEivkLYbWoq9AYf",
+    "hbja28LR09sS8Ccy",
+    "t3tBNkRNWAY2MyZO",
+    "yexRHNISS5xisNRy",
+    "ndgXwNwy9UJdIX5K",
+    "NHTKJuqSCHmpGGG8",
+    "CRTumr0XcbMdTfgv",
+    "KK9rwbOWD4ru3lTx",
+    "HEyVSHecLmXp5Rfl"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "33EG7qQIPHrW3bwW",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,23 +297,23 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "QUsOyo3AldO5OSqF",
+  "_originalKey": "!actors!QUsOyo3AldO5OSqF",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Hand Axe",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/weapons/axes/axe-battle-simple.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The bandit swings its hand axe, dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 20,
+        "cost": 4,
         "containerId": "",
         "equipped": true,
         "natural": false,
@@ -324,7 +324,7 @@
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
+        "mastery": "Axe, Hand",
         "weaponType": "handheld",
         "range": {
           "short": null,
@@ -346,12 +346,12 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Hand Axe",
+        "unidentifiedDesc": "<p>The bandit swings its hand axe, dealing 1d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "M",
+        "size": "S",
         "grip": "1H",
         "charges": 0,
         "chargesMax": 0,
@@ -376,20 +376,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "guEivkLYbWoq9AYf",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.guEivkLYbWoq9AYf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Leather Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The bandit wears leather armor.</p>",
         "gm": {
           "notes": ""
         },
@@ -400,7 +400,7 @@
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "ac": 6,
+        "ac": 7,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +409,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 7,
+        "totalAAC": 12,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Leather Armor",
+        "unidentifiedDesc": "<p>The bandit wears leather armor.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +431,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 7,
+        "totalRangedAAC": 12
       },
       "effects": [],
       "folder": null,
@@ -441,15 +441,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "hbja28LR09sS8Ccy",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.hbja28LR09sS8Ccy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Roving Bands",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +477,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>Bandits are roving groups of thieves, sometimes organized into small armies led by more powerful bandit chiefs and captains with higher hit dice.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +486,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "t3tBNkRNWAY2MyZO",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.t3tBNkRNWAY2MyZO",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -531,8 +531,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "yexRHNISS5xisNRy",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.yexRHNISS5xisNRy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -576,8 +576,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "ndgXwNwy9UJdIX5K",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.ndgXwNwy9UJdIX5K",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -621,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "NHTKJuqSCHmpGGG8",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.NHTKJuqSCHmpGGG8",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -666,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "CRTumr0XcbMdTfgv",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.CRTumr0XcbMdTfgv",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "KK9rwbOWD4ru3lTx",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.KK9rwbOWD4ru3lTx",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -756,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "HEyVSHecLmXp5Rfl",
+      "_originalKey": "!actors.items!QUsOyo3AldO5OSqF.HEyVSHecLmXp5Rfl",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

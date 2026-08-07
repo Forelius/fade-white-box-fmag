@@ -1,17 +1,17 @@
 {
-  "name": "Giant, Fire",
+  "name": "Elemental, Water (16 HD)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "G",
-      "morale": 9,
-      "xpAward": 2000,
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 10,
+      "xpAward": 3500,
       "attacks": "1",
-      "abilityCount": 1,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F11",
+      "abilityCount": 2,
+      "monsterType": "Planar Monster",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
@@ -19,31 +19,31 @@
       "weight": ""
     },
     "hp": {
-      "hd": "11+3",
-      "value": 52,
-      "max": 52
+      "hd": "16",
+      "value": 72,
+      "max": 72
     },
     "na": {
-      "wandering": "1d2",
-      "lair": "1d3"
+      "wandering": "1",
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 9,
+      "value": 3,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60,
+      "max": 60
     },
-    "biography": "<p>Fire giants are usually found near volcanic mountains, in great castles of basalt or even iron. They throw boulders for 5d6 hit points of damage and are immune to fire.</p><p><strong>Weapon Damage:</strong> 2d6.<br><strong>Rock Damage:</strong> 5d6, up to 200 range.<br><strong>Terrain:</strong> Volcanic mountains.<br></p>",
-    "wrestling": 31,
+    "biography": "<p>Water elementals cannot move more than 60 feet from a large body of water, and their damage is reduced by 1d6 if the opponent is not standing (or in) a body of water. These powerful beings can overturn small boats, and can overturn a ship if given 1d4+4 minutes to work at it. On water, they can attack ships, battering them to pieces within one hour if not prevented or distracted.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 10,
+    "thbonus": 16,
     "initiative": {
       "value": 0
     },
@@ -121,17 +121,17 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
-        "value": 13,
-        "total": 13,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
       "con": {
-        "value": 22,
-        "total": 22,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
@@ -164,19 +164,19 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 180,
+      "round": 60,
+      "day": 36,
+      "run": 180,
+      "max": 180
     },
     "actorGroups": [
-      "giantkind",
-      "weapon-using"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Fire Giant",
+    "name": "Elemental, Water (16 HD)",
     "displayName": 20,
     "actorLink": false,
     "width": 2,
@@ -276,18 +276,19 @@
     "movementAction": null
   },
   "items": [
-    "2frhjvBLrY5E8Dv9",
-    "gZWJDjVVRCqlOFJf",
-    "HLQS1rzbPxwXXjT7",
-    "mVdnUZ98bFGsSEsa",
-    "FbRbkcPGS8O1FShM",
-    "Dvv80W33LUtgoA2Y",
-    "pRsWB6WDHfQf77jD",
-    "1O1pjqXuBSxvEFNm",
-    "wvnTP9mNdYkMrDzx"
+    "gtJZrkNyfpUCFw9i",
+    "DYLFPUxBuEmW6nKq",
+    "kpbrcGldyXcuHBCk",
+    "5uu0a59WokMtgyKr",
+    "2HswElr1TCxQhG2r",
+    "sQHWIRstAyTstFe3",
+    "rbZLf3FMiNTpQbi1",
+    "ehhQQbiy8sNdxpeY",
+    "TegyWpHT3RxU5JxY",
+    "FAyyNbh5cHE9ImDE"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "Xx7EISX4GhUh6UHH",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -298,81 +299,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "91wAHrxvyuFMGoWS",
-  "_originalKey": "!actors!91wAHrxvyuFMGoWS",
+  "_id": "Qv7D2u9c1Mn3HyYG",
+  "_originalKey": "!actors!Qv7D2u9c1Mn3HyYG",
   "embedded": [
     {
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.HLQS1rzbPxwXXjT7",
-      "name": "Copper, Brass or Bronze (Armor)",
-      "type": "armor",
-      "system": {
-        "tags": [],
-        "description": "<p>Copper, brass or bronze armor that provides a Armor Class of 4.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Copper, Brass or Bronze (Armor)",
-        "unidentifiedDesc": "<p>Copper, brass or bronze armor that provides a Armor Class of 4.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "HLQS1rzbPxwXXjT7",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.2frhjvBLrY5E8Dv9",
-      "name": "Giant Weapon",
+      "name": "Strike",
       "type": "weapon",
+      "img": "icons/magic/water/wave-water-blue.webp",
       "system": {
         "tags": [],
-        "description": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "description": "<p>The water elemental strikes, dealing 2d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -382,7 +318,7 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
+        "natural": true,
         "damageRoll": "2d6",
         "damageType": "physical",
         "breath": "",
@@ -391,7 +327,7 @@
         "savingThrow": "",
         "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -412,103 +348,20 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Giant Weapon",
-        "unidentifiedDesc": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "unidentifiedName": "Strike",
+        "unidentifiedDesc": "<p>The water elemental strikes, dealing 2d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 1,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "2d6"
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "2frhjvBLrY5E8Dv9",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.gZWJDjVVRCqlOFJf",
-      "name": "Boulder",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": null,
-        "quantityMax": null,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "5d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": 60,
-          "medium": 130,
-          "long": 200
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder dealing 5d6 damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 1,
+          "group": 0,
           "max": 1,
           "used": 0
         },
@@ -516,10 +369,8 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "5d6"
+        "damageLabel": "2d6"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "gZWJDjVVRCqlOFJf",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -527,6 +378,163 @@
         "default": 0
       },
       "flags": {},
+      "_id": "gtJZrkNyfpUCFw9i",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.gtJZrkNyfpUCFw9i",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Watery Form",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The water elemental's form turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 2,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 2,
+        "totalAAC": 17,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Watery Form",
+        "unidentifiedDesc": "<p>The water elemental's form turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "DYLFPUxBuEmW6nKq",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.DYLFPUxBuEmW6nKq",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Overturn Ships",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Water elementals can overturn small boats, and can overturn a ship if given 1d4+4 minutes to work at it. On water, they can attack ships, battering them to pieces within one hour if not prevented or distracted.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "kpbrcGldyXcuHBCk",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.kpbrcGldyXcuHBCk",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Bound to Water",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>A water elemental cannot move more than 60 feet from a large body of water, and its damage is reduced by 1d6 if the opponent is not standing (or in) a body of water.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "5uu0a59WokMtgyKr",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.5uu0a59WokMtgyKr",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -544,7 +552,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "3",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -570,8 +578,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "mVdnUZ98bFGsSEsa",
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.mVdnUZ98bFGsSEsa",
+      "_id": "2HswElr1TCxQhG2r",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.2HswElr1TCxQhG2r",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -615,8 +623,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "FbRbkcPGS8O1FShM",
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.FbRbkcPGS8O1FShM",
+      "_id": "sQHWIRstAyTstFe3",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.sQHWIRstAyTstFe3",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -660,8 +668,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "Dvv80W33LUtgoA2Y",
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.Dvv80W33LUtgoA2Y",
+      "_id": "rbZLf3FMiNTpQbi1",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.rbZLf3FMiNTpQbi1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -705,8 +713,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "pRsWB6WDHfQf77jD",
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.pRsWB6WDHfQf77jD",
+      "_id": "ehhQQbiy8sNdxpeY",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.ehhQQbiy8sNdxpeY",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -750,8 +758,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "1O1pjqXuBSxvEFNm",
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.1O1pjqXuBSxvEFNm",
+      "_id": "TegyWpHT3RxU5JxY",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.TegyWpHT3RxU5JxY",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -795,8 +803,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wvnTP9mNdYkMrDzx",
-      "_originalKey": "!actors.items!91wAHrxvyuFMGoWS.wvnTP9mNdYkMrDzx",
+      "_id": "FAyyNbh5cHE9ImDE",
+      "_originalKey": "!actors.items!Qv7D2u9c1Mn3HyYG.FAyyNbh5cHE9ImDE",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

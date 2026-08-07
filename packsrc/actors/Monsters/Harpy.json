@@ -1,27 +1,27 @@
 {
-  "name": "Goblin",
+  "name": "Harpy",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "S",
+      "size": "M",
       "morale": 7,
-      "xpAward": 10,
+      "xpAward": 120,
       "attacks": "1",
-      "abilityCount": 1,
-      "monsterType": "Humanoid",
+      "abilityCount": 3,
+      "monsterType": "Monster",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "3",
+      "value": 14,
+      "max": 14
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 18,
+      "value": 16,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60,
+      "max": 60
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Harpies have the upper body of a human female and the lower body and wings of a vulture. Their song is a charm that draws its victims to the harpy (saving throw applies), and the harpy's touch casts the equivalent of a Charm Person spell (again, saving throw applies).</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "naked": 7,
+      "nakedAAC": 12,
+      "value": 7,
+      "total": 7,
+      "totalAAC": 12,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "nakedRanged": 7,
+      "nakedRangedAAC": 12,
+      "totalRanged": 7,
+      "totalRangedAAC": 12,
       "av": "0"
     },
-    "thbonus": 1,
+    "thbonus": 3,
     "initiative": {
       "value": 0
     },
@@ -164,18 +164,16 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
+      "turn": 180,
+      "round": 60,
+      "day": 36,
+      "run": 180,
+      "max": 180
     },
-    "actorGroups": [
-      "weapon-using"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Harpy",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +273,17 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "5vM1HOco8WmqI2pa",
+    "QokGyG4gZZZx9YlT",
+    "QmuyQwA3CeGtjb6F",
+    "5Cu2kTRnSQhmippE",
+    "QH4uQewNGdYHdQwq",
+    "FMeYWMOCVPc1Zkf1",
+    "Lh09tBBLI2ILs8yB",
+    "63Ed5aPB8KJgHJ2R",
+    "TREhWieZI0jdd5ID",
+    "utYLYimWGEYCVUSa",
+    "muSu3G2u7ySs3Pzs"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,35 +297,35 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "jLPq5JeXUXx1FG4n",
+  "_originalKey": "!actors!jLPq5JeXUXx1FG4n",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Talons",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The harpy rakes with her talons, dealing 1d4 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 0,
+        "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
+        "natural": true,
+        "damageRoll": "1d4",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
-        "weaponType": "handheld",
+        "mastery": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -346,13 +346,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Talons",
+        "unidentifiedDesc": "<p>The harpy rakes with her talons, dealing 1d4 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "M",
-        "grip": "1H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -367,7 +367,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d4"
       },
       "effects": [],
       "folder": null,
@@ -376,20 +376,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "5vM1HOco8WmqI2pa",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.5vM1HOco8WmqI2pa",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Harpy Hide",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The harpy's tough hide turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -399,8 +399,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "ac": 6,
+        "natural": true,
+        "ac": 7,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +409,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 7,
+        "totalAAC": 12,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Harpy Hide",
+        "unidentifiedDesc": "<p>The harpy's tough hide turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +431,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 7,
+        "totalRangedAAC": 12
       },
       "effects": [],
       "folder": null,
@@ -441,15 +441,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "QokGyG4gZZZx9YlT",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.QokGyG4gZZZx9YlT",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Siren Song",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +477,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>The harpy's song is a charm that draws its victims to the harpy (saving throw applies).</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +486,98 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "QmuyQwA3CeGtjb6F",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.QmuyQwA3CeGtjb6F",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Charming Touch",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The harpy's touch casts the equivalent of a Charm Person spell (saving throw applies).</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "5Cu2kTRnSQhmippE",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.5Cu2kTRnSQhmippE",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The harpy can fly at a speed of 18.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "QH4uQewNGdYHdQwq",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.QH4uQewNGdYHdQwq",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,7 +595,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "18",
+        "target": "16",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -531,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "FMeYWMOCVPc1Zkf1",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.FMeYWMOCVPc1Zkf1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -550,7 +640,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -576,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "Lh09tBBLI2ILs8yB",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.Lh09tBBLI2ILs8yB",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -595,7 +685,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "13",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -621,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "63Ed5aPB8KJgHJ2R",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.63Ed5aPB8KJgHJ2R",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -640,7 +730,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -666,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "TREhWieZI0jdd5ID",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.TREhWieZI0jdd5ID",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +801,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "utYLYimWGEYCVUSa",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.utYLYimWGEYCVUSa",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -730,7 +820,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "16",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -756,8 +846,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "muSu3G2u7ySs3Pzs",
+      "_originalKey": "!actors.items!jLPq5JeXUXx1FG4n.muSu3G2u7ySs3Pzs",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

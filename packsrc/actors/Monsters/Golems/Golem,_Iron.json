@@ -1,17 +1,17 @@
 {
-  "name": "Giant, Stone",
+  "name": "Golem, Iron",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Neutral",
-      "size": "G",
-      "morale": 9,
-      "xpAward": 1400,
+      "size": "L",
+      "morale": 12,
+      "xpAward": 3500,
       "attacks": "1",
-      "abilityCount": 0,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F9",
+      "abilityCount": 3,
+      "monsterType": "Construct",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
@@ -19,31 +19,31 @@
       "weight": ""
     },
     "hp": {
-      "hd": "9",
-      "value": 41,
-      "max": 41
+      "hd": "13",
+      "value": 59,
+      "max": 59
     },
     "na": {
-      "wandering": "1d2",
-      "lair": "1d6"
+      "wandering": "1",
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 11,
+      "value": 6,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 60,
+      "round": 20,
+      "day": 12,
+      "run": 60,
+      "max": 60
     },
-    "biography": "<p>Stone giants dwell in caves, isolated in the mountain fastness. They throw rocks for 3d6 points of damage, and can be quite crafty in setting up ambushes in their native mountains—travelers who wander into the territory of stone giants seldom return.</p><p><strong>Club Damage:</strong> 2d6.<br><strong>Rock Damage:</strong> 3d6, up to 300 range.<br><strong>Terrain:</strong> Caves, Mountains.<br></p>",
-    "wrestling": 27,
+    "biography": "<p>Iron golems are huge moving statues of iron. They can breathe a 10 foot radius cloud of poison gas as well as attacking with great power. Only +3 or better magic weapons can harm an iron golem. These hulking statues are slowed by lightning spells, but fire-based spells actually restore hit points to them. No other type of spell affects them.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 3,
+      "nakedAAC": 16,
+      "value": 3,
+      "total": 3,
+      "totalAAC": 16,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 3,
+      "nakedRangedAAC": 16,
+      "totalRanged": 3,
+      "totalRangedAAC": 16,
       "av": "0"
     },
-    "thbonus": 8,
+    "thbonus": 13,
     "initiative": {
       "value": 0
     },
@@ -83,7 +83,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "mod": {
@@ -121,21 +121,21 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
-      "con": {
-        "value": 18,
-        "total": 18,
-        "mod": 0,
-        "tempMod": 0
-      },
-      "str": {
+      "int": {
         "value": 10,
         "total": 10,
         "mod": 0,
         "tempMod": 0
       },
-      "int": {
+      "con": {
+        "value": 10,
+        "total": 10,
+        "mod": 0,
+        "tempMod": 0
+      },
+      "str": {
         "value": 10,
         "total": 10,
         "mod": 0,
@@ -171,12 +171,12 @@
       "run": 0
     },
     "actorGroups": [
-      "giantkind",
-      "weapon-using"
+      "constructs",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Stone Giant",
+    "name": "Golem, Iron",
     "displayName": 20,
     "actorLink": false,
     "width": 2,
@@ -276,18 +276,21 @@
     "movementAction": null
   },
   "items": [
-    "lqhONxmmdd3TBuez",
-    "NYFIJqk2ZUu98FbI",
-    "jUWfRpYnDWWdNlYS",
-    "1i8nHTEemN2KziXe",
-    "lBtGHYIigxNZVYh3",
-    "9KkU3LlAcxiL51ug",
-    "wumxKLNOOqVRWlXr",
-    "R6IkyeDCRFkHEukf",
-    "BWJueHAClqH4R7DR"
+    "vDAk8hPyF0uDbfUE",
+    "yEilsJJreXAehezN",
+    "s9YyKMBKJQTLbAOj",
+    "DeS5EEJTdIOpJC8c",
+    "zO2ja8P1WCUbGU1W",
+    "EFvvUuqGbdJdgQBW",
+    "XyZHCVFtg6ewJD8V",
+    "ZyAfwygw6PhFfh7Y",
+    "a0iQ1GJKVOeN3Vg2",
+    "Z5VPzylG1Pb6hSfW",
+    "w26H9yA2Bu62eKKU",
+    "2tifQ5gvcBRYMFzD"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "odIdRZ0IlgMnuyZd",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -298,16 +301,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "qtRbCJrXBaHA9r3z",
-  "_originalKey": "!actors!qtRbCJrXBaHA9r3z",
+  "_id": "dllNtMp59fwfEAAV",
+  "_originalKey": "!actors!dllNtMp59fwfEAAV",
   "embedded": [
     {
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.jUWfRpYnDWWdNlYS",
-      "name": "Rocklike Skin (Armor)",
-      "type": "armor",
+      "name": "Fist",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
       "system": {
         "tags": [],
-        "description": "<p>The rocklike skin of a stone giant provides a natural Armor Class of 4.</p>",
+        "description": "<p>The iron golem strikes with its great fist, dealing 3d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -318,72 +321,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Rocklike Skin (Armor)",
-        "unidentifiedDesc": "<p>The rocklike skin of a stone giant provides a natural Armor Class of 4.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "jUWfRpYnDWWdNlYS",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.lqhONxmmdd3TBuez",
-      "name": "Stalactite Club",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "<p>The giant swings its massive stalactite club with devastating force.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "2d6",
+        "damageRoll": "3d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -391,7 +329,7 @@
         "savingThrow": "",
         "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -412,31 +350,29 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Stalactite Club",
-        "unidentifiedDesc": "<p>The giant swings its massive stalactite club with devastating force.</p>",
+        "unidentifiedName": "Fist",
+        "unidentifiedDesc": "<p>The iron golem strikes with its great fist, dealing 3d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
+        "size": "null",
+        "grip": "null",
+        "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
+          "group": 0,
           "max": 1,
-          "used": 0,
-          "group": 0
+          "used": 0
         },
         "weightEquipped": null,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "2d6"
+        "damageLabel": "3d6"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "lqhONxmmdd3TBuez",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -444,41 +380,43 @@
         "default": 0
       },
       "flags": {},
+      "_id": "vDAk8hPyF0uDbfUE",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.vDAk8hPyF0uDbfUE",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.NYFIJqk2ZUu98FbI",
-      "name": "Boulder",
+      "name": "Poison Gas Breath",
       "type": "weapon",
+      "img": "icons/magic/air/fog-gas-smoke-swirling-green.webp",
       "system": {
         "tags": [],
-        "description": "",
+        "description": "<p>The iron golem can breathe a 10 foot radius cloud of poison gas.</p>",
         "gm": {
           "notes": ""
         },
-        "quantity": null,
-        "quantityMax": null,
+        "quantity": 3,
+        "quantityMax": 3,
         "weight": 0,
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
+        "natural": true,
         "damageRoll": "3d6",
-        "damageType": "physical",
-        "breath": "",
+        "damageType": "breath",
+        "breath": "gas",
         "canMelee": false,
         "canRanged": true,
-        "savingThrow": "",
+        "savingThrow": "breath",
         "saveDmgFormula": "",
         "mastery": "",
         "weaponType": "monster",
         "range": {
-          "short": 100,
-          "medium": 200,
-          "long": 300
+          "short": null,
+          "medium": 10,
+          "long": null
         },
         "totalWeight": 0,
         "totalCost": 0,
@@ -495,13 +433,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder (100,200,300) dealing 3d6 damage.</p>",
+        "unidentifiedName": "Poison Gas Breath",
+        "unidentifiedDesc": "<p>The iron golem can breathe a 10 foot radius cloud of poison gas.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -518,8 +456,6 @@
         "isTreasure": false,
         "damageLabel": "3d6"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "NYFIJqk2ZUu98FbI",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -527,6 +463,208 @@
         "default": 0
       },
       "flags": {},
+      "_id": "yEilsJJreXAehezN",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.yEilsJJreXAehezN",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Iron Body",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The golem's iron body turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 3,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 3,
+        "totalAAC": 16,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Iron Body",
+        "unidentifiedDesc": "<p>The golem's iron body turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 3,
+        "totalRangedAAC": 16
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "s9YyKMBKJQTLbAOj",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.s9YyKMBKJQTLbAOj",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Magical Weapon Required (+3 or Better)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Only +3 or better magic weapons can harm an iron golem.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "DeS5EEJTdIOpJC8c",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.DeS5EEJTdIOpJC8c",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Slowed by Lightning, Healed by Fire",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Iron golems are slowed by lightning spells, but fire-based spells actually restore hit points to them.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "zO2ja8P1WCUbGU1W",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.zO2ja8P1WCUbGU1W",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Spell Immunity",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>No other type of spell affects an iron golem.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "EFvvUuqGbdJdgQBW",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.EFvvUuqGbdJdgQBW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -544,7 +682,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "6",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -570,8 +708,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "1i8nHTEemN2KziXe",
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.1i8nHTEemN2KziXe",
+      "_id": "XyZHCVFtg6ewJD8V",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.XyZHCVFtg6ewJD8V",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -615,8 +753,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "lBtGHYIigxNZVYh3",
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.lBtGHYIigxNZVYh3",
+      "_id": "ZyAfwygw6PhFfh7Y",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.ZyAfwygw6PhFfh7Y",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -660,8 +798,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9KkU3LlAcxiL51ug",
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.9KkU3LlAcxiL51ug",
+      "_id": "a0iQ1GJKVOeN3Vg2",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.a0iQ1GJKVOeN3Vg2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -705,8 +843,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wumxKLNOOqVRWlXr",
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.wumxKLNOOqVRWlXr",
+      "_id": "Z5VPzylG1Pb6hSfW",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.Z5VPzylG1Pb6hSfW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -750,8 +888,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R6IkyeDCRFkHEukf",
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.R6IkyeDCRFkHEukf",
+      "_id": "w26H9yA2Bu62eKKU",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.w26H9yA2Bu62eKKU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -795,8 +933,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "BWJueHAClqH4R7DR",
-      "_originalKey": "!actors.items!qtRbCJrXBaHA9r3z.BWJueHAClqH4R7DR",
+      "_id": "2tifQ5gvcBRYMFzD",
+      "_originalKey": "!actors.items!dllNtMp59fwfEAAV.2tifQ5gvcBRYMFzD",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

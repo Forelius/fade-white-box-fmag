@@ -1,27 +1,27 @@
 {
-  "name": "Goblin",
+  "name": "Elemental, Air (8 HD)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 10,
+      "xpAward": 1100,
       "attacks": "1",
-      "abilityCount": 1,
-      "monsterType": "Humanoid",
+      "abilityCount": 2,
+      "monsterType": "Planar Monster",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "8",
+      "value": 36,
+      "max": 36
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 18,
+      "value": 11,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 360,
+      "round": 120,
+      "day": 72,
+      "run": 360,
+      "max": 360
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Air elementals can turn into a whirlwind of air with a diameter of 30 feet, hurling any creature of 1 HD or less for great distances (almost certainly killing them). Elemental whirlwinds are approximately 100 feet tall.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "naked": 2,
+      "nakedAAC": 17,
+      "value": 2,
+      "total": 2,
+      "totalAAC": 17,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "nakedRanged": 2,
+      "nakedRangedAAC": 17,
+      "totalRanged": 2,
+      "totalRangedAAC": 17,
       "av": "0"
     },
-    "thbonus": 1,
+    "thbonus": 8,
     "initiative": {
       "value": 0
     },
@@ -121,7 +121,7 @@
     },
     "acDigest": [],
     "activeLight": null,
-    "isEnchanted": false,
+    "isEnchanted": true,
     "abilities": {
       "int": {
         "value": 10,
@@ -171,15 +171,16 @@
       "run": 0
     },
     "actorGroups": [
-      "weapon-using"
+      "planar",
+      "enchanted"
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Elemental, Air (8 HD)",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -275,18 +276,19 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "PDsYegzicxOC5Qal",
+    "7YFxVeW3TkD4KMMY",
+    "O8V2Zwd7wnrlZTGX",
+    "snepqrAtLw0H45bH",
+    "EeGOW6ygq1uXPFWv",
+    "x6IiFYtyv3GjuPG9",
+    "zp1oL39fpVe2DQdd",
+    "n5FTzIOZB3BXNhje",
+    "S9eiX8odbdxMVVrV",
+    "glXG8LK5FznNdkds"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "Xx7EISX4GhUh6UHH",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,35 +299,35 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "kNoQIUeeGX4BVxiD",
+  "_originalKey": "!actors!kNoQIUeeGX4BVxiD",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Strike",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/magic/air/wind-tornado-cyclone-white.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The air elemental strikes, dealing 2d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 0,
+        "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
+        "natural": true,
+        "damageRoll": "2d6",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
-        "weaponType": "handheld",
+        "mastery": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -346,13 +348,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Strike",
+        "unidentifiedDesc": "<p>The air elemental strikes, dealing 2d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "M",
-        "grip": "1H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -367,7 +369,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "2d6"
       },
       "effects": [],
       "folder": null,
@@ -376,20 +378,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "PDsYegzicxOC5Qal",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.PDsYegzicxOC5Qal",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Whirlwind Form",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The air elemental's form turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -399,8 +401,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "ac": 6,
+        "natural": true,
+        "ac": 2,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +411,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 2,
+        "totalAAC": 17,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Whirlwind Form",
+        "unidentifiedDesc": "<p>The air elemental's form turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +433,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 2,
+        "totalRangedAAC": 17
       },
       "effects": [],
       "folder": null,
@@ -441,15 +443,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "7YFxVeW3TkD4KMMY",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.7YFxVeW3TkD4KMMY",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Whirlwind",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +479,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>An air elemental can turn into a whirlwind of air with a diameter of 30 feet, hurling any creature of 1 HD or less for great distances (almost certainly killing them). Elemental whirlwinds are approximately 100 feet tall.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +488,53 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "O8V2Zwd7wnrlZTGX",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.O8V2Zwd7wnrlZTGX",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Flight",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>The air elemental flies at a speed of 36.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "snepqrAtLw0H45bH",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.snepqrAtLw0H45bH",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,7 +552,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "18",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -531,8 +578,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "EeGOW6ygq1uXPFWv",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.EeGOW6ygq1uXPFWv",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -550,7 +597,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -576,8 +623,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "x6IiFYtyv3GjuPG9",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.x6IiFYtyv3GjuPG9",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -595,7 +642,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "13",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -621,8 +668,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "zp1oL39fpVe2DQdd",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.zp1oL39fpVe2DQdd",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -640,7 +687,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -666,8 +713,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "n5FTzIOZB3BXNhje",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.n5FTzIOZB3BXNhje",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -685,7 +732,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -711,8 +758,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "S9eiX8odbdxMVVrV",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.S9eiX8odbdxMVVrV",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -730,7 +777,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "16",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -756,8 +803,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "glXG8LK5FznNdkds",
+      "_originalKey": "!actors.items!kNoQIUeeGX4BVxiD.glXG8LK5FznNdkds",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

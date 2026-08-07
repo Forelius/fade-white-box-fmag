@@ -1,27 +1,27 @@
 {
-  "name": "Goblin",
+  "name": "Hydra (9 HD)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
-      "attacks": "1",
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 11,
+      "xpAward": 1400,
+      "attacks": "9",
       "abilityCount": 1,
-      "monsterType": "Humanoid",
+      "monsterType": "Monster",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "9",
+      "value": 41,
+      "max": 41
     },
     "na": {
       "wandering": "1",
@@ -29,7 +29,7 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 18,
+      "value": 10,
       "mod": {
         "missile": 0,
         "melee": 0
@@ -42,7 +42,7 @@
       "run": 90,
       "max": 90
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Hydrae are great lizard-like or snake-like creatures with 5-12 heads. Each head has one hit die of its own, and when the head is killed, that head dies. The body has as many hit dice as the total of the heads, so it is a matter of good strategy for adventurers to focus either on killing heads (when all the heads are dead the body dies) or killing the creature by attacking the body (in which case the heads die, too). Hydrae that breathe fire or regenerate their heads are known to exist.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "naked": 5,
+      "nakedAAC": 14,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "nakedRanged": 5,
+      "nakedRangedAAC": 14,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 1,
+    "thbonus": 9,
     "initiative": {
       "value": 0
     },
@@ -171,15 +171,15 @@
       "run": 0
     },
     "actorGroups": [
-      "weapon-using"
+      "reptiles-dinosaurs"
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Hydra (9 HD)",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "texture": {
       "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
       "scaleX": 1,
@@ -275,18 +275,18 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "fPNXrCquJ6ncacC8",
+    "5TyqFsCXiBYkCFvV",
+    "UPgXfFoGyma7u928",
+    "Hx7i3rS6drsTqK7o",
+    "3iuEPoKK07qHi87E",
+    "nhG5r3crwXFUSzok",
+    "Vms7VbaB3Aq2670q",
+    "IIy4cRp7VqOzi3KY",
+    "3hps9Nl31OfXV9YF"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "bDHXzhxQV3SNk16T",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,35 +297,35 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "YUGbOBAqcuc3H9Br",
+  "_originalKey": "!actors!YUGbOBAqcuc3H9Br",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Bite",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The hydra attacks with its 9 heads, each biting for 1d10 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 0,
+        "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
+        "natural": true,
+        "damageRoll": "1d10",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
-        "weaponType": "handheld",
+        "mastery": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -346,13 +346,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The hydra attacks with its 9 heads, each biting for 1d10 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "M",
-        "grip": "1H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -360,14 +360,14 @@
         "isUsable": false,
         "attacks": {
           "group": 0,
-          "max": 1,
+          "max": 9,
           "used": 0
         },
         "weightEquipped": null,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d10"
       },
       "effects": [],
       "folder": null,
@@ -376,20 +376,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "fPNXrCquJ6ncacC8",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.fPNXrCquJ6ncacC8",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Hydra Scales",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The hydra's thick scales turn aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -399,8 +399,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "ac": 6,
+        "natural": true,
+        "ac": 5,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +409,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 5,
+        "totalAAC": 14,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Hydra Scales",
+        "unidentifiedDesc": "<p>The hydra's thick scales turn aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +431,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
       },
       "effects": [],
       "folder": null,
@@ -441,15 +441,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "5TyqFsCXiBYkCFvV",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.5TyqFsCXiBYkCFvV",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Multiple Heads (9)",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +477,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>The hydra has 9 heads, each with one hit die of its own. When a head is killed, that head dies; when all the heads are dead, the body dies. The body has as many hit dice as the total of the heads.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +486,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "UPgXfFoGyma7u928",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.UPgXfFoGyma7u928",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,7 +505,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "18",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -531,8 +531,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "Hx7i3rS6drsTqK7o",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.Hx7i3rS6drsTqK7o",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -550,7 +550,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "6",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -576,8 +576,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "3iuEPoKK07qHi87E",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.3iuEPoKK07qHi87E",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -595,7 +595,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "13",
+        "target": "7",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -621,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "nhG5r3crwXFUSzok",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.nhG5r3crwXFUSzok",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -640,7 +640,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "8",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -666,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "Vms7VbaB3Aq2670q",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.Vms7VbaB3Aq2670q",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -685,7 +685,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "15",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -711,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "IIy4cRp7VqOzi3KY",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.IIy4cRp7VqOzi3KY",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -730,7 +730,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "16",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -756,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "3hps9Nl31OfXV9YF",
+      "_originalKey": "!actors.items!YUGbOBAqcuc3H9Br.3hps9Nl31OfXV9YF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

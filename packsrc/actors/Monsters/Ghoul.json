@@ -1,27 +1,27 @@
 {
-  "name": "Goblin",
+  "name": "Ghoul",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
       "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "size": "M",
+      "morale": 9,
+      "xpAward": 60,
       "attacks": "1",
-      "abilityCount": 1,
-      "monsterType": "Humanoid",
+      "abilityCount": 2,
+      "monsterType": "Undead",
       "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
-      "rarity": "Common",
+      "rarity": "Rare",
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "2",
+      "value": 9,
+      "max": 9
     },
     "na": {
       "wandering": "1",
@@ -29,7 +29,7 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 18,
+      "value": 17,
       "mod": {
         "missile": 0,
         "melee": 0
@@ -42,7 +42,7 @@
       "run": 90,
       "max": 90
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Ghouls are pack-hunting undead, corpse eaters. They are immune, like most undead, to charms and sleep spells. The most dangerous feature of these horrid, cunning creatures is their paralyzing touch: any hit from a ghoul requires a saving throw or the victim becomes paralyzed for 3d6 turns.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
+      "naked": 6,
+      "nakedAAC": 13,
       "value": 6,
       "total": 6,
       "totalAAC": 13,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
+      "nakedRanged": 6,
+      "nakedRangedAAC": 13,
       "totalRanged": 6,
       "totalRangedAAC": 13,
       "av": "0"
     },
-    "thbonus": 1,
+    "thbonus": 2,
     "initiative": {
       "value": 0
     },
@@ -171,11 +171,11 @@
       "run": 0
     },
     "actorGroups": [
-      "weapon-using"
+      "undead"
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Ghoul",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +275,16 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "Kg81antQGftTeUSF",
+    "BdfKDgw25Rrdb3us",
+    "ys6NuE9estFqbNW1",
+    "gUtIhPsVfJQwvyL1",
+    "RfSaUZSuBQceFJKo",
+    "78uBFBOCZ9CXMr9m",
+    "MKRq1JAT1FxCMgby",
+    "QUn73RjGbNie0Vrm",
+    "s9eLm4EBv7b6mIgW",
+    "nS9K1fbXoDjyp9cy"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,35 +298,35 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "dXJ1LBEaA9vQ60Ht",
+  "_originalKey": "!actors!dXJ1LBEaA9vQ60Ht",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Claw",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The ghoul rakes with its claws, dealing 1d3 points of damage. Any hit requires a saving throw or the victim becomes paralyzed for 3d6 turns.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 0,
+        "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "1d6",
+        "natural": true,
+        "damageRoll": "1d3",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
-        "savingThrow": "",
+        "savingThrow": "paralysis",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
-        "weaponType": "handheld",
+        "mastery": "",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -346,13 +347,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Claw",
+        "unidentifiedDesc": "<p>The ghoul rakes with its claws, dealing 1d3 points of damage. Any hit requires a saving throw or the victim becomes paralyzed for 3d6 turns.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "M",
-        "grip": "1H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -367,7 +368,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d3"
       },
       "effects": [],
       "folder": null,
@@ -376,20 +377,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "Kg81antQGftTeUSF",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.Kg81antQGftTeUSF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Thick Skin",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The ghoul's thick skin turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -399,7 +400,7 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
+        "natural": true,
         "ac": 6,
         "isShield": false,
         "totalWeight": 0,
@@ -415,8 +416,8 @@
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Thick Skin",
+        "unidentifiedDesc": "<p>The ghoul's thick skin turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -441,15 +442,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "BdfKDgw25Rrdb3us",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.BdfKDgw25Rrdb3us",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Paralyzing Touch",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +478,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>Any hit from a ghoul requires a saving throw or the victim becomes paralyzed for 3d6 turns.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +487,53 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "ys6NuE9estFqbNW1",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.ys6NuE9estFqbNW1",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Immunity to Charms and Sleep",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
+        "gm": {
+          "notes": ""
+        },
+        "rollFormula": "",
+        "operator": "eq",
+        "target": "0",
+        "rollMode": "publicroll",
+        "savingThrow": "",
+        "autoSuccess": null,
+        "autoFail": null,
+        "abilityMod": "",
+        "dmgFormula": "",
+        "healFormula": "",
+        "damageType": "",
+        "category": "",
+        "shortName": "",
+        "combatManeuver": "null",
+        "customSaveCode": "",
+        "classKey": "",
+        "showResult": false,
+        "quantity": 1,
+        "quantityMax": null,
+        "conditions": [],
+        "description": "<p>Ghouls, like most undead, are immune to charms and sleep spells.</p>"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "gUtIhPsVfJQwvyL1",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.gUtIhPsVfJQwvyL1",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,7 +551,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "18",
+        "target": "17",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -531,8 +577,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "RfSaUZSuBQceFJKo",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.RfSaUZSuBQceFJKo",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -576,8 +622,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "78uBFBOCZ9CXMr9m",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.78uBFBOCZ9CXMr9m",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -621,8 +667,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "MKRq1JAT1FxCMgby",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.MKRq1JAT1FxCMgby",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -666,8 +712,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "QUn73RjGbNie0Vrm",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.QUn73RjGbNie0Vrm",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +757,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "s9eLm4EBv7b6mIgW",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.s9eLm4EBv7b6mIgW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -756,8 +802,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "nS9K1fbXoDjyp9cy",
+      "_originalKey": "!actors.items!dXJ1LBEaA9vQ60Ht.nS9K1fbXoDjyp9cy",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

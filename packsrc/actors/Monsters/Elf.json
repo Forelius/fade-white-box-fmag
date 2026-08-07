@@ -1,15 +1,15 @@
 {
-  "name": "Goblin",
+  "name": "Elf",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "alignment": "Neutral",
+      "size": "M",
+      "morale": 8,
+      "xpAward": 15,
       "attacks": "1",
-      "abilityCount": 1,
+      "abilityCount": 0,
       "monsterType": "Humanoid",
       "saveAs": "",
       "castAs": "",
@@ -19,9 +19,9 @@
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "1+1",
+      "value": 6,
+      "max": 6
     },
     "na": {
       "wandering": "1",
@@ -36,13 +36,13 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>The example above is for a typical Elf; trained warriors would likely have the maximum 7 HP. Obviously, Elves encountered in the course of a party's adventuring will have a variety of powers and different attributes, which the Referee assigns as he sees fit.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -60,15 +60,15 @@
     "ac": {
       "naked": 9,
       "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
       "nakedRanged": 9,
       "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
     "thbonus": 1,
@@ -171,11 +171,12 @@
       "run": 0
     },
     "actorGroups": [
+      "fey",
       "weapon-using"
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Elf",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +276,15 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "Dj2vtR6D8PjUdb8O",
+    "MWh7WLImywZk8uyW",
+    "ClqNNuKCOIa72AuP",
+    "rQZbL94ToqmZAGQf",
+    "6dK8ozpTRAv5yz6H",
+    "F52KWxVHsM6LKzoU",
+    "gOQj23YNTVyIp9jf",
+    "w0aSCOTM1hCnDdJZ",
+    "9m5r5z2zyrf1ptV7"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,22 +298,22 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "WzLZ8HGOGRJdpNmg",
+  "_originalKey": "!actors!WzLZ8HGOGRJdpNmg",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Longbow",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/weapons/bows/longbow-leather-green.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The elf shoots its longbow, dealing 1d6 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
+        "weight": 30,
         "cost": 7,
         "containerId": "",
         "equipped": true,
@@ -320,16 +321,16 @@
         "damageRoll": "1d6",
         "damageType": "physical",
         "breath": "",
-        "canMelee": true,
-        "canRanged": false,
+        "canMelee": false,
+        "canRanged": true,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
+        "mastery": "Bow, Long",
         "weaponType": "handheld",
         "range": {
-          "short": null,
-          "medium": null,
-          "long": null
+          "short": 70,
+          "medium": 140,
+          "long": 210
         },
         "totalWeight": 0,
         "totalCost": 0,
@@ -346,13 +347,13 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Longbow",
+        "unidentifiedDesc": "<p>The elf shoots its longbow, dealing 1d6 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "M",
-        "grip": "1H",
+        "size": "L",
+        "grip": "2H",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
@@ -376,20 +377,103 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "Dj2vtR6D8PjUdb8O",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.Dj2vtR6D8PjUdb8O",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Sword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/sword-simple-white.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>The elf strikes with its sword, dealing 1d8 points of damage.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 40,
+        "cost": 10,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d8",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": true,
+        "canRanged": false,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Sword",
+        "weaponType": "handheld",
+        "range": {
+          "short": null,
+          "medium": null,
+          "long": null
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Sword",
+        "unidentifiedDesc": "<p>The elf strikes with its sword, dealing 1d8 points of damage.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "M",
+        "grip": "1H",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 0,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d8"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "MWh7WLImywZk8uyW",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.MWh7WLImywZk8uyW",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Elf Armor",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The elf wears light elven armor.</p>",
         "gm": {
           "notes": ""
         },
@@ -400,7 +484,7 @@
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "ac": 6,
+        "ac": 5,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +493,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 5,
+        "totalAAC": 14,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Elf Armor",
+        "unidentifiedDesc": "<p>The elf wears light elven armor.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +515,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
       },
       "effects": [],
       "folder": null,
@@ -441,53 +525,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "name": "Sunlight Penalty",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "ClqNNuKCOIa72AuP",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.ClqNNuKCOIa72AuP",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -531,8 +570,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "rQZbL94ToqmZAGQf",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.rQZbL94ToqmZAGQf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -576,8 +615,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "6dK8ozpTRAv5yz6H",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.6dK8ozpTRAv5yz6H",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -621,8 +660,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "F52KWxVHsM6LKzoU",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.F52KWxVHsM6LKzoU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -666,8 +705,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "gOQj23YNTVyIp9jf",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.gOQj23YNTVyIp9jf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +750,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "w0aSCOTM1hCnDdJZ",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.w0aSCOTM1hCnDdJZ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -756,8 +795,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "9m5r5z2zyrf1ptV7",
+      "_originalKey": "!actors.items!WzLZ8HGOGRJdpNmg.9m5r5z2zyrf1ptV7",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

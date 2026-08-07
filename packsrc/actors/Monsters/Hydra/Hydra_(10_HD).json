@@ -1,17 +1,17 @@
 {
-  "name": "Giant, Storm",
+  "name": "Hydra (10 HD)",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Lawful",
-      "size": "G",
-      "morale": 10,
-      "xpAward": 3200,
-      "attacks": "2",
+      "alignment": "Neutral",
+      "size": "L",
+      "morale": 11,
+      "xpAward": 1700,
+      "attacks": "10",
       "abilityCount": 1,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F16",
+      "monsterType": "Monster",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
@@ -19,31 +19,31 @@
       "weight": ""
     },
     "hp": {
-      "hd": "16",
-      "value": 72,
-      "max": 72
+      "hd": "10",
+      "value": 45,
+      "max": 45
     },
     "na": {
       "wandering": "1",
-      "lair": "1d3"
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 8,
+      "value": 9,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 90,
+      "round": 30,
+      "day": 18,
+      "run": 90,
+      "max": 90
     },
-    "biography": "<p>Storm giants are the largest of giants, the most intelligent, the most magical, and the most likely to talk with humans rather than simply devour them. Storm giants can live in underwater sea-castles as well as on the heights of mountains. They throw boulders for 7d6 points of damage, and have the power to cast Control Weather.</p><p><strong>Weapon Damage:</strong> 3d6.<br><strong>Rock Damage:</strong> 7d6, up to 450 range.<br><strong>Terrain:</strong> Mountains, Seas.<br></p>",
-    "wrestling": 39,
+    "biography": "<p>Hydrae are great lizard-like or snake-like creatures with 5-12 heads. Each head has one hit die of its own, and when the head is killed, that head dies. The body has as many hit dice as the total of the heads, so it is a matter of good strategy for adventurers to focus either on killing heads (when all the heads are dead the body dies) or killing the creature by attacking the body (in which case the heads die, too). Hydrae that breathe fire or regenerate their heads are known to exist.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 5,
+      "nakedAAC": 14,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 5,
+      "nakedRangedAAC": 14,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 11,
+    "thbonus": 10,
     "initiative": {
       "value": 0
     },
@@ -83,7 +83,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "mod": {
@@ -124,14 +124,14 @@
     "isEnchanted": false,
     "abilities": {
       "int": {
-        "value": 18,
-        "total": 18,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
       "con": {
-        "value": 30,
-        "total": 30,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
@@ -171,12 +171,11 @@
       "run": 0
     },
     "actorGroups": [
-      "giantkind",
-      "weapon-using"
+      "reptiles-dinosaurs"
     ]
   },
   "prototypeToken": {
-    "name": "Storm Giant",
+    "name": "Hydra (10 HD)",
     "displayName": 20,
     "actorLink": false,
     "width": 2,
@@ -276,19 +275,18 @@
     "movementAction": null
   },
   "items": [
-    "HCc9H1WIeRyfkNTH",
-    "3GiuanhNkH6Ofm0m",
-    "xOUJZ432NUvnDdYE",
-    "vaSEkYF9M6wGNv6v",
-    "5Pku8FeV0rL4EvSm",
-    "t57XWmoYug7ZNvaY",
-    "f94UuNxU4lL5dO4o",
-    "viskVqtoZL1PYvop",
-    "8BsRjXgwvWlfshy3",
-    "e8t5xT6y3AerHMGV"
+    "8vp6KhqYk61EjxuV",
+    "ARQbUVFNOzGgpY3G",
+    "5LCqZJjqES38HBMf",
+    "cDafRyfKIstQA6wX",
+    "5Q21RNHrtqLKRNdb",
+    "UR4QCE6Cv6WJpcf3",
+    "T0m0XvOTZaWMg7rQ",
+    "N0szOds1g6qVpi4E",
+    "91dt7I9ZAep9tt7S"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "bDHXzhxQV3SNk16T",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -299,16 +297,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "Zt3MOILP8fvJ0Iuz",
-  "_originalKey": "!actors!Zt3MOILP8fvJ0Iuz",
+  "_id": "uuhMJszOLK34GwyA",
+  "_originalKey": "!actors!uuhMJszOLK34GwyA",
   "embedded": [
     {
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.xOUJZ432NUvnDdYE",
-      "name": "Bronze Skin (Armor)",
-      "type": "armor",
+      "name": "Bite",
+      "type": "weapon",
+      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
       "system": {
         "tags": [],
-        "description": "<p>Their bronze skin provides a natural Armor Class of 1.</p>",
+        "description": "<p>The hydra attacks with its 10 heads, each biting for 1d10 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -319,72 +317,7 @@
         "containerId": "",
         "equipped": true,
         "natural": true,
-        "ac": 1,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Bronze Skin (Armor)",
-        "unidentifiedDesc": "<p>Their bronze skin provides a natural Armor Class of 1.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "xOUJZ432NUvnDdYE",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.HCc9H1WIeRyfkNTH",
-      "name": "Giant Weapon",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "<p>The giant swings its massive weapon with devastating force.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "3d6",
+        "damageRoll": "1d10",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -392,7 +325,7 @@
         "savingThrow": "",
         "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -413,114 +346,29 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Giant Weapon",
-        "unidentifiedDesc": "<p>The giant swings its massive weapon with devastating force.</p>",
+        "unidentifiedName": "Bite",
+        "unidentifiedDesc": "<p>The hydra attacks with its 10 heads, each biting for 1d10 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 1,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "3d6"
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "HCc9H1WIeRyfkNTH",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.3GiuanhNkH6Ofm0m",
-      "name": "Boulder",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": null,
-        "quantityMax": null,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "7d6",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": 150,
-          "medium": 300,
-          "long": 450
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder dealing 7d6 damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 1,
-          "max": 1,
+          "group": 0,
+          "max": 10,
           "used": 0
         },
         "weightEquipped": null,
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "7d6"
+        "damageLabel": "1d10"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "3GiuanhNkH6Ofm0m",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -528,19 +376,84 @@
         "default": 0
       },
       "flags": {},
+      "_id": "8vp6KhqYk61EjxuV",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.8vp6KhqYk61EjxuV",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.vaSEkYF9M6wGNv6v",
-      "name": "Lightning Bolt",
-      "type": "specialAbility",
+      "name": "Hydra Scales",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
-        "shortName": "",
         "tags": [],
-        "description": "<p>A storm giant may throw one <em>lightning bolt</em> every 5 rounds. This bolt will do damage equal to the giant's remaining hit points. A successful save vs spells will reduce the damage to one half.</p>",
+        "description": "<p>The hydra's thick scales turn aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 5,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 5,
+        "totalAAC": 14,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Hydra Scales",
+        "unidentifiedDesc": "<p>The hydra's thick scales turn aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "ARQbUVFNOzGgpY3G",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.ARQbUVFNOzGgpY3G",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Multiple Heads (10)",
+      "type": "specialAbility",
+      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+      "system": {
+        "tags": [],
         "gm": {
           "notes": ""
         },
@@ -548,32 +461,33 @@
         "operator": "eq",
         "target": "0",
         "rollMode": "publicroll",
-        "savingThrow": "spell",
+        "savingThrow": "",
         "autoSuccess": null,
         "autoFail": null,
         "abilityMod": "",
-        "dmgFormula": "@actor.hp.value",
+        "dmgFormula": "",
         "healFormula": "",
-        "damageType": "magic",
+        "damageType": "",
         "category": "",
+        "shortName": "",
         "combatManeuver": "null",
         "customSaveCode": "",
-        "classKey": null,
-        "showResult": true,
+        "classKey": "",
+        "showResult": false,
         "quantity": 1,
         "quantityMax": null,
-        "conditions": []
+        "conditions": [],
+        "description": "<p>The hydra has 10 heads, each with one hit die of its own. When a head is killed, that head dies; when all the heads are dead, the body dies. The body has as many hit dice as the total of the heads.</p>"
       },
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "_id": "vaSEkYF9M6wGNv6v",
       "effects": [],
       "folder": null,
       "sort": 0,
       "ownership": {
-        "default": 0,
-        "0eyrbleKg5gmY59g": 3
+        "default": 0
       },
       "flags": {},
+      "_id": "5LCqZJjqES38HBMf",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.5LCqZJjqES38HBMf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -591,7 +505,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "3",
+        "target": "9",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -617,8 +531,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "5Pku8FeV0rL4EvSm",
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.5Pku8FeV0rL4EvSm",
+      "_id": "cDafRyfKIstQA6wX",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.cDafRyfKIstQA6wX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -662,8 +576,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "t57XWmoYug7ZNvaY",
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.t57XWmoYug7ZNvaY",
+      "_id": "5Q21RNHrtqLKRNdb",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.5Q21RNHrtqLKRNdb",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -707,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "f94UuNxU4lL5dO4o",
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.f94UuNxU4lL5dO4o",
+      "_id": "UR4QCE6Cv6WJpcf3",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.UR4QCE6Cv6WJpcf3",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -752,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "viskVqtoZL1PYvop",
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.viskVqtoZL1PYvop",
+      "_id": "T0m0XvOTZaWMg7rQ",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.T0m0XvOTZaWMg7rQ",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -797,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "8BsRjXgwvWlfshy3",
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.8BsRjXgwvWlfshy3",
+      "_id": "N0szOds1g6qVpi4E",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.N0szOds1g6qVpi4E",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -842,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "e8t5xT6y3AerHMGV",
-      "_originalKey": "!actors.items!Zt3MOILP8fvJ0Iuz.e8t5xT6y3AerHMGV",
+      "_id": "91dt7I9ZAep9tt7S",
+      "_originalKey": "!actors.items!uuhMJszOLK34GwyA.91dt7I9ZAep9tt7S",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

@@ -1,13 +1,13 @@
 {
-  "name": "Goblin",
+  "name": "Human, Sergeant-at-Arms",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
-      "size": "S",
-      "morale": 7,
-      "xpAward": 10,
+      "alignment": "Neutral",
+      "size": "M",
+      "morale": 9,
+      "xpAward": 60,
       "attacks": "1",
       "abilityCount": 1,
       "monsterType": "Humanoid",
@@ -19,9 +19,9 @@
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "3",
+      "value": 14,
+      "max": 14
     },
     "na": {
       "wandering": "1",
@@ -29,20 +29,20 @@
     },
     "treasure": "",
     "thac0": {
-      "value": 18,
+      "value": 16,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 120,
+      "round": 40,
+      "day": 24,
+      "run": 120,
+      "max": 120
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Human sergeants are normally found in command of 1d6+5 human soldiers. These are the leaders of city guard units and other small military groups in castles and armies.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -60,18 +60,18 @@
     "ac": {
       "naked": 9,
       "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "value": 5,
+      "total": 5,
+      "totalAAC": 14,
       "shield": 0,
       "mod": 0,
       "nakedRanged": 9,
       "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "totalRanged": 5,
+      "totalRangedAAC": 14,
       "av": "0"
     },
-    "thbonus": 1,
+    "thbonus": 3,
     "initiative": {
       "value": 0
     },
@@ -175,7 +175,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Human, Sergeant-at-Arms",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,18 +275,18 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "OdKNmiK8gnGXm9zf",
+    "HqzO9tmoRQKAm8fI",
+    "qH3xp6WkWLQs1ulr",
+    "BEe2Wjd4NDnHaSjL",
+    "iO2rzLcPuDAa3y2j",
+    "V3fbdwGQnmkx2D1T",
+    "CNjCigjZToGvRToo",
+    "X8yTUgCb7BAFfmyX",
+    "TdSmdVytiNiM1tsn"
   ],
   "effects": [],
-  "folder": "rMSHvZcsLsOsw0Vi",
+  "folder": "33EG7qQIPHrW3bwW",
   "ownership": {
     "default": 0,
     "0eyrbleKg5gmY59g": 3,
@@ -297,34 +297,34 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "Za1wdDa0HlSVkOOJ",
+  "_originalKey": "!actors!Za1wdDa0HlSVkOOJ",
   "embedded": [
     {
-      "name": "Short Sword",
+      "name": "Sword",
       "type": "weapon",
-      "img": "icons/weapons/swords/shortsword-guard.webp",
+      "img": "icons/weapons/swords/sword-simple-white.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The sergeant strikes with its sword, dealing 1d8 points of damage.</p>",
         "gm": {
           "notes": ""
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 25,
-        "cost": 7,
+        "weight": 40,
+        "cost": 10,
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "damageRoll": "1d6",
+        "damageRoll": "1d8",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
         "canRanged": false,
         "savingThrow": "",
         "saveDmgFormula": "",
-        "mastery": "Sword, Short",
+        "mastery": "Sword",
         "weaponType": "handheld",
         "range": {
           "short": null,
@@ -346,8 +346,8 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedName": "Sword",
+        "unidentifiedDesc": "<p>The sergeant strikes with its sword, dealing 1d8 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -367,7 +367,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d8"
       },
       "effects": [],
       "folder": null,
@@ -376,20 +376,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "OdKNmiK8gnGXm9zf",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.OdKNmiK8gnGXm9zf",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Chainmail",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The sergeant wears chainmail armor.</p>",
         "gm": {
           "notes": ""
         },
@@ -400,7 +400,7 @@
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "ac": 6,
+        "ac": 5,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +409,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 5,
+        "totalAAC": 14,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Chainmail",
+        "unidentifiedDesc": "<p>The sergeant wears chainmail armor.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +431,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 5,
+        "totalRangedAAC": 14
       },
       "effects": [],
       "folder": null,
@@ -441,15 +441,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "HqzO9tmoRQKAm8fI",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.HqzO9tmoRQKAm8fI",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Command",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +477,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>Human sergeants are normally found in command of 1d6+5 human soldiers.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +486,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "qH3xp6WkWLQs1ulr",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.qH3xp6WkWLQs1ulr",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -505,7 +505,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "18",
+        "target": "16",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -531,8 +531,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "BEe2Wjd4NDnHaSjL",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.BEe2Wjd4NDnHaSjL",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -550,7 +550,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "10",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -576,8 +576,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "iO2rzLcPuDAa3y2j",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.iO2rzLcPuDAa3y2j",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -595,7 +595,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "13",
+        "target": "11",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -621,8 +621,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "V3fbdwGQnmkx2D1T",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.V3fbdwGQnmkx2D1T",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -640,7 +640,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "14",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -666,8 +666,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "CNjCigjZToGvRToo",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.CNjCigjZToGvRToo",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +711,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "X8yTUgCb7BAFfmyX",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.X8yTUgCb7BAFfmyX",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -730,7 +730,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "16",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -756,8 +756,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "TdSmdVytiNiM1tsn",
+      "_originalKey": "!actors.items!Za1wdDa0HlSVkOOJ.TdSmdVytiNiM1tsn",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

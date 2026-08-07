@@ -1,13 +1,13 @@
 {
-  "name": "Goblin",
+  "name": "Gnome",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
+      "alignment": "Neutral",
       "size": "S",
       "morale": 7,
-      "xpAward": 10,
+      "xpAward": 15,
       "attacks": "1",
       "abilityCount": 1,
       "monsterType": "Humanoid",
@@ -19,9 +19,9 @@
       "weight": ""
     },
     "hp": {
-      "hd": "1-1",
-      "value": 3,
-      "max": 3
+      "hd": "1",
+      "value": 5,
+      "max": 5
     },
     "na": {
       "wandering": "1",
@@ -42,7 +42,7 @@
       "run": 90,
       "max": 90
     },
-    "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
+    "biography": "<p>Gnomes are industrious, peaceful beings. They dwell mostly deep underground. They rarely stand higher than 3 feet and have long beards and pointed noses. They are peaceful by nature, seeking only to mine for gems and other valuables, engage in the occasional prank. Gnomes are natural foes of goblins and kobolds, as well as skilled illusionists. All gnomes can cast Phantasmal Force once per day.</p>",
     "wrestling": 0,
     "encumbrance": {
       "max": 0,
@@ -58,17 +58,17 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 6,
-      "total": 6,
-      "totalAAC": 13,
+      "naked": 7,
+      "nakedAAC": 12,
+      "value": 7,
+      "total": 7,
+      "totalAAC": 12,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 6,
-      "totalRangedAAC": 13,
+      "nakedRanged": 7,
+      "nakedRangedAAC": 12,
+      "totalRanged": 7,
+      "totalRangedAAC": 12,
       "av": "0"
     },
     "thbonus": 1,
@@ -175,7 +175,7 @@
     ]
   },
   "prototypeToken": {
-    "name": "Goblin",
+    "name": "Gnome",
     "displayName": 20,
     "actorLink": false,
     "width": 1,
@@ -275,15 +275,16 @@
     "movementAction": null
   },
   "items": [
-    "IVRD2BBCH2ch81UJ",
-    "xLsFqfOwxLhV7CyZ",
-    "9BxTFZzpXWUJp6I9",
-    "R4A9aZ9CuYJBn181",
-    "vDNZ0rb3UzLyQsJv",
-    "E6LFN70lVJBhGi2a",
-    "XOQfQJWBvYTkI5sf",
-    "tBEHhsir4l1R6QP8",
-    "qAD2Th0UMjOB5nNG"
+    "RjUGIpI8QOxj7H4W",
+    "yhxNYvqhYqmKDvpF",
+    "owzwQus0RCcE5Qym",
+    "dCzHKHhcv8RUkKF9",
+    "fXbOD82hmZgohiZ0",
+    "fHGFJWwRmyoaLTqx",
+    "hHgdonSp2WDBceoY",
+    "0O1iwP9KKbDbOsga",
+    "bPxIxF5uowa4eXL2",
+    "PLwzEdbgMmUTGa3t"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -297,16 +298,99 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "yP5GsnLMsAbVdm8P",
-  "_originalKey": "!actors!yP5GsnLMsAbVdm8P",
+  "_id": "y8gjKCnUR3ZRsnjr",
+  "_originalKey": "!actors!y8gjKCnUR3ZRsnjr",
   "embedded": [
+    {
+      "name": "Short Bow",
+      "type": "weapon",
+      "img": "icons/weapons/bows/shortbow-recurve.webp",
+      "system": {
+        "tags": [],
+        "description": "<p>The gnome shoots its short bow, dealing 1d6-1 points of damage.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 25,
+        "cost": 5,
+        "containerId": "",
+        "equipped": true,
+        "natural": false,
+        "damageRoll": "1d6-1",
+        "damageType": "physical",
+        "breath": "",
+        "canMelee": false,
+        "canRanged": true,
+        "savingThrow": "",
+        "saveDmgFormula": "",
+        "mastery": "Bow, Short",
+        "weaponType": "handheld",
+        "range": {
+          "short": 50,
+          "medium": 100,
+          "long": 150
+        },
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "mod": {
+          "dmg": 0,
+          "toHit": 0,
+          "dmgRanged": 0,
+          "toHitRanged": 0
+        },
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "canSet": false,
+        "unidentifiedName": "Short Bow",
+        "unidentifiedDesc": "<p>The gnome shoots its short bow, dealing 1d6-1 points of damage.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "isSlow": false,
+        "size": "L",
+        "grip": "2H",
+        "charges": 0,
+        "chargesMax": 0,
+        "dmgFormula": null,
+        "healFormula": null,
+        "isUsable": false,
+        "attacks": {
+          "group": 0,
+          "max": 1,
+          "used": 0
+        },
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "damageLabel": "1d6-1"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "RjUGIpI8QOxj7H4W",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.RjUGIpI8QOxj7H4W",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
     {
       "name": "Short Sword",
       "type": "weapon",
       "img": "icons/weapons/swords/shortsword-guard.webp",
       "system": {
         "tags": [],
-        "description": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "description": "<p>The gnome slashes with its short sword, dealing 1d6-1 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -317,7 +401,7 @@
         "containerId": "",
         "equipped": true,
         "natural": false,
-        "damageRoll": "1d6",
+        "damageRoll": "1d6-1",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -347,7 +431,7 @@
         "shortName": "",
         "canSet": false,
         "unidentifiedName": "Short Sword",
-        "unidentifiedDesc": "<p>The goblin slashes with its short sword, dealing 1d6 points of damage.</p>",
+        "unidentifiedDesc": "<p>The gnome slashes with its short sword, dealing 1d6-1 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
@@ -367,7 +451,7 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "1d6"
+        "damageLabel": "1d6-1"
       },
       "effects": [],
       "folder": null,
@@ -376,20 +460,20 @@
         "default": 0
       },
       "flags": {},
-      "_id": "IVRD2BBCH2ch81UJ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.IVRD2BBCH2ch81UJ",
+      "_id": "yhxNYvqhYqmKDvpF",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.yhxNYvqhYqmKDvpF",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Goblin Armor",
+      "name": "Tough Skin",
       "type": "armor",
       "img": "systems/fantastic-depths/assets/img/item/armor.png",
       "system": {
         "tags": [],
-        "description": "<p>The goblin wears crude leather and hide armor.</p>",
+        "description": "<p>The gnome's tough skin turns aside blows.</p>",
         "gm": {
           "notes": ""
         },
@@ -399,8 +483,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "ac": 6,
+        "natural": true,
+        "ac": 7,
         "isShield": false,
         "totalWeight": 0,
         "totalCost": 0,
@@ -409,14 +493,14 @@
         "dmgFormula": null,
         "armorWeight": "light",
         "mod": 0,
-        "totalAC": 6,
-        "totalAAC": 13,
+        "totalAC": 7,
+        "totalAAC": 12,
         "fuelType": "",
         "ammoType": "",
         "isAmmo": false,
         "shortName": "",
-        "unidentifiedName": "Goblin Armor",
-        "unidentifiedDesc": "<p>The goblin wears crude leather and hide armor.</p>",
+        "unidentifiedName": "Tough Skin",
+        "unidentifiedDesc": "<p>The gnome's tough skin turns aside blows.</p>",
         "isIdentified": true,
         "isCursed": false,
         "charges": 0,
@@ -431,8 +515,8 @@
         "isDropped": false,
         "isTreasure": false,
         "modRanged": 0,
-        "totalRangedAC": 6,
-        "totalRangedAAC": 13
+        "totalRangedAC": 7,
+        "totalRangedAAC": 12
       },
       "effects": [],
       "folder": null,
@@ -441,15 +525,15 @@
         "default": 0
       },
       "flags": {},
-      "_id": "xLsFqfOwxLhV7CyZ",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.xLsFqfOwxLhV7CyZ",
+      "_id": "owzwQus0RCcE5Qym",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.owzwQus0RCcE5Qym",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       }
     },
     {
-      "name": "Sunlight Penalty",
+      "name": "Phantasmal Force (Once per Day)",
       "type": "specialAbility",
       "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
       "system": {
@@ -477,7 +561,7 @@
         "quantity": 1,
         "quantityMax": null,
         "conditions": [],
-        "description": "<p>Goblins attack with a -1 to-hit in the full sunlight.</p>"
+        "description": "<p>All gnomes can cast Phantasmal Force once per day.</p>"
       },
       "effects": [],
       "folder": null,
@@ -486,8 +570,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "9BxTFZzpXWUJp6I9",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.9BxTFZzpXWUJp6I9",
+      "_id": "dCzHKHhcv8RUkKF9",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.dCzHKHhcv8RUkKF9",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -531,8 +615,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "R4A9aZ9CuYJBn181",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.R4A9aZ9CuYJBn181",
+      "_id": "fXbOD82hmZgohiZ0",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.fXbOD82hmZgohiZ0",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -576,8 +660,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "vDNZ0rb3UzLyQsJv",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.vDNZ0rb3UzLyQsJv",
+      "_id": "fHGFJWwRmyoaLTqx",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.fHGFJWwRmyoaLTqx",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -621,8 +705,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "E6LFN70lVJBhGi2a",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.E6LFN70lVJBhGi2a",
+      "_id": "hHgdonSp2WDBceoY",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.hHgdonSp2WDBceoY",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -666,8 +750,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "XOQfQJWBvYTkI5sf",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.XOQfQJWBvYTkI5sf",
+      "_id": "0O1iwP9KKbDbOsga",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.0O1iwP9KKbDbOsga",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -711,8 +795,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "tBEHhsir4l1R6QP8",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.tBEHhsir4l1R6QP8",
+      "_id": "bPxIxF5uowa4eXL2",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.bPxIxF5uowa4eXL2",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -756,8 +840,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "qAD2Th0UMjOB5nNG",
-      "_originalKey": "!actors.items!yP5GsnLMsAbVdm8P.qAD2Th0UMjOB5nNG",
+      "_id": "PLwzEdbgMmUTGa3t",
+      "_originalKey": "!actors.items!y8gjKCnUR3ZRsnjr.PLwzEdbgMmUTGa3t",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"

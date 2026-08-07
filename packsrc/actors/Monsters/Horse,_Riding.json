@@ -1,17 +1,17 @@
 {
-  "name": "Giant, Hill",
+  "name": "Horse, Riding",
   "type": "monster",
   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
   "system": {
     "details": {
-      "alignment": "Chaotic",
+      "alignment": "Neutral",
       "size": "L",
-      "morale": 8,
-      "xpAward": 1100,
+      "morale": 7,
+      "xpAward": 30,
       "attacks": "1",
       "abilityCount": 0,
-      "monsterType": "Giant Humanoid",
-      "saveAs": "F8",
+      "monsterType": "Monster",
+      "saveAs": "",
       "castAs": "",
       "classAbilityAs": "",
       "level": 1,
@@ -19,31 +19,31 @@
       "weight": ""
     },
     "hp": {
-      "hd": "8",
-      "value": 36,
-      "max": 36
+      "hd": "2",
+      "value": 9,
+      "max": 9
     },
     "na": {
-      "wandering": "1d4",
-      "lair": "1d4"
+      "wandering": "1",
+      "lair": "1"
     },
-    "treasure": "E + 5000gp",
+    "treasure": "",
     "thac0": {
-      "value": 12,
+      "value": 17,
       "mod": {
         "missile": 0,
         "melee": 0
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 240,
+      "round": 80,
+      "day": 48,
+      "run": 240,
+      "max": 240
     },
-    "biography": "<p>Hill giants are the least of the giant races; most are brutish cave-dwellers who dress in pelts and uncured hides. They throw rocks for 2d8 points of damage.</p><p><strong>Club Damage:</strong> 2d6.<br><strong>Rock Damage:</strong> 2d8, up to 100 range.<br><strong>Terrain:</strong> Hills, Mountains.<br></p>",
-    "wrestling": 25,
+    "biography": "<p>Horses are AC 7 [12]. Riding horses have 2 HD and a Move of 24, warhorses have 3 HD and a Move of 18, and draft horses have a Move of 12.</p>",
+    "wrestling": 0,
     "encumbrance": {
       "max": 0,
       "value": 0,
@@ -58,20 +58,20 @@
       "notes": ""
     },
     "ac": {
-      "naked": 9,
-      "nakedAAC": 10,
-      "value": 9,
-      "total": 9,
-      "totalAAC": 10,
+      "naked": 7,
+      "nakedAAC": 12,
+      "value": 7,
+      "total": 7,
+      "totalAAC": 12,
       "shield": 0,
       "mod": 0,
-      "nakedRanged": 9,
-      "nakedRangedAAC": 10,
-      "totalRanged": 9,
-      "totalRangedAAC": 10,
+      "nakedRanged": 7,
+      "nakedRangedAAC": 12,
+      "totalRanged": 7,
+      "totalRangedAAC": 12,
       "av": "0"
     },
-    "thbonus": 7,
+    "thbonus": 2,
     "initiative": {
       "value": 0
     },
@@ -83,7 +83,7 @@
       "declaredAction": "attack",
       "attAgainstH": 0,
       "attAgainstM": 0,
-      "basicProficiency": false,
+      "basicProficiency": true,
       "unskilledToHitMod": -2
     },
     "mod": {
@@ -124,14 +124,14 @@
     "isEnchanted": false,
     "abilities": {
       "int": {
-        "value": 7,
-        "total": 7,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
       "con": {
-        "value": 16,
-        "total": 16,
+        "value": 10,
+        "total": 10,
         "mod": 0,
         "tempMod": 0
       },
@@ -170,13 +170,10 @@
       "day": 0,
       "run": 0
     },
-    "actorGroups": [
-      "giantkind",
-      "weapon-using"
-    ]
+    "actorGroups": []
   },
   "prototypeToken": {
-    "name": "Hill Giant",
+    "name": "Horse, Riding",
     "displayName": 20,
     "actorLink": false,
     "width": 2,
@@ -276,15 +273,14 @@
     "movementAction": null
   },
   "items": [
-    "6ADe6hwY5W4QV63N",
-    "VfBClnAP7ZhCOalO",
-    "VLs2oR8tCiG06q1t",
-    "WuBPP0pz8XycNXRO",
-    "oG1KHQ0PiLGeaoVm",
-    "wx93Sz6fRUOoFHSJ",
-    "h6TfCpBH0dpBjrBV",
-    "4K9TGQJde3VfnYAQ",
-    "c62g3lODFPD7v5MM"
+    "dEYnuxrAg2Z3ZxHy",
+    "6LPfzEMVhAAoW1eW",
+    "NJQuq33tmqtAiTrR",
+    "cwDtlUu5JqkXaiEs",
+    "j8bsuT1j4KqKCiuU",
+    "FmpRl6vPMxo3F2hm",
+    "SyIBLvVOGYva1IdA",
+    "B2YoLKHzL10ZyLml"
   ],
   "effects": [],
   "folder": "rMSHvZcsLsOsw0Vi",
@@ -298,81 +294,16 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "_id": "E3MexbJKdem8VvQ9",
-  "_originalKey": "!actors!E3MexbJKdem8VvQ9",
+  "_id": "y1IkYnaMVhONr0Jx",
+  "_originalKey": "!actors!y1IkYnaMVhONr0Jx",
   "embedded": [
     {
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.VLs2oR8tCiG06q1t",
-      "name": "Hill Giant Hide (Armor)",
-      "type": "armor",
-      "system": {
-        "tags": [],
-        "description": "The thick hide of the hill giant provides a natural Armor Class of 4.",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "ac": 4,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 9,
-        "totalAAC": 9,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "",
-        "unidentifiedDesc": "The thick hide of the hill giant provides a natural Armor Class of 4.",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": null,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "av": null,
-        "modRanged": 0,
-        "totalRangedAC": 9,
-        "totalRangedAAC": 9
-      },
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "_id": "VLs2oR8tCiG06q1t",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.6ADe6hwY5W4QV63N",
-      "name": "Club",
+      "name": "Hoof",
       "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
       "system": {
         "tags": [],
-        "description": "The giant swings its massive club with devastating force.",
+        "description": "<p>The horse lashes out with its hooves, dealing 1d4 points of damage.</p>",
         "gm": {
           "notes": ""
         },
@@ -382,8 +313,8 @@
         "cost": 0,
         "containerId": "",
         "equipped": true,
-        "natural": false,
-        "damageRoll": "2d6",
+        "natural": true,
+        "damageRoll": "1d4",
         "damageType": "physical",
         "breath": "",
         "canMelee": true,
@@ -391,7 +322,7 @@
         "savingThrow": "",
         "saveDmgFormula": "",
         "mastery": "",
-        "weaponType": "handheld",
+        "weaponType": "monster",
         "range": {
           "short": null,
           "medium": null,
@@ -412,103 +343,20 @@
         "isAmmo": false,
         "shortName": "",
         "canSet": false,
-        "unidentifiedName": "Club",
-        "unidentifiedDesc": "The giant swings its massive club with devastating force.",
+        "unidentifiedName": "Hoof",
+        "unidentifiedDesc": "<p>The horse lashes out with its hooves, dealing 1d4 points of damage.</p>",
         "isIdentified": true,
         "isCursed": false,
         "isSlow": false,
-        "size": "L",
-        "grip": "1H",
-        "charges": null,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "max": 1,
-          "used": 0,
-          "group": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "2d6"
-      },
-      "img": "icons/svg/sword.svg",
-      "_id": "6ADe6hwY5W4QV63N",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.VfBClnAP7ZhCOalO",
-      "name": "Boulder",
-      "type": "weapon",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": null,
-        "quantityMax": null,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": false,
-        "damageRoll": "2d8",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": 30,
-          "medium": 60,
-          "long": 100
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Boulder",
-        "unidentifiedDesc": "<p>The giant hurls a boulder (30/60/100) dealing 2d8 damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "L",
-        "grip": "2H",
+        "size": "null",
+        "grip": "null",
         "charges": 0,
         "chargesMax": 0,
         "dmgFormula": null,
         "healFormula": null,
         "isUsable": false,
         "attacks": {
-          "group": 1,
+          "group": 0,
           "max": 1,
           "used": 0
         },
@@ -516,10 +364,8 @@
         "isOpen": false,
         "isDropped": false,
         "isTreasure": false,
-        "damageLabel": "2d8"
+        "damageLabel": "1d4"
       },
-      "img": "icons/svg/sword.svg",
-      "_id": "VfBClnAP7ZhCOalO",
       "effects": [],
       "folder": null,
       "sort": 0,
@@ -527,6 +373,73 @@
         "default": 0
       },
       "flags": {},
+      "_id": "dEYnuxrAg2Z3ZxHy",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.dEYnuxrAg2Z3ZxHy",
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      }
+    },
+    {
+      "name": "Hide",
+      "type": "armor",
+      "img": "systems/fantastic-depths/assets/img/item/armor.png",
+      "system": {
+        "tags": [],
+        "description": "<p>The horse's tough hide turns aside blows.</p>",
+        "gm": {
+          "notes": ""
+        },
+        "quantity": 1,
+        "quantityMax": 0,
+        "weight": 0,
+        "cost": 0,
+        "containerId": "",
+        "equipped": true,
+        "natural": true,
+        "ac": 7,
+        "isShield": false,
+        "totalWeight": 0,
+        "totalCost": 0,
+        "container": false,
+        "equippable": false,
+        "dmgFormula": null,
+        "armorWeight": "light",
+        "mod": 0,
+        "totalAC": 7,
+        "totalAAC": 12,
+        "fuelType": "",
+        "ammoType": "",
+        "isAmmo": false,
+        "shortName": "",
+        "unidentifiedName": "Hide",
+        "unidentifiedDesc": "<p>The horse's tough hide turns aside blows.</p>",
+        "isIdentified": true,
+        "isCursed": false,
+        "charges": 0,
+        "chargesMax": 0,
+        "savingThrow": null,
+        "healFormula": null,
+        "damageType": "",
+        "isUsable": false,
+        "av": "",
+        "weightEquipped": null,
+        "isOpen": false,
+        "isDropped": false,
+        "isTreasure": false,
+        "modRanged": 0,
+        "totalRangedAC": 7,
+        "totalRangedAAC": 12
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_id": "6LPfzEMVhAAoW1eW",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.6LPfzEMVhAAoW1eW",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -544,7 +457,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "11",
+        "target": "17",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -570,8 +483,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "WuBPP0pz8XycNXRO",
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.WuBPP0pz8XycNXRO",
+      "_id": "NJQuq33tmqtAiTrR",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.NJQuq33tmqtAiTrR",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -589,7 +502,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "8",
+        "target": "12",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -615,8 +528,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "oG1KHQ0PiLGeaoVm",
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.oG1KHQ0PiLGeaoVm",
+      "_id": "cwDtlUu5JqkXaiEs",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.cwDtlUu5JqkXaiEs",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -634,7 +547,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "13",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -660,8 +573,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "wx93Sz6fRUOoFHSJ",
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.wx93Sz6fRUOoFHSJ",
+      "_id": "j8bsuT1j4KqKCiuU",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.j8bsuT1j4KqKCiuU",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -679,7 +592,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "10",
+        "target": "14",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -705,8 +618,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "h6TfCpBH0dpBjrBV",
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.h6TfCpBH0dpBjrBV",
+      "_id": "FmpRl6vPMxo3F2hm",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.FmpRl6vPMxo3F2hm",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -724,7 +637,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "9",
+        "target": "15",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -750,8 +663,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "4K9TGQJde3VfnYAQ",
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.4K9TGQJde3VfnYAQ",
+      "_id": "SyIBLvVOGYva1IdA",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.SyIBLvVOGYva1IdA",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
@@ -769,7 +682,7 @@
         },
         "rollFormula": "1d20",
         "operator": "gte",
-        "target": "12",
+        "target": "16",
         "rollMode": "publicroll",
         "autoSuccess": null,
         "autoFail": null,
@@ -795,8 +708,8 @@
         "default": 0
       },
       "flags": {},
-      "_id": "c62g3lODFPD7v5MM",
-      "_originalKey": "!actors.items!E3MexbJKdem8VvQ9.c62g3lODFPD7v5MM",
+      "_id": "B2YoLKHzL10ZyLml",
+      "_originalKey": "!actors.items!y1IkYnaMVhONr0Jx.B2YoLKHzL10ZyLml",
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
