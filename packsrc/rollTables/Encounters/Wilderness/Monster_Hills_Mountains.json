@@ -1,0 +1,265 @@
+{
+  "name": "Monster (Hills/Mountains)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the monster encountered.</p>",
+  "results": [
+    "14TkiV77SSGItxWA",
+    "jqIqwY1JHhV2ST7s",
+    "HgRKWYNEG2ScHaGa",
+    "hLGBojjO4HkmyfYQ",
+    "8IHUSqZV3U1095Me",
+    "rwdWwFUGi9ff1sYB",
+    "8utnzOXPZAIDb9OQ",
+    "Z517DMiM7POiqJCt",
+    "ipXv1sZ2EZzCeCj7",
+    "cUh22FYtaCrNkBxl",
+    "2Y1GunLXjnlwDy0q",
+    "gI0DzXVjMg7jdJ8j"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "gXbsVTQO6uc1XTc8",
+  "sort": 0,
+  "_originalKey": "!tables!gXbsVTQO6uc1XTc8",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.14TkiV77SSGItxWA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "14TkiV77SSGItxWA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Basilisk"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.jqIqwY1JHhV2ST7s",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "jqIqwY1JHhV2ST7s",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Chimerae"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.HgRKWYNEG2ScHaGa",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "HgRKWYNEG2ScHaGa",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gorgons"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.hLGBojjO4HkmyfYQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "hLGBojjO4HkmyfYQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Griffons"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.8IHUSqZV3U1095Me",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "8IHUSqZV3U1095Me",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Harpies"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.rwdWwFUGi9ff1sYB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "rwdWwFUGi9ff1sYB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Werewolf"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.8utnzOXPZAIDb9OQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "8utnzOXPZAIDb9OQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hippogriffs"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.Z517DMiM7POiqJCt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "Z517DMiM7POiqJCt",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Manticore"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.ipXv1sZ2EZzCeCj7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "ipXv1sZ2EZzCeCj7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Medusa"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.cUh22FYtaCrNkBxl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "cUh22FYtaCrNkBxl",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Pegasi"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.2Y1GunLXjnlwDy0q",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "2Y1GunLXjnlwDy0q",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Roc"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.gI0DzXVjMg7jdJ8j",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "gI0DzXVjMg7jdJ8j",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wererat"
+    }
+  ]
+}

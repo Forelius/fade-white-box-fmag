@@ -1,0 +1,265 @@
+{
+  "name": "Encounter Level 10",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the encounter on dungeon level 10.</p>",
+  "results": [
+    "2ytMeSLosohKBtQ2",
+    "fwXwYOFdsJl4siis",
+    "WdNh6pmJjoG5Xfrb",
+    "2A1gAFR6JXAq9ocx",
+    "8LeGs0bwGfykr2T1",
+    "98X2XXSgxJndA8oh",
+    "OhoVRXd3t1KAwrQR",
+    "F17U2TBTNdw3ueFH",
+    "SJEey9tM6544GDxs",
+    "POmRUnxKGFRCZdZB",
+    "cxs6lCLMEhZr2oJI",
+    "wyRotKoYjvYkQx0s"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "xMFDo9ox1Ubd7hmX",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "d3GlSb6syp7zjQg7",
+  "sort": 0,
+  "_originalKey": "!tables!d3GlSb6syp7zjQg7",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.2ytMeSLosohKBtQ2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "2ytMeSLosohKBtQ2",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hydra"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.fwXwYOFdsJl4siis",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "fwXwYOFdsJl4siis",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lich"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.WdNh6pmJjoG5Xfrb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "WdNh6pmJjoG5Xfrb",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Red"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.2A1gAFR6JXAq9ocx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "2A1gAFR6JXAq9ocx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Gold"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.8LeGs0bwGfykr2T1",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "8LeGs0bwGfykr2T1",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Black Pudding"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.98X2XXSgxJndA8oh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "98X2XXSgxJndA8oh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Air"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.OhoVRXd3t1KAwrQR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "OhoVRXd3t1KAwrQR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Earth"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.F17U2TBTNdw3ueFH",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "F17U2TBTNdw3ueFH",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Fire"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.SJEey9tM6544GDxs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "SJEey9tM6544GDxs",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Water"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.POmRUnxKGFRCZdZB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "POmRUnxKGFRCZdZB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Death Knight"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.cxs6lCLMEhZr2oJI",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "cxs6lCLMEhZr2oJI",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Slug, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!d3GlSb6syp7zjQg7.wyRotKoYjvYkQx0s",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "wyRotKoYjvYkQx0s",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Purple Worm"
+    }
+  ]
+}

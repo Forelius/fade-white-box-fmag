@@ -1,0 +1,185 @@
+{
+  "name": "Dragon",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d8 to determine the dragon encountered.</p>",
+  "results": [
+    "p12RgTXURQqIjmkt",
+    "wqbkRc8E9gigTsGF",
+    "dn8wpVPqt7jjaSuh",
+    "KMJEq76oScVCyfhy",
+    "MR1YgqFK4pbHsiox",
+    "xKyjcj0Fy9hoDaae",
+    "69cvY6UNbyWB9mRJ",
+    "TujHOLZ4QyMWZS7m"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_id": "nHNhmi1fhdjSNv1w",
+  "sort": 0,
+  "_originalKey": "!tables!nHNhmi1fhdjSNv1w",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.p12RgTXURQqIjmkt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "p12RgTXURQqIjmkt",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Gold"
+    },
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.wqbkRc8E9gigTsGF",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "wqbkRc8E9gigTsGF",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Blue"
+    },
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.dn8wpVPqt7jjaSuh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "dn8wpVPqt7jjaSuh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Black"
+    },
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.KMJEq76oScVCyfhy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "KMJEq76oScVCyfhy",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Green"
+    },
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.MR1YgqFK4pbHsiox",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "MR1YgqFK4pbHsiox",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Red"
+    },
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.xKyjcj0Fy9hoDaae",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "xKyjcj0Fy9hoDaae",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, White"
+    },
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.69cvY6UNbyWB9mRJ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "69cvY6UNbyWB9mRJ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wyverns"
+    },
+    {
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.TujHOLZ4QyMWZS7m",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "TujHOLZ4QyMWZS7m",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hydrae"
+    }
+  ]
+}

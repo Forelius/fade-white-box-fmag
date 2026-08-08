@@ -1,0 +1,145 @@
+{
+  "name": "Monster (Swamp/Jungle)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d6 to determine the monster encountered.</p>",
+  "results": [
+    "bsqDQkwmx3ux4dWw",
+    "rFq1pbNPvzHDrXVQ",
+    "wU6fb38zgczW0TbA",
+    "TcKHcG1ebXuDt4dP",
+    "mFoNOwt0Wzra2aNx",
+    "k7k3QYzkfxt7zz3c"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "JvUTnbOWrAeIckvu",
+  "sort": 0,
+  "_originalKey": "!tables!JvUTnbOWrAeIckvu",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.bsqDQkwmx3ux4dWw",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "bsqDQkwmx3ux4dWw",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Medusa"
+    },
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.rFq1pbNPvzHDrXVQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "rFq1pbNPvzHDrXVQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dryad"
+    },
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.wU6fb38zgczW0TbA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "wU6fb38zgczW0TbA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Basilisk"
+    },
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.TcKHcG1ebXuDt4dP",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "TcKHcG1ebXuDt4dP",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Cockatrice"
+    },
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.mFoNOwt0Wzra2aNx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "mFoNOwt0Wzra2aNx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Chimerae"
+    },
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.k7k3QYzkfxt7zz3c",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "k7k3QYzkfxt7zz3c",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Harpies"
+    }
+  ]
+}

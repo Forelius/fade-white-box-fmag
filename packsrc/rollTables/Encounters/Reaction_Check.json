@@ -1,0 +1,125 @@
+{
+  "name": "Reaction Check",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 2d6 to determine how a monster or NPC reacts to the party.</p>",
+  "results": [
+    "WB8J64pZlCba3eVz",
+    "N67gJNb6K3daFQpf",
+    "8lnLiIPBa5PloDxW",
+    "MpnNun9IAnRftW88",
+    "B3M5s1iMz0Jm2oao"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "XyGBiGyqXpomV4Df",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "2d6",
+  "_id": "YIvKsBsFvEV1s2kj",
+  "sort": 0,
+  "_originalKey": "!tables!YIvKsBsFvEV1s2kj",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.WB8J64pZlCba3eVz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "WB8J64pZlCba3eVz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hostile"
+    },
+    {
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.N67gJNb6K3daFQpf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        5
+      ],
+      "drawn": false,
+      "_id": "N67gJNb6K3daFQpf",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Negative"
+    },
+    {
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.8lnLiIPBa5PloDxW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "_id": "8lnLiIPBa5PloDxW",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Uncertain"
+    },
+    {
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.MpnNun9IAnRftW88",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "_id": "MpnNun9IAnRftW88",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Positive"
+    },
+    {
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.B3M5s1iMz0Jm2oao",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "B3M5s1iMz0Jm2oao",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Enthusiastic"
+    }
+  ]
+}

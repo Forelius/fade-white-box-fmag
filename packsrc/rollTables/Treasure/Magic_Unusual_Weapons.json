@@ -1,0 +1,245 @@
+{
+  "name": "Magic Unusual Weapons",
+  "_id": "cea14o2rlX933Ngc",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d10 to determine the type of unusual weapon found. When a sub-table is referenced, it is rolled automatically to determine the specific weapon.</p>",
+  "results": [
+    "Gbf6sZEIEOWEDqeK",
+    "WSPdhje4Fm8IDMpL",
+    "vrmThXdRrDDaM2lH",
+    "1MeFUk8sobaH4MpO",
+    "3W6yqKy4WpU9SSJf",
+    "utwsgOO2hnKDmL9y",
+    "hBh4hFsGcsOudvXs",
+    "RW7BWNY5M2WZejqy",
+    "sdVEYCP5OKEb4Ibq",
+    "BmpqdQoClOiW5rDP"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_originalKey": "!tables!cea14o2rlX933Ngc",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.Gbf6sZEIEOWEDqeK",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "Gbf6sZEIEOWEDqeK",
+      "name": "Blunt Weapon that Destroys Undead",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.wtapVsA6gBdQ6Hd5]{Blunt Weapon that Destroys Undead}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.wtapVsA6gBdQ6Hd5",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.wtapVsA6gBdQ6Hd5]{Blunt Weapon that Destroys Undead}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.WSPdhje4Fm8IDMpL",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "WSPdhje4Fm8IDMpL",
+      "name": "Thrown Weapon that Returns to Hand",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.ACTyxecI3dzTexnA]{Thrown Weapon that Returns to Hand}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ACTyxecI3dzTexnA",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.ACTyxecI3dzTexnA]{Thrown Weapon that Returns to Hand}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.vrmThXdRrDDaM2lH",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "vrmThXdRrDDaM2lH",
+      "name": "+1 Weapon, Grants 1 Additional Attack/Day",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.M1cL8gimf6A3gQQu]{+1 Sword, Long (+1 Attack/Day)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.M1cL8gimf6A3gQQu]{+1 Sword, Long (+1 Attack/Day)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.1MeFUk8sobaH4MpO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "1MeFUk8sobaH4MpO",
+      "name": "+1, +2 vs. Particular Type of Foe",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.gjOAghQWXUmHDxa7]{+1, +2 vs. Particular Foe}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.gjOAghQWXUmHDxa7",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.gjOAghQWXUmHDxa7]{+1, +2 vs. Particular Foe}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.3W6yqKy4WpU9SSJf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "3W6yqKy4WpU9SSJf",
+      "name": "+1, +4 vs. Particular Type of Foe",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.gf7NYgwtXo0vtWX1]{+1, +4 vs. Particular Foe}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.gf7NYgwtXo0vtWX1",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.gf7NYgwtXo0vtWX1]{+1, +4 vs. Particular Foe}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.utwsgOO2hnKDmL9y",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "utwsgOO2hnKDmL9y",
+      "name": "+2, +3 vs. Particular Type of Foe",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.bSc0FcVnRBjBE20F]{+2, +3 vs. Particular Foe}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.bSc0FcVnRBjBE20F",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.bSc0FcVnRBjBE20F]{+2, +3 vs. Particular Foe}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.hBh4hFsGcsOudvXs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "hBh4hFsGcsOudvXs",
+      "name": "Weapon Flames",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uEeaWmgYXADeqZLe]{Flaming Sword, Long}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uEeaWmgYXADeqZLe]{Flaming Sword, Long}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.RW7BWNY5M2WZejqy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "RW7BWNY5M2WZejqy",
+      "name": "Weapon Freezes",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.0GsVV67z4ljwuNeq]{Freezing Sword, Long}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.0GsVV67z4ljwuNeq]{Freezing Sword, Long}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.sdVEYCP5OKEb4Ibq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "sdVEYCP5OKEb4Ibq",
+      "name": "Dancing Weapon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.OmGsQWcOwZLdk5rK]{Dancing Sword, Long}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.OmGsQWcOwZLdk5rK]{Dancing Sword, Long}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!cea14o2rlX933Ngc.BmpqdQoClOiW5rDP",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "BmpqdQoClOiW5rDP",
+      "name": "Intelligent Weapon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jazVVyCMhnS3nglA]{Intelligent Sword, Long}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jazVVyCMhnS3nglA]{Intelligent Sword, Long}</p>"
+    }
+  ]
+}

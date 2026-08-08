@@ -1,0 +1,145 @@
+{
+  "name": "Monster (River/Coast)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d6 to determine the monster encountered.</p>",
+  "results": [
+    "KQSmIKqdPIIgUQZB",
+    "HnXFIdK0W0C7sYE3",
+    "ZViBWqiJiYgPqgMd",
+    "mIAcpOFI7ddncJwQ",
+    "E2EIHoXxxzWxxcih",
+    "wMRk6crDf11HT5fM"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "OxUhY108SxINHAjO",
+  "sort": 0,
+  "_originalKey": "!tables!OxUhY108SxINHAjO",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.KQSmIKqdPIIgUQZB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "KQSmIKqdPIIgUQZB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Sea Serpent"
+    },
+    {
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.HnXFIdK0W0C7sYE3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "HnXFIdK0W0C7sYE3",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Basilisk"
+    },
+    {
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.ZViBWqiJiYgPqgMd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "ZViBWqiJiYgPqgMd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Chimerae"
+    },
+    {
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.mIAcpOFI7ddncJwQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "mIAcpOFI7ddncJwQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Harpies"
+    },
+    {
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.E2EIHoXxxzWxxcih",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "E2EIHoXxxzWxxcih",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Medusa"
+    },
+    {
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.wMRk6crDf11HT5fM",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "wMRk6crDf11HT5fM",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Pegasi"
+    }
+  ]
+}

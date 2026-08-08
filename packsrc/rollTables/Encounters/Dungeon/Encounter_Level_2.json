@@ -1,0 +1,267 @@
+{
+  "name": "Encounter Level 2",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the encounter on dungeon level 2.</p>",
+  "results": [
+    "f7KL5JTlhXI9sl9m",
+    "tPw97K1hrJybQnHo",
+    "ipjOgYC0jhbBRoOQ",
+    "xoxC7aR0qtxGjdfN",
+    "xNr3rgqQxXvikemn",
+    "dJakt9RWLuCvaHoz",
+    "TcSE62qzHCUO76Kp",
+    "vWLTtjjcM7D0Azos",
+    "NDHsWaihw3taV5IS",
+    "rnqXduUeweASb2zX",
+    "cFcnMSFIkBRebifd",
+    "U8UkZgBrFS8HzmYR"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "xMFDo9ox1Ubd7hmX",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "ReCmBRcAObxv18sm",
+  "sort": 0,
+  "_originalKey": "!tables!ReCmBRcAObxv18sm",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.f7KL5JTlhXI9sl9m",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "f7KL5JTlhXI9sl9m",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Beetle, Giant Fire"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.tPw97K1hrJybQnHo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "tPw97K1hrJybQnHo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Centipede, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.ipjOgYC0jhbBRoOQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "ipjOgYC0jhbBRoOQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ghoul"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.xoxC7aR0qtxGjdfN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "xoxC7aR0qtxGjdfN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gnoll"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.xNr3rgqQxXvikemn",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "xNr3rgqQxXvikemn",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lizardman"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.dJakt9RWLuCvaHoz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "dJakt9RWLuCvaHoz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Spider, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.TcSE62qzHCUO76Kp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "TcSE62qzHCUO76Kp",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hobgoblin"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.vWLTtjjcM7D0Azos",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "vWLTtjjcM7D0Azos",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Human, Berserker"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.NDHsWaihw3taV5IS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "NDHsWaihw3taV5IS",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Human, Bandit"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.rnqXduUeweASb2zX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "rnqXduUeweASb2zX",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Fighter, level 2 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Fighter, level 2",
+      "text": "<p>Fighter, level 2 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.cFcnMSFIkBRebifd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "cFcnMSFIkBRebifd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Cleric, level 2 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Cleric, level 2",
+      "text": "<p>Cleric, level 2 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ReCmBRcAObxv18sm.U8UkZgBrFS8HzmYR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "U8UkZgBrFS8HzmYR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elf, Dark"
+    }
+  ]
+}

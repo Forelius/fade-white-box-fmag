@@ -1,0 +1,91 @@
+{
+  "name": "Thrown Weapon that Returns to Hand",
+  "_id": "ACTyxecI3dzTexnA",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d3 to determine the specific thrown weapon that returns to hand.</p>",
+  "results": [
+    "1ekgv6MohIo2JM71",
+    "BKDuiHxdjEOWv0rK",
+    "gTMTTSC5wBNmB8pO"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d3",
+  "_originalKey": "!tables!ACTyxecI3dzTexnA",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!ACTyxecI3dzTexnA.1ekgv6MohIo2JM71",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "1ekgv6MohIo2JM71",
+      "name": "+1 Axe, Hand of Returning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.8RHFwEsUFMSiQz9T]{+1 Axe, Hand of Returning}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.8RHFwEsUFMSiQz9T]{+1 Axe, Hand of Returning}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ACTyxecI3dzTexnA.BKDuiHxdjEOWv0rK",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "BKDuiHxdjEOWv0rK",
+      "name": "+1 Spear of Returning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JnI4C5mWOVrplVwv]{+1 Spear of Returning}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JnI4C5mWOVrplVwv]{+1 Spear of Returning}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ACTyxecI3dzTexnA.gTMTTSC5wBNmB8pO",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "gTMTTSC5wBNmB8pO",
+      "name": "+1 Warhammer of Returning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Iup6qqJYUuUPEGSb]{+1 Warhammer of Returning}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Iup6qqJYUuUPEGSb]{+1 Warhammer of Returning}</p>"
+    }
+  ]
+}

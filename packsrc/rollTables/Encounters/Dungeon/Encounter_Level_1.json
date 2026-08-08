@@ -1,0 +1,268 @@
+{
+  "name": "Encounter Level 1",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the encounter on dungeon level 1.</p>",
+  "results": [
+    "gKfzKTE5gaEdGcPE",
+    "r5Nu9eFfBDb2Bvpn",
+    "AdjYvvjRrVHlsE8m",
+    "a7SYDxjh82qKs6DZ",
+    "PZHYLsSXSnDbfUuZ",
+    "Ou2YdpfcL6EbBEpg",
+    "6yXE3fGsprp2fpFt",
+    "9XXaXwjzEmo1AMEd",
+    "M50d8idqnagH0HjD",
+    "yidTf7oloujZK4mT",
+    "Pr8MDdugPYsMwVBj",
+    "AnP0I71rdRkFVPgw"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "xMFDo9ox1Ubd7hmX",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "YLqzGjNxo7oVDr9V",
+  "sort": 0,
+  "_originalKey": "!tables!YLqzGjNxo7oVDr9V",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.gKfzKTE5gaEdGcPE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "gKfzKTE5gaEdGcPE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Kobold"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.r5Nu9eFfBDb2Bvpn",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "r5Nu9eFfBDb2Bvpn",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Skeleton"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.AdjYvvjRrVHlsE8m",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "AdjYvvjRrVHlsE8m",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Rat, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.a7SYDxjh82qKs6DZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "a7SYDxjh82qKs6DZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Goblin"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.PZHYLsSXSnDbfUuZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "PZHYLsSXSnDbfUuZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Gnome &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Gnome",
+      "text": "<p>Gnome &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.Ou2YdpfcL6EbBEpg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Ou2YdpfcL6EbBEpg",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Orc"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.6yXE3fGsprp2fpFt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "6yXE3fGsprp2fpFt",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Zombie"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.9XXaXwjzEmo1AMEd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "9XXaXwjzEmo1AMEd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Dwarf &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Dwarf",
+      "text": "<p>Dwarf &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.M50d8idqnagH0HjD",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "M50d8idqnagH0HjD",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Elf &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Elf",
+      "text": "<p>Elf &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.yidTf7oloujZK4mT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "yidTf7oloujZK4mT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hobgoblin"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.Pr8MDdugPYsMwVBj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "Pr8MDdugPYsMwVBj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Stirge"
+    },
+    {
+      "_originalKey": "!tables.results!YLqzGjNxo7oVDr9V.AnP0I71rdRkFVPgw",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "AnP0I71rdRkFVPgw",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Beetle, Giant Fire"
+    }
+  ]
+}

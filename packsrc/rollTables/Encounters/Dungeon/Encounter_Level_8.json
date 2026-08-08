@@ -1,0 +1,265 @@
+{
+  "name": "Encounter Level 8",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the encounter on dungeon level 8.</p>",
+  "results": [
+    "xxRaiuwNHDMWTEUk",
+    "ye5xvSb5ZdjHgx67",
+    "iGrFJ1QAACNopwKZ",
+    "Wy7uC1ydE7bDUwRX",
+    "JgKzt644rWq8lXsh",
+    "IYA0ReEnAkMs9ZAZ",
+    "ng7naj0ZTO9hnL4u",
+    "CNqXOs1LhQdBDM12",
+    "5HDsPJHv2GgiWeHQ",
+    "ye15XxBehvBhnGeQ",
+    "36lkMBrx1aioyPXo",
+    "2Rrc1rkFTyV0ajKv"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "xMFDo9ox1Ubd7hmX",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "4jldZfzseQjR9Vnh",
+  "sort": 0,
+  "_originalKey": "!tables!4jldZfzseQjR9Vnh",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.xxRaiuwNHDMWTEUk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "xxRaiuwNHDMWTEUk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lycanthrope, Werebear"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.ye5xvSb5ZdjHgx67",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "ye5xvSb5ZdjHgx67",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hydra"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.iGrFJ1QAACNopwKZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "iGrFJ1QAACNopwKZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Blue"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.Wy7uC1ydE7bDUwRX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Wy7uC1ydE7bDUwRX",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Black"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.JgKzt644rWq8lXsh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "JgKzt644rWq8lXsh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Green"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.IYA0ReEnAkMs9ZAZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "IYA0ReEnAkMs9ZAZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Vampire"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.ng7naj0ZTO9hnL4u",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "ng7naj0ZTO9hnL4u",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Air"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.CNqXOs1LhQdBDM12",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "CNqXOs1LhQdBDM12",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Earth"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.5HDsPJHv2GgiWeHQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "5HDsPJHv2GgiWeHQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Fire"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.ye15XxBehvBhnGeQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "ye15XxBehvBhnGeQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elemental, Water"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.36lkMBrx1aioyPXo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "36lkMBrx1aioyPXo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gorgon"
+    },
+    {
+      "_originalKey": "!tables.results!4jldZfzseQjR9Vnh.2Rrc1rkFTyV0ajKv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "2Rrc1rkFTyV0ajKv",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Invisible Stalker"
+    }
+  ]
+}

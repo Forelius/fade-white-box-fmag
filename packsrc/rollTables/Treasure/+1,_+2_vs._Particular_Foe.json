@@ -1,0 +1,113 @@
+{
+  "name": "+1, +2 vs. Particular Foe",
+  "_id": "gjOAghQWXUmHDxa7",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d4 to determine the particular type of foe the weapon is +2 against.</p>",
+  "results": [
+    "wQL4kswUPBfG1mN6",
+    "vyfumQ97q5MyfYWq",
+    "pNo83rqEY6jDP8ct",
+    "7KojJqkgni2KGMZW"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d4",
+  "_originalKey": "!tables!gjOAghQWXUmHDxa7",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!gjOAghQWXUmHDxa7.wQL4kswUPBfG1mN6",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "wQL4kswUPBfG1mN6",
+      "name": "+1 Sword, Long (+2 vs. Dragons)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.IjNRJoM6xBNYE0GW]{+1 Sword, Long (+2 vs. Dragons)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.IjNRJoM6xBNYE0GW]{+1 Sword, Long (+2 vs. Dragons)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!gjOAghQWXUmHDxa7.vyfumQ97q5MyfYWq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "vyfumQ97q5MyfYWq",
+      "name": "+1 Sword, Long (+2 vs. Giants)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.EqSBYl6fTp4xMzZv]{+1 Sword, Long (+2 vs. Giants)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.EqSBYl6fTp4xMzZv]{+1 Sword, Long (+2 vs. Giants)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!gjOAghQWXUmHDxa7.pNo83rqEY6jDP8ct",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "pNo83rqEY6jDP8ct",
+      "name": "+1 Sword, Long (+2 vs. Lycanthropes)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.f9fakfm0POufwqzJ]{+1 Sword, Long (+2 vs. Lycanthropes)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.f9fakfm0POufwqzJ]{+1 Sword, Long (+2 vs. Lycanthropes)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!gjOAghQWXUmHDxa7.7KojJqkgni2KGMZW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "7KojJqkgni2KGMZW",
+      "name": "+1 Sword, Long (+2 vs. Undead)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.FpHI7NSPnwJrFhkp]{+1 Sword, Long (+2 vs. Undead)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.FpHI7NSPnwJrFhkp]{+1 Sword, Long (+2 vs. Undead)}</p>"
+    }
+  ]
+}

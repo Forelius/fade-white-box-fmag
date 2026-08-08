@@ -1,0 +1,265 @@
+{
+  "name": "Undead",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the undead encountered.</p>",
+  "results": [
+    "nRgp9PXqzbXV4KYo",
+    "zC5XmkhZ2hdqyFIu",
+    "Ua77nQM80CuRBUcd",
+    "PiOiT1HQryFFlsIU",
+    "zXhHjsBXjwAWyXqx",
+    "BSXRmY63z0lhg2ME",
+    "3lSRyEEAEhxG6xCW",
+    "krukjVcKD2e8sgVX",
+    "hNTvdvKM2as0vxmE",
+    "7a4dCI7lxl6vWoRp",
+    "IycOLsFQq4i09O9k",
+    "oM1FqNHEyAadJJ6J"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "R6rCzZ3B7WTkU87F",
+  "sort": 0,
+  "_originalKey": "!tables!R6rCzZ3B7WTkU87F",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.nRgp9PXqzbXV4KYo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "nRgp9PXqzbXV4KYo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Banshee"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.zC5XmkhZ2hdqyFIu",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "zC5XmkhZ2hdqyFIu",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wraiths"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.Ua77nQM80CuRBUcd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "Ua77nQM80CuRBUcd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Shadow"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.PiOiT1HQryFFlsIU",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "PiOiT1HQryFFlsIU",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ghouls"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.zXhHjsBXjwAWyXqx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "zXhHjsBXjwAWyXqx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Skeletons"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.BSXRmY63z0lhg2ME",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "BSXRmY63z0lhg2ME",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Zombies"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.3lSRyEEAEhxG6xCW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "3lSRyEEAEhxG6xCW",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wights"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.krukjVcKD2e8sgVX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "krukjVcKD2e8sgVX",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Mummies"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.hNTvdvKM2as0vxmE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "hNTvdvKM2as0vxmE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Spectre"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.7a4dCI7lxl6vWoRp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "7a4dCI7lxl6vWoRp",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Vampires"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.IycOLsFQq4i09O9k",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "IycOLsFQq4i09O9k",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Death Knight"
+    },
+    {
+      "_originalKey": "!tables.results!R6rCzZ3B7WTkU87F.oM1FqNHEyAadJJ6J",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "oM1FqNHEyAadJJ6J",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Liches"
+    }
+  ]
+}

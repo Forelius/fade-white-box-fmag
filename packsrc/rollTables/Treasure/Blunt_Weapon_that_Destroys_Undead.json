@@ -1,0 +1,113 @@
+{
+  "name": "Blunt Weapon that Destroys Undead",
+  "_id": "wtapVsA6gBdQ6Hd5",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d4 to determine the specific blunt weapon that destroys undead.</p>",
+  "results": [
+    "0CMquZIUnjCYQbZd",
+    "O6PqE8X9xhe7rmMZ",
+    "f4p96VPAHu5Nj01U",
+    "YiolxJwfHx5co3Ut"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d4",
+  "_originalKey": "!tables!wtapVsA6gBdQ6Hd5",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.0CMquZIUnjCYQbZd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "0CMquZIUnjCYQbZd",
+      "name": "+1 Mace of Undead Slaying",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mm69Ft3LDs3IcqQE]{+1 Mace of Undead Slaying}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mm69Ft3LDs3IcqQE]{+1 Mace of Undead Slaying}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.O6PqE8X9xhe7rmMZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "O6PqE8X9xhe7rmMZ",
+      "name": "+1 Sling of Undead Slaying",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.w63xT0vJRoBvcGyq]{+1 Sling of Undead Slaying}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.w63xT0vJRoBvcGyq]{+1 Sling of Undead Slaying}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.f4p96VPAHu5Nj01U",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "f4p96VPAHu5Nj01U",
+      "name": "+1 Staff of Undead Slaying",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2ImO3KuhuTdptfTB]{+1 Staff of Undead Slaying}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2ImO3KuhuTdptfTB]{+1 Staff of Undead Slaying}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.YiolxJwfHx5co3Ut",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "YiolxJwfHx5co3Ut",
+      "name": "+1 Warhammer of Undead Slaying",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.lSNJ5FxOldtDqFon]{+1 Warhammer of Undead Slaying}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.lSNJ5FxOldtDqFon]{+1 Warhammer of Undead Slaying}</p>"
+    }
+  ]
+}

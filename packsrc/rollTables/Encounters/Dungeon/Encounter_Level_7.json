@@ -1,0 +1,265 @@
+{
+  "name": "Encounter Level 7",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the encounter on dungeon level 7.</p>",
+  "results": [
+    "q8vcmnuoUJBlSRDx",
+    "MgLIDPLmfNeaNOl8",
+    "WGxl4zUWiwXWb1ge",
+    "VeblESVnDRDMxM7W",
+    "5r7SOStly4rYKlk0",
+    "AQVE6HCZYyHPCA49",
+    "FzSYSDiXZPimmNHd",
+    "HzvWBHeIKjG5ti9d",
+    "C9aPE4Ek1jYlpetZ",
+    "eSPIUD553jtOAvKo",
+    "0ayIZms4Imbjex8c",
+    "GXpO5rJua36G42UT"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "xMFDo9ox1Ubd7hmX",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "T8tHHLd2RaIqFK1i",
+  "sort": 0,
+  "_originalKey": "!tables!T8tHHLd2RaIqFK1i",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.q8vcmnuoUJBlSRDx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "q8vcmnuoUJBlSRDx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Minotaur"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.MgLIDPLmfNeaNOl8",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "MgLIDPLmfNeaNOl8",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hell Hound"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.WGxl4zUWiwXWb1ge",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "WGxl4zUWiwXWb1ge",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hydra"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.VeblESVnDRDMxM7W",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "VeblESVnDRDMxM7W",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, White"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.5r7SOStly4rYKlk0",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "5r7SOStly4rYKlk0",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Black"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.AQVE6HCZYyHPCA49",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "AQVE6HCZYyHPCA49",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Green"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.FzSYSDiXZPimmNHd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "FzSYSDiXZPimmNHd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Banshee"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.HzvWBHeIKjG5ti9d",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "HzvWBHeIKjG5ti9d",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Vampire"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.C9aPE4Ek1jYlpetZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "C9aPE4Ek1jYlpetZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Demon, Succubus"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.eSPIUD553jtOAvKo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "eSPIUD553jtOAvKo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Salamander"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.0ayIZms4Imbjex8c",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "0ayIZms4Imbjex8c",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wyvern"
+    },
+    {
+      "_originalKey": "!tables.results!T8tHHLd2RaIqFK1i.GXpO5rJua36G42UT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "GXpO5rJua36G42UT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Djinni"
+    }
+  ]
+}

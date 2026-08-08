@@ -1,0 +1,225 @@
+{
+  "name": "Giant",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d10 to determine the giant encountered.</p>",
+  "results": [
+    "jjI5cjlVIA9s1FvE",
+    "ppujijRUrLC1EvXm",
+    "kgseg0lcXxJLMz7R",
+    "MBu08mIotbnj7cKt",
+    "nDk4PMXPtflJKXbk",
+    "WmnV0BMxajWpme79",
+    "Xv42wp9sJFhfiaYl",
+    "akFuWoAGxS2on0Nn",
+    "SBylPZyDlxwUeSG4",
+    "z117IBWXLFKOfwjg"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_id": "NaX3IhKVdy0yEOvE",
+  "sort": 0,
+  "_originalKey": "!tables!NaX3IhKVdy0yEOvE",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.jjI5cjlVIA9s1FvE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "jjI5cjlVIA9s1FvE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Efreet"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.ppujijRUrLC1EvXm",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "ppujijRUrLC1EvXm",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Djinn"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.kgseg0lcXxJLMz7R",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "kgseg0lcXxJLMz7R",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Frost"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.MBu08mIotbnj7cKt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "MBu08mIotbnj7cKt",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Stone"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.nDk4PMXPtflJKXbk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "nDk4PMXPtflJKXbk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Hill"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.WmnV0BMxajWpme79",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "WmnV0BMxajWpme79",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Storm"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.Xv42wp9sJFhfiaYl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "Xv42wp9sJFhfiaYl",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Fire"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.akFuWoAGxS2on0Nn",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "akFuWoAGxS2on0Nn",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Cloud"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.SBylPZyDlxwUeSG4",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "SBylPZyDlxwUeSG4",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Firbolg"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.z117IBWXLFKOfwjg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "z117IBWXLFKOfwjg",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Treants"
+    }
+  ]
+}

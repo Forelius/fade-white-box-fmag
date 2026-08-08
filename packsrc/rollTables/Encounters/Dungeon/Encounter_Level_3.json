@@ -1,0 +1,267 @@
+{
+  "name": "Encounter Level 3",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the encounter on dungeon level 3.</p>",
+  "results": [
+    "ToERfzrAOHTraJ48",
+    "zHWsnTqz5QuyxJzm",
+    "crNsAtMBb4u9VrSw",
+    "Z3tRhVJGyZxUbhiz",
+    "oP21BvbxRV1uG07k",
+    "dHMDSWBzr2dXb0nh",
+    "QsJbCOIXeWt8XkR3",
+    "eAO5YbqJ0EJ6iGvA",
+    "pbUTawx1GvcjqTCc",
+    "oIeKcdx0xFhPZ18x",
+    "0ogKOL9VMhuL1I5B",
+    "GmIpxe4cf294BdwJ"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "xMFDo9ox1Ubd7hmX",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "4UU5eBQu3bg1zqbL",
+  "sort": 0,
+  "_originalKey": "!tables!4UU5eBQu3bg1zqbL",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.ToERfzrAOHTraJ48",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "ToERfzrAOHTraJ48",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Demon, Lemure"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.zHWsnTqz5QuyxJzm",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "zHWsnTqz5QuyxJzm",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Grey Ooze"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.crNsAtMBb4u9VrSw",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "crNsAtMBb4u9VrSw",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Harpy"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.Z3tRhVJGyZxUbhiz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Z3tRhVJGyZxUbhiz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lycanthrope, Wererat"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.oP21BvbxRV1uG07k",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "oP21BvbxRV1uG07k",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lycanthrope, Werewolf"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.dHMDSWBzr2dXb0nh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "dHMDSWBzr2dXb0nh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wight"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.QsJbCOIXeWt8XkR3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "QsJbCOIXeWt8XkR3",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Bugbear"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.eAO5YbqJ0EJ6iGvA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "eAO5YbqJ0EJ6iGvA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Shadow"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.pbUTawx1GvcjqTCc",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "pbUTawx1GvcjqTCc",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Fighter, level 3 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Fighter, level 3",
+      "text": "<p>Fighter, level 3 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.oIeKcdx0xFhPZ18x",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "oIeKcdx0xFhPZ18x",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Magic-user, level 2 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Magic-user, level 2",
+      "text": "<p>Magic-user, level 2 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.0ogKOL9VMhuL1I5B",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "0ogKOL9VMhuL1I5B",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Demon, Imp"
+    },
+    {
+      "_originalKey": "!tables.results!4UU5eBQu3bg1zqbL.GmIpxe4cf294BdwJ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "GmIpxe4cf294BdwJ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Elf, Dark"
+    }
+  ]
+}

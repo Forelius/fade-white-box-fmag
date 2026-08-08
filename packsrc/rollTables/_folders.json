@@ -19,5 +19,68 @@
       "modifiedTime": 1786108896749,
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
+  },
+  "!folders!XyGBiGyqXpomV4Df": {
+    "name": "Encounters",
+    "sorting": "a",
+    "folder": null,
+    "type": "RollTable",
+    "_id": "XyGBiGyqXpomV4Df",
+    "description": "",
+    "sort": 100000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!xMFDo9ox1Ubd7hmX": {
+    "name": "Dungeon",
+    "sorting": "a",
+    "folder": "XyGBiGyqXpomV4Df",
+    "type": "RollTable",
+    "_id": "xMFDo9ox1Ubd7hmX",
+    "description": "",
+    "sort": 100000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!lPoIuIocXWnON3LC": {
+    "name": "Wilderness",
+    "sorting": "a",
+    "folder": "XyGBiGyqXpomV4Df",
+    "type": "RollTable",
+    "_id": "lPoIuIocXWnON3LC",
+    "description": "",
+    "sort": 200000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
   }
 }

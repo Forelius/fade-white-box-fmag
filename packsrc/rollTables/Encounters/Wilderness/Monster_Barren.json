@@ -1,0 +1,185 @@
+{
+  "name": "Monster (Barren)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d8 to determine the monster encountered.</p>",
+  "results": [
+    "LTekkjasXtCVYD56",
+    "rFcZjwU8N0Zug1m7",
+    "pnQSB9SZwSYl0QFR",
+    "uYJehVbJGxe6lmzE",
+    "0YI9ozq27m1M2DtJ",
+    "Py13VpXaNAJwPSwL",
+    "sAS7CkuraFKEW6tY",
+    "TwFgUiPoywcLaTTg"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_id": "zgshLc5ad7D9pU8f",
+  "sort": 0,
+  "_originalKey": "!tables!zgshLc5ad7D9pU8f",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.LTekkjasXtCVYD56",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "LTekkjasXtCVYD56",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Salamander"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.rFcZjwU8N0Zug1m7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "rFcZjwU8N0Zug1m7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Purple Worm"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.pnQSB9SZwSYl0QFR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "pnQSB9SZwSYl0QFR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Basilisk"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.uYJehVbJGxe6lmzE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "uYJehVbJGxe6lmzE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gorgons"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.0YI9ozq27m1M2DtJ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "0YI9ozq27m1M2DtJ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Manticore"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.Py13VpXaNAJwPSwL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "Py13VpXaNAJwPSwL",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Medusa"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.sAS7CkuraFKEW6tY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "sAS7CkuraFKEW6tY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Roc"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.TwFgUiPoywcLaTTg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "TwFgUiPoywcLaTTg",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Roll again"
+    }
+  ]
+}

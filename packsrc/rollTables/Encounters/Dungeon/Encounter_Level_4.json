@@ -1,0 +1,269 @@
+{
+  "name": "Encounter Level 4",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d12 to determine the encounter on dungeon level 4.</p>",
+  "results": [
+    "4Bf2Bx68HNPFOtpl",
+    "MP3nRIWcR5J8l9cY",
+    "3DWz2xbxvGgznMFr",
+    "O25eSlY7Fd3Xgonh",
+    "FuN8EC5eeQqAQQtf",
+    "qcgbNgzZB6iMNdt7",
+    "gyzXRBZxoJ3z9F37",
+    "jR4ktzP7y62lxSsd",
+    "5HnJDkN82Skuim24",
+    "B1xSNrWZOPC40dSN",
+    "4FpLXyp13m8MO8vr",
+    "MyRycYsLGIeDYQhv"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "xMFDo9ox1Ubd7hmX",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d12",
+  "_id": "Lp9DkMIohcieYNMn",
+  "sort": 0,
+  "_originalKey": "!tables!Lp9DkMIohcieYNMn",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.4Bf2Bx68HNPFOtpl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "4Bf2Bx68HNPFOtpl",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hell Hound"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.MP3nRIWcR5J8l9cY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "MP3nRIWcR5J8l9cY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Centipede, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.3DWz2xbxvGgznMFr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "3DWz2xbxvGgznMFr",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Doppelganger"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.O25eSlY7Fd3Xgonh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "O25eSlY7Fd3Xgonh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gargoyle"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.FuN8EC5eeQqAQQtf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "FuN8EC5eeQqAQQtf",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gelatinous Cube"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.qcgbNgzZB6iMNdt7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "qcgbNgzZB6iMNdt7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Worg"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.gyzXRBZxoJ3z9F37",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "gyzXRBZxoJ3z9F37",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wraith"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.jR4ktzP7y62lxSsd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "jR4ktzP7y62lxSsd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ogre"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.5HnJDkN82Skuim24",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "5HnJDkN82Skuim24",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Fighter, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Fighter, level 4",
+      "text": "<p>Fighter, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.B1xSNrWZOPC40dSN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "B1xSNrWZOPC40dSN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Cleric, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Cleric, level 4",
+      "text": "<p>Cleric, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.4FpLXyp13m8MO8vr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "4FpLXyp13m8MO8vr",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Magic-user, level 3 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Magic-user, level 3",
+      "text": "<p>Magic-user, level 3 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!Lp9DkMIohcieYNMn.MyRycYsLGIeDYQhv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "MyRycYsLGIeDYQhv",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Thief, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Thief, level 4",
+      "text": "<p>Thief, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    }
+  ]
+}
