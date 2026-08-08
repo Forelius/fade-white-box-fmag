@@ -1,0 +1,91 @@
+{
+  "name": "Lesser Wands",
+  "_id": "08pnXtgyMWNZas5Y",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d6 to determine the lesser magic wand found.</p>",
+  "results": [
+    "NYsYSI13PcIBYXDv",
+    "XonEdGULP5C74ldQ",
+    "Yoi0rHDio6PMXjAX"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_originalKey": "!tables!08pnXtgyMWNZas5Y",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!08pnXtgyMWNZas5Y.NYsYSI13PcIBYXDv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "_id": "NYsYSI13PcIBYXDv",
+      "name": "Lesser Wand (Level 1 Spell)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3IW0458LXBXRN5Ql]{Lesser Wand (Level 1 Spell)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3IW0458LXBXRN5Ql]{Lesser Wand (Level 1 Spell)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!08pnXtgyMWNZas5Y.XonEdGULP5C74ldQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "_id": "XonEdGULP5C74ldQ",
+      "name": "Lesser Wand (Level 2 Spell)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.KpEZH99BWJuNm2gs]{Lesser Wand (Level 2 Spell)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.KpEZH99BWJuNm2gs]{Lesser Wand (Level 2 Spell)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!08pnXtgyMWNZas5Y.Yoi0rHDio6PMXjAX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "_id": "Yoi0rHDio6PMXjAX",
+      "name": "Lesser Wand (Level 3 Spell)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CD3gQ1q1tig5gFAI]{Lesser Wand (Level 3 Spell)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CD3gQ1q1tig5gFAI]{Lesser Wand (Level 3 Spell)}</p>"
+    }
+  ]
+}

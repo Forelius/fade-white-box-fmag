@@ -1,0 +1,245 @@
+{
+  "name": "Greater Rings",
+  "_id": "3qVhnr5CEhxUUC9a",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d10 to determine the greater magic ring found.</p>",
+  "results": [
+    "NdfaOUYqpedwIGOG",
+    "2TEQCUnK3vDr2v3U",
+    "h1juu7dXEpoaYkW0",
+    "KCQkKByIQTlChYXz",
+    "kKEzydFcx55ddY6y",
+    "v59ZVZtz5uVJxUtn",
+    "tfQmTgYunEcieac7",
+    "PeFSBu8K0YXF6EAR",
+    "KavFNgpBsjnMQv3P",
+    "7zqHncjwICZTvQLp"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_originalKey": "!tables!3qVhnr5CEhxUUC9a",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.NdfaOUYqpedwIGOG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "NdfaOUYqpedwIGOG",
+      "name": "Ring of Human Control",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.EdTla2mlE3lWlcjN]{Ring of Human Control}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.EdTla2mlE3lWlcjN]{Ring of Human Control}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.2TEQCUnK3vDr2v3U",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "2TEQCUnK3vDr2v3U",
+      "name": "Ring of Three Wishes",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.WyHTv1l8wfuhs0rS]{Ring of Three Wishes}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.WyHTv1l8wfuhs0rS]{Ring of Three Wishes}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.h1juu7dXEpoaYkW0",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "h1juu7dXEpoaYkW0",
+      "name": "Ring of Regeneration",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.0IwcmNorj5dEtloN]{Ring of Regeneration}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.0IwcmNorj5dEtloN]{Ring of Regeneration}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.KCQkKByIQTlChYXz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "KCQkKByIQTlChYXz",
+      "name": "Ring of Djinn Summoning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.5SdhrtLC2ICg9SFJ]{Ring of Djinn Summoning}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.5SdhrtLC2ICg9SFJ]{Ring of Djinn Summoning}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.kKEzydFcx55ddY6y",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "kKEzydFcx55ddY6y",
+      "name": "Ring of Shooting Stars",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.slZajjYNq1Sx1lTE]{Ring of Shooting Stars}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.slZajjYNq1Sx1lTE]{Ring of Shooting Stars}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.v59ZVZtz5uVJxUtn",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "v59ZVZtz5uVJxUtn",
+      "name": "Ring of X-ray Vision",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.MF7yZwhyqMxSERC9]{Ring of X-ray Vision}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.MF7yZwhyqMxSERC9]{Ring of X-ray Vision}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.tfQmTgYunEcieac7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "tfQmTgYunEcieac7",
+      "name": "Ring of Telekinesis",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uEAINUoe255fSbAs]{Ring of Telekinesis}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uEAINUoe255fSbAs]{Ring of Telekinesis}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.PeFSBu8K0YXF6EAR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "PeFSBu8K0YXF6EAR",
+      "name": "Ring of Spell Turning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.vU3LuKfFOBFiOzsi]{Ring of Spell Turning}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.vU3LuKfFOBFiOzsi]{Ring of Spell Turning}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.KavFNgpBsjnMQv3P",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "KavFNgpBsjnMQv3P",
+      "name": "Ring of Spell Storing (Magic-user)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UwQsA4q7a5w4MuJr]{Ring of Spell Storing (Magic-user)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UwQsA4q7a5w4MuJr]{Ring of Spell Storing (Magic-user)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!3qVhnr5CEhxUUC9a.7zqHncjwICZTvQLp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "7zqHncjwICZTvQLp",
+      "name": "Ring of Spell Storing (Cleric)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Drxhy1mBU6mI40Lu]{Ring of Spell Storing (Cleric)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Drxhy1mBU6mI40Lu]{Ring of Spell Storing (Cleric)}</p>"
+    }
+  ]
+}

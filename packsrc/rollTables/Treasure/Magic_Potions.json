@@ -1,5 +1,6 @@
 {
   "name": "Magic Potions",
+  "_id": "1MQS0AqVaEz0nr6I",
   "img": "icons/svg/d20-grey.svg",
   "description": "<p>Roll d100 to determine the type of magic potion found. Potions have a duration of 1d6+1 turns.</p>",
   "results": [
@@ -29,6 +30,7 @@
   "replacement": true,
   "displayRoll": false,
   "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "39ANqKV80WQNa3A0": 3
@@ -39,427 +41,469 @@
     "systemId": "fantastic-depths"
   },
   "formula": "1d100",
-  "_id": "1MQS0AqVaEz0nr6I",
-  "sort": 0,
   "_originalKey": "!tables!1MQS0AqVaEz0nr6I",
   "embedded": [
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.0w43m3br9movWTqm",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         34,
         36
       ],
-      "drawn": false,
       "_id": "0w43m3br9movWTqm",
+      "name": "Heroism",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jb8fLlNTOURgwhoG]{Potion of Heroism}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Heroism"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jb8fLlNTOURgwhoG]{Potion of Heroism}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.5Ri5T35ZBwdzmilB",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         19,
         21
       ],
-      "drawn": false,
       "_id": "5Ri5T35ZBwdzmilB",
+      "name": "Fire Resistance",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iR0hZrWVKBdJGxQA]{Potion of Fire Resistance}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Fire Resistance"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iR0hZrWVKBdJGxQA]{Potion of Fire Resistance}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.6d2JsAbbdjf6Vt3z",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         43,
         45
       ],
-      "drawn": false,
       "_id": "6d2JsAbbdjf6Vt3z",
+      "name": "Levitation",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.t57pKUSJs39cheWw]{Potion of Levitation}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Levitation"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.t57pKUSJs39cheWw]{Potion of Levitation}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.9Qo2GPivtkh9Y47E",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         56,
         58
       ],
-      "drawn": false,
       "_id": "9Qo2GPivtkh9Y47E",
+      "name": "Slipperiness",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.28e1oYjq645AFsil]{Potion of Slipperiness}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Slipperiness"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.28e1oYjq645AFsil]{Potion of Slipperiness}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.CH1IFSwPYe2mDLn1",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         49,
         55
       ],
-      "drawn": false,
       "_id": "CH1IFSwPYe2mDLn1",
+      "name": "Poison",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.qahjXuJUMrYAzt9k]{Potion of Poison}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Poison"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.qahjXuJUMrYAzt9k]{Potion of Poison}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.IDuUJ25zVMVMky5p",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         31,
         33
       ],
-      "drawn": false,
       "_id": "IDuUJ25zVMVMky5p",
+      "name": "Growth",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LD3bzQXCeW4Zi5K]{Potion of Growth}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Growth"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LD3bzQXCeW4Zi5K]{Potion of Growth}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.JK6LkYKycnAI9TKI",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         22,
         24
       ],
-      "drawn": false,
       "_id": "JK6LkYKycnAI9TKI",
+      "name": "Flying",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.hdmH2QKUSlFYBqXN]{Potion of Flying}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Flying"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.hdmH2QKUSlFYBqXN]{Potion of Flying}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.JXT1bLR9rDz4d9J8",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         46,
         48
       ],
-      "drawn": false,
       "_id": "JXT1bLR9rDz4d9J8",
+      "name": "Plant Control",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.6qhwyY0ISFGzAECj]{Potion of Plant Control}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Plant Control"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.6qhwyY0ISFGzAECj]{Potion of Plant Control}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.MX3pdNKI3LmWwxeS",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         7,
         9
       ],
-      "drawn": false,
       "_id": "MX3pdNKI3LmWwxeS",
+      "name": "Clairvoyance",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.DHWfSZXAY9v2niph]{Potion of Clairvoyance}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Clairvoyance"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.DHWfSZXAY9v2niph]{Potion of Clairvoyance}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.O9RAuVK0wg59ZmEB",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         10,
         12
       ],
-      "drawn": false,
       "_id": "O9RAuVK0wg59ZmEB",
+      "name": "Diminution",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.YBoj1TupqmfhUMvi]{Potion of Diminution}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Diminution"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.YBoj1TupqmfhUMvi]{Potion of Diminution}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.PFyBG8tSkdeq2KQ2",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         59,
         61
       ],
-      "drawn": false,
       "_id": "PFyBG8tSkdeq2KQ2",
+      "name": "Treasure Finding",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Q0qXnT2pKo48BRIN]{Potion of Treasure Finding}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Treasure Finding"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Q0qXnT2pKo48BRIN]{Potion of Treasure Finding}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.SOUSBHSDnYZLA4S0",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         40,
         42
       ],
-      "drawn": false,
       "_id": "SOUSBHSDnYZLA4S0",
+      "name": "Invulnerability",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.vgn2YVyjXfP7a6xH]{Potion of Invulnerability}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Invulnerability"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.vgn2YVyjXfP7a6xH]{Potion of Invulnerability}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.ZAbNfEWHAtQ5MkY0",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         37,
         39
       ],
-      "drawn": false,
       "_id": "ZAbNfEWHAtQ5MkY0",
+      "name": "Invisibility",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.bAe7wFfmWXyM58i6]{Potion of Invisibility}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Invisibility"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.bAe7wFfmWXyM58i6]{Potion of Invisibility}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.ZmatuJFUpWlUMZTO",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         25,
         27
       ],
-      "drawn": false,
       "_id": "ZmatuJFUpWlUMZTO",
+      "name": "Gaseous Form",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.L9CfktJ0RAyroOB2]{Potion of Gaseous Form}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Gaseous Form"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.L9CfktJ0RAyroOB2]{Potion of Gaseous Form}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.bozvDUkKxz2aTUp5",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         1,
         3
       ],
-      "drawn": false,
       "_id": "bozvDUkKxz2aTUp5",
+      "name": "Animal Control",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.XBNstL9SQIcjwZhg]{Potion of Animal Control}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Animal Control"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.XBNstL9SQIcjwZhg]{Potion of Animal Control}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.c5Jma6wBwOL0TymT",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         16,
         18
       ],
-      "drawn": false,
       "_id": "c5Jma6wBwOL0TymT",
+      "name": "Ethereality",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2BGqZCLFExjoNgc6]{Potion of Ethereality}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Ethereality"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2BGqZCLFExjoNgc6]{Potion of Ethereality}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.emg1xTDMC35VRBMU",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         62,
         64
       ],
-      "drawn": false,
       "_id": "emg1xTDMC35VRBMU",
+      "name": "Undead Control",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uNJQEILSmcxAzjnR]{Potion of Undead Control}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Undead Control"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uNJQEILSmcxAzjnR]{Potion of Undead Control}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.iKu0SnXGSBvKafGD",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         4,
         6
       ],
-      "drawn": false,
       "_id": "iKu0SnXGSBvKafGD",
+      "name": "Clairaudience",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xGTKmICFXy7ua2qH]{Potion of Clairaudience}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Clairaudience"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xGTKmICFXy7ua2qH]{Potion of Clairaudience}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.kYCG4cEvHSsViq7s",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         13,
         15
       ],
-      "drawn": false,
       "_id": "kYCG4cEvHSsViq7s",
+      "name": "Dragon Control",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.gX0sPeEprv8fJA39]{Potion of Dragon Control}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Dragon Control"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.gX0sPeEprv8fJA39]{Potion of Dragon Control}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.lCmK3ieSXYUxLWc0",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         28,
         30
       ],
-      "drawn": false,
       "_id": "lCmK3ieSXYUxLWc0",
+      "name": "Giant Strength",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2D9mOnpEi7WN4LbG]{Potion of Giant Strength}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Giant Strength"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2D9mOnpEi7WN4LbG]{Potion of Giant Strength}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.pzrr41LSE5jnEQ69",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         65,
         75
       ],
-      "drawn": false,
       "_id": "pzrr41LSE5jnEQ69",
+      "name": "Extra Healing",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.RQtM627g8eWJEZhz]{Potion of Extra Healing}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Extra Healing"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.RQtM627g8eWJEZhz]{Potion of Extra Healing}</p>"
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.s78DjNF78181ROf4",
-      "type": "compendium",
+      "type": "text",
       "weight": 1,
       "range": [
         76,
         100
       ],
-      "drawn": false,
       "_id": "s78DjNF78181ROf4",
+      "name": "Healing",
       "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ouj2nJP1XOpFxSf9]{Potion of Healing}</p>",
+      "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Healing"
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ouj2nJP1XOpFxSf9]{Potion of Healing}</p>"
     }
   ]
 }

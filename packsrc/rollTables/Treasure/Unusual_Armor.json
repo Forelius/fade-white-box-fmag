@@ -1,0 +1,113 @@
+{
+  "name": "Unusual Armor",
+  "_id": "rXcsYfUEyqMNnpK4",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d4 to determine the unusual armor found.</p>",
+  "results": [
+    "X59Gj9SfwLnZheGs",
+    "rH3tZbWqjfvWCzwK",
+    "soFHM6kTFoDqvMi9",
+    "PnvCSiWrdqgIRlod"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d4",
+  "_originalKey": "!tables!rXcsYfUEyqMNnpK4",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!rXcsYfUEyqMNnpK4.X59Gj9SfwLnZheGs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "X59Gj9SfwLnZheGs",
+      "name": "Armor of Arrow Deflection",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.OGHnsp79ogH9KS4j]{Chain Mail of Arrow Deflection}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.OGHnsp79ogH9KS4j]{Chain Mail of Arrow Deflection}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!rXcsYfUEyqMNnpK4.rH3tZbWqjfvWCzwK",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "rH3tZbWqjfvWCzwK",
+      "name": "Demonic Armor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.9x4NPMrAiNcF3fYP]{Demonic Plate Mail}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.9x4NPMrAiNcF3fYP]{Demonic Plate Mail}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!rXcsYfUEyqMNnpK4.soFHM6kTFoDqvMi9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "soFHM6kTFoDqvMi9",
+      "name": "Ethereal Armor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.9JYYdviZPWv1GQTA]{Ethereal Plate Mail}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.9JYYdviZPWv1GQTA]{Ethereal Plate Mail}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!rXcsYfUEyqMNnpK4.PnvCSiWrdqgIRlod",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "PnvCSiWrdqgIRlod",
+      "name": "Fiery Armor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.85m2ewSBro6upqsC]{Fiery Leather Armor}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.85m2ewSBro6upqsC]{Fiery Leather Armor}</p>"
+    }
+  ]
+}

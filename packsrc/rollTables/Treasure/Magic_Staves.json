@@ -1,0 +1,245 @@
+{
+  "name": "Magic Staves",
+  "_id": "R5Ft2ovIppE1Irrl",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d10 to determine the magic staff found. Most staves carry 200 charges.</p>",
+  "results": [
+    "1Pv07ex9J8WWGyOt",
+    "hazh89MDZBIn2vBT",
+    "wQzncu4HBM6yOKz6",
+    "iPHwyXtX5Fi9a7R0",
+    "7JCcwXDaSqqmuKcy",
+    "rLA8V02YX9UAc46j",
+    "hd448zGPVlefQ4MW",
+    "5z8jyNBju3Coo3wL",
+    "uBvuyDgBizikEKWy",
+    "nRYOBFdat9mNRG9V"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ETzWhC2vSLobcR35",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_originalKey": "!tables!R5Ft2ovIppE1Irrl",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.1Pv07ex9J8WWGyOt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "1Pv07ex9J8WWGyOt",
+      "name": "Staff of Healing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.VJJxff6V0hWLYHeY]{Staff of Healing}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.VJJxff6V0hWLYHeY]{Staff of Healing}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.hazh89MDZBIn2vBT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "hazh89MDZBIn2vBT",
+      "name": "Staff of Command",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eMY26KxC0KsCJ6Io]{Staff of Command}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eMY26KxC0KsCJ6Io]{Staff of Command}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.wQzncu4HBM6yOKz6",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "wQzncu4HBM6yOKz6",
+      "name": "Staff of the Snake",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LO9jpp7pPgSlCEu9]{Staff of the Snake}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LO9jpp7pPgSlCEu9]{Staff of the Snake}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.iPHwyXtX5Fi9a7R0",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "iPHwyXtX5Fi9a7R0",
+      "name": "Staff of Striking",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JdIOZyXPbcpvGyPE]{Staff of Striking}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JdIOZyXPbcpvGyPE]{Staff of Striking}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.7JCcwXDaSqqmuKcy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "7JCcwXDaSqqmuKcy",
+      "name": "Staff of Withering",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ryUFlQopQtcFLQ8x]{Staff of Withering}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ryUFlQopQtcFLQ8x]{Staff of Withering}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.rLA8V02YX9UAc46j",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "rLA8V02YX9UAc46j",
+      "name": "Staff of Power",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iSWOUDBoNcpnBGax]{Staff of Power}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iSWOUDBoNcpnBGax]{Staff of Power}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.hd448zGPVlefQ4MW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "hd448zGPVlefQ4MW",
+      "name": "Staff of Wizardry",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.SYSei8PcQ41kjbFa]{Staff of Wizardry}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.SYSei8PcQ41kjbFa]{Staff of Wizardry}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.5z8jyNBju3Coo3wL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "5z8jyNBju3Coo3wL",
+      "name": "Staff of Beguiling",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.r3BiwYhOMz9Jy9kR]{Staff of Beguiling}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.r3BiwYhOMz9Jy9kR]{Staff of Beguiling}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.uBvuyDgBizikEKWy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "uBvuyDgBizikEKWy",
+      "name": "Staff of Absorption",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GTZ3I6DXkxbXo2f6]{Staff of Absorption}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GTZ3I6DXkxbXo2f6]{Staff of Absorption}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.nRYOBFdat9mNRG9V",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "nRYOBFdat9mNRG9V",
+      "name": "Staff of Lordly Might",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mhbp0Lgy9tS6SGBm]{Staff of Lordly Might}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mhbp0Lgy9tS6SGBm]{Staff of Lordly Might}</p>"
+    }
+  ]
+}
