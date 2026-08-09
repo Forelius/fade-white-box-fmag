@@ -1,24 +1,22 @@
 {
-  "name": "Monster (Hills/Mountains)",
+  "name": "Humanoid (Open/Forest)",
   "img": "icons/svg/d20-grey.svg",
-  "description": "<p>Roll d12 to determine the monster encountered.</p>",
+  "description": "<p>Roll 1d10 to determine the humanoid encountered.</p>",
   "results": [
-    "14TkiV77SSGItxWA",
-    "jqIqwY1JHhV2ST7s",
-    "HgRKWYNEG2ScHaGa",
-    "hLGBojjO4HkmyfYQ",
-    "8IHUSqZV3U1095Me",
-    "rwdWwFUGi9ff1sYB",
-    "8utnzOXPZAIDb9OQ",
-    "Z517DMiM7POiqJCt",
-    "ipXv1sZ2EZzCeCj7",
-    "cUh22FYtaCrNkBxl",
-    "2Y1GunLXjnlwDy0q",
-    "gI0DzXVjMg7jdJ8j"
+    "rrlB29kmasZo2jec",
+    "RZJvXVTbtNbDTxNC",
+    "5qSLCjrjdrVAqhMI",
+    "qckoyF6TSnkDdSy5",
+    "RLyFB8PUpwc7zqa8",
+    "iMIppb8TcuzYRDaj",
+    "ojI5QwVU4wADOkTs",
+    "BTdMASPvlcXXuuiP",
+    "ZhVBW4ggZzqlE5sH",
+    "ChDaRNVe66pJJ7ww"
   ],
   "replacement": true,
   "displayRoll": false,
-  "folder": "lPoIuIocXWnON3LC",
+  "folder": "oOlRoulqa5E0EOg6",
   "ownership": {
     "default": 0,
     "39ANqKV80WQNa3A0": 3
@@ -28,13 +26,13 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "formula": "1d12",
-  "_id": "gXbsVTQO6uc1XTc8",
+  "formula": "1d10",
+  "_id": "CkaPQTx0y5cXjTCg",
   "sort": 0,
-  "_originalKey": "!tables!gXbsVTQO6uc1XTc8",
+  "_originalKey": "!tables!CkaPQTx0y5cXjTCg",
   "embedded": [
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.14TkiV77SSGItxWA",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.rrlB29kmasZo2jec",
       "type": "text",
       "weight": 1,
       "range": [
@@ -42,7 +40,7 @@
         1
       ],
       "drawn": false,
-      "_id": "14TkiV77SSGItxWA",
+      "_id": "rrlB29kmasZo2jec",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -50,10 +48,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Basilisk"
+      "name": "Ogres"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.jqIqwY1JHhV2ST7s",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.RZJvXVTbtNbDTxNC",
       "type": "text",
       "weight": 1,
       "range": [
@@ -61,7 +59,7 @@
         2
       ],
       "drawn": false,
-      "_id": "jqIqwY1JHhV2ST7s",
+      "_id": "RZJvXVTbtNbDTxNC",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -69,10 +67,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Chimerae"
+      "name": "Gnolls"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.HgRKWYNEG2ScHaGa",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.5qSLCjrjdrVAqhMI",
       "type": "text",
       "weight": 1,
       "range": [
@@ -80,7 +78,7 @@
         3
       ],
       "drawn": false,
-      "_id": "HgRKWYNEG2ScHaGa",
+      "_id": "5qSLCjrjdrVAqhMI",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -88,10 +86,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Gorgons"
+      "name": "Hobgoblins"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.hLGBojjO4HkmyfYQ",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.qckoyF6TSnkDdSy5",
       "type": "text",
       "weight": 1,
       "range": [
@@ -99,7 +97,7 @@
         4
       ],
       "drawn": false,
-      "_id": "hLGBojjO4HkmyfYQ",
+      "_id": "qckoyF6TSnkDdSy5",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -107,10 +105,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Griffons"
+      "name": "Elves"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.8IHUSqZV3U1095Me",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.RLyFB8PUpwc7zqa8",
       "type": "text",
       "weight": 1,
       "range": [
@@ -118,7 +116,7 @@
         5
       ],
       "drawn": false,
-      "_id": "8IHUSqZV3U1095Me",
+      "_id": "RLyFB8PUpwc7zqa8",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -126,10 +124,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Harpies"
+      "name": "Gnomes"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.rwdWwFUGi9ff1sYB",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.iMIppb8TcuzYRDaj",
       "type": "text",
       "weight": 1,
       "range": [
@@ -137,7 +135,7 @@
         6
       ],
       "drawn": false,
-      "_id": "rwdWwFUGi9ff1sYB",
+      "_id": "iMIppb8TcuzYRDaj",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -145,10 +143,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Werewolf"
+      "name": "Orcs"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.8utnzOXPZAIDb9OQ",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.ojI5QwVU4wADOkTs",
       "type": "text",
       "weight": 1,
       "range": [
@@ -156,7 +154,7 @@
         7
       ],
       "drawn": false,
-      "_id": "8utnzOXPZAIDb9OQ",
+      "_id": "ojI5QwVU4wADOkTs",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -164,10 +162,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Hippogriffs"
+      "name": "Sidhe"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.Z517DMiM7POiqJCt",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.BTdMASPvlcXXuuiP",
       "type": "text",
       "weight": 1,
       "range": [
@@ -175,7 +173,7 @@
         8
       ],
       "drawn": false,
-      "_id": "Z517DMiM7POiqJCt",
+      "_id": "BTdMASPvlcXXuuiP",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -183,10 +181,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Manticore"
+      "name": "Kobolds"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.ipXv1sZ2EZzCeCj7",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.ZhVBW4ggZzqlE5sH",
       "type": "text",
       "weight": 1,
       "range": [
@@ -194,7 +192,7 @@
         9
       ],
       "drawn": false,
-      "_id": "ipXv1sZ2EZzCeCj7",
+      "_id": "ZhVBW4ggZzqlE5sH",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -202,10 +200,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Medusa"
+      "name": "Bugbears"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.cUh22FYtaCrNkBxl",
+      "_originalKey": "!tables.results!CkaPQTx0y5cXjTCg.ChDaRNVe66pJJ7ww",
       "type": "text",
       "weight": 1,
       "range": [
@@ -213,7 +211,7 @@
         10
       ],
       "drawn": false,
-      "_id": "cUh22FYtaCrNkBxl",
+      "_id": "ChDaRNVe66pJJ7ww",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -221,45 +219,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Pegasi"
-    },
-    {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.2Y1GunLXjnlwDy0q",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        11,
-        11
-      ],
-      "drawn": false,
-      "_id": "2Y1GunLXjnlwDy0q",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Roc"
-    },
-    {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.gI0DzXVjMg7jdJ8j",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        12,
-        12
-      ],
-      "drawn": false,
-      "_id": "gI0DzXVjMg7jdJ8j",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Wererat"
+      "name": "Trolls"
     }
   ]
 }

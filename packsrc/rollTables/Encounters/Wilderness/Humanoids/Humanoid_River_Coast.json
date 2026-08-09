@@ -1,0 +1,145 @@
+{
+  "name": "Humanoid (River/Coast)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 1d6 to determine the humanoid encountered.</p>",
+  "results": [
+    "ALpVw64zv3U5Wpkl",
+    "IqwC1kAWmeBCkQDS",
+    "9Z9UAHsLWfeXEr20",
+    "a16DDVKn4p1SVmVz",
+    "AqAqF3bHPrkPMT3Q",
+    "3tHpt1mvWXKxsej9"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "oOlRoulqa5E0EOg6",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "fP3EbfkllQ7T9mkE",
+  "sort": 0,
+  "_originalKey": "!tables!fP3EbfkllQ7T9mkE",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.ALpVw64zv3U5Wpkl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "ALpVw64zv3U5Wpkl",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ogres"
+    },
+    {
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.IqwC1kAWmeBCkQDS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "IqwC1kAWmeBCkQDS",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gnolls"
+    },
+    {
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.9Z9UAHsLWfeXEr20",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "9Z9UAHsLWfeXEr20",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Orcs"
+    },
+    {
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.a16DDVKn4p1SVmVz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "a16DDVKn4p1SVmVz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lizardmen"
+    },
+    {
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.AqAqF3bHPrkPMT3Q",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "AqAqF3bHPrkPMT3Q",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hobgoblins"
+    },
+    {
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.3tHpt1mvWXKxsej9",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "3tHpt1mvWXKxsej9",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Trolls"
+    }
+  ]
+}

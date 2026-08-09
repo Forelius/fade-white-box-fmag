@@ -1,18 +1,17 @@
 {
-  "name": "Monster (Swamp/Jungle)",
+  "name": "Humanoid (Settled)",
   "img": "icons/svg/d20-grey.svg",
-  "description": "<p>Roll d6 to determine the monster encountered.</p>",
+  "description": "<p>Roll 1d5 to determine the humanoid encountered.</p>",
   "results": [
-    "bsqDQkwmx3ux4dWw",
-    "rFq1pbNPvzHDrXVQ",
-    "wU6fb38zgczW0TbA",
-    "TcKHcG1ebXuDt4dP",
-    "mFoNOwt0Wzra2aNx",
-    "k7k3QYzkfxt7zz3c"
+    "8h5s8uVZgzPZPC8f",
+    "v2fqOof78j0g2anq",
+    "zBlr5p4uzhQnhJJ9",
+    "1ir7i2ryLecszs4Z",
+    "QqRqUsZJOOTJyXcv"
   ],
   "replacement": true,
   "displayRoll": false,
-  "folder": "lPoIuIocXWnON3LC",
+  "folder": "oOlRoulqa5E0EOg6",
   "ownership": {
     "default": 0,
     "39ANqKV80WQNa3A0": 3
@@ -22,13 +21,13 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "formula": "1d6",
-  "_id": "JvUTnbOWrAeIckvu",
+  "formula": "1d5",
+  "_id": "TjVv2kp1hvbjtKii",
   "sort": 0,
-  "_originalKey": "!tables!JvUTnbOWrAeIckvu",
+  "_originalKey": "!tables!TjVv2kp1hvbjtKii",
   "embedded": [
     {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.bsqDQkwmx3ux4dWw",
+      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.8h5s8uVZgzPZPC8f",
       "type": "text",
       "weight": 1,
       "range": [
@@ -36,7 +35,7 @@
         1
       ],
       "drawn": false,
-      "_id": "bsqDQkwmx3ux4dWw",
+      "_id": "8h5s8uVZgzPZPC8f",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -44,10 +43,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Medusa"
+      "name": "Goblins"
     },
     {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.rFq1pbNPvzHDrXVQ",
+      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.v2fqOof78j0g2anq",
       "type": "text",
       "weight": 1,
       "range": [
@@ -55,7 +54,7 @@
         2
       ],
       "drawn": false,
-      "_id": "rFq1pbNPvzHDrXVQ",
+      "_id": "v2fqOof78j0g2anq",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -63,10 +62,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dryad"
+      "name": "Dwarfs"
     },
     {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.wU6fb38zgczW0TbA",
+      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.zBlr5p4uzhQnhJJ9",
       "type": "text",
       "weight": 1,
       "range": [
@@ -74,7 +73,7 @@
         3
       ],
       "drawn": false,
-      "_id": "wU6fb38zgczW0TbA",
+      "_id": "zBlr5p4uzhQnhJJ9",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -82,10 +81,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Basilisk"
+      "name": "Elves"
     },
     {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.TcKHcG1ebXuDt4dP",
+      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.1ir7i2ryLecszs4Z",
       "type": "text",
       "weight": 1,
       "range": [
@@ -93,7 +92,7 @@
         4
       ],
       "drawn": false,
-      "_id": "TcKHcG1ebXuDt4dP",
+      "_id": "1ir7i2ryLecszs4Z",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -101,10 +100,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Cockatrice"
+      "name": "Kobolds"
     },
     {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.mFoNOwt0Wzra2aNx",
+      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.QqRqUsZJOOTJyXcv",
       "type": "text",
       "weight": 1,
       "range": [
@@ -112,7 +111,7 @@
         5
       ],
       "drawn": false,
-      "_id": "mFoNOwt0Wzra2aNx",
+      "_id": "QqRqUsZJOOTJyXcv",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -120,26 +119,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Chimerae"
-    },
-    {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.k7k3QYzkfxt7zz3c",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "drawn": false,
-      "_id": "k7k3QYzkfxt7zz3c",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Harpies"
+      "name": "Gnomes"
     }
   ]
 }

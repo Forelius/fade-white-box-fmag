@@ -1,22 +1,22 @@
 {
-  "name": "Monster (Open/Forest)",
+  "name": "Giant",
   "img": "icons/svg/d20-grey.svg",
-  "description": "<p>Roll d10 to determine the monster encountered.</p>",
+  "description": "<p>Roll d10 to determine the giant encountered.</p>",
   "results": [
-    "VdeTm9LinAeRIDZd",
-    "O1Cyvzimg2norcoI",
-    "GhfEKR4ZPQDKGMIb",
-    "PtdbhzTjQusipZCL",
-    "Qc9y0xZvuFPxU2LY",
-    "rP3jxBkyk0MqNIJA",
-    "FpZEMDyy6uzA8cnv",
-    "Ds9kWG6WSQPCNebN",
-    "u6Mq0KPVpjs0OZYJ",
-    "ZAlPB4cY591JMDp6"
+    "jjI5cjlVIA9s1FvE",
+    "ppujijRUrLC1EvXm",
+    "kgseg0lcXxJLMz7R",
+    "MBu08mIotbnj7cKt",
+    "nDk4PMXPtflJKXbk",
+    "WmnV0BMxajWpme79",
+    "Xv42wp9sJFhfiaYl",
+    "akFuWoAGxS2on0Nn",
+    "SBylPZyDlxwUeSG4",
+    "z117IBWXLFKOfwjg"
   ],
   "replacement": true,
   "displayRoll": false,
-  "folder": "lPoIuIocXWnON3LC",
+  "folder": "ZS9fpSE1U85AaXon",
   "ownership": {
     "default": 0,
     "39ANqKV80WQNa3A0": 3
@@ -27,12 +27,12 @@
     "systemId": "fantastic-depths"
   },
   "formula": "1d10",
-  "_id": "SNs3Z0WCObRZuakI",
+  "_id": "NaX3IhKVdy0yEOvE",
   "sort": 0,
-  "_originalKey": "!tables!SNs3Z0WCObRZuakI",
+  "_originalKey": "!tables!NaX3IhKVdy0yEOvE",
   "embedded": [
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.VdeTm9LinAeRIDZd",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.jjI5cjlVIA9s1FvE",
       "type": "text",
       "weight": 1,
       "range": [
@@ -40,7 +40,7 @@
         1
       ],
       "drawn": false,
-      "_id": "VdeTm9LinAeRIDZd",
+      "_id": "jjI5cjlVIA9s1FvE",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -48,10 +48,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Unicorns"
+      "name": "Efreet"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.O1Cyvzimg2norcoI",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.ppujijRUrLC1EvXm",
       "type": "text",
       "weight": 1,
       "range": [
@@ -59,7 +59,7 @@
         2
       ],
       "drawn": false,
-      "_id": "O1Cyvzimg2norcoI",
+      "_id": "ppujijRUrLC1EvXm",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -67,10 +67,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dryad"
+      "name": "Djinn"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.GhfEKR4ZPQDKGMIb",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.kgseg0lcXxJLMz7R",
       "type": "text",
       "weight": 1,
       "range": [
@@ -78,7 +78,7 @@
         3
       ],
       "drawn": false,
-      "_id": "GhfEKR4ZPQDKGMIb",
+      "_id": "kgseg0lcXxJLMz7R",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -86,10 +86,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Centaur"
+      "name": "Giant, Frost"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.PtdbhzTjQusipZCL",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.MBu08mIotbnj7cKt",
       "type": "text",
       "weight": 1,
       "range": [
@@ -97,7 +97,7 @@
         4
       ],
       "drawn": false,
-      "_id": "PtdbhzTjQusipZCL",
+      "_id": "MBu08mIotbnj7cKt",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -105,10 +105,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Basilisk"
+      "name": "Giant, Stone"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.Qc9y0xZvuFPxU2LY",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.nDk4PMXPtflJKXbk",
       "type": "text",
       "weight": 1,
       "range": [
@@ -116,7 +116,7 @@
         5
       ],
       "drawn": false,
-      "_id": "Qc9y0xZvuFPxU2LY",
+      "_id": "nDk4PMXPtflJKXbk",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -124,10 +124,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Wererat"
+      "name": "Giant, Hill"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.rP3jxBkyk0MqNIJA",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.WmnV0BMxajWpme79",
       "type": "text",
       "weight": 1,
       "range": [
@@ -135,7 +135,7 @@
         6
       ],
       "drawn": false,
-      "_id": "rP3jxBkyk0MqNIJA",
+      "_id": "WmnV0BMxajWpme79",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -143,10 +143,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Cockatrice"
+      "name": "Giant, Storm"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.FpZEMDyy6uzA8cnv",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.Xv42wp9sJFhfiaYl",
       "type": "text",
       "weight": 1,
       "range": [
@@ -154,7 +154,7 @@
         7
       ],
       "drawn": false,
-      "_id": "FpZEMDyy6uzA8cnv",
+      "_id": "Xv42wp9sJFhfiaYl",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -162,10 +162,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Blink Dog"
+      "name": "Giant, Fire"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.Ds9kWG6WSQPCNebN",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.akFuWoAGxS2on0Nn",
       "type": "text",
       "weight": 1,
       "range": [
@@ -173,7 +173,7 @@
         8
       ],
       "drawn": false,
-      "_id": "Ds9kWG6WSQPCNebN",
+      "_id": "akFuWoAGxS2on0Nn",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -181,10 +181,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Werewolf"
+      "name": "Giant, Cloud"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.u6Mq0KPVpjs0OZYJ",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.SBylPZyDlxwUeSG4",
       "type": "text",
       "weight": 1,
       "range": [
@@ -192,7 +192,7 @@
         9
       ],
       "drawn": false,
-      "_id": "u6Mq0KPVpjs0OZYJ",
+      "_id": "SBylPZyDlxwUeSG4",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -200,10 +200,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Chimerae"
+      "name": "Giant, Firbolg"
     },
     {
-      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.ZAlPB4cY591JMDp6",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.z117IBWXLFKOfwjg",
       "type": "text",
       "weight": 1,
       "range": [
@@ -211,7 +211,7 @@
         10
       ],
       "drawn": false,
-      "_id": "ZAlPB4cY591JMDp6",
+      "_id": "z117IBWXLFKOfwjg",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -219,7 +219,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Manticore"
+      "name": "Treants"
     }
   ]
 }

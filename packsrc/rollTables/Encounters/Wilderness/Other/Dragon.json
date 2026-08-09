@@ -1,20 +1,20 @@
 {
-  "name": "Monster (Barren)",
+  "name": "Dragon",
   "img": "icons/svg/d20-grey.svg",
-  "description": "<p>Roll d8 to determine the monster encountered.</p>",
+  "description": "<p>Roll d8 to determine the dragon encountered.</p>",
   "results": [
-    "LTekkjasXtCVYD56",
-    "rFcZjwU8N0Zug1m7",
-    "pnQSB9SZwSYl0QFR",
-    "uYJehVbJGxe6lmzE",
-    "0YI9ozq27m1M2DtJ",
-    "Py13VpXaNAJwPSwL",
-    "sAS7CkuraFKEW6tY",
-    "TwFgUiPoywcLaTTg"
+    "p12RgTXURQqIjmkt",
+    "wqbkRc8E9gigTsGF",
+    "dn8wpVPqt7jjaSuh",
+    "KMJEq76oScVCyfhy",
+    "MR1YgqFK4pbHsiox",
+    "xKyjcj0Fy9hoDaae",
+    "69cvY6UNbyWB9mRJ",
+    "TujHOLZ4QyMWZS7m"
   ],
   "replacement": true,
   "displayRoll": false,
-  "folder": "lPoIuIocXWnON3LC",
+  "folder": "ZS9fpSE1U85AaXon",
   "ownership": {
     "default": 0,
     "39ANqKV80WQNa3A0": 3
@@ -25,12 +25,12 @@
     "systemId": "fantastic-depths"
   },
   "formula": "1d8",
-  "_id": "zgshLc5ad7D9pU8f",
+  "_id": "nHNhmi1fhdjSNv1w",
   "sort": 0,
-  "_originalKey": "!tables!zgshLc5ad7D9pU8f",
+  "_originalKey": "!tables!nHNhmi1fhdjSNv1w",
   "embedded": [
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.LTekkjasXtCVYD56",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.p12RgTXURQqIjmkt",
       "type": "text",
       "weight": 1,
       "range": [
@@ -38,7 +38,7 @@
         1
       ],
       "drawn": false,
-      "_id": "LTekkjasXtCVYD56",
+      "_id": "p12RgTXURQqIjmkt",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -46,10 +46,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Salamander"
+      "name": "Dragon, Gold"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.rFcZjwU8N0Zug1m7",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.wqbkRc8E9gigTsGF",
       "type": "text",
       "weight": 1,
       "range": [
@@ -57,7 +57,7 @@
         2
       ],
       "drawn": false,
-      "_id": "rFcZjwU8N0Zug1m7",
+      "_id": "wqbkRc8E9gigTsGF",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -65,10 +65,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Purple Worm"
+      "name": "Dragon, Blue"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.pnQSB9SZwSYl0QFR",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.dn8wpVPqt7jjaSuh",
       "type": "text",
       "weight": 1,
       "range": [
@@ -76,7 +76,7 @@
         3
       ],
       "drawn": false,
-      "_id": "pnQSB9SZwSYl0QFR",
+      "_id": "dn8wpVPqt7jjaSuh",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -84,10 +84,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Basilisk"
+      "name": "Dragon, Black"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.uYJehVbJGxe6lmzE",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.KMJEq76oScVCyfhy",
       "type": "text",
       "weight": 1,
       "range": [
@@ -95,7 +95,7 @@
         4
       ],
       "drawn": false,
-      "_id": "uYJehVbJGxe6lmzE",
+      "_id": "KMJEq76oScVCyfhy",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -103,10 +103,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Gorgons"
+      "name": "Dragon, Green"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.0YI9ozq27m1M2DtJ",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.MR1YgqFK4pbHsiox",
       "type": "text",
       "weight": 1,
       "range": [
@@ -114,7 +114,7 @@
         5
       ],
       "drawn": false,
-      "_id": "0YI9ozq27m1M2DtJ",
+      "_id": "MR1YgqFK4pbHsiox",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -122,10 +122,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Manticore"
+      "name": "Dragon, Red"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.Py13VpXaNAJwPSwL",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.xKyjcj0Fy9hoDaae",
       "type": "text",
       "weight": 1,
       "range": [
@@ -133,7 +133,7 @@
         6
       ],
       "drawn": false,
-      "_id": "Py13VpXaNAJwPSwL",
+      "_id": "xKyjcj0Fy9hoDaae",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -141,10 +141,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Medusa"
+      "name": "Dragon, White"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.sAS7CkuraFKEW6tY",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.69cvY6UNbyWB9mRJ",
       "type": "text",
       "weight": 1,
       "range": [
@@ -152,7 +152,7 @@
         7
       ],
       "drawn": false,
-      "_id": "sAS7CkuraFKEW6tY",
+      "_id": "69cvY6UNbyWB9mRJ",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -160,10 +160,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Roc"
+      "name": "Wyverns"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.TwFgUiPoywcLaTTg",
+      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.TujHOLZ4QyMWZS7m",
       "type": "text",
       "weight": 1,
       "range": [
@@ -171,7 +171,7 @@
         8
       ],
       "drawn": false,
-      "_id": "TwFgUiPoywcLaTTg",
+      "_id": "TujHOLZ4QyMWZS7m",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -179,7 +179,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Roll again"
+      "name": "Hydrae"
     }
   ]
 }

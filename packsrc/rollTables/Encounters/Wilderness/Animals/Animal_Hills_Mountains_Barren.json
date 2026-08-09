@@ -1,0 +1,145 @@
+{
+  "name": "Animal (Hills/Mountains/Barren)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d6 to determine the animal encountered.</p>",
+  "results": [
+    "ZZ3kdL4Iox8ogzsR",
+    "CEJBE0y3j3urxCfT",
+    "PelXEtGrLLDrJhYg",
+    "PhJRbWyxN9pReuwd",
+    "MyTwMkyfOgVwQiHH",
+    "mOwzEvfjbmiCmVH4"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "st8GIY55jRw7h84Q",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "d2fnTzw2XKNrDv2y",
+  "sort": 0,
+  "_originalKey": "!tables!d2fnTzw2XKNrDv2y",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.ZZ3kdL4Iox8ogzsR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "ZZ3kdL4Iox8ogzsR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Snake, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.CEJBE0y3j3urxCfT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "CEJBE0y3j3urxCfT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Worgs"
+    },
+    {
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.PelXEtGrLLDrJhYg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "PelXEtGrLLDrJhYg",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Rats"
+    },
+    {
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.PhJRbWyxN9pReuwd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "PhJRbWyxN9pReuwd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Spiders"
+    },
+    {
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.MyTwMkyfOgVwQiHH",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "MyTwMkyfOgVwQiHH",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Centipedes"
+    },
+    {
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.mOwzEvfjbmiCmVH4",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "mOwzEvfjbmiCmVH4",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Stirge"
+    }
+  ]
+}

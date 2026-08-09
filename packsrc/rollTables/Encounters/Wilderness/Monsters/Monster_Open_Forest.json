@@ -1,0 +1,225 @@
+{
+  "name": "Monster (Open/Forest)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d10 to determine the monster encountered.</p>",
+  "results": [
+    "VdeTm9LinAeRIDZd",
+    "O1Cyvzimg2norcoI",
+    "GhfEKR4ZPQDKGMIb",
+    "PtdbhzTjQusipZCL",
+    "Qc9y0xZvuFPxU2LY",
+    "rP3jxBkyk0MqNIJA",
+    "FpZEMDyy6uzA8cnv",
+    "Ds9kWG6WSQPCNebN",
+    "u6Mq0KPVpjs0OZYJ",
+    "ZAlPB4cY591JMDp6"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "MXDQEzirAunvNOPp",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_id": "SNs3Z0WCObRZuakI",
+  "sort": 0,
+  "_originalKey": "!tables!SNs3Z0WCObRZuakI",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.VdeTm9LinAeRIDZd",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "VdeTm9LinAeRIDZd",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Unicorns"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.O1Cyvzimg2norcoI",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "O1Cyvzimg2norcoI",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dryad"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.GhfEKR4ZPQDKGMIb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "GhfEKR4ZPQDKGMIb",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Centaur"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.PtdbhzTjQusipZCL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "PtdbhzTjQusipZCL",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Basilisk"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.Qc9y0xZvuFPxU2LY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Qc9y0xZvuFPxU2LY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Wererat"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.rP3jxBkyk0MqNIJA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "rP3jxBkyk0MqNIJA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Cockatrice"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.FpZEMDyy6uzA8cnv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "FpZEMDyy6uzA8cnv",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Blink Dog"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.Ds9kWG6WSQPCNebN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "Ds9kWG6WSQPCNebN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Werewolf"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.u6Mq0KPVpjs0OZYJ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "u6Mq0KPVpjs0OZYJ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Chimerae"
+    },
+    {
+      "_originalKey": "!tables.results!SNs3Z0WCObRZuakI.ZAlPB4cY591JMDp6",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "ZAlPB4cY591JMDp6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Manticore"
+    }
+  ]
+}

@@ -82,5 +82,89 @@
       "modifiedTime": 1786108896749,
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
+  },
+  "!folders!ZS9fpSE1U85AaXon": {
+    "name": "Other",
+    "sorting": "a",
+    "folder": "lPoIuIocXWnON3LC",
+    "type": "RollTable",
+    "_id": "ZS9fpSE1U85AaXon",
+    "description": "",
+    "sort": 100000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!MXDQEzirAunvNOPp": {
+    "name": "Monsters",
+    "sorting": "a",
+    "folder": "lPoIuIocXWnON3LC",
+    "type": "RollTable",
+    "_id": "MXDQEzirAunvNOPp",
+    "description": "",
+    "sort": 200000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!st8GIY55jRw7h84Q": {
+    "name": "Animals",
+    "sorting": "a",
+    "folder": "lPoIuIocXWnON3LC",
+    "type": "RollTable",
+    "_id": "st8GIY55jRw7h84Q",
+    "description": "",
+    "sort": 300000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!oOlRoulqa5E0EOg6": {
+    "name": "Humanoids",
+    "sorting": "a",
+    "folder": "lPoIuIocXWnON3LC",
+    "type": "RollTable",
+    "_id": "oOlRoulqa5E0EOg6",
+    "description": "",
+    "sort": 400000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
   }
 }

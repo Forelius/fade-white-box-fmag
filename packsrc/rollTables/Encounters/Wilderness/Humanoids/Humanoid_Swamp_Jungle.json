@@ -1,0 +1,185 @@
+{
+  "name": "Humanoid (Swamp/Jungle)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 1d8 to determine the humanoid encountered.</p>",
+  "results": [
+    "9gQRBd5zYZlJ5mpI",
+    "eIUbJLG0xzjcjNKk",
+    "fqEzryMljx6PhnPK",
+    "BU1pbY0MA8AekNmr",
+    "c5bqMo8RKRTyduDE",
+    "zk9IxlafQMZc84SE",
+    "iGWQSJgypOF8bHv4",
+    "yK6EJRKX7veA74W8"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "oOlRoulqa5E0EOg6",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d8",
+  "_id": "CS7ZSEqcbSED6kd1",
+  "sort": 0,
+  "_originalKey": "!tables!CS7ZSEqcbSED6kd1",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.9gQRBd5zYZlJ5mpI",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "9gQRBd5zYZlJ5mpI",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ogres"
+    },
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.eIUbJLG0xzjcjNKk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "eIUbJLG0xzjcjNKk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Bugbears"
+    },
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.fqEzryMljx6PhnPK",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "fqEzryMljx6PhnPK",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Orcs"
+    },
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.BU1pbY0MA8AekNmr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "BU1pbY0MA8AekNmr",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lizardmen"
+    },
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.c5bqMo8RKRTyduDE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "c5bqMo8RKRTyduDE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lizardmen"
+    },
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.zk9IxlafQMZc84SE",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "zk9IxlafQMZc84SE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Kobolds"
+    },
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.iGWQSJgypOF8bHv4",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "iGWQSJgypOF8bHv4",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hobgoblins"
+    },
+    {
+      "_originalKey": "!tables.results!CS7ZSEqcbSED6kd1.yK6EJRKX7veA74W8",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "yK6EJRKX7veA74W8",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Trolls"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Animal (River/Coast)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d6 to determine the animal encountered.</p>",
+  "results": [
+    "nbBFm917Y9uayYae",
+    "SKoo7igPvT9YAmu1",
+    "Zlgny8oP6EsPq66S",
+    "W9E3JDPudqgMOLj3",
+    "qPiETYTGaLYvc1l3",
+    "8CCclfM5lkfohnVs"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "st8GIY55jRw7h84Q",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "FY5JJzbeUECE0ouK",
+  "sort": 0,
+  "_originalKey": "!tables!FY5JJzbeUECE0ouK",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.nbBFm917Y9uayYae",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "nbBFm917Y9uayYae",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Rats"
+    },
+    {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.SKoo7igPvT9YAmu1",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "SKoo7igPvT9YAmu1",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Centipedes"
+    },
+    {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.Zlgny8oP6EsPq66S",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "Zlgny8oP6EsPq66S",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Snake, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.W9E3JDPudqgMOLj3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "W9E3JDPudqgMOLj3",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Beetle, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.qPiETYTGaLYvc1l3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "qPiETYTGaLYvc1l3",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Spiders"
+    },
+    {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.8CCclfM5lkfohnVs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "8CCclfM5lkfohnVs",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Stirge"
+    }
+  ]
+}

@@ -1,20 +1,18 @@
 {
-  "name": "Dragon",
+  "name": "Animal (Swamp/Jungle)",
   "img": "icons/svg/d20-grey.svg",
-  "description": "<p>Roll d8 to determine the dragon encountered.</p>",
+  "description": "<p>Roll d6 to determine the animal encountered.</p>",
   "results": [
-    "p12RgTXURQqIjmkt",
-    "wqbkRc8E9gigTsGF",
-    "dn8wpVPqt7jjaSuh",
-    "KMJEq76oScVCyfhy",
-    "MR1YgqFK4pbHsiox",
-    "xKyjcj0Fy9hoDaae",
-    "69cvY6UNbyWB9mRJ",
-    "TujHOLZ4QyMWZS7m"
+    "ARE8N8MbEzDT7A01",
+    "MvVhYmGzcvaPRZ88",
+    "fBFgl3tobd7vAHv4",
+    "Umcw4dtterCTk1HR",
+    "bR8o388KGsjgLcOl",
+    "NJWQpzSpmiTBmlt0"
   ],
   "replacement": true,
   "displayRoll": false,
-  "folder": "lPoIuIocXWnON3LC",
+  "folder": "st8GIY55jRw7h84Q",
   "ownership": {
     "default": 0,
     "39ANqKV80WQNa3A0": 3
@@ -24,13 +22,13 @@
     "coreVersion": "12.343",
     "systemId": "fantastic-depths"
   },
-  "formula": "1d8",
-  "_id": "nHNhmi1fhdjSNv1w",
+  "formula": "1d6",
+  "_id": "uLSz8QKWUmPfxFVj",
   "sort": 0,
-  "_originalKey": "!tables!nHNhmi1fhdjSNv1w",
+  "_originalKey": "!tables!uLSz8QKWUmPfxFVj",
   "embedded": [
     {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.p12RgTXURQqIjmkt",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.ARE8N8MbEzDT7A01",
       "type": "text",
       "weight": 1,
       "range": [
@@ -38,7 +36,7 @@
         1
       ],
       "drawn": false,
-      "_id": "p12RgTXURQqIjmkt",
+      "_id": "ARE8N8MbEzDT7A01",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -46,10 +44,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dragon, Gold"
+      "name": "Rats"
     },
     {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.wqbkRc8E9gigTsGF",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.MvVhYmGzcvaPRZ88",
       "type": "text",
       "weight": 1,
       "range": [
@@ -57,7 +55,7 @@
         2
       ],
       "drawn": false,
-      "_id": "wqbkRc8E9gigTsGF",
+      "_id": "MvVhYmGzcvaPRZ88",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -65,10 +63,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dragon, Blue"
+      "name": "Snake, Giant"
     },
     {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.dn8wpVPqt7jjaSuh",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.fBFgl3tobd7vAHv4",
       "type": "text",
       "weight": 1,
       "range": [
@@ -76,7 +74,7 @@
         3
       ],
       "drawn": false,
-      "_id": "dn8wpVPqt7jjaSuh",
+      "_id": "fBFgl3tobd7vAHv4",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -84,10 +82,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dragon, Black"
+      "name": "Spiders"
     },
     {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.KMJEq76oScVCyfhy",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.Umcw4dtterCTk1HR",
       "type": "text",
       "weight": 1,
       "range": [
@@ -95,7 +93,7 @@
         4
       ],
       "drawn": false,
-      "_id": "KMJEq76oScVCyfhy",
+      "_id": "Umcw4dtterCTk1HR",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -103,10 +101,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dragon, Green"
+      "name": "Centipedes"
     },
     {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.MR1YgqFK4pbHsiox",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.bR8o388KGsjgLcOl",
       "type": "text",
       "weight": 1,
       "range": [
@@ -114,7 +112,7 @@
         5
       ],
       "drawn": false,
-      "_id": "MR1YgqFK4pbHsiox",
+      "_id": "bR8o388KGsjgLcOl",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -122,10 +120,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dragon, Red"
+      "name": "Beetle, Giant"
     },
     {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.xKyjcj0Fy9hoDaae",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.NJWQpzSpmiTBmlt0",
       "type": "text",
       "weight": 1,
       "range": [
@@ -133,7 +131,7 @@
         6
       ],
       "drawn": false,
-      "_id": "xKyjcj0Fy9hoDaae",
+      "_id": "NJWQpzSpmiTBmlt0",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -141,45 +139,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dragon, White"
-    },
-    {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.69cvY6UNbyWB9mRJ",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        7,
-        7
-      ],
-      "drawn": false,
-      "_id": "69cvY6UNbyWB9mRJ",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Wyverns"
-    },
-    {
-      "_originalKey": "!tables.results!nHNhmi1fhdjSNv1w.TujHOLZ4QyMWZS7m",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        8,
-        8
-      ],
-      "drawn": false,
-      "_id": "TujHOLZ4QyMWZS7m",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Hydrae"
+      "name": "Stirge"
     }
   ]
 }

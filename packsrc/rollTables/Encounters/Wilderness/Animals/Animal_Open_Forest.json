@@ -1,18 +1,18 @@
 {
-  "name": "Monster (River/Coast)",
+  "name": "Animal (Open/Forest)",
   "img": "icons/svg/d20-grey.svg",
-  "description": "<p>Roll d6 to determine the monster encountered.</p>",
+  "description": "<p>Roll d6 to determine the animal encountered.</p>",
   "results": [
-    "KQSmIKqdPIIgUQZB",
-    "HnXFIdK0W0C7sYE3",
-    "ZViBWqiJiYgPqgMd",
-    "mIAcpOFI7ddncJwQ",
-    "E2EIHoXxxzWxxcih",
-    "wMRk6crDf11HT5fM"
+    "rmuNUp7oQcHnCd8E",
+    "YjOi0qGGb3EzwA77",
+    "Aqq5Q8mTP9rOxSrD",
+    "A7jRqNI7rpxPjGeH",
+    "4OOGZuV5RgdtIc07",
+    "ymaJ8m98qKpjNgi1"
   ],
   "replacement": true,
   "displayRoll": false,
-  "folder": "lPoIuIocXWnON3LC",
+  "folder": "st8GIY55jRw7h84Q",
   "ownership": {
     "default": 0,
     "39ANqKV80WQNa3A0": 3
@@ -23,12 +23,12 @@
     "systemId": "fantastic-depths"
   },
   "formula": "1d6",
-  "_id": "OxUhY108SxINHAjO",
+  "_id": "OtQuWeQzeWtWqFxT",
   "sort": 0,
-  "_originalKey": "!tables!OxUhY108SxINHAjO",
+  "_originalKey": "!tables!OtQuWeQzeWtWqFxT",
   "embedded": [
     {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.KQSmIKqdPIIgUQZB",
+      "_originalKey": "!tables.results!OtQuWeQzeWtWqFxT.rmuNUp7oQcHnCd8E",
       "type": "text",
       "weight": 1,
       "range": [
@@ -36,7 +36,7 @@
         1
       ],
       "drawn": false,
-      "_id": "KQSmIKqdPIIgUQZB",
+      "_id": "rmuNUp7oQcHnCd8E",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -44,10 +44,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Sea Serpent"
+      "name": "Worgs"
     },
     {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.HnXFIdK0W0C7sYE3",
+      "_originalKey": "!tables.results!OtQuWeQzeWtWqFxT.YjOi0qGGb3EzwA77",
       "type": "text",
       "weight": 1,
       "range": [
@@ -55,7 +55,7 @@
         2
       ],
       "drawn": false,
-      "_id": "HnXFIdK0W0C7sYE3",
+      "_id": "YjOi0qGGb3EzwA77",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -63,10 +63,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Basilisk"
+      "name": "Snake, Giant"
     },
     {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.ZViBWqiJiYgPqgMd",
+      "_originalKey": "!tables.results!OtQuWeQzeWtWqFxT.Aqq5Q8mTP9rOxSrD",
       "type": "text",
       "weight": 1,
       "range": [
@@ -74,7 +74,7 @@
         3
       ],
       "drawn": false,
-      "_id": "ZViBWqiJiYgPqgMd",
+      "_id": "Aqq5Q8mTP9rOxSrD",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -82,10 +82,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Chimerae"
+      "name": "Spiders"
     },
     {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.mIAcpOFI7ddncJwQ",
+      "_originalKey": "!tables.results!OtQuWeQzeWtWqFxT.A7jRqNI7rpxPjGeH",
       "type": "text",
       "weight": 1,
       "range": [
@@ -93,7 +93,7 @@
         4
       ],
       "drawn": false,
-      "_id": "mIAcpOFI7ddncJwQ",
+      "_id": "A7jRqNI7rpxPjGeH",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -101,10 +101,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Harpies"
+      "name": "Rats"
     },
     {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.E2EIHoXxxzWxxcih",
+      "_originalKey": "!tables.results!OtQuWeQzeWtWqFxT.4OOGZuV5RgdtIc07",
       "type": "text",
       "weight": 1,
       "range": [
@@ -112,7 +112,7 @@
         5
       ],
       "drawn": false,
-      "_id": "E2EIHoXxxzWxxcih",
+      "_id": "4OOGZuV5RgdtIc07",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -120,10 +120,10 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Medusa"
+      "name": "Beetle, Giant"
     },
     {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.wMRk6crDf11HT5fM",
+      "_originalKey": "!tables.results!OtQuWeQzeWtWqFxT.ymaJ8m98qKpjNgi1",
       "type": "text",
       "weight": 1,
       "range": [
@@ -131,7 +131,7 @@
         6
       ],
       "drawn": false,
-      "_id": "wMRk6crDf11HT5fM",
+      "_id": "ymaJ8m98qKpjNgi1",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -139,7 +139,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Pegasi"
+      "name": "Centipedes"
     }
   ]
 }
