@@ -1,0 +1,157 @@
+{
+  "name": "Settled",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 1d6 to determine the wilderness encounter.</p>",
+  "results": [
+    "QakCT7OM3vQg18mp",
+    "FZNYXwlgx2pP1XUX",
+    "LKtCBH1IQdXq0M1H",
+    "49sJDTatwgRMwm5I",
+    "jI7iVyJh61vLSNfL",
+    "ebU4aJ3hGIOKmotj"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d6",
+  "_id": "G5wYOTTNMwm7cBFh",
+  "sort": 0,
+  "_originalKey": "!tables!G5wYOTTNMwm7cBFh",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.QakCT7OM3vQg18mp",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "QakCT7OM3vQg18mp",
+      "name": "Undead",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.FZNYXwlgx2pP1XUX",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "FZNYXwlgx2pP1XUX",
+      "name": "Humanoid (Settled)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii]{Humanoid (Settled)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii]{Humanoid (Settled)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.LKtCBH1IQdXq0M1H",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "LKtCBH1IQdXq0M1H",
+      "name": "Human (Settled)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.49sJDTatwgRMwm5I",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "49sJDTatwgRMwm5I",
+      "name": "Human (Settled)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.jI7iVyJh61vLSNfL",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "jI7iVyJh61vLSNfL",
+      "name": "Human (Settled)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.ebU4aJ3hGIOKmotj",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "ebU4aJ3hGIOKmotj",
+      "name": "Humanoid (Settled)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii]{Humanoid (Settled)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii]{Humanoid (Settled)}</p>"
+    }
+  ]
+}

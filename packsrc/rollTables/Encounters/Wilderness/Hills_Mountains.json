@@ -1,0 +1,245 @@
+{
+  "name": "Hills/Mountains",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll 1d10 to determine the wilderness encounter.</p>",
+  "results": [
+    "GhY5NhkCeQm3NyK5",
+    "blDDGt6ZZz1osBWu",
+    "v2k2CHxrCs0ha9FF",
+    "zUT2tG4ja1T6i2Mg",
+    "SmjOAaUUl1TuVRg9",
+    "2IsGCsIiiFWOFdgh",
+    "AG4I1gpbbXhD3O7Z",
+    "sLZR9KbS41q4RdT3",
+    "sjsCzkqsVCWUKNFi",
+    "X0CAPwdr1ekCdGPS"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "lPoIuIocXWnON3LC",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_id": "WJtDrypZ5bFmfgu7",
+  "sort": 0,
+  "_originalKey": "!tables!WJtDrypZ5bFmfgu7",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.GhY5NhkCeQm3NyK5",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "GhY5NhkCeQm3NyK5",
+      "name": "Dragon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.blDDGt6ZZz1osBWu",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "blDDGt6ZZz1osBWu",
+      "name": "Monster (Hills/Mountains)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.gXbsVTQO6uc1XTc8]{Monster (Hills/Mountains)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.gXbsVTQO6uc1XTc8",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.gXbsVTQO6uc1XTc8]{Monster (Hills/Mountains)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.v2k2CHxrCs0ha9FF",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "v2k2CHxrCs0ha9FF",
+      "name": "Animal (Hills/Mountains/Barren)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y]{Animal (Hills/Mountains/Barren)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y]{Animal (Hills/Mountains/Barren)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.zUT2tG4ja1T6i2Mg",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "zUT2tG4ja1T6i2Mg",
+      "name": "Humanoid (Hills/Mountains/Barren)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.SmjOAaUUl1TuVRg9",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "SmjOAaUUl1TuVRg9",
+      "name": "Humanoid (Hills/Mountains/Barren)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.2IsGCsIiiFWOFdgh",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "2IsGCsIiiFWOFdgh",
+      "name": "Human (Hills/Mountains/Barren)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.159OMqT3Q6mAfKPV]{Human (Hills/Mountains/Barren)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.159OMqT3Q6mAfKPV",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.159OMqT3Q6mAfKPV]{Human (Hills/Mountains/Barren)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.AG4I1gpbbXhD3O7Z",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "AG4I1gpbbXhD3O7Z",
+      "name": "Humanoid (Hills/Mountains/Barren)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.sLZR9KbS41q4RdT3",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "sLZR9KbS41q4RdT3",
+      "name": "Humanoid (Hills/Mountains/Barren)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL]{Humanoid (Hills/Mountains/Barren)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.sjsCzkqsVCWUKNFi",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "sjsCzkqsVCWUKNFi",
+      "name": "Animal (Hills/Mountains/Barren)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y]{Animal (Hills/Mountains/Barren)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y]{Animal (Hills/Mountains/Barren)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.X0CAPwdr1ekCdGPS",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "X0CAPwdr1ekCdGPS",
+      "name": "Giant",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.NaX3IhKVdy0yEOvE]{Giant}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.NaX3IhKVdy0yEOvE",
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.NaX3IhKVdy0yEOvE]{Giant}</p>"
+    }
+  ]
+}

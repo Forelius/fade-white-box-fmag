@@ -1,0 +1,85 @@
+{
+  "name": "Lycanthrope",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d3 to determine the lycanthrope encountered.</p>",
+  "results": [
+    "gPt7m71qeOvAJX8K",
+    "Ie6m68e28WkoAzIp",
+    "d41fhivsE5N5EFah"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "ZS9fpSE1U85AaXon",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d3",
+  "_id": "VynIuQSM4sQvTTpV",
+  "sort": 0,
+  "_originalKey": "!tables!VynIuQSM4sQvTTpV",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!VynIuQSM4sQvTTpV.gPt7m71qeOvAJX8K",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "gPt7m71qeOvAJX8K",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lycanthrope, Werebear"
+    },
+    {
+      "_originalKey": "!tables.results!VynIuQSM4sQvTTpV.Ie6m68e28WkoAzIp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "Ie6m68e28WkoAzIp",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lycanthrope, Wererat"
+    },
+    {
+      "_originalKey": "!tables.results!VynIuQSM4sQvTTpV.d41fhivsE5N5EFah",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "d41fhivsE5N5EFah",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lycanthrope, Werewolf"
+    }
+  ]
+}

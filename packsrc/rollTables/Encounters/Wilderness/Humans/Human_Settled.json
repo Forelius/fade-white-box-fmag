@@ -1,0 +1,225 @@
+{
+  "name": "Human (Settled)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>Roll d10 to determine the humans encountered.</p>",
+  "results": [
+    "ba3cMB26G0KJXJd3",
+    "OBqhhEdJndkLGxZ1",
+    "RJmArfhPkVqvFsdb",
+    "vaaTUZprUN6IZgsL",
+    "ypnJwPO6ZdnvZXts",
+    "of1fTql2SNuABEJp",
+    "yZfBCyAl8GUjoKuq",
+    "WCrBrIWfnGX8Kl13",
+    "C6DfFEhrswfrSPM8",
+    "IhBXbSW5azwYxp8x"
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": "B8cNTOMbOgydXZ6m",
+  "ownership": {
+    "default": 0,
+    "39ANqKV80WQNa3A0": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "formula": "1d10",
+  "_id": "l7n9XuByayzwDihp",
+  "sort": 0,
+  "_originalKey": "!tables!l7n9XuByayzwDihp",
+  "embedded": [
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.ba3cMB26G0KJXJd3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "ba3cMB26G0KJXJd3",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "NPCs"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.OBqhhEdJndkLGxZ1",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "OBqhhEdJndkLGxZ1",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Bandits"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.RJmArfhPkVqvFsdb",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "RJmArfhPkVqvFsdb",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Clerics"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.vaaTUZprUN6IZgsL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "vaaTUZprUN6IZgsL",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Common"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.ypnJwPO6ZdnvZXts",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "ypnJwPO6ZdnvZXts",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Common"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.of1fTql2SNuABEJp",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "of1fTql2SNuABEJp",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Common"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.yZfBCyAl8GUjoKuq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "yZfBCyAl8GUjoKuq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Soldiers"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.WCrBrIWfnGX8Kl13",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "WCrBrIWfnGX8Kl13",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Soldiers"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.C6DfFEhrswfrSPM8",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "C6DfFEhrswfrSPM8",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Fighters"
+    },
+    {
+      "_originalKey": "!tables.results!l7n9XuByayzwDihp.IhBXbSW5azwYxp8x",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "IhBXbSW5azwYxp8x",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Mages"
+    }
+  ]
+}
