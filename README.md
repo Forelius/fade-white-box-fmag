@@ -19,3 +19,5 @@ Unless stated otherwise, use the default settings.
 - Weapon Mastery: ```None```
 - To-Hit System: ```Classic```
 - Run Rate Per Round Divisor: ```1.5```
+
+<img width="1117" height="825" alt="image" src="https://github.com/user-attachments/assets/4d7e0a68-cfce-4f49-9f1d-da4dca622070" />
