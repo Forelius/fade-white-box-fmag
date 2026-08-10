@@ -1,7 +1,8 @@
 # White Box: FMAG Module for Fantastic Depths Foundry System
 Unofficial White Box: FMAG Compendiums and module for Fantastic Depths Foundry VTT System
 
-This system is incomplete at the moment, a work in progress that acts as a test for Fantastic Depths' extensibility features. Although playable, there are no items or monsters in the compendiums, at least not yet.
+White Box: Fantastic Medieval Adventure Game is offered as a [free PDF download](https://smolderingwizard.wordpress.com/wp-content/uploads/2023/12/wb_fmag_v21.pdf) by its creator.
+There are many other OSR and WB:FMAG resources at https://smolderingwizard.com/tag/whitebox-fmag/
 
 ---
 
