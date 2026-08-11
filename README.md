@@ -15,6 +15,8 @@ Unless stated otherwise, use the default settings.
 - Macros Compendium: ```fade-white-box-fmag.macros```
 - Encumbrance Tracking: The system does not currently have a perfect implementation of the White Box's encumbrance system. You could use ```Classic``` for close approximation.
 - Ability Score Modifier System: ```Simple```
+- Initiative Mode:  ```Group (combat checklist)```
+- Declared Actions: ```false```
 - Round Duration: ```60```
 - Weapon Mastery: ```None```
 - To-Hit System: ```Classic```

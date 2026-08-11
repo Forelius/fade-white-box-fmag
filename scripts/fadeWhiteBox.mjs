@@ -1,5 +1,8 @@
 import { preloadHandlebarsTemplates } from './system/templates.mjs';
-import { moraleCheck } from "./system/moraleCheck.mjs"
+import { WBMoraleCheck } from "./system/registry/WBMoraleCheck.mjs"
+import { WBUserTables } from "./system/registry/WBUserTables.mjs"
+import { WBEncumbrance } from "./system/registry/WBEncumbrance.mjs"
+import { WBActorMovement } from "./system/registry/WBActorMovement.mjs"
 import { FADEWB } from "./system/config.mjs"
 import { WBCharacterDataModel } from './actor/WBCharacterDataModel.mjs';
 import { WBMonsterSheet } from './sheets/WBMonsterSheet.mjs';
@@ -8,6 +11,16 @@ import { WBCharacterSheet } from './sheets/WBCharacterSheet.mjs';
 
 Hooks.once('beforeFadeInit', async function (fadeRegistry) {
    console.debug('FWB: beforeFadeInit hook called.');
+});
+
+Hooks.once('beforeFadeRegisterDefaultSystems', async function (fadeRegistry) {
+   console.debug('FWB: beforeFadeRegisterDefaultSystems hook called.');
+   const userTables = new WBUserTables();
+   userTables.Init();
+   fadeRegistry.registerSystem('userTables', userTables, WBUserTables);
+   fadeRegistry.registerSystem('moraleCheck', new WBMoraleCheck(), WBMoraleCheck);
+   fadeRegistry.registerSystem('encumbranceSystem', new WBEncumbrance(), WBEncumbrance);
+   fadeRegistry.registerSystem('actorMovement', new WBActorMovement(), WBActorMovement);
 });
 
 Hooks.once('afterFadeInit', async function (fadeRegistry) {
@@ -31,8 +44,6 @@ Hooks.once('afterFadeInit', async function (fadeRegistry) {
    });
 
    CONFIG.Actor.dataModels.character = WBCharacterDataModel;
-
-   fadeRegistry.registerSystem('moraleCheck', new moraleCheck(), moraleCheck);
 });
 
 Hooks.once('beforeFadeReady', async (fadeRegistry) => {

@@ -1,8 +1,8 @@
 import { DialogFactory, fadeFinder } from '/systems/fantastic-depths/module/fantastic-depths.min.js';
 
-export class moraleCheck {
+export class WBMoraleCheck {
    async execute(data) {
-      console.log("Using fade white box morale system.");
+      console.debug("Using fade white box morale system.");
 
       const { actor, event } = data;
       const ctrlKey = event?.ctrlKey;
