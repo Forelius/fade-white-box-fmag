@@ -31,7 +31,7 @@
     "isIdentified": false,
     "isCursed": false,
     "isDropped": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "specialAbilities": [],
     "spells": [
       {

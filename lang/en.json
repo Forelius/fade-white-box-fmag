@@ -1,4 +1,12 @@
 {
    "SETTINGS": {
+   },
+   "FADE": {
+      "Item": {
+         "weight": {
+            "abbrPlural": "lbs",
+            "desc": "Encumbrance value of the item in pounds."
+         }
+      }
    }
 }

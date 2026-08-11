@@ -61,7 +61,7 @@
     "healFormula": null,
     "isUsable": false,
     "isOpen": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "specialAbilities": [
       {
         "uuid": "Compendium.fade-white-box-fmag.items.Item.xqghVDZDETmMEPdZ",

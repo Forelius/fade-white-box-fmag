@@ -9,7 +9,7 @@
     },
     "quantity": 1,
     "quantityMax": 0,
-    "weight": 0,
+    "weight": null,
     "cost": 1,
     "containerId": "",
     "equipped": false,

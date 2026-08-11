@@ -537,7 +537,7 @@
         },
         "quantity": 1,
         "quantityMax": 0,
-        "weight": 150,
+        "weight": 10,
         "cost": 15,
         "containerId": "",
         "equipped": true,

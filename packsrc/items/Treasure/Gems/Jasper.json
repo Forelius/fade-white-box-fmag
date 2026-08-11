@@ -32,7 +32,7 @@
     "weightEquipped": 0.1,
     "isOpen": false,
     "isDropped": false,
-    "isTreasure": false,
+    "isTreasure": true,
     "specialAbilities": [],
     "spells": [],
     "conditions": []

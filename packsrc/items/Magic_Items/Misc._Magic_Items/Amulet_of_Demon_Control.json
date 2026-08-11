@@ -34,7 +34,7 @@
     "isCursed": false,
     "isCarried": true,
     "isUsable": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "specialAbilities": [],
     "spells": [
       {

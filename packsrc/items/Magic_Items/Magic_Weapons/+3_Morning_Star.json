@@ -40,7 +40,7 @@
     "healFormula": null,
     "damageType": "physical",
     "isUsable": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "damageRoll": "1d6",
     "damageLabel": "1d6+3",
     "breath": "",

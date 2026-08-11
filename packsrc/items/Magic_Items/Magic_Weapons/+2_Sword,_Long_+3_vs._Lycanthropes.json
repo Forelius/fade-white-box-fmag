@@ -68,7 +68,7 @@
     "healFormula": null,
     "isUsable": false,
     "isOpen": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "damageLabel": "1d6+2",
     "attacks": {
       "used": 0,

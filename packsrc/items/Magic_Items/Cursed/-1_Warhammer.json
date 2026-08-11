@@ -62,7 +62,7 @@
     "weightEquipped": 10,
     "isOpen": false,
     "isDropped": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "damageLabel": "1d6-1",
     "attacks": {
       "used": 0,

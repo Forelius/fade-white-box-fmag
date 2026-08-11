@@ -62,7 +62,7 @@
     "weightEquipped": 10,
     "isOpen": false,
     "isDropped": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "damageLabel": "2d6",
     "specialAbilities": [],
     "spells": [

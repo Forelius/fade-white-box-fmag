@@ -47,7 +47,7 @@
     "weightEquipped": 25,
     "isOpen": false,
     "isDropped": false,
-    "isTreasure": true,
+    "isTreasure": false,
     "av": ""
   },
   "effects": [],

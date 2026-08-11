@@ -29,7 +29,7 @@
     "equippable": false,
     "fuelType": "",
     "isDropped": false,
-    "isTreasure": false,
+    "isTreasure": true,
     "specialAbilities": [],
     "spells": [],
     "conditions": []
