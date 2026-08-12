@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>Black puddings are amorphous globs with an acidic surface. They are subterranean predators and scavengers. Any weapon or armor contacting a black pudding will be eaten away by the acid as follows: weapon (1 hit by weapon on the pudding), chain mail or lesser armor (1 hit by pudding), plate mail (2 hits by pudding). If a weapon or armor is magical, it can take an additional hit per +1 before being dissolved. They are immune to cold and divide when attacked by lightning.</p><p><strong>Terrain:</strong> Subterranean.</p>",
     "wrestling": 0,

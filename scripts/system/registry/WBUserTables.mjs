@@ -1,9 +1,9 @@
 import { UserTables } from '/systems/fantastic-depths/module/fantastic-depths.min.js';
 
 export class WBUserTables extends UserTables {
-	// constructor() {
-	// 	super();
-	// }
+	constructor() {
+		super();
+	}
 
 	tryAddDefaultTables(userTables) {
 		super.tryAddDefaultTables(userTables);

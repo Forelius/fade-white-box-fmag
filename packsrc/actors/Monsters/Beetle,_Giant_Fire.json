@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>A giant fire beetle's oily light-glands glow red, and continue to give off light for 1d6 days after they are removed (shedding light in a 10 foot radius).</p><p><strong>Terrain:</strong> Caverns, Underground.</p>",
     "wrestling": 0,
