@@ -1,1026 +1,1026 @@
 {
-  "name": "Dragon, Gold (Immature)",
-  "type": "monster",
-  "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
-  "system": {
-    "details": {
-      "alignment": "Lawful",
-      "size": "L",
-      "morale": 8,
-      "xpAward": 2000,
-      "attacks": "1",
-      "abilityCount": 3,
-      "monsterType": "Dragon",
-      "saveAs": "",
-      "castAs": "",
-      "classAbilityAs": "",
-      "level": 1,
-      "rarity": "Rare",
-      "weight": ""
-    },
-    "hp": {
-      "hd": "10",
-      "value": 30,
-      "max": 30
-    },
-    "na": {
-      "wandering": "1",
-      "lair": "1"
-    },
-    "treasure": "",
-    "thac0": {
-      "value": 9,
-      "mod": {
-        "missile": 0,
-        "melee": 0
-      }
-    },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
-    "biography": "<p>Gold dragons are of lawful alignment, can always speak, and cast spells as if they were a magic-user of equal level to their age category. They can choose to either breathe fire in a cone 90 feet long and roughly 30 feet wide at the base, or breathe chlorine gas in a cloud 50 feet in diameter.</p>",
-    "wrestling": 0,
-    "encumbrance": {
-      "max": 0,
-      "value": 0,
-      "mv": 0,
-      "mv2": 0
-    },
-    "config": {
-      "maxSpellLevel": 0,
-      "firstSpellLevel": 1
-    },
-    "gm": {
-      "notes": ""
-    },
-    "ac": {
-      "naked": 2,
-      "nakedAAC": 17,
-      "value": 2,
-      "total": 2,
-      "totalAAC": 17,
-      "shield": 0,
-      "mod": 0,
-      "nakedRanged": 2,
-      "nakedRangedAAC": 17,
-      "totalRanged": 2,
-      "totalRangedAAC": 17,
-      "av": "0"
-    },
-    "thbonus": 10,
-    "initiative": {
-      "value": 0
-    },
-    "languages": "",
-    "combat": {
-      "attacks": 0,
-      "deathCount": 0,
-      "isDead": false,
-      "declaredAction": "attack",
-      "attAgainstH": 0,
-      "attAgainstM": 0,
-      "basicProficiency": true,
-      "unskilledToHitMod": -2
-    },
-    "mod": {
-      "ac": 0,
-      "initiative": 0,
+   "name": "Dragon, Gold (Immature)",
+   "type": "monster",
+   "img": "systems/fantastic-depths/assets/img/actor/monster1.webp",
+   "system": {
+      "details": {
+         "alignment": "Lawful",
+         "size": "L",
+         "morale": 8,
+         "xpAward": 2000,
+         "attacks": "1",
+         "abilityCount": 3,
+         "monsterType": "Dragon",
+         "saveAs": "",
+         "castAs": "",
+         "classAbilityAs": "",
+         "level": 1,
+         "rarity": "Rare",
+         "weight": ""
+      },
+      "hp": {
+         "hd": "10",
+         "value": 30,
+         "max": 30
+      },
+      "na": {
+         "wandering": "1",
+         "lair": "1"
+      },
+      "treasure": "",
+      "thac0": {
+         "value": 9,
+         "mod": {
+            "missile": 0,
+            "melee": 0
+         }
+      },
+      "movement": {
+         "turn": 12,
+         "round": 4,
+         "day": 12,
+         "run": 8,
+         "max": 12
+      },
+      "biography": "<p>Gold dragons are of lawful alignment, can always speak, and cast spells as if they were a magic-user of equal level to their age category. They can choose to either breathe fire in a cone 90 feet long and roughly 30 feet wide at the base, or breathe chlorine gas in a cloud 50 feet in diameter.</p>",
+      "wrestling": 0,
+      "encumbrance": {
+         "max": 0,
+         "value": 0,
+         "mv": 0,
+         "mv2": 0
+      },
+      "config": {
+         "maxSpellLevel": 0,
+         "firstSpellLevel": 1
+      },
+      "gm": {
+         "notes": ""
+      },
+      "ac": {
+         "naked": 2,
+         "nakedAAC": 17,
+         "value": 2,
+         "total": 2,
+         "totalAAC": 17,
+         "shield": 0,
+         "mod": 0,
+         "nakedRanged": 2,
+         "nakedRangedAAC": 17,
+         "totalRanged": 2,
+         "totalRangedAAC": 17,
+         "av": "0"
+      },
+      "thbonus": 10,
+      "initiative": {
+         "value": 0
+      },
+      "languages": "",
       "combat": {
-        "toHit": 0,
-        "dmg": "0",
-        "toHitRanged": 0,
-        "dmgRanged": "0",
-        "selfDmg": 0,
-        "selfDmgBreath": 0,
-        "selfDmgBreathScale": 0,
-        "selfDmgMagic": 0,
-        "selfDmgFrost": 0,
-        "selfDmgFire": 0,
-        "selfToHit": 0,
-        "selfToHitRanged": 0,
-        "selfDmgRanged": 0
+         "attacks": 0,
+         "deathCount": 0,
+         "isDead": false,
+         "declaredAction": "attack",
+         "attAgainstH": 0,
+         "attAgainstM": 0,
+         "basicProficiency": true,
+         "unskilledToHitMod": -2
       },
-      "save": {
-        "all": 0,
-        "death": 0,
-        "wand": 0,
-        "paralysis": 0,
-        "breath": 0,
-        "spell": 0
+      "mod": {
+         "ac": 0,
+         "initiative": 0,
+         "combat": {
+            "toHit": 0,
+            "dmg": "0",
+            "toHitRanged": 0,
+            "dmgRanged": "0",
+            "selfDmg": 0,
+            "selfDmgBreath": 0,
+            "selfDmgBreathScale": 0,
+            "selfDmgMagic": 0,
+            "selfDmgFrost": 0,
+            "selfDmgFire": 0,
+            "selfToHit": 0,
+            "selfToHitRanged": 0,
+            "selfDmgRanged": 0
+         },
+         "save": {
+            "all": 0,
+            "death": 0,
+            "wand": 0,
+            "paralysis": 0,
+            "breath": 0,
+            "spell": 0
+         },
+         "baseAc": 0,
+         "upgradeAc": null,
+         "upgradeRangedAc": null,
+         "rangedAc": 0,
+         "wrestling": null,
+         "masteryLevelOverride": null
       },
-      "baseAc": 0,
-      "upgradeAc": null,
-      "upgradeRangedAc": null,
-      "rangedAc": 0,
-      "wrestling": null,
-      "masteryLevelOverride": null
-    },
-    "acDigest": [],
-    "activeLight": null,
-    "isEnchanted": false,
-    "abilities": {
-      "int": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
+      "acDigest": [],
+      "activeLight": null,
+      "isEnchanted": false,
+      "abilities": {
+         "int": {
+            "value": 10,
+            "total": 10,
+            "mod": 0,
+            "tempMod": 0
+         },
+         "con": {
+            "value": 10,
+            "total": 10,
+            "mod": 0,
+            "tempMod": 0
+         },
+         "str": {
+            "value": 10,
+            "total": 10,
+            "mod": 0,
+            "tempMod": 0
+         },
+         "wis": {
+            "value": 10,
+            "total": 10,
+            "mod": 0,
+            "tempMod": 0
+         },
+         "dex": {
+            "value": 10,
+            "total": 10,
+            "mod": 0,
+            "tempMod": 0
+         },
+         "cha": {
+            "value": 10,
+            "total": 10,
+            "mod": 0,
+            "loyaltyMod": 0,
+            "tempMod": 0
+         }
       },
-      "con": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
+      "monsterTypes": [],
+      "tags": [],
+      "movement2": {
+         "turn": 24,
+         "round": 8,
+         "day": 24,
+         "run": 16,
+         "max": 24
       },
-      "str": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
+      "actorGroups": [
+         "dragonkind",
+         "reptiles-dinosaurs"
+      ]
+   },
+   "prototypeToken": {
+      "name": "Dragon, Gold (Immature)",
+      "displayName": 20,
+      "actorLink": false,
+      "width": 2,
+      "height": 2,
+      "texture": {
+         "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
+         "scaleX": 1,
+         "scaleY": 1,
+         "anchorX": 0.5,
+         "anchorY": 0.5,
+         "fit": "contain",
+         "tint": "#ffffff",
+         "alphaThreshold": 0.75
       },
-      "wis": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
+      "disposition": -1,
+      "displayBars": 10,
+      "appendNumber": true,
+      "prependAdjective": false,
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "bar1": {
+         "attribute": "hp"
       },
-      "dex": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "tempMod": 0
+      "bar2": {
+         "attribute": null
       },
-      "cha": {
-        "value": 10,
-        "total": 10,
-        "mod": 0,
-        "loyaltyMod": 0,
-        "tempMod": 0
-      }
-    },
-    "monsterTypes": [],
-    "tags": [],
-    "movement2": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
-    },
-    "actorGroups": [
-      "dragonkind",
-      "reptiles-dinosaurs"
-    ]
-  },
-  "prototypeToken": {
-    "name": "Dragon, Gold (Immature)",
-    "displayName": 20,
-    "actorLink": false,
-    "width": 2,
-    "height": 2,
-    "texture": {
-      "src": "systems/fantastic-depths/assets/img/actor/monster1a.webp",
-      "scaleX": 1,
-      "scaleY": 1,
-      "anchorX": 0.5,
-      "anchorY": 0.5,
-      "fit": "contain",
-      "tint": "#ffffff",
-      "alphaThreshold": 0.75
-    },
-    "disposition": -1,
-    "displayBars": 10,
-    "appendNumber": true,
-    "prependAdjective": false,
-    "lockRotation": false,
-    "rotation": 0,
-    "alpha": 1,
-    "bar1": {
-      "attribute": "hp"
-    },
-    "bar2": {
-      "attribute": null
-    },
-    "light": {
-      "negative": false,
-      "priority": 0,
-      "alpha": 0.5,
-      "angle": 360,
-      "bright": 0,
-      "color": null,
-      "coloration": 1,
-      "dim": 0,
-      "attenuation": 0.5,
-      "luminosity": 0.5,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "animation": {
-        "type": null,
-        "speed": 5,
-        "intensity": 5,
-        "reverse": false
+      "light": {
+         "negative": false,
+         "priority": 0,
+         "alpha": 0.5,
+         "angle": 360,
+         "bright": 0,
+         "color": null,
+         "coloration": 1,
+         "dim": 0,
+         "attenuation": 0.5,
+         "luminosity": 0.5,
+         "saturation": 0,
+         "contrast": 0,
+         "shadows": 0,
+         "animation": {
+            "type": null,
+            "speed": 5,
+            "intensity": 5,
+            "reverse": false
+         },
+         "darkness": {
+            "min": 0,
+            "max": 1
+         }
       },
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "sight": {
-      "enabled": true,
-      "range": 0,
-      "angle": 360,
-      "visionMode": "basic",
-      "color": null,
-      "attenuation": 0,
-      "brightness": 0,
-      "saturation": -1,
-      "contrast": 0
-    },
-    "detectionModes": {
-      "basicSight": {
-        "enabled": true,
-        "range": 60
-      }
-    },
-    "occludable": {
-      "radius": 0
-    },
-    "ring": {
-      "enabled": false,
-      "colors": {
-        "ring": null,
-        "background": null
+      "sight": {
+         "enabled": true,
+         "range": 0,
+         "angle": 360,
+         "visionMode": "basic",
+         "color": null,
+         "attenuation": 0,
+         "brightness": 0,
+         "saturation": -1,
+         "contrast": 0
       },
-      "effects": 0,
-      "subject": {
-        "scale": 1,
-        "texture": null
-      }
-    },
-    "flags": {},
-    "randomImg": false,
-    "turnMarker": {
-      "mode": 1,
-      "animation": null,
-      "src": null,
-      "disposition": false
-    },
-    "movementAction": null,
-    "depth": 2
-  },
-  "items": [
-    "pOF7vjoTq1ojzZkR",
-    "aTYYAXTvwOBRD8cF",
-    "skeJRNQK2eSi2kmk",
-    "sO5BOCCTqhdadfti",
-    "BDHRTyStDi9VMfHg",
-    "F0bCP3jmwGrhHncv",
-    "67YnyMTsMNQaFNeQ",
-    "BFzqZZNkf0yyj2sj",
-    "ctVXVXlIEyAowOwL",
-    "896x8X0HCjTM7doa",
-    "HhWKvXUChkVx4407",
-    "6Wiudnr8XSR7EmOi",
-    "HioZaPcrk5SJ2LmF"
-  ],
-  "effects": [],
-  "folder": "HKCIcGPT47R2fe0f",
-  "ownership": {
-    "default": 0,
-    "0eyrbleKg5gmY59g": 3,
-    "L03IyVhotkVVcouL": 3
-  },
-  "flags": {},
-  "_stats": {
-    "coreVersion": "12.343",
-    "systemId": "fantastic-depths"
-  },
-  "_id": "hioLA3Z5NbNSp1W2",
-  "sort": 0,
-  "_originalKey": "!actors!hioLA3Z5NbNSp1W2",
-  "embedded": [
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.67YnyMTsMNQaFNeQ",
-      "name": "Spellcasting (3th Level Magic-User)",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>Gold dragons cast spells as a magic-user of equal level to their age category, casting as a 3th level magic-user.</p>"
+      "detectionModes": {
+         "basicSight": {
+            "enabled": true,
+            "range": 60
+         }
       },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
+      "occludable": {
+         "radius": 0
+      },
+      "ring": {
+         "enabled": false,
+         "colors": {
+            "ring": null,
+            "background": null
+         },
+         "effects": 0,
+         "subject": {
+            "scale": 1,
+            "texture": null
+         }
       },
       "flags": {},
-      "_id": "67YnyMTsMNQaFNeQ",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
+      "randomImg": false,
+      "turnMarker": {
+         "mode": 1,
+         "animation": null,
+         "src": null,
+         "disposition": false
+      },
+      "movementAction": null,
+      "depth": 2
+   },
+   "items": [
+      "pOF7vjoTq1ojzZkR",
+      "aTYYAXTvwOBRD8cF",
+      "skeJRNQK2eSi2kmk",
+      "sO5BOCCTqhdadfti",
+      "BDHRTyStDi9VMfHg",
+      "F0bCP3jmwGrhHncv",
+      "67YnyMTsMNQaFNeQ",
+      "BFzqZZNkf0yyj2sj",
+      "ctVXVXlIEyAowOwL",
+      "896x8X0HCjTM7doa",
+      "HhWKvXUChkVx4407",
+      "6Wiudnr8XSR7EmOi",
+      "HioZaPcrk5SJ2LmF"
+   ],
+   "effects": [],
+   "folder": "HKCIcGPT47R2fe0f",
+   "ownership": {
+      "default": 0,
+      "0eyrbleKg5gmY59g": 3,
+      "L03IyVhotkVVcouL": 3
+   },
+   "flags": {},
+   "_stats": {
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths"
+   },
+   "_id": "hioLA3Z5NbNSp1W2",
+   "sort": 0,
+   "_originalKey": "!actors!hioLA3Z5NbNSp1W2",
+   "embedded": [
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.67YnyMTsMNQaFNeQ",
+         "name": "Spellcasting (3th Level Magic-User)",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "",
+            "operator": "eq",
+            "target": "0",
+            "rollMode": "publicroll",
+            "savingThrow": "",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "",
+            "shortName": "",
+            "combatManeuver": "null",
+            "customSaveCode": "",
+            "classKey": "",
+            "showResult": false,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": [],
+            "description": "<p>Gold dragons cast spells as a magic-user of equal level to their age category, casting as a 3th level magic-user.</p>"
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "67YnyMTsMNQaFNeQ",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.6Wiudnr8XSR7EmOi",
+         "name": "Dragon Breath",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "description": "",
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "1d20",
+            "operator": "gte",
+            "target": "9",
+            "rollMode": "publicroll",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "savingThrow": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "save",
+            "shortName": "Breath",
+            "combatManeuver": "null",
+            "customSaveCode": "breath",
+            "classKey": "",
+            "showResult": true,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": []
+         },
+         "effects": [],
+         "folder": "OR1oqiLvw7LWXY42",
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "6Wiudnr8XSR7EmOi",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.896x8X0HCjTM7doa",
+         "name": "Wands or Rays",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "description": "",
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "1d20",
+            "operator": "gte",
+            "target": "7",
+            "rollMode": "publicroll",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "savingThrow": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "save",
+            "shortName": "Wand",
+            "combatManeuver": "null",
+            "customSaveCode": "wand",
+            "classKey": "",
+            "showResult": true,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": []
+         },
+         "effects": [],
+         "folder": "OR1oqiLvw7LWXY42",
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "896x8X0HCjTM7doa",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.BDHRTyStDi9VMfHg",
+         "name": "Flight",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "",
+            "operator": "eq",
+            "target": "0",
+            "rollMode": "publicroll",
+            "savingThrow": "",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "",
+            "shortName": "",
+            "combatManeuver": "null",
+            "customSaveCode": "",
+            "classKey": "",
+            "showResult": false,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": [],
+            "description": "<p>The dragon can fly at a speed of 24.</p>"
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "BDHRTyStDi9VMfHg",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.BFzqZZNkf0yyj2sj",
+         "name": "Saving Throw",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "description": "",
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "1d20",
+            "operator": "gte",
+            "target": "9",
+            "rollMode": "publicroll",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "savingThrow": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "save",
+            "shortName": "Save",
+            "combatManeuver": "null",
+            "customSaveCode": "save",
+            "classKey": "",
+            "showResult": true,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": []
+         },
+         "effects": [],
+         "folder": "OR1oqiLvw7LWXY42",
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "BFzqZZNkf0yyj2sj",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.F0bCP3jmwGrhHncv",
+         "name": "Can Always Speak",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "",
+            "operator": "eq",
+            "target": "0",
+            "rollMode": "publicroll",
+            "savingThrow": "",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "",
+            "shortName": "",
+            "combatManeuver": "null",
+            "customSaveCode": "",
+            "classKey": "",
+            "showResult": false,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": [],
+            "description": "<p>Gold dragons can always speak.</p>"
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "F0bCP3jmwGrhHncv",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.HhWKvXUChkVx4407",
+         "name": "Stone or Paralysis",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "description": "",
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "1d20",
+            "operator": "gte",
+            "target": "8",
+            "rollMode": "publicroll",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "savingThrow": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "save",
+            "shortName": "Stone",
+            "combatManeuver": "null",
+            "customSaveCode": "paralysis",
+            "classKey": "",
+            "showResult": true,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": []
+         },
+         "effects": [],
+         "folder": "OR1oqiLvw7LWXY42",
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "HhWKvXUChkVx4407",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.HioZaPcrk5SJ2LmF",
+         "name": "Spells or Magic Staff",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "description": "",
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "1d20",
+            "operator": "gte",
+            "target": "10",
+            "rollMode": "publicroll",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "savingThrow": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "save",
+            "shortName": "Spell",
+            "combatManeuver": "null",
+            "customSaveCode": "spell",
+            "classKey": "",
+            "showResult": true,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": []
+         },
+         "effects": [],
+         "folder": "OR1oqiLvw7LWXY42",
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "HioZaPcrk5SJ2LmF",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.aTYYAXTvwOBRD8cF",
+         "name": "Fire Breath",
+         "type": "weapon",
+         "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
+         "system": {
+            "tags": [],
+            "description": "<p>The gold dragon breathes fire in a cone 90 feet long and roughly 30 feet wide at the base, dealing 30 points of fire damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
+            "gm": {
+               "notes": ""
+            },
+            "quantity": 3,
+            "quantityMax": 3,
+            "weight": 0,
+            "cost": 0,
+            "containerId": "",
+            "equipped": true,
+            "natural": true,
+            "damageRoll": "30",
+            "damageType": "breath",
+            "breath": "fire",
+            "canMelee": false,
+            "canRanged": true,
+            "savingThrow": "breath",
+            "saveDmgFormula": "",
+            "mastery": "",
+            "weaponType": "monster",
+            "range": {
+               "short": null,
+               "medium": 90,
+               "long": null
+            },
+            "totalWeight": 0,
+            "totalCost": 0,
+            "container": false,
+            "equippable": false,
+            "mod": {
+               "dmg": 0,
+               "toHit": 0,
+               "dmgRanged": 0,
+               "toHitRanged": 0
+            },
+            "fuelType": "",
+            "ammoType": "",
+            "isAmmo": false,
+            "shortName": "",
+            "canSet": false,
+            "unidentifiedName": "Fire Breath",
+            "unidentifiedDesc": "<p>The gold dragon breathes fire in a cone 90 feet long and roughly 30 feet wide at the base, dealing 30 points of fire damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
+            "isIdentified": true,
+            "isCursed": false,
+            "isSlow": false,
+            "size": "null",
+            "grip": "null",
+            "charges": 0,
+            "chargesMax": 0,
+            "dmgFormula": null,
+            "healFormula": null,
+            "isUsable": false,
+            "attacks": {
+               "group": 1,
+               "max": 1,
+               "used": 0
+            },
+            "weightEquipped": null,
+            "isOpen": false,
+            "isDropped": false,
+            "isTreasure": false,
+            "damageLabel": "30"
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "aTYYAXTvwOBRD8cF",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.ctVXVXlIEyAowOwL",
+         "name": "Death or Poison",
+         "type": "specialAbility",
+         "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
+         "system": {
+            "tags": [],
+            "description": "",
+            "gm": {
+               "notes": ""
+            },
+            "rollFormula": "1d20",
+            "operator": "gte",
+            "target": "6",
+            "rollMode": "publicroll",
+            "autoSuccess": null,
+            "autoFail": null,
+            "abilityMod": "",
+            "savingThrow": "",
+            "dmgFormula": "",
+            "healFormula": "",
+            "damageType": "",
+            "category": "save",
+            "shortName": "Death",
+            "combatManeuver": "null",
+            "customSaveCode": "death",
+            "classKey": "",
+            "showResult": true,
+            "quantity": 1,
+            "quantityMax": null,
+            "conditions": []
+         },
+         "effects": [],
+         "folder": "OR1oqiLvw7LWXY42",
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "ctVXVXlIEyAowOwL",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.pOF7vjoTq1ojzZkR",
+         "name": "Bite",
+         "type": "weapon",
+         "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
+         "system": {
+            "tags": [],
+            "description": "<p>The dragon bites, dealing 2d6+2 points of damage.</p>",
+            "gm": {
+               "notes": ""
+            },
+            "quantity": 1,
+            "quantityMax": 0,
+            "weight": 0,
+            "cost": 0,
+            "containerId": "",
+            "equipped": true,
+            "natural": true,
+            "damageRoll": "2d6+2",
+            "damageType": "physical",
+            "breath": "",
+            "canMelee": true,
+            "canRanged": false,
+            "savingThrow": "",
+            "saveDmgFormula": "",
+            "mastery": "",
+            "weaponType": "monster",
+            "range": {
+               "short": null,
+               "medium": null,
+               "long": null
+            },
+            "totalWeight": 0,
+            "totalCost": 0,
+            "container": false,
+            "equippable": false,
+            "mod": {
+               "dmg": 0,
+               "toHit": 0,
+               "dmgRanged": 0,
+               "toHitRanged": 0
+            },
+            "fuelType": "",
+            "ammoType": "",
+            "isAmmo": false,
+            "shortName": "",
+            "canSet": false,
+            "unidentifiedName": "Bite",
+            "unidentifiedDesc": "<p>The dragon bites, dealing 2d6+2 points of damage.</p>",
+            "isIdentified": true,
+            "isCursed": false,
+            "isSlow": false,
+            "size": "null",
+            "grip": "null",
+            "charges": 0,
+            "chargesMax": 0,
+            "dmgFormula": null,
+            "healFormula": null,
+            "isUsable": false,
+            "attacks": {
+               "group": 0,
+               "max": 1,
+               "used": 0
+            },
+            "weightEquipped": null,
+            "isOpen": false,
+            "isDropped": false,
+            "isTreasure": false,
+            "damageLabel": "2d6+2"
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "pOF7vjoTq1ojzZkR",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.sO5BOCCTqhdadfti",
+         "name": "Dragon Scales",
+         "type": "armor",
+         "img": "systems/fantastic-depths/assets/img/item/armor.png",
+         "system": {
+            "tags": [],
+            "description": "<p>The dragon's thick scales turn aside blows.</p>",
+            "gm": {
+               "notes": ""
+            },
+            "quantity": 1,
+            "quantityMax": 0,
+            "weight": 0,
+            "cost": 0,
+            "containerId": "",
+            "equipped": true,
+            "natural": true,
+            "ac": 2,
+            "isShield": false,
+            "totalWeight": 0,
+            "totalCost": 0,
+            "container": false,
+            "equippable": false,
+            "dmgFormula": null,
+            "armorWeight": "light",
+            "mod": 0,
+            "totalAC": 2,
+            "totalAAC": 17,
+            "fuelType": "",
+            "ammoType": "",
+            "isAmmo": false,
+            "shortName": "",
+            "unidentifiedName": "Dragon Scales",
+            "unidentifiedDesc": "<p>The dragon's thick scales turn aside blows.</p>",
+            "isIdentified": true,
+            "isCursed": false,
+            "charges": 0,
+            "chargesMax": 0,
+            "savingThrow": null,
+            "healFormula": null,
+            "damageType": "",
+            "isUsable": false,
+            "av": "",
+            "weightEquipped": null,
+            "isOpen": false,
+            "isDropped": false,
+            "isTreasure": false,
+            "modRanged": 0,
+            "totalRangedAC": 2,
+            "totalRangedAAC": 17
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "sO5BOCCTqhdadfti",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
+      },
+      {
+         "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.skeJRNQK2eSi2kmk",
+         "name": "Gas Breath",
+         "type": "weapon",
+         "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
+         "system": {
+            "tags": [],
+            "description": "<p>The gold dragon breathes chlorine gas in a cloud 50 feet in diameter, dealing 30 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
+            "gm": {
+               "notes": ""
+            },
+            "quantity": 3,
+            "quantityMax": 3,
+            "weight": 0,
+            "cost": 0,
+            "containerId": "",
+            "equipped": true,
+            "natural": true,
+            "damageRoll": "30",
+            "damageType": "breath",
+            "breath": "gas",
+            "canMelee": false,
+            "canRanged": true,
+            "savingThrow": "breath",
+            "saveDmgFormula": "",
+            "mastery": "",
+            "weaponType": "monster",
+            "range": {
+               "short": null,
+               "medium": 50,
+               "long": null
+            },
+            "totalWeight": 0,
+            "totalCost": 0,
+            "container": false,
+            "equippable": false,
+            "mod": {
+               "dmg": 0,
+               "toHit": 0,
+               "dmgRanged": 0,
+               "toHitRanged": 0
+            },
+            "fuelType": "",
+            "ammoType": "",
+            "isAmmo": false,
+            "shortName": "",
+            "canSet": false,
+            "unidentifiedName": "Gas Breath",
+            "unidentifiedDesc": "<p>The gold dragon breathes chlorine gas in a cloud 50 feet in diameter, dealing 30 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
+            "isIdentified": true,
+            "isCursed": false,
+            "isSlow": false,
+            "size": "null",
+            "grip": "null",
+            "charges": 0,
+            "chargesMax": 0,
+            "dmgFormula": null,
+            "healFormula": null,
+            "isUsable": false,
+            "attacks": {
+               "group": 1,
+               "max": 1,
+               "used": 0
+            },
+            "weightEquipped": null,
+            "isOpen": false,
+            "isDropped": false,
+            "isTreasure": false,
+            "damageLabel": "30"
+         },
+         "effects": [],
+         "folder": null,
+         "sort": 0,
+         "ownership": {
+            "default": 0
+         },
+         "flags": {},
+         "_id": "skeJRNQK2eSi2kmk",
+         "_stats": {
+            "coreVersion": "12.343",
+            "systemId": "fantastic-depths"
+         }
       }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.6Wiudnr8XSR7EmOi",
-      "name": "Dragon Breath",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "9",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Breath",
-        "combatManeuver": "null",
-        "customSaveCode": "breath",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "6Wiudnr8XSR7EmOi",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.896x8X0HCjTM7doa",
-      "name": "Wands or Rays",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "7",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Wand",
-        "combatManeuver": "null",
-        "customSaveCode": "wand",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "896x8X0HCjTM7doa",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.BDHRTyStDi9VMfHg",
-      "name": "Flight",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>The dragon can fly at a speed of 24.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "BDHRTyStDi9VMfHg",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.BFzqZZNkf0yyj2sj",
-      "name": "Saving Throw",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "9",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Save",
-        "combatManeuver": "null",
-        "customSaveCode": "save",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "BFzqZZNkf0yyj2sj",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.F0bCP3jmwGrhHncv",
-      "name": "Can Always Speak",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "",
-        "operator": "eq",
-        "target": "0",
-        "rollMode": "publicroll",
-        "savingThrow": "",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "",
-        "shortName": "",
-        "combatManeuver": "null",
-        "customSaveCode": "",
-        "classKey": "",
-        "showResult": false,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": [],
-        "description": "<p>Gold dragons can always speak.</p>"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "F0bCP3jmwGrhHncv",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.HhWKvXUChkVx4407",
-      "name": "Stone or Paralysis",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "8",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Stone",
-        "combatManeuver": "null",
-        "customSaveCode": "paralysis",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "HhWKvXUChkVx4407",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.HioZaPcrk5SJ2LmF",
-      "name": "Spells or Magic Staff",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "10",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Spell",
-        "combatManeuver": "null",
-        "customSaveCode": "spell",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "HioZaPcrk5SJ2LmF",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.aTYYAXTvwOBRD8cF",
-      "name": "Fire Breath",
-      "type": "weapon",
-      "img": "icons/magic/fire/blast-jet-stream-embers-yellow.webp",
-      "system": {
-        "tags": [],
-        "description": "<p>The gold dragon breathes fire in a cone 90 feet long and roughly 30 feet wide at the base, dealing 30 points of fire damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 3,
-        "quantityMax": 3,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "30",
-        "damageType": "breath",
-        "breath": "fire",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "breath",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": 90,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Fire Breath",
-        "unidentifiedDesc": "<p>The gold dragon breathes fire in a cone 90 feet long and roughly 30 feet wide at the base, dealing 30 points of fire damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 1,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "30"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "aTYYAXTvwOBRD8cF",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.ctVXVXlIEyAowOwL",
-      "name": "Death or Poison",
-      "type": "specialAbility",
-      "img": "systems/fantastic-depths/assets/img/item/specialAbility.png",
-      "system": {
-        "tags": [],
-        "description": "",
-        "gm": {
-          "notes": ""
-        },
-        "rollFormula": "1d20",
-        "operator": "gte",
-        "target": "6",
-        "rollMode": "publicroll",
-        "autoSuccess": null,
-        "autoFail": null,
-        "abilityMod": "",
-        "savingThrow": "",
-        "dmgFormula": "",
-        "healFormula": "",
-        "damageType": "",
-        "category": "save",
-        "shortName": "Death",
-        "combatManeuver": "null",
-        "customSaveCode": "death",
-        "classKey": "",
-        "showResult": true,
-        "quantity": 1,
-        "quantityMax": null,
-        "conditions": []
-      },
-      "effects": [],
-      "folder": "OR1oqiLvw7LWXY42",
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "ctVXVXlIEyAowOwL",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.pOF7vjoTq1ojzZkR",
-      "name": "Bite",
-      "type": "weapon",
-      "img": "icons/creatures/abilities/mouth-teeth-long-red.webp",
-      "system": {
-        "tags": [],
-        "description": "<p>The dragon bites, dealing 2d6+2 points of damage.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "2d6+2",
-        "damageType": "physical",
-        "breath": "",
-        "canMelee": true,
-        "canRanged": false,
-        "savingThrow": "",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": null,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Bite",
-        "unidentifiedDesc": "<p>The dragon bites, dealing 2d6+2 points of damage.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 0,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "2d6+2"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "pOF7vjoTq1ojzZkR",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.sO5BOCCTqhdadfti",
-      "name": "Dragon Scales",
-      "type": "armor",
-      "img": "systems/fantastic-depths/assets/img/item/armor.png",
-      "system": {
-        "tags": [],
-        "description": "<p>The dragon's thick scales turn aside blows.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 1,
-        "quantityMax": 0,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "ac": 2,
-        "isShield": false,
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "dmgFormula": null,
-        "armorWeight": "light",
-        "mod": 0,
-        "totalAC": 2,
-        "totalAAC": 17,
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "unidentifiedName": "Dragon Scales",
-        "unidentifiedDesc": "<p>The dragon's thick scales turn aside blows.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "charges": 0,
-        "chargesMax": 0,
-        "savingThrow": null,
-        "healFormula": null,
-        "damageType": "",
-        "isUsable": false,
-        "av": "",
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "modRanged": 0,
-        "totalRangedAC": 2,
-        "totalRangedAAC": 17
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "sO5BOCCTqhdadfti",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    },
-    {
-      "_originalKey": "!actors.items!hioLA3Z5NbNSp1W2.skeJRNQK2eSi2kmk",
-      "name": "Gas Breath",
-      "type": "weapon",
-      "img": "icons/magic/air/fog-gas-smoke-blue-gray.webp",
-      "system": {
-        "tags": [],
-        "description": "<p>The gold dragon breathes chlorine gas in a cloud 50 feet in diameter, dealing 30 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
-        "gm": {
-          "notes": ""
-        },
-        "quantity": 3,
-        "quantityMax": 3,
-        "weight": 0,
-        "cost": 0,
-        "containerId": "",
-        "equipped": true,
-        "natural": true,
-        "damageRoll": "30",
-        "damageType": "breath",
-        "breath": "gas",
-        "canMelee": false,
-        "canRanged": true,
-        "savingThrow": "breath",
-        "saveDmgFormula": "",
-        "mastery": "",
-        "weaponType": "monster",
-        "range": {
-          "short": null,
-          "medium": 50,
-          "long": null
-        },
-        "totalWeight": 0,
-        "totalCost": 0,
-        "container": false,
-        "equippable": false,
-        "mod": {
-          "dmg": 0,
-          "toHit": 0,
-          "dmgRanged": 0,
-          "toHitRanged": 0
-        },
-        "fuelType": "",
-        "ammoType": "",
-        "isAmmo": false,
-        "shortName": "",
-        "canSet": false,
-        "unidentifiedName": "Gas Breath",
-        "unidentifiedDesc": "<p>The gold dragon breathes chlorine gas in a cloud 50 feet in diameter, dealing 30 points of damage to everything within it (saving throw for half damage). It can use its breath weapon up to three times per day.</p>",
-        "isIdentified": true,
-        "isCursed": false,
-        "isSlow": false,
-        "size": "null",
-        "grip": "null",
-        "charges": 0,
-        "chargesMax": 0,
-        "dmgFormula": null,
-        "healFormula": null,
-        "isUsable": false,
-        "attacks": {
-          "group": 1,
-          "max": 1,
-          "used": 0
-        },
-        "weightEquipped": null,
-        "isOpen": false,
-        "isDropped": false,
-        "isTreasure": false,
-        "damageLabel": "30"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_id": "skeJRNQK2eSi2kmk",
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      }
-    }
-  ]
+   ]
 }

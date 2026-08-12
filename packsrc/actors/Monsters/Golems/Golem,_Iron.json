@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>Iron golems are huge moving statues of iron. They can breathe a 10 foot radius cloud of poison gas as well as attacking with great power. Only +3 or better magic weapons can harm an iron golem. These hulking statues are slowed by lightning spells, but fire-based spells actually restore hit points to them. No other type of spell affects them.</p>",
     "wrestling": 0,

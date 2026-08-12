@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>These terrible undead knights are clad in black armor and wield terrible two-handed swords with great strength. In addition to increased damage, each time a death knight successfully strikes a foe with their sword the target loses one level. Death Knights are also immune to all spells of 5th level or lower. They can cast a Fireball once per day that inflicts 7d6 points of damage. They are immune to damage from mundane weapons and cannot be banished by a cleric.</p>",
     "wrestling": 0,

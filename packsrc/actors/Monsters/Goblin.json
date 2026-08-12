@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
-    },
+   "movement": {
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
+   },
     "biography": "<p>Goblins are small creatures (4 feet tall or so) that inhabit dark woods, underground caverns, and (possibly) the otherworldly realms of the fey. They attack with a -1 to-hit in the full sunlight.</p>",
     "wrestling": 0,
     "encumbrance": {

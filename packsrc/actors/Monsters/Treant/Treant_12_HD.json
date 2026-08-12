@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
-    },
+   "movement": {
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
+   },
     "biography": "<p>Treants are tree-like protectors and \"shepherds\" of forest trees. Depending upon their size, they have different hit dice and damage; treants of 7 to 8 hit dice inflict 2d6 points of damage with each strike of their branch-like hands, treants of 9-10 hit dice inflict 3d6 points, and treants of 11-12 hit dice inflict 4d6 points. All treants can \"wake\" trees within 60 feet, allowing them to walk at a rate of 3, and possibly to attack (no more than two trees at a time can be awake at the behest of a single treant).</p>",
     "wrestling": 0,
     "encumbrance": {

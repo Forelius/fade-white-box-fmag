@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 130,
-      "round": 43,
-      "day": 26,
-      "run": 130,
-      "max": 130
+      "turn": 13,
+      "round": 4.3,
+      "day": 13,
+      "run": 8.6,
+      "max": 13
     },
     "biography": "<p>Giant lethal centipedes of the small size inflict a lethal amount of poison with each bite, but inflict no damage if the saving throw is successful (+4 modifier to opponent's saving throw).</p><p><strong>Terrain:</strong> Open / Forest, River / Coast, Swamp / Jungle, Hills / Mountains / Barren.</p>",
     "wrestling": 0,

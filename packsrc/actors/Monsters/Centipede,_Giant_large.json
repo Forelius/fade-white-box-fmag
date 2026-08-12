@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "biography": "<p>A twenty-foot long horror of chitin, multiple legs, and clashing pincers dripping with venom (+6 modifier to opponent's saving throw).</p><p><strong>Terrain:</strong> Open / Forest, River / Coast, Swamp / Jungle, Hills / Mountains / Barren.</p>",
     "wrestling": 0,

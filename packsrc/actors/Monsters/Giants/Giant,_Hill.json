@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Hill giants are the least of the giant races; most are brutish cave-dwellers who dress in pelts and uncured hides. They throw rocks for 2d8 points of damage.</p>",
     "wrestling": 0,
     "encumbrance": {

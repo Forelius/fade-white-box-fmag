@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
-    },
+   "movement": {
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
+   },
     "biography": "<p>Hydrae are great lizard-like or snake-like creatures with 5-12 heads. Each head has one hit die of its own, and when the head is killed, that head dies. The body has as many hit dice as the total of the heads, so it is a matter of good strategy for adventurers to focus either on killing heads (when all the heads are dead the body dies) or killing the creature by attacking the body (in which case the heads die, too). Hydrae that breathe fire or regenerate their heads are known to exist.</p>",
     "wrestling": 0,
     "encumbrance": {

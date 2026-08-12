@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 10,
-      "round": 3,
-      "day": 2,
-      "run": 10,
-      "max": 10
+      "turn": 1,
+      "round": .3,
+      "day": 1,
+      "run": .6,
+      "max": 1
     },
     "biography": "<p>Grey ooze is almost identical to wet rock, but is a slimy, formless substance that devours prey and carrion with its acidic secretions, lashing forward to strike enemies. Grey ooze is immune to spells, heat, and cold damage. Metal (but not stone or wood) must make a saving throw vs acid when exposed to grey ooze (even if the contact is as brief as the strike of a sword) or be rotted through. When the grey ooze hits a character in metal armor, the armor must make an item saving throw. Only cutting and piercing damages a grey ooze - it is impervious to blunt or crushing attacks.</p>",
     "wrestling": 0,

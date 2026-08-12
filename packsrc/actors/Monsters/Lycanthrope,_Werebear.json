@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
     },
     "biography": "<p>Werebears are often found in temperate forests.</p><p>Lycanthropes are were-creatures, particularly those in whom the disease permits assumption of a hybrid form of the human and animal. They cannot be hit by normal weapons; only silver or magical weapons inflict damage on them. If any character is brought below 50% hit points by a lycanthrope, the character will become a lycanthrope himself.</p>",
     "wrestling": 0,

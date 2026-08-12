@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>A succubus is a demon of lust who appears as a scantily-clad voluptuous human woman with a great pair of bat-wings sprouting from her shoulder blades. Though not effective in direct combat, she can charm with a word or a kiss and often surrounds herself with a horde of thralls bent to her will. This ability allows the Succubus to cast Charm Person at will. If slain, their physical body returns to the infernal planes to which they are native.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "actorGroups": [
       "planar",

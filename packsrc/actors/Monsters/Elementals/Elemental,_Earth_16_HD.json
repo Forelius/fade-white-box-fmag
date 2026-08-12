@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
-    },
+   "movement": {
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
+   },
     "biography": "<p>Earth elementals are hulking human-like shapes of rock and earth. They batter opponents with their great fists, although damage is reduced by 1d6 if the opponent is not standing upon earth or rock. Earth elementals can tear apart stone structures, able to rip down even a castle wall in a matter of 1d4+4 minutes.</p>",
     "wrestling": 0,
     "encumbrance": {

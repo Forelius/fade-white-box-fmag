@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
     },
     "biography": "<p>Djinn are one of the genies of folklore, creatures of the air (and possibly of the elemental planes). They can carry 700 pounds of weight, and have a number of magical powers. A djinni can create food and water of high quality, as well as wooden and cloth objects. They can also create objects of metal (including coins), but all such magically created metals disappear in time. Djinn can call up illusions, and although these are quite excellent they disappear when touched. Djinni can turn themselves into gaseous form (cannot attack or be attacked, can enter any area that is not airtight), and can become invisible at will. Finally, a djinni can turn itself into a whirlwind much like an air elemental, sweeping away any creature with one or fewer hit dice (the diameter of the whirlwind is 10 feet). More powerful types of djinn might be capable of granting limited wishes or even true wishes.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "turn": 24,
+      "round": 8,
+      "day": 24,
+      "run": 16,
+      "max": 24
     },
     "actorGroups": [
       "planar",

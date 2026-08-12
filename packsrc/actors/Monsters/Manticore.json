@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>A horrid monster with bat wings, the face of a feral human, the body of a lion, and a tail tipped with 24 iron spikes. The manticore can hurl up to 6 of the iron spikes from its tail per round, at a maximum range of 180 feet.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 80,
-      "round": 27,
-      "day": 16,
-      "run": 80,
-      "max": 80
+      "turn": 8,
+      "round": 2.6,
+      "day": 8,
+      "run": 5.3,
+      "max": 8
     },
     "actorGroups": []
   },

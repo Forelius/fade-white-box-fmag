@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360,
-      "max": 360
-    },
+   "movement": {
+      "turn": 36,
+      "round": 12,
+      "day": 36,
+      "run": 24,
+      "max": 36
+   },
     "biography": "<p>Air elementals can turn into a whirlwind of air with a diameter of 30 feet, hurling any creature of 1 HD or less for great distances (almost certainly killing them). Elemental whirlwinds are approximately 100 feet tall.</p>",
     "wrestling": 0,
     "encumbrance": {

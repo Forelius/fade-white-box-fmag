@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Vampires are some of the most powerful of undead creatures. They can only be hit with magic weapons and when \"killed\" in this way they change into a gaseous form, returning to their coffins. They regenerate at a rate of 3 hit points per round, can turn into gaseous form or into a giant bat at will, and can summon a horde of bats or 3d6 wolves out from the night. Looking into a vampire's eyes necessitates a saving throw at -2, or the character is charmed (as per the spell Charm Person). Most terrifyingly, a vampire's bite drains two levels from the victim.</p><p>Fortunately, vampires have some weaknesses. They can be killed (these are the only known methods) by immersing them in running water, exposing them to sunlight, or driving a wooden stake through the heart. They retreat from the smell of garlic, the sight of a mirror, or the sight of \"good\" holy symbols. Any human killed by a vampire becomes a vampire under the control of its creator.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "actorGroups": [
       "undead",

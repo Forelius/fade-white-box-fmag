@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>Harpies have the upper body of a human female and the lower body and wings of a vulture. Their song is a charm that draws its victims to the harpy (saving throw applies), and the harpy's touch casts the equivalent of a Charm Person spell (again, saving throw applies).</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 10,
+      "round": 6,
+      "day": 10,
+      "run": 12,
+      "max": 18
     },
     "actorGroups": []
   },

@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "biography": "<p>Horses are AC 7 [12]. Riding horses have 2 HD and a Move of 24, warhorses have 3 HD and a Move of 18, and draft horses have a Move of 12.</p>",
     "wrestling": 0,

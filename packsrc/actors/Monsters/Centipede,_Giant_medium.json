@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "biography": "<p>This man-sized giant centipede is a deadly predator with armored segments, a vicious bite, and a lethal (though relatively weak) poison (+6 modifier to opponent's saving throw).</p><p><strong>Terrain:</strong> Open / Forest, River / Coast, Swamp / Jungle, Hills / Mountains / Barren.</p>",
     "wrestling": 0,

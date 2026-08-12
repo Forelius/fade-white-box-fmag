@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "biography": "<p>Cloud giants are cunning beasts, often living in cloud-castles in the sky (hence their name). They throw rocks for 6d6 hit points of damage. Cloud giants are famous for their ability to smell out food, enemies, and Englishmen.</p>",
     "wrestling": 0,

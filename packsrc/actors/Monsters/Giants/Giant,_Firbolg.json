@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Appearing as giant men (ten feet tall) with flaming red beards, firbolg dwell in rocky and volcanic regions where they live in clans of miners and underground fungus farmers. Unlike other giants, they are not warlike by nature and instead prefer to make prodigious use of their ability to throw boulders and fight from a distance, which inflict 2d6 points of damage. They are as intelligent as humans and have the natural ability to cast Detect Magic at will.</p>",
     "wrestling": 0,

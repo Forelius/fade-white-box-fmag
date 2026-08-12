@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Frost giants dwell in cold regions, where they build (or conquer) castles in remote places of ice and snow. They throw boulders or great chunks of ice for 4d6 points of damage and are immune to cold.</p>",
     "wrestling": 0,
     "encumbrance": {

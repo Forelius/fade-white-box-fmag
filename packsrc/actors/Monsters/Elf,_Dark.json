@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>These cousins of surface elves have dark skin and white hair. They raid all surface-dwellers, but especially elves, whom they hate the most. They typically wield short swords and light crossbows whose bolts are coated in a paralytic poison. They are extraordinarily stealthy, surprising their foes on 1-4 on 1d6, and are highly resistant to magic, receiving a +5 bonus to all saving throws made to resist it.</p>",
     "wrestling": 0,

@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>The example above is for a typical Elf; trained warriors would likely have the maximum 7 HP. Obviously, Elves encountered in the course of a party's adventuring will have a variety of powers and different attributes, which the Referee assigns as he sees fit.</p>",
     "wrestling": 0,

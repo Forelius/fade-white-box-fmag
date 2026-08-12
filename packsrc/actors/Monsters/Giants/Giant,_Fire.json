@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Fire giants are usually found near volcanic mountains, in great castles of basalt or even iron. They throw boulders for 5d6 hit points and are immune to fire.</p>",
     "wrestling": 0,
     "encumbrance": {

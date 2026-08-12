@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>Gelatinous cubes are semi-transparent cubes that slosh through subterranean passages, engulfing debris and carrion to digest. Their entire substance is acidic: if the cube hits successfully, the victim must make a saving throw or become paralyzed (6 turns), during which time the cube will attempt to devour its victim. Most gelatinous cubes contain various metallic treasures or gems that they have engulfed but not yet digested. Gelatinous cubes are immune to lightning and cold.</p>",
     "wrestling": 0,

@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
-    },
+   "movement": {
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
+   },
     "biography": "<p>Liches are the undead remnants of wizards, either made undead by their own deliberate acts during life or as the result of other magical forces (possibly including their own magics gone awry). A lich has the same spell-casting powers as the original Magic-user (the same level as the lich's HD). A lich's touch causes paralysis with no saving throw, and the very sight of one of these dread creatures causes paralysis in any being of 4 HD or below. Liches are highly malign and intelligent.</p>",
     "wrestling": 0,
     "encumbrance": {

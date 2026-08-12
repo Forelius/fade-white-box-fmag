@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Human sergeants are normally found in command of 1d6+5 human soldiers. These are the leaders of city guard units and other small military groups in castles and armies.</p>",
     "wrestling": 0,
     "encumbrance": {

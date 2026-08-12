@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>These statistics are for the common dwarf with no particular unusual characteristics. A dwarf-at-arms would usually have a full 7 hit points, reflecting skill and general toughness. Stronger dwarves (sergeants-at-arms, for example) might have more hit dice or unusual bonuses to-hit, even magical abilities if dwarves are magical in your fantasy universe.</p>",
     "wrestling": 0,

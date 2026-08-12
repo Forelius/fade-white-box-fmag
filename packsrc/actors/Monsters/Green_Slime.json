@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "turn": 3,
+      "round": 1,
+      "day": 3,
+      "run": 2,
+      "max": 3
     },
     "biography": "<p>The green slime is a horrifying, mindless ooze that clings to ceilings and walls, waiting to drop onto unsuspecting victims. It isn't technically a monster, just an extremely dangerous hazard in underground tombs and other such places. Any metal or organic substance it touches begins to turn to green slime (saving throw). It can be killed with fire or extreme cold, and the transformation process can be arrested by the use of the spell Cure Disease.</p>",
     "wrestling": 0,

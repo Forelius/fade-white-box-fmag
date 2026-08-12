@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>These tiny devilish creatures are red or black in skin color with cat-like eyes, long pointed tails and bat-wings. They are the lowliest of demons and often serve as slaves to greater demons or servants of powerful evil clerics and magic-users. Imps are immune to non-magical weapons and fire and can cast Detect Magic at will and Invisibility once per day&mdash;both as a magic-user. Their tail has a moderately powerful poison which can kill if a saving throw is not successful, though the victim receives a +4 bonus to their roll.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "actorGroups": [
       "planar",

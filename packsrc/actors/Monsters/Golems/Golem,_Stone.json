@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>Stone golems are massive stone statues animated by very powerful magics (much more than just animate object, in other words). They are slowed by fire spells, and damaged or healed by rock to mud spells and the reverse. Spells that affect rock (and fire spells) are the only magic that affects them. They can only be hit by weapons +2 or better.</p>",
     "wrestling": 0,

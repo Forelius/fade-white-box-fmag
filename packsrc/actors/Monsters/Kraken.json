@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "biography": "<p>These massive sea monsters resemble unimaginably large squids with eight (or more) wiggling appendages. They attack entire vessels, ripping them apart and swallowing crew whole with their massive, tooth filled maw. When a kraken attacks, it grabs a target with one of its tentacles on round one, attempts to bite them on round two, and then swallows them whole on round three. A target who has been swallowed whole is slain. Krakens typically have eight tentacles and can make an attack with each one of them every combat round.</p>",
     "wrestling": 0,

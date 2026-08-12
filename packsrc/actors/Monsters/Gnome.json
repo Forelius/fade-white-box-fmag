@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
-    },
+   "movement": {
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
+   },
     "biography": "<p>Gnomes are industrious, peaceful beings. They dwell mostly deep underground. They rarely stand higher than 3 feet and have long beards and pointed noses. They are peaceful by nature, seeking only to mine for gems and other valuables, engage in the occasional prank. Gnomes are natural foes of goblins and kobolds, as well as skilled illusionists. All gnomes can cast Phantasmal Force once per day.</p>",
     "wrestling": 0,
     "encumbrance": {

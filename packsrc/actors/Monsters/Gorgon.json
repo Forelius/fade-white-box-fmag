@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Gorgons are bull-like creatures with dragon-like scales. Their breath turns people to stone (60 foot range, saving throw applies).</p>",
     "wrestling": 0,

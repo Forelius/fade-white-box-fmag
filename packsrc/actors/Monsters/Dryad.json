@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Dryads are beautiful female tree spirits, and do not venture far from their home trees. They can cast (as a native magical power) a strong charm that operates as a Charm Person spell with a -2 saving throw. Those who are charmed seldom return, or might be kept for a hundred years and a day within the dryad's tree.</p>",
     "wrestling": 0,

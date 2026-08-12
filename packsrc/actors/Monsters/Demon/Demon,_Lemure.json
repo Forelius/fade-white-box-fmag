@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "turn": 3,
+      "round": 1,
+      "day": 3,
+      "run": 2,
+      "max": 3
     },
     "biography": "<p>Lemures are vaguely humanoid&mdash;their flesh is mud-like, shifting and soft upon their horrible bodies. Like manes and wretches, lemures are lower forms of demons, the fleshly manifestations of damned souls. These demons can only be permanently destroyed by sprinkling their disgusting bodies with holy water.</p>",
     "wrestling": 0,

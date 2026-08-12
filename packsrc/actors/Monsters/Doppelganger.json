@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
     },
     "biography": "<p>A doppelganger can change its form to resemble the physical appearance (including clothing and gear) of any person. These creatures are immune to sleep and charm, and are considered magic resistant for purposes such as breaking through wizard locks and similar spells. They have a very good saving throw (+5) against magic of all kinds.</p>",
     "wrestling": 0,

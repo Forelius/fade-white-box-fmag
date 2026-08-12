@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>Resembles a bat-winged rooster with a long, serpentine tail. Its bite turns enemies to stone unless a successful saving throw is made.</p><p><strong>Terrain:</strong> Open / Forest, River / Coast.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 180,
-      "max": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180
+      "turn": 18,
+      "max": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12
     },
     "actorGroups": []
   },

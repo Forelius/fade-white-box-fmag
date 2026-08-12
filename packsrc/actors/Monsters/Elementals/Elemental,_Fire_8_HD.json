@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Fire elementals are formless masses of flame, perhaps with a vaguely human shape. Their attacks cause flammable materials to ignite if the material fails a saving throw (as determined by the Referee).</p>",
     "wrestling": 0,

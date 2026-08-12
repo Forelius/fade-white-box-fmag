@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Invisible stalkers are generally only found as a result of the spell Invisible Stalker. They are invisible flying beings created to follow a single command made by the caster.</p>",
     "wrestling": 0,

@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "biography": "<p>Storm giants are the largest of giants, the most intelligent, the most magical, and the most likely to talk with humans rather than simply devour them. Storm giants can live in underwater sea-castles as well as on the heights of mountains. They throw boulders for 7d6 points of damage, and have the power to cast Control Weather.</p>",
     "wrestling": 0,

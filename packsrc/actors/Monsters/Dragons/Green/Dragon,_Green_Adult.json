@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Green dragons breathe a cloud of poisonous gas 50 feet in diameter. A successful saving throw indicates half damage.</p>",
     "wrestling": 0,
     "encumbrance": {
@@ -163,13 +163,13 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
-    },
+   "movement2": {
+      "turn": 24,
+      "round": 8,
+      "day": 24,
+      "run": 16,
+      "max": 24
+   },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

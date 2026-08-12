@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>These lumbering constructs are often mistaken for treants and typically protect hidden groves and glens claimed by powerful spell casters. They are nearly invisible when in a forested area, surprising their enemies on a 1-5 on 1d6. They are immune to mundane weapons and all magic, except fire and fire-based spells, which inflict normal damage.</p>",
     "wrestling": 0,

@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>The hippogriff is similar to a griffon, having the head, foreclaws, and wings of an eagle, but instead of the body of a lion, it has the body of a horse. Hippogriffs are not as hard to train as griffons.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 360,
-      "round": 120,
-      "day": 72,
-      "run": 360,
-      "max": 360
+      "turn": 36,
+      "round": 12,
+      "day": 36,
+      "run": 24,
+      "max": 36
     },
     "actorGroups": []
   },

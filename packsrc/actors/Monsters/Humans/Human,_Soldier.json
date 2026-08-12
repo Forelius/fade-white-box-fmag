@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Human soldiers serve as city guard, mercenaries, and men-at-arms. They are generally armed with leather armor and a mace, sword, or spear. For every five city guards there is usually a sergeant.</p>",
     "wrestling": 0,
     "encumbrance": {

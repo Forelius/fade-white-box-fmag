@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 80,
-      "round": 27,
-      "day": 16,
-      "run": 80,
-      "max": 80
+      "turn": 8,
+      "round": 2.6,
+      "day": 8,
+      "run": 5.3,
+      "max": 8
     },
     "biography": "<p>A creation stitched together from human limbs and other parts, like Frankenstein's monster. Damage inflicted by lightning heals the golem, and it is slowed by fire and cold. No other type of spell than lightning, fire, or cold affects a flesh golem. Only +1 or better magic weapons can harm a flesh golem.</p>",
     "wrestling": 0,

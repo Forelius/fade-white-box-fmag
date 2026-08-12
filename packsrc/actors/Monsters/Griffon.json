@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Griffons have the body of a lion, with the wings, head, and fore-talons of an eagle. These creatures can be tamed and ridden as mounts. They usually nest in high mountain aeries, where they lay their eggs and hunt their prey. Because the fledglings can be tamed, young griffons and griffon eggs command a very high price in the marketplaces of the great cities, or to barons and wizards.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 300,
-      "round": 100,
-      "day": 60,
-      "run": 300,
-      "max": 300
+      "turn": 30,
+      "round": 10,
+      "day": 30,
+      "run": 20,
+      "max": 30
     },
     "actorGroups": []
   },

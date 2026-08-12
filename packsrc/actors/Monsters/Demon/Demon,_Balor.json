@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>These powerful demons somewhat resemble vast minotaurs with great, spreading bat-wings; they burn with the fires of hell and are wreathed in flame. The spells of casters below 6th level do not affect them, and against higher-level spell casters they are yet 75% immune to all spells. In combat, a Balor uses whip and sword; the whip can be used to reach great distances&mdash;on a successful hit the victim is pulled close to the Balor and burned by the fires of the demon's body (3d6 damage). Balor are sometimes referred to in ancient texts as Baalroch, which may be the name of a single demon rather than a term for all of them. A Balor could be forced or tricked into the service of a powerful wizard, but the risk would be immense.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "actorGroups": [
       "planar",

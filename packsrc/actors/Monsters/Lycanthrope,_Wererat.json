@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
     },
     "biography": "<p>Wererats are mostly found in cities, lurking in shadowy alleyways. Wererats can control rats, and are extremely stealthy (surprising opponents 1-4 on a d6).</p><p>Lycanthropes are were-creatures, particularly those in whom the disease permits assumption of a hybrid form of the human and animal. They cannot be hit by normal weapons; only silver or magical weapons inflict damage on them. If any character is brought below 50% hit points by a lycanthrope, the character will become a lycanthrope himself.</p>",
     "wrestling": 0,
