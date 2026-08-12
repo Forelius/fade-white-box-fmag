@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "biography": "<p>These tiny birds have needle-like beaks which they use to impale their victims and then drain them of blood. Whenever a stirge makes a successful melee attack they remain attached to their target and automatically inflict 1d6-1 points of damage each round as they drink the victim's blood.</p>",
     "wrestling": 0,

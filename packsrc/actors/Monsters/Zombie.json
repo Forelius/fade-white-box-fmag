@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>Zombies are mindless creatures, the walking dead. These are merely animated corpses, not carriers of any sort of undead contagion as ghouls are. If their undeath is contagious, they should be worth a few more experience points than described here, and if a single hit from a zombie causes contagion or any other sort of disease they should be worth considerably more experience. However, the standard zombie is simply a corpse animated to do its creator's bidding.</p>",
     "wrestling": 0,

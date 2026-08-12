@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "biography": "<p>Worgs are large, intelligent, and evil wolves of chaos. They are sometimes ridden by orcs. They may have supernatural origins.</p>",
     "wrestling": 0,

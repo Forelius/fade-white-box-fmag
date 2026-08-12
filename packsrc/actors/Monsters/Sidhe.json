@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Sidhe are noble fey who rarely travel the mortal realm. They appear as tall elfin beings of amazing beauty and are clad in shining mail and glorious raiment. All who look upon them are struck blind by their beauty unless a successful saving throw is made. Sidhe attack with their magical fey blades which do 2d6 points of damage and may cast Alter Time, Invisibility, and Phantasmal Force each once per day. They are also highly resistant to mortal magic and have a +5 bonus to all saving throws made to resist it.</p>",
     "wrestling": 0,
     "encumbrance": {

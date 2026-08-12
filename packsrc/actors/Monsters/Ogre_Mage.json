@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>The ogre mage is an ogre with magic powers, based on Japanese legend. An ogre mage can fly, turn invisible (per the spell), create a 10 foot radius circle of magical darkness, change into human form, cast Sleep and Charm Person once per day, and cast a cone of frost with a range of 60 feet to a base of 30 feet, causing 8d6 damage to any caught within (saving throw applies). Western folklore also contains many examples of shape-shifting, magical ogres (the most famous example being the one in Puss-in-Boots), so there might be many different types of magical ogres, whether or not they are called \"ogre mage.\"</p>",
     "wrestling": 0,
     "encumbrance": {
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "actorGroups": [
       "spellcasters",

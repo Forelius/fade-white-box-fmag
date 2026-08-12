@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>The greatest orcish brutes rule the tribes as chieftains. They command the orcish war-bands, and their tribes will fight savagely at their bidding unless restrained by a powerful and feared commander, such as an evil high priest or a mystic sorcerer.</p>",
     "wrestling": 0,
     "encumbrance": {

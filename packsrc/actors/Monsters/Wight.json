@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
     },
     "biography": "<p>Wights live in tombs, graveyards, and burial mounds (barrows). They are undead, and thus not affected by sleep or charm spells. Wights are immune to all non-magical weapons, with the exception of silver weapons. Any human killed or completely drained of levels (1 level per hit) by a wight becomes a wight.</p>",
     "wrestling": 0,

@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Orcs are stupid, brutish humanoids that gather in tribes of hundreds. Most are subterranean dwellers, and fight with a -1 penalty \"to-hit\" in sunlight. Occasionally, war-bands or even entire tribes of orcs issue forth from their caverns to raid and pillage by night. Orcish leaders are great brutes with additional HD, and magic-using shamans may also be found in the larger tribes. Orcish tribes hate each other, and will fight savagely unless restrained by a powerful and feared commander, such as an evil high priest or a mystic sorcerer.</p>",
     "wrestling": 0,
     "encumbrance": {

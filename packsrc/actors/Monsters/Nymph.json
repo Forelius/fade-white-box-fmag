@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Nymphs are fey who appear as leaf-clad or nude women of unimaginable beauty. They dwell in the deep parts of the forest and seek to protect wild places in the world. Any men who gaze upon them must make a saving throw at a -4 penalty or fall completely under their thrall. Nymphs will lead wayward travelers away from their beloved woods and malicious foes to their deaths, often drowning them in woodland lakes while they are enchanted. Nymphs are invisible while in the woods as long as they remain still, blending seamlessly into their surroundings.</p>",
     "wrestling": 0,
     "encumbrance": {

@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "biography": "<p>The size and nature of sea serpents is a matter for the Referee to determine. The sea serpent depicted here would be about medium size, about 60 feet in length, with smaller ones being half that size (with adjusted statistics, of course), and large ones being about 50% larger than the one described here. A sea serpent would undoubtedly be capable of swallowing a human whole, probably on a natural attack roll of 14 or greater. A character swallowed whole would be digested within, perhaps, three hours.</p>",
     "wrestling": 0,

@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "turn": 3,
+      "round": 1,
+      "day": 3,
+      "run": 2,
+      "max": 3
     },
     "biography": "<p>Rocs are the mythological great birds of legend, large enough to prey upon elephants. They can be trained as fledglings to serve as steeds, so roc eggs or fledglings would be a prize indeed, worth great sums of gold. Rocs might grow as large as 18 HD, with commensurately increased statistics.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 480,
-      "round": 160,
-      "day": 96,
-      "run": 480,
-      "max": 480
+      "turn": 48,
+      "round": 16,
+      "day": 48,
+      "run": 32,
+      "max": 48
     },
     "actorGroups": [
       "beasts"

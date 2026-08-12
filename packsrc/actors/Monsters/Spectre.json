@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "biography": "<p>Spectres are wraith-like undead creatures without corporeal bodies. When a spectre hits an opponent, either with hand or weapon, the touch drains two levels from the victim. Only magical weapons can damage a spectre. In some cases, these terrifying creatures may be mounted upon living beasts, if the beasts have been trained to tolerate proximity to the undead. Any being killed (or drained below level 0) by a specter becomes a spectre himself - a pitiful thrall to its creator.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 300,
-      "round": 100,
-      "day": 60,
-      "run": 300,
-      "max": 300
+      "turn": 30,
+      "round": 10,
+      "day": 30,
+      "run": 20,
+      "max": 30
     },
     "actorGroups": [
       "undead",

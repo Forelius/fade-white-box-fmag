@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
     },
     "biography": "<p>Ogres are normally quite stupid, but more intelligent versions might be encountered here and there. Sometimes ogres are mistaken for trolls.</p>",
     "wrestling": 0,

@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
     },
     "biography": "<p>Salamanders are intelligent creatures of the elemental planes of fire. They have the upper body of a human (AC 5 [14]) and the lower body of a snake (AC 3 [16]), and give off tremendous, intense heat. The very touch of a salamander deals 1d6 hit points of fire damage, and they wrap their tails around foes to cause an additional 2d6 points of crushing damage per round. Salamanders cannot be enslaved in the same manner djinn and efreet might be.</p>",
     "wrestling": 0,

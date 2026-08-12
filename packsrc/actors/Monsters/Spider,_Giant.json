@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "biography": "<p>Giant spiders are aggressive hunters. Only the greater giant spiders are web builders. Giant spider webs require a saving throw to avoid becoming stuck. Those who make their saving throw can fight and move (5 feet per round) in the webs. Giant spiders surprise on a roll of 1-5, being able to hide well in shadows. A giant spider's bite is very poisonous.</p>",
     "wrestling": 0,

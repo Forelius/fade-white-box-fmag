@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Shadows may or may not be undead creatures: they are immune to sleep and charm, but the Referee may decide whether they are undead creatures subject to turning or whether they are some horrible \"other\" thing, a manifestation perhaps, or a creature from another dimension. Shadows are dark and resemble shadows, though they may be darker. They are not corporeal, and can only be harmed with magical weapons or by spells. Their chill touch drains one point of strength with a successful hit, and if a victim is brought to a strength of 0, he becomes a shadow. Strength points return after 90 minutes.</p>",
     "wrestling": 0,
     "encumbrance": {

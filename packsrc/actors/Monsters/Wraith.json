@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "turn": 24,
+      "round": 8,
+      "day": 24,
+      "run": 16,
+      "max": 24
     },
     "biography": "<p>Wraiths are powerful wights, immune to all non-magical weapons other than silver ones (which inflict only half damage). Arrows are particularly ineffective against them, for even magical and silver arrows inflict only one hit point of damage per hit. They drain 1 level per hit. Wraiths can be found riding well-trained battle steeds or more unusual mounts that will tolerate their presence.</p>",
     "wrestling": 0,

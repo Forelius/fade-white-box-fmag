@@ -35,13 +35,13 @@
         "melee": 0
       }
     },
-    "movement": {
-      "turn": 120,
-      "round": 40,
-      "day": 24,
-      "run": 120,
-      "max": 120
-    },
+   "movement": {
+      "turn": 12,
+      "round": 4,
+      "day": 12,
+      "run": 8,
+      "max": 12
+   },
     "biography": "<p>Magic-using shamans may be found in the larger tribes of orcs. They are casters of fell magics, feared and obeyed by the common orcs around them.</p>",
     "wrestling": 0,
     "encumbrance": {

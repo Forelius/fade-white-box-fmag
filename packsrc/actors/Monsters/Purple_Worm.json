@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 90,
-      "round": 30,
-      "day": 18,
-      "run": 90,
-      "max": 90
+      "turn": 9,
+      "round": 3,
+      "day": 9,
+      "run": 6,
+      "max": 9
     },
     "biography": "<p>Purple worms are massive annelids that grow 40+ feet in length and sometimes exceed 10 feet in width. They are subterranean, chewing tunnels in rock (or through sand, in deserts, where they are a tan color). These beasts swallow their prey whole on a roll 4 higher than the needed number, or if the worm rolls double the number required \"to-hit\". They can swallow anything the size of a horse or smaller.</p><p>In addition to the worm's dreaded bite, it has a poison stinger on its tail, the length of a sword and just as deadly even from the piercing wound it inflicts. The poison injected by the stinger is lethal if the victim fails a saving throw. What prey the purple worms once hunted (or perhaps still do, in deep places) with such natural weapons must have been terrifying indeed. Aquatic versions of the purple worm might also exist.</p>",
     "wrestling": 0,

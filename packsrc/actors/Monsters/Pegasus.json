@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "turn": 24,
+      "round": 8,
+      "day": 24,
+      "run": 16,
+      "max": 24
     },
     "biography": "<p>Pegasus was the winged horse from Greek mythology. Other Pegasus creatures might have bat wings, some might be chaotic; such choices are left entirely up to the Referee.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 420,
-      "round": 140,
-      "day": 84,
-      "run": 420,
-      "max": 420
+      "turn": 42,
+      "round": 14,
+      "day": 42,
+      "run": 28,
+      "max": 42
     },
     "actorGroups": [
       "fey"

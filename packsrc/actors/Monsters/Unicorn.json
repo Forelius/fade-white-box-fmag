@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 240,
-      "round": 80,
-      "day": 48,
-      "run": 240,
-      "max": 240
+      "turn": 24,
+      "round": 8,
+      "day": 24,
+      "run": 16,
+      "max": 24
     },
     "biography": "<p>Unicorns are generally shy and benevolent creatures, who will only allow a chaste maiden to approach them. They can teleport once per day to a distance of 360 feet, with a rider. When they charge, their horn can deal double damage. Unicorns are 25% resistant to magic. The unicorn's horn has healing properties according to legend (the details of this, if any, are left to the Referee). There is considerable room to create variants of sorts: evil or flying unicorns, etc.</p>",
     "wrestling": 0,

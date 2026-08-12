@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 30,
-      "round": 10,
-      "day": 6,
-      "run": 30,
-      "max": 30
+      "turn": 3,
+      "round": 1,
+      "day": 3,
+      "run": 2,
+      "max": 3
     },
     "biography": "<p>Ochre jellies are amorphous oozes that damage opponents with their acidic surface. They dissolve any adventurers they kill, making the spell Raise Dead all but impossible.</p>",
     "wrestling": 0,

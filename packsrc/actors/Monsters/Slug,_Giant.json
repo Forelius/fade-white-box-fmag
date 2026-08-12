@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 60,
-      "round": 20,
-      "day": 12,
-      "run": 60,
-      "max": 60
+      "turn": 6,
+      "round": 2,
+      "day": 6,
+      "run": 4,
+      "max": 6
     },
     "biography": "<p>These tremendously large masses of slimy, rubbery flesh are completely immune to blunt weapons. In addition to their powerful bite, giant slugs can spit their acidic saliva (one target at a time). The base range for spitting is 60 feet, and within this range the slug's spittle will be 50% likely \"to-hit\" (no \"to-hit\" roll required). For every additional 10 feet of range, the chance \"to-hit\" decreases by 10%. On its first spitting attack, the slug only has a 10% chance \"to-hit\" within 60 feet, and no chance of hitting beyond that range. Some giant slugs might have more or less virulent acidity (thus changing the damage inflicted).</p>",
     "wrestling": 0,

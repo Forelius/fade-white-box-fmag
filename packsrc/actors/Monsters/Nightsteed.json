@@ -36,11 +36,11 @@
       }
     },
     "movement": {
-      "turn": 150,
-      "round": 50,
-      "day": 30,
-      "run": 150,
-      "max": 150
+      "turn": 15,
+      "round": 5,
+      "day": 15,
+      "run": 10,
+      "max": 15
     },
     "biography": "<p>A nightsteed is a black horse with burning red eyes and a mane of fire. Its hooves also burn with hellfire and it can fly as easily as run. They attack with their flaming hooves, and once per day can let out a terrible cry that requires all who hear it to make a saving throw or flee in terror of the nightsteed for 1d6 rounds.</p>",
     "wrestling": 0,
@@ -164,11 +164,11 @@
     "monsterTypes": [],
     "tags": [],
     "movement2": {
-      "turn": 180,
-      "round": 60,
-      "day": 36,
-      "run": 180,
-      "max": 180
+      "turn": 18,
+      "round": 6,
+      "day": 18,
+      "run": 12,
+      "max": 18
     },
     "actorGroups": []
   },
