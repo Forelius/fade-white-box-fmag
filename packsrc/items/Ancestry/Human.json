@@ -1,0 +1,75 @@
+{
+  "folder": "Dq4O8RZFkUn5vkXW",
+  "name": "Human",
+  "type": "species",
+  "img": "systems/fantastic-depths/assets/img/actor/hero1.webp",
+  "_id": "qlePEFPorsNqXeBa",
+  "system": {
+    "key": "",
+    "description": "<p>This game is centered on humans, so humans are the norm and bring no special features.</p>",
+    "languages": [
+      "Common"
+    ],
+    "baseMovement": 12,
+    "basicProficiency": false,
+    "mod": {
+      "vsGroup": {}
+    },
+    "ancestryItems": [],
+    "abilities": {
+      "str": {
+        "min": 3
+      },
+      "int": {
+        "min": 3
+      },
+      "wis": {
+        "min": 3
+      },
+      "dex": {
+        "min": 3
+      },
+      "con": {
+        "min": 3
+      },
+      "cha": {
+        "min": 3
+      }
+    },
+    "heightFormulaM": "",
+    "weightFormulaM": "",
+    "heightFormulaF": "",
+    "weightFormulaF": "",
+    "ageFormula": "",
+    "classes": [
+      {
+        "name": "Fighter",
+        "maxLevel": 10
+      },
+      {
+        "name": "Cleric",
+        "maxLevel": 10
+      },
+      {
+        "name": "Magic-User",
+        "maxLevel": 10
+      },
+      {
+        "name": "Thief",
+        "maxLevel": 10
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "0kFmVO1NHRXv2kT2": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "12.343",
+    "systemId": "fantastic-depths"
+  },
+  "_originalKey": "!items!qlePEFPorsNqXeBa"
+}

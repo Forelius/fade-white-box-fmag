@@ -32,15 +32,15 @@
   "_originalKey": "!tables!rkOzQ1hPzAkxagEX",
   "embedded": [
     {
-      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.v6g2PbIJKrT2PtvS",
+      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.3LcZhiA9dEom3rgI",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        5,
+        5
       ],
       "drawn": false,
-      "_id": "v6g2PbIJKrT2PtvS",
+      "_id": "3LcZhiA9dEom3rgI",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -48,26 +48,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "NPCs"
-    },
-    {
-      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.FaTldAIpfWmBkPw6",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "drawn": false,
-      "_id": "FaTldAIpfWmBkPw6",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Berserkers"
+      "name": "Pirates"
     },
     {
       "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.4SwJUIycdmigtDGb",
@@ -89,6 +70,25 @@
       "name": "Fighters"
     },
     {
+      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.FaTldAIpfWmBkPw6",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "FaTldAIpfWmBkPw6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Berserkers"
+    },
+    {
       "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.JuFSDmeA77ejLtsi",
       "type": "text",
       "weight": 1,
@@ -108,15 +108,15 @@
       "name": "Pirates"
     },
     {
-      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.3LcZhiA9dEom3rgI",
+      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.WpaJcdxFAJT78kkH",
       "type": "text",
       "weight": 1,
       "range": [
-        5,
-        5
+        10,
+        10
       ],
       "drawn": false,
-      "_id": "3LcZhiA9dEom3rgI",
+      "_id": "WpaJcdxFAJT78kkH",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -124,7 +124,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Pirates"
+      "name": "Clerics"
     },
     {
       "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.XL6YUkNh9FM1qG0X",
@@ -144,6 +144,25 @@
       },
       "description": "",
       "name": "Bandits"
+    },
+    {
+      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.Z6PLJqIQqVxni9n6",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "Z6PLJqIQqVxni9n6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Mages"
     },
     {
       "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.fmFdUelX5Od9vRyf",
@@ -184,15 +203,15 @@
       "name": "Berserkers"
     },
     {
-      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.Z6PLJqIQqVxni9n6",
+      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.v6g2PbIJKrT2PtvS",
       "type": "text",
       "weight": 1,
       "range": [
-        9,
-        9
+        1,
+        1
       ],
       "drawn": false,
-      "_id": "Z6PLJqIQqVxni9n6",
+      "_id": "v6g2PbIJKrT2PtvS",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -200,26 +219,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Mages"
-    },
-    {
-      "_originalKey": "!tables.results!rkOzQ1hPzAkxagEX.WpaJcdxFAJT78kkH",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "drawn": false,
-      "_id": "WpaJcdxFAJT78kkH",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Clerics"
+      "name": "NPCs"
     }
   ]
 }

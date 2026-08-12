@@ -25,25 +25,6 @@
   "_originalKey": "!tables!VynIuQSM4sQvTTpV",
   "embedded": [
     {
-      "_originalKey": "!tables.results!VynIuQSM4sQvTTpV.gPt7m71qeOvAJX8K",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "gPt7m71qeOvAJX8K",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Lycanthrope, Werebear"
-    },
-    {
       "_originalKey": "!tables.results!VynIuQSM4sQvTTpV.Ie6m68e28WkoAzIp",
       "type": "text",
       "weight": 1,
@@ -80,6 +61,25 @@
       },
       "description": "",
       "name": "Lycanthrope, Werewolf"
+    },
+    {
+      "_originalKey": "!tables.results!VynIuQSM4sQvTTpV.gPt7m71qeOvAJX8K",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "gPt7m71qeOvAJX8K",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lycanthrope, Werebear"
     }
   ]
 }

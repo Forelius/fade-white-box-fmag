@@ -53,17 +53,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.VJJxff6V0hWLYHeY]{Staff of Healing}</p>"
     },
     {
-      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.hazh89MDZBIn2vBT",
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.5z8jyNBju3Coo3wL",
       "type": "text",
       "weight": 1,
       "range": [
-        2,
-        2
+        8,
+        8
       ],
-      "_id": "hazh89MDZBIn2vBT",
-      "name": "Staff of Command",
+      "_id": "5z8jyNBju3Coo3wL",
+      "name": "Staff of Beguiling",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eMY26KxC0KsCJ6Io]{Staff of Command}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.r3BiwYhOMz9Jy9kR]{Staff of Beguiling}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -71,49 +71,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eMY26KxC0KsCJ6Io]{Staff of Command}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.wQzncu4HBM6yOKz6",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "wQzncu4HBM6yOKz6",
-      "name": "Staff of the Snake",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LO9jpp7pPgSlCEu9]{Staff of the Snake}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LO9jpp7pPgSlCEu9]{Staff of the Snake}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.iPHwyXtX5Fi9a7R0",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "_id": "iPHwyXtX5Fi9a7R0",
-      "name": "Staff of Striking",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JdIOZyXPbcpvGyPE]{Staff of Striking}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JdIOZyXPbcpvGyPE]{Staff of Striking}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.r3BiwYhOMz9Jy9kR]{Staff of Beguiling}</p>"
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.7JCcwXDaSqqmuKcy",
@@ -137,17 +95,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ryUFlQopQtcFLQ8x]{Staff of Withering}</p>"
     },
     {
-      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.rLA8V02YX9UAc46j",
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.hazh89MDZBIn2vBT",
       "type": "text",
       "weight": 1,
       "range": [
-        6,
-        6
+        2,
+        2
       ],
-      "_id": "rLA8V02YX9UAc46j",
-      "name": "Staff of Power",
+      "_id": "hazh89MDZBIn2vBT",
+      "name": "Staff of Command",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iSWOUDBoNcpnBGax]{Staff of Power}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eMY26KxC0KsCJ6Io]{Staff of Command}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -155,7 +113,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iSWOUDBoNcpnBGax]{Staff of Power}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eMY26KxC0KsCJ6Io]{Staff of Command}</p>"
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.hd448zGPVlefQ4MW",
@@ -179,17 +137,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.SYSei8PcQ41kjbFa]{Staff of Wizardry}</p>"
     },
     {
-      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.5z8jyNBju3Coo3wL",
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.iPHwyXtX5Fi9a7R0",
       "type": "text",
       "weight": 1,
       "range": [
-        8,
-        8
+        4,
+        4
       ],
-      "_id": "5z8jyNBju3Coo3wL",
-      "name": "Staff of Beguiling",
+      "_id": "iPHwyXtX5Fi9a7R0",
+      "name": "Staff of Striking",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.r3BiwYhOMz9Jy9kR]{Staff of Beguiling}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JdIOZyXPbcpvGyPE]{Staff of Striking}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -197,7 +155,49 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.r3BiwYhOMz9Jy9kR]{Staff of Beguiling}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JdIOZyXPbcpvGyPE]{Staff of Striking}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.nRYOBFdat9mNRG9V",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "nRYOBFdat9mNRG9V",
+      "name": "Staff of Lordly Might",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mhbp0Lgy9tS6SGBm]{Staff of Lordly Might}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mhbp0Lgy9tS6SGBm]{Staff of Lordly Might}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.rLA8V02YX9UAc46j",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "rLA8V02YX9UAc46j",
+      "name": "Staff of Power",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iSWOUDBoNcpnBGax]{Staff of Power}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iSWOUDBoNcpnBGax]{Staff of Power}</p>"
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.uBvuyDgBizikEKWy",
@@ -221,17 +221,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GTZ3I6DXkxbXo2f6]{Staff of Absorption}</p>"
     },
     {
-      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.nRYOBFdat9mNRG9V",
+      "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.wQzncu4HBM6yOKz6",
       "type": "text",
       "weight": 1,
       "range": [
-        10,
-        10
+        3,
+        3
       ],
-      "_id": "nRYOBFdat9mNRG9V",
-      "name": "Staff of Lordly Might",
+      "_id": "wQzncu4HBM6yOKz6",
+      "name": "Staff of the Snake",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mhbp0Lgy9tS6SGBm]{Staff of Lordly Might}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LO9jpp7pPgSlCEu9]{Staff of the Snake}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -239,7 +239,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mhbp0Lgy9tS6SGBm]{Staff of Lordly Might}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LO9jpp7pPgSlCEu9]{Staff of the Snake}</p>"
     }
   ]
 }

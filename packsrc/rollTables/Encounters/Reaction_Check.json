@@ -27,44 +27,6 @@
   "_originalKey": "!tables!YIvKsBsFvEV1s2kj",
   "embedded": [
     {
-      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.WB8J64pZlCba3eVz",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        2
-      ],
-      "drawn": false,
-      "_id": "WB8J64pZlCba3eVz",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Hostile"
-    },
-    {
-      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.N67gJNb6K3daFQpf",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        5
-      ],
-      "drawn": false,
-      "_id": "N67gJNb6K3daFQpf",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Negative"
-    },
-    {
       "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.8lnLiIPBa5PloDxW",
       "type": "text",
       "weight": 1,
@@ -82,6 +44,25 @@
       },
       "description": "",
       "name": "Uncertain"
+    },
+    {
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.B3M5s1iMz0Jm2oao",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "B3M5s1iMz0Jm2oao",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Enthusiastic"
     },
     {
       "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.MpnNun9IAnRftW88",
@@ -103,15 +84,15 @@
       "name": "Positive"
     },
     {
-      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.B3M5s1iMz0Jm2oao",
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.N67gJNb6K3daFQpf",
       "type": "text",
       "weight": 1,
       "range": [
-        12,
-        12
+        3,
+        5
       ],
       "drawn": false,
-      "_id": "B3M5s1iMz0Jm2oao",
+      "_id": "N67gJNb6K3daFQpf",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -119,7 +100,26 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Enthusiastic"
+      "name": "Negative"
+    },
+    {
+      "_originalKey": "!tables.results!YIvKsBsFvEV1s2kj.WB8J64pZlCba3eVz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "WB8J64pZlCba3eVz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Hostile"
     }
   ]
 }

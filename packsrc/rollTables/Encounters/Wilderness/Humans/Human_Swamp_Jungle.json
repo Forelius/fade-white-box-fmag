@@ -32,44 +32,6 @@
   "_originalKey": "!tables!lZyy7ZKZuwymiJTB",
   "embedded": [
     {
-      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.w5jhQTON3atjqL25",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "w5jhQTON3atjqL25",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "NPCs"
-    },
-    {
-      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.EM2ooQWfqS2LHrq1",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "drawn": false,
-      "_id": "EM2ooQWfqS2LHrq1",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Mages"
-    },
-    {
       "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.2FuUOf1SVP81kcCJ",
       "type": "text",
       "weight": 1,
@@ -87,44 +49,6 @@
       },
       "description": "",
       "name": "Berserkers"
-    },
-    {
-      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.g1fVZklJd4UpyDm3",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "drawn": false,
-      "_id": "g1fVZklJd4UpyDm3",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Fighters"
-    },
-    {
-      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.GkxFOkoq47RvK0yV",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "drawn": false,
-      "_id": "GkxFOkoq47RvK0yV",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Bandits"
     },
     {
       "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.4vVaZkQoQ8hIDfzw",
@@ -146,15 +70,15 @@
       "name": "Bandits"
     },
     {
-      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.fLFzCOPKircRxGam",
+      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.EM2ooQWfqS2LHrq1",
       "type": "text",
       "weight": 1,
       "range": [
-        7,
-        7
+        2,
+        2
       ],
       "drawn": false,
-      "_id": "fLFzCOPKircRxGam",
+      "_id": "EM2ooQWfqS2LHrq1",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -162,26 +86,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Fighters"
-    },
-    {
-      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.KDQJJpxmuudrNgRM",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        8,
-        8
-      ],
-      "drawn": false,
-      "_id": "KDQJJpxmuudrNgRM",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Berserkers"
+      "name": "Mages"
     },
     {
       "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.FqOyXvjPFfgfKYgY",
@@ -203,6 +108,82 @@
       "name": "Mages"
     },
     {
+      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.GkxFOkoq47RvK0yV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "GkxFOkoq47RvK0yV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Bandits"
+    },
+    {
+      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.KDQJJpxmuudrNgRM",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "KDQJJpxmuudrNgRM",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Berserkers"
+    },
+    {
+      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.fLFzCOPKircRxGam",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "fLFzCOPKircRxGam",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Fighters"
+    },
+    {
+      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.g1fVZklJd4UpyDm3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "g1fVZklJd4UpyDm3",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Fighters"
+    },
+    {
       "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.vNkKMqiIRpRmnXjH",
       "type": "text",
       "weight": 1,
@@ -220,6 +201,25 @@
       },
       "description": "",
       "name": "Clerics"
+    },
+    {
+      "_originalKey": "!tables.results!lZyy7ZKZuwymiJTB.w5jhQTON3atjqL25",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "w5jhQTON3atjqL25",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "NPCs"
     }
   ]
 }

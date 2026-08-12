@@ -53,15 +53,15 @@
       "name": "Basilisk"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.jqIqwY1JHhV2ST7s",
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.2Y1GunLXjnlwDy0q",
       "type": "text",
       "weight": 1,
       "range": [
-        2,
-        2
+        11,
+        11
       ],
       "drawn": false,
-      "_id": "jqIqwY1JHhV2ST7s",
+      "_id": "2Y1GunLXjnlwDy0q",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -69,45 +69,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Chimerae"
-    },
-    {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.HgRKWYNEG2ScHaGa",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "drawn": false,
-      "_id": "HgRKWYNEG2ScHaGa",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Gorgons"
-    },
-    {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.hLGBojjO4HkmyfYQ",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "drawn": false,
-      "_id": "hLGBojjO4HkmyfYQ",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Griffons"
+      "name": "Roc"
     },
     {
       "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.8IHUSqZV3U1095Me",
@@ -129,25 +91,6 @@
       "name": "Harpies"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.rwdWwFUGi9ff1sYB",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "drawn": false,
-      "_id": "rwdWwFUGi9ff1sYB",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Werewolf"
-    },
-    {
       "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.8utnzOXPZAIDb9OQ",
       "type": "text",
       "weight": 1,
@@ -165,6 +108,25 @@
       },
       "description": "",
       "name": "Hippogriffs"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.HgRKWYNEG2ScHaGa",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "HgRKWYNEG2ScHaGa",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gorgons"
     },
     {
       "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.Z517DMiM7POiqJCt",
@@ -186,25 +148,6 @@
       "name": "Manticore"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.ipXv1sZ2EZzCeCj7",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        9,
-        9
-      ],
-      "drawn": false,
-      "_id": "ipXv1sZ2EZzCeCj7",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Medusa"
-    },
-    {
       "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.cUh22FYtaCrNkBxl",
       "type": "text",
       "weight": 1,
@@ -224,25 +167,6 @@
       "name": "Pegasi"
     },
     {
-      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.2Y1GunLXjnlwDy0q",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        11,
-        11
-      ],
-      "drawn": false,
-      "_id": "2Y1GunLXjnlwDy0q",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Roc"
-    },
-    {
       "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.gI0DzXVjMg7jdJ8j",
       "type": "text",
       "weight": 1,
@@ -260,6 +184,82 @@
       },
       "description": "",
       "name": "Wererat"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.hLGBojjO4HkmyfYQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "hLGBojjO4HkmyfYQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Griffons"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.ipXv1sZ2EZzCeCj7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "ipXv1sZ2EZzCeCj7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Medusa"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.jqIqwY1JHhV2ST7s",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "jqIqwY1JHhV2ST7s",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Chimerae"
+    },
+    {
+      "_originalKey": "!tables.results!gXbsVTQO6uc1XTc8.rwdWwFUGi9ff1sYB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "rwdWwFUGi9ff1sYB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Werewolf"
     }
   ]
 }

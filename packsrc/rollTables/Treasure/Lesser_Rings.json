@@ -28,17 +28,17 @@
   "_originalKey": "!tables!qrf5VSUlEf62TqAs",
   "embedded": [
     {
-      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.xhGMhdC9pz26pRKo",
+      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.4hxJIbbndRPu8UYg",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        6,
+        6
       ],
-      "_id": "xhGMhdC9pz26pRKo",
-      "name": "Ring of Fire Resistance",
+      "_id": "4hxJIbbndRPu8UYg",
+      "name": "Ring of Protection +2",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.zRufsIVN7Vesp5eX]{Ring of Fire Resistance}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nQIYL8iDWBh46OAX]{Ring of Protection +2}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -46,28 +46,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.zRufsIVN7Vesp5eX]{Ring of Fire Resistance}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.U9zTtovqp7Fa0v9k",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "_id": "U9zTtovqp7Fa0v9k",
-      "name": "Ring of Invisibility",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GzBQvLAJc0mUZvLB]{Ring of Invisibility}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GzBQvLAJc0mUZvLB]{Ring of Invisibility}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nQIYL8iDWBh46OAX]{Ring of Protection +2}</p>"
     },
     {
       "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.DqQA1YleGhApMGAz",
@@ -91,27 +70,6 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.sbYi0LDOMf69NapM]{Ring of Mammal Control}</p>"
     },
     {
-      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.SbZ9N0AeNW5mdoP0",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "_id": "SbZ9N0AeNW5mdoP0",
-      "name": "Ring of Poison Resistance",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.cPgdNr4t4JtVvUeX]{Ring of Poison Resistance}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.cPgdNr4t4JtVvUeX]{Ring of Poison Resistance}</p>"
-    },
-    {
       "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.IMyGHuVGsbsQNwEP",
       "type": "text",
       "weight": 1,
@@ -133,17 +91,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.qi3mhFljy8ZwTmLB]{Ring of Protection +1}</p>"
     },
     {
-      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.4hxJIbbndRPu8UYg",
+      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.SbZ9N0AeNW5mdoP0",
       "type": "text",
       "weight": 1,
       "range": [
-        6,
-        6
+        4,
+        4
       ],
-      "_id": "4hxJIbbndRPu8UYg",
-      "name": "Ring of Protection +2",
+      "_id": "SbZ9N0AeNW5mdoP0",
+      "name": "Ring of Poison Resistance",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nQIYL8iDWBh46OAX]{Ring of Protection +2}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.cPgdNr4t4JtVvUeX]{Ring of Poison Resistance}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -151,7 +109,49 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nQIYL8iDWBh46OAX]{Ring of Protection +2}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.cPgdNr4t4JtVvUeX]{Ring of Poison Resistance}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.U9zTtovqp7Fa0v9k",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "U9zTtovqp7Fa0v9k",
+      "name": "Ring of Invisibility",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GzBQvLAJc0mUZvLB]{Ring of Invisibility}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GzBQvLAJc0mUZvLB]{Ring of Invisibility}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.xhGMhdC9pz26pRKo",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "xhGMhdC9pz26pRKo",
+      "name": "Ring of Fire Resistance",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.zRufsIVN7Vesp5eX]{Ring of Fire Resistance}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.zRufsIVN7Vesp5eX]{Ring of Fire Resistance}</p>"
     }
   ]
 }

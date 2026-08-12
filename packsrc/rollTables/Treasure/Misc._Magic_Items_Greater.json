@@ -42,17 +42,17 @@
   "_originalKey": "!tables!ytSYR2QB1oxa1mgS",
   "embedded": [
     {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.tn2SP4yiPLWdf8pt",
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.34Jyvqx86xZdOshV",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        12,
+        12
       ],
-      "_id": "tn2SP4yiPLWdf8pt",
-      "name": "Amulet of Demon Control",
+      "_id": "34Jyvqx86xZdOshV",
+      "name": "Horn of Blasting",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xBqdaCbbcNX1gD3f]{Amulet of Demon Control}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Hy8DV0nFo8ANFeHm]{Horn of Blasting}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -60,154 +60,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xBqdaCbbcNX1gD3f]{Amulet of Demon Control}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.a3d9OlJEF1KNqN65",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "_id": "a3d9OlJEF1KNqN65",
-      "name": "Beaker of Potions",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.obLC8eaXw3Echumt]{Beaker of Potions}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.obLC8eaXw3Echumt]{Beaker of Potions}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.VxZn7mYjuIr6gAKM",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "VxZn7mYjuIr6gAKM",
-      "name": "Censer, Bowl, Brazier, or Stone of Controlling Elementals",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.K420gxyluV22FzbT]{Censer, Bowl, Brazier, or Stone of Controlling Elementals}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.K420gxyluV22FzbT]{Censer, Bowl, Brazier, or Stone of Controlling Elementals}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.sFfgcRSrzNAl5Oww",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "_id": "sFfgcRSrzNAl5Oww",
-      "name": "Crystal Ball",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1VBXjBzdecPenaMO]{Crystal Ball}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1VBXjBzdecPenaMO]{Crystal Ball}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.rNEyV8zZv3JSzGol",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "_id": "rNEyV8zZv3JSzGol",
-      "name": "Efreeti Bottle",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kwHA0A8cPUCR08gt]{Efreeti Bottle}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kwHA0A8cPUCR08gt]{Efreeti Bottle}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.8QxoJSLEOK3vUWnB",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "_id": "8QxoJSLEOK3vUWnB",
-      "name": "Figurine of the Golden Lions",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Vakfxf2UPD6HS7j1]{Figurine of the Golden Lions}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Vakfxf2UPD6HS7j1]{Figurine of the Golden Lions}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.5O4pbVXwj4ri3sFR",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        7,
-        7
-      ],
-      "_id": "5O4pbVXwj4ri3sFR",
-      "name": "Gauntlets of Dexterity",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nFp1nIOXIREh2MFA]{Gauntlets of Dexterity}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nFp1nIOXIREh2MFA]{Gauntlets of Dexterity}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.Gmb66LhM2mTdjPZ8",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        8,
-        8
-      ],
-      "_id": "Gmb66LhM2mTdjPZ8",
-      "name": "Gem of Seeing",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2gyQDX8Vz6fKo6W9]{Gem of Seeing}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2gyQDX8Vz6fKo6W9]{Gem of Seeing}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Hy8DV0nFo8ANFeHm]{Horn of Blasting}</p>"
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.3VI75BaIWOzJxofD",
@@ -231,17 +84,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.shNjs0gsJnKh82Il]{Girdle of Giant Strength}</p>"
     },
     {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.ud8dafAJfLllMXAY",
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.5O4pbVXwj4ri3sFR",
       "type": "text",
       "weight": 1,
       "range": [
-        10,
-        10
+        7,
+        7
       ],
-      "_id": "ud8dafAJfLllMXAY",
-      "name": "Helm of Fiery Brilliance",
+      "_id": "5O4pbVXwj4ri3sFR",
+      "name": "Gauntlets of Dexterity",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.7PiTOZSHC3oWGCTF]{Helm of Fiery Brilliance}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nFp1nIOXIREh2MFA]{Gauntlets of Dexterity}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -249,7 +102,49 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.7PiTOZSHC3oWGCTF]{Helm of Fiery Brilliance}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nFp1nIOXIREh2MFA]{Gauntlets of Dexterity}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.8QxoJSLEOK3vUWnB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "8QxoJSLEOK3vUWnB",
+      "name": "Figurine of the Golden Lions",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Vakfxf2UPD6HS7j1]{Figurine of the Golden Lions}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Vakfxf2UPD6HS7j1]{Figurine of the Golden Lions}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.Gmb66LhM2mTdjPZ8",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "Gmb66LhM2mTdjPZ8",
+      "name": "Gem of Seeing",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2gyQDX8Vz6fKo6W9]{Gem of Seeing}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2gyQDX8Vz6fKo6W9]{Gem of Seeing}</p>"
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.INyGvAEzm2gEK7g7",
@@ -271,90 +166,6 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3BbBD4SS43Zw23uA]{Helm of Teleportation}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.34Jyvqx86xZdOshV",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        12,
-        12
-      ],
-      "_id": "34Jyvqx86xZdOshV",
-      "name": "Horn of Blasting",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Hy8DV0nFo8ANFeHm]{Horn of Blasting}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Hy8DV0nFo8ANFeHm]{Horn of Blasting}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.fvrZuYoIES357vHH",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        13,
-        13
-      ],
-      "_id": "fvrZuYoIES357vHH",
-      "name": "Horn of Valhalla, Iron",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.38MyibY6mJJ3p6BT]{Horn of Valhalla, Iron}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.38MyibY6mJJ3p6BT]{Horn of Valhalla, Iron}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.yzGtLe7ojdIw3wFX",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        14,
-        14
-      ],
-      "_id": "yzGtLe7ojdIw3wFX",
-      "name": "Lenses of Charming",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rBBWAvXJs3GBlYHp]{Lenses of Charming}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rBBWAvXJs3GBlYHp]{Lenses of Charming}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.Z2MerqBDojYrXD7h",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        15,
-        15
-      ],
-      "_id": "Z2MerqBDojYrXD7h",
-      "name": "Libram, magical (level gain)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GQ1u7Ydz81cGggi7]{Libram, magical (level gain)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GQ1u7Ydz81cGggi7]{Libram, magical (level gain)}</p>"
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.LU6O15gddKQqj6Ok",
@@ -399,6 +210,111 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.h4U8hg5D2UDpdeCI]{Manual of Intelligence}</p>"
     },
     {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.VxZn7mYjuIr6gAKM",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "VxZn7mYjuIr6gAKM",
+      "name": "Censer, Bowl, Brazier, or Stone of Controlling Elementals",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.K420gxyluV22FzbT]{Censer, Bowl, Brazier, or Stone of Controlling Elementals}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.K420gxyluV22FzbT]{Censer, Bowl, Brazier, or Stone of Controlling Elementals}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.Z2MerqBDojYrXD7h",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "_id": "Z2MerqBDojYrXD7h",
+      "name": "Libram, magical (level gain)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GQ1u7Ydz81cGggi7]{Libram, magical (level gain)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GQ1u7Ydz81cGggi7]{Libram, magical (level gain)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.a3d9OlJEF1KNqN65",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "a3d9OlJEF1KNqN65",
+      "name": "Beaker of Potions",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.obLC8eaXw3Echumt]{Beaker of Potions}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.obLC8eaXw3Echumt]{Beaker of Potions}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.cNMndIMJTHPOjTrl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "_id": "cNMndIMJTHPOjTrl",
+      "name": "Symbol—Scarab of Insanity",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.n3q0eX3S4XIQbfSe]{Symbol—Scarab of Insanity}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.n3q0eX3S4XIQbfSe]{Symbol—Scarab of Insanity}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.fvrZuYoIES357vHH",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "_id": "fvrZuYoIES357vHH",
+      "name": "Horn of Valhalla, Iron",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.38MyibY6mJJ3p6BT]{Horn of Valhalla, Iron}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.38MyibY6mJJ3p6BT]{Horn of Valhalla, Iron}</p>"
+    },
+    {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.jOBCHBpbXKdt4Bcc",
       "type": "text",
       "weight": 1,
@@ -418,6 +334,90 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iQz43kdcUVdvpBUz]{Manual of Wisdom}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.rNEyV8zZv3JSzGol",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "rNEyV8zZv3JSzGol",
+      "name": "Efreeti Bottle",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kwHA0A8cPUCR08gt]{Efreeti Bottle}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kwHA0A8cPUCR08gt]{Efreeti Bottle}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.sFfgcRSrzNAl5Oww",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "sFfgcRSrzNAl5Oww",
+      "name": "Crystal Ball",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1VBXjBzdecPenaMO]{Crystal Ball}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1VBXjBzdecPenaMO]{Crystal Ball}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.tn2SP4yiPLWdf8pt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "tn2SP4yiPLWdf8pt",
+      "name": "Amulet of Demon Control",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xBqdaCbbcNX1gD3f]{Amulet of Demon Control}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xBqdaCbbcNX1gD3f]{Amulet of Demon Control}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.ud8dafAJfLllMXAY",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "ud8dafAJfLllMXAY",
+      "name": "Helm of Fiery Brilliance",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.7PiTOZSHC3oWGCTF]{Helm of Fiery Brilliance}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.7PiTOZSHC3oWGCTF]{Helm of Fiery Brilliance}</p>"
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.xwBo5wOSq9ArFtHn",
@@ -441,17 +441,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.sM5vt3nIr3WJZrDo]{Necklace of Fireballs}</p>"
     },
     {
-      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.cNMndIMJTHPOjTrl",
+      "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.yzGtLe7ojdIw3wFX",
       "type": "text",
       "weight": 1,
       "range": [
-        20,
-        20
+        14,
+        14
       ],
-      "_id": "cNMndIMJTHPOjTrl",
-      "name": "Symbol—Scarab of Insanity",
+      "_id": "yzGtLe7ojdIw3wFX",
+      "name": "Lenses of Charming",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.n3q0eX3S4XIQbfSe]{Symbol—Scarab of Insanity}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rBBWAvXJs3GBlYHp]{Lenses of Charming}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -459,7 +459,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.n3q0eX3S4XIQbfSe]{Symbol—Scarab of Insanity}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rBBWAvXJs3GBlYHp]{Lenses of Charming}</p>"
     }
   ]
 }

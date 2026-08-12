@@ -28,15 +28,15 @@
   "_originalKey": "!tables!OxUhY108SxINHAjO",
   "embedded": [
     {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.KQSmIKqdPIIgUQZB",
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.E2EIHoXxxzWxxcih",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        5,
+        5
       ],
       "drawn": false,
-      "_id": "KQSmIKqdPIIgUQZB",
+      "_id": "E2EIHoXxxzWxxcih",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -44,7 +44,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Sea Serpent"
+      "name": "Medusa"
     },
     {
       "_originalKey": "!tables.results!OxUhY108SxINHAjO.HnXFIdK0W0C7sYE3",
@@ -64,6 +64,25 @@
       },
       "description": "",
       "name": "Basilisk"
+    },
+    {
+      "_originalKey": "!tables.results!OxUhY108SxINHAjO.KQSmIKqdPIIgUQZB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "KQSmIKqdPIIgUQZB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Sea Serpent"
     },
     {
       "_originalKey": "!tables.results!OxUhY108SxINHAjO.ZViBWqiJiYgPqgMd",
@@ -102,25 +121,6 @@
       },
       "description": "",
       "name": "Harpies"
-    },
-    {
-      "_originalKey": "!tables.results!OxUhY108SxINHAjO.E2EIHoXxxzWxxcih",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "drawn": false,
-      "_id": "E2EIHoXxxzWxxcih",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Medusa"
     },
     {
       "_originalKey": "!tables.results!OxUhY108SxINHAjO.wMRk6crDf11HT5fM",

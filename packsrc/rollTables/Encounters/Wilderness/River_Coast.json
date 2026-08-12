@@ -32,90 +32,6 @@
   "_originalKey": "!tables!6q0xYZvZ8s9MoAPs",
   "embedded": [
     {
-      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.UiFpu7imNxLSwnpq",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "_id": "UiFpu7imNxLSwnpq",
-      "name": "Dragon",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.ESHVIHNUa7VBb0ln",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "_id": "ESHVIHNUa7VBb0ln",
-      "name": "Monster (River/Coast)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.OxUhY108SxINHAjO]{Monster (River/Coast)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.OxUhY108SxINHAjO",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.OxUhY108SxINHAjO]{Monster (River/Coast)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.r94zClUTtvNjnUSs",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "r94zClUTtvNjnUSs",
-      "name": "Animal (River/Coast)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.RnvXYolEXNL5bJV7",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "_id": "RnvXYolEXNL5bJV7",
-      "name": "Animal (River/Coast)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>"
-    },
-    {
       "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.1rJnOh9LDcuehKpe",
       "type": "document",
       "weight": 1,
@@ -134,28 +50,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.fP3EbfkllQ7T9mkE",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.fP3EbfkllQ7T9mkE]{Humanoid (River/Coast)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.HbmCWVq9bJGlac22",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "_id": "HbmCWVq9bJGlac22",
-      "name": "Human (River/Coast)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.rkOzQ1hPzAkxagEX]{Human (River/Coast)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.rkOzQ1hPzAkxagEX",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.rkOzQ1hPzAkxagEX]{Human (River/Coast)}</p>"
+      "text": "Humanoid (River/Coast)"
     },
     {
       "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.78mb03d0bjJho5km",
@@ -176,7 +71,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>"
+      "text": "Animal (River/Coast)"
     },
     {
       "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.7hFm5zrDIaIeLTon",
@@ -197,7 +92,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>"
+      "text": "Animal (River/Coast)"
     },
     {
       "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.CDOiaXlPcHDqRvdY",
@@ -218,7 +113,112 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.OxUhY108SxINHAjO",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.OxUhY108SxINHAjO]{Monster (River/Coast)}</p>"
+      "text": "Monster (River/Coast)"
+    },
+    {
+      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.ESHVIHNUa7VBb0ln",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "ESHVIHNUa7VBb0ln",
+      "name": "Monster (River/Coast)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.OxUhY108SxINHAjO]{Monster (River/Coast)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.OxUhY108SxINHAjO",
+      "text": "Monster (River/Coast)"
+    },
+    {
+      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.HbmCWVq9bJGlac22",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "HbmCWVq9bJGlac22",
+      "name": "Human (River/Coast)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.rkOzQ1hPzAkxagEX]{Human (River/Coast)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.rkOzQ1hPzAkxagEX",
+      "text": "Human (River/Coast)"
+    },
+    {
+      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.RnvXYolEXNL5bJV7",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "RnvXYolEXNL5bJV7",
+      "name": "Animal (River/Coast)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK",
+      "text": "Animal (River/Coast)"
+    },
+    {
+      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.UiFpu7imNxLSwnpq",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "UiFpu7imNxLSwnpq",
+      "name": "Dragon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w",
+      "text": "Dragon"
+    },
+    {
+      "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.r94zClUTtvNjnUSs",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "r94zClUTtvNjnUSs",
+      "name": "Animal (River/Coast)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK]{Animal (River/Coast)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.FY5JJzbeUECE0ouK",
+      "text": "Animal (River/Coast)"
     },
     {
       "_originalKey": "!tables.results!6q0xYZvZ8s9MoAPs.zE1bzr7kcHZTa744",
@@ -239,7 +239,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.VynIuQSM4sQvTTpV",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.VynIuQSM4sQvTTpV]{Lycanthrope}</p>"
+      "text": "Lycanthrope"
     }
   ]
 }

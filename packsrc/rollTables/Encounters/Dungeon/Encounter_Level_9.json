@@ -34,6 +34,84 @@
   "_originalKey": "!tables!HMRUqWUOXORvNVMx",
   "embedded": [
     {
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.8KhyiBYMoF2KwR0d",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "8KhyiBYMoF2KwR0d",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Demon, Baalroch"
+    },
+    {
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.8tabHBKTsivJokqD",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "8tabHBKTsivJokqD",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Fighter, level 9 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Fighter, level 9",
+      "text": "<p>Fighter, level 9 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.FaLxtPjyrAAgFv30",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_id": "FaLxtPjyrAAgFv30",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Thief, level 9 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Thief, level 9",
+      "text": "<p>Thief, level 9 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.Ja8HldJJaqEmmCvC",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "Ja8HldJJaqEmmCvC",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Red"
+    },
+    {
       "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.Qu4fXwAr1QSB2Bg3",
       "type": "text",
       "weight": 1,
@@ -72,99 +150,24 @@
       "name": "Dragon, Blue"
     },
     {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.j7TKVsD1uYs6gORJ",
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.bXlepBbJdI3kMoOo",
       "type": "text",
       "weight": 1,
       "range": [
-        3,
-        3
+        10,
+        10
       ],
       "drawn": false,
-      "_id": "j7TKVsD1uYs6gORJ",
+      "_id": "bXlepBbJdI3kMoOo",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "",
-      "name": "Dragon, Black"
-    },
-    {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.uB4LrCKTpMro4v49",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "drawn": false,
-      "_id": "uB4LrCKTpMro4v49",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Dragon, Green"
-    },
-    {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.Ja8HldJJaqEmmCvC",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "drawn": false,
-      "_id": "Ja8HldJJaqEmmCvC",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Dragon, Red"
-    },
-    {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.rqJ2eH1jiFTQlAkB",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "drawn": false,
-      "_id": "rqJ2eH1jiFTQlAkB",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Chimera"
-    },
-    {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.8KhyiBYMoF2KwR0d",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        7,
-        7
-      ],
-      "drawn": false,
-      "_id": "8KhyiBYMoF2KwR0d",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Demon, Baalroch"
+      "description": "<p>Cleric, level 9 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Cleric, level 9",
+      "text": "<p>Cleric, level 9 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
     },
     {
       "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.eFqAtXce0qWYNZIM",
@@ -186,44 +189,23 @@
       "name": "Vampire"
     },
     {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.8tabHBKTsivJokqD",
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.j7TKVsD1uYs6gORJ",
       "type": "text",
       "weight": 1,
       "range": [
-        9,
-        9
+        3,
+        3
       ],
       "drawn": false,
-      "_id": "8tabHBKTsivJokqD",
+      "_id": "j7TKVsD1uYs6gORJ",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "<p>Fighter, level 9 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Fighter, level 9",
-      "text": "<p>Fighter, level 9 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
-    },
-    {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.bXlepBbJdI3kMoOo",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "drawn": false,
-      "_id": "bXlepBbJdI3kMoOo",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "<p>Cleric, level 9 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Cleric, level 9",
-      "text": "<p>Cleric, level 9 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "description": "",
+      "name": "Dragon, Black"
     },
     {
       "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.lduaT18Ph7fnnloG",
@@ -241,29 +223,47 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "<p>Magic-user, level 8 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "description": "<p>Magic-user, level 8 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
       "name": "Magic-user, level 8",
-      "text": "<p>Magic-user, level 8 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "text": "<p>Magic-user, level 8 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
     },
     {
-      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.FaLxtPjyrAAgFv30",
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.rqJ2eH1jiFTQlAkB",
       "type": "text",
       "weight": 1,
       "range": [
-        12,
-        12
+        6,
+        6
       ],
       "drawn": false,
-      "_id": "FaLxtPjyrAAgFv30",
+      "_id": "rqJ2eH1jiFTQlAkB",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "<p>Thief, level 9 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Thief, level 9",
-      "text": "<p>Thief, level 9 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "description": "",
+      "name": "Chimera"
+    },
+    {
+      "_originalKey": "!tables.results!HMRUqWUOXORvNVMx.uB4LrCKTpMro4v49",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "uB4LrCKTpMro4v49",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dragon, Green"
     }
   ]
 }

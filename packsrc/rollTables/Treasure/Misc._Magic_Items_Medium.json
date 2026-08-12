@@ -42,69 +42,6 @@
   "_originalKey": "!tables!ehIVlEbtheHeW0Hw",
   "embedded": [
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.tQ3bvpsHjiYnkJcy",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "_id": "tQ3bvpsHjiYnkJcy",
-      "name": "Amulet Against Scrying",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eUZvQvkOyFGPL4iQ]{Amulet Against Scrying}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eUZvQvkOyFGPL4iQ]{Amulet Against Scrying}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.uWZ5zqoxlSJ6fNfK",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "_id": "uWZ5zqoxlSJ6fNfK",
-      "name": "Boots of Flying",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Jvj1TerNigRq14Ru]{Boots of Flying}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Jvj1TerNigRq14Ru]{Boots of Flying}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.Buw4twvaiV5DCjGB",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "Buw4twvaiV5DCjGB",
-      "name": "Bracers of Defense, AC 4 [15] or 2 [17] (50%)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kWfmwSO15MoFksUH]{Bracers of Defense, AC 4 [15] or 2 [17] (50%)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kWfmwSO15MoFksUH]{Bracers of Defense, AC 4 [15] or 2 [17] (50%)}</p>"
-    },
-    {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.0aNtsTq6Aekk03uC",
       "type": "text",
       "weight": 1,
@@ -126,17 +63,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GYqiDRYi8LootG1U]{Carpet of Flying}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.DdzpRabH72xz1vXu",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.1MCqjKeNWc98mM1E",
       "type": "text",
       "weight": 1,
       "range": [
-        5,
-        5
+        20,
+        20
       ],
-      "_id": "DdzpRabH72xz1vXu",
-      "name": "Cloak of Displacement",
+      "_id": "1MCqjKeNWc98mM1E",
+      "name": "Robe of Wizardry",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.QPZ6FO2kIspirUGs]{Cloak of Displacement}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CFGOveGbA0WW90yt]{Robe of Wizardry}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -144,20 +81,20 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.QPZ6FO2kIspirUGs]{Cloak of Displacement}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CFGOveGbA0WW90yt]{Robe of Wizardry}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.NHkRLi9NC5OzfjBq",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.41aQfj7hRMmEsvzn",
       "type": "text",
       "weight": 1,
       "range": [
-        6,
-        6
+        13,
+        13
       ],
-      "_id": "NHkRLi9NC5OzfjBq",
-      "name": "Cloak of Protection, +2 or +3",
+      "_id": "41aQfj7hRMmEsvzn",
+      "name": "Horn of Valhalla, Silver",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.m3fK9eBADm66Sra1]{Cloak of Protection, +2 or +3}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yky2C1u0wz6OvMaq]{Horn of Valhalla, Silver}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -165,20 +102,20 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.m3fK9eBADm66Sra1]{Cloak of Protection, +2 or +3}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yky2C1u0wz6OvMaq]{Horn of Valhalla, Silver}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.qyH51CSPGAf6PCsY",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.6cy8BKHW4G5Dhk2C",
       "type": "text",
       "weight": 1,
       "range": [
-        7,
-        7
+        18,
+        18
       ],
-      "_id": "qyH51CSPGAf6PCsY",
-      "name": "Deck of Many Things",
+      "_id": "6cy8BKHW4G5Dhk2C",
+      "name": "Robe of Blending",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.5WWstjOYduxpJ6CN]{Deck of Many Things}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LLrn8UJl1HKKTzm]{Robe of Blending}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -186,20 +123,20 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.5WWstjOYduxpJ6CN]{Deck of Many Things}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LLrn8UJl1HKKTzm]{Robe of Blending}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.Tzg189D8sPXmgk2C",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.9pMoQxq2ZT2iR2dI",
       "type": "text",
       "weight": 1,
       "range": [
-        8,
-        8
+        17,
+        17
       ],
-      "_id": "Tzg189D8sPXmgk2C",
-      "name": "Figurine of the Onyx Dog",
+      "_id": "9pMoQxq2ZT2iR2dI",
+      "name": "Mirror of Mental Scrying",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ZXYxnKnl5ajX9xUR]{Figurine of the Onyx Dog}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CsjOxVYd0OBt9Lly]{Mirror of Mental Scrying}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -207,49 +144,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ZXYxnKnl5ajX9xUR]{Figurine of the Onyx Dog}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.I31WwQCpsLao5vtA",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        9,
-        9
-      ],
-      "_id": "I31WwQCpsLao5vtA",
-      "name": "Gauntlets of Ogre Power",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uJlqS7b6RKaz3NP4]{Gauntlets of Ogre Power}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uJlqS7b6RKaz3NP4]{Gauntlets of Ogre Power}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.XblCwX553UVb4aPG",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "_id": "XblCwX553UVb4aPG",
-      "name": "Helm of Read Magic and Languages",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rIWRFOlKnuXTYRJ5]{Helm of Read Magic and Languages}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rIWRFOlKnuXTYRJ5]{Helm of Read Magic and Languages}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CsjOxVYd0OBt9Lly]{Mirror of Mental Scrying}</p>"
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.AQsh5oPhyCUI7xLK",
@@ -273,17 +168,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LMy5DXgohvsAiQiN]{Hole, Portable}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.x90yFqe6IZ4uw7Wl",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.Buw4twvaiV5DCjGB",
       "type": "text",
       "weight": 1,
       "range": [
-        12,
-        12
+        3,
+        3
       ],
-      "_id": "x90yFqe6IZ4uw7Wl",
-      "name": "Horn of Valhalla, Bronze",
+      "_id": "Buw4twvaiV5DCjGB",
+      "name": "Bracers of Defense, AC 4 [15] or 2 [17] (50%)",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.fivtEmWvSJ2DlvjH]{Horn of Valhalla, Bronze}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kWfmwSO15MoFksUH]{Bracers of Defense, AC 4 [15] or 2 [17] (50%)}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -291,20 +186,20 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.fivtEmWvSJ2DlvjH]{Horn of Valhalla, Bronze}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kWfmwSO15MoFksUH]{Bracers of Defense, AC 4 [15] or 2 [17] (50%)}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.41aQfj7hRMmEsvzn",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.DdzpRabH72xz1vXu",
       "type": "text",
       "weight": 1,
       "range": [
-        13,
-        13
+        5,
+        5
       ],
-      "_id": "41aQfj7hRMmEsvzn",
-      "name": "Horn of Valhalla, Silver",
+      "_id": "DdzpRabH72xz1vXu",
+      "name": "Cloak of Displacement",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yky2C1u0wz6OvMaq]{Horn of Valhalla, Silver}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.QPZ6FO2kIspirUGs]{Cloak of Displacement}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -312,7 +207,112 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yky2C1u0wz6OvMaq]{Horn of Valhalla, Silver}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.QPZ6FO2kIspirUGs]{Cloak of Displacement}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.I31WwQCpsLao5vtA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "I31WwQCpsLao5vtA",
+      "name": "Gauntlets of Ogre Power",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uJlqS7b6RKaz3NP4]{Gauntlets of Ogre Power}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uJlqS7b6RKaz3NP4]{Gauntlets of Ogre Power}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.NHkRLi9NC5OzfjBq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "NHkRLi9NC5OzfjBq",
+      "name": "Cloak of Protection, +2 or +3",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.m3fK9eBADm66Sra1]{Cloak of Protection, +2 or +3}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.m3fK9eBADm66Sra1]{Cloak of Protection, +2 or +3}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.Tzg189D8sPXmgk2C",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "_id": "Tzg189D8sPXmgk2C",
+      "name": "Figurine of the Onyx Dog",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ZXYxnKnl5ajX9xUR]{Figurine of the Onyx Dog}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ZXYxnKnl5ajX9xUR]{Figurine of the Onyx Dog}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.XblCwX553UVb4aPG",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "_id": "XblCwX553UVb4aPG",
+      "name": "Helm of Read Magic and Languages",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rIWRFOlKnuXTYRJ5]{Helm of Read Magic and Languages}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rIWRFOlKnuXTYRJ5]{Helm of Read Magic and Languages}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.YJwqOZHfgu2s43kk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "_id": "YJwqOZHfgu2s43kk",
+      "name": "Robe of Eyes",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Eubq1AWQvgqpnpUW]{Robe of Eyes}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Eubq1AWQvgqpnpUW]{Robe of Eyes}</p>"
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.f2aUydtBKkOKq30P",
@@ -378,17 +378,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.AO3mIYRNa4VjsyrP]{Medallion of Detect Thoughts (ESP)}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.9pMoQxq2ZT2iR2dI",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.qyH51CSPGAf6PCsY",
       "type": "text",
       "weight": 1,
       "range": [
-        17,
-        17
+        7,
+        7
       ],
-      "_id": "9pMoQxq2ZT2iR2dI",
-      "name": "Mirror of Mental Scrying",
+      "_id": "qyH51CSPGAf6PCsY",
+      "name": "Deck of Many Things",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CsjOxVYd0OBt9Lly]{Mirror of Mental Scrying}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.5WWstjOYduxpJ6CN]{Deck of Many Things}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -396,20 +396,20 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CsjOxVYd0OBt9Lly]{Mirror of Mental Scrying}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.5WWstjOYduxpJ6CN]{Deck of Many Things}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.6cy8BKHW4G5Dhk2C",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.tQ3bvpsHjiYnkJcy",
       "type": "text",
       "weight": 1,
       "range": [
-        18,
-        18
+        1,
+        1
       ],
-      "_id": "6cy8BKHW4G5Dhk2C",
-      "name": "Robe of Blending",
+      "_id": "tQ3bvpsHjiYnkJcy",
+      "name": "Amulet Against Scrying",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LLrn8UJl1HKKTzm]{Robe of Blending}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eUZvQvkOyFGPL4iQ]{Amulet Against Scrying}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -417,20 +417,20 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LLrn8UJl1HKKTzm]{Robe of Blending}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eUZvQvkOyFGPL4iQ]{Amulet Against Scrying}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.YJwqOZHfgu2s43kk",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.uWZ5zqoxlSJ6fNfK",
       "type": "text",
       "weight": 1,
       "range": [
-        19,
-        19
+        2,
+        2
       ],
-      "_id": "YJwqOZHfgu2s43kk",
-      "name": "Robe of Eyes",
+      "_id": "uWZ5zqoxlSJ6fNfK",
+      "name": "Boots of Flying",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Eubq1AWQvgqpnpUW]{Robe of Eyes}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Jvj1TerNigRq14Ru]{Boots of Flying}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -438,20 +438,20 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Eubq1AWQvgqpnpUW]{Robe of Eyes}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Jvj1TerNigRq14Ru]{Boots of Flying}</p>"
     },
     {
-      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.1MCqjKeNWc98mM1E",
+      "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.x90yFqe6IZ4uw7Wl",
       "type": "text",
       "weight": 1,
       "range": [
-        20,
-        20
+        12,
+        12
       ],
-      "_id": "1MCqjKeNWc98mM1E",
-      "name": "Robe of Wizardry",
+      "_id": "x90yFqe6IZ4uw7Wl",
+      "name": "Horn of Valhalla, Bronze",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CFGOveGbA0WW90yt]{Robe of Wizardry}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.fivtEmWvSJ2DlvjH]{Horn of Valhalla, Bronze}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -459,7 +459,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CFGOveGbA0WW90yt]{Robe of Wizardry}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.fivtEmWvSJ2DlvjH]{Horn of Valhalla, Bronze}</p>"
     }
   ]
 }

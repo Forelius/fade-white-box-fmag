@@ -28,6 +28,25 @@
   "_originalKey": "!tables!JvUTnbOWrAeIckvu",
   "embedded": [
     {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.TcKHcG1ebXuDt4dP",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "TcKHcG1ebXuDt4dP",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Cockatrice"
+    },
+    {
       "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.bsqDQkwmx3ux4dWw",
       "type": "text",
       "weight": 1,
@@ -45,6 +64,44 @@
       },
       "description": "",
       "name": "Medusa"
+    },
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.k7k3QYzkfxt7zz3c",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "k7k3QYzkfxt7zz3c",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Harpies"
+    },
+    {
+      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.mFoNOwt0Wzra2aNx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "mFoNOwt0Wzra2aNx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Chimerae"
     },
     {
       "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.rFq1pbNPvzHDrXVQ",
@@ -83,63 +140,6 @@
       },
       "description": "",
       "name": "Basilisk"
-    },
-    {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.TcKHcG1ebXuDt4dP",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "drawn": false,
-      "_id": "TcKHcG1ebXuDt4dP",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Cockatrice"
-    },
-    {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.mFoNOwt0Wzra2aNx",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "drawn": false,
-      "_id": "mFoNOwt0Wzra2aNx",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Chimerae"
-    },
-    {
-      "_originalKey": "!tables.results!JvUTnbOWrAeIckvu.k7k3QYzkfxt7zz3c",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "drawn": false,
-      "_id": "k7k3QYzkfxt7zz3c",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Harpies"
     }
   ]
 }

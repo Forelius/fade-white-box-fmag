@@ -28,15 +28,15 @@
   "_originalKey": "!tables!fP3EbfkllQ7T9mkE",
   "embedded": [
     {
-      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.ALpVw64zv3U5Wpkl",
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.3tHpt1mvWXKxsej9",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        6,
+        6
       ],
       "drawn": false,
-      "_id": "ALpVw64zv3U5Wpkl",
+      "_id": "3tHpt1mvWXKxsej9",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -44,26 +44,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Ogres"
-    },
-    {
-      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.IqwC1kAWmeBCkQDS",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "drawn": false,
-      "_id": "IqwC1kAWmeBCkQDS",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Gnolls"
+      "name": "Trolls"
     },
     {
       "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.9Z9UAHsLWfeXEr20",
@@ -85,15 +66,15 @@
       "name": "Orcs"
     },
     {
-      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.a16DDVKn4p1SVmVz",
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.ALpVw64zv3U5Wpkl",
       "type": "text",
       "weight": 1,
       "range": [
-        4,
-        4
+        1,
+        1
       ],
       "drawn": false,
-      "_id": "a16DDVKn4p1SVmVz",
+      "_id": "ALpVw64zv3U5Wpkl",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -101,7 +82,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Lizardmen"
+      "name": "Ogres"
     },
     {
       "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.AqAqF3bHPrkPMT3Q",
@@ -123,15 +104,15 @@
       "name": "Hobgoblins"
     },
     {
-      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.3tHpt1mvWXKxsej9",
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.IqwC1kAWmeBCkQDS",
       "type": "text",
       "weight": 1,
       "range": [
-        6,
-        6
+        2,
+        2
       ],
       "drawn": false,
-      "_id": "3tHpt1mvWXKxsej9",
+      "_id": "IqwC1kAWmeBCkQDS",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -139,7 +120,26 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Trolls"
+      "name": "Gnolls"
+    },
+    {
+      "_originalKey": "!tables.results!fP3EbfkllQ7T9mkE.a16DDVKn4p1SVmVz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "a16DDVKn4p1SVmVz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Lizardmen"
     }
   ]
 }

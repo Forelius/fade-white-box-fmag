@@ -28,25 +28,6 @@
   "_originalKey": "!tables!d2fnTzw2XKNrDv2y",
   "embedded": [
     {
-      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.ZZ3kdL4Iox8ogzsR",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "ZZ3kdL4Iox8ogzsR",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Snake, Giant"
-    },
-    {
       "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.CEJBE0y3j3urxCfT",
       "type": "text",
       "weight": 1,
@@ -64,6 +45,25 @@
       },
       "description": "",
       "name": "Worgs"
+    },
+    {
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.MyTwMkyfOgVwQiHH",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "MyTwMkyfOgVwQiHH",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Centipedes"
     },
     {
       "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.PelXEtGrLLDrJhYg",
@@ -104,15 +104,15 @@
       "name": "Spiders"
     },
     {
-      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.MyTwMkyfOgVwQiHH",
+      "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.ZZ3kdL4Iox8ogzsR",
       "type": "text",
       "weight": 1,
       "range": [
-        5,
-        5
+        1,
+        1
       ],
       "drawn": false,
-      "_id": "MyTwMkyfOgVwQiHH",
+      "_id": "ZZ3kdL4Iox8ogzsR",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -120,7 +120,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Centipedes"
+      "name": "Snake, Giant"
     },
     {
       "_originalKey": "!tables.results!d2fnTzw2XKNrDv2y.mOwzEvfjbmiCmVH4",

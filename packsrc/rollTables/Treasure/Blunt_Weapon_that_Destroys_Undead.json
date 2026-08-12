@@ -68,27 +68,6 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.w63xT0vJRoBvcGyq]{+1 Sling of Undead Slaying}</p>"
     },
     {
-      "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.f4p96VPAHu5Nj01U",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "f4p96VPAHu5Nj01U",
-      "name": "+1 Staff of Undead Slaying",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2ImO3KuhuTdptfTB]{+1 Staff of Undead Slaying}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2ImO3KuhuTdptfTB]{+1 Staff of Undead Slaying}</p>"
-    },
-    {
       "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.YiolxJwfHx5co3Ut",
       "type": "text",
       "weight": 1,
@@ -108,6 +87,27 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.lSNJ5FxOldtDqFon]{+1 Warhammer of Undead Slaying}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.f4p96VPAHu5Nj01U",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "f4p96VPAHu5Nj01U",
+      "name": "+1 Staff of Undead Slaying",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2ImO3KuhuTdptfTB]{+1 Staff of Undead Slaying}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2ImO3KuhuTdptfTB]{+1 Staff of Undead Slaying}</p>"
     }
   ]
 }

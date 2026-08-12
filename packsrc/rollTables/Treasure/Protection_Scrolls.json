@@ -30,6 +30,27 @@
   "_originalKey": "!tables!PpX5smYXz3V2gcrd",
   "embedded": [
     {
+      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.F20Ef9tNKhKlAtMj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "F20Ef9tNKhKlAtMj",
+      "name": "Poison",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.s0BthapD0C2XqfNG]{Protection Scroll (Poison)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.s0BthapD0C2XqfNG]{Protection Scroll (Poison)}</p>"
+    },
+    {
       "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.FUf34UbqQZrFo3qT",
       "type": "text",
       "weight": 1,
@@ -49,90 +70,6 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.XQDkpTZu9gbjt1rS]{Protection Scroll (Demons)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.VtTSjKdjBVMjtzU1",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "_id": "VtTSjKdjBVMjtzU1",
-      "name": "Drowning",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.NUlFMVYkR2OyopWx]{Protection Scroll (Drowning)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.NUlFMVYkR2OyopWx]{Protection Scroll (Drowning)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.OC7UEFbskMJPnEiY",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "OC7UEFbskMJPnEiY",
-      "name": "Elementals",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.RDYJOt6vRMBmatNR]{Protection Scroll (Elementals)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.RDYJOt6vRMBmatNR]{Protection Scroll (Elementals)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.udpIDo0PLKvRy9uz",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "_id": "udpIDo0PLKvRy9uz",
-      "name": "Lycanthropes",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2yA20URxNtwUIXz3]{Protection Scroll (Lycanthropes)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2yA20URxNtwUIXz3]{Protection Scroll (Lycanthropes)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.XZhsKsza3ItjKUwA",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "_id": "XZhsKsza3ItjKUwA",
-      "name": "Magic",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3IY9LOdzUrMvuatj]{Protection Scroll (Magic)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3IY9LOdzUrMvuatj]{Protection Scroll (Magic)}</p>"
     },
     {
       "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.LkKsyW2aM5yHDKjG",
@@ -156,17 +93,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eZehTzG0SIKs7G37]{Protection Scroll (Metal)}</p>"
     },
     {
-      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.F20Ef9tNKhKlAtMj",
+      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.OC7UEFbskMJPnEiY",
       "type": "text",
       "weight": 1,
       "range": [
-        7,
-        7
+        3,
+        3
       ],
-      "_id": "F20Ef9tNKhKlAtMj",
-      "name": "Poison",
+      "_id": "OC7UEFbskMJPnEiY",
+      "name": "Elementals",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.s0BthapD0C2XqfNG]{Protection Scroll (Poison)}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.RDYJOt6vRMBmatNR]{Protection Scroll (Elementals)}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -174,7 +111,49 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.s0BthapD0C2XqfNG]{Protection Scroll (Poison)}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.RDYJOt6vRMBmatNR]{Protection Scroll (Elementals)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.VtTSjKdjBVMjtzU1",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "VtTSjKdjBVMjtzU1",
+      "name": "Drowning",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.NUlFMVYkR2OyopWx]{Protection Scroll (Drowning)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.NUlFMVYkR2OyopWx]{Protection Scroll (Drowning)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.XZhsKsza3ItjKUwA",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "XZhsKsza3ItjKUwA",
+      "name": "Magic",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3IY9LOdzUrMvuatj]{Protection Scroll (Magic)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3IY9LOdzUrMvuatj]{Protection Scroll (Magic)}</p>"
     },
     {
       "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.nCXTEk8263upIb2M",
@@ -196,6 +175,27 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.qczUWNBJWZO0Sgp0]{Protection Scroll (Undead)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!PpX5smYXz3V2gcrd.udpIDo0PLKvRy9uz",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "udpIDo0PLKvRy9uz",
+      "name": "Lycanthropes",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2yA20URxNtwUIXz3]{Protection Scroll (Lycanthropes)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2yA20URxNtwUIXz3]{Protection Scroll (Lycanthropes)}</p>"
     }
   ]
 }

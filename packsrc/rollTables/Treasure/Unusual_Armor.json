@@ -26,6 +26,27 @@
   "_originalKey": "!tables!rXcsYfUEyqMNnpK4",
   "embedded": [
     {
+      "_originalKey": "!tables.results!rXcsYfUEyqMNnpK4.PnvCSiWrdqgIRlod",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "PnvCSiWrdqgIRlod",
+      "name": "Fiery Armor",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.85m2ewSBro6upqsC]{Fiery Leather Armor}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.85m2ewSBro6upqsC]{Fiery Leather Armor}</p>"
+    },
+    {
       "_originalKey": "!tables.results!rXcsYfUEyqMNnpK4.X59Gj9SfwLnZheGs",
       "type": "text",
       "weight": 1,
@@ -87,27 +108,6 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.9JYYdviZPWv1GQTA]{Ethereal Plate Mail}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!rXcsYfUEyqMNnpK4.PnvCSiWrdqgIRlod",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "_id": "PnvCSiWrdqgIRlod",
-      "name": "Fiery Armor",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.85m2ewSBro6upqsC]{Fiery Leather Armor}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.85m2ewSBro6upqsC]{Fiery Leather Armor}</p>"
     }
   ]
 }

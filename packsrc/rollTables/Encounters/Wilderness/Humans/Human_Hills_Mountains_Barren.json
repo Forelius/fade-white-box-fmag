@@ -32,44 +32,6 @@
   "_originalKey": "!tables!159OMqT3Q6mAfKPV",
   "embedded": [
     {
-      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.RkRQPykVSEpf2ryT",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "RkRQPykVSEpf2ryT",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "NPCs"
-    },
-    {
-      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.O0HRiNluZXP69OIt",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "drawn": false,
-      "_id": "O0HRiNluZXP69OIt",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Berserkers"
-    },
-    {
       "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.9BnRcCQp3r3W03Wg",
       "type": "text",
       "weight": 1,
@@ -108,63 +70,6 @@
       "name": "Bandits"
     },
     {
-      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.hWa2ngLJEcIcyDMB",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "drawn": false,
-      "_id": "hWa2ngLJEcIcyDMB",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Bandits"
-    },
-    {
-      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.pUZNnz9PlOqBrzVv",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "drawn": false,
-      "_id": "pUZNnz9PlOqBrzVv",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Bandits"
-    },
-    {
-      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.SlSRt8n7SdAeBeHX",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        7,
-        7
-      ],
-      "drawn": false,
-      "_id": "SlSRt8n7SdAeBeHX",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Fighters"
-    },
-    {
       "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.HwdLPsSavmpI2OIv",
       "type": "text",
       "weight": 1,
@@ -201,6 +106,101 @@
       },
       "description": "",
       "name": "Clerics"
+    },
+    {
+      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.O0HRiNluZXP69OIt",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "O0HRiNluZXP69OIt",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Berserkers"
+    },
+    {
+      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.RkRQPykVSEpf2ryT",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "RkRQPykVSEpf2ryT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "NPCs"
+    },
+    {
+      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.SlSRt8n7SdAeBeHX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "SlSRt8n7SdAeBeHX",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Fighters"
+    },
+    {
+      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.hWa2ngLJEcIcyDMB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "hWa2ngLJEcIcyDMB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Bandits"
+    },
+    {
+      "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.pUZNnz9PlOqBrzVv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "pUZNnz9PlOqBrzVv",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Bandits"
     },
     {
       "_originalKey": "!tables.results!159OMqT3Q6mAfKPV.tVgyQzN56MFtGEdd",

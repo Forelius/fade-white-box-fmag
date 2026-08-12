@@ -26,17 +26,17 @@
   "_originalKey": "!tables!bSc0FcVnRBjBE20F",
   "embedded": [
     {
-      "_originalKey": "!tables.results!bSc0FcVnRBjBE20F.UspORZTU3iGEPCqL",
+      "_originalKey": "!tables.results!bSc0FcVnRBjBE20F.12ldvGDRSLGiGqhL",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        3,
+        3
       ],
-      "_id": "UspORZTU3iGEPCqL",
-      "name": "+2 Sword, Long (+3 vs. Dragons)",
+      "_id": "12ldvGDRSLGiGqhL",
+      "name": "+2 Sword, Long (+3 vs. Lycanthropes)",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.55ViWMagDIijObqt]{+2 Sword, Long (+3 vs. Dragons)}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yXk8OO7pSV3xsU1i]{+2 Sword, Long (+3 vs. Lycanthropes)}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -44,7 +44,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.55ViWMagDIijObqt]{+2 Sword, Long (+3 vs. Dragons)}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yXk8OO7pSV3xsU1i]{+2 Sword, Long (+3 vs. Lycanthropes)}</p>"
     },
     {
       "_originalKey": "!tables.results!bSc0FcVnRBjBE20F.HAHCKW8OZc20fbYv",
@@ -68,27 +68,6 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.n4RJ9nM3OX0CXU1G]{+2 Sword, Long (+3 vs. Giants)}</p>"
     },
     {
-      "_originalKey": "!tables.results!bSc0FcVnRBjBE20F.12ldvGDRSLGiGqhL",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "12ldvGDRSLGiGqhL",
-      "name": "+2 Sword, Long (+3 vs. Lycanthropes)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yXk8OO7pSV3xsU1i]{+2 Sword, Long (+3 vs. Lycanthropes)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yXk8OO7pSV3xsU1i]{+2 Sword, Long (+3 vs. Lycanthropes)}</p>"
-    },
-    {
       "_originalKey": "!tables.results!bSc0FcVnRBjBE20F.SL2DdLVmLE86NguR",
       "type": "text",
       "weight": 1,
@@ -108,6 +87,27 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.A1PzAMj0r4wlmiqJ]{+2 Sword, Long (+3 vs. Undead)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!bSc0FcVnRBjBE20F.UspORZTU3iGEPCqL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "UspORZTU3iGEPCqL",
+      "name": "+2 Sword, Long (+3 vs. Dragons)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.55ViWMagDIijObqt]{+2 Sword, Long (+3 vs. Dragons)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.55ViWMagDIijObqt]{+2 Sword, Long (+3 vs. Dragons)}</p>"
     }
   ]
 }

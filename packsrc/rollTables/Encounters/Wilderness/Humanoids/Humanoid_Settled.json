@@ -27,6 +27,25 @@
   "_originalKey": "!tables!TjVv2kp1hvbjtKii",
   "embedded": [
     {
+      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.1ir7i2ryLecszs4Z",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "1ir7i2ryLecszs4Z",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Kobolds"
+    },
+    {
       "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.8h5s8uVZgzPZPC8f",
       "type": "text",
       "weight": 1,
@@ -44,6 +63,25 @@
       },
       "description": "",
       "name": "Goblins"
+    },
+    {
+      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.QqRqUsZJOOTJyXcv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "QqRqUsZJOOTJyXcv",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gnomes"
     },
     {
       "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.v2fqOof78j0g2anq",
@@ -82,44 +120,6 @@
       },
       "description": "",
       "name": "Elves"
-    },
-    {
-      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.1ir7i2ryLecszs4Z",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "drawn": false,
-      "_id": "1ir7i2ryLecszs4Z",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Kobolds"
-    },
-    {
-      "_originalKey": "!tables.results!TjVv2kp1hvbjtKii.QqRqUsZJOOTJyXcv",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "drawn": false,
-      "_id": "QqRqUsZJOOTJyXcv",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Gnomes"
     }
   ]
 }

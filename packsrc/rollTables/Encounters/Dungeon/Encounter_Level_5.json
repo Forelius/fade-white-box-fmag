@@ -34,25 +34,6 @@
   "_originalKey": "!tables!dGYpaZe6wMdMblGG",
   "embedded": [
     {
-      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.Pk7gXayVQIqXd2OT",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "Pk7gXayVQIqXd2OT",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Hell Hound"
-    },
-    {
       "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.05Ql6MkadwbCwCwO",
       "type": "text",
       "weight": 1,
@@ -70,6 +51,104 @@
       },
       "description": "",
       "name": "Hydra"
+    },
+    {
+      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.3idhb5hiZhfEt3Aq",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "3idhb5hiZhfEt3Aq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ogre Mage"
+    },
+    {
+      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.4yAyXjIx8NMcGV9e",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "4yAyXjIx8NMcGV9e",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ogre"
+    },
+    {
+      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.5Syk1pIPOksOIpyy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_id": "5Syk1pIPOksOIpyy",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Magic-user, level 4 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Magic-user, level 4",
+      "text": "<p>Magic-user, level 4 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.FNwbcdMDgBjDWNoL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "FNwbcdMDgBjDWNoL",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Cleric, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Cleric, level 5",
+      "text": "<p>Cleric, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+    },
+    {
+      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.JDx9Uq42pcj4nLL7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "JDx9Uq42pcj4nLL7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Fighter, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Fighter, level 5",
+      "text": "<p>Fighter, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
     },
     {
       "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.Lqtg3lJhchBd8b5P",
@@ -91,15 +170,15 @@
       "name": "Dragon, White"
     },
     {
-      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.SUrm0Egi2aKYqUuX",
+      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.Pk7gXayVQIqXd2OT",
       "type": "text",
       "weight": 1,
       "range": [
-        4,
-        4
+        1,
+        1
       ],
       "drawn": false,
-      "_id": "SUrm0Egi2aKYqUuX",
+      "_id": "Pk7gXayVQIqXd2OT",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -107,7 +186,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Cockatrice"
+      "name": "Hell Hound"
     },
     {
       "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.QAiMJBloj0Mq7X5B",
@@ -148,15 +227,15 @@
       "name": "Mummy"
     },
     {
-      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.4yAyXjIx8NMcGV9e",
+      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.SUrm0Egi2aKYqUuX",
       "type": "text",
       "weight": 1,
       "range": [
-        7,
-        7
+        4,
+        4
       ],
       "drawn": false,
-      "_id": "4yAyXjIx8NMcGV9e",
+      "_id": "SUrm0Egi2aKYqUuX",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -164,86 +243,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Ogre"
-    },
-    {
-      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.3idhb5hiZhfEt3Aq",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        8,
-        8
-      ],
-      "drawn": false,
-      "_id": "3idhb5hiZhfEt3Aq",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Ogre Mage"
-    },
-    {
-      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.JDx9Uq42pcj4nLL7",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        9,
-        9
-      ],
-      "drawn": false,
-      "_id": "JDx9Uq42pcj4nLL7",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "<p>Fighter, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Fighter, level 5",
-      "text": "<p>Fighter, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
-    },
-    {
-      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.FNwbcdMDgBjDWNoL",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "drawn": false,
-      "_id": "FNwbcdMDgBjDWNoL",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "<p>Cleric, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Cleric, level 5",
-      "text": "<p>Cleric, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
-    },
-    {
-      "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.5Syk1pIPOksOIpyy",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        11,
-        11
-      ],
-      "drawn": false,
-      "_id": "5Syk1pIPOksOIpyy",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "<p>Magic-user, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Magic-user, level 4",
-      "text": "<p>Magic-user, level 4 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "name": "Cockatrice"
     },
     {
       "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.s2xsEDWZ9lr5NGRg",
@@ -261,9 +261,9 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "<p>Thief, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "description": "<p>Thief, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
       "name": "Thief, level 5",
-      "text": "<p>Thief, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "text": "<p>Thief, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
     }
   ]
 }

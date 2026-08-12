@@ -28,15 +28,15 @@
   "_originalKey": "!tables!FY5JJzbeUECE0ouK",
   "embedded": [
     {
-      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.nbBFm917Y9uayYae",
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.8CCclfM5lkfohnVs",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        6,
+        6
       ],
       "drawn": false,
-      "_id": "nbBFm917Y9uayYae",
+      "_id": "8CCclfM5lkfohnVs",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -44,7 +44,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Rats"
+      "name": "Stirge"
     },
     {
       "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.SKoo7igPvT9YAmu1",
@@ -66,25 +66,6 @@
       "name": "Centipedes"
     },
     {
-      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.Zlgny8oP6EsPq66S",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "drawn": false,
-      "_id": "Zlgny8oP6EsPq66S",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Snake, Giant"
-    },
-    {
       "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.W9E3JDPudqgMOLj3",
       "type": "text",
       "weight": 1,
@@ -104,6 +85,44 @@
       "name": "Beetle, Giant"
     },
     {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.Zlgny8oP6EsPq66S",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "Zlgny8oP6EsPq66S",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Snake, Giant"
+    },
+    {
+      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.nbBFm917Y9uayYae",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "nbBFm917Y9uayYae",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Rats"
+    },
+    {
       "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.qPiETYTGaLYvc1l3",
       "type": "text",
       "weight": 1,
@@ -121,25 +140,6 @@
       },
       "description": "",
       "name": "Spiders"
-    },
-    {
-      "_originalKey": "!tables.results!FY5JJzbeUECE0ouK.8CCclfM5lkfohnVs",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "drawn": false,
-      "_id": "8CCclfM5lkfohnVs",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Stirge"
     }
   ]
 }

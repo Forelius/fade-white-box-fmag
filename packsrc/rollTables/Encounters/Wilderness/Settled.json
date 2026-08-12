@@ -28,25 +28,25 @@
   "_originalKey": "!tables!G5wYOTTNMwm7cBFh",
   "embedded": [
     {
-      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.QakCT7OM3vQg18mp",
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.49sJDTatwgRMwm5I",
       "type": "document",
       "weight": 1,
       "range": [
-        1,
-        1
+        4,
+        4
       ],
-      "_id": "QakCT7OM3vQg18mp",
-      "name": "Undead",
+      "_id": "49sJDTatwgRMwm5I",
+      "name": "Human (Settled)",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
+      "text": "Human (Settled)"
     },
     {
       "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.FZNYXwlgx2pP1XUX",
@@ -67,7 +67,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii]{Humanoid (Settled)}</p>"
+      "text": "Humanoid (Settled)"
     },
     {
       "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.LKtCBH1IQdXq0M1H",
@@ -88,49 +88,28 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>"
+      "text": "Human (Settled)"
     },
     {
-      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.49sJDTatwgRMwm5I",
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.QakCT7OM3vQg18mp",
       "type": "document",
       "weight": 1,
       "range": [
-        4,
-        4
+        1,
+        1
       ],
-      "_id": "49sJDTatwgRMwm5I",
-      "name": "Human (Settled)",
+      "_id": "QakCT7OM3vQg18mp",
+      "name": "Undead",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.jI7iVyJh61vLSNfL",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "_id": "jI7iVyJh61vLSNfL",
-      "name": "Human (Settled)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F",
+      "text": "Undead"
     },
     {
       "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.ebU4aJ3hGIOKmotj",
@@ -151,7 +130,28 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.TjVv2kp1hvbjtKii]{Humanoid (Settled)}</p>"
+      "text": "Humanoid (Settled)"
+    },
+    {
+      "_originalKey": "!tables.results!G5wYOTTNMwm7cBFh.jI7iVyJh61vLSNfL",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "jI7iVyJh61vLSNfL",
+      "name": "Human (Settled)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp]{Human (Settled)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.l7n9XuByayzwDihp",
+      "text": "Human (Settled)"
     }
   ]
 }

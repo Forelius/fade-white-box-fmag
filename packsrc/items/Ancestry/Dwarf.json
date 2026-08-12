@@ -15,7 +15,7 @@
       "Orc",
       "Kobold"
     ],
-    "baseMovement": 90,
+    "baseMovement": 9,
     "classes": [
       {
         "name": "Fighter",
@@ -61,7 +61,8 @@
     "heightFormulaM": "",
     "weightFormulaM": "",
     "heightFormulaF": "",
-    "weightFormulaF": ""
+    "weightFormulaF": "",
+    "ageFormula": ""
   },
   "effects": [
     "GL6nuGjV4UFRv6gJ"

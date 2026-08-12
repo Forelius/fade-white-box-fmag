@@ -30,82 +30,6 @@
   "_originalKey": "!tables!zgshLc5ad7D9pU8f",
   "embedded": [
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.LTekkjasXtCVYD56",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "LTekkjasXtCVYD56",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Salamander"
-    },
-    {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.rFcZjwU8N0Zug1m7",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "drawn": false,
-      "_id": "rFcZjwU8N0Zug1m7",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Purple Worm"
-    },
-    {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.pnQSB9SZwSYl0QFR",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "drawn": false,
-      "_id": "pnQSB9SZwSYl0QFR",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Basilisk"
-    },
-    {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.uYJehVbJGxe6lmzE",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "drawn": false,
-      "_id": "uYJehVbJGxe6lmzE",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Gorgons"
-    },
-    {
       "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.0YI9ozq27m1M2DtJ",
       "type": "text",
       "weight": 1,
@@ -123,6 +47,25 @@
       },
       "description": "",
       "name": "Manticore"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.LTekkjasXtCVYD56",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "LTekkjasXtCVYD56",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Salamander"
     },
     {
       "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.Py13VpXaNAJwPSwL",
@@ -144,6 +87,63 @@
       "name": "Medusa"
     },
     {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.TwFgUiPoywcLaTTg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "TwFgUiPoywcLaTTg",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Roll again"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.pnQSB9SZwSYl0QFR",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "pnQSB9SZwSYl0QFR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Basilisk"
+    },
+    {
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.rFcZjwU8N0Zug1m7",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "rFcZjwU8N0Zug1m7",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Purple Worm"
+    },
+    {
       "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.sAS7CkuraFKEW6tY",
       "type": "text",
       "weight": 1,
@@ -163,15 +163,15 @@
       "name": "Roc"
     },
     {
-      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.TwFgUiPoywcLaTTg",
+      "_originalKey": "!tables.results!zgshLc5ad7D9pU8f.uYJehVbJGxe6lmzE",
       "type": "text",
       "weight": 1,
       "range": [
-        8,
-        8
+        4,
+        4
       ],
       "drawn": false,
-      "_id": "TwFgUiPoywcLaTTg",
+      "_id": "uYJehVbJGxe6lmzE",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -179,7 +179,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Roll again"
+      "name": "Gorgons"
     }
   ]
 }

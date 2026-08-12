@@ -32,63 +32,6 @@
   "_originalKey": "!tables!NaX3IhKVdy0yEOvE",
   "embedded": [
     {
-      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.jjI5cjlVIA9s1FvE",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "jjI5cjlVIA9s1FvE",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Efreet"
-    },
-    {
-      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.ppujijRUrLC1EvXm",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "drawn": false,
-      "_id": "ppujijRUrLC1EvXm",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Djinn"
-    },
-    {
-      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.kgseg0lcXxJLMz7R",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "drawn": false,
-      "_id": "kgseg0lcXxJLMz7R",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Giant, Frost"
-    },
-    {
       "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.MBu08mIotbnj7cKt",
       "type": "text",
       "weight": 1,
@@ -108,15 +51,15 @@
       "name": "Giant, Stone"
     },
     {
-      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.nDk4PMXPtflJKXbk",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.SBylPZyDlxwUeSG4",
       "type": "text",
       "weight": 1,
       "range": [
-        5,
-        5
+        9,
+        9
       ],
       "drawn": false,
-      "_id": "nDk4PMXPtflJKXbk",
+      "_id": "SBylPZyDlxwUeSG4",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -124,7 +67,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Giant, Hill"
+      "name": "Giant, Firbolg"
     },
     {
       "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.WmnV0BMxajWpme79",
@@ -184,15 +127,15 @@
       "name": "Giant, Cloud"
     },
     {
-      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.SBylPZyDlxwUeSG4",
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.jjI5cjlVIA9s1FvE",
       "type": "text",
       "weight": 1,
       "range": [
-        9,
-        9
+        1,
+        1
       ],
       "drawn": false,
-      "_id": "SBylPZyDlxwUeSG4",
+      "_id": "jjI5cjlVIA9s1FvE",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -200,7 +143,64 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Giant, Firbolg"
+      "name": "Efreet"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.kgseg0lcXxJLMz7R",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "kgseg0lcXxJLMz7R",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Frost"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.nDk4PMXPtflJKXbk",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "nDk4PMXPtflJKXbk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Giant, Hill"
+    },
+    {
+      "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.ppujijRUrLC1EvXm",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "ppujijRUrLC1EvXm",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Djinn"
     },
     {
       "_originalKey": "!tables.results!NaX3IhKVdy0yEOvE.z117IBWXLFKOfwjg",

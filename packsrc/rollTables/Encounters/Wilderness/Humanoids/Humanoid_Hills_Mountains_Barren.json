@@ -32,44 +32,6 @@
   "_originalKey": "!tables!WE3jLxZitayQImyL",
   "embedded": [
     {
-      "_originalKey": "!tables.results!WE3jLxZitayQImyL.Fkd2qMZLoQqppHD9",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "drawn": false,
-      "_id": "Fkd2qMZLoQqppHD9",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Ogre Mage"
-    },
-    {
-      "_originalKey": "!tables.results!WE3jLxZitayQImyL.oPfNnW4CeEIkdyIF",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "drawn": false,
-      "_id": "oPfNnW4CeEIkdyIF",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Gnolls"
-    },
-    {
       "_originalKey": "!tables.results!WE3jLxZitayQImyL.4iqTCDpgFeK1c9Xs",
       "type": "text",
       "weight": 1,
@@ -87,82 +49,6 @@
       },
       "description": "",
       "name": "Hobgoblins"
-    },
-    {
-      "_originalKey": "!tables.results!WE3jLxZitayQImyL.gfBafcZMJhqObpww",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "drawn": false,
-      "_id": "gfBafcZMJhqObpww",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Dwarfs"
-    },
-    {
-      "_originalKey": "!tables.results!WE3jLxZitayQImyL.KiihgbKhEMxrRevV",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "drawn": false,
-      "_id": "KiihgbKhEMxrRevV",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Kobolds"
-    },
-    {
-      "_originalKey": "!tables.results!WE3jLxZitayQImyL.mZ5GNXvowbOEjjUB",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "drawn": false,
-      "_id": "mZ5GNXvowbOEjjUB",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Orcs"
-    },
-    {
-      "_originalKey": "!tables.results!WE3jLxZitayQImyL.epVU5H4Q7D129XqV",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        7,
-        7
-      ],
-      "drawn": false,
-      "_id": "epVU5H4Q7D129XqV",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Goblins"
     },
     {
       "_originalKey": "!tables.results!WE3jLxZitayQImyL.9D3g43r9b7lWl6J0",
@@ -184,15 +70,15 @@
       "name": "Trolls"
     },
     {
-      "_originalKey": "!tables.results!WE3jLxZitayQImyL.yB2mHjOU1G8GZx7u",
+      "_originalKey": "!tables.results!WE3jLxZitayQImyL.Fkd2qMZLoQqppHD9",
       "type": "text",
       "weight": 1,
       "range": [
-        9,
-        9
+        1,
+        1
       ],
       "drawn": false,
-      "_id": "yB2mHjOU1G8GZx7u",
+      "_id": "Fkd2qMZLoQqppHD9",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -200,7 +86,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Ogres"
+      "name": "Ogre Mage"
     },
     {
       "_originalKey": "!tables.results!WE3jLxZitayQImyL.GUXAaLXimqJE386k",
@@ -220,6 +106,120 @@
       },
       "description": "",
       "name": "Minotaurs"
+    },
+    {
+      "_originalKey": "!tables.results!WE3jLxZitayQImyL.KiihgbKhEMxrRevV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "KiihgbKhEMxrRevV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Kobolds"
+    },
+    {
+      "_originalKey": "!tables.results!WE3jLxZitayQImyL.epVU5H4Q7D129XqV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "epVU5H4Q7D129XqV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Goblins"
+    },
+    {
+      "_originalKey": "!tables.results!WE3jLxZitayQImyL.gfBafcZMJhqObpww",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "gfBafcZMJhqObpww",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Dwarfs"
+    },
+    {
+      "_originalKey": "!tables.results!WE3jLxZitayQImyL.mZ5GNXvowbOEjjUB",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "mZ5GNXvowbOEjjUB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Orcs"
+    },
+    {
+      "_originalKey": "!tables.results!WE3jLxZitayQImyL.oPfNnW4CeEIkdyIF",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "oPfNnW4CeEIkdyIF",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Gnolls"
+    },
+    {
+      "_originalKey": "!tables.results!WE3jLxZitayQImyL.yB2mHjOU1G8GZx7u",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "yB2mHjOU1G8GZx7u",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Ogres"
     }
   ]
 }

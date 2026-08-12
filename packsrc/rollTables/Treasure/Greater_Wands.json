@@ -32,17 +32,17 @@
   "_originalKey": "!tables!CHjHRTGJVfLQHvG1",
   "embedded": [
     {
-      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.ZyytOHIgkkBptKm2",
+      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.4ExM3Q9QO1z2QIaF",
       "type": "text",
       "weight": 1,
       "range": [
-        1,
-        1
+        9,
+        9
       ],
-      "_id": "ZyytOHIgkkBptKm2",
-      "name": "Greater Wand (Level 3 Spell)",
+      "_id": "4ExM3Q9QO1z2QIaF",
+      "name": "Wand of Cold",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JC4RORUVWqssUtV3]{Greater Wand (Level 3 Spell)}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Es8aAzioJ7t3Yjbw]{Wand of Cold}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -50,49 +50,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JC4RORUVWqssUtV3]{Greater Wand (Level 3 Spell)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.u34wAkD8Cdp4Rbfc",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "_id": "u34wAkD8Cdp4Rbfc",
-      "name": "Greater Wand (Level 4 Spell)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UGgxjLbSjiBozzuJ]{Greater Wand (Level 4 Spell)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UGgxjLbSjiBozzuJ]{Greater Wand (Level 4 Spell)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.ImTcUmzphI4Dyc1g",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "ImTcUmzphI4Dyc1g",
-      "name": "Wand of Detection (enemies)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jOXYsuMeInO8jY1K]{Wand of Detection (enemies)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jOXYsuMeInO8jY1K]{Wand of Detection (enemies)}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Es8aAzioJ7t3Yjbw]{Wand of Cold}</p>"
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.53CIC2vKspo9jHbJ",
@@ -116,17 +74,17 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Mw9DJc3WEslyMXdn]{Wand of Detection (metal)}</p>"
     },
     {
-      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.xDgxeLRgahYRKUIs",
+      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.BEDJ9iPzjv8G4mzi",
       "type": "text",
       "weight": 1,
       "range": [
-        5,
-        5
+        10,
+        10
       ],
-      "_id": "xDgxeLRgahYRKUIs",
-      "name": "Wand of Detection (magic)",
+      "_id": "BEDJ9iPzjv8G4mzi",
+      "name": "Wand of Paralyzing",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.4URpcJKLbbeBz8Po]{Wand of Detection (magic)}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.j58sqc8qXIfwYqoB]{Wand of Paralyzing}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
@@ -134,7 +92,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.4URpcJKLbbeBz8Po]{Wand of Detection (magic)}</p>"
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.j58sqc8qXIfwYqoB]{Wand of Paralyzing}</p>"
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.IhYt23U1MuB2ZXzY",
@@ -158,6 +116,48 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.BWweun4eFC7b2kvU]{Wand of Detection (traps and secret doors)}</p>"
     },
     {
+      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.ImTcUmzphI4Dyc1g",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "ImTcUmzphI4Dyc1g",
+      "name": "Wand of Detection (enemies)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jOXYsuMeInO8jY1K]{Wand of Detection (enemies)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jOXYsuMeInO8jY1K]{Wand of Detection (enemies)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.ZyytOHIgkkBptKm2",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "ZyytOHIgkkBptKm2",
+      "name": "Greater Wand (Level 3 Spell)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JC4RORUVWqssUtV3]{Greater Wand (Level 3 Spell)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JC4RORUVWqssUtV3]{Greater Wand (Level 3 Spell)}</p>"
+    },
+    {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.rHxpqOzmdnEQhBmn",
       "type": "text",
       "weight": 1,
@@ -179,6 +179,48 @@
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.wl5fJE9qZdq6pkVm]{Wand of Polymorph}</p>"
     },
     {
+      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.u34wAkD8Cdp4Rbfc",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "u34wAkD8Cdp4Rbfc",
+      "name": "Greater Wand (Level 4 Spell)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UGgxjLbSjiBozzuJ]{Greater Wand (Level 4 Spell)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UGgxjLbSjiBozzuJ]{Greater Wand (Level 4 Spell)}</p>"
+    },
+    {
+      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.xDgxeLRgahYRKUIs",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "xDgxeLRgahYRKUIs",
+      "name": "Wand of Detection (magic)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.4URpcJKLbbeBz8Po]{Wand of Detection (magic)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": null,
+      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.4URpcJKLbbeBz8Po]{Wand of Detection (magic)}</p>"
+    },
+    {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.yAn8cIvDUQaefgtF",
       "type": "text",
       "weight": 1,
@@ -198,48 +240,6 @@
       },
       "documentUuid": null,
       "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ibktzqARoWJgkLRu]{Wand of Fear}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.4ExM3Q9QO1z2QIaF",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        9,
-        9
-      ],
-      "_id": "4ExM3Q9QO1z2QIaF",
-      "name": "Wand of Cold",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Es8aAzioJ7t3Yjbw]{Wand of Cold}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Es8aAzioJ7t3Yjbw]{Wand of Cold}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.BEDJ9iPzjv8G4mzi",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "_id": "BEDJ9iPzjv8G4mzi",
-      "name": "Wand of Paralyzing",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.j58sqc8qXIfwYqoB]{Wand of Paralyzing}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.j58sqc8qXIfwYqoB]{Wand of Paralyzing}</p>"
     }
   ]
 }

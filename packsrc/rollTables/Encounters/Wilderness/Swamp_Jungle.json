@@ -32,27 +32,6 @@
   "_originalKey": "!tables!RMzkO9jlYk9YfOTe",
   "embedded": [
     {
-      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.ZOzHmdsetxvFqd7v",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        1,
-        1
-      ],
-      "_id": "ZOzHmdsetxvFqd7v",
-      "name": "Dragon",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>"
-    },
-    {
       "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.1709C8xxemCuQhrg",
       "type": "document",
       "weight": 1,
@@ -71,112 +50,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.JvUTnbOWrAeIckvu",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.JvUTnbOWrAeIckvu]{Monster (Swamp/Jungle)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.KA1dlHJXE01ADQOq",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        3,
-        3
-      ],
-      "_id": "KA1dlHJXE01ADQOq",
-      "name": "Undead",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.V7WlJzTdibm82PvF",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        4,
-        4
-      ],
-      "_id": "V7WlJzTdibm82PvF",
-      "name": "Animal (Swamp/Jungle)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj]{Animal (Swamp/Jungle)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj]{Animal (Swamp/Jungle)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.uWZgR2AAQsm4W4kf",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        5,
-        5
-      ],
-      "_id": "uWZgR2AAQsm4W4kf",
-      "name": "Humanoid (Swamp/Jungle)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.CS7ZSEqcbSED6kd1]{Humanoid (Swamp/Jungle)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CS7ZSEqcbSED6kd1",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.CS7ZSEqcbSED6kd1]{Humanoid (Swamp/Jungle)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.mHuWul0ABeRFNmrm",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        6,
-        6
-      ],
-      "_id": "mHuWul0ABeRFNmrm",
-      "name": "Human (Swamp/Jungle)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.lZyy7ZKZuwymiJTB]{Human (Swamp/Jungle)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.lZyy7ZKZuwymiJTB",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.lZyy7ZKZuwymiJTB]{Human (Swamp/Jungle)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.J6kzVCKpg12H3IGd",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        7,
-        7
-      ],
-      "_id": "J6kzVCKpg12H3IGd",
-      "name": "Animal (Swamp/Jungle)",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj]{Animal (Swamp/Jungle)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj]{Animal (Swamp/Jungle)}</p>"
+      "text": "Monster (Swamp/Jungle)"
     },
     {
       "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.FVX9dVINtXVOsEtu",
@@ -197,7 +71,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>"
+      "text": "Undead"
     },
     {
       "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.In5vu2TwvGhdIqRa",
@@ -218,7 +92,70 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.JvUTnbOWrAeIckvu",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.JvUTnbOWrAeIckvu]{Monster (Swamp/Jungle)}</p>"
+      "text": "Monster (Swamp/Jungle)"
+    },
+    {
+      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.J6kzVCKpg12H3IGd",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "_id": "J6kzVCKpg12H3IGd",
+      "name": "Animal (Swamp/Jungle)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj]{Animal (Swamp/Jungle)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj",
+      "text": "Animal (Swamp/Jungle)"
+    },
+    {
+      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.KA1dlHJXE01ADQOq",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "_id": "KA1dlHJXE01ADQOq",
+      "name": "Undead",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F]{Undead}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R6rCzZ3B7WTkU87F",
+      "text": "Undead"
+    },
+    {
+      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.V7WlJzTdibm82PvF",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "_id": "V7WlJzTdibm82PvF",
+      "name": "Animal (Swamp/Jungle)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj]{Animal (Swamp/Jungle)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.uLSz8QKWUmPfxFVj",
+      "text": "Animal (Swamp/Jungle)"
     },
     {
       "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.Xb6Cn61NvtX2WiZD",
@@ -239,7 +176,70 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.VynIuQSM4sQvTTpV",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.VynIuQSM4sQvTTpV]{Lycanthrope}</p>"
+      "text": "Lycanthrope"
+    },
+    {
+      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.ZOzHmdsetxvFqd7v",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "_id": "ZOzHmdsetxvFqd7v",
+      "name": "Dragon",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w]{Dragon}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w",
+      "text": "Dragon"
+    },
+    {
+      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.mHuWul0ABeRFNmrm",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "_id": "mHuWul0ABeRFNmrm",
+      "name": "Human (Swamp/Jungle)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.lZyy7ZKZuwymiJTB]{Human (Swamp/Jungle)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.lZyy7ZKZuwymiJTB",
+      "text": "Human (Swamp/Jungle)"
+    },
+    {
+      "_originalKey": "!tables.results!RMzkO9jlYk9YfOTe.uWZgR2AAQsm4W4kf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "_id": "uWZgR2AAQsm4W4kf",
+      "name": "Humanoid (Swamp/Jungle)",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.CS7ZSEqcbSED6kd1]{Humanoid (Swamp/Jungle)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CS7ZSEqcbSED6kd1",
+      "text": "Humanoid (Swamp/Jungle)"
     }
   ]
 }

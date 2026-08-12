@@ -34,6 +34,25 @@
   "_originalKey": "!tables!7czmtZAxw5h6uN2P",
   "embedded": [
     {
+      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.0DFeFGAEanqGkoBN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "0DFeFGAEanqGkoBN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Troll"
+    },
+    {
       "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.0OS2SW8Sj2EbvzvV",
       "type": "text",
       "weight": 1,
@@ -53,15 +72,15 @@
       "name": "Hell Hound"
     },
     {
-      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.reQ5R0QkDjBPkwzn",
+      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.WhzpGleIPS8fdbLB",
       "type": "text",
       "weight": 1,
       "range": [
-        2,
-        2
+        8,
+        8
       ],
       "drawn": false,
-      "_id": "reQ5R0QkDjBPkwzn",
+      "_id": "WhzpGleIPS8fdbLB",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -69,7 +88,46 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Dragon, White"
+      "name": "Spectre"
+    },
+    {
+      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.ZfduXJmrBRbBuZoj",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "ZfduXJmrBRbBuZoj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "",
+      "name": "Medusa"
+    },
+    {
+      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.ZzHKksCf3WDTKBYO",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "ZzHKksCf3WDTKBYO",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "description": "<p>Magic-user, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "name": "Magic-user, level 5",
+      "text": "<p>Magic-user, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
     },
     {
       "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.bEXFJ6fHSnHWan91",
@@ -110,15 +168,15 @@
       "name": "Hydra"
     },
     {
-      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.pSfVyL5xc0IVtdlk",
+      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.fuGlLyX9hFO5Tze1",
       "type": "text",
       "weight": 1,
       "range": [
-        5,
-        5
+        12,
+        12
       ],
       "drawn": false,
-      "_id": "pSfVyL5xc0IVtdlk",
+      "_id": "fuGlLyX9hFO5Tze1",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -126,7 +184,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Basilisk"
+      "name": "Sidhe"
     },
     {
       "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.nlCYZbhKjca23qXT",
@@ -148,15 +206,15 @@
       "name": "Blink Dog"
     },
     {
-      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.ZfduXJmrBRbBuZoj",
+      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.pSfVyL5xc0IVtdlk",
       "type": "text",
       "weight": 1,
       "range": [
-        7,
-        7
+        5,
+        5
       ],
       "drawn": false,
-      "_id": "ZfduXJmrBRbBuZoj",
+      "_id": "pSfVyL5xc0IVtdlk",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -164,18 +222,18 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Medusa"
+      "name": "Basilisk"
     },
     {
-      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.WhzpGleIPS8fdbLB",
+      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.reQ5R0QkDjBPkwzn",
       "type": "text",
       "weight": 1,
       "range": [
-        8,
-        8
+        2,
+        2
       ],
       "drawn": false,
-      "_id": "WhzpGleIPS8fdbLB",
+      "_id": "reQ5R0QkDjBPkwzn",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -183,46 +241,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Spectre"
-    },
-    {
-      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.0DFeFGAEanqGkoBN",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        9,
-        9
-      ],
-      "drawn": false,
-      "_id": "0DFeFGAEanqGkoBN",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Troll"
-    },
-    {
-      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.ZzHKksCf3WDTKBYO",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        10,
-        10
-      ],
-      "drawn": false,
-      "_id": "ZzHKksCf3WDTKBYO",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "<p>Magic-user, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Magic-user, level 5",
-      "text": "<p>Magic-user, level 5 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "name": "Dragon, White"
     },
     {
       "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.uksHMD1HD3QTR3mh",
@@ -240,28 +259,9 @@
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "description": "<p>Thief, level 6 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
+      "description": "<p>Thief, level 6 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
       "name": "Thief, level 6",
-      "text": "<p>Thief, level 6 &mdash; Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
-    },
-    {
-      "_originalKey": "!tables.results!7czmtZAxw5h6uN2P.fuGlLyX9hFO5Tze1",
-      "type": "text",
-      "weight": 1,
-      "range": [
-        12,
-        12
-      ],
-      "drawn": false,
-      "_id": "fuGlLyX9hFO5Tze1",
-      "img": "icons/svg/d20-black.svg",
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "description": "",
-      "name": "Sidhe"
+      "text": "<p>Thief, level 6 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
     }
   ]
 }

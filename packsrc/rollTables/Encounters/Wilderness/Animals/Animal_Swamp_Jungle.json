@@ -66,15 +66,15 @@
       "name": "Snake, Giant"
     },
     {
-      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.fBFgl3tobd7vAHv4",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.NJWQpzSpmiTBmlt0",
       "type": "text",
       "weight": 1,
       "range": [
-        3,
-        3
+        6,
+        6
       ],
       "drawn": false,
-      "_id": "fBFgl3tobd7vAHv4",
+      "_id": "NJWQpzSpmiTBmlt0",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -82,7 +82,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Spiders"
+      "name": "Stirge"
     },
     {
       "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.Umcw4dtterCTk1HR",
@@ -123,15 +123,15 @@
       "name": "Beetle, Giant"
     },
     {
-      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.NJWQpzSpmiTBmlt0",
+      "_originalKey": "!tables.results!uLSz8QKWUmPfxFVj.fBFgl3tobd7vAHv4",
       "type": "text",
       "weight": 1,
       "range": [
-        6,
-        6
+        3,
+        3
       ],
       "drawn": false,
-      "_id": "NJWQpzSpmiTBmlt0",
+      "_id": "fBFgl3tobd7vAHv4",
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
@@ -139,7 +139,7 @@
         "systemId": "fantastic-depths"
       },
       "description": "",
-      "name": "Stirge"
+      "name": "Spiders"
     }
   ]
 }

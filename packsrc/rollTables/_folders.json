@@ -1,4 +1,25 @@
 {
+  "!folders!B8cNTOMbOgydXZ6m": {
+    "name": "Humans",
+    "sorting": "a",
+    "folder": "lPoIuIocXWnON3LC",
+    "type": "RollTable",
+    "_id": "B8cNTOMbOgydXZ6m",
+    "description": "",
+    "sort": 500000,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
   "!folders!ETzWhC2vSLobcR35": {
     "name": "Treasure",
     "sorting": "a",
@@ -7,6 +28,27 @@
     "_id": "ETzWhC2vSLobcR35",
     "description": "",
     "sort": 0,
+    "color": null,
+    "flags": {},
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "12.343",
+      "systemId": "fantastic-depths",
+      "systemVersion": "0.11.8",
+      "createdTime": 1786108896749,
+      "modifiedTime": 1786108896749,
+      "lastModifiedBy": "L03IyVhotkVVcouL"
+    }
+  },
+  "!folders!MXDQEzirAunvNOPp": {
+    "name": "Monsters",
+    "sorting": "a",
+    "folder": "lPoIuIocXWnON3LC",
+    "type": "RollTable",
+    "_id": "MXDQEzirAunvNOPp",
+    "description": "",
+    "sort": 200000,
     "color": null,
     "flags": {},
     "_stats": {
@@ -41,12 +83,12 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!xMFDo9ox1Ubd7hmX": {
-    "name": "Dungeon",
+  "!folders!ZS9fpSE1U85AaXon": {
+    "name": "Other",
     "sorting": "a",
-    "folder": "XyGBiGyqXpomV4Df",
+    "folder": "lPoIuIocXWnON3LC",
     "type": "RollTable",
-    "_id": "xMFDo9ox1Ubd7hmX",
+    "_id": "ZS9fpSE1U85AaXon",
     "description": "",
     "sort": 100000,
     "color": null,
@@ -83,35 +125,14 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!ZS9fpSE1U85AaXon": {
-    "name": "Other",
+  "!folders!oOlRoulqa5E0EOg6": {
+    "name": "Humanoids",
     "sorting": "a",
     "folder": "lPoIuIocXWnON3LC",
     "type": "RollTable",
-    "_id": "ZS9fpSE1U85AaXon",
+    "_id": "oOlRoulqa5E0EOg6",
     "description": "",
-    "sort": 100000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.11.8",
-      "createdTime": 1786108896749,
-      "modifiedTime": 1786108896749,
-      "lastModifiedBy": "L03IyVhotkVVcouL"
-    }
-  },
-  "!folders!MXDQEzirAunvNOPp": {
-    "name": "Monsters",
-    "sorting": "a",
-    "folder": "lPoIuIocXWnON3LC",
-    "type": "RollTable",
-    "_id": "MXDQEzirAunvNOPp",
-    "description": "",
-    "sort": 200000,
+    "sort": 400000,
     "color": null,
     "flags": {},
     "_stats": {
@@ -146,35 +167,14 @@
       "lastModifiedBy": "L03IyVhotkVVcouL"
     }
   },
-  "!folders!oOlRoulqa5E0EOg6": {
-    "name": "Humanoids",
+  "!folders!xMFDo9ox1Ubd7hmX": {
+    "name": "Dungeon",
     "sorting": "a",
-    "folder": "lPoIuIocXWnON3LC",
+    "folder": "XyGBiGyqXpomV4Df",
     "type": "RollTable",
-    "_id": "oOlRoulqa5E0EOg6",
+    "_id": "xMFDo9ox1Ubd7hmX",
     "description": "",
-    "sort": 400000,
-    "color": null,
-    "flags": {},
-    "_stats": {
-      "compendiumSource": null,
-      "duplicateSource": null,
-      "coreVersion": "12.343",
-      "systemId": "fantastic-depths",
-      "systemVersion": "0.11.8",
-      "createdTime": 1786108896749,
-      "modifiedTime": 1786108896749,
-      "lastModifiedBy": "L03IyVhotkVVcouL"
-    }
-  },
-  "!folders!B8cNTOMbOgydXZ6m": {
-    "name": "Humans",
-    "sorting": "a",
-    "folder": "lPoIuIocXWnON3LC",
-    "type": "RollTable",
-    "_id": "B8cNTOMbOgydXZ6m",
-    "description": "",
-    "sort": 500000,
+    "sort": 100000,
     "color": null,
     "flags": {},
     "_stats": {

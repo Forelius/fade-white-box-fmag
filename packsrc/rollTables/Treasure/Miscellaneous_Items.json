@@ -34,130 +34,25 @@
   "_originalKey": "!tables!yXbfWKRSvMy8hEtn",
   "embedded": [
     {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.LvP2ikwWxQxagfyP",
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.7imeAr4Orv0biqOS",
       "type": "document",
       "weight": 1,
       "range": [
-        1,
-        1
+        27,
+        40
       ],
-      "_id": "LvP2ikwWxQxagfyP",
-      "name": "Lesser Wand",
+      "_id": "7imeAr4Orv0biqOS",
+      "name": "Misc. Medium Magical Item",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y]{Lesser Wands}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.ehIVlEbtheHeW0Hw]{Misc. Magic Items (Medium)}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y]{Lesser Wands}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.pj5BE8DVmQNv95v4",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        2,
-        2
-      ],
-      "_id": "pj5BE8DVmQNv95v4",
-      "name": "Lesser Ring",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs]{Lesser Rings}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs]{Lesser Rings}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.a73YZKlt1Zc1FA2y",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        3,
-        20
-      ],
-      "_id": "a73YZKlt1Zc1FA2y",
-      "name": "Misc. Lesser Magical Item",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.IJjLI2atx7TnJnBe]{Misc. Magic Items (Lesser)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.IJjLI2atx7TnJnBe",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.IJjLI2atx7TnJnBe]{Misc. Magic Items (Lesser)}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.t0hHDsHaAwSIwwYs",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        21,
-        22
-      ],
-      "_id": "t0hHDsHaAwSIwwYs",
-      "name": "Lesser Wand",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y]{Lesser Wands}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y]{Lesser Wands}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.znyXKjb8PaO5VEif",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        23,
-        23
-      ],
-      "_id": "znyXKjb8PaO5VEif",
-      "name": "Greater Wand",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1]{Greater Wands}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1]{Greater Wands}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.z8YLEZmihmz9FUEQ",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        24,
-        25
-      ],
-      "_id": "z8YLEZmihmz9FUEQ",
-      "name": "Lesser Ring",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs]{Lesser Rings}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs]{Lesser Rings}</p>"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ehIVlEbtheHeW0Hw",
+      "text": "Misc. Medium Magical Item"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.ChBr9PeAZalH31FN",
@@ -178,28 +73,7 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a]{Greater Rings}</p>"
-    },
-    {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.7imeAr4Orv0biqOS",
-      "type": "document",
-      "weight": 1,
-      "range": [
-        27,
-        40
-      ],
-      "_id": "7imeAr4Orv0biqOS",
-      "name": "Misc. Medium Magical Item",
-      "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.ehIVlEbtheHeW0Hw]{Misc. Magic Items (Medium)}</p>",
-      "drawn": false,
-      "flags": {},
-      "_stats": {
-        "coreVersion": "12.343",
-        "systemId": "fantastic-depths"
-      },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ehIVlEbtheHeW0Hw",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.ehIVlEbtheHeW0Hw]{Misc. Magic Items (Medium)}</p>"
+      "text": "Greater Ring"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.JAtFC4ALTgGfPXCe",
@@ -220,28 +94,28 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1]{Greater Wands}</p>"
+      "text": "Greater Wand"
     },
     {
-      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.vkEtmqh7AgKONG7Q",
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.LvP2ikwWxQxagfyP",
       "type": "document",
       "weight": 1,
       "range": [
-        43,
-        44
+        1,
+        1
       ],
-      "_id": "vkEtmqh7AgKONG7Q",
-      "name": "Greater Ring",
+      "_id": "LvP2ikwWxQxagfyP",
+      "name": "Lesser Wand",
       "img": "icons/svg/d20-black.svg",
-      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a]{Greater Rings}</p>",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y]{Lesser Wands}</p>",
       "drawn": false,
       "flags": {},
       "_stats": {
         "coreVersion": "12.343",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a]{Greater Rings}</p>"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y",
+      "text": "Lesser Wand"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.UZeAn4Xe5EpX5eDA",
@@ -262,7 +136,28 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R5Ft2ovIppE1Irrl",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.R5Ft2ovIppE1Irrl]{Magic Staves}</p>"
+      "text": "Staff"
+    },
+    {
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.a73YZKlt1Zc1FA2y",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        20
+      ],
+      "_id": "a73YZKlt1Zc1FA2y",
+      "name": "Misc. Lesser Magical Item",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.IJjLI2atx7TnJnBe]{Misc. Magic Items (Lesser)}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.IJjLI2atx7TnJnBe",
+      "text": "Misc. Lesser Magical Item"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.ekI6rDMK9GTaipNH",
@@ -283,7 +178,112 @@
         "systemId": "fantastic-depths"
       },
       "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ytSYR2QB1oxa1mgS",
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.ytSYR2QB1oxa1mgS]{Misc. Magic Items (Greater)}</p>"
+      "text": "Misc. Greater Magical Item"
+    },
+    {
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.pj5BE8DVmQNv95v4",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "_id": "pj5BE8DVmQNv95v4",
+      "name": "Lesser Ring",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs]{Lesser Rings}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs",
+      "text": "Lesser Ring"
+    },
+    {
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.t0hHDsHaAwSIwwYs",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        21,
+        22
+      ],
+      "_id": "t0hHDsHaAwSIwwYs",
+      "name": "Lesser Wand",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y]{Lesser Wands}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y",
+      "text": "Lesser Wand"
+    },
+    {
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.vkEtmqh7AgKONG7Q",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        43,
+        44
+      ],
+      "_id": "vkEtmqh7AgKONG7Q",
+      "name": "Greater Ring",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a]{Greater Rings}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a",
+      "text": "Greater Ring"
+    },
+    {
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.z8YLEZmihmz9FUEQ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        24,
+        25
+      ],
+      "_id": "z8YLEZmihmz9FUEQ",
+      "name": "Lesser Ring",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs]{Lesser Rings}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs",
+      "text": "Lesser Ring"
+    },
+    {
+      "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.znyXKjb8PaO5VEif",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "_id": "znyXKjb8PaO5VEif",
+      "name": "Greater Wand",
+      "img": "icons/svg/d20-black.svg",
+      "description": "<p>@UUID[Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1]{Greater Wands}</p>",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.343",
+        "systemId": "fantastic-depths"
+      },
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1",
+      "text": "Greater Wand"
     }
   ]
 }
