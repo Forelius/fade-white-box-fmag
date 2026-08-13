@@ -73,7 +73,7 @@
         "xp": 12000,
         "thac0": 18,
         "thbonus": 1,
-        "hd": "4",
+        "hd": "4d6",
         "hdcon": true,
         "title": "Curate",
         "attackRank": ""
