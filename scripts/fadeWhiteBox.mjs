@@ -19,7 +19,7 @@ Hooks.once('beforeFadeRegisterDefaultSystems', async function (fadeRegistry) {
    userTables.Init();
    fadeRegistry.registerSystem('userTables', userTables, WBUserTables);
    fadeRegistry.registerSystem('moraleCheck', new WBMoraleCheck(), WBMoraleCheck);
-   //fadeRegistry.registerSystem('encumbranceSystem', new WBEncumbrance(), WBEncumbrance);
+   fadeRegistry.registerSystem('encumbranceSystem', new WBEncumbrance(), WBEncumbrance);
    fadeRegistry.registerSystem('actorMovement', new WBActorMovement(), WBActorMovement);
 });
 

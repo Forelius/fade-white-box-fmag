@@ -16,18 +16,20 @@ export class WBUserTables extends UserTables {
 				table: [{
 					key: "elf-human",
 					json: JSON.stringify([
-						{ "max": 75, "value": 12 },
-						{ "max": 100, "value": 9 },
-						{ "max": 150, "value": 6 },
-						{ "max": 300, "value": 3 },
+						{ "min": 0, "move": 12, tier: "unencumbered" },
+						{ "min": 76, "move": 9, tier: "moderately" },
+						{ "min": 101, "move": 6, tier: "encumbered" },
+						{ "min": 151, "move": 3, tier: "heavily" },
+						{ "min": 301, "move": 0, tier: "over" },
 					])
 				}, {
 					key: "dwarf-halfling",
 					json: JSON.stringify([
-						{ "max": 75, "value": 9 },
-						{ "max": 100, "value": 6 },
-						{ "max": 150, "value": 3 },
-						{ "max": 300, "value": 3 },
+						{ "min": 0, "move": 9, tier: "unencumbered" },
+						{ "min": 76, "move": 6, tier: "moderately" },
+						{ "min": 101, "move": 3, tier: "encumbered" },
+						{ "min": 151, "move": 3, tier: "heavily" },
+						{ "min": 301, "move": 0, tier: "over" },
 					])
 				}]
 			};
