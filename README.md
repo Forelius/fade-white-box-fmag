@@ -4,6 +4,10 @@ Unofficial White Box: FMAG Compendiums and module for Fantastic Depths Foundry V
 White Box: Fantastic Medieval Adventure Game is offered as a [free PDF download](https://smolderingwizard.wordpress.com/wp-content/uploads/2023/12/wb_fmag_v21.pdf) by its creator.
 There are many other OSR and WB:FMAG resources at https://smolderingwizard.com/tag/whitebox-fmag/
 
+<div align="left">
+  <img src="./assets/img/WBfmag-Logo.png" alt="Centered Image" width="90">
+</div>
+
 ## Character Level Note
 The game is designed with the philosophy that 4th level characters are already considered "heroic," so the Level 10 cap represents a very high tier of power in this system.
 
