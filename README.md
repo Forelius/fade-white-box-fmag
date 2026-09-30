@@ -14,7 +14,7 @@ There are many other OSR and WB:FMAG resources at https://smolderingwizard.com/t
 
 1. In Foundry **Configuration and Setup** → **Add-on Modules** → **Install Module**
 2. Paste the release manifest URL, e.g.  
-   `https://github.com/Forelius/fade-white-box-fmag/releases/latest/download/module.json`  
+   `https://github.com/Forelius/fade-white-box-fmag/releases/download/latest/module.json`  
    (or a specific version under `releases/download/<tag>/module.json`)
 3. Enable **White Box: FMAG for Fantastic Depths** in the world.
 4. **WARNING:** Do not enable both Fade Compendiums and this module at the same time.
