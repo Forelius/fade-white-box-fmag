@@ -1,4 +1,4 @@
-# White Box: FMAG Module for Fantastic Depths Foundry System
+# White Box: FMAG for Fantastic Depths
 Unofficial White Box: FMAG Compendiums and module for Fantastic Depths Foundry VTT System
 
 White Box: Fantastic Medieval Adventure Game is offered as a [free PDF download](https://smolderingwizard.wordpress.com/wp-content/uploads/2023/12/wb_fmag_v21.pdf) by its creator.
