@@ -8,6 +8,17 @@ There are many other OSR and WB:FMAG resources at https://smolderingwizard.com/t
   <img src="./assets/img/WBfmag-Logo.png" alt="Centered Image" width="90">
 </div>
 
+## Install
+
+### From a GitHub release
+
+1. In Foundry **Configuration and Setup** → **Add-on Modules** → **Install Module**
+2. Paste the release manifest URL, e.g.  
+   `https://github.com/Forelius/fade-white-box-fmag/releases/latest/download/module.json`  
+   (or a specific version under `releases/download/<tag>/module.json`)
+3. Enable **White Box: FMAG for Fantastic Depths** in the world.
+4. **WARNING:** Do not enable both Fade Compendiums and this module at the same time.
+
 ## Character Level Note
 The game is designed with the philosophy that 4th level characters are already considered "heroic," so the Level 10 cap represents a very high tier of power in this system.
 
