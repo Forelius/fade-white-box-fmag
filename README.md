@@ -2,7 +2,7 @@
 Unofficial White Box: FMAG Compendiums and module for Fantastic Depths Foundry VTT System
 
 White Box: Fantastic Medieval Adventure Game is offered as a [free PDF download](https://smolderingwizard.wordpress.com/wp-content/uploads/2023/12/wb_fmag_v21.pdf) by its creator.
-There are many other OSR and WB:FMAG resources at https://smolderingwizard.com/tag/whitebox-fmag/
+There are many other OSR and WB: FMAG resources at https://smolderingwizard.com/tag/whitebox-fmag/
 
 <div align="left">
   <img src="./assets/img/WBfmag-Logo.png" alt="Centered Image" width="90">
@@ -14,7 +14,7 @@ There are many other OSR and WB:FMAG resources at https://smolderingwizard.com/t
 
 1. In Foundry **Configuration and Setup** → **Add-on Modules** → **Install Module**
 2. Paste the release manifest URL, e.g.  
-   `https://github.com/Forelius/fade-white-box-fmag/releases/latest/download/module.json`  
+   `https://github.com/Forelius/fade-white-box-fmag/releases/download/latest/module.json`  
    (or a specific version under `releases/download/<tag>/module.json`)
 3. Enable **White Box: FMAG for Fantastic Depths** in the world.
 4. **WARNING:** Do not enable both Fade Compendiums and this module at the same time.
@@ -49,3 +49,6 @@ Unless stated otherwise, use the default settings.
 - Weapon Mastery: `None`
 - To-Hit System: `Classic`
 - Run Rate Per Round Divisor: `1.5` This is saying double base movement rate for running.
+
+## Licenses
+- Game system information and mechanics are licensed under the [Open Game License](OpenGameLicense.md) (OPEN GAME LICENSE Version 1.0a).
