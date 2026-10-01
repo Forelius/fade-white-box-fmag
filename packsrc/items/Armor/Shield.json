@@ -2,7 +2,7 @@
   "folder": "M4hRf1ospau83VQt",
   "name": "Shield",
   "type": "armor",
-  "img": "modules/fade-white-box-fmag/assets/img/armor/shield.webp",
+  "img": "icons/equipment/shield/round-wooden-reinforced-boss-steel.webp",
   "system": {
     "tags": [],
     "description": "<p>A shield is a large solid piece of wood or metal that is either held in one hand or strapped to one arm. It is used to parry melee attacks and provide cover from missile attacks. A shield is normally used in conjunction with armor and provides an extra bonus of –1 to the character’s armor class. If used without other armor, a shield provides a bonus of –1 to a character’s natural armor class of 9, for a total armor class of 8.</p>",
@@ -45,7 +45,7 @@
     "isOpen": false,
     "isDropped": false,
     "isTreasure": false,
-    "av": null
+    "av": ""
   },
   "effects": [],
   "ownership": {

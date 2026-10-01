@@ -2,7 +2,7 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Club",
   "type": "weapon",
-  "img": "modules/fade-white-box-fmag/assets/img/weapon/club.webp",
+  "img": "icons/weapons/clubs/club-banded-brown.webp",
   "system": {
     "tags": [
       "cleric"

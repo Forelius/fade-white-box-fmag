@@ -163,13 +163,13 @@
     },
     "monsterTypes": [],
     "tags": [],
-   "movement2": {
+    "movement2": {
       "turn": 18,
       "round": 6,
       "day": 18,
       "run": 12,
       "max": 18
-   },
+    },
     "actorGroups": [
       "undead",
       "enchanted"

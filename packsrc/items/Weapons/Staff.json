@@ -2,7 +2,7 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Staff",
   "type": "weapon",
-  "img": "modules/fade-white-box-fmag/assets/img/weapon/staff.webp",
+  "img": "icons/weapons/staves/staff-simple-knotted.webp",
   "system": {
     "tags": [
       "cleric",

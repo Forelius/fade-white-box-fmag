@@ -2,7 +2,7 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Sling",
   "type": "weapon",
-  "img": "modules/fade-white-box-fmag/assets/img/weapon/sling.webp",
+  "img": "icons/weapons/slings/slingshot-wood.webp",
   "system": {
     "tags": [
       "cleric",

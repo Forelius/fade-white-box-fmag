@@ -2,7 +2,7 @@
   "folder": "BI8lOlhN7Xp8AryE",
   "name": "Axe, Hand",
   "type": "weapon",
-  "img": "modules/fade-white-box-fmag/assets/img/weapon/handaxe.webp",
+  "img": "icons/weapons/axes/axe-battle-black.webp",
   "system": {
     "tags": [
       "thrown"
