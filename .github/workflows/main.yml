@@ -49,6 +49,18 @@ jobs:
         echo "To install manually, use this URL:" >> release_notes.txt
         echo "https://github.com/${{github.repository}}/releases/download/latest/module.json" >> release_notes.txt
 
+    - name: Check if the tag commit is in the main branch
+      id: check_main
+      run: |
+        TAG_COMMIT=$(git rev-parse ${{ env.VERSION }})
+        if git merge-base --is-ancestor $TAG_COMMIT origin/main; then
+          echo "The tag is in the main branch history."
+          echo "is_valid=true" >> $GITHUB_ENV
+        else
+          echo "The tag (${{ env.VERSION }}) is NOT in the main branch history. Skipping release."
+          echo "is_valid=false" >> $GITHUB_ENV
+        fi
+
     # Create a zip file with all files required by the module to add to the release
     - name: Create module zip
       run: zip -r ./module.zip ./* -x '.git*' -x '.github/*' -x 'scripts/build/*' -x 'scripts/ps/*' -x 'packsrc/*' -x '.gitignore' -x 'package.json' -x 'package-lock.json' -x '.vscode/*' -x 'node_modules/*'
