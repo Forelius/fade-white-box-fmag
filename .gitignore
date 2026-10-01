@@ -8,3 +8,5 @@ packs
 # Ignore powershell history
 PowerShell_History.txt
 update_basicSight.ps1
+assets/img/weapon
+assets/img/armor
