@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0,
-      "max": 0
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 0,
+          "turn": 0,
+          "round": 0,
+          "day": 0,
+          "run": 0
+        }
+      ]
     },
     "biography": "<p>Yellow mold is a subterranean fungus; it neither moves nor attacks. However, if it is poked or struck, it may (50% chance) release a cloud of poisonous spores, roughly 10 feet in diameter. Failing a saving throw against the spores means that the character dies a rather horrible death. Touching yellow mold causes 1d6 points of acid damage. These growths can be destroyed with fire.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "plants"
     ]

@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 9,
-      "round": 3,
-      "day": 9,
-      "run": 6,
-      "max": 9
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 9,
+          "turn": 9,
+          "round": 3,
+          "day": 9,
+          "run": 6
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 15,
+          "turn": 15,
+          "round": 5,
+          "day": 15,
+          "run": 10
+        }
+      ]
     },
     "biography": "<p>Gargoyles are winged creatures resembling the carved monstrosities that bedeck the walls of cathedrals and many subterranean dungeons. They can be vicious predators.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 15,
-      "round": 5,
-      "day": 15,
-      "run": 10,
-      "max": 15
-    },
     "actorGroups": [
       "constructs"
     ]

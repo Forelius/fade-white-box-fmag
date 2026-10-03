@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 12,
-      "round": 4,
-      "day": 12,
-      "run": 8,
-      "max": 12
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 12,
+          "turn": 12,
+          "round": 4,
+          "day": 12,
+          "run": 8
+        }
+      ]
     },
     "biography": "<p>Bandits are roving groups of thieves, sometimes organized into small armies led by more powerful bandit chiefs and captains with higher hit dice.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

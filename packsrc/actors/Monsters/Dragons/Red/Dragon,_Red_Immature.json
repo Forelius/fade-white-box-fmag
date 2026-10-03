@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 12,
-      "round": 4,
-      "day": 12,
-      "run": 8,
-      "max": 12
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 12,
+          "turn": 12,
+          "round": 4,
+          "day": 12,
+          "run": 8
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 24,
+          "turn": 24,
+          "round": 8,
+          "day": 24,
+          "run": 16
+        }
+      ]
     },
     "biography": "<p>Red dragons are the fire-breathing wyrms of legend. They breathe fire in a cone shape 90 feet long and roughly 30 feet wide at the base.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 24,
-      "round": 8,
-      "day": 24,
-      "run": 16,
-      "max": 24
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

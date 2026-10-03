@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 9,
-      "round": 3,
-      "day": 9,
-      "run": 6,
-      "max": 9
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 9,
+          "turn": 9,
+          "round": 3,
+          "day": 9,
+          "run": 6
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 24,
+          "turn": 24,
+          "round": 8,
+          "day": 24,
+          "run": 16
+        }
+      ]
     },
     "biography": "<p>Efreet are a type of genie, associated with fire (unlike the djinn, who have powers over the air). Efreet can carry up to a thousand pounds of weight, and under the right circumstances they can be forced to serve as a slave (until they figure out how to free themselves). An efreeti can cast Wall of Fire. They appear as giant humans with cruel features, their skin flickering with flames.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 24,
-      "round": 8,
-      "day": 24,
-      "run": 16,
-      "max": 24
-    },
     "actorGroups": [
       "planar",
       "enchanted"

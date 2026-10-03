@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 12,
-      "round": 4,
-      "day": 12,
-      "run": 8,
-      "max": 12
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 12,
+          "turn": 12,
+          "round": 4,
+          "day": 12,
+          "run": 8
+        }
+      ]
     },
     "biography": "<p>Giant rats are often found in dungeons, and are about the size of a cat or a lynx. The bite of some (1 in 20) giant rats causes disease. A saving throw vs. poison is allowed. The effects of the disease are decided by the Referee.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "beasts"
     ]

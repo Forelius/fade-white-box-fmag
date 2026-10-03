@@ -6,25 +6,47 @@ export class WBActorMovement extends ActorMovement {
    }
 
    prepareMovementRates(actor) {
-      if (actor.system.encumbrance.mv > 0) {
-         // Base movement rate in tens of feet.
-         actor.system.movement.turn = actor.system.encumbrance.mv;
-         // Combat sixty seconds round
-         actor.system.movement.round = Math.floor(actor.system.movement.turn / 3);
-         // Miles per day normal rate
-         actor.system.movement.day = actor.system.encumbrance.mv;
-         // Run speed calculated as double combat speed
-         actor.system.movement.run = Math.floor(actor.system.movement.round * 2.0);
-      } else {
-         console.debug(`No movement specified for ${actor.name}`);
+      const movement = actor.system.movement;
+      const modes = movement?.modes;
+      if (!Array.isArray(modes) || modes.length === 0) {
+         console.debug(`No movement modes specified for ${actor.name}`);
+         if (actor.system.encumbrance) {
+            actor.system.encumbrance.mv = null;
+            actor.system.encumbrance.mv2 = null;
+         }
+         return;
       }
-      if (actor.system.encumbrance.mv2 > 0) {
-         actor.system.movement2.turn = actor.system.encumbrance.mv2;
-         actor.system.movement2.round = Math.floor(actor.system.movement2.turn / 3);
-         actor.system.movement2.day = actor.system.encumbrance.mv2;
-         actor.system.movement2.run = Math.floor(actor.system.movement2.round * 2.0);
-      } else {
-         //console.debug(`No movement2 specified for ${actor.name}`);
+
+      const encFactor = movement.modifiers?.encumbrance ?? 1;
+      const fixedPrimary = movement.modifiers?.fixedPrimary;
+
+      for (let i = 0; i < modes.length; i++) {
+         const mode = modes[i];
+         if (mode.base === null || mode.base === undefined) {
+            continue;
+         }
+
+         let effective = null;
+         if (i === 0 && fixedPrimary != null) {
+            effective = fixedPrimary;
+         } else if (mode.base > 0) {
+            effective = Math.floor(mode.base * encFactor);
+         }
+         if (effective == null || effective <= 0) continue;
+
+         // Base movement rate in tens of feet.
+         mode.turn = effective;
+         // Combat sixty seconds round
+         mode.round = Math.floor(mode.turn / 3);
+         // Miles per day normal rate
+         mode.day = effective;
+         // Run speed calculated as double combat speed
+         mode.run = Math.floor(mode.round * 2.0);
+      }
+
+      if (actor.system.encumbrance) {
+         actor.system.encumbrance.mv = modes[0]?.turn ?? null;
+         actor.system.encumbrance.mv2 = modes[1]?.turn ?? null;
       }
    }
 }

@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 6,
-      "round": 2,
-      "day": 6,
-      "run": 4,
-      "max": 6
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 6,
+          "turn": 6,
+          "round": 2,
+          "day": 6,
+          "run": 4
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 24,
+          "turn": 24,
+          "round": 8,
+          "day": 24,
+          "run": 16
+        }
+      ]
     },
     "biography": "<p>A wyvern is the two-legged form of dragon, and these creatures are smaller and less intelligent than true four-legged dragons, not to mention that they do not have a breath weapon. Wyverns have a poisonous sting at the end of their tails, but they are not coordinated enough to attack with both bite and sting in a single round. In any given round, the wyvern is 60% likely to use its tail, which can lash out to the creature's front even farther than its head can reach.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 24,
-      "round": 8,
-      "day": 24,
-      "run": 16,
-      "max": 24
-    },
     "actorGroups": [
       "dragonkind"
     ]

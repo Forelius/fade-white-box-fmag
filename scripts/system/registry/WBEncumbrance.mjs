@@ -32,7 +32,8 @@ export class WBEncumbrance extends ClassicEncumbrance {
       let result = null;
 
       if (actor.type !== "monster" && actor.type !== "vehicle") {
-         const isDwarfHalfling = actor.system.movement.max === 9;
+         const primaryBase = actor.system.movement?.modes?.[0]?.base;
+         const isDwarfHalfling = primaryBase === 9;
          if (isDwarfHalfling) {
             result = this.ENC_TABLES["dwarf-halfling"].find((i) => i.min <= totalEnc)
          } else {
@@ -44,18 +45,18 @@ export class WBEncumbrance extends ClassicEncumbrance {
    }
 
    _calculateEncMovement(actor, encTier) {
-      let result = {
+      const result = {
          label: game.i18n.localize(`FADE.Actor.encumbrance.unencumbered.label`),
          desc: game.i18n.localize(`FADE.Actor.encumbrance.unencumbered.desc`),
-         mv: actor.system.movement.max,
-         mv2: actor.system.movement2.max
+         factor: 1,
+         fixedPrimary: null,
       };
 
       if (actor.type === "character" && encTier != null) {
          result.label = game.i18n.localize(`FADE.Actor.encumbrance.${encTier.tier}.label`);
          result.desc = game.i18n.localize(`FADE.Actor.encumbrance.${encTier.tier}.desc`);
-         result.mv = encTier.move;         
-      } 
+         result.fixedPrimary = encTier.move;
+      }
 
       return result;
    }

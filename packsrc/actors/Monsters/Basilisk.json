@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 6,
-      "round": 2,
-      "day": 6,
-      "run": 4,
-      "max": 6
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 6,
+          "turn": 6,
+          "round": 2,
+          "day": 6,
+          "run": 4
+        }
+      ]
     },
     "biography": "<p>Basilisks are great lizards whose gaze turns to stone anyone meeting its eye (fighting without looking incurs a -4 penalty \"to-hit\"). If the basilisk's own gaze is reflected back at it, it has a 10% chance to force the basilisk into a saving throw against being turned to stone itself.</p><p><strong>Terrain:</strong> Forest, Hills, Swamp, River/Coast, Barren.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "reptiles-dinosaurs"
     ]

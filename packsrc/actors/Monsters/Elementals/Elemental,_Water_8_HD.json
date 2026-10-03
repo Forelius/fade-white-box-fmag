@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 6,
-      "round": 2,
-      "day": 6,
-      "run": 4,
-      "max": 6
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 6,
+          "turn": 6,
+          "round": 2,
+          "day": 6,
+          "run": 4
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 18,
+          "turn": 18,
+          "round": 6,
+          "day": 18,
+          "run": 12
+        }
+      ]
     },
     "biography": "<p>Water elementals cannot move more than 60 feet from a large body of water, and their damage is reduced by 1d6 if the opponent is not standing (or in) a body of water. These powerful beings can overturn small boats, and can overturn a ship if given 1d4+4 minutes to work at it. On water, they can attack ships, battering them to pieces within one hour if not prevented or distracted.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 18,
-      "round": 6,
-      "day": 18,
-      "run": 12,
-      "max": 18
-    },
     "actorGroups": [
       "planar",
       "enchanted"

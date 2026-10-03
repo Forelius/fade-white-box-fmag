@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 18,
-      "round": 6,
-      "day": 18,
-      "run": 12,
-      "max": 18
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 18,
+          "turn": 18,
+          "round": 6,
+          "day": 18,
+          "run": 12
+        }
+      ]
     },
     "biography": "<p>A twenty-foot long horror of chitin, multiple legs, and clashing pincers dripping with venom (+6 modifier to opponent's saving throw).</p><p><strong>Terrain:</strong> Open / Forest, River / Coast, Swamp / Jungle, Hills / Mountains / Barren.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "bugs"
     ]

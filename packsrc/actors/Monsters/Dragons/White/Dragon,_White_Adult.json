@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 12,
-      "round": 4,
-      "day": 12,
-      "run": 8,
-      "max": 12
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 12,
+          "turn": 12,
+          "round": 4,
+          "day": 12,
+          "run": 8
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 24,
+          "turn": 24,
+          "round": 8,
+          "day": 24,
+          "run": 16
+        }
+      ]
     },
     "biography": "<p>White dragons are usually found in cold regions, where they can utilize their natural camouflage in the ice and snow to ambush their prey. They breathe intensely cold air and frost in a cone shape 70 feet long and roughly 30 feet wide at the base.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 24,
-      "round": 8,
-      "day": 24,
-      "run": 16,
-      "max": 24
-    },
     "actorGroups": [
       "dragonkind",
       "reptiles-dinosaurs"

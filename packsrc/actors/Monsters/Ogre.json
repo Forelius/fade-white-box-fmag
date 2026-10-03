@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 9,
-      "round": 3,
-      "day": 9,
-      "run": 6,
-      "max": 9
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 9,
+          "turn": 9,
+          "round": 3,
+          "day": 9,
+          "run": 6
+        }
+      ]
     },
     "biography": "<p>Ogres are normally quite stupid, but more intelligent versions might be encountered here and there. Sometimes ogres are mistaken for trolls.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

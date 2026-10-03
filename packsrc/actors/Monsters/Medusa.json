@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 9,
-      "round": 3,
-      "day": 9,
-      "run": 6,
-      "max": 9
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 9,
+          "turn": 9,
+          "round": 3,
+          "day": 9,
+          "run": 6
+        }
+      ]
     },
     "biography": "<p>Medusae are horrid creatures from Greek mythology with a female face but hair of writhing snakes; they have no legs, but the body of a serpent. The gaze of a medusa turns anyone looking upon it into stone. In addition to the medusa's relatively weak melee-weapon attack, the snake-hair makes one attack per round, causing no damage but lethally poisonous with a successful hit (saving throw applies).</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": []
   },
   "prototypeToken": {

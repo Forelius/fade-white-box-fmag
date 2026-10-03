@@ -12,7 +12,9 @@
       {
         "id": "fantastic-depths",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "1.4.0"
+        }
       }
     ]
   },

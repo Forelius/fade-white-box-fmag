@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 9,
-      "round": 3,
-      "day": 9,
-      "run": 6,
-      "max": 9
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 9,
+          "turn": 9,
+          "round": 3,
+          "day": 9,
+          "run": 6
+        }
+      ]
     },
     "biography": "<p>Ghouls are pack-hunting undead, corpse eaters. They are immune, like most undead, to charms and sleep spells. The most dangerous feature of these horrid, cunning creatures is their paralyzing touch: any hit from a ghoul requires a saving throw or the victim becomes paralyzed for 3d6 turns.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead"
     ]

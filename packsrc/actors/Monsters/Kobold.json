@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 6,
-      "round": 2,
-      "day": 6,
-      "run": 4,
-      "max": 6
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 6,
+          "turn": 6,
+          "round": 2,
+          "day": 6,
+          "run": 4
+        }
+      ]
     },
     "biography": "<p>Kobolds are subterranean, vaguely goblin-like humanoids. They have a -1 to-hit penalty when fighting above ground. Many use slings or short bows, and they fight with short swords or spiked clubs in melee combat.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "weapon-using"
     ]

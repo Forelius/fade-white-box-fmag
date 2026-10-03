@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 12,
-      "round": 4,
-      "day": 12,
-      "run": 8,
-      "max": 12
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 12,
+          "turn": 12,
+          "round": 4,
+          "day": 12,
+          "run": 8
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 18,
+          "turn": 18,
+          "round": 6,
+          "day": 18,
+          "run": 12
+        }
+      ]
     },
     "biography": "<p>The chimera is a winged, three headed beast; one is the head of a goat, one the head of a lion, and one the head of a dragon. The dragon head can breathe fire (3 times per day) with a range of 50 feet, causing 3d8 damage to anyone caught within the fiery blast (saving throw for half damage).</p><p><strong>Terrain:</strong> Open / Forest, Swamp / Jungle, Barren.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 18,
-      "max": 18,
-      "round": 6,
-      "day": 18,
-      "run": 12
-    },
     "actorGroups": []
   },
   "prototypeToken": {

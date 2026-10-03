@@ -36,11 +36,21 @@
       }
     },
     "movement": {
-      "turn": 6,
-      "round": 2,
-      "day": 6,
-      "run": 4,
-      "max": 6
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 6,
+          "turn": 6,
+          "round": 2,
+          "day": 6,
+          "run": 4
+        }
+      ]
     },
     "biography": "<p>Mummies cannot be hit by normal weapons and even magical weapons inflict only half damage against them. Their touch also inflicts a rotting disease which prevents magical healing and causes wounds to heal at one-tenth of the normal rate. A Cure Disease spell can increase healing rate to half normal, but a Remove Curse spell is required to completely lift the mummy's curse.</p>",
     "wrestling": 0,
@@ -163,13 +173,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 0,
-      "max": 0,
-      "round": 0,
-      "day": 0,
-      "run": 0
-    },
     "actorGroups": [
       "undead",
       "enchanted"

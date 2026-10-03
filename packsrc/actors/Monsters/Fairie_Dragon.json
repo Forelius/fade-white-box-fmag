@@ -36,11 +36,30 @@
       }
     },
     "movement": {
-      "turn": 9,
-      "round": 3,
-      "day": 9,
-      "run": 6,
-      "max": 9
+      "modifiers": {
+        "encumbrance": 1,
+        "fixedPrimary": null
+      },
+      "modes": [
+        {
+          "action": "primary",
+          "label": "",
+          "base": 9,
+          "turn": 9,
+          "round": 3,
+          "day": 9,
+          "run": 6
+        },
+        {
+          "action": "secondary",
+          "label": "",
+          "base": 12,
+          "turn": 12,
+          "round": 4,
+          "day": 12,
+          "run": 8
+        }
+      ]
     },
     "biography": "<p>These small gossamer-winged dragons are no larger than a house cat. They are playful and friendly, not typically seeking combat. Instead they breathe a cloud of gas with a 20 foot radius. All creatures caught in the cloud must make a saving throw or be put to sleep for 2d6 hours. If cornered, they will use their ability to cast Invisibility once per day to hide themselves. They are fond of shiny objects and twinkling baubles.</p>",
     "wrestling": 0,
@@ -163,13 +182,6 @@
     },
     "monsterTypes": [],
     "tags": [],
-    "movement2": {
-      "turn": 12,
-      "round": 4,
-      "day": 12,
-      "run": 8,
-      "max": 12
-    },
     "actorGroups": [
       "dragonkind"
     ]
