@@ -44,18 +44,29 @@ export class WBEncumbrance extends ClassicEncumbrance {
       return result;
    }
 
+   /**
+    * WB tables use absolute primary move rates, not FADE's scale factor.
+    * @param {Actor} actor
+    * @returns {number|null}
+    */
+   getAbsolutePrimaryMove(actor) {
+      if (actor.type !== "character" || !(actor.system.encumbrance?.max > 0)) {
+         return null;
+      }
+      const encTier = this._getEncTier(actor, actor.system.encumbrance.value);
+      return encTier?.move ?? null;
+   }
+
    _calculateEncMovement(actor, encTier) {
       const result = {
          label: game.i18n.localize(`FADE.Actor.encumbrance.unencumbered.label`),
          desc: game.i18n.localize(`FADE.Actor.encumbrance.unencumbered.desc`),
          factor: 1,
-         fixedPrimary: null,
       };
 
       if (actor.type === "character" && encTier != null) {
          result.label = game.i18n.localize(`FADE.Actor.encumbrance.${encTier.tier}.label`);
          result.desc = game.i18n.localize(`FADE.Actor.encumbrance.${encTier.tier}.desc`);
-         result.fixedPrimary = encTier.move;
       }
 
       return result;
