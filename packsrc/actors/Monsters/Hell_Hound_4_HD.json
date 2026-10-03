@@ -43,7 +43,6 @@
       "modes": [
         {
           "action": "primary",
-          "label": "",
           "base": 12,
           "turn": 12,
           "round": 4,
