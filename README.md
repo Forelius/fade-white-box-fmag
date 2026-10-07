@@ -1,4 +1,7 @@
 # White Box: FMAG for Fantastic Depths
+![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Fstyle%3Dflat%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FForelius%2Ffantastic-depths%2Frefs%2Fheads%2Fstable%2Fsystem.json)
+![image](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fsystem%3FnameType%3Dfull%26style%3Dflat%26url%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2FForelius%2Ffade-compendiums%2Frefs%2Fheads%2Fstable%2Fmodule.json)
+
 Unofficial White Box: FMAG Compendiums and module for Fantastic Depths Foundry VTT System
 
 White Box: Fantastic Medieval Adventure Game is offered as a [free PDF download](https://smolderingwizard.wordpress.com/wp-content/uploads/2023/12/wb_fmag_v21.pdf) by its creator.
