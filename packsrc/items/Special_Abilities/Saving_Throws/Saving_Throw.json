@@ -24,7 +24,7 @@
     "category": "save",
     "shortName": "Save",
     "combatManeuver": "null",
-    "customSaveCode": "save",
+    "customCode": "save",
     "classKey": "",
     "showResult": true,
     "quantity": 1,
