@@ -235,18 +235,6 @@
     "spells": [],
     "key": "FA",
     "description": "<p>The Fighter is a skilled combatant, honed in the arts of warfare, adept with armor and weapons. Your character could be a fierce Viking raider, a wandering samurai, or a chivalrous medieval knight. As the most well-equipped class to both inflict and withstand damage, Fighters frequently find themselves at the forefront of battle, clashing directly with dragons, goblins, and sinister cultists. If you take on the role of the party’s Fighter, the gritty, hands-on tasks fall to you.</p><h2>Weapon and Armor Restrictions</h2><p>Fighters, being thoroughly trained in the ways of warfare, face no limitations on the types of weapons or armor they may wield.</p>",
-    "classAbilities": [
-      {
-        "level": 1,
-        "name": "Combat Fury",
-        "target": 0
-      },
-      {
-        "level": 9,
-        "name": "Establish Stronghold",
-        "target": 0
-      }
-    ],
     "castAsKey": "",
     "abilities": {
       "str": {

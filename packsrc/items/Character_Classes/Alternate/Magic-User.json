@@ -316,18 +316,6 @@
     "minWis": 3,
     "key": "MA",
     "description": "<p>The Magic-user is an enigmatic individual, a scholar of arcane forces and shadowy sorcery. They possess the potential to become formidable adversaries. Yet, at lower levels, their fragility leaves them reliant on the protection of their fellow party members. As Magic-users advance, they typically rise to become the most potent among the character classes, wielding influence over the political fates of mighty kingdoms and crafting extraordinary magical artifacts.</p><h2>Weapon and Armor Restrictions</h2><p>Magic-users dedicate their waking hours to poring over arcane tomes and scrolls, leaving them scant time to practice with weapons or master the skills of physical combat. Consequently, they are restricted to wielding only daggers or staves and are prohibited from using armor.</p>",
-    "classAbilities": [
-      {
-        "level": 1,
-        "name": "Spell Casting",
-        "target": 0
-      },
-      {
-        "level": 10,
-        "name": "Establish Tower",
-        "target": 0
-      }
-    ],
     "castAsKey": "M",
     "abilities": {
       "str": {

@@ -235,38 +235,6 @@
     "firstLevel": 1,
     "key": "TA",
     "description": "<p>Among the many adventurers who brandish swords and cast spells while delving into tombs and dungeons, the thief pursues a different path. He seeks to reclaim lost treasures by employing cunning and stealth. Although skilled in the use of weapons, he is not primarily a fighter. Rather, he strikes from the shadows, his sharp eyes detecting perils that escape the notice of his companions. Thieves seldom possess noble character; more commonly, they are practical professionals seeking chances to swiftly accumulate substantial riches. Nevertheless, their distinctive abilities render them highly valuable to fellow dungeon explorers, and certain thieves adhere to a principle of \"honor among thieves.\"</p><p>Thieves typically equip themselves with only a handful of weapons and light armor, depending instead on lockpicks and tools for their survival. When battle ensues, they melt into the darkness, poised to sink a dagger into the backs of unwary enemies. The exceptional thief who succeeds in gathering both wealth and renown is apt to retire and establish a guild of others possessing comparable talents.</p><h3>Weapons and Armor Restrictions</h3><p><span style=\"font-family: sans-serif\">Thieves possess agility and combat prowess, enabling them to use any weapon. Nevertheless, they favor their quick reflexes and opt to wear only leather armor.</span></p>",
-    "classAbilities": [
-      {
-        "level": 1,
-        "name": "Back Stab",
-        "target": 0
-      },
-      {
-        "level": 1,
-        "name": "Thievery",
-        "target": 2
-      },
-      {
-        "level": 4,
-        "name": "Thievery",
-        "target": 3
-      },
-      {
-        "level": 7,
-        "name": "Thievery",
-        "target": 4
-      },
-      {
-        "level": 9,
-        "name": "Establish Guild",
-        "target": 0
-      },
-      {
-        "level": 10,
-        "name": "Thievery",
-        "target": 5
-      }
-    ],
     "castAsKey": "",
     "abilities": {
       "str": {

@@ -262,23 +262,6 @@
     "minWis": 3,
     "key": "E",
     "description": "<p>Some Referees may choose to permit Elves to progress as a hybrid of Fighter and Magic-user, rather than alternating between the two. In this model, the following advancement table can be utilized. Aside from Character Advancement and Weapon and Armor Restrictions, the Elven Race Abilities will remain unchanged.</p><h3>Weapon and Armor Restrictions</h3><p>Elves possess the unique advantage of wielding both magic and armor simultaneously; therefore, the Referee may restrict them to wearing chain mail. Additionally, Elves are not permitted to use two-handed weapons (such as two-handed swords or polearms) or shields while casting spells.</p>",
-    "classAbilities": [
-      {
-        "level": 1,
-        "name": "Hereditary Foes",
-        "target": 0
-      },
-      {
-        "level": 1,
-        "name": "Immune to Undead Paralysis",
-        "target": 0
-      },
-      {
-        "level": 1,
-        "name": "Keen Detection",
-        "target": 4
-      }
-    ],
     "castAsKey": "M",
     "specialAbilities": [
       {
