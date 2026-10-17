@@ -25,7 +25,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d10",
@@ -46,11 +46,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.VJJxff6V0hWLYHeY]{Staff of Healing}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.5z8jyNBju3Coo3wL",
@@ -67,11 +66,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.r3BiwYhOMz9Jy9kR]{Staff of Beguiling}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.7JCcwXDaSqqmuKcy",
@@ -88,11 +86,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ryUFlQopQtcFLQ8x]{Staff of Withering}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.hazh89MDZBIn2vBT",
@@ -109,11 +106,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eMY26KxC0KsCJ6Io]{Staff of Command}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.hd448zGPVlefQ4MW",
@@ -130,11 +126,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.SYSei8PcQ41kjbFa]{Staff of Wizardry}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.iPHwyXtX5Fi9a7R0",
@@ -151,11 +146,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JdIOZyXPbcpvGyPE]{Staff of Striking}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.nRYOBFdat9mNRG9V",
@@ -172,11 +166,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mhbp0Lgy9tS6SGBm]{Staff of Lordly Might}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.rLA8V02YX9UAc46j",
@@ -193,11 +186,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iSWOUDBoNcpnBGax]{Staff of Power}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.uBvuyDgBizikEKWy",
@@ -214,11 +206,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GTZ3I6DXkxbXo2f6]{Staff of Absorption}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!R5Ft2ovIppE1Irrl.wQzncu4HBM6yOKz6",
@@ -235,11 +226,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LO9jpp7pPgSlCEu9]{Staff of the Snake}</p>"
+      "documentUuid": null
     }
   ]
 }

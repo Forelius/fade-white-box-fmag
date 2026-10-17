@@ -19,7 +19,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d4",
@@ -40,11 +40,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.KJvargiEHOvJx28y]{+1 Sword, Long (+4 vs. Dragons)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!gf7NYgwtXo0vtWX1.EKbIlO2zYwnzkhjF",
@@ -61,11 +60,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kudcayxppmgemBpJ]{+1 Sword, Long (+4 vs. Undead)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!gf7NYgwtXo0vtWX1.FYh53tGeVTJ0dgZ7",
@@ -82,11 +80,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.PwpR8VgnsYNnAIep]{+1 Sword, Long (+4 vs. Giants)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!gf7NYgwtXo0vtWX1.OBW75HDAWAhfbOI3",
@@ -103,11 +100,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.7JwGkCiMSSVDfHgy]{+1 Sword, Long (+4 vs. Lycanthropes)}</p>"
+      "documentUuid": null
     }
   ]
 }

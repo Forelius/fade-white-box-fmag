@@ -25,7 +25,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d12",
@@ -46,7 +46,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -65,7 +65,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -84,7 +84,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -103,12 +103,11 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "<p>Magic-user, level 4 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Magic-user, level 4",
-      "text": "<p>Magic-user, level 4 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "name": "Magic-user, level 4"
     },
     {
       "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.FNwbcdMDgBjDWNoL",
@@ -123,12 +122,11 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "<p>Cleric, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Cleric, level 5",
-      "text": "<p>Cleric, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "name": "Cleric, level 5"
     },
     {
       "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.JDx9Uq42pcj4nLL7",
@@ -143,12 +141,11 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "<p>Fighter, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Fighter, level 5",
-      "text": "<p>Fighter, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "name": "Fighter, level 5"
     },
     {
       "_originalKey": "!tables.results!dGYpaZe6wMdMblGG.Lqtg3lJhchBd8b5P",
@@ -163,7 +160,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -182,7 +179,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -201,7 +198,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -220,7 +217,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -239,7 +236,7 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "",
@@ -258,12 +255,11 @@
       "img": "icons/svg/d20-black.svg",
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
       "description": "<p>Thief, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>",
-      "name": "Thief, level 5",
-      "text": "<p>Thief, level 5 — Alignment: [[1d6]] (1-3 Chaotic, 4-5 Neutral, 6 Lawful)</p>"
+      "name": "Thief, level 5"
     }
   ]
 }

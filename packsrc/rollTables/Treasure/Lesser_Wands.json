@@ -18,7 +18,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d6",
@@ -39,11 +39,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3IW0458LXBXRN5Ql]{Lesser Wand (Level 1 Spell)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!08pnXtgyMWNZas5Y.XonEdGULP5C74ldQ",
@@ -60,11 +59,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.KpEZH99BWJuNm2gs]{Lesser Wand (Level 2 Spell)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!08pnXtgyMWNZas5Y.Yoi0rHDio6PMXjAX",
@@ -81,11 +79,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CD3gQ1q1tig5gFAI]{Lesser Wand (Level 3 Spell)}</p>"
+      "documentUuid": null
     }
   ]
 }

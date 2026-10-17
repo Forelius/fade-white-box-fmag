@@ -35,7 +35,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d20",
@@ -56,11 +56,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Hy8DV0nFo8ANFeHm]{Horn of Blasting}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.3VI75BaIWOzJxofD",
@@ -77,11 +76,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.shNjs0gsJnKh82Il]{Girdle of Giant Strength}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.5O4pbVXwj4ri3sFR",
@@ -98,11 +96,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nFp1nIOXIREh2MFA]{Gauntlets of Dexterity}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.8QxoJSLEOK3vUWnB",
@@ -119,11 +116,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Vakfxf2UPD6HS7j1]{Figurine of the Golden Lions}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.Gmb66LhM2mTdjPZ8",
@@ -140,11 +136,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2gyQDX8Vz6fKo6W9]{Gem of Seeing}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.INyGvAEzm2gEK7g7",
@@ -161,11 +156,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.3BbBD4SS43Zw23uA]{Helm of Teleportation}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.LU6O15gddKQqj6Ok",
@@ -182,11 +176,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.u6HqJrygjkhLjwmk]{Manual of the Golems}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.N0HnOU2sqyZG2a7o",
@@ -203,11 +196,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.h4U8hg5D2UDpdeCI]{Manual of Intelligence}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.VxZn7mYjuIr6gAKM",
@@ -224,11 +216,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.K420gxyluV22FzbT]{Censer, Bowl, Brazier, or Stone of Controlling Elementals}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.Z2MerqBDojYrXD7h",
@@ -245,11 +236,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GQ1u7Ydz81cGggi7]{Libram, magical (level gain)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.a3d9OlJEF1KNqN65",
@@ -266,11 +256,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.obLC8eaXw3Echumt]{Beaker of Potions}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.cNMndIMJTHPOjTrl",
@@ -287,11 +276,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.n3q0eX3S4XIQbfSe]{Symbol—Scarab of Insanity}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.fvrZuYoIES357vHH",
@@ -308,11 +296,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.38MyibY6mJJ3p6BT]{Horn of Valhalla, Iron}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.jOBCHBpbXKdt4Bcc",
@@ -329,11 +316,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iQz43kdcUVdvpBUz]{Manual of Wisdom}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.rNEyV8zZv3JSzGol",
@@ -350,11 +336,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kwHA0A8cPUCR08gt]{Efreeti Bottle}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.sFfgcRSrzNAl5Oww",
@@ -371,11 +356,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1VBXjBzdecPenaMO]{Crystal Ball}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.tn2SP4yiPLWdf8pt",
@@ -392,11 +376,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xBqdaCbbcNX1gD3f]{Amulet of Demon Control}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.ud8dafAJfLllMXAY",
@@ -413,11 +396,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.7PiTOZSHC3oWGCTF]{Helm of Fiery Brilliance}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.xwBo5wOSq9ArFtHn",
@@ -434,11 +416,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.sM5vt3nIr3WJZrDo]{Necklace of Fireballs}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ytSYR2QB1oxa1mgS.yzGtLe7ojdIw3wFX",
@@ -455,11 +436,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rBBWAvXJs3GBlYHp]{Lenses of Charming}</p>"
+      "documentUuid": null
     }
   ]
 }

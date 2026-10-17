@@ -19,7 +19,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d4",
@@ -40,11 +40,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.mm69Ft3LDs3IcqQE]{+1 Mace of Undead Slaying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.O6PqE8X9xhe7rmMZ",
@@ -61,11 +60,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.w63xT0vJRoBvcGyq]{+1 Sling of Undead Slaying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.YiolxJwfHx5co3Ut",
@@ -82,11 +80,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.lSNJ5FxOldtDqFon]{+1 Warhammer of Undead Slaying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!wtapVsA6gBdQ6Hd5.f4p96VPAHu5Nj01U",
@@ -103,11 +100,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2ImO3KuhuTdptfTB]{+1 Staff of Undead Slaying}</p>"
+      "documentUuid": null
     }
   ]
 }

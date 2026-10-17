@@ -37,7 +37,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d100",
@@ -58,11 +58,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jb8fLlNTOURgwhoG]{Potion of Heroism}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.5Ri5T35ZBwdzmilB",
@@ -79,11 +78,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.iR0hZrWVKBdJGxQA]{Potion of Fire Resistance}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.6d2JsAbbdjf6Vt3z",
@@ -100,11 +98,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.t57pKUSJs39cheWw]{Potion of Levitation}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.9Qo2GPivtkh9Y47E",
@@ -121,11 +118,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.28e1oYjq645AFsil]{Potion of Slipperiness}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.CH1IFSwPYe2mDLn1",
@@ -142,11 +138,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.qahjXuJUMrYAzt9k]{Potion of Poison}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.IDuUJ25zVMVMky5p",
@@ -163,11 +158,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LD3bzQXCeW4Zi5K]{Potion of Growth}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.JK6LkYKycnAI9TKI",
@@ -184,11 +178,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.hdmH2QKUSlFYBqXN]{Potion of Flying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.JXT1bLR9rDz4d9J8",
@@ -205,11 +198,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.6qhwyY0ISFGzAECj]{Potion of Plant Control}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.MX3pdNKI3LmWwxeS",
@@ -226,11 +218,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.DHWfSZXAY9v2niph]{Potion of Clairvoyance}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.O9RAuVK0wg59ZmEB",
@@ -247,11 +238,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.YBoj1TupqmfhUMvi]{Potion of Diminution}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.PFyBG8tSkdeq2KQ2",
@@ -268,11 +258,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Q0qXnT2pKo48BRIN]{Potion of Treasure Finding}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.SOUSBHSDnYZLA4S0",
@@ -289,11 +278,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.vgn2YVyjXfP7a6xH]{Potion of Invulnerability}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.ZAbNfEWHAtQ5MkY0",
@@ -310,11 +298,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.bAe7wFfmWXyM58i6]{Potion of Invisibility}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.ZmatuJFUpWlUMZTO",
@@ -331,11 +318,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.L9CfktJ0RAyroOB2]{Potion of Gaseous Form}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.bozvDUkKxz2aTUp5",
@@ -352,11 +338,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.XBNstL9SQIcjwZhg]{Potion of Animal Control}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.c5Jma6wBwOL0TymT",
@@ -373,11 +358,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2BGqZCLFExjoNgc6]{Potion of Ethereality}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.emg1xTDMC35VRBMU",
@@ -394,11 +378,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uNJQEILSmcxAzjnR]{Potion of Undead Control}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.iKu0SnXGSBvKafGD",
@@ -415,11 +398,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.xGTKmICFXy7ua2qH]{Potion of Clairaudience}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.kYCG4cEvHSsViq7s",
@@ -436,11 +418,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.gX0sPeEprv8fJA39]{Potion of Dragon Control}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.lCmK3ieSXYUxLWc0",
@@ -457,11 +438,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.2D9mOnpEi7WN4LbG]{Potion of Giant Strength}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.pzrr41LSE5jnEQ69",
@@ -478,11 +458,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.RQtM627g8eWJEZhz]{Potion of Extra Healing}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!1MQS0AqVaEz0nr6I.s78DjNF78181ROf4",
@@ -499,11 +478,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ouj2nJP1XOpFxSf9]{Potion of Healing}</p>"
+      "documentUuid": null
     }
   ]
 }

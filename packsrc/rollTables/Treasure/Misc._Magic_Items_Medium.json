@@ -35,7 +35,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d20",
@@ -56,11 +56,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GYqiDRYi8LootG1U]{Carpet of Flying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.1MCqjKeNWc98mM1E",
@@ -77,11 +76,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CFGOveGbA0WW90yt]{Robe of Wizardry}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.41aQfj7hRMmEsvzn",
@@ -98,11 +96,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.yky2C1u0wz6OvMaq]{Horn of Valhalla, Silver}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.6cy8BKHW4G5Dhk2C",
@@ -119,11 +116,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.1LLrn8UJl1HKKTzm]{Robe of Blending}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.9pMoQxq2ZT2iR2dI",
@@ -140,11 +136,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.CsjOxVYd0OBt9Lly]{Mirror of Mental Scrying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.AQsh5oPhyCUI7xLK",
@@ -161,11 +156,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.LMy5DXgohvsAiQiN]{Hole, Portable}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.Buw4twvaiV5DCjGB",
@@ -182,11 +176,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.kWfmwSO15MoFksUH]{Bracers of Defense, AC 4 [15] or 2 [17] (50%)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.DdzpRabH72xz1vXu",
@@ -203,11 +196,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.QPZ6FO2kIspirUGs]{Cloak of Displacement}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.I31WwQCpsLao5vtA",
@@ -224,11 +216,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.uJlqS7b6RKaz3NP4]{Gauntlets of Ogre Power}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.NHkRLi9NC5OzfjBq",
@@ -245,11 +236,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.m3fK9eBADm66Sra1]{Cloak of Protection, +2 or +3}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.Tzg189D8sPXmgk2C",
@@ -266,11 +256,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ZXYxnKnl5ajX9xUR]{Figurine of the Onyx Dog}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.XblCwX553UVb4aPG",
@@ -287,11 +276,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rIWRFOlKnuXTYRJ5]{Helm of Read Magic and Languages}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.YJwqOZHfgu2s43kk",
@@ -308,11 +296,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Eubq1AWQvgqpnpUW]{Robe of Eyes}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.f2aUydtBKkOKq30P",
@@ -329,11 +316,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.tOyKbDdAH0UP1Z2M]{Jug of Alchemy}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.fHJWwuyZ1K0CYJm7",
@@ -350,11 +336,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.rZ9wP3Ef5ldQ9aPM]{Manual of Quickness}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.hHrhfSZRFXJkReF4",
@@ -371,11 +356,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.AO3mIYRNa4VjsyrP]{Medallion of Detect Thoughts (ESP)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.qyH51CSPGAf6PCsY",
@@ -392,11 +376,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.5WWstjOYduxpJ6CN]{Deck of Many Things}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.tQ3bvpsHjiYnkJcy",
@@ -413,11 +396,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.eUZvQvkOyFGPL4iQ]{Amulet Against Scrying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.uWZ5zqoxlSJ6fNfK",
@@ -434,11 +416,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Jvj1TerNigRq14Ru]{Boots of Flying}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!ehIVlEbtheHeW0Hw.x90yFqe6IZ4uw7Wl",
@@ -455,11 +436,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.fivtEmWvSJ2DlvjH]{Horn of Valhalla, Bronze}</p>"
+      "documentUuid": null
     }
   ]
 }

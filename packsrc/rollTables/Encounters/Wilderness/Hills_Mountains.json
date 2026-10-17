@@ -23,7 +23,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d10",
@@ -46,11 +46,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.159OMqT3Q6mAfKPV",
-      "text": "Human (Hills/Mountains/Barren)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.159OMqT3Q6mAfKPV"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.AG4I1gpbbXhD3O7Z",
@@ -67,11 +66,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
-      "text": "Humanoid (Hills/Mountains/Barren)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.GhY5NhkCeQm3NyK5",
@@ -88,11 +86,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w",
-      "text": "Dragon"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.nHNhmi1fhdjSNv1w"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.SmjOAaUUl1TuVRg9",
@@ -109,11 +106,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
-      "text": "Humanoid (Hills/Mountains/Barren)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.X0CAPwdr1ekCdGPS",
@@ -130,11 +126,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.NaX3IhKVdy0yEOvE",
-      "text": "Giant"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.NaX3IhKVdy0yEOvE"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.blDDGt6ZZz1osBWu",
@@ -151,11 +146,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.gXbsVTQO6uc1XTc8",
-      "text": "Monster (Hills/Mountains)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.gXbsVTQO6uc1XTc8"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.sLZR9KbS41q4RdT3",
@@ -172,11 +166,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
-      "text": "Humanoid (Hills/Mountains/Barren)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.sjsCzkqsVCWUKNFi",
@@ -193,11 +186,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y",
-      "text": "Animal (Hills/Mountains/Barren)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.v2k2CHxrCs0ha9FF",
@@ -214,11 +206,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y",
-      "text": "Animal (Hills/Mountains/Barren)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.d2fnTzw2XKNrDv2y"
     },
     {
       "_originalKey": "!tables.results!WJtDrypZ5bFmfgu7.zUT2tG4ja1T6i2Mg",
@@ -235,11 +226,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL",
-      "text": "Humanoid (Hills/Mountains/Barren)"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.WE3jLxZitayQImyL"
     }
   ]
 }

@@ -27,7 +27,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d60",
@@ -48,11 +48,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ehIVlEbtheHeW0Hw",
-      "text": "Misc. Medium Magical Item"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ehIVlEbtheHeW0Hw"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.ChBr9PeAZalH31FN",
@@ -69,11 +68,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a",
-      "text": "Greater Ring"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.JAtFC4ALTgGfPXCe",
@@ -90,11 +88,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1",
-      "text": "Greater Wand"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.LvP2ikwWxQxagfyP",
@@ -111,11 +108,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y",
-      "text": "Lesser Wand"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.UZeAn4Xe5EpX5eDA",
@@ -132,11 +128,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R5Ft2ovIppE1Irrl",
-      "text": "Staff"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.R5Ft2ovIppE1Irrl"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.a73YZKlt1Zc1FA2y",
@@ -153,11 +148,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.IJjLI2atx7TnJnBe",
-      "text": "Misc. Lesser Magical Item"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.IJjLI2atx7TnJnBe"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.ekI6rDMK9GTaipNH",
@@ -174,11 +168,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ytSYR2QB1oxa1mgS",
-      "text": "Misc. Greater Magical Item"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.ytSYR2QB1oxa1mgS"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.pj5BE8DVmQNv95v4",
@@ -195,11 +188,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs",
-      "text": "Lesser Ring"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.t0hHDsHaAwSIwwYs",
@@ -216,11 +208,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y",
-      "text": "Lesser Wand"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.08pnXtgyMWNZas5Y"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.vkEtmqh7AgKONG7Q",
@@ -237,11 +228,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a",
-      "text": "Greater Ring"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.3qVhnr5CEhxUUC9a"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.z8YLEZmihmz9FUEQ",
@@ -258,11 +248,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs",
-      "text": "Lesser Ring"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.qrf5VSUlEf62TqAs"
     },
     {
       "_originalKey": "!tables.results!yXbfWKRSvMy8hEtn.znyXKjb8PaO5VEif",
@@ -279,11 +268,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1",
-      "text": "Greater Wand"
+      "documentUuid": "Compendium.fade-white-box-fmag.rollTables.RollTable.CHjHRTGJVfLQHvG1"
     }
   ]
 }

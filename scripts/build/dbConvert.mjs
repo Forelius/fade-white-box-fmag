@@ -338,24 +338,38 @@ class dbConvert {
    async migrateRollTable(typeSegment, document) {
       let result = document;
       if (typeSegment === "tables.results") {
-         //console.debug("migrateRollTable:", typeSegment, document);
-         // If v13 format then backport
-         if (document.type === "text") {
-            if (document.description && !document.name) {
-               result.name = document.description;
-               result.description = "";
-               result.text = result.name;
-            } else if (document.description && !document.text) {
-               result.text = document.description;
+         // Forward-migrate legacy v12 TableResult fields to v13+/v14 shape.
+         // Do not backport to text / documentCollection / documentId.
+         if ((!result.name || result.name === "") && result.text) {
+            result.name = result.text;
+         }
+         if ((!result.name || result.name === "") && result.description) {
+            result.name = result.description;
+            result.description = "";
+         }
+         if (result.description == null) {
+            result.description = "";
+         }
+         if (!result.documentUuid && result.documentId && result.documentCollection) {
+            const coll = result.documentCollection;
+            let prefix = null;
+            if (coll === "RollTable" || String(coll).includes("rollTables")) {
+               prefix = "Compendium.fade-white-box-fmag.rollTables.RollTable.";
+            } else if (coll === "Actor" || String(coll).includes("actors")) {
+               prefix = "Compendium.fade-white-box-fmag.actors.Actor.";
+            } else if (coll === "Item" || String(coll).includes("items")) {
+               prefix = "Compendium.fade-white-box-fmag.items.Item.";
+            } else if (coll === "Macro" || String(coll).includes("macros")) {
+               prefix = "Compendium.fade-white-box-fmag.macros.Macro.";
             }
-         } else if (document.type === "document") {
-            if (document.name && !document.text) {
-               result.text = document.name;
-            }
-            if (document.text && !document.name) {
-               result.name = document.text
+            if (prefix) {
+               result.documentUuid = prefix + result.documentId;
+               if (result.type === "pack") result.type = "document";
             }
          }
+         delete result.text;
+         delete result.documentCollection;
+         delete result.documentId;
       }
       return result;
    }
@@ -366,7 +380,7 @@ class dbConvert {
    */
    async removeStats(document) {
       document._stats = {
-         "coreVersion": "12.343",
+         "coreVersion": "14.0.0",
          "systemId": "fantastic-depths",
          //"systemVersion": document.systemVersion,
          //    "createdTime": null,

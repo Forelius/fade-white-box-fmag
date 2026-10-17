@@ -35,7 +35,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d20",
@@ -56,11 +56,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.hblK2VTDmkBl9oEz]{Bracers of Defense, AC 6 [13]}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.76kEa4L5eA0rKKFC",
@@ -77,11 +76,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UDmUhabcApKDEBaG]{Cloak of Protection, +1}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.86VkdDbdEmZnDL00",
@@ -98,11 +96,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.S8cLxPKdeU6L0xeE]{Spade of Excavation}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.B0rFzyCv6PIYqd4N",
@@ -119,11 +116,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.PEAtw0B6z3HJilhq]{Arrow of Direction}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.PIGIvkQ0tO725fsW",
@@ -140,11 +136,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.a6lpn06B4qJub4ee]{Dust of Sneezing and Choking}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.QDCmoZbTwypmflHv",
@@ -161,11 +156,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.dzIa4kBALefma3K0]{Manual of Beneficial Exercise}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.XNHgdZG2BeDHWZYY",
@@ -182,11 +176,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.cKbGDp59Kju81eji]{Chime of Opening}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.Y1MB4W4CX3iW5PjJ",
@@ -203,11 +196,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.WY930dotkp4YZejU]{Boots of Elvenkind}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.ZKlLRCBOaEU1qN3M",
@@ -224,11 +216,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Z4rCRtIs8jZb5JDE]{Pipes of the Sewers}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.a0mGLFshimAQX2Rw",
@@ -245,11 +236,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.PsE2tT218JzuRX8Z]{Bag of Holding}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.aksMwjSHAb36MlO4",
@@ -266,11 +256,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Cwl0MvmMVz81GZ21]{Horseshoes of Speed}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.alawCkCmh1v5McyI",
@@ -287,11 +276,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.6qeILdScFlvMvo2N]{Boots of Speed or Leaping (50%)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.ciiySdZXekS8XBWj",
@@ -308,11 +296,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.KwaTX12GqvPcDjG2]{Decanter of Endless Water}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.hRpvI5QzahBytnv8",
@@ -329,11 +316,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.8H64U1qucvGcYsnW]{Rope of Entanglement}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.itIFOWkb2qFb7JbY",
@@ -350,11 +336,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Xe4ddg5PjVwbS62N]{Luckstone}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.mKJO6A38xS4hGJGF",
@@ -371,11 +356,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.bgghalO88EuXYvwJ]{Cloak of Elvenkind}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.q85JluBcYuTSt69g",
@@ -392,11 +376,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.IpzgjIZ7iRFgABWt]{Dust of Appearance or Disappearance (50%)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.rpMbwwLOO9heg0cn",
@@ -413,11 +396,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.TvCF3B8nTHBajmRT]{Rope of Climbing}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.vaThqnGG2N2ALCbx",
@@ -434,11 +416,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Tm3hyVJS2SBxWoxK]{Cursed Item}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!IJjLI2atx7TnJnBe.zLNFsN5ADSwBUzOu",
@@ -455,11 +436,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.HH39eIfyJ5AoT6Dr]{Gauntlets of Swimming and Climbing}</p>"
+      "documentUuid": null
     }
   ]
 }

@@ -21,7 +21,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d6",
@@ -42,11 +42,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.nQIYL8iDWBh46OAX]{Ring of Protection +2}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.DqQA1YleGhApMGAz",
@@ -63,11 +62,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.sbYi0LDOMf69NapM]{Ring of Mammal Control}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.IMyGHuVGsbsQNwEP",
@@ -84,11 +82,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.qi3mhFljy8ZwTmLB]{Ring of Protection +1}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.SbZ9N0AeNW5mdoP0",
@@ -105,11 +102,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.cPgdNr4t4JtVvUeX]{Ring of Poison Resistance}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.U9zTtovqp7Fa0v9k",
@@ -126,11 +122,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.GzBQvLAJc0mUZvLB]{Ring of Invisibility}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!qrf5VSUlEf62TqAs.xhGMhdC9pz26pRKo",
@@ -147,11 +142,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.zRufsIVN7Vesp5eX]{Ring of Fire Resistance}</p>"
+      "documentUuid": null
     }
   ]
 }

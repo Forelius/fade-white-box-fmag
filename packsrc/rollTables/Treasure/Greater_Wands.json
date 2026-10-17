@@ -25,7 +25,7 @@
   },
   "flags": {},
   "_stats": {
-    "coreVersion": "12.343",
+    "coreVersion": "14.0.0",
     "systemId": "fantastic-depths"
   },
   "formula": "1d10",
@@ -46,11 +46,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Es8aAzioJ7t3Yjbw]{Wand of Cold}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.53CIC2vKspo9jHbJ",
@@ -67,11 +66,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.Mw9DJc3WEslyMXdn]{Wand of Detection (metal)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.BEDJ9iPzjv8G4mzi",
@@ -88,11 +86,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.j58sqc8qXIfwYqoB]{Wand of Paralyzing}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.IhYt23U1MuB2ZXzY",
@@ -109,11 +106,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.BWweun4eFC7b2kvU]{Wand of Detection (traps and secret doors)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.ImTcUmzphI4Dyc1g",
@@ -130,11 +126,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.jOXYsuMeInO8jY1K]{Wand of Detection (enemies)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.ZyytOHIgkkBptKm2",
@@ -151,11 +146,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.JC4RORUVWqssUtV3]{Greater Wand (Level 3 Spell)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.rHxpqOzmdnEQhBmn",
@@ -172,11 +166,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.wl5fJE9qZdq6pkVm]{Wand of Polymorph}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.u34wAkD8Cdp4Rbfc",
@@ -193,11 +186,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.UGgxjLbSjiBozzuJ]{Greater Wand (Level 4 Spell)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.xDgxeLRgahYRKUIs",
@@ -214,11 +206,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.4URpcJKLbbeBz8Po]{Wand of Detection (magic)}</p>"
+      "documentUuid": null
     },
     {
       "_originalKey": "!tables.results!CHjHRTGJVfLQHvG1.yAn8cIvDUQaefgtF",
@@ -235,11 +226,10 @@
       "drawn": false,
       "flags": {},
       "_stats": {
-        "coreVersion": "12.343",
+        "coreVersion": "14.0.0",
         "systemId": "fantastic-depths"
       },
-      "documentUuid": null,
-      "text": "<p>@UUID[Compendium.fade-white-box-fmag.items.Item.ibktzqARoWJgkLRu]{Wand of Fear}</p>"
+      "documentUuid": null
     }
   ]
 }
